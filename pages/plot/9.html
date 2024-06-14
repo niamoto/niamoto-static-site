@@ -6,12 +6,36 @@
     <title>Niamoto - Parcelle Gohapin</title>
     <link rel="stylesheet" href="../../js/vendor/tailwindcss/2.2.19_dist_tailwind.css">
     <link rel="stylesheet" href="../../js/vendor/leaflet/1.9.4_leaflet.css">
-    <script src="../../js/vendor/chart/4.4.2_chart.js"></script>
-    <script src="../../js/vendor/d3/7.8.5_d3.js"></script>
-    <script src="../../js/vendor/jquery/3.6.0_jquery.js"></script>
-    <script src="../../js/vendor/raphael/2.3.0_raphael.js"></script>
-    <script src="../../js/vendor/justgage/1.6.1_justgage.js"></script>
-    <script src="../../js/vendor/leaflet/1.9.4_leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+<script src="../../js/plot_list.js"></script>
+
+    <style>
+        #plot-list li {
+            list-style: none;
+        }
+
+        .plot-link {
+            display: block;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .plot-link:hover {
+            background-color: #f0f0f0;
+        }
+
+        .plot-link.active {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        #plotMap {
+            position: relative;
+            height: 400px;
+        }
+    </style>
 
     <style>
         .gauge {
@@ -20,15 +44,6 @@
 
         ul {
             list-style-type: none;
-        }
-
-        li {
-            margin-left: 20px;
-        }
-
-        #plotMap {
-            position: relative;
-            height: 400px;
         }
 
         .loader-container {
@@ -63,315 +78,501 @@
     </style>
 </head>
 <body>
-<nav class="bg-gray-800 p-4 fixed w-full z-10 top-0 shadow-md">
-    <div class="container mx-auto flex flex-wrap items-center justify-between">
-        <div class="flex items-center flex-shrink-0 text-white mr-6">
-            <a class="inline-block py-2 px-4 text-white no-underline" href="/niamoto/publish/static_site_generator/static">
-                <span class="font-semibold text-xl tracking-tight">Niamoto</span>
-            </a>
-        </div>
-        <div class="block lg:hidden">
-            <button id="nav-toggle"
+    <nav class="nav-bg p-4 fixed w-full top-0 shadow-md z-50 custom-nav">
+        <div class="container mx-auto flex flex-wrap items-center justify-between">
+            <div class="flex items-center flex-shrink-0 text-white mr-6">
+                <a class="inline-flex items-center py-2 px-4 text-white no-underline" href="../../index.html">
+                    <span class="site-title">Niamoto</span>
+                </a>
+            </div>
+
+            <div class="block lg:hidden">
+                <button id="nav-toggle"
                     class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <title>Menu</title>
-                    <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z"/>
-                </svg>
-            </button>
-        </div>
-        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
-            <ul class="list-reset lg:flex justify-end flex-1 items-center">
-                <li class="mr-3">
-                    <a class="inline-block py-2 px-4 text-white no-underline" href="../../index.html">Home</a>
-                </li>
-                <li class="mr-3">
-                    <a class="inline-block py-2 px-4 text-white no-underline"
-                       href="../methodologie.html">Méthodologie</a>
-                </li>
-                <li class="mr-3">
-                    <a class="inline-block py-2 px-4 text-white no-underline" href="../taxon/1.html">Arbres</a>
-                </li>
-                <li class="mr-3">
-                    <a class="inline-block py-2 px-4 text-white no-underline" href="../plot/1.html">Peuplements</a>
-                </li>
-                <li class="mr-3">
-                    <a class="inline-block py-2 px-4 text-white no-underline" href="../shape/1.html">Forêt</a>
-                </li>
-                <li class="mr-3">
-                    <a class="inline-block py-2 px-4 text-white no-underline" href="../ressources.html">Ressources</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<div class="flex mt-16">
-    <!-- Container for the plot details -->
-    <div class="w-full">
-        <div class="rounded overflow-hidden shadow-lg mb-2">
-            <div class="px-6 py-4">
-                <div class="font-bold text-4xl mb-2">Gohapin</div>
-                <p class="text-gray-700 text-base">
-                    Locality: Gohapin<br>
-                    Substrat: VS
-                </p>
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
+                <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                    <li class="relative group mr-3">
+                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="../../index.html">
+                            <i class="fas fa-home menu-icon"></i>Home
+                        </a>
+                        <ul
+                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../../index.html#introduction">Introduction</a></li>
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../../index.html#project">Project</a></li>
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../../index.html#objective">Objective</a></li>
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../../index.html#context">Context</a></li>
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../../index.html#flora">Flora</a></li>
+                        </ul>
+                    </li>
+                    <li class="relative group mr-3">
+                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="../../methodology.html">
+                            <i class="fas fa-flask menu-icon"></i>Methodology
+                        </a>
+                        <ul
+                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../../methodology.html#preambule">Preamble</a></li>
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../../methodology.html#methodes">Methods</a></li>
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../../methodology.html#faq">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li class="relative group mr-3">
+                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="../taxon/1.html">
+                            <i class="fas fa-leaf menu-icon"></i>Trees
+                        </a>
+                        <ul
+                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../taxon/1.html#preambule">Preamble</a></li>
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../pages/taxon/1.html#learnTaxon">Study Trees</a></li>
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../pages/taxon/1.html#taxon">New Caledonian Trees</a></li>
+                        </ul>
+                    </li>
+                    <li class="relative group mr-3">
+                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="../plot/1.html">
+                            <i class="fas fa-map-marked-alt menu-icon"></i>Populations
+                        </a>
+                        <ul
+                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../plot/1.html#preambule">Preamble</a></li>
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../plot/1.html#learnPlot">Study Populations</a></li>
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../plot/1.html#plot">New Caledonian Populations</a></li>
+                        </ul>
+                    </li>
+                    <li class="relative group mr-3">
+                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="../shape/1.html">
+                            <i class="fas fa-tree menu-icon"></i>Forest
+                        </a>
+                        <ul
+                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../shape/1.html#preambule">Preamble</a></li>
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../shape/1.html#learnForest">Study Forests</a></li>
+                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
+                                    href="../shape/1.html#forestPN">North Province Forest</a></li>
+                        </ul>
+                    </li>
+                    <li class="relative group mr-3">
+                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="../../ressources.html">
+                            <i class="fas fa-book menu-icon"></i>Resources
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
 
-        <div class="flex flex-wrap -mx-2">
-            
+<script>
+  document.getElementById('nav-toggle').onclick = function () {
+    document.getElementById('nav-content').classList.toggle('hidden');
+  }
+</script>
 
-                
+<style>
+        .site-title {
+            font-family: 'Arial Black', sans-serif; /* Custom font for a bold effect */
+            font-size: 2rem; /* Increased font size */
+            text-transform: uppercase; /* Uppercase letters for visibility */
+            letter-spacing: 2px; /* Spacing between letters */
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
+            transition: color 0.3s; /* Smooth transition for hover effect */
+        }
 
-                
+        .site-title:hover {
+            color: #ffdd57; /* Change color on hover */
+        }
 
+        .text-contour {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .nav-bg {
+            background-color: rgba(34, 139, 34, 0.8);
+            /* Fond vert semi-transparent */
+            transition: background-color 0.3s;
+        }
+
+        .nav-bg:hover {
+            background-color: rgba(34, 139, 34, 1);
+            /* Fond vert opaque au survol */
+        }
+
+        .group:hover .group-hover\:block {
+            display: block;
+        }
+
+        .custom-nav {
+            z-index: 500;
+        }
+
+        .custom-dropdown {
+            z-index: 500;
+        }
+
+        .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            /* Fond blanc transparent au survol */
+            border-radius: 4px;
+        }
+
+        .menu-icon {
+            margin-right: 8px;
+        }
+</style>
+    <div class="flex mt-16">
+        
+<aside class="w-1/4 p-4">
+    <h2 class="font-semibold text-lg mb-4">List of Plots</h2>
+    <ul id="plot-list" class="list-disc pl-5">
+        <!-- The list of plots will be generated by JavaScript -->
+    </ul>
+</aside>
+
+        <div class="w-full">
             
-                
-                    
-                <div class="w-full px-2 mb-4">
-                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                        <div class="px-6 pt-4 pb-2">
-                            <div id="plotMap" style="height: 400px; position: relative;">
-                                <div class="loader-container" id="mapLoader">
-                                    <div class="loader"></div>
-                                </div>
-                                <!-- The Leaflet map will be loaded here -->
-                            </div>
-                        </div>
+<div class="rounded overflow-hidden shadow-lg mb-2">
+    <div class="px-6 py-4">
+        <div class="font-bold text-4xl mb-2">Gohapin</div>
+        <p class="text-gray-700 text-base">
+            Locality: Gohapin<br>
+            Substrat: VS
+        </p>
+    </div>
+</div>
+
+<div class="flex flex-wrap -mx-2">
+    
+
+    
+
+    
+
+    
+        
+            
+    <div class="w-full px-2 mb-4">
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            <div class="px-6 pt-4 pb-2">
+                <div id="plotMap" style="height: 400px; position: relative;">
+                    <div class="loader-container" id="mapLoader">
+                        <div class="loader"></div>
                     </div>
+                    <!-- The Leaflet map will be loaded here -->
                 </div>
-                
-                
+            </div>
+        </div>
+    </div>
+    
+        
+    
+        
+            
+    <div class="w-1/2 px-2 mb-4">
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            
             
                 
-                    
-                <div class="w-1/2 px-2 mb-4">
-                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                        
-                        
-                            
-                
-                    <h2 class="font-bold text-xl mb-2">Top Families</h2>
-                
-                
-                    <canvas id="top_familyBarChart"></canvas>
-                
-                
-                        
-                    </div>
-                </div>
+    
+        <h2 class="font-bold text-xl mb-2">Top Families</h2>
+    
+    
+        <canvas id="top_familyBarChart"></canvas>
+    
+    
+            
+        </div>
+    </div>
+    
+        
+    
+        
+            
+    <div class="w-1/2 px-2 mb-4">
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            
             
                 
+    
+        <h2 class="font-bold text-xl mb-2">Top Species</h2>
+    
+    
+        <canvas id="top_speciesBarChart"></canvas>
+    
+    
+            
+        </div>
+    </div>
+    
+        
+    
+        
+            
+    <div class="w-1/2 px-2 mb-4">
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            
+                <h2 class="font-bold text-xl mb-2">Diameter distribution (DBH)</h2>
+                <canvas id="dbhBinChart"></canvas>
+            
+            
+        </div>
+    </div>
+    
+        
+    
+        
+            
+    <div class="w-1/2 px-2 mb-4">
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            
             
                 
-                    
-                <div class="w-1/2 px-2 mb-4">
-                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                        
-                        
-                            
-                
-                    <h2 class="font-bold text-xl mb-2">Top Species</h2>
-                
-                
-                    <canvas id="top_speciesBarChart"></canvas>
-                
-                
-                        
-                    </div>
-                </div>
+    
+        <h2 class="font-bold text-xl mb-2">Maximum height</h2>
+    
+    
+        <div class="gauge" id="heightmeanGauge"></div>
+    
+    
+            
+        </div>
+    </div>
+    
+        
+    
+        
+            
+    <div class="w-1/2 px-2 mb-4">
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            
             
                 
+    
+        <h2 class="font-bold text-xl mb-2">Wood density</h2>
+    
+    
+        <div class="gauge" id="wood_densitymeanGauge"></div>
+    
+    
+            
+        </div>
+    </div>
+    
+        
+    
+        
+            
+    <div class="w-1/2 px-2 mb-4">
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            
+                <h2 class="font-bold text-xl mb-2">Strate</h2>
+                <canvas id="strateBinChart"></canvas>
+            
+            
+        </div>
+    </div>
+    
+        
+    
+        
+            
+    <div class="w-1/2 px-2 mb-4">
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            
             
                 
-                    
-                <div class="w-1/2 px-2 mb-4">
-                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                        
-                            <h2 class="font-bold text-xl mb-2">Diameter distribution (DBH)</h2>
-                            <canvas id="dbhBinChart"></canvas>
-                        
-                        
-                    </div>
-                </div>
+    
+        <h2 class="font-bold text-xl mb-2">Basal area</h2>
+    
+    
+        <div class="gauge" id="basal_areaGauge"></div>
+    
+    
+            
+        </div>
+    </div>
+    
+        
+    
+        
+            
+    <div class="w-1/2 px-2 mb-4">
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            
             
                 
+    
+        <h2 class="font-bold text-xl mb-2">Shannon diversity index</h2>
+    
+    
+        <div class="gauge" id="shannonGauge"></div>
+    
+    
+            
+        </div>
+    </div>
+    
+        
+    
+        
+            
+    <div class="w-1/2 px-2 mb-4">
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            
             
                 
-                    
-                <div class="w-1/2 px-2 mb-4">
-                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                        
-                        
-                            
-                
-                    <h2 class="font-bold text-xl mb-2">Maximum height</h2>
-                
-                
-                    <div class="gauge" id="heightmeanGauge"></div>
-                
-                
-                        
-                    </div>
-                </div>
+    
+        <h2 class="font-bold text-xl mb-2">Pielou evenness index</h2>
+    
+    
+        <div class="gauge" id="pielouGauge"></div>
+    
+    
+            
+        </div>
+    </div>
+    
+        
+    
+        
+            
+    <div class="w-1/2 px-2 mb-4">
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            
             
                 
+    
+        <h2 class="font-bold text-xl mb-2">Simpson diversity index</h2>
+    
+    
+        <div class="gauge" id="simpsonGauge"></div>
+    
+    
+            
+        </div>
+    </div>
+    
+        
+    
+        
+            
+    <div class="w-1/2 px-2 mb-4">
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            
             
                 
-                    
-                <div class="w-1/2 px-2 mb-4">
-                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                        
-                        
-                            
-                
-                    <h2 class="font-bold text-xl mb-2">Wood density</h2>
-                
-                
-                    <div class="gauge" id="wood_densitymeanGauge"></div>
-                
-                
-                        
-                    </div>
-                </div>
+    
+        <h2 class="font-bold text-xl mb-2">Biomass</h2>
+    
+    
+        <div class="gauge" id="biomassGauge"></div>
+    
+    
             
-                
-            
-                
-                    
-                <div class="w-1/2 px-2 mb-4">
-                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                        
-                            <h2 class="font-bold text-xl mb-2">Strate</h2>
-                            <canvas id="strateBinChart"></canvas>
-                        
-                        
-                    </div>
-                </div>
-            
-                
-            
-                
-                    
-                <div class="w-1/2 px-2 mb-4">
-                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                        
-                        
-                            
-                
-                    <h2 class="font-bold text-xl mb-2">Basal area</h2>
-                
-                
-                    <div class="gauge" id="basal_areaGauge"></div>
-                
-                
-                        
-                    </div>
-                </div>
-            
-                
-            
-                
-                    
-                <div class="w-1/2 px-2 mb-4">
-                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                        
-                        
-                            
-                
-                    <h2 class="font-bold text-xl mb-2">Shannon diversity index</h2>
-                
-                
-                    <div class="gauge" id="shannonGauge"></div>
-                
-                
-                        
-                    </div>
-                </div>
-            
-                
-            
-                
-                    
-                <div class="w-1/2 px-2 mb-4">
-                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                        
-                        
-                            
-                
-                    <h2 class="font-bold text-xl mb-2">Pielou evenness index</h2>
-                
-                
-                    <div class="gauge" id="pielouGauge"></div>
-                
-                
-                        
-                    </div>
-                </div>
-            
-                
-            
-                
-                    
-                <div class="w-1/2 px-2 mb-4">
-                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                        
-                        
-                            
-                
-                    <h2 class="font-bold text-xl mb-2">Simpson diversity index</h2>
-                
-                
-                    <div class="gauge" id="simpsonGauge"></div>
-                
-                
-                        
-                    </div>
-                </div>
-            
-                
-            
-                
-                    
-                <div class="w-1/2 px-2 mb-4">
-                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                        
-                        
-                            
-                
-                    <h2 class="font-bold text-xl mb-2">Biomass</h2>
-                
-                
-                    <div class="gauge" id="biomassGauge"></div>
-                
-                
-                        
-                    </div>
-                </div>
-            
-                
-            
+        </div>
+    </div>
+    
+        
+    
+</div>
 
         </div>
     </div>
-</div>
-<footer class="bg-gray-800 text-white p-4 mt-8">
-    <div class="container mx-auto flex flex-wrap items-center justify-between">
-        <div class="flex items-center flex-shrink-0 text-white mr-6">
-            <span class="font-semibold text-sm tracking-tight">Niamoto - Portail de la forêt de Nouvelle-Calédonie</span>
-        </div>
-        <div class="flex items-center">
-            <a class="inline-block py-2 px-4 text-white no-underline" href="https://github.com/niamoto/niamoto" target="_blank">
-                <span class="fab fa-github fa-lg" aria-hidden="true"></span> Github
+    <footer class="bg-green-700 text-white py-8">
+    <div class="container mx-auto">
+        <div class="flex justify-center flex-wrap mb-8">
+            <a class='logo mx-2' href="https://www.province-sud.nc/" target="_blank">
+                <div class="bg-white p-2 rounded-lg shadow-md">
+                    <figure>
+                        <img id="pn" class="img-fluid h-16" src="../../files/ps_100.png">
+                    </figure>
+                </div>
             </a>
+            <a class='logo mx-2' href="https://www.province-nord.nc/" target="_blank">
+                <div class="bg-white p-2 rounded-lg shadow-md">
+                    <figure>
+                        <img id="pn" class="img-fluid h-16" src="../../files/pn_100.png">
+                    </figure>
+                </div>
+            </a>
+            <a class='logo mx-2' href="http://amap.cirad.fr/" target="_blank">
+                <div class="bg-white p-2 rounded-lg shadow-md">
+                    <figure>
+                        <img id="amap" class="img-fluid h-16" src="../../files/amap_100.png">
+                    </figure>
+                </div>
+            </a>
+            <a class='logo mx-2' href="http://publish.plantnet-project.org/project/nou" target="_blank">
+                <div class="bg-white p-2 rounded-lg shadow-md">
+                    <figure>
+                        <img id="herbarium" class="img-fluid h-16" src="../../files/herbarium_100.png">
+                    </figure>
+                </div>
+            </a>
+            <a class='logo mx-2' href="http://iac.nc/" target="_blank">
+                <div class="bg-white p-2 rounded-lg shadow-md">
+                    <figure>
+                        <img id="iac" class="img-fluid h-16" src="../../files/iac_100.png">
+                    </figure>
+                </div>
+            </a>
+            <a class='logo mx-2' href="https://nouvelle-caledonie.ird.fr/" target="_blank">
+                <div class="bg-white p-2 rounded-lg shadow-md">
+                    <figure>
+                        <img id="ird" class="img-fluid h-16" src="../../files/ird_100.png">
+                    </figure>
+                </div>
+            </a>
+            <a class='logo mx-2' href="https://cirad.fr/" target="_blank">
+                <div class="bg-white p-2 rounded-lg shadow-md">
+                    <figure>
+                        <img id="cirad" class="img-fluid h-16" src="../../files/cirad_100.png">
+                    </figure>
+                </div>
+            </a>
+        </div>
+        <div class="flex justify-between items-center">
+            <p class="text-sm">&copy; Niamoto - Portail de la forêt de Nouvelle-Calédonie - AMAP/CIRAD/IRD/IAC</p>
+            <p class="text-sm">
+                <a href='https://github.com/niamoto/niamoto-portal' target="_blank">
+                    <span class="fab fa-github fa-lg" aria-hidden="true"></span> Github
+                </a>
+            </p>
         </div>
     </div>
 </footer>
-<script type="text/javascript">
+    <script src="../../js/vendor/chart/4.4.2_chart.js"></script>
+    <script src="../../js/vendor/d3/7.8.5_d3.js"></script>
+    <script src="../../js/vendor/jquery/3.6.0_jquery.js"></script>
+    <script src="../../js/vendor/raphael/2.3.0_raphael.js"></script>
+    <script src="../../js/vendor/justgage/1.6.1_justgage.js"></script>
+    <script src="../../js/vendor/leaflet/1.9.4_leaflet.js"></script>
+    
+<script>
     var plot = {"basal_area": 39.3, "biomass": 302.333316530379, "frequencies": {"dbh": {"10": 72.81, "100": 0.26, "20": 12.63, "200": 0.13, "30": 6.31, "300": 0.0, "40": 3.87, "400": 0.0, "50": 3.22, "75": 0.77}, "strate": {"1": 5.11, "2": 29.13, "3": 65.77}}, "geometry": {"coordinates": [165.240768432617, -21.2571277618408], "type": "Point"}, "height_mean": 11.15, "id": 9, "id_locality": 230, "locality": "Gohapin", "pielou": 0.61, "plot_area": "{\"type\": \"Point\", \"coordinates\": [165.240768432617, -21.2571277618408]}", "plot_id": 230, "shannon": 2.27, "simpson": 0.77, "substrat": "VS", "top_family": {"Apocynaceae": 44, "Ebenaceae": 51, "Elaeocarpaceae": 41, "Monimiaceae": 42, "Oleaceae": 88, "Proteaceae": 674, "Putranjivaceae": 119, "Rutaceae": 45, "Salicaceae": 372, "Violaceae": 152}, "top_species": {"Diospyros fasciculosa": 48, "Drypetes deplanchei": 119, "Homalium deplanchei": 369, "Hybanthus austrocaledonicus": 73, "Kermadecia sinuata": 64, "Olea paniculata": 87, "Sleumerodendron austrocaledonicum": 92, "Stenocarpus milnei": 138, "Stenocarpus trinervis": 124, "Virotia leptophylla": 81}, "wood_density_mean": 0.65};
     var mapping = {"fields": {"basal_area": {"bins": [], "description": "Basal area of the plot", "field_type": "DOUBLE", "label": "BASAL_AREA", "source": "plots", "source_field": "basal_area", "transformations": [{"chart_options": {"label": "m\u00b2/ha", "max": 100, "title": "Basal area"}, "chart_type": "gauge", "name": null}]}, "biomass": {"bins": [], "description": "Biomass of the plot", "field_type": "DOUBLE", "label": "BIOMASS", "source": "plots", "source_field": "biomass", "transformations": [{"chart_options": {"label": "t/ha", "max": 800, "title": "Biomass"}, "chart_type": "gauge", "name": null}]}, "dbh": {"bins": {"chart_options": {"color": "blue", "title": "Diameter distribution (DBH)"}, "chart_type": "bar", "values": [10, 20, 30, 40, 50, 75, 100, 200, 300, 400, 500]}, "description": "Diameter at Breast Height", "field_type": "DOUBLE", "label": "DBH", "source": "occurrences", "source_field": "dbh", "transformations": []}, "height": {"bins": [], "description": "Height of the tree", "field_type": "DOUBLE", "label": "HEIGHT", "source": "occurrences", "source_field": "height", "transformations": [{"chart_options": {"label": "meters", "max": 40, "title": "Maximum height"}, "chart_type": "gauge", "name": "mean"}]}, "pielou": {"bins": [], "description": "Pielou evenness index", "field_type": "DOUBLE", "label": "PIELOU", "source": "plots", "source_field": "pielou", "transformations": [{"chart_options": {"max": 1, "title": "Pielou evenness index"}, "chart_type": "gauge", "name": null}]}, "plot_area": {"bins": [], "description": "Geographic area of the plot", "field_type": "GEOGRAPHY", "label": "Plot area", "source": "plots", "source_field": "geometry", "transformations": [{"chart_options": {"coordinates_field": "geometry", "title": "Localisation de la parcelle"}, "chart_type": "map", "name": "coordinates"}]}, "shannon": {"bins": [], "description": "Shannon diversity index", "field_type": "DOUBLE", "label": "SHANNON", "source": "plots", "source_field": "shannon", "transformations": [{"chart_options": {"max": 5, "title": "Shannon diversity index"}, "chart_type": "gauge", "name": null}]}, "simpson": {"bins": [], "description": "Simpson diversity index", "field_type": "DOUBLE", "label": "SIMPSON", "source": "plots", "source_field": "simpson", "transformations": [{"chart_options": {"max": 1, "title": "Simpson diversity index"}, "chart_type": "gauge", "name": null}]}, "strate": {"bins": {"chart_options": {"indexAxis": "y", "title": "Strate"}, "chart_type": "bar", "values": [1, 2, 3, 4]}, "description": "Strate of the tree", "field_type": "INTEGER", "label": "STRATE", "source": "occurrences", "source_field": "strate", "transformations": []}, "top_family": {"bins": [], "description": "Top most frequent families", "field_type": "JSON", "label": "Top Families", "source": "occurrences", "source_field": null, "transformations": [{"chart_options": {"title": "Top Families"}, "chart_type": "bar", "count": 10, "name": "top", "target_ranks": ["id_family"]}]}, "top_species": {"bins": [], "description": "Top most frequent species", "field_type": "JSON", "label": "Top Species", "source": "occurrences", "source_field": null, "transformations": [{"chart_options": {"title": "Top Species"}, "chart_type": "bar", "count": 10, "name": "top", "target_ranks": ["id_species", "id_infra"]}]}, "wood_density": {"bins": [], "description": "Wood density", "field_type": "DOUBLE", "label": "WOOD_DENSITY", "source": "occurrences", "source_field": "wood_density", "transformations": [{"chart_options": {"label": "g/cm\u00b3", "max": 1.2, "title": "Wood density"}, "chart_type": "gauge", "name": "mean"}]}}, "group_by": "plot", "identifier": "id_source", "pivot_table_name": "occurrences_plots", "reference_data_path": null, "reference_table_name": "plot_ref", "source_table_name": "occurrences"};
 
     document.addEventListener('DOMContentLoaded', function () {
         loadPlotCharts(plot, mapping);
+        loadPlotList(); // Chargement de la liste des plots
         setTimeout(initPlotMap, 0.5);
     });
 
@@ -442,7 +643,6 @@
                     } else if (transformation.chart_type == 'gauge') {
                         var transformationName = transformation.name ? transformation.name : '';
                         var valueKey = transformation.name ? field_key + '_' + transformationName : field_key;
-                        console.log(plot);
                         var gaugeOptions = {
                             id: field_key + transformationName + 'Gauge',
                             value: parseFloat(plot[valueKey]),
@@ -569,6 +769,19 @@
         } else {
             console.warn("No geographic coordinates found.");
         }
+    }
+
+    function loadPlotList() {
+        var plotListElement = document.getElementById("plot-list");
+        plotList.forEach(function(plotItem) {
+            var li = document.createElement("li");
+            var a = document.createElement("a");
+            a.href = "../plot/" + plotItem.id + ".html";
+            a.textContent = plotItem.name;
+            a.className = "plot-link" + (plotItem.id === plot.id ? " active" : "");
+            li.appendChild(a);
+            plotListElement.appendChild(li);
+        });
     }
 
     // Function to get a color based on the index
