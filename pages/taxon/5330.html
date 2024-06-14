@@ -73,23 +73,27 @@
 <nav class="bg-gray-800 p-4 fixed w-full z-10 top-0 shadow-md">
     <div class="container mx-auto flex flex-wrap items-center justify-between">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
-            <span class="font-semibold text-xl tracking-tight">Niamoto</span>
+            <a class="inline-block py-2 px-4 text-white no-underline" href="/niamoto/publish/static_site_generator/static">
+                <span class="font-semibold text-xl tracking-tight">Niamoto</span>
+            </a>
         </div>
         <div class="block lg:hidden">
-            <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+            <button id="nav-toggle"
+                    class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
                 <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <title>Menu</title>
-                    <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z" />
+                    <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z"/>
                 </svg>
             </button>
         </div>
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
             <ul class="list-reset lg:flex justify-end flex-1 items-center">
                 <li class="mr-3">
-                    <a class="inline-block py-2 px-4 text-white no-underline" href="../../index.html">Accueil</a>
+                    <a class="inline-block py-2 px-4 text-white no-underline" href="../../index.html">Home</a>
                 </li>
                 <li class="mr-3">
-                    <a class="inline-block py-2 px-4 text-white no-underline" href="../methodologie.html">Méthodologie</a>
+                    <a class="inline-block py-2 px-4 text-white no-underline"
+                       href="../methodologie.html">Méthodologie</a>
                 </li>
                 <li class="mr-3">
                     <a class="inline-block py-2 px-4 text-white no-underline" href="../taxon/1.html">Arbres</a>
@@ -125,258 +129,363 @@
 
         <div class="flex flex-wrap -mx-2">
             
-                
-                    <div class="w-1/2 px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                            
 
+            
+
+                
+
+            
+                
+                    
+                <div class="w-1/2 px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        
+                        
                             
-                                
-                                    <div class="w-full">
-                                        <h2 class="font-bold text-xl mb-2">Total occurrences</h2>
-                                        <p id="total_occurrencesText"></p>
-                                    </div>
-                                
-                            
-                        </div>
+                
+                    <h2 class="font-bold text-xl mb-2">Total occurrences</h2>
+                
+                
+                    <div class="w-full">
+                        <p id="total_occurrencesText"></p>
                     </div>
                 
             
+                        
+                    </div>
+                </div>
+            
                 
-                    <div class="w-full px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                            <div class="px-6 pt-4 pb-2">
-                                <div id="taxonMap" style="height: 400px; position: relative;">
-                                    <div class="loader-container" id="mapLoader">
-                                        <div class="loader"></div>
-                                    </div>
-                                    <!-- The Leaflet map will be loaded here -->
-                                </div>
+            
+                
+                    
+            <div class="w-full px-2 mb-4">
+                <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                    <div class="px-6 pt-4 pb-2">
+                        <div id="taxonMap" style="height: 400px; position: relative;">
+                            <div class="loader-container" id="mapLoader">
+                                <div class="loader"></div>
                             </div>
+                            <!-- The Leaflet map will be loaded here -->
                         </div>
                     </div>
+                </div>
+            </div>
+            
                 
             
                 
-                    <div class="w-1/2 px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                    
+                <div class="w-1/2 px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        
+                        
                             
+                
+                    <h2 class="font-bold text-xl mb-2">Top Species</h2>
+                
+                
+                    <canvas id="top_speciesBarChart"></canvas>
+                
+            
+                        
+                    </div>
+                </div>
+            
+                
+            
+                
+                    
+                <div class="w-1/2 px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        
+                        
+                            
+                
+                    <h2 class="font-bold text-xl mb-2">Substrate distribution</h2>
+                
+                
+                    <canvas id="um_occurrencesPieChart"></canvas>
+                
+            
+                        
+                    </div>
+                </div>
+            
+                
+            
+                
+                    
+                <div class="w-1/2 px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        
+                            <h2 class="font-bold text-xl mb-2">Diameter distribution (DBH)</h2>
+                            <canvas id="dbhBinChart"></canvas>
+                        
+                        
+                            
+                
+                
+            
+                        
+                            
+                
+                    <h2 class="font-bold text-xl mb-2">Maximum diameter (DBH)</h2>
+                
+                
+                    <div class="gauge" id="dbhmaxGauge"></div>
+                
+            
+                        
+                            
+                
+                
+            
+                        
+                            
+                
+                
+            
+                        
+                    </div>
+                </div>
+            
+                
+            
+                
+                    
+                <div class="w-1/2 px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        
+                        
+                            
+                
+                    <h2 class="font-bold text-xl mb-2">Maximum height</h2>
+                
+                
+                    <div class="gauge" id="heightmaxGauge"></div>
+                
+            
+                        
+                    </div>
+                </div>
+            
+                
+            
+                
+                    
+                <div class="w-1/2 px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        
+                            <h2 class="font-bold text-xl mb-2">Altitudinal distribution</h2>
+                            <canvas id="elevationBinChart"></canvas>
+                        
+                        
+                    </div>
+                </div>
+            
+                
+            
+                
+                    
+                <div class="w-1/2 px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        
+                            <h2 class="font-bold text-xl mb-2">Rainfall distribution</h2>
+                            <canvas id="rainfallBinChart"></canvas>
+                        
+                        
+                    </div>
+                </div>
+            
+                
+            
+                
+                    
+                <div class="w-1/2 px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        
+                            <h2 class="font-bold text-xl mb-2">Holdridge</h2>
+                            <canvas id="holdridgeBinChart"></canvas>
+                        
+                        
+                    </div>
+                </div>
+            
+                
+            
+                
+                    
+                <div class="w-1/2 px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        
+                            <h2 class="font-bold text-xl mb-2">Strate</h2>
+                            <canvas id="strateBinChart"></canvas>
+                        
+                        
+                    </div>
+                </div>
+            
+                
+            
+                
+                    
+                <div class="w-1/2 px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        
+                        
+                            
+                
+                    <h2 class="font-bold text-xl mb-2">Wood density</h2>
+                
+                
+                    <div class="gauge" id="wood_densitymeanGauge"></div>
+                
+            
+                        
+                            
+                
+                
+            
+                        
+                            
+                
+                
+            
+                        
+                    </div>
+                </div>
+            
+                
+            
+                
+                    
+                <div class="w-1/2 px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        
+                        
+                            
+                
+                    <h2 class="font-bold text-xl mb-2">Bark thickness</h2>
+                
+                
+                    <div class="gauge" id="bark_thicknessmeanGauge"></div>
+                
+            
+                        
+                            
+                
+                
+            
+                        
+                            
+                
+                
+            
+                        
+                    </div>
+                </div>
+            
+                
+            
+                
+                    
+                <div class="w-1/2 px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        
+                        
+                            
+                
+                    <h2 class="font-bold text-xl mb-2">Specific leaf area</h2>
+                
+                
+                    <div class="gauge" id="leaf_slameanGauge"></div>
+                
+            
+                        
+                            
+                
+                
+            
+                        
+                            
+                
+                
+            
+                        
+                    </div>
+                </div>
+            
+                
+            
+                
+                    
+                <div class="w-1/2 px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        
+                        
+                            
+                
+                    <h2 class="font-bold text-xl mb-2">Leaf area</h2>
+                
+                
+                    <div class="gauge" id="leaf_areameanGauge"></div>
+                
+            
+                        
+                            
+                
+                
+            
+                        
+                            
+                
+                
+            
+                        
+                    </div>
+                </div>
+            
+                
+            
+                
+                    
+                <div class="w-1/2 px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        
+                        
+                            
+                
+                    <h2 class="font-bold text-xl mb-2">Leaf thickness</h2>
+                
+                
+                    <div class="gauge" id="leaf_thicknessmeanGauge"></div>
+                
+            
+                        
+                            
+                
+                
+            
+                        
+                            
+                
+                
+            
+                        
+                    </div>
+                </div>
+            
+                
+            
 
-                            
-                                
-                            
-                        </div>
-                    </div>
-                
-            
-                
-                    <div class="w-1/2 px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                            
-
-                            
-                                
-                                    <h2 class="font-bold text-xl mb-2">Substrate distribution</h2>
-                                    <canvas id="um_occurrencesPieChart"></canvas>
-                                
-                            
-                        </div>
-                    </div>
-                
-            
-                
-                    <div class="w-1/2 px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                            
-                                <h2 class="font-bold text-xl mb-2">Diameter distribution (DBH)</h2>
-                                <canvas id="dbhBinChart"></canvas>
-                            
-
-                            
-                                
-                            
-                                
-                                    <h2 class="font-bold text-xl mb-2">Maximum diameter (DBH)</h2>
-                                    <div class="gauge" id="dbhmaxGauge"></div>
-                                
-                            
-                                
-                            
-                                
-                            
-                        </div>
-                    </div>
-                
-            
-                
-                    <div class="w-1/2 px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                            
-
-                            
-                                
-                                    <h2 class="font-bold text-xl mb-2">Maximum height</h2>
-                                    <div class="gauge" id="heightmaxGauge"></div>
-                                
-                            
-                        </div>
-                    </div>
-                
-            
-                
-                    <div class="w-1/2 px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                            
-                                <h2 class="font-bold text-xl mb-2">Altitudinal distribution</h2>
-                                <canvas id="elevationBinChart"></canvas>
-                            
-
-                            
-                        </div>
-                    </div>
-                
-            
-                
-                    <div class="w-1/2 px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                            
-                                <h2 class="font-bold text-xl mb-2">Rainfall distribution</h2>
-                                <canvas id="rainfallBinChart"></canvas>
-                            
-
-                            
-                        </div>
-                    </div>
-                
-            
-                
-                    <div class="w-1/2 px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                            
-                                <h2 class="font-bold text-xl mb-2">Holdridge</h2>
-                                <canvas id="holdridgeBinChart"></canvas>
-                            
-
-                            
-                        </div>
-                    </div>
-                
-            
-                
-                    <div class="w-1/2 px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                            
-                                <h2 class="font-bold text-xl mb-2">Strate</h2>
-                                <canvas id="strateBinChart"></canvas>
-                            
-
-                            
-                        </div>
-                    </div>
-                
-            
-                
-                    <div class="w-1/2 px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                            
-
-                            
-                                
-                                    <h2 class="font-bold text-xl mb-2">Wood density</h2>
-                                    <div class="gauge" id="wood_densitymeanGauge"></div>
-                                
-                            
-                                
-                            
-                                
-                            
-                        </div>
-                    </div>
-                
-            
-                
-                    <div class="w-1/2 px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                            
-
-                            
-                                
-                                    <h2 class="font-bold text-xl mb-2">Bark thickness</h2>
-                                    <div class="gauge" id="bark_thicknessmeanGauge"></div>
-                                
-                            
-                                
-                            
-                                
-                            
-                        </div>
-                    </div>
-                
-            
-                
-                    <div class="w-1/2 px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                            
-
-                            
-                                
-                                    <h2 class="font-bold text-xl mb-2">Specific leaf area</h2>
-                                    <div class="gauge" id="leaf_slameanGauge"></div>
-                                
-                            
-                                
-                            
-                                
-                            
-                        </div>
-                    </div>
-                
-            
-                
-                    <div class="w-1/2 px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                            
-
-                            
-                                
-                                    <h2 class="font-bold text-xl mb-2">Leaf area</h2>
-                                    <div class="gauge" id="leaf_areameanGauge"></div>
-                                
-                            
-                                
-                            
-                                
-                            
-                        </div>
-                    </div>
-                
-            
-                
-                    <div class="w-1/2 px-2 mb-4">
-                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
-                            
-
-                            
-                                
-                                    <h2 class="font-bold text-xl mb-2">Leaf thickness</h2>
-                                    <div class="gauge" id="leaf_thicknessmeanGauge"></div>
-                                
-                            
-                                
-                            
-                                
-                            
-                        </div>
-                    </div>
-                
-            
         </div>
     </div>
 </div>
 <footer class="bg-gray-800 text-white p-4 mt-8">
     <div class="container mx-auto flex flex-wrap items-center justify-between">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
-            <span class="font-semibold text-sm tracking-tight">Niamoto - Portail de la forêt de Nouvelle-Calédonie en Province Nord</span>
+            <span class="font-semibold text-sm tracking-tight">Niamoto - Portail de la forêt de Nouvelle-Calédonie</span>
         </div>
         <div class="flex items-center">
             <a class="inline-block py-2 px-4 text-white no-underline" href="https://github.com/niamoto/niamoto" target="_blank">
