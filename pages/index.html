@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Niamoto - Portail de la forêt de Nouvelle-Calédonie</title>
+    <link rel="stylesheet" href="js/vendor/tailwindcss/2.2.19_dist_tailwind.css">
+    <link rel="stylesheet" href="js/vendor/leaflet/1.9.4_leaflet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    
     <style>
         .bgimg-home {
-            background-image: url('files/home_background.jpg');
+            background-image: url('../files/home_background.jpg');
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -25,161 +26,213 @@
             background: rgba(0, 0, 0, 0.4);
             z-index: 1;
         }
+    </style>
 
-        .site-title {
-            font-family: 'Arial Black', sans-serif;
-            font-size: 2rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
-            transition: color 0.3s;
+    <style>
+        .gauge {
+            height: 349px;
         }
 
-        .site-title:hover {
-            color: #ffdd57;
+        ul {
+            list-style-type: none;
         }
 
-        .text-contour {
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        .loader-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
-        .nav-bg {
-            background-color: rgba(34, 139, 34, 0.8);
-            /* Fond vert semi-transparent */
-            transition: background-color 0.3s;
+        .loader {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
         }
 
-        .nav-bg:hover {
-            background-color: rgba(34, 139, 34, 1);
-            /* Fond vert opaque au survol */
-        }
-
-        .group:hover .group-hover\:block {
-            display: block;
-        }
-
-        .custom-nav {
-            z-index: 500;
-        }
-
-        .custom-dropdown {
-            z-index: 500;
-        }
-
-        .nav-link:hover {
-            background-color: rgba(255, 255, 255, 0.2);
-            /* Fond blanc transparent au survol */
-            border-radius: 4px;
-        }
-
-        .menu-icon {
-            margin-right: 8px;
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
         }
     </style>
 </head>
-
 <body>
     <nav class="nav-bg p-4 fixed w-full top-0 shadow-md z-50 custom-nav">
-        <div class="container mx-auto flex flex-wrap items-center justify-between">
-            <div class="flex items-center flex-shrink-0 text-white mr-6">
-                <a class="inline-flex items-center py-2 px-4 text-white no-underline" href="./index.html">
-                    <span class="site-title">Niamoto</span>
-                </a>
-            </div>
-            <div class="block lg:hidden">
-                <button id="nav-toggle"
-                    class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <title>Menu</title>
-                        <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z" />
-                    </svg>
-                </button>
-            </div>
-            <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
-                <ul class="list-reset lg:flex justify-end flex-1 items-center">
-                    <li class="relative group mr-3">
-                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="./index.html">
-                            <i class="fas fa-home menu-icon"></i>Home
-                        </a>
-                        <ul
-                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./index.html#introduction">Introduction</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./index.html#project">Project</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./index.html#objective">Objective</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./index.html#context">Context</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./index.html#flora">Flora</a></li>
-                        </ul>
-                    </li>
-                    <li class="relative group mr-3">
-                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="./methodology.html">
-                            <i class="fas fa-flask menu-icon"></i>Methodology
-                        </a>
-                        <ul
-                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./methodology.html#preambule">Preamble</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./methodology.html#methodes">Methods</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./methodology.html#faq">FAQ</a></li>
-                        </ul>
-                    </li>
-                    <li class="relative group mr-3">
-                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="./pages/taxon/1.html">
-                            <i class="fas fa-leaf menu-icon"></i>Trees
-                        </a>
-                        <ul
-                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./pages/taxon/1.html#preambule">Preamble</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./pages/taxon/1.html#learnTaxon">Study Trees</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./pages/taxon/1.html#taxon">New Caledonian Trees</a></li>
-                        </ul>
-                    </li>
-                    <li class="relative group mr-3">
-                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="./pages/plot/1.html">
-                            <i class="fas fa-map-marked-alt menu-icon"></i>Populations
-                        </a>
-                        <ul
-                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./pages/plot/1.html#preambule">Preamble</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./pages/plot/1.html#learnPlot">Study Populations</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./pages/plot/1.html#plot">New Caledonian Populations</a></li>
-                        </ul>
-                    </li>
-                    <li class="relative group mr-3">
-                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="./construction.html">
-                            <i class="fas fa-tree menu-icon"></i>Forest
-                        </a>
-                        <ul
-                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./construction.html#preambule">Preamble</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./construction.html#learnForest">Study Forests</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./construction.html#forestPN">North Province Forest</a></li>
-                        </ul>
-                    </li>
-                    <li class="relative group mr-3">
-                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="./ressources.html">
-                            <i class="fas fa-book menu-icon"></i>Resources
-                        </a>
-                    </li>
-                </ul>
-            </div>
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <a id="home-link" class="inline-flex items-center py-2 px-4 text-white no-underline" href="#">
+                <span class="site-title">Niamoto</span>
+            </a>
         </div>
-    </nav>
+
+        <div class="block lg:hidden">
+            <button id="nav-toggle"
+                class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
+            <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="index.html">
+                        <i class="fas fa-home menu-icon"></i>Accueil
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#introduction">Introduction</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#project">Projet</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#objective">Objectifs</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#context">Contexte</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#flora">Flore</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="methodology.html">
+                        <i class="fas fa-flask menu-icon"></i>Méthodologie
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#methodes">Nos méthodes</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#faq">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="taxon/1.html">
+                        <i class="fas fa-leaf menu-icon"></i>Arbres
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#learnTaxon">Étudier les
+                arbres</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#taxon">Les arbres de
+                Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="plot/1.html">
+                        <i class="fas fa-map-marked-alt menu-icon"></i>Peuplements
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#learnPlot">Étudier les
+                            peuplements forestiers</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#plot">Les
+                peuplements forestiers de Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="construction.html">
+                        <i class="fas fa-tree menu-icon"></i>Forêt
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#learnForest">Étudier les
+                forêts</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#forestPN">La forêt de la
+                province Nord</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#forestPN">La forêt de la
+                province Sud</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="resources.html">
+                        <i class="fas fa-book menu-icon"></i>Ressources
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#equipe">L'équipe</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#article">Articles</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#academic">Académique</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#media-production">Médias</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script>
+  document.getElementById('nav-toggle').onclick = function () {
+    document.getElementById('nav-content').classList.toggle('hidden');
+  };
+
+  // Function to adjust the navigation links based on page depth
+  function adjustNavLinks(depth) {
+    document.querySelectorAll('a[data-link]').forEach(link => {
+      link.href = depth + link.getAttribute('data-link');
+    });
+  }
+
+  // Adjust the navigation links based on the depth
+  adjustNavLinks("");
+</script>
+
+<style>
+    .site-title {
+        font-family: 'Arial Black', sans-serif; /* Custom font for a bold effect */
+        font-size: 2rem; /* Increased font size */
+        text-transform: uppercase; /* Uppercase letters for visibility */
+        letter-spacing: 2px; /* Spacing between letters */
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
+        transition: color 0.3s; /* Smooth transition for hover effect */
+    }
+
+    .site-title:hover {
+        color: #ffdd57; /* Change color on hover */
+    }
+
+    .text-contour {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-bg {
+        background-color: rgba(34, 139, 34, 0.8); /* Fond vert semi-transparent */
+        transition: background-color 0.3s;
+    }
+
+    .nav-bg:hover {
+        background-color: rgba(34, 139, 34, 1); /* Fond vert opaque au survol */
+    }
+
+    .group:hover .group-hover\:block {
+        display: block;
+    }
+
+    .custom-nav {
+        z-index: 500;
+    }
+
+    .custom-dropdown {
+        z-index: 500;
+    }
+
+    .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.2); /* Fond blanc transparent au survol */
+        border-radius: 4px;
+    }
+
+    .menu-icon {
+        margin-right: 8px;
+    }
+</style>
+    <div class="flex">
+        
+        
+        <div class="w-full">
+            
 
     <div>
         <section id="home" class="bgimg-home flex items-center justify-center relative">
@@ -192,13 +245,13 @@
             </div>
             <div class="absolute bottom-2 w-full flex justify-center z-10">
                 <div class="bg-white p-2 rounded-lg shadow-md flex justify-center">
-                    <figure class="mx-2"><img class="img-fluid" id="pn" src="files/ps_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" id="pn" src="files/pn_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" id="amap" src="files/amap_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" id="herbarium" src="files/herbarium_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" id="iac" src="files/iac_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" id="ird" src="files/ird_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" id="cirad" src="files/cirad_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" id="pn" src="../files/ps_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" id="pn" src="../files/pn_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" id="amap" src="../files/amap_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" id="herbarium" src="../files/herbarium_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" id="iac" src="../files/iac_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" id="ird" src="../files/ird_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" id="cirad" src="../files/cirad_100.png"></figure>
                 </div>
             </div>
         </section>
@@ -220,7 +273,7 @@
             <div class="container mx-auto max-w-4xl px-4">
                 <h2 class="text-3xl font-bold mb-4">Le projet Niamoto</h2>
                 <figure class="mx-auto mb-4">
-                    <img class="img-fluid" id="livre_pn" src="files/bouquin.png">
+                    <img class="img-fluid" id="livre_pn" src="../files/bouquin.png">
                 </figure>
                 <p class="mb-4">Depuis 2012 la province Nord, et plus précisément le SIEC-DDEE (service impact environnement et conservation de la direction du développement économique et de l’environnement) a établi un partenariat avec l’antenne calédonienne de l’unité mixte de recherche AMAP (botAnique et Modélisation de l'Architecture des Plantes et des végétations). Ce partenariat a été scellé par la signature de 3 conventions mais surtout par un dialogue permanent entre les gestionnaires et les chercheurs. Les questions de recherche sont établies en concertation avec les besoins de la collectivité et la collectivité se nourrit des résultats de la recherche pour asseoir rigoureusement les mesures de conservation. Les travaux de recherche issus de ce partenariat ont donné lieu à de nombreuses publications scientifiques <a href="http://localhost:8000/ressources/#support"><i class="far fa-arrow-alt-circle-right"></i></a>, qui garantissent la robustesse des travaux mais ces productions ne sont pas toujours accessibles pour un public non averti.</p>
                 <p>Au-delà de cette production scientifique, le projet Niamoto se lance le défi de traduire les conclusions des travaux de recherches en termes plus accessibles pour favoriser la transmission de l'information. Cet exercice est complexe puisqu'il faut tordre les concepts de la réflexion scientifique pour leur donner un sens accessible au citoyen mais il est riche car il nous impose de démontrer que nos travaux s'inscrivent dans les préoccupations sociétales. Après un livre illustré qui explique le sens de nos recherche, le projet Niamoto propose au travers de ce site internet de découvrir les questions, les méthodes et les données à partir desquelles la science tente de comprendre le fonctionnement des arbres et de la forêt.</p>
@@ -239,7 +292,7 @@
             <div class="container mx-auto max-w-4xl px-4">
                 <h2 class="text-3xl font-bold mb-4">Le contexte</h2>
                 <figure class="mx-auto mb-4">
-                    <img class="img-fluid" id="map_pacific" src="files/carte_pacifique.png" alt="carte du pacifique">
+                    <img class="img-fluid" id="map_pacific" src="../files/carte_pacifique.png" alt="carte du pacifique">
                 </figure>
                 <p class="mb-4">La Nouvelle-Calédonie est une collectivité française d'outre-mer. Il s'agit d'un archipel constitué de près de 1900 îles et îlots répartis dans l'océan Pacifique, à une latitude inter-tropicale (19-22°S), un peu au nord du Tropique du Capricorne. Sa superficie est de 18 576 km². Cet archipel est peuplé de près de 271 000 habitants. L'archipel néo-calédonien comprend une île principale, la Grande Terre d’une superficie d'environ 16 000 km² divisée administrativement en province Nord et province Sud. A l’est se situent les îles loyautés (Ouvéa, Lifou, Tiga et Maré) dont la superficie cumulée approche les 2 000 km² et constitue la province des îles.</p>
 
@@ -257,7 +310,7 @@
                 <p class="mb-4">La flore indigène de Nouvelle-Calédonie est un réservoir unique de la biodiversité mondiale. Elle abrite 3 641 taxons correspondant à 3 409 espèces, 816 genres et 213 familles de plantes vasculaires. Le taux d’endémisme atteint plus de 75,5 % ce qui représente 1 % des taxons endémiques du monde, dont 3 familles, 96 genres et 2 555 espèces endémiques. (Extrait de <a href="http://publish.plantnet-project.org/project/florical_fr" target="_blank" class="underline">Florical</a>, juin 2020).</p>
                 <div class="row mb-4">
                     <figure class="mx-auto">
-                        <img class="img-fluid" src="files/home_tableau.png" alt="Tableau de la flore">
+                        <img class="img-fluid" src="../files/home_tableau.png" alt="Tableau de la flore">
                     </figure>
                 </div>
                 <p class="mb-4">Au niveau générique, cette flore a une forte affinité avec la flore Australienne (&gt; 25 %), Indomalaise (&gt; 13 %) ou encore avec la flore de Nouvelle Guinée (17 %). Néanmoins, elle présente de nombreuses singularités qui attisent la curiosité des botanistes du monde entier :</p>
@@ -267,11 +320,11 @@
                     </ul>
                 <div class="row mb-4">
                     <div class="flex justify-center">
-                        <img id="Zygogynum_mackeei" class="img-fluid rounded mx-2" src="files/Zygogynum_mackeei.png" alt="Zygogynum mackeei" title="Zygogynum mackeei">
-                        <img class="img-fluid rounded mx-2" src="files/Amborella_trichopoda.png" title="Amborella trichopoda" alt="Amborella trichopoda">
-                        <img class="img-fluid rounded mx-2" src="files/Cryptocarya_barrabea.png" title="Cryptocarya barrabea" alt="Cryptocarya barrabea">
-                        <img class="img-fluid rounded mx-2" src="files/Hedycarya_rivularis.png" title="Hedycarya rivularis" alt="Hedycarya rivularis">
-                        <img class="img-fluid rounded mx-2" id="Stenocarpus_trinervis" src="files/Stenocarpus_trinervis.png" title="Stenocarpus trinervis" alt="Stenocarpus trinervis">
+                        <img id="Zygogynum_mackeei" class="img-fluid rounded mx-2" src="../files/Zygogynum_mackeei.png" alt="Zygogynum mackeei" title="Zygogynum mackeei">
+                        <img class="img-fluid rounded mx-2" src="../files/Amborella_trichopoda.png" title="Amborella trichopoda" alt="Amborella trichopoda">
+                        <img class="img-fluid rounded mx-2" src="../files/Cryptocarya_barrabea.png" title="Cryptocarya barrabea" alt="Cryptocarya barrabea">
+                        <img class="img-fluid rounded mx-2" src="../files/Hedycarya_rivularis.png" title="Hedycarya rivularis" alt="Hedycarya rivularis">
+                        <img class="img-fluid rounded mx-2" id="Stenocarpus_trinervis" src="../files/Stenocarpus_trinervis.png" title="Stenocarpus trinervis" alt="Stenocarpus trinervis">
                     </div>
                 </div>
                 <ul class="list-disc pl-5 mb-4">
@@ -279,7 +332,7 @@
                 </ul>
                 <div class="row">
                     <div class="flex justify-center">
-                        <img class="img-fluid" id="Parasitaxus_usta" src="files/Parasitaxus_usta.png" alt="Parasitaxus usta" title="Parasitaxus usta">
+                        <img class="img-fluid" id="Parasitaxus_usta" src="../files/Parasitaxus_usta.png" alt="Parasitaxus usta" title="Parasitaxus usta">
                     </div>
                 </div>
             </div>
@@ -289,27 +342,30 @@
             <div class="container mx-auto max-w-4xl px-4">
                 <h2 class="text-3xl font-bold mb-4">Ressources</h2>
                 <ul class="list-disc pl-5">
-                    <li class="mb-2"><a href="./pages/methodologie.html" class="underline">Méthodologie</a></li>
-                    <li class="mb-2"><a href="./pages/taxon/1.html" class="underline">Arbres</a></li>
-                    <li class="mb-2"><a href="./pages/plot/1.html" class="underline">Peuplements</a></li>
-                    <li class="mb-2"><a href="./construction.html" class="underline">Forêts</a></li>
-                    <li class="mb-2"><a href="./pages/ressources.html" class="underline">Ressources</a></li>
+                    <li class="mb-2"><a href="/methodologie.html" class="underline">Méthodologie</a></li>
+                    <li class="mb-2"><a href="/taxon/1.html" class="underline">Arbres</a></li>
+                    <li class="mb-2"><a href="/plot/1.html" class="underline">Peuplements</a></li>
+                    <li class="mb-2"><a href="/construction.html" class="underline">Forêts</a></li>
+                    <li class="mb-2"><a href="/ressources.html" class="underline">Ressources</a></li>
                 </ul>
             </div>
         </section>
     </div>
 
+
+        </div>
+    </div>
     <footer class="bg-green-700 text-white p-4 mt-8">
         <div class="container mx-auto">
             <div class="flex justify-center mb-4">
                 <div class="bg-white p-2 rounded-lg shadow-md flex justify-center">
-                    <figure class="mx-2"><img class="img-fluid" src="files/ps_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" src="files/pn_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" src="files/amap_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" src="files/herbarium_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" src="files/iac_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" src="files/ird_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" src="files/cirad_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/ps_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/pn_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/amap_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/herbarium_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/iac_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/ird_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/cirad_100.png"></figure>
                 </div>
             </div>
             <div class="text-center">
@@ -320,12 +376,13 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        document.getElementById('nav-toggle').onclick = function () {
-            document.getElementById('nav-content').classList.toggle('hidden');
-        }
-    </script>
+    <script src="js/vendor/chart/4.4.2_chart.js"></script>
+    <script src="js/vendor/d3/7.8.5_d3.js"></script>
+    <script src="js/vendor/jquery/3.6.0_jquery.js"></script>
+    <script src="js/vendor/raphael/2.3.0_raphael.js"></script>
+    <script src="js/vendor/justgage/1.6.1_justgage.js"></script>
+    <script src="js/vendor/leaflet/1.9.4_leaflet.js"></script>
+    
+    
 </body>
-
 </html>

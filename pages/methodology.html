@@ -1,184 +1,230 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Niamoto - Portail de la forêt de Nouvelle-Calédonie</title>
+    <link rel="stylesheet" href="js/vendor/tailwindcss/2.2.19_dist_tailwind.css">
+    <link rel="stylesheet" href="js/vendor/leaflet/1.9.4_leaflet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    
     <style>
-        .text-contour {
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-        }
-
-        .site-title {
-            font-family: 'Arial Black', sans-serif; /* Custom font for a bold effect */
-            font-size: 2rem; /* Increased font size */
-            text-transform: uppercase; /* Uppercase letters for visibility */
-            letter-spacing: 2px; /* Spacing between letters */
-            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
-            transition: color 0.3s; /* Smooth transition for hover effect */
-        }
-
-        .site-title:hover {
-            color: #ffdd57; /* Change color on hover */
-        }
-
-        .group:hover .group-hover\:block {
-            display: block;
-        }
-
-        .nav-bg {
-            background-color: rgba(34, 139, 34, 0.8);
-            /* Fond vert semi-transparent */
-            transition: background-color 0.3s;
-        }
-
-        .nav-bg:hover {
-            background-color: rgba(34, 139, 34, 1);
-            /* Fond vert opaque au survol */
-        }
-
-        .group:hover .group-hover\:block {
-            display: block;
-        }
-
-        .custom-nav {
-            z-index: 500;
-        }
-
-        .custom-dropdown {
-            z-index: 500;
-        }
-
-        .nav-link:hover {
-            background-color: rgba(255, 255, 255, 0.2);
-            /* Fond blanc transparent au survol */
-            border-radius: 4px;
-        }
-
-        .menu-icon {
-            margin-right: 8px;
-        }
         .faq-header:hover {
             background-color: #e2e8f0; /* Tailwind gray-200 hover color */
         }
     </style>
     <script>
-        document.getElementById('nav-toggle').onclick = function () {
-            document.getElementById('nav-content').classList.toggle('hidden');
-
-        }
         function toggleFaq(id) {
                 var content = document.getElementById(id);
                 content.classList.toggle('hidden');
             }
     </script>
-</head>
 
-<body class="bg-gray-100">
+    <style>
+        .gauge {
+            height: 349px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .loader-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loader {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
     <nav class="nav-bg p-4 fixed w-full top-0 shadow-md z-50 custom-nav">
-        <div class="container mx-auto flex flex-wrap items-center justify-between">
-            <div class="flex items-center flex-shrink-0 text-white mr-6">
-                <a class="inline-flex items-center py-2 px-4 text-white no-underline" href="./index.html">
-                    <span class="site-title">Niamoto</span>
-                </a>
-            </div>
-            <div class="block lg:hidden">
-                <button id="nav-toggle"
-                    class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <title>Menu</title>
-                        <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z" />
-                    </svg>
-                </button>
-            </div>
-            <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
-                <ul class="list-reset lg:flex justify-end flex-1 items-center">
-                    <li class="relative group mr-3">
-                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="./index.html">
-                            <i class="fas fa-home menu-icon"></i>Home
-                        </a>
-                        <ul
-                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./index.html#introduction">Introduction</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./index.html#project">Project</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./index.html#objective">Objective</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./index.html#context">Context</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./index.html#flora">Flora</a></li>
-                        </ul>
-                    </li>
-                    <li class="relative group mr-3">
-                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="./methodology.html">
-                            <i class="fas fa-flask menu-icon"></i>Methodology
-                        </a>
-                        <ul
-                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./methodology.html#preambule">Preamble</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./methodology.html#methodes">Methods</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./methodology.html#faq">FAQ</a></li>
-                        </ul>
-                    </li>
-                    <li class="relative group mr-3">
-                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="./pages/taxon/1.html">
-                            <i class="fas fa-leaf menu-icon"></i>Trees
-                        </a>
-                        <ul
-                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./pages/taxon/1.html#preambule">Preamble</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./pages/taxon/1.html#learnTaxon">Study Trees</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./pages/taxon/1.html#taxon">New Caledonian Trees</a></li>
-                        </ul>
-                    </li>
-                    <li class="relative group mr-3">
-                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="./pages/plot/1.html">
-                            <i class="fas fa-map-marked-alt menu-icon"></i>Populations
-                        </a>
-                        <ul
-                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./pages/plot/1.html#preambule">Preamble</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./pages/plot/1.html#learnPlot">Study Populations</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./pages/plot/1.html#plot">New Caledonian Populations</a></li>
-                        </ul>
-                    </li>
-                    <li class="relative group mr-3">
-                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="./construction.html">
-                            <i class="fas fa-tree menu-icon"></i>Forest
-                        </a>
-                        <ul
-                            class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./construction.html#preambule">Preamble</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./construction.html#learnForest">Study Forests</a></li>
-                            <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100"
-                                    href="./construction.html#forestPN">North Province Forest</a></li>
-                        </ul>
-                    </li>
-                    <li class="relative group mr-3">
-                        <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="./ressources.html">
-                            <i class="fas fa-book menu-icon"></i>Resources
-                        </a>
-                    </li>
-                </ul>
-            </div>
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <a id="home-link" class="inline-flex items-center py-2 px-4 text-white no-underline" href="#">
+                <span class="site-title">Niamoto</span>
+            </a>
         </div>
-    </nav>
+
+        <div class="block lg:hidden">
+            <button id="nav-toggle"
+                class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
+            <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="index.html">
+                        <i class="fas fa-home menu-icon"></i>Accueil
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#introduction">Introduction</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#project">Projet</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#objective">Objectifs</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#context">Contexte</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#flora">Flore</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="methodology.html">
+                        <i class="fas fa-flask menu-icon"></i>Méthodologie
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#methodes">Nos méthodes</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#faq">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="taxon/1.html">
+                        <i class="fas fa-leaf menu-icon"></i>Arbres
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#learnTaxon">Étudier les
+                arbres</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#taxon">Les arbres de
+                Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="plot/1.html">
+                        <i class="fas fa-map-marked-alt menu-icon"></i>Peuplements
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#learnPlot">Étudier les
+                            peuplements forestiers</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#plot">Les
+                peuplements forestiers de Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="construction.html">
+                        <i class="fas fa-tree menu-icon"></i>Forêt
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#learnForest">Étudier les
+                forêts</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#forestPN">La forêt de la
+                province Nord</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="construction.html#forestPN">La forêt de la
+                province Sud</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="resources.html">
+                        <i class="fas fa-book menu-icon"></i>Ressources
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#equipe">L'équipe</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#article">Articles</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#academic">Académique</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#media-production">Médias</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script>
+  document.getElementById('nav-toggle').onclick = function () {
+    document.getElementById('nav-content').classList.toggle('hidden');
+  };
+
+  // Function to adjust the navigation links based on page depth
+  function adjustNavLinks(depth) {
+    document.querySelectorAll('a[data-link]').forEach(link => {
+      link.href = depth + link.getAttribute('data-link');
+    });
+  }
+
+  // Adjust the navigation links based on the depth
+  adjustNavLinks("");
+</script>
+
+<style>
+    .site-title {
+        font-family: 'Arial Black', sans-serif; /* Custom font for a bold effect */
+        font-size: 2rem; /* Increased font size */
+        text-transform: uppercase; /* Uppercase letters for visibility */
+        letter-spacing: 2px; /* Spacing between letters */
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
+        transition: color 0.3s; /* Smooth transition for hover effect */
+    }
+
+    .site-title:hover {
+        color: #ffdd57; /* Change color on hover */
+    }
+
+    .text-contour {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-bg {
+        background-color: rgba(34, 139, 34, 0.8); /* Fond vert semi-transparent */
+        transition: background-color 0.3s;
+    }
+
+    .nav-bg:hover {
+        background-color: rgba(34, 139, 34, 1); /* Fond vert opaque au survol */
+    }
+
+    .group:hover .group-hover\:block {
+        display: block;
+    }
+
+    .custom-nav {
+        z-index: 500;
+    }
+
+    .custom-dropdown {
+        z-index: 500;
+    }
+
+    .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.2); /* Fond blanc transparent au survol */
+        border-radius: 4px;
+    }
+
+    .menu-icon {
+        margin-right: 8px;
+    }
+</style>
+    <div class="flex">
+        
+        
+        <div class="w-full">
+            
 
     <div class="container mx-auto mt-20 py-4 max-w-4xl">
         <h2 class="text-3xl font-semibold mb-4">Méthodologie</h2>
@@ -202,14 +248,14 @@
             <h5 class="text-xl font-semibold mb-2">Taxonomie et identification</h5>
             <p class="mb-4">La taxonomie est une classification du monde vivant basée sur des critères de similitude qui a pour objet de décrire les organismes et de les regrouper. Initialement basée sur la comparaison morphologique, elle s‘appuie désormais sur la biologie moléculaire et tous les outils issus de la génétique.</p>
             <figure class="mb-4">
-                <img class="img-fluid mx-auto d-block" id="diagram" src="files/img/methodes/Picture1.png" alt="Diagram">
+                <img class="img-fluid mx-auto d-block" id="diagram" src="../files/img/methodes/Picture1.png" alt="Diagram">
             </figure>
             <p class="mb-4">La taxonomie prend une place fondamentale dans nos recherches. La délimitation des espèces, et plus exactement des taxons, se situe à la base de tous les traitements et analyses. La taxonomie évolue perpétuellement, ce qui modifie le regroupement de nos individus. Ainsi un inventaire qui contient 100 espèces à un instant donné sera plus ou moins riche lors de sa relecture en fonction du remaniement taxonomique fait par les taxonomistes. Les espèces, les genres ou encore les familles sont concernés par ces remaniements qui sont publiés dans des revues internationales. Pour assurer la cohérence de nos travaux, nous suivons l’évolution de cette taxonomie au travers du groupe <a href="http://publish.plantnet-project.org/project/florical_fr" target="_blank" class="underline text-blue-500">Florical</a> qui publie régulièrement les derniers états de la classification de la flore de Nouvelle-Calédonie en conformité avec la classification mondiale des angiospermes APG IV, proposée par l’<i>Angiosperm Phylogeny Group</i>.</p>
 
             <h5 class="text-xl font-semibold mb-2">Identification des plantes</h5>
             <p class="mb-4">La détermination du nom d’un arbre est une expertise qui repose sur un ensemble de compétences acquises au laboratoire et sur le terrain. L’expérience de la flore locale est indispensable pour apporter une identification de qualité.</p>
             <figure class="mb-4">
-                <img class="img-fluid mx-auto d-block" id="ident" src="files/img/methodes/Picture2.png" alt="Identification">
+                <img class="img-fluid mx-auto d-block" id="ident" src="../files/img/methodes/Picture2.png" alt="Identification">
             </figure>
             <p class="mb-4">Au-delà de donner le nom de l’espèce, le botaniste réunit tous les indices qui lui permettent de rapprocher un individu-arbre rencontré sur le terrain avec une espèce connue et décrite dans la flore de la Nouvelle-Calédonie. Cependant, alors que dans la flore les espèces sont décrites par la totalité de leurs critères morphologiques et anatomiques, le botaniste sur le terrain ne dispose généralement que de quelques informations, qui sont parfois peu accessibles ou uniquement perceptibles aux jumelles. C’est ainsi que si les espèces sont souvent décrites précisément par leurs appareils sexuels (fleurs & fruits), le botaniste de terrain ne peut que rarement compter sur ces critères éphémères pour identifier une espèce; dans une parcelle de forêt moins de 5 % des arbres sont en fleur ou en fruit au moment de leur identification. Le botaniste fait alors appel à des critères qui reposent sur sa propre expertise acquise au fur et à mesure de son observation des plantes à différents âges et dans différents lieux. Cette connaissance lui permet de proposer un nom pour chaque arbre rencontré sur le terrain et s’il est dans l’impossibilité d’atteindre le niveau espèce ou le niveau infra-spécifique, il collecte un rameau de l’arbre qui lui permettra de faire des comparaisons avec une collection d’échantillons archivés dans un herbier. Les botanistes de notre équipe travaillent dans et avec l’<a href="http://publish.plantnet-project.org/project/nou" target="_blank" class="underline text-blue-500">herbier de la Nouvelle-Calédonie</a> où ils déposent et identifient les échantillons collectés sur le terrain. Malgré ce travail gigantesque certains arbres ne peuvent pas être identifiés jusqu’au nom de l’espèce, parfois simplement car ils sont trop hauts et inaccessibles sans devoir déployer des moyens démesurés. Ils sont alors exclus des analyses qui portent sur la quantification de la richesse spécifique.</p>
 
@@ -217,7 +263,7 @@
             <p class="mb-4">Les données incluses dans ce site reposent sur <a href="https://niamoto.nc/ressources/#listTree" class="underline text-blue-500">la liste des espèces d'arbres</a> de la Nouvelle-Calédonie. Cette liste se base sur les nombreux inventaires de terrain qui s’accumulent dans nos bases de données au fur et à mesure des études que nous réalisons.</p>
             <p class="mb-4">Les <a href="https://niamoto.nc/forets/#learnPlot" class="underline text-blue-500">inventaires recouvrent de nombreuses méthodes</a> mais ils contiennent tous à minima une information relative à la présence d’un arbre dans un lieu donné. Ce couple qui lie l'identification d'une espèce et sa coordonnée géographique constitue une source de donnée fondamentale pour les études écologiques. En effet, la coordonnée permet d'inférer de nombreux paramètres (altitude, milieux, topographie, pluviométrie, substrat, distance aux habitations,...) à l'espèce. Accumulées depuis des années, ces données dessinent progressivement le contour des conditions environnementales propices au développement d’une espèce. Avec ce simple couple de données, nous pouvons dresser les préférences écologiques de chaque taxon en plus de sa distribution dans l’espace géographique.</p>
             <figure class="mb-4">
-                <img class="img-fluid mx-auto d-block" id="inventory" src="files/img/methodes/Picture3.png" alt="Inventory">
+                <img class="img-fluid mx-auto d-block" id="inventory" src="../files/img/methodes/Picture3.png" alt="Inventory">
             </figure>
             <p class="mb-4">Les inventaires permettent d’accéder à la notion d’abondance locale en ajoutant le nombre d’individus de chaque espèce comptée sur la superficie effective de l’inventaire. Certaines espèces peuvent alors être rares à l’échelle de la Nouvelle-Calédonie et très abondante localement, comme <i>Acropogon aoupiniensis</i> Morat qui est une espèce micro-endémique qui se rencontre exclusivement aux abords du Mont Aoupinié et qui simultanément est l’espèce la plus abondante de notre parcelle de 1 ha située sur ce massif.</p>
             <p class="mb-4">Les inventaires sont également utilisés pour définir les traits fonctionnels d’une espèce, c’est-à-dire ses propriétés intrinsèques qui définissent son comportement. Les traits fonctionnels sont généralement des mesures (diamètre, hauteur, densité de bois, strate, épaisseur et superficie des feuilles,...) qui dressent un profil général pour chaque espèce. Ces profils forment des groupes fonctionnels qui permettent de comparer des peuplements sur la base de leur composition fonctionnelle plutôt que sur leur composition floristique. Par exemple, le diamètre maximal atteint par une espèce dans tous nos inventaires est un trait fonctionnel qui permet de fixer son statut d’arbre puisque seules les espèces qui peuvent atteindre 10 cm de diamètre à 1,3 m du sol (DBH) sont qualifiées d’arbre. Les traits fonctionnels plus complexes à mesurer, tels que les propriétés des feuilles, permettent d’attribuer une résistance de l’espèce aux conditions de l’environnement, notamment l’aridité. Néanmoins, si ces traits fonctionnels sont précieux pour explorer davantage le comportement des espèces, ils ne représentent que des raccourcis dans des processus beaucoup plus complexes que ces traits qualifiés de ‘soft’ ne peuvent appréhender entièrement.</p>
@@ -225,14 +271,14 @@
             <h5 class="text-xl font-semibold mb-2">Les analyses statistiques</h5>
             <p class="mb-4">Parce que la biologie est un domaine où la variation est une propriété fondamentale, il n’est pas possible d’analyser les données sans évaluer la pertinence des résultats en suivant un protocole statistique rigoureux.</p>
             <figure class="mb-4">
-                <img class="img-fluid mx-auto d-block" id="stat" src="files/img/methodes/Picture4.png" alt="Stat">
+                <img class="img-fluid mx-auto d-block" id="stat" src="../files/img/methodes/Picture4.png" alt="Stat">
             </figure>
             <p class="mb-4">En effet, les évidences qui semblent apparaître en consultant rapidement un jeu de données peuvent provenir de différents biais qui concourent à laisser envisager un lien de cause à effet (corrélation), là où seul le hasard est intervenu. Les statistiques sont utilisées pour évaluer la probabilité qu’une hypothèse soit liée au hasard en tenant compte de la taille et de la distribution de l’échantillon. En général ces statistiques sont associées à une hypothèse nulle qui représente une relation liée au hasard. Par exemple, une telle hypothèse pourrait tester si la distribution d’une plante est liée au hasard ou au contraire à l’une ou l’autre des conditions environnementales (substrat, topographie, altitude, milieu,...).</p>
             <p class="mb-4">Les statistiques en écologie reposent sur des méthodes très complexes dont la perspicacité pour répondre à la question posée doit toujours être critiquée. Certaines données auto-corrélées, telles que l’altitude et la température qui évoluent ensemble, doivent être traitées pour ne pas sur-évaluer le poids du paramètre seul. Les données utilisées dans ce travail sont traitées en utilisant des méthodes statistiques publiées et validées par un comité de lecture externe. La <a href="https://niamoto.nc/ressources/#production" class="underline text-blue-500">liste des publications</a> associées à ce travail dévoilent la profondeur des études statistiques et mathématiques qui sont utilisées pour analyser des paramètres qui peuvent paraître simples, comme la distribution de la richesse selon l’altitude (Ibanez et al., 2014; Birnbaum et al., 2015).</p>
 
             <h5 class="text-xl font-semibold mb-2">Les analyses géographiques</h5>
             <figure class="mb-4">
-                <img class="img-fluid mx-auto d-block" id="geo" src="files/img/methodes/Picture5.png" alt="Geo">
+                <img class="img-fluid mx-auto d-block" id="geo" src="../files/img/methodes/Picture5.png" alt="Geo">
             </figure>
             <p class="mb-4">La forêt est une entité qui ne se mesure pas exclusivement par le nombre et la nature de ses espèces. La distribution géographique de cet écosystème permet d’aborder des questions sur son organisation dans le paysage de la Nouvelle-Calédonie. Où se trouve la forêt ? Quelles surfaces occupe-t-elle ? Quel est l’état de sa fragmentation ? sont autant de questions qui relèvent de la géographie. L’étendue de la forêt calédonienne est étudiée au travers des outils les plus modernes, tels que les imageries satellitaires ou aéroportées qui fournissent des données brutes qu’il convient de confronter aux réalités de terrain. La cartographie de la forêt s’appuie sur ces données pour délimiter précisément les ensembles de forêt au travers d’une validation reposant sur une expertise en photo-interprétation associée à un corpus de données. Ces analyses géographiques sont ainsi confrontées aux inventaires de terrain pour paramétrer des modèles qui permettent d’extrapoler une mesure sur toute l’étendue géographique qu’il s’agisse par exemple de la mesure de la biomasse via l’étude de la structure de la canopée sur des images Pléiades (Blanchard et al., 2015, 2016) ou encore de la distribution de la richesse en arbre en utilisant une série d’image Landsat (Pouteau et al., 2018). Bien entendu les analyses statistiques sont utilisées également ici pour définir le domaine de validité de ces modèles.</p>
 
@@ -480,17 +526,20 @@ Une espèce indigène, ou autochtone, existe également dans un autre pays sans 
 
     </div>
 
-<footer class="bg-green-700 text-white p-4 mt-8">
+
+        </div>
+    </div>
+    <footer class="bg-green-700 text-white p-4 mt-8">
         <div class="container mx-auto">
             <div class="flex justify-center mb-4">
                 <div class="bg-white p-2 rounded-lg shadow-md flex justify-center">
-                    <figure class="mx-2"><img class="img-fluid" src="files/ps_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" src="files/pn_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" src="files/amap_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" src="files/herbarium_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" src="files/iac_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" src="files/ird_100.png"></figure>
-                    <figure class="mx-2"><img class="img-fluid" src="files/cirad_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/ps_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/pn_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/amap_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/herbarium_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/iac_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/ird_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/cirad_100.png"></figure>
                 </div>
             </div>
             <div class="text-center">
@@ -501,7 +550,13 @@ Une espèce indigène, ou autochtone, existe également dans un autre pays sans 
             </div>
         </div>
     </footer>
-
+    <script src="js/vendor/chart/4.4.2_chart.js"></script>
+    <script src="js/vendor/d3/7.8.5_d3.js"></script>
+    <script src="js/vendor/jquery/3.6.0_jquery.js"></script>
+    <script src="js/vendor/raphael/2.3.0_raphael.js"></script>
+    <script src="js/vendor/justgage/1.6.1_justgage.js"></script>
+    <script src="js/vendor/leaflet/1.9.4_leaflet.js"></script>
+    
+    
 </body>
-
 </html>
