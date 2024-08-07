@@ -1,0 +1,130 @@
+{
+    "id": 1919,
+    "full_name": "Arthroclianthus grandifolius",
+    "authors": "Baker f.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4361
+    },
+    "lft": 1279,
+    "rght": 1280,
+    "level": 2,
+    "parent_id": 349,
+    "taxon_id": 1919,
+    "total_occurrences_count": 36,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.9019257, -21.123799], \"count\": 2}, {\"coordinates\": [165.3199423, -21.1540391], \"count\": 1}, {\"coordinates\": [164.3322222, -20.4644444], \"count\": 1}, {\"coordinates\": [164.2208333, -20.4163889], \"count\": 2}, {\"coordinates\": [164.9163889, -20.9522222], \"count\": 1}, {\"coordinates\": [165.32, -21.1508333], \"count\": 1}, {\"coordinates\": [164.1016667, -20.2608333], \"count\": 4}, {\"coordinates\": [165.3033762, -21.1779231], \"count\": 2}, {\"coordinates\": [164.4397222, -20.3009478], \"count\": 1}, {\"coordinates\": [164.3600715, -20.4874759], \"count\": 1}, {\"coordinates\": [165.0119139, -20.9977778], \"count\": 1}, {\"coordinates\": [165.0970249, -20.9775661333333], \"count\": 1}, {\"coordinates\": [165.097666158333, -20.9787903916667], \"count\": 1}, {\"coordinates\": [165.203918243907, -20.8876945406762], \"count\": 1}, {\"coordinates\": [164.916370657667, -20.951377678], \"count\": 1}, {\"coordinates\": [164.915081644167, -20.9511742146667], \"count\": 1}, {\"coordinates\": [165.205698318833, -20.8888212066667], \"count\": 1}, {\"coordinates\": [164.9164, -20.9514], \"count\": 1}, {\"coordinates\": [164.9665376, -21.0886002], \"count\": 1}, {\"coordinates\": [164.3631111, -20.5301389], \"count\": 1}, {\"coordinates\": [165.1116667, -21.1366667], \"count\": 1}, {\"coordinates\": [164.3269044, -20.4667214], \"count\": 1}, {\"coordinates\": [166.0928116, -21.5733615], \"count\": 1}, {\"coordinates\": [165.8273357, -21.5415171], \"count\": 2}, {\"coordinates\": [165.815656, -21.6639675], \"count\": 1}, {\"coordinates\": [164.1019444, -20.2609722], \"count\": 1}, {\"coordinates\": [164.3647868, -20.445965], \"count\": 1}]}",
+    "species_top": {
+        "Arthroclianthus grandifolius": 36
+    },
+    "um_occurrences_true": 4,
+    "um_occurrences_false": 32,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0.0,
+                100.0,
+                20.0,
+                50.0,
+                25.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                33.33,
+                100.0,
+                0.0,
+                80.0,
+                50.0,
+                75.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 8.0,
+    "dbh_max": 10.0,
+    "dbh_median": 8.0,
+    "dbh_min": 5.0,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 27.78,
+            "200": 0.0,
+            "300": 16.67,
+            "400": 0.0,
+            "500": 27.78,
+            "600": 16.67,
+            "700": 11.11,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 43.75,
+            "1500": 15.62,
+            "2000": 34.38,
+            "2500": 6.25,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 25.93,
+            "2": 74.07
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "id": 4512,
+    "full_name": "Homalanthus schlechteri",
+    "authors": "Pax & K.Hoffm.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1967
+    },
+    "lft": 1181,
+    "rght": 1182,
+    "level": 2,
+    "parent_id": 13571,
+    "taxon_id": 4512,
+    "total_occurrences_count": 12,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5359004, -22.1784091], \"count\": 2}, {\"coordinates\": [166.5366766, -22.1922361], \"count\": 1}, {\"coordinates\": [166.5705271, -22.2519687], \"count\": 1}, {\"coordinates\": [166.62572499, -22.19208599], \"count\": 2}, {\"coordinates\": [166.5032423, -22.1784592], \"count\": 1}, {\"coordinates\": [166.5288965, -22.2050938], \"count\": 1}, {\"coordinates\": [166.427363, -22.0685301], \"count\": 1}, {\"coordinates\": [166.50164962, -22.1945233688333], \"count\": 1}, {\"coordinates\": [163.656048398302, -19.6969677512964], \"count\": 1}, {\"coordinates\": [166.5191782, -22.1925373], \"count\": 1}]}",
+    "species_top": {
+        "Homalanthus schlechteri": 12
+    },
+    "um_occurrences_true": 8,
+    "um_occurrences_false": 4,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                25.0,
+                0.0,
+                100.0,
+                0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 18.18,
+            "200": 9.09,
+            "300": 45.45,
+            "400": 9.09,
+            "500": 9.09,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 9.09,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 50.0,
+            "2000": 33.33,
+            "2500": 16.67,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

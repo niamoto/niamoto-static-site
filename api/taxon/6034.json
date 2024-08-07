@@ -1,0 +1,118 @@
+{
+    "id": 6034,
+    "full_name": "Thespesia populnea",
+    "authors": "(L.) Sol. ex Correa",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2064
+    },
+    "lft": 1617,
+    "rght": 1618,
+    "level": 2,
+    "parent_id": 1470,
+    "taxon_id": 6034,
+    "total_occurrences_count": 75,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.055234744334, -21.3572790342161], \"count\": 1}, {\"coordinates\": [164.974463725074, -21.3167934677496], \"count\": 1}, {\"coordinates\": [165.148683491774, -20.7157604126348], \"count\": 1}, {\"coordinates\": [167.43333435058594, -22.558332443237305], \"count\": 2}, {\"coordinates\": [164.93824768066406, -21.337743759155273], \"count\": 1}, {\"coordinates\": [164.5766091, -20.3898362], \"count\": 1}, {\"coordinates\": [164.125907725232, -20.4272613362575], \"count\": 1}, {\"coordinates\": [164.943375225343, -21.3264506377521], \"count\": 1}, {\"coordinates\": [164.9390106201172, -21.338754653930664], \"count\": 1}, {\"coordinates\": [165.2836456298828, -20.88673210144043], \"count\": 1}, {\"coordinates\": [164.968553760673, -21.351171666198], \"count\": 1}, {\"coordinates\": [164.03494967035, -20.0860820609971], \"count\": 1}, {\"coordinates\": [163.697967997606, -19.844034358336], \"count\": 1}, {\"coordinates\": [163.702054275173, -19.8788717532664], \"count\": 1}, {\"coordinates\": [163.69693659569, -19.8306913318686], \"count\": 1}, {\"coordinates\": [164.972069407988, -21.3468048430361], \"count\": 1}, {\"coordinates\": [164.9538116455078, -21.35651969909668], \"count\": 1}, {\"coordinates\": [166.8058352, -22.424808], \"count\": 1}, {\"coordinates\": [164.95277404785156, -21.357547760009766], \"count\": 1}, {\"coordinates\": [164.037758284368, -20.4057021225201], \"count\": 1}, {\"coordinates\": [164.32496942404, -20.7673280306887], \"count\": 1}, {\"coordinates\": [164.973192639359, -21.3303074545641], \"count\": 1}, {\"coordinates\": [163.6602783203125, -19.721389770507812], \"count\": 1}, {\"coordinates\": [164.969866102457, -21.3255390888529], \"count\": 1}, {\"coordinates\": [164.670193621147, -20.9849621504681], \"count\": 1}, {\"coordinates\": [166.4180556, -21.7205556], \"count\": 1}, {\"coordinates\": [164.223717266755, -20.5520890700542], \"count\": 1}, {\"coordinates\": [164.1315742, -20.3854913], \"count\": 1}, {\"coordinates\": [164.655183529413, -20.9789836730436], \"count\": 1}, {\"coordinates\": [166.8175, -22.3256833], \"count\": 1}, {\"coordinates\": [164.034967981625, -20.0861652592412], \"count\": 1}, {\"coordinates\": [166.39999389648438, -22.266666412353516], \"count\": 1}, {\"coordinates\": [166.5833282470703, -22.28333282470703], \"count\": 1}, {\"coordinates\": [163.706450288651, -19.8985228645858], \"count\": 1}, {\"coordinates\": [164.912220752983, -21.2729078475819], \"count\": 1}, {\"coordinates\": [164.026611328125, -20.081195831298828], \"count\": 1}, {\"coordinates\": [164.2940216064453, -20.57750129699707], \"count\": 1}, {\"coordinates\": [164.043242212584, -20.1761848859452], \"count\": 1}, {\"coordinates\": [164.083614259344, -20.3677824509897], \"count\": 1}, {\"coordinates\": [164.05343400626174, -20.292948147240917], \"count\": 1}, {\"coordinates\": [163.99832153320312, -20.083120346069336], \"count\": 1}, {\"coordinates\": [164.9423370361328, -21.336566925048828], \"count\": 1}, {\"coordinates\": [164.97218322753906, -21.339202880859375], \"count\": 1}, {\"coordinates\": [164.185198799929, -20.5581592537527], \"count\": 1}, {\"coordinates\": [166.40859985351562, -22.336380004882812], \"count\": 1}, {\"coordinates\": [164.128348234179, -20.4680647998907], \"count\": 1}]}",
+    "species_top": {
+        "Thespesia populnea": 75
+    },
+    "um_occurrences_true": 11,
+    "um_occurrences_false": 64,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                50.0,
+                100.0,
+                100.0,
+                25.0,
+                0.0,
+                50.0,
+                0,
+                20.0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                0.0,
+                50.0,
+                40.0,
+                0.0,
+                0,
+                20.0,
+                25.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 100.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 80.0,
+            "1500": 5.71,
+            "2000": 11.43,
+            "2500": 2.86,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 65.22,
+            "2": 34.78
+        }
+    }
+}

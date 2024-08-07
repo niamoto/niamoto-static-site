@@ -1,0 +1,63 @@
+{
+    "id": 7,
+    "locality": "Djeve",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            165.434952,
+            -21.226105
+        ]
+    },
+    "plot_id": 7,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [165.434952, -21.226105]}",
+    "families_top": {
+        "Podocarpaceae": 732,
+        "Sapotaceae": 670,
+        "Cunoniaceae": 559,
+        "Pittosporaceae": 321,
+        "Apocynaceae": 144,
+        "Myrtaceae": 142,
+        "Araliaceae": 123,
+        "Winteraceae": 106,
+        "Moraceae": 86,
+        "Rhizophoraceae": 85
+    },
+    "species_top": {
+        "Codia discolor": 189,
+        "Falcatifolium taxoides": 161,
+        "Dacrydium araucarioides": 150,
+        "Acmopyle pancheri": 149,
+        "Planchonella endlicheri": 148,
+        "Codia montana": 130,
+        "Dacrydium balansae": 122,
+        "Tabernaemontana cerifera": 117,
+        "Dacrycarpus vieillardii": 97,
+        "Pittosporum simsonii": 93
+    },
+    "height_mean": 9.22,
+    "wood_density_mean": 0.62,
+    "basal_area": 52.4,
+    "shannon": 3.65,
+    "pielou": 0.8,
+    "simpson": 0.96,
+    "biomass": 362.654958304842,
+    "frequencies": {
+        "dbh": {
+            "10": 62.96,
+            "20": 22.17,
+            "30": 6.81,
+            "40": 4.41,
+            "50": 2.4,
+            "75": 0.67,
+            "100": 0.48,
+            "200": 0.1,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 8.91,
+            "2": 40.69,
+            "3": 50.4
+        }
+    }
+}

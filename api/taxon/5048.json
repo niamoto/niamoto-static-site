@@ -1,0 +1,130 @@
+{
+    "id": 5048,
+    "full_name": "Pittosporum leratii",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1150
+    },
+    "lft": 2413,
+    "rght": 2414,
+    "level": 2,
+    "parent_id": 1220,
+    "taxon_id": 5048,
+    "total_occurrences_count": 57,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.9163289, -22.3224198], \"count\": 2}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 4}, {\"coordinates\": [166.9268733, -22.3260056], \"count\": 1}, {\"coordinates\": [166.6232222, -22.1943889], \"count\": 1}, {\"coordinates\": [166.3712097, -21.7227307], \"count\": 2}, {\"coordinates\": [166.447889, -22.0883059], \"count\": 2}, {\"coordinates\": [166.6074001, -22.1752118], \"count\": 1}, {\"coordinates\": [166.11809, -21.57774], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 5}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 2}, {\"coordinates\": [166.62572499, -22.19208599], \"count\": 1}, {\"coordinates\": [166.93861112, -22.3497222], \"count\": 1}, {\"coordinates\": [166.78555562, -22.19388891], \"count\": 2}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.91660277777777, -22.32164722222222], \"count\": 1}, {\"coordinates\": [166.9067677, -22.1559741], \"count\": 1}, {\"coordinates\": [166.3756996, -22.1282551], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 1}, {\"coordinates\": [166.9051943, -22.1524996], \"count\": 2}, {\"coordinates\": [166.4583892, -22.1128848], \"count\": 1}, {\"coordinates\": [166.62225, -22.1988333], \"count\": 1}, {\"coordinates\": [166.4582463, -22.0089614], \"count\": 1}, {\"coordinates\": [166.2313889, -21.6725], \"count\": 1}, {\"coordinates\": [166.9472586, -22.3507006], \"count\": 1}, {\"coordinates\": [166.5302696, -22.1752938], \"count\": 1}, {\"coordinates\": [166.3597222, -22.0602778], \"count\": 1}, {\"coordinates\": [166.4476900000003, -22.08789000065745], \"count\": 1}, {\"coordinates\": [166.1554669, -21.8178385], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 1}, {\"coordinates\": [166.5038889, -21.9691667], \"count\": 1}, {\"coordinates\": [166.4952778, -21.945], \"count\": 1}, {\"coordinates\": [166.4461800000003, -22.07449000065716], \"count\": 1}, {\"coordinates\": [166.29925, -21.778], \"count\": 1}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 1}, {\"coordinates\": [166.6638296, -22.0935546], \"count\": 1}, {\"coordinates\": [166.60486498, -22.07270495], \"count\": 1}, {\"coordinates\": [166.60540802, -22.06978095], \"count\": 1}, {\"coordinates\": [166.49524903, -21.94512001], \"count\": 1}, {\"coordinates\": [167.00462898, -22.27939996], \"count\": 1}, {\"coordinates\": [166.35789101, -22.06019404], \"count\": 1}, {\"coordinates\": [167.00879204, -22.289453], \"count\": 1}, {\"coordinates\": [166.56184501, -21.95417003], \"count\": 1}, {\"coordinates\": [166.50397599, -21.969119], \"count\": 1}, {\"coordinates\": [166.23142118, -21.67261039], \"count\": 1}]}",
+    "species_top": {
+        "Pittosporum leratii": 57
+    },
+    "um_occurrences_true": 55,
+    "um_occurrences_false": 2,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0,
+                50.0,
+                42.86,
+                100.0,
+                100.0,
+                50.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                50.0,
+                100.0,
+                0,
+                50.0,
+                85.71,
+                0.0,
+                0.0,
+                50.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 5.1,
+    "dbh_max": 5.1,
+    "dbh_median": 5.1,
+    "dbh_min": 5.1,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 4.0,
+            "200": 34.0,
+            "300": 18.0,
+            "400": 6.0,
+            "500": 6.0,
+            "600": 6.0,
+            "700": 2.0,
+            "800": 12.0,
+            "900": 0.0,
+            "1000": 12.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 3.51,
+            "1500": 14.04,
+            "2000": 12.28,
+            "2500": 49.12,
+            "3000": 14.04,
+            "3500": 3.51,
+            "4000": 3.51,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 5.26,
+            "2": 94.74
+        }
+    }
+}

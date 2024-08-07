@@ -1,0 +1,135 @@
+{
+    "id": 5137,
+    "full_name": "Polyosma spicata",
+    "authors": "Baill.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1261
+    },
+    "lft": 1095,
+    "rght": 1096,
+    "level": 2,
+    "parent_id": 1244,
+    "taxon_id": 5137,
+    "total_occurrences_count": 101,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.8813852, -21.6202967], \"count\": 12}, {\"coordinates\": [164.864601, -20.639751], \"count\": 1}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 2}, {\"coordinates\": [165.3033762, -21.1779231], \"count\": 3}, {\"coordinates\": [165.95, -21.6], \"count\": 1}, {\"coordinates\": [165.277313, -21.177801], \"count\": 7}, {\"coordinates\": [165.8802778, -21.6138889], \"count\": 1}, {\"coordinates\": [165.4519444, -21.2855556], \"count\": 1}, {\"coordinates\": [165.8063704, -21.6125759], \"count\": 2}, {\"coordinates\": [165.2834384, -21.1767109], \"count\": 4}, {\"coordinates\": [165.2680556, -21.1763889], \"count\": 1}, {\"coordinates\": [164.74, -20.6136111], \"count\": 1}, {\"coordinates\": [165.1063648, -21.2861631], \"count\": 1}, {\"coordinates\": [165.45106506347656, -21.307130813598633], \"count\": 1}, {\"coordinates\": [164.8569195, -20.6402999], \"count\": 2}, {\"coordinates\": [165.15138244628906, -21.284439086914062], \"count\": 2}, {\"coordinates\": [165.8781280517578, -21.623340606689453], \"count\": 2}, {\"coordinates\": [165.88027954101562, -21.613889694213867], \"count\": 1}, {\"coordinates\": [165.86666870117188, -21.600000381469727], \"count\": 1}, {\"coordinates\": [165.830782, -21.5739157], \"count\": 2}, {\"coordinates\": [165.8739357, -21.6211518], \"count\": 2}, {\"coordinates\": [165.8705596923828, -21.624170303344727], \"count\": 2}, {\"coordinates\": [165.8740833, -21.6207778], \"count\": 4}, {\"coordinates\": [165.1721524, -21.0437727], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 2}, {\"coordinates\": [164.7825, -20.6244444], \"count\": 1}, {\"coordinates\": [165.3066239, -21.1762872], \"count\": 2}, {\"coordinates\": [165.87806701660156, -21.623329162597656], \"count\": 4}, {\"coordinates\": [165.6554457, -21.5141162], \"count\": 2}, {\"coordinates\": [165.096917783333, -21.16833335], \"count\": 1}, {\"coordinates\": [165.0658238, -21.3002342], \"count\": 2}, {\"coordinates\": [164.7869471, -20.5700274], \"count\": 4}, {\"coordinates\": [165.9499969482422, -21.600000381469727], \"count\": 1}, {\"coordinates\": [165.875076692, -21.6205795627083], \"count\": 1}, {\"coordinates\": [164.86459350585938, -20.63974952697754], \"count\": 1}, {\"coordinates\": [165.886064376083, -21.6317791129167], \"count\": 1}, {\"coordinates\": [165.26805114746094, -21.176389694213867], \"count\": 1}, {\"coordinates\": [165.277075, -21.1778139], \"count\": 1}, {\"coordinates\": [165.434188842773, -21.2509820779165], \"count\": 1}, {\"coordinates\": [165.8814, -21.6203], \"count\": 2}, {\"coordinates\": [165.2698, -21.1774], \"count\": 2}, {\"coordinates\": [164.7825, -20.6244], \"count\": 1}, {\"coordinates\": [164.4378741737, -20.3060228471], \"count\": 2}, {\"coordinates\": [165.9536243, -21.6011898], \"count\": 1}, {\"coordinates\": [165.2834, -21.1767], \"count\": 1}, {\"coordinates\": [165.3034, -21.1779], \"count\": 1}, {\"coordinates\": [164.7904228, -20.5660142], \"count\": 1}, {\"coordinates\": [165.0959733501, -21.1677664798], \"count\": 5}, {\"coordinates\": [165.11273979814817, -21.292836926186375], \"count\": 1}, {\"coordinates\": [165.14048652, -21.27213193], \"count\": 1}, {\"coordinates\": [165.10853236445777, -21.282396612699316], \"count\": 1}]}",
+    "species_top": {
+        "Polyosma spicata": 101
+    },
+    "um_occurrences_true": 16,
+    "um_occurrences_false": 85,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                100.0,
+                100.0,
+                90.91,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                25.0,
+                100.0,
+                0,
+                0,
+                50.0,
+                0,
+                0.0,
+                0.0,
+                9.09,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 13.88,
+    "dbh_max": 25.0,
+    "dbh_median": 11.95,
+    "dbh_min": 10.3,
+    "height_max": 12.0,
+    "wood_density_mean": 0.53,
+    "wood_density_max": 0.57,
+    "wood_density_min": 0.49,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 87.5,
+            "20": 12.5,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.99,
+            "200": 0.99,
+            "300": 2.97,
+            "400": 3.96,
+            "500": 10.89,
+            "600": 3.96,
+            "700": 22.77,
+            "800": 21.78,
+            "900": 25.74,
+            "1000": 5.94,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 2.97,
+            "1500": 11.88,
+            "2000": 54.46,
+            "2500": 18.81,
+            "3000": 9.9,
+            "3500": 1.98,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "id": 15384,
+    "full_name": "Polyscias vieillardii subsp. balansae",
+    "authors": "(Baill.) Lowry & G.M.Plunkett",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 6275
+    },
+    "lft": 302,
+    "rght": 303,
+    "level": 3,
+    "parent_id": 13498,
+    "taxon_id": 15384,
+    "total_occurrences_count": 29,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.7883191, -21.5735391], \"count\": 1}, {\"coordinates\": [164.7816667, -20.6244444], \"count\": 1}, {\"coordinates\": [164.8604958, -20.6369621], \"count\": 1}, {\"coordinates\": [165.8063704, -21.6125759], \"count\": 1}, {\"coordinates\": [165.8092335, -21.61141], \"count\": 1}, {\"coordinates\": [165.0149493, -20.9663606], \"count\": 1}, {\"coordinates\": [165.4765625, -21.24147605896], \"count\": 2}, {\"coordinates\": [164.7808611111111, -20.623555555555555], \"count\": 1}, {\"coordinates\": [164.68613888888888, -20.539638888888888], \"count\": 1}, {\"coordinates\": [165.75580555555555, -21.559638888888887], \"count\": 1}, {\"coordinates\": [165.49647222222222, -21.360666666666667], \"count\": 2}, {\"coordinates\": [165.0214366, -20.9634017], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 1}, {\"coordinates\": [164.74125, -20.7362777778], \"count\": 1}, {\"coordinates\": [165.2454728, -20.9978359], \"count\": 1}, {\"coordinates\": [164.780861111111, -20.6235555555556], \"count\": 1}, {\"coordinates\": [165.011666666667, -20.9694444444444], \"count\": 1}, {\"coordinates\": [165.803055555556, -21.6155555555556], \"count\": 1}, {\"coordinates\": [165.018055555556, -20.9663888888889], \"count\": 1}, {\"coordinates\": [165.242222222222, -21.0008333333333], \"count\": 1}, {\"coordinates\": [165.496472222222, -21.3606666666667], \"count\": 1}, {\"coordinates\": [165.785, -21.5766666666667], \"count\": 1}, {\"coordinates\": [164.59773472, -20.47928071], \"count\": 1}, {\"coordinates\": [165.77021487, -21.56327778], \"count\": 1}, {\"coordinates\": [164.686138888889, -20.5396388888889], \"count\": 1}, {\"coordinates\": [165.755805555556, -21.5596388888889], \"count\": 1}, {\"coordinates\": [165.806111111111, -21.6144444444444], \"count\": 1}]}",
+    "species_top": {
+        "Polyscias vieillardii subsp. balansae": 29
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 28,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                0,
+                25.0,
+                28.57,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0.0,
+                100.0,
+                0.0,
+                0,
+                0.0,
+                71.43,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.83,
+    "dbh_max": 19.1,
+    "dbh_median": 10.9,
+    "dbh_min": 6.5,
+    "height_max": 12.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 10.34,
+            "400": 27.59,
+            "500": 51.72,
+            "600": 3.45,
+            "700": 6.9,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 6.9,
+            "1500": 34.48,
+            "2000": 20.69,
+            "2500": 17.24,
+            "3000": 17.24,
+            "3500": 3.45,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 100.0,
+            "3": 0.0
+        }
+    }
+}

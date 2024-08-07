@@ -1,0 +1,63 @@
+{
+    "id": 15,
+    "locality": "For\u00eat Plate P26",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            165.111632,
+            -21.133673
+        ]
+    },
+    "plot_id": 15,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [165.111632, -21.133673]}",
+    "families_top": {
+        "Sapotaceae": 1064,
+        "Sapindaceae": 166,
+        "Rutaceae": 143,
+        "Apocynaceae": 97,
+        "Ebenaceae": 89,
+        "Primulaceae": 83,
+        "Clusiaceae": 73,
+        "Myrtaceae": 69,
+        "Proteaceae": 62,
+        "Salicaceae": 58
+    },
+    "species_top": {
+        "Sarcomelicope follicularis": 106,
+        "Tabernaemontana cerifera": 83,
+        "Diospyros fasciculosa": 73,
+        "Pycnandra fastuosa": 70,
+        "Pycnandra decandra": 69,
+        "Pycnandra petiolata": 65,
+        "Pycnandra benthamii": 62,
+        "Pycnandra balansae": 56,
+        "Myrsine citrifolia": 53,
+        "Xylosma vincentii": 53
+    },
+    "height_mean": 7.82,
+    "wood_density_mean": null,
+    "basal_area": 36.8,
+    "shannon": 3.48,
+    "pielou": 0.83,
+    "simpson": 0.96,
+    "biomass": 241.120391295343,
+    "frequencies": {
+        "dbh": {
+            "10": 70.98,
+            "20": 17.87,
+            "30": 5.73,
+            "40": 2.86,
+            "50": 2.17,
+            "75": 0.3,
+            "100": 0.1,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 5.54,
+            "2": 35.08,
+            "3": 59.38
+        }
+    }
+}

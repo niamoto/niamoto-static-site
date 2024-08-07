@@ -1,0 +1,130 @@
+{
+    "id": 2936,
+    "full_name": "Depanthus pubescens",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3924
+    },
+    "lft": 1327,
+    "rght": 1328,
+    "level": 2,
+    "parent_id": 656,
+    "taxon_id": 2936,
+    "total_occurrences_count": 11,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.84296, -21.58609], \"count\": 1}, {\"coordinates\": [165.8683, -21.62307], \"count\": 1}, {\"coordinates\": [165.79693603515625, -21.619720458984375], \"count\": 2}, {\"coordinates\": [164.72705, -20.593683333333335], \"count\": 1}, {\"coordinates\": [164.8666667, -20.8], \"count\": 2}, {\"coordinates\": [165.8332977294922, -21.58329963684082], \"count\": 1}, {\"coordinates\": [165.83568773281291, -21.59957399926873], \"count\": 2}, {\"coordinates\": [165.8333, -21.5833], \"count\": 1}]}",
+    "species_top": {
+        "Depanthus pubescens": 11
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 11,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0.0,
+                0,
+                0,
+                0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                0,
+                0,
+                0,
+                100.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 25.0,
+    "dbh_max": 25.0,
+    "dbh_median": 25.0,
+    "dbh_min": 25.0,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 100.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 9.09,
+            "500": 27.27,
+            "600": 36.36,
+            "700": 18.18,
+            "800": 9.09,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 18.18,
+            "2000": 72.73,
+            "2500": 0.0,
+            "3000": 9.09,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

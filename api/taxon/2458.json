@@ -1,0 +1,130 @@
+{
+    "id": 2458,
+    "full_name": "Chambeyronia lepidota",
+    "authors": "H.E.Moore    ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1116
+    },
+    "lft": 381,
+    "rght": 382,
+    "level": 2,
+    "parent_id": 518,
+    "taxon_id": 2458,
+    "total_occurrences_count": 176,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7930568, -20.562816], \"count\": 8}, {\"coordinates\": [164.7688388888889, -20.575755555555556], \"count\": 14}, {\"coordinates\": [164.78330555555556, -20.560027777777776], \"count\": 2}, {\"coordinates\": [164.774, -20.57027777777778], \"count\": 18}, {\"coordinates\": [164.77325, -20.570805555555555], \"count\": 9}, {\"coordinates\": [164.78330555555556, -20.559833333333334], \"count\": 1}, {\"coordinates\": [164.77380555555555, -20.570083333333333], \"count\": 36}, {\"coordinates\": [164.78291666666667, -20.560388888888887], \"count\": 3}, {\"coordinates\": [164.7871551513672, -20.56903076171875], \"count\": 1}, {\"coordinates\": [164.77999877929688, -20.56999969482422], \"count\": 2}, {\"coordinates\": [164.8668591, -20.6450225], \"count\": 9}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 2}, {\"coordinates\": [164.789794921875, -20.56583023071289], \"count\": 11}, {\"coordinates\": [165.190244166056, -20.8348601659139], \"count\": 1}, {\"coordinates\": [164.76666259765625, -20.600000381469727], \"count\": 1}, {\"coordinates\": [164.79110717773438, -20.564599990844727], \"count\": 2}, {\"coordinates\": [164.75790400000002, -20.60258528888889], \"count\": 1}, {\"coordinates\": [164.78721618652344, -20.568889617919922], \"count\": 2}, {\"coordinates\": [164.777198317924, -20.5983936543717], \"count\": 1}, {\"coordinates\": [164.7772261, -20.5827348], \"count\": 1}, {\"coordinates\": [164.8656369, -20.647354], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.8625030517578, -20.650279998779297], \"count\": 1}, {\"coordinates\": [164.7794647216797, -20.57707977294922], \"count\": 3}, {\"coordinates\": [164.85365295410156, -20.643320083618164], \"count\": 2}, {\"coordinates\": [164.83299255371094, -20.600000381469727], \"count\": 1}, {\"coordinates\": [165.1867912, -20.831781], \"count\": 1}, {\"coordinates\": [164.7911, -20.5646], \"count\": 2}, {\"coordinates\": [164.8572, -20.64], \"count\": 1}, {\"coordinates\": [164.77946, -20.57708], \"count\": 3}, {\"coordinates\": [164.774, -20.5702777777778], \"count\": 1}, {\"coordinates\": [165.1836, -20.8347], \"count\": 1}, {\"coordinates\": [164.7897, -20.5658], \"count\": 2}, {\"coordinates\": [164.77325, -20.5708055555556], \"count\": 1}, {\"coordinates\": [164.776992797852, -20.5984001159668], \"count\": 1}, {\"coordinates\": [164.783305555556, -20.5600277777778], \"count\": 1}, {\"coordinates\": [164.7739, -20.5858], \"count\": 1}, {\"coordinates\": [164.8625, -20.6503], \"count\": 1}, {\"coordinates\": [164.85366, -20.64332], \"count\": 2}, {\"coordinates\": [164.759994506836, -20.5834999084473], \"count\": 1}, {\"coordinates\": [164.773805555556, -20.5700833333333], \"count\": 1}, {\"coordinates\": [164.78979, -20.56583], \"count\": 11}, {\"coordinates\": [164.782916666667, -20.5603888888889], \"count\": 1}, {\"coordinates\": [164.78716, -20.56903], \"count\": 1}, {\"coordinates\": [164.8625, -20.65028], \"count\": 1}, {\"coordinates\": [164.7911, -20.5647], \"count\": 1}, {\"coordinates\": [164.768838888889, -20.5757555555556], \"count\": 3}, {\"coordinates\": [165.201, -20.819], \"count\": 1}, {\"coordinates\": [164.783305555556, -20.5598333333333], \"count\": 1}, {\"coordinates\": [164.78722, -20.56889], \"count\": 2}]}",
+    "species_top": {
+        "Chambeyronia lepidota": 176
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 174,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                2.78,
+                0.0,
+                0,
+                40.0,
+                0,
+                0,
+                25.0,
+                0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                3.33,
+                0,
+                0,
+                50.0,
+                0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.43,
+    "dbh_max": 17.7,
+    "dbh_median": 11.1,
+    "dbh_min": 5.1,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.57,
+            "200": 0.57,
+            "300": 0.0,
+            "400": 1.7,
+            "500": 4.55,
+            "600": 7.95,
+            "700": 19.89,
+            "800": 7.95,
+            "900": 41.48,
+            "1000": 0.57,
+            "1100": 10.8,
+            "1200": 3.98
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 2.27,
+            "3000": 30.11,
+            "3500": 65.34,
+            "4000": 1.14,
+            "4500": 1.14
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        }
+    }
+}

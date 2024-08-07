@@ -1,0 +1,130 @@
+{
+    "id": 6195,
+    "full_name": "Virotia francii",
+    "authors": "(Guillaumin) P.H.Weston & A.R.Mast ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4486
+    },
+    "lft": 2677,
+    "rght": 2678,
+    "level": 2,
+    "parent_id": 1538,
+    "taxon_id": 6195,
+    "total_occurrences_count": 143,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.8973584, -22.2802817], \"count\": 6}, {\"coordinates\": [165.2516667, -21.0155556], \"count\": 1}, {\"coordinates\": [165.9917588889, -21.6904191667], \"count\": 1}, {\"coordinates\": [166.665, -22.1936111], \"count\": 4}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 2}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 5}, {\"coordinates\": [166.94141685, -22.21108835], \"count\": 2}, {\"coordinates\": [165.72319834, -21.44905477], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 6}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 1}, {\"coordinates\": [166.76104096, -22.18968099], \"count\": 3}, {\"coordinates\": [166.81333329, -22.24694445], \"count\": 2}, {\"coordinates\": [166.91511398, -22.30698298], \"count\": 1}, {\"coordinates\": [166.66500005, -22.18305556], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 4}, {\"coordinates\": [166.948834, -22.278186], \"count\": 2}, {\"coordinates\": [166.93006111111112, -22.323755555555557], \"count\": 3}, {\"coordinates\": [166.689425, -22.151216666666667], \"count\": 3}, {\"coordinates\": [166.5929167, -22.1556389], \"count\": 1}, {\"coordinates\": [165.22569166666668, -21.00200277777778], \"count\": 3}, {\"coordinates\": [165.49647222222222, -21.360666666666667], \"count\": 2}, {\"coordinates\": [166.82415771484375, -22.320209503173828], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 1}, {\"coordinates\": [166.592617, -22.2621238], \"count\": 2}, {\"coordinates\": [166.9088897705078, -22.3075008392334], \"count\": 2}, {\"coordinates\": [166.6408233642578, -22.123199462890625], \"count\": 1}, {\"coordinates\": [166.6947762, -22.0875621], \"count\": 1}, {\"coordinates\": [166.6649932861328, -22.1936092376709], \"count\": 2}, {\"coordinates\": [165.232272222307, -20.8597666666243], \"count\": 1}, {\"coordinates\": [165.1759033203125, -20.948219299316406], \"count\": 1}, {\"coordinates\": [166.6427764892578, -22.121110916137695], \"count\": 2}, {\"coordinates\": [166.6588897705078, -22.179170608520508], \"count\": 4}, {\"coordinates\": [166.92011, -22.32465], \"count\": 1}, {\"coordinates\": [165.224613982762, -20.8694547536836], \"count\": 1}, {\"coordinates\": [166.63845825195312, -22.097169876098633], \"count\": 2}, {\"coordinates\": [166.7723776, -22.3106972], \"count\": 2}, {\"coordinates\": [166.64300537109375, -22.121000289916992], \"count\": 1}, {\"coordinates\": [165.09991455078125, -20.89282989501953], \"count\": 1}, {\"coordinates\": [166.519653878467, -22.0596846316], \"count\": 1}, {\"coordinates\": [166.64100646972656, -22.12299919128418], \"count\": 2}, {\"coordinates\": [166.519872355278, -22.0594482729444], \"count\": 1}, {\"coordinates\": [166.6830596923828, -22.176109313964844], \"count\": 2}, {\"coordinates\": [165.0094451904297, -20.851940155029297], \"count\": 1}, {\"coordinates\": [165.232227, -20.8598], \"count\": 1}, {\"coordinates\": [166.8740655, -22.0983497], \"count\": 2}, {\"coordinates\": [166.514892578125, -22.174259185791016], \"count\": 1}, {\"coordinates\": [165.22355556488, -20.8593888600667], \"count\": 1}, {\"coordinates\": [166.60000610351562, -22.116670608520508], \"count\": 1}, {\"coordinates\": [166.514892578125, -22.174339294433594], \"count\": 1}, {\"coordinates\": [166.8229217529297, -22.32238006591797], \"count\": 2}, {\"coordinates\": [166.9528526, -22.2698698], \"count\": 2}, {\"coordinates\": [166.520675774667, -22.0597526058333], \"count\": 1}, {\"coordinates\": [165.85000610351562, -21.600000381469727], \"count\": 1}, {\"coordinates\": [166.6426544189453, -22.12122917175293], \"count\": 2}, {\"coordinates\": [166.6349651, -22.117185], \"count\": 1}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 2}, {\"coordinates\": [165.9636996, -21.59057432], \"count\": 1}, {\"coordinates\": [166.65993504, -22.020349], \"count\": 1}, {\"coordinates\": [166.59187218, -22.15853054], \"count\": 1}, {\"coordinates\": [166.921, -22.319], \"count\": 2}, {\"coordinates\": [166.930061, -22.3237556], \"count\": 3}, {\"coordinates\": [166.689425, -22.1512167], \"count\": 3}, {\"coordinates\": [166.641, -22.123], \"count\": 4}, {\"coordinates\": [166.666, -22.165], \"count\": 2}, {\"coordinates\": [166.6, -22.117], \"count\": 1}, {\"coordinates\": [166.823, -22.322], \"count\": 4}, {\"coordinates\": [166.666, -22.168], \"count\": 2}, {\"coordinates\": [166.592917, -22.1556389], \"count\": 1}, {\"coordinates\": [166.691672211, -22.161075091], \"count\": 2}, {\"coordinates\": [166.638, -22.097], \"count\": 3}, {\"coordinates\": [166.824, -22.32], \"count\": 1}, {\"coordinates\": [166.9163289, -22.3224198], \"count\": 1}, {\"coordinates\": [166.643, -22.121], \"count\": 3}, {\"coordinates\": [166.6495729, -22.1187974], \"count\": 2}]}",
+    "species_top": {
+        "Virotia francii": 143
+    },
+    "um_occurrences_true": 130,
+    "um_occurrences_false": 13,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                0,
+                50.0,
+                0,
+                100.0,
+                100.0,
+                0,
+                75.0,
+                0,
+                30.0,
+                0.0,
+                100.0
+            ],
+            "fruiting": [
+                50.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                30.0,
+                100.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.33,
+    "dbh_max": 60.0,
+    "dbh_median": 10.8,
+    "dbh_min": 5.1,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 40.0,
+            "20": 53.33,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 6.67,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 9.77,
+            "200": 31.58,
+            "300": 22.56,
+            "400": 12.78,
+            "500": 12.78,
+            "600": 3.01,
+            "700": 2.26,
+            "800": 3.01,
+            "900": 2.26,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 2.1,
+            "2000": 20.28,
+            "2500": 65.03,
+            "3000": 11.89,
+            "3500": 0.0,
+            "4000": 0.7,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

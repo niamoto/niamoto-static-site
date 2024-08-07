@@ -1,0 +1,118 @@
+{
+    "id": 6020,
+    "full_name": "Terminalia rubricarpa",
+    "authors": "Baker f.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1867
+    },
+    "lft": 683,
+    "rght": 684,
+    "level": 2,
+    "parent_id": 1460,
+    "taxon_id": 6020,
+    "total_occurrences_count": 24,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.0573344444, -20.2030177778], \"count\": 1}, {\"coordinates\": [164.0042973, -20.0793627], \"count\": 1}, {\"coordinates\": [164.917945047909, -20.6252443341279], \"count\": 1}, {\"coordinates\": [166.4687889, -22.2687952], \"count\": 2}, {\"coordinates\": [164.03494967035, -20.0860820609971], \"count\": 1}, {\"coordinates\": [164.043242212584, -20.1761848859452], \"count\": 2}, {\"coordinates\": [164.083614259344, -20.3677824509897], \"count\": 1}, {\"coordinates\": [165.37190468586, -20.9203460255734], \"count\": 1}, {\"coordinates\": [165.218243455245, -20.7717175213903], \"count\": 1}, {\"coordinates\": [163.698626293459, -19.8406787640112], \"count\": 1}, {\"coordinates\": [164.034967981625, -20.0861652592412], \"count\": 1}, {\"coordinates\": [163.69693659569, -19.8306913318686], \"count\": 1}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [166.64988708496094, -20.47482681274414], \"count\": 1}, {\"coordinates\": [164.0355028736, -20.4052328647989], \"count\": 1}, {\"coordinates\": [164.987009371702, -20.6454299465244], \"count\": 1}]}",
+    "species_top": {
+        "Terminalia rubricarpa": 24
+    },
+    "um_occurrences_true": 4,
+    "um_occurrences_false": 20,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0,
+                100.0,
+                0.0,
+                20.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                40.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 100.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 77.78,
+            "1500": 0.0,
+            "2000": 22.22,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 41.18,
+            "2": 58.82
+        }
+    }
+}

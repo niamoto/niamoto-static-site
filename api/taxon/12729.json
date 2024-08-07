@@ -1,0 +1,130 @@
+{
+    "id": 12729,
+    "full_name": "Planchonella linggensis",
+    "authors": "(Burck) Pierre",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1248
+    },
+    "lft": 3305,
+    "rght": 3306,
+    "level": 2,
+    "parent_id": 1221,
+    "taxon_id": 12729,
+    "total_occurrences_count": 81,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.0531061111, -20.19342], \"count\": 1}, {\"coordinates\": [164.0581302778, -20.2014133333], \"count\": 1}, {\"coordinates\": [164.0574080556, -20.2006291667], \"count\": 2}, {\"coordinates\": [164.4850889, -20.295975], \"count\": 2}, {\"coordinates\": [164.0262157, -20.2326689], \"count\": 2}, {\"coordinates\": [167.5034699, -22.5931121], \"count\": 2}, {\"coordinates\": [167.9794457, -21.5172018], \"count\": 3}, {\"coordinates\": [164.3659142, -20.3788957], \"count\": 2}, {\"coordinates\": [168.0943668, -21.5702624], \"count\": 2}, {\"coordinates\": [166.9652862548828, -22.173059463500977], \"count\": 2}, {\"coordinates\": [167.26666259765625, -21.0], \"count\": 1}, {\"coordinates\": [167.2364044189453, -20.955970764160156], \"count\": 2}, {\"coordinates\": [167.1041717529297, -21.041667938232422], \"count\": 3}, {\"coordinates\": [167.2364089, -20.9559721], \"count\": 3}, {\"coordinates\": [167.50027465820312, -22.59610939025879], \"count\": 2}, {\"coordinates\": [164.303923901171, -20.4554164409637], \"count\": 1}, {\"coordinates\": [167.18333435058594, -20.833332061767578], \"count\": 2}, {\"coordinates\": [167.3333583, -20.9500233], \"count\": 2}, {\"coordinates\": [164.36277770996094, -20.381940841674805], \"count\": 1}, {\"coordinates\": [166.9652778, -22.1730278], \"count\": 2}, {\"coordinates\": [167.43333435058594, -22.549999237060547], \"count\": 1}, {\"coordinates\": [167.50027465820312, -22.596111297607422], \"count\": 1}, {\"coordinates\": [164.303041, -20.453099], \"count\": 1}, {\"coordinates\": [164.304008, -20.456054], \"count\": 1}, {\"coordinates\": [167.2078685688684, -21.02234496309668], \"count\": 2}, {\"coordinates\": [167.18541581232626, -20.86739957065389], \"count\": 1}, {\"coordinates\": [167.9329952554134, -21.59880782788882], \"count\": 1}, {\"coordinates\": [166.9653, -22.1731], \"count\": 2}, {\"coordinates\": [167.44349023105886, -21.054723230459476], \"count\": 1}, {\"coordinates\": [167.5003, -22.5961], \"count\": 1}, {\"coordinates\": [167.94499818405285, -21.4191027083431], \"count\": 1}, {\"coordinates\": [167.4954425092635, -22.668992912562462], \"count\": 1}, {\"coordinates\": [167.4085214420786, -21.1240266458472], \"count\": 1}, {\"coordinates\": [164.9178280731629, -20.62537882922144], \"count\": 1}, {\"coordinates\": [167.40012549049294, -21.168597175261517], \"count\": 1}, {\"coordinates\": [164.3628, -20.3819], \"count\": 1}, {\"coordinates\": [168.10593131622423, -21.561758071690164], \"count\": 1}, {\"coordinates\": [164.41452321215286, -20.39719893603181], \"count\": 1}]}",
+    "species_top": {
+        "Planchonella linggensis": 81
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 79,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                40.0,
+                50.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                33.33,
+                100.0,
+                100.0,
+                66.67,
+                33.33,
+                66.67,
+                100.0,
+                60.0,
+                25.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 35.0,
+    "dbh_max": 40.0,
+    "dbh_median": 35.0,
+    "dbh_min": 30.0,
+    "height_max": 25.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 50.0,
+            "40": 50.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 37.93,
+            "1500": 50.0,
+            "2000": 1.72,
+            "2500": 10.34,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 9.62,
+            "2": 90.38
+        }
+    }
+}

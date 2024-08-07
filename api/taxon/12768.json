@@ -1,0 +1,130 @@
+{
+    "id": 12768,
+    "full_name": "Pycnandra cylindricarpa",
+    "authors": "Swenson & Munzinger",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5980
+    },
+    "lft": 3383,
+    "rght": 3384,
+    "level": 2,
+    "parent_id": 1281,
+    "taxon_id": 12768,
+    "total_occurrences_count": 83,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7, -20.5], \"count\": 2}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 2}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [165.0069444444, -20.8322222222], \"count\": 1}, {\"coordinates\": [164.6991181, -20.4940243], \"count\": 1}, {\"coordinates\": [164.4379685, -20.3436707], \"count\": 2}, {\"coordinates\": [164.86138888888888, -20.64161111111111], \"count\": 3}, {\"coordinates\": [164.5246221, -20.3836135], \"count\": 1}, {\"coordinates\": [164.5440158, -20.3968687], \"count\": 1}, {\"coordinates\": [164.5314902, -20.3976737], \"count\": 1}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 2}, {\"coordinates\": [164.52000427246094, -20.389999389648438], \"count\": 1}, {\"coordinates\": [164.5267956, -20.3927884], \"count\": 1}, {\"coordinates\": [164.6999969482422, -20.5], \"count\": 6}, {\"coordinates\": [165.00694274902344, -20.83222007751465], \"count\": 2}, {\"coordinates\": [165.23638916015625, -21.014999389648438], \"count\": 1}, {\"coordinates\": [164.52667236328125, -20.391666412353516], \"count\": 1}, {\"coordinates\": [164.52194213867188, -20.410280227661133], \"count\": 7}, {\"coordinates\": [165.22694396972656, -20.801109313964844], \"count\": 3}, {\"coordinates\": [164.54083251953125, -20.399999618530273], \"count\": 2}, {\"coordinates\": [165.3169403076172, -21.153329849243164], \"count\": 4}, {\"coordinates\": [164.53334045410156, -20.399999618530273], \"count\": 2}, {\"coordinates\": [164.52999877929688, -20.399999618530273], \"count\": 1}, {\"coordinates\": [165.3199423, -21.1540391], \"count\": 1}, {\"coordinates\": [164.52139282226562, -20.386669158935547], \"count\": 2}, {\"coordinates\": [165.2303264, -20.7979566], \"count\": 1}, {\"coordinates\": [164.52833557128906, -20.40056037902832], \"count\": 1}, {\"coordinates\": [164.5236053466797, -20.395830154418945], \"count\": 2}, {\"coordinates\": [165.3169403076172, -21.15333366394043], \"count\": 1}, {\"coordinates\": [164.78306579589844, -21.024999618530273], \"count\": 1}, {\"coordinates\": [164.5322265625, -20.39666748046875], \"count\": 1}, {\"coordinates\": [164.701666666667, -20.5119444444444], \"count\": 3}, {\"coordinates\": [164.521944444444, -20.4102777777778], \"count\": 3}, {\"coordinates\": [164.5226746929453, -20.40188401658354], \"count\": 2}, {\"coordinates\": [165.226944444444, -20.8011111111111], \"count\": 1}, {\"coordinates\": [165.236388888889, -21.015], \"count\": 4}, {\"coordinates\": [164.528333333333, -20.4005555555556], \"count\": 1}, {\"coordinates\": [164.521388888889, -20.3866666666667], \"count\": 1}, {\"coordinates\": [164.524444444444, -20.4025], \"count\": 1}, {\"coordinates\": [164.861388888889, -20.6416111111111], \"count\": 4}, {\"coordinates\": [165.316944444444, -21.1533333333333], \"count\": 1}, {\"coordinates\": [164.540833333333, -20.4], \"count\": 1}, {\"coordinates\": [164.523611111111, -20.3958333333333], \"count\": 1}, {\"coordinates\": [164.525, -20.3997222222222], \"count\": 1}]}",
+    "species_top": {
+        "Pycnandra cylindricarpa": 83
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 82,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                100.0,
+                100.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                50.0,
+                20.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                75.0,
+                40.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.78,
+    "dbh_max": 25.0,
+    "dbh_median": 10.5,
+    "dbh_min": 5.4,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 66.67,
+            "20": 33.33,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 17.72,
+            "400": 10.13,
+            "500": 18.99,
+            "600": 16.46,
+            "700": 12.66,
+            "800": 0.0,
+            "900": 10.13,
+            "1000": 10.13,
+            "1100": 0.0,
+            "1200": 3.8
+        },
+        "rainfall": {
+            "1000": 8.54,
+            "1500": 43.9,
+            "2000": 12.2,
+            "2500": 12.2,
+            "3000": 0.0,
+            "3500": 9.76,
+            "4000": 13.41,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

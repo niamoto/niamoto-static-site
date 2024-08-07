@@ -1,0 +1,130 @@
+{
+    "id": 12653,
+    "full_name": "Hooglandia ignambiensis",
+    "authors": "Mcpherson & Lowry",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5870
+    },
+    "lft": 797,
+    "rght": 798,
+    "level": 2,
+    "parent_id": 12652,
+    "taxon_id": 12653,
+    "total_occurrences_count": 27,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.5947222, -20.4597222], \"count\": 2}, {\"coordinates\": [165.0072222222, -20.8344444444], \"count\": 1}, {\"coordinates\": [164.6886389, -20.4862778], \"count\": 2}, {\"coordinates\": [165.07941666666667, -20.823316666666667], \"count\": 1}, {\"coordinates\": [165.007, -20.8358], \"count\": 1}, {\"coordinates\": [165.0794167, -20.8233056], \"count\": 1}, {\"coordinates\": [165.1759033203125, -20.948219299316406], \"count\": 1}, {\"coordinates\": [164.5947265625, -20.459720611572266], \"count\": 5}, {\"coordinates\": [164.681178983053, -20.4879585266113], \"count\": 2}, {\"coordinates\": [165.006896485833, -20.8357574136667], \"count\": 1}, {\"coordinates\": [164.59472, -20.45972], \"count\": 3}, {\"coordinates\": [165.079416666667, -20.8233166666667], \"count\": 1}, {\"coordinates\": [165.0794, -20.8233], \"count\": 1}, {\"coordinates\": [164.6886, -20.4863], \"count\": 2}, {\"coordinates\": [164.5947, -20.4597], \"count\": 2}]}",
+    "species_top": {
+        "Hooglandia ignambiensis": 27
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 27,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0,
+                50.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 18.1,
+    "dbh_max": 18.1,
+    "dbh_median": 18.1,
+    "dbh_min": 18.1,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 3.85,
+            "600": 0.0,
+            "700": 26.92,
+            "800": 15.38,
+            "900": 0.0,
+            "1000": 53.85,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 11.54,
+            "2500": 65.38,
+            "3000": 23.08,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        }
+    }
+}

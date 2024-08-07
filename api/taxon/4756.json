@@ -1,0 +1,130 @@
+{
+    "id": 4756,
+    "full_name": "Phelline brachyphylla",
+    "authors": "Baill.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4415
+    },
+    "lft": 2303,
+    "rght": 2304,
+    "level": 2,
+    "parent_id": 1198,
+    "taxon_id": 4756,
+    "total_occurrences_count": 44,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.8363201, -21.5767944], \"count\": 1}, {\"coordinates\": [165.7174667, -21.60265], \"count\": 1}, {\"coordinates\": [165.3197222, -21.1502778], \"count\": 5}, {\"coordinates\": [165.5606286, -21.4441385], \"count\": 2}, {\"coordinates\": [165.8727778, -21.6211111], \"count\": 1}, {\"coordinates\": [166.0492279, -21.6434021], \"count\": 1}, {\"coordinates\": [165.3539444, -21.0463333], \"count\": 2}, {\"coordinates\": [164.3969349, -20.64778773], \"count\": 1}, {\"coordinates\": [165.300071, -21.197671], \"count\": 2}, {\"coordinates\": [165.32111111111112, -21.151944444444446], \"count\": 3}, {\"coordinates\": [165.21722222222223, -20.817222222222224], \"count\": 3}, {\"coordinates\": [165.8663712, -21.6252617], \"count\": 1}, {\"coordinates\": [165.3451115, -21.0639567], \"count\": 1}, {\"coordinates\": [165.044474601746, -20.9663688023885], \"count\": 1}, {\"coordinates\": [165.9721002, -21.6455413], \"count\": 1}, {\"coordinates\": [165.6616667, -21.5222222], \"count\": 1}, {\"coordinates\": [165.551049995422, -21.4202166557312], \"count\": 1}, {\"coordinates\": [165.54839263333332, -21.42], \"count\": 1}, {\"coordinates\": [165.2101017, -20.9745093], \"count\": 1}, {\"coordinates\": [165.7472192, -21.6545661], \"count\": 1}, {\"coordinates\": [165.4575505, -21.4264237], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 1}, {\"coordinates\": [165.5459833, -21.4161167], \"count\": 1}, {\"coordinates\": [165.8221349, -21.6178463], \"count\": 1}, {\"coordinates\": [165.7408333, -21.61], \"count\": 1}, {\"coordinates\": [164.8568166667, -20.6412666667], \"count\": 1}, {\"coordinates\": [165.3631858, -21.0461573], \"count\": 1}, {\"coordinates\": [165.3211111, -21.1519444], \"count\": 1}, {\"coordinates\": [165.12125231425, -21.1327732960383], \"count\": 1}, {\"coordinates\": [165.558756, -21.4445836], \"count\": 1}, {\"coordinates\": [165.75167698, -21.61722604], \"count\": 1}, {\"coordinates\": [165.73016601, -21.60441597], \"count\": 1}, {\"coordinates\": [165.76231101, -21.55971495], \"count\": 1}]}",
+    "species_top": {
+        "Phelline brachyphylla": 44
+    },
+    "um_occurrences_true": 5,
+    "um_occurrences_false": 39,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                0,
+                0.0,
+                33.33,
+                100.0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                80.0,
+                75.0,
+                0
+            ],
+            "fruiting": [
+                62.5,
+                0,
+                20.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                16.67,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 5.61,
+    "dbh_max": 6.5,
+    "dbh_median": 5.3,
+    "dbh_min": 5.0,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 11.36,
+            "200": 4.55,
+            "300": 13.64,
+            "400": 20.45,
+            "500": 34.09,
+            "600": 9.09,
+            "700": 2.27,
+            "800": 0.0,
+            "900": 4.55,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 9.09,
+            "1500": 34.09,
+            "2000": 36.36,
+            "2500": 18.18,
+            "3000": 0.0,
+            "3500": 2.27,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 3.12,
+            "2": 96.88
+        }
+    }
+}

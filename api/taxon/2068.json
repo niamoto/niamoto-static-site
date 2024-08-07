@@ -1,0 +1,135 @@
+{
+    "id": 2068,
+    "full_name": "Balanops balansae",
+    "authors": "Baill.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 758
+    },
+    "lft": 441,
+    "rght": 442,
+    "level": 2,
+    "parent_id": 381,
+    "taxon_id": 2068,
+    "total_occurrences_count": 61,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.0000469, -21.7545723], \"count\": 1}, {\"coordinates\": [165.8265424, -21.3973133], \"count\": 1}, {\"coordinates\": [165.7504763547, -21.4376642648], \"count\": 13}, {\"coordinates\": [166.3454147, -22.0625724], \"count\": 2}, {\"coordinates\": [166.43659, -21.8596], \"count\": 1}, {\"coordinates\": [166.5317212, -21.9529492], \"count\": 1}, {\"coordinates\": [166.3492461, -22.0604159], \"count\": 1}, {\"coordinates\": [165.7164261, -21.43770023], \"count\": 1}, {\"coordinates\": [165.69699456, -21.43230723], \"count\": 1}, {\"coordinates\": [165.096293, -21.160802], \"count\": 1}, {\"coordinates\": [165.094396, -21.164532], \"count\": 1}, {\"coordinates\": [166.52999877929688, -21.959999084472656], \"count\": 1}, {\"coordinates\": [166.5286102294922, -21.95611000061035], \"count\": 1}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [165.0833282470703, -21.149999618530273], \"count\": 1}, {\"coordinates\": [166.35000610351562, -22.066669464111328], \"count\": 2}, {\"coordinates\": [165.751, -21.4383], \"count\": 1}, {\"coordinates\": [165.99722290039062, -21.76055908203125], \"count\": 2}, {\"coordinates\": [166.50332641601562, -21.9950008392334], \"count\": 2}, {\"coordinates\": [166.4168042, -21.8828044], \"count\": 1}, {\"coordinates\": [165.749966500333, -21.4379405636667], \"count\": 1}, {\"coordinates\": [166.0004251, -21.7574591], \"count\": 3}, {\"coordinates\": [165.64999389648438, -21.51667022705078], \"count\": 1}, {\"coordinates\": [165.01092529296875, -20.893939971923828], \"count\": 1}, {\"coordinates\": [166.5351813, -21.9698552], \"count\": 1}, {\"coordinates\": [165.9986389, -21.7500917], \"count\": 1}, {\"coordinates\": [165.9986114501953, -21.75], \"count\": 1}, {\"coordinates\": [164.9983571, -20.904973], \"count\": 1}, {\"coordinates\": [167.42556762695312, -22.55306053161621], \"count\": 1}, {\"coordinates\": [166.5030059814453, -21.9950008392334], \"count\": 1}, {\"coordinates\": [165.99667358398438, -21.75749969482422], \"count\": 1}, {\"coordinates\": [166.4188916667, -21.8805861111], \"count\": 1}, {\"coordinates\": [166.5330047607422, -21.959400177001953], \"count\": 1}, {\"coordinates\": [166.30058700000015, -21.685430000647656], \"count\": 1}, {\"coordinates\": [166.5327778, -21.9594444], \"count\": 1}, {\"coordinates\": [166.53277587890625, -21.959440231323242], \"count\": 2}, {\"coordinates\": [166.43658447265625, -21.859600067138672], \"count\": 1}, {\"coordinates\": [165.01333618164062, -20.891380310058594], \"count\": 1}, {\"coordinates\": [165.7130556, -21.4408333], \"count\": 1}, {\"coordinates\": [164.85695202, -20.64126796], \"count\": 1}, {\"coordinates\": [166.41850201, -21.88063403], \"count\": 1}, {\"coordinates\": [165.99862599, -21.75152302], \"count\": 1}]}",
+    "species_top": {
+        "Balanops balansae": 61
+    },
+    "um_occurrences_true": 58,
+    "um_occurrences_false": 3,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                100.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                0.0,
+                100.0,
+                0,
+                100.0,
+                0.0,
+                50.0,
+                100.0,
+                66.67,
+                100.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.86,
+    "dbh_max": 23.9,
+    "dbh_median": 15.2,
+    "dbh_min": 10.3,
+    "height_max": 10.0,
+    "wood_density_mean": 0.73,
+    "wood_density_max": 0.74,
+    "wood_density_min": 0.71,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 81.25,
+            "20": 18.75,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 1.69,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 1.69,
+            "700": 10.17,
+            "800": 13.56,
+            "900": 37.29,
+            "1000": 8.47,
+            "1100": 8.47,
+            "1200": 18.64
+        },
+        "rainfall": {
+            "1000": 3.28,
+            "1500": 8.2,
+            "2000": 54.1,
+            "2500": 6.56,
+            "3000": 3.28,
+            "3500": 11.48,
+            "4000": 0.0,
+            "4500": 13.11
+        },
+        "holdridge": {
+            "1": 2.7,
+            "2": 97.3
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 40.0,
+            "3": 60.0
+        }
+    }
+}

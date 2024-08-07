@@ -1,0 +1,135 @@
+{
+    "id": 2929,
+    "full_name": "Dendrocnide latifolia",
+    "authors": "(Gaudich.) Chew",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2279
+    },
+    "lft": 3559,
+    "rght": 3560,
+    "level": 2,
+    "parent_id": 653,
+    "taxon_id": 2929,
+    "total_occurrences_count": 54,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.0049772, -21.0818497], \"count\": 2}, {\"coordinates\": [167.1736362, -20.7009149], \"count\": 1}, {\"coordinates\": [165.7358333, -21.5522222], \"count\": 1}, {\"coordinates\": [164.92463, -20.98198], \"count\": 7}, {\"coordinates\": [164.92438, -20.983092], \"count\": 2}, {\"coordinates\": [165.3060613, -21.02949007], \"count\": 3}, {\"coordinates\": [165.27166666666668, -21.184444444444445], \"count\": 1}, {\"coordinates\": [167.25, -21.0], \"count\": 6}, {\"coordinates\": [167.20790100097656, -20.93798065185547], \"count\": 1}, {\"coordinates\": [165.73582458496094, -21.55221939086914], \"count\": 1}, {\"coordinates\": [165.004123, -21.081768], \"count\": 1}, {\"coordinates\": [167.14999389648438, -20.916667938232422], \"count\": 3}, {\"coordinates\": [165.005007879833, -21.0821152428333], \"count\": 1}, {\"coordinates\": [167.45167541503906, -21.0563907623291], \"count\": 1}, {\"coordinates\": [167.4095371, -21.0916408], \"count\": 1}, {\"coordinates\": [165.73604001, -21.55237199], \"count\": 1}]}",
+    "species_top": {
+        "Dendrocnide latifolia": 54
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 54,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                7.69,
+                25.0,
+                100.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                75.0,
+                50.0,
+                40.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                25.0,
+                0.0,
+                20.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 28.86,
+    "dbh_max": 85.0,
+    "dbh_median": 19.1,
+    "dbh_min": 5.4,
+    "height_max": 20.6,
+    "wood_density_mean": 0.48,
+    "wood_density_max": 0.51,
+    "wood_density_min": 0.43,
+    "bark_thickness_mean": 9.95,
+    "bark_thickness_max": 15.0,
+    "bark_thickness_min": 5.5,
+    "leaf_sla_mean": 30.13,
+    "leaf_sla_max": 46.81,
+    "leaf_sla_min": 21.27,
+    "leaf_area_mean": 150.8,
+    "leaf_area_max": 203.24,
+    "leaf_area_min": 107.94,
+    "leaf_thickness_mean": 231.76,
+    "leaf_thickness_max": 306.02,
+    "leaf_thickness_min": 172.21,
+    "frequencies": {
+        "dbh": {
+            "10": 46.67,
+            "20": 26.67,
+            "30": 6.67,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 20.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 30.0,
+            "200": 20.0,
+            "300": 45.0,
+            "400": 0.0,
+            "500": 5.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 12.12,
+            "1500": 48.48,
+            "2000": 27.27,
+            "2500": 12.12,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 42.86,
+            "2": 50.0,
+            "3": 7.14
+        }
+    }
+}

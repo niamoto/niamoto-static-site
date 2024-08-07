@@ -1,0 +1,131 @@
+{
+    "id": 13632,
+    "full_name": "Pycnandra deplanchei",
+    "authors": "(Baill.) Swenson & Munzinger",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 6447
+    },
+    "lft": 3391,
+    "rght": 3394,
+    "level": 2,
+    "parent_id": 1281,
+    "taxon_id": 13632,
+    "total_occurrences_count": 68,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.7613889, -22.3333333], \"count\": 1}, {\"coordinates\": [166.9051943, -22.1524996], \"count\": 6}, {\"coordinates\": [166.90194702148438, -22.155559539794922], \"count\": 7}, {\"coordinates\": [166.18360900878906, -21.647499084472656], \"count\": 2}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [166.90138244628906, -22.14611053466797], \"count\": 1}, {\"coordinates\": [166.3283233642578, -21.919719696044922], \"count\": 1}, {\"coordinates\": [166.25, -21.96666717529297], \"count\": 1}, {\"coordinates\": [166.27833557128906, -21.937780380249023], \"count\": 1}, {\"coordinates\": [166.1941680908203, -21.59000015258789], \"count\": 2}, {\"coordinates\": [166.32110595703125, -21.928329467773438], \"count\": 2}, {\"coordinates\": [166.3638458251953, -21.728219985961914], \"count\": 1}, {\"coordinates\": [166.00889587402344, -21.483890533447266], \"count\": 1}, {\"coordinates\": [166.31805419921875, -21.88722038269043], \"count\": 1}, {\"coordinates\": [166.4499969482422, -22.100000381469727], \"count\": 1}, {\"coordinates\": [166.75999450683594, -22.329999923706055], \"count\": 1}, {\"coordinates\": [166.24888610839844, -21.972219467163086], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 1}, {\"coordinates\": [166.25, -21.969999313354492], \"count\": 1}, {\"coordinates\": [166.70930555555555, -22.291666666666668], \"count\": 3}, {\"coordinates\": [166.6366487, -22.2724676], \"count\": 1}, {\"coordinates\": [166.7042186, -22.2905383], \"count\": 2}, {\"coordinates\": [166.8941667, -22.1438889], \"count\": 1}, {\"coordinates\": [166.7123333, -22.3039167], \"count\": 1}, {\"coordinates\": [166.8973584, -22.2802817], \"count\": 1}, {\"coordinates\": [166.7347707, -22.2860789], \"count\": 1}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 1}, {\"coordinates\": [166.701111111111, -22.2936111111111], \"count\": 2}, {\"coordinates\": [166.471388888889, -22.0444444444444], \"count\": 1}, {\"coordinates\": [166.74162230668205, -22.340093118708904], \"count\": 1}, {\"coordinates\": [166.62500005, -22.24638891], \"count\": 1}, {\"coordinates\": [166.901944444444, -22.1555555555556], \"count\": 6}, {\"coordinates\": [166.709305555556, -22.2916666666667], \"count\": 2}, {\"coordinates\": [166.71219984646277, -22.295926901702064], \"count\": 1}, {\"coordinates\": [166.894166666667, -22.1438888888889], \"count\": 1}, {\"coordinates\": [166.6297302, -22.2700487712], \"count\": 1}, {\"coordinates\": [166.894166666667, -22.2833333333333], \"count\": 1}, {\"coordinates\": [166.731666666667, -22.2891666666667], \"count\": 1}, {\"coordinates\": [166.76361107, -22.17805556], \"count\": 1}, {\"coordinates\": [166.712222, -22.29527798], \"count\": 4}]}",
+    "species_top": {
+        "Pycnandra deplanchei subsp. floribunda": 41,
+        "Pycnandra deplanchei": 27
+    },
+    "um_occurrences_true": 65,
+    "um_occurrences_false": 3,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                80.0,
+                0.0,
+                50.0,
+                100.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                20.0,
+                0.0,
+                50.0,
+                0.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.92,
+    "dbh_max": 10.2,
+    "dbh_median": 6.35,
+    "dbh_min": 5.0,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 26.09,
+            "200": 28.26,
+            "300": 36.96,
+            "400": 2.17,
+            "500": 0.0,
+            "600": 2.17,
+            "700": 0.0,
+            "800": 2.17,
+            "900": 0.0,
+            "1000": 2.17,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 4.76,
+            "1500": 41.27,
+            "2000": 11.11,
+            "2500": 26.98,
+            "3000": 15.87,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 10.26,
+            "2": 89.74
+        }
+    }
+}

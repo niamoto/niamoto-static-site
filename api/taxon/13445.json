@@ -1,0 +1,135 @@
+{
+    "id": 13445,
+    "full_name": "Weinmannia dichotoma var. monticola",
+    "authors": "(D\u00e4niker) H.C.Hopkins & Pillon",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 8893
+    },
+    "lft": 848,
+    "rght": 849,
+    "level": 3,
+    "parent_id": 6221,
+    "taxon_id": 13445,
+    "total_occurrences_count": 45,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.447889, -22.0883059], \"count\": 1}, {\"coordinates\": [165.8772222, -21.6141667], \"count\": 1}, {\"coordinates\": [164.5213457, -20.4031031], \"count\": 1}, {\"coordinates\": [165.875, -21.6205556], \"count\": 1}, {\"coordinates\": [166.2949444444, -21.7774166667], \"count\": 1}, {\"coordinates\": [166.4833333, -22.035], \"count\": 1}, {\"coordinates\": [166.35, -22.06667], \"count\": 1}, {\"coordinates\": [166.1490614, -21.731483], \"count\": 1}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 1}, {\"coordinates\": [166.5881181, -22.0161533], \"count\": 1}, {\"coordinates\": [166.1410062, -21.7439811], \"count\": 1}, {\"coordinates\": [164.7813056, -20.6167733], \"count\": 1}, {\"coordinates\": [164.5230556, -20.4041667], \"count\": 1}, {\"coordinates\": [166.4288986, -22.0713789], \"count\": 1}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 5}, {\"coordinates\": [165.7795281, -21.6149716], \"count\": 1}, {\"coordinates\": [164.6313889, -20.4530556], \"count\": 1}, {\"coordinates\": [165.0534472, -20.8467444], \"count\": 1}, {\"coordinates\": [164.5509893, -20.4136256], \"count\": 1}, {\"coordinates\": [166.4730153, -22.0339121], \"count\": 1}, {\"coordinates\": [164.7700977, -20.5887274], \"count\": 1}, {\"coordinates\": [165.9633611, -21.6034167], \"count\": 1}, {\"coordinates\": [164.8604958, -20.6369621], \"count\": 1}, {\"coordinates\": [165.9398612, -21.5931635], \"count\": 1}, {\"coordinates\": [164.8601667, -20.6428611], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 1}, {\"coordinates\": [165.4575505, -21.4264237], \"count\": 1}, {\"coordinates\": [166.5219632, -22.0354611], \"count\": 1}, {\"coordinates\": [165.7504763547, -21.4376642648], \"count\": 9}, {\"coordinates\": [164.77608333333333, -20.6125], \"count\": 1}, {\"coordinates\": [164.86911111111112, -20.64027777777778], \"count\": 1}, {\"coordinates\": [164.677993, -20.540676], \"count\": 1}, {\"coordinates\": [166.50900905, -21.96551597], \"count\": 1}]}",
+    "species_top": {
+        "Weinmannia dichotoma var. monticola": 45
+    },
+    "um_occurrences_true": 26,
+    "um_occurrences_false": 19,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                100.0,
+                66.67,
+                75.0,
+                83.33,
+                23.08,
+                100.0,
+                66.67,
+                0,
+                12.5,
+                0.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                16.67,
+                7.69,
+                0.0,
+                0.0,
+                0,
+                25.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 18.48,
+    "dbh_max": 40.0,
+    "dbh_median": 14.7,
+    "dbh_min": 10.3,
+    "height_max": 15.0,
+    "wood_density_mean": 0.68,
+    "wood_density_max": 0.79,
+    "wood_density_min": 0.62,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 57.14,
+            "20": 35.71,
+            "30": 0.0,
+            "40": 7.14,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 6.67,
+            "400": 0.0,
+            "500": 4.44,
+            "600": 22.22,
+            "700": 8.89,
+            "800": 11.11,
+            "900": 26.67,
+            "1000": 15.56,
+            "1100": 0.0,
+            "1200": 4.44
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 17.78,
+            "2000": 35.56,
+            "2500": 26.67,
+            "3000": 6.67,
+            "3500": 11.11,
+            "4000": 2.22,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 11.11,
+            "2": 66.67,
+            "3": 22.22
+        }
+    }
+}

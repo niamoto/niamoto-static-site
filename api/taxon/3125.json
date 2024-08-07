@@ -1,0 +1,118 @@
+{
+    "id": 3125,
+    "full_name": "Elaeocarpus castanaefolius",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3646
+    },
+    "lft": 1003,
+    "rght": 1004,
+    "level": 2,
+    "parent_id": 714,
+    "taxon_id": 3125,
+    "total_occurrences_count": 19,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5113889, -22.1816667], \"count\": 1}, {\"coordinates\": [166.52, -22.1920278], \"count\": 1}, {\"coordinates\": [166.5201194, -22.1900472], \"count\": 1}, {\"coordinates\": [166.5084848, -22.1787788], \"count\": 1}, {\"coordinates\": [166.5212258, -22.1953864], \"count\": 1}, {\"coordinates\": [166.5183275, -22.1958116], \"count\": 1}, {\"coordinates\": [166.5053, -22.1819], \"count\": 1}, {\"coordinates\": [166.52290104, -22.18459897], \"count\": 1}, {\"coordinates\": [166.5114, -22.1817], \"count\": 1}, {\"coordinates\": [166.52392896, -22.18556301], \"count\": 1}, {\"coordinates\": [166.50528, -22.18194], \"count\": 1}, {\"coordinates\": [166.52, -22.192], \"count\": 1}, {\"coordinates\": [166.52251903, -22.181908], \"count\": 1}, {\"coordinates\": [166.51551233935956, -22.184448404807032], \"count\": 1}, {\"coordinates\": [166.5201, -22.19], \"count\": 1}, {\"coordinates\": [166.515, -22.19889], \"count\": 2}, {\"coordinates\": [166.515, -22.1989], \"count\": 1}, {\"coordinates\": [166.49722, -22.18194], \"count\": 1}]}",
+    "species_top": {
+        "Elaeocarpus castanaefolius": 19
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 16,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                50.0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                100.0,
+                0.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 5.26,
+            "300": 15.79,
+            "400": 31.58,
+            "500": 31.58,
+            "600": 15.79,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 89.47,
+            "2000": 10.53,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

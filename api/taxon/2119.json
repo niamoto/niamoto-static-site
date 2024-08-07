@@ -1,0 +1,130 @@
+{
+    "id": 2119,
+    "full_name": "Beauprea asplenioides",
+    "authors": "Schltr.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4468
+    },
+    "lft": 2611,
+    "rght": 2612,
+    "level": 2,
+    "parent_id": 391,
+    "taxon_id": 2119,
+    "total_occurrences_count": 22,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5359004, -22.1784091], \"count\": 3}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 1}, {\"coordinates\": [166.89711111111112, -22.154944444444446], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 1}, {\"coordinates\": [166.6349651, -22.117185], \"count\": 2}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 1}, {\"coordinates\": [166.2532313, -21.6701086], \"count\": 1}, {\"coordinates\": [166.5380556, -22.1775], \"count\": 1}, {\"coordinates\": [166.9565116, -22.3580977], \"count\": 1}, {\"coordinates\": [166.512059597267, -22.0618417617667], \"count\": 1}, {\"coordinates\": [166.6232222, -22.1943889], \"count\": 1}, {\"coordinates\": [166.6499751, -22.115439], \"count\": 1}, {\"coordinates\": [166.96460054138817, -22.276472070269556], \"count\": 1}, {\"coordinates\": [166.68333329, -22.19999999], \"count\": 1}, {\"coordinates\": [166.6803, -21.9977], \"count\": 2}, {\"coordinates\": [166.32002900000015, -21.68192800064764], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 1}]}",
+    "species_top": {
+        "Beauprea asplenioides": 22
+    },
+    "um_occurrences_true": 21,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                75.0,
+                0,
+                0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                33.33,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                25.0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.3,
+    "dbh_max": 19.4,
+    "dbh_median": 7.4,
+    "dbh_min": 7.0,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 4.76,
+            "200": 23.81,
+            "300": 33.33,
+            "400": 14.29,
+            "500": 4.76,
+            "600": 4.76,
+            "700": 4.76,
+            "800": 4.76,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 4.76,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 4.55,
+            "2000": 31.82,
+            "2500": 40.91,
+            "3000": 22.73,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 4563,
+    "full_name": "Oxera baladica subsp. nuda",
+    "authors": "(Virot) deKok",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 3961
+    },
+    "lft": 1366,
+    "rght": 1367,
+    "level": 3,
+    "parent_id": 4564,
+    "taxon_id": 4563,
+    "total_occurrences_count": 3,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4119277, -21.8878731], \"count\": 1}, {\"coordinates\": [166.253075, -21.9685722], \"count\": 1}, {\"coordinates\": [166.3544258, -21.9331227], \"count\": 1}]}",
+    "species_top": {
+        "Oxera baladica subsp. nuda": 3
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.5,
+    "dbh_max": 10.0,
+    "dbh_median": 7.5,
+    "dbh_min": 5.0,
+    "height_max": 4.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 100.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 50.0,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 50.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 50.0,
+            "2": 50.0
+        }
+    }
+}

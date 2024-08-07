@@ -1,0 +1,130 @@
+{
+    "id": 4235,
+    "full_name": "Melodinus aeneus",
+    "authors": "Baill.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 703
+    },
+    "lft": 139,
+    "rght": 140,
+    "level": 2,
+    "parent_id": 1046,
+    "taxon_id": 4235,
+    "total_occurrences_count": 40,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}, {\"coordinates\": [164.19475877, -20.44299963], \"count\": 1}, {\"coordinates\": [166.60545555555555, -22.130469444444444], \"count\": 2}, {\"coordinates\": [164.5262194, -20.4004611], \"count\": 1}, {\"coordinates\": [164.208631, -20.4568555], \"count\": 2}, {\"coordinates\": [164.4215898, -20.3005713], \"count\": 1}, {\"coordinates\": [164.524775, -20.401675], \"count\": 1}, {\"coordinates\": [166.0555556, -21.6322222], \"count\": 2}, {\"coordinates\": [165.5220606, -21.4310086], \"count\": 1}, {\"coordinates\": [164.204413, -20.4599982], \"count\": 1}, {\"coordinates\": [165.4650647, -21.4211313], \"count\": 1}, {\"coordinates\": [165.2396196, -21.0120845], \"count\": 3}, {\"coordinates\": [166.792291, -22.1668713], \"count\": 1}, {\"coordinates\": [164.4385111, -20.3024528], \"count\": 1}, {\"coordinates\": [164.2026525, -20.4661233], \"count\": 1}, {\"coordinates\": [165.2313889, -21.0047222], \"count\": 1}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 1}, {\"coordinates\": [165.777912046833, -21.5565061661667], \"count\": 1}, {\"coordinates\": [165.5402831, -21.3799], \"count\": 2}, {\"coordinates\": [164.4379685, -20.3436707], \"count\": 1}, {\"coordinates\": [165.2909623, -20.9468279], \"count\": 1}, {\"coordinates\": [164.527233346303, -20.4002799987793], \"count\": 1}, {\"coordinates\": [164.5230556, -20.4041667], \"count\": 1}, {\"coordinates\": [166.6734935, -22.2085982], \"count\": 1}, {\"coordinates\": [165.300278, -21.1806091], \"count\": 1}, {\"coordinates\": [165.8458155, -21.5879801], \"count\": 1}, {\"coordinates\": [165.7732106, -21.6089248], \"count\": 1}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 1}, {\"coordinates\": [166.35931298, -22.05976203], \"count\": 1}, {\"coordinates\": [164.6779932, -20.54067599], \"count\": 1}, {\"coordinates\": [165.72495705, -21.60223596], \"count\": 1}, {\"coordinates\": [166.89314208, -22.16459943], \"count\": 1}]}",
+    "species_top": {
+        "Melodinus aeneus": 40
+    },
+    "um_occurrences_true": 13,
+    "um_occurrences_false": 27,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                0.0,
+                50.0,
+                0.0,
+                0.0,
+                42.86,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                16.67,
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                57.14,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.95,
+    "dbh_max": 9.5,
+    "dbh_median": 7.95,
+    "dbh_min": 6.4,
+    "height_max": null,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 5.41,
+            "200": 0.0,
+            "300": 10.81,
+            "400": 5.41,
+            "500": 35.14,
+            "600": 21.62,
+            "700": 8.11,
+            "800": 10.81,
+            "900": 2.7,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 2.63,
+            "1500": 42.11,
+            "2000": 23.68,
+            "2500": 28.95,
+            "3000": 2.63,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "id": 1034,
+    "full_name": "Medicosma",
+    "authors": "Hook.f.",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 2578
+    },
+    "lft": 2964,
+    "rght": 2967,
+    "level": 1,
+    "parent_id": 190,
+    "taxon_id": 1034,
+    "total_occurrences_count": 89,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.05, -21.61667], \"count\": 1}, {\"coordinates\": [165.612023, -21.206084], \"count\": 1}, {\"coordinates\": [166.912967, -22.104205], \"count\": 2}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [166.015393083294, -21.497011534373], \"count\": 1}, {\"coordinates\": [164.2305292, -20.4790367], \"count\": 1}, {\"coordinates\": [165.154587496167, -21.3028668333333], \"count\": 1}, {\"coordinates\": [165.0208333, -21.1922222], \"count\": 1}, {\"coordinates\": [165.7119529, -21.3047226], \"count\": 2}, {\"coordinates\": [165.7252778, -21.3325], \"count\": 1}, {\"coordinates\": [165.693750561833, -21.3484517965], \"count\": 1}, {\"coordinates\": [164.51667, -20.4], \"count\": 1}, {\"coordinates\": [164.818879, -21.031284], \"count\": 1}, {\"coordinates\": [165.093504720837, -20.9756634460217], \"count\": 1}, {\"coordinates\": [165.149425000085, -21.2624499999152], \"count\": 1}, {\"coordinates\": [163.6783333, -19.7497222], \"count\": 2}, {\"coordinates\": [165.433502197266, -21.2500221411387], \"count\": 1}, {\"coordinates\": [165.0178877, -20.9753713], \"count\": 1}, {\"coordinates\": [165.096600816667, -21.1571808833333], \"count\": 1}, {\"coordinates\": [164.8259205, -21.0125548], \"count\": 1}, {\"coordinates\": [165.7251230556, -21.3322225], \"count\": 1}, {\"coordinates\": [165.3120778, -21.0848528], \"count\": 1}, {\"coordinates\": [165.0897938, -21.1804082], \"count\": 1}, {\"coordinates\": [165.058321964741, -21.2308895111084], \"count\": 1}, {\"coordinates\": [164.8610379, -21.0583309], \"count\": 1}, {\"coordinates\": [165.095984099706, -21.3136816279093], \"count\": 1}, {\"coordinates\": [165.1544956472, -21.3026325423333], \"count\": 1}, {\"coordinates\": [165.69345, -21.34855], \"count\": 1}, {\"coordinates\": [165.2393333333, -21.3576166667], \"count\": 1}, {\"coordinates\": [165.694, -21.3484], \"count\": 1}, {\"coordinates\": [165.78592962585384, -21.43562997755494], \"count\": 1}, {\"coordinates\": [165.4150083, -21.2548361], \"count\": 1}, {\"coordinates\": [165.7875604927539, -21.43912690755818], \"count\": 1}, {\"coordinates\": [165.7780137564986, -21.436433550612012], \"count\": 1}, {\"coordinates\": [164.882790756226, -21.179327138265], \"count\": 1}, {\"coordinates\": [165.093740691763, -21.2961999290854], \"count\": 1}, {\"coordinates\": [165.096220866667, -21.1573667166667], \"count\": 1}, {\"coordinates\": [165.523074286325, -21.171809282757], \"count\": 1}, {\"coordinates\": [163.8142582, -20.041614], \"count\": 1}, {\"coordinates\": [166.897516695658, -22.2992650032043], \"count\": 1}, {\"coordinates\": [165.09637002, -21.16897402], \"count\": 1}, {\"coordinates\": [166.6686064, -22.2114812], \"count\": 1}, {\"coordinates\": [166.7165318, -22.1612131], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 3}, {\"coordinates\": [166.7737973, -22.28872], \"count\": 2}, {\"coordinates\": [166.6547527778, -21.9618472222], \"count\": 1}, {\"coordinates\": [166.8412307, -22.2229916], \"count\": 1}, {\"coordinates\": [166.369073, -22.073742], \"count\": 2}, {\"coordinates\": [166.897499974569, -22.2993333180745], \"count\": 1}, {\"coordinates\": [166.6957533, -22.1694831], \"count\": 1}, {\"coordinates\": [166.8112215, -22.2056512], \"count\": 2}, {\"coordinates\": [166.897508347829, -22.2992666562398], \"count\": 1}, {\"coordinates\": [165.5219444444, -21.17015], \"count\": 1}, {\"coordinates\": [166.9720839059596, -22.277177627065207], \"count\": 1}, {\"coordinates\": [166.8, -22.31667], \"count\": 1}, {\"coordinates\": [166.9528526, -22.2698698], \"count\": 1}, {\"coordinates\": [165.7533, -21.4445], \"count\": 1}, {\"coordinates\": [165.7538888889, -21.4444444444], \"count\": 1}, {\"coordinates\": [166.76689700000057, -22.161135000659154], \"count\": 1}, {\"coordinates\": [166.80289900000065, -22.31222700066284], \"count\": 1}, {\"coordinates\": [166.7281112, -22.2056172], \"count\": 1}, {\"coordinates\": [166.8396028, -22.1824083], \"count\": 1}, {\"coordinates\": [166.99057501, -22.28476898], \"count\": 1}, {\"coordinates\": [166.55548298, -22.17075496], \"count\": 1}, {\"coordinates\": [166.99265896, -22.26787599], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 2}, {\"coordinates\": [164.79636017, -21.01545316], \"count\": 1}, {\"coordinates\": [166.76361107, -22.17805556], \"count\": 1}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 1}]}",
+    "species_top": {
+        "Medicosma leratii": 44
+    },
+    "um_occurrences_true": 72,
+    "um_occurrences_false": 17,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                25.0,
+                50.0,
+                61.54,
+                100.0,
+                66.67,
+                42.86,
+                33.33,
+                100.0,
+                50.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                50.0,
+                75.0,
+                50.0,
+                30.77,
+                33.33,
+                33.33,
+                71.43,
+                33.33,
+                20.0,
+                25.0,
+                33.33
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 3.5,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 26.09,
+            "200": 17.39,
+            "300": 14.49,
+            "400": 13.04,
+            "500": 7.25,
+            "600": 8.7,
+            "700": 4.35,
+            "800": 1.45,
+            "900": 4.35,
+            "1000": 1.45,
+            "1100": 1.45,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 8.97,
+            "1500": 24.36,
+            "2000": 34.62,
+            "2500": 29.49,
+            "3000": 2.56,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 4.0,
+            "2": 96.0
+        }
+    }
+}

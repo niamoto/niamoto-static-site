@@ -1,0 +1,118 @@
+{
+    "id": 5895,
+    "full_name": "Syzygium micans",
+    "authors": "Brongn. & Gris",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4278
+    },
+    "lft": 2057,
+    "rght": 2058,
+    "level": 2,
+    "parent_id": 1439,
+    "taxon_id": 5895,
+    "total_occurrences_count": 20,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.53333, -20.4], \"count\": 1}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 2}, {\"coordinates\": [164.7444444, -20.6022222], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 2}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 2}, {\"coordinates\": [164.70805216906447, -20.482794025395993], \"count\": 1}, {\"coordinates\": [164.52194213867188, -20.410280227661133], \"count\": 2}, {\"coordinates\": [165.26666259765625, -20.883333206176758], \"count\": 1}, {\"coordinates\": [165.0149493, -20.9663606], \"count\": 1}, {\"coordinates\": [165.5, -21.5], \"count\": 1}, {\"coordinates\": [164.52194, -20.41028], \"count\": 2}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 1}, {\"coordinates\": [164.5213457, -20.4031031], \"count\": 1}, {\"coordinates\": [166.41069, -21.88399], \"count\": 1}, {\"coordinates\": [165.04924416952835, -20.985407877789616], \"count\": 1}]}",
+    "species_top": {
+        "Syzygium micans": 20
+    },
+    "um_occurrences_true": 4,
+    "um_occurrences_false": 16,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 25.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 11.11,
+            "200": 5.56,
+            "300": 22.22,
+            "400": 5.56,
+            "500": 16.67,
+            "600": 22.22,
+            "700": 5.56,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 11.11
+        },
+        "rainfall": {
+            "1000": 15.0,
+            "1500": 60.0,
+            "2000": 0.0,
+            "2500": 10.0,
+            "3000": 0.0,
+            "3500": 10.0,
+            "4000": 5.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 6.67,
+            "2": 93.33
+        }
+    }
+}

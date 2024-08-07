@@ -1,0 +1,130 @@
+{
+    "id": 13573,
+    "full_name": "Homalanthus nutans",
+    "authors": "(G.Forst.) Guillemin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1965
+    },
+    "lft": 1177,
+    "rght": 1178,
+    "level": 2,
+    "parent_id": 13571,
+    "taxon_id": 13573,
+    "total_occurrences_count": 58,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5366766, -22.1922361], \"count\": 1}, {\"coordinates\": [165.8458155, -21.5879801], \"count\": 1}, {\"coordinates\": [166.4454743, -22.0828451], \"count\": 1}, {\"coordinates\": [165.04017572, -21.33598241], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 1}, {\"coordinates\": [166.5500030517578, -22.166667938232422], \"count\": 1}, {\"coordinates\": [167.1624877, -20.779905], \"count\": 1}, {\"coordinates\": [165.0813889, -20.9197222], \"count\": 1}, {\"coordinates\": [166.8790385, -22.148921], \"count\": 1}, {\"coordinates\": [166.53334045410156, -22.166667938232422], \"count\": 5}, {\"coordinates\": [166.5333251953125, -22.195280075073242], \"count\": 2}, {\"coordinates\": [164.93333435058594, -20.666667938232422], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 2}, {\"coordinates\": [164.5036163330078, -20.31110954284668], \"count\": 2}, {\"coordinates\": [164.78334045410156, -20.566667556762695], \"count\": 2}, {\"coordinates\": [167.1272902, -20.9052864], \"count\": 1}, {\"coordinates\": [166.87777709960938, -22.063329696655273], \"count\": 1}, {\"coordinates\": [164.90028381347656, -20.67806053161621], \"count\": 1}, {\"coordinates\": [165.85000610351562, -21.600000381469727], \"count\": 1}, {\"coordinates\": [166.9067677, -22.1559741], \"count\": 1}, {\"coordinates\": [166.908741, -22.151929], \"count\": 1}, {\"coordinates\": [167.9794457, -21.5172018], \"count\": 1}, {\"coordinates\": [166.9055633544922, -22.155000686645508], \"count\": 1}]}",
+    "species_top": {
+        "Homalanthus nutans": 58
+    },
+    "um_occurrences_true": 15,
+    "um_occurrences_false": 43,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                0.0,
+                0,
+                100.0,
+                80.0,
+                83.33,
+                50.0,
+                33.33,
+                60.0,
+                33.33,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                100.0,
+                0,
+                0.0,
+                20.0,
+                33.33,
+                50.0,
+                66.67,
+                60.0,
+                66.67,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 5.0,
+    "dbh_max": 5.0,
+    "dbh_median": 5.0,
+    "dbh_min": 5.0,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 36.36,
+            "200": 9.09,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 13.64,
+            "600": 9.09,
+            "700": 27.27,
+            "800": 0.0,
+            "900": 4.55,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 43.33,
+            "2000": 33.33,
+            "2500": 13.33,
+            "3000": 3.33,
+            "3500": 6.67,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 4.35,
+            "2": 95.65
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "id": 5040,
+    "full_name": "Pittosporum echinatum",
+    "authors": "Brongn. & Gris",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4438
+    },
+    "lft": 2403,
+    "rght": 2404,
+    "level": 2,
+    "parent_id": 1220,
+    "taxon_id": 5040,
+    "total_occurrences_count": 122,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.19886801, -20.44669029], \"count\": 1}, {\"coordinates\": [164.19024297, -20.46189168], \"count\": 2}, {\"coordinates\": [164.21235601, -20.46770472], \"count\": 1}, {\"coordinates\": [164.21376404, -20.46872389], \"count\": 1}, {\"coordinates\": [164.23150298, -20.4739806], \"count\": 1}, {\"coordinates\": [164.78291371, -20.95724365], \"count\": 1}, {\"coordinates\": [164.19587098, -20.43962186], \"count\": 1}, {\"coordinates\": [164.19913297, -20.44493418], \"count\": 1}, {\"coordinates\": [164.21318102, -20.47077277], \"count\": 1}, {\"coordinates\": [164.21349304, -20.47436112], \"count\": 1}, {\"coordinates\": [164.19475877, -20.44299963], \"count\": 1}, {\"coordinates\": [164.21665954589844, -20.46666717529297], \"count\": 1}, {\"coordinates\": [164.7927778, -20.5577778], \"count\": 1}, {\"coordinates\": [164.2163806, -20.460631], \"count\": 1}, {\"coordinates\": [164.1999969482422, -20.5], \"count\": 2}, {\"coordinates\": [164.21310424804688, -20.463640213012695], \"count\": 4}, {\"coordinates\": [164.5036163330078, -20.31110954284668], \"count\": 3}, {\"coordinates\": [164.19943237304688, -20.46916961669922], \"count\": 1}, {\"coordinates\": [164.3834836, -20.4955719], \"count\": 2}, {\"coordinates\": [164.2093597222, -20.4524966667], \"count\": 2}, {\"coordinates\": [164.86521911621094, -20.63282012939453], \"count\": 1}, {\"coordinates\": [164.20208740234375, -20.460329055786133], \"count\": 5}, {\"coordinates\": [164.2130778, -20.4580833], \"count\": 1}, {\"coordinates\": [164.8888937, -20.6359844], \"count\": 1}, {\"coordinates\": [164.21307373046875, -20.45810890197754], \"count\": 1}, {\"coordinates\": [164.1960922, -20.442675], \"count\": 1}, {\"coordinates\": [164.208631, -20.4568555], \"count\": 6}, {\"coordinates\": [164.19277954101562, -20.445560455322266], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.48988342285156, -20.34259033203125], \"count\": 3}, {\"coordinates\": [164.88555908203125, -20.63888931274414], \"count\": 2}, {\"coordinates\": [164.7949981689453, -20.558610916137695], \"count\": 1}, {\"coordinates\": [164.2130584716797, -20.458059310913086], \"count\": 2}, {\"coordinates\": [164.2053603, -20.4573274], \"count\": 1}, {\"coordinates\": [164.196263, -20.4623889], \"count\": 1}, {\"coordinates\": [164.19305419921875, -20.465280532836914], \"count\": 2}, {\"coordinates\": [164.21665954589844, -20.466659545898438], \"count\": 1}, {\"coordinates\": [164.49000549316406, -20.342500686645508], \"count\": 3}, {\"coordinates\": [164.7929456, -20.55802267], \"count\": 1}, {\"coordinates\": [164.20193481445312, -20.46027946472168], \"count\": 1}, {\"coordinates\": [164.48916625976562, -20.35638999938965], \"count\": 1}, {\"coordinates\": [164.4931576, -20.3395803], \"count\": 2}, {\"coordinates\": [164.19297790527344, -20.465389251708984], \"count\": 2}, {\"coordinates\": [164.1999969482422, -20.450000762939453], \"count\": 5}, {\"coordinates\": [164.20535278320312, -20.45985984802246], \"count\": 2}, {\"coordinates\": [164.3791667, -20.4954444], \"count\": 1}, {\"coordinates\": [164.19570071344185, -20.461032590937567], \"count\": 1}, {\"coordinates\": [164.7982804, -20.555461], \"count\": 1}, {\"coordinates\": [164.5012746, -20.3127728], \"count\": 1}, {\"coordinates\": [164.77557373046875, -20.581300735473633], \"count\": 1}, {\"coordinates\": [164.3800048828125, -20.497499465942383], \"count\": 1}, {\"coordinates\": [164.79313882192, -20.5580642064412], \"count\": 1}, {\"coordinates\": [164.3801361, -20.4973889], \"count\": 1}, {\"coordinates\": [164.4851605, -20.3416254], \"count\": 1}, {\"coordinates\": [164.481944444444, -20.3447222222222], \"count\": 1}, {\"coordinates\": [164.380148, -20.497445], \"count\": 1}, {\"coordinates\": [164.383205, -20.497961], \"count\": 1}, {\"coordinates\": [164.379394, -20.495469], \"count\": 2}, {\"coordinates\": [164.79746, -20.55557], \"count\": 1}, {\"coordinates\": [164.382698, -20.496451], \"count\": 1}, {\"coordinates\": [164.205277777778, -20.46], \"count\": 7}, {\"coordinates\": [164.37971913759932, -20.494804679098227], \"count\": 1}, {\"coordinates\": [164.795, -20.5586111111111], \"count\": 2}, {\"coordinates\": [164.49, -20.3425], \"count\": 2}, {\"coordinates\": [164.502888, -20.382641], \"count\": 1}, {\"coordinates\": [164.885555555556, -20.6388888888889], \"count\": 1}, {\"coordinates\": [164.509305, -20.370288], \"count\": 1}, {\"coordinates\": [164.77557, -20.5813], \"count\": 1}, {\"coordinates\": [164.201944444444, -20.4602777777778], \"count\": 2}, {\"coordinates\": [164.508712, -20.370232], \"count\": 1}, {\"coordinates\": [164.508982, -20.370473], \"count\": 1}, {\"coordinates\": [164.683495, -20.470975], \"count\": 1}, {\"coordinates\": [164.192777777778, -20.4455555555556], \"count\": 1}, {\"coordinates\": [164.379616, -20.49535], \"count\": 1}, {\"coordinates\": [164.386001333, -20.4916728166], \"count\": 1}, {\"coordinates\": [164.382715, -20.496458], \"count\": 1}, {\"coordinates\": [164.193055555556, -20.4652777777778], \"count\": 2}, {\"coordinates\": [164.20936, -20.452497], \"count\": 1}, {\"coordinates\": [164.792777777778, -20.5577777777778], \"count\": 1}]}",
+    "species_top": {
+        "Pittosporum echinatum": 122
+    },
+    "um_occurrences_true": 67,
+    "um_occurrences_false": 55,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                50.0,
+                0.0,
+                0.0,
+                0,
+                66.67,
+                75.0,
+                0,
+                0.0,
+                33.33,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0.0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                0.0,
+                25.0,
+                0,
+                100.0,
+                66.67,
+                100.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": null,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 15.65,
+            "200": 4.35,
+            "300": 23.48,
+            "400": 17.39,
+            "500": 35.65,
+            "600": 0.87,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 2.61
+        },
+        "rainfall": {
+            "1000": 13.93,
+            "1500": 63.11,
+            "2000": 8.2,
+            "2500": 4.1,
+            "3000": 8.2,
+            "3500": 1.64,
+            "4000": 0.82,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 13.46,
+            "2": 86.54
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 12764,
+    "full_name": "Pycnandra glaberrima",
+    "authors": "Swenson & Munzinger",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5981
+    },
+    "lft": 3405,
+    "rght": 3406,
+    "level": 2,
+    "parent_id": 1281,
+    "taxon_id": 12764,
+    "total_occurrences_count": 58,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.2444444, -21.0019444], \"count\": 1}, {\"coordinates\": [165.1911111, -20.8186111], \"count\": 1}, {\"coordinates\": [165.2430556, -21.0127778], \"count\": 1}, {\"coordinates\": [165.2300074, -21.019814], \"count\": 1}, {\"coordinates\": [165.3066239, -21.1762872], \"count\": 2}, {\"coordinates\": [165.2396196, -21.0120845], \"count\": 1}, {\"coordinates\": [165.830782, -21.5739157], \"count\": 1}, {\"coordinates\": [165.9681084, -21.5928122], \"count\": 1}, {\"coordinates\": [165.1883333, -20.8194444], \"count\": 1}, {\"coordinates\": [165.765714, -21.621016], \"count\": 4}, {\"coordinates\": [165.765907, -21.620834], \"count\": 1}, {\"coordinates\": [165.30332946777344, -21.179443359375], \"count\": 1}, {\"coordinates\": [165.96499633789062, -21.5958309173584], \"count\": 4}, {\"coordinates\": [165.18832397460938, -20.819440841674805], \"count\": 2}, {\"coordinates\": [165.30332946777344, -21.179439544677734], \"count\": 5}, {\"coordinates\": [165.82749938964844, -21.576940536499023], \"count\": 2}, {\"coordinates\": [165.19000244140625, -20.81999969482422], \"count\": 2}, {\"coordinates\": [165.22999572753906, -21.260000228881836], \"count\": 1}, {\"coordinates\": [165.3025806, -21.1776111], \"count\": 1}, {\"coordinates\": [165.1911163330078, -20.8186092376709], \"count\": 1}, {\"coordinates\": [165.1911163330078, -20.81861114501953], \"count\": 1}, {\"coordinates\": [165.30250549316406, -21.177499771118164], \"count\": 1}, {\"coordinates\": [165.23361206054688, -21.2680606842041], \"count\": 1}, {\"coordinates\": [165.18833923339844, -20.81944465637207], \"count\": 1}, {\"coordinates\": [164.9939694, -20.8045917], \"count\": 1}, {\"coordinates\": [164.3800048828125, -20.497499465942383], \"count\": 1}, {\"coordinates\": [165.24444580078125, -21.001943588256836], \"count\": 1}, {\"coordinates\": [165.24000549316406, -21.0], \"count\": 1}, {\"coordinates\": [164.993972142537, -20.8049999872843], \"count\": 1}, {\"coordinates\": [165.24400329589844, -21.00189971923828], \"count\": 1}, {\"coordinates\": [165.24000549316406, -21.010000228881836], \"count\": 1}, {\"coordinates\": [165.303333333333, -21.1794444444444], \"count\": 2}, {\"coordinates\": [165.965, -21.5958333333333], \"count\": 1}, {\"coordinates\": [165.302580555545, -21.1776250002119], \"count\": 1}, {\"coordinates\": [165.8275, -21.5769444444444], \"count\": 1}, {\"coordinates\": [165.243055555556, -21.0127777777778], \"count\": 1}, {\"coordinates\": [165.229722222222, -21.02], \"count\": 1}, {\"coordinates\": [165.244444444444, -21.0019444444444], \"count\": 1}, {\"coordinates\": [165.236388888889, -21.015], \"count\": 1}]}",
+    "species_top": {
+        "Pycnandra glaberrima": 58
+    },
+    "um_occurrences_true": 6,
+    "um_occurrences_false": 52,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0,
+                100.0,
+                0,
+                100.0,
+                0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                14.29,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 33.91,
+    "dbh_max": 65.0,
+    "dbh_median": 30.0,
+    "dbh_min": 10.8,
+    "height_max": 25.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 11.11,
+            "20": 33.33,
+            "30": 22.22,
+            "40": 22.22,
+            "50": 11.11,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 3.85,
+            "200": 5.77,
+            "300": 5.77,
+            "400": 15.38,
+            "500": 32.69,
+            "600": 11.54,
+            "700": 25.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 5.56,
+            "1500": 12.96,
+            "2000": 37.04,
+            "2500": 44.44,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 5.0,
+            "2": 95.0
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "id": 3455,
+    "full_name": "Garuga floribunda",
+    "authors": "Decne.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1840
+    },
+    "lft": 501,
+    "rght": 502,
+    "level": 2,
+    "parent_id": 794,
+    "taxon_id": 3455,
+    "total_occurrences_count": 7,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.0262157, -20.2326689], \"count\": 1}, {\"coordinates\": [165.63333129882812, -21.483333587646484], \"count\": 1}]}",
+    "species_top": {
+        "Garuga floribunda": 7
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 6,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                50.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 100.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 100.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

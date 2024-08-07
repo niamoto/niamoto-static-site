@@ -1,0 +1,118 @@
+{
+    "id": 3228,
+    "full_name": "Erythrina fusca",
+    "authors": "Lour.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4383
+    },
+    "lft": 1291,
+    "rght": 1292,
+    "level": 2,
+    "parent_id": 750,
+    "taxon_id": 3228,
+    "total_occurrences_count": 16,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.4875206, -21.5642571], \"count\": 1}, {\"coordinates\": [165.6552726, -21.5878885], \"count\": 1}, {\"coordinates\": [164.83781783705, -20.7200181036622], \"count\": 1}, {\"coordinates\": [165.34573364257812, -21.585363388061523], \"count\": 1}, {\"coordinates\": [165.5, -21.566667556762695], \"count\": 1}, {\"coordinates\": [165.3455047607422, -21.585702896118164], \"count\": 1}, {\"coordinates\": [164.945199938138, -20.8017498617618], \"count\": 1}, {\"coordinates\": [165.82647705078125, -21.71541404724121], \"count\": 1}, {\"coordinates\": [165.2299442, -21.0290791], \"count\": 1}, {\"coordinates\": [165.37190468586, -20.9203460255734], \"count\": 1}]}",
+    "species_top": {
+        "Erythrina fusca": 16
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 16,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                100.0,
+                50.0,
+                100.0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 25.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 100.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 50.0,
+            "1500": 12.5,
+            "2000": 25.0,
+            "2500": 12.5,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 66.67,
+            "2": 33.33
+        }
+    }
+}

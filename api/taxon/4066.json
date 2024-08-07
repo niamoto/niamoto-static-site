@@ -1,0 +1,130 @@
+{
+    "id": 4066,
+    "full_name": "Litsea ripidion",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4020
+    },
+    "lft": 1483,
+    "rght": 1484,
+    "level": 2,
+    "parent_id": 977,
+    "taxon_id": 4066,
+    "total_occurrences_count": 35,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.678838, -22.2756569], \"count\": 1}, {\"coordinates\": [166.6734935, -22.2085982], \"count\": 1}, {\"coordinates\": [166.9472586, -22.3507006], \"count\": 1}, {\"coordinates\": [166.97429, -22.26358], \"count\": 1}, {\"coordinates\": [166.9417126, -22.3744497], \"count\": 1}, {\"coordinates\": [166.92011, -22.32465], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 2}, {\"coordinates\": [166.91511398, -22.30698298], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.71555598, -22.30166702], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 3}, {\"coordinates\": [166.76361107, -22.17805556], \"count\": 1}, {\"coordinates\": [166.89682471, -22.28926679], \"count\": 2}, {\"coordinates\": [166.89935531, -22.29082505], \"count\": 2}, {\"coordinates\": [166.90349952, -22.27474405], \"count\": 2}, {\"coordinates\": [166.93861112, -22.3497222], \"count\": 1}, {\"coordinates\": [166.91429444444444, -22.320222222222224], \"count\": 2}, {\"coordinates\": [166.7122222222222, -22.295277777777777], \"count\": 1}, {\"coordinates\": [166.699267, -22.1525116], \"count\": 1}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 1}, {\"coordinates\": [166.8238956, -22.1542856], \"count\": 1}, {\"coordinates\": [166.592617, -22.2621238], \"count\": 1}, {\"coordinates\": [166.9972287, -22.2614004], \"count\": 1}, {\"coordinates\": [166.35789101, -22.06019404], \"count\": 1}, {\"coordinates\": [166.89426531, -22.16159717], \"count\": 1}, {\"coordinates\": [166.4922156, -21.94738372], \"count\": 1}, {\"coordinates\": [166.89314208, -22.16459943], \"count\": 1}]}",
+    "species_top": {
+        "Litsea ripidion": 35
+    },
+    "um_occurrences_true": 34,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                100.0,
+                100.0,
+                0,
+                100.0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                100.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.6,
+    "dbh_max": 8.0,
+    "dbh_median": 5.9,
+    "dbh_min": 5.9,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 14.29,
+            "200": 60.71,
+            "300": 10.71,
+            "400": 3.57,
+            "500": 3.57,
+            "600": 3.57,
+            "700": 0.0,
+            "800": 3.57,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 17.65,
+            "2000": 11.76,
+            "2500": 58.82,
+            "3000": 11.76,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "id": 14842,
+    "full_name": "Cornaceae",
+    "authors": "Dumort.",
+    "rank_name": "family",
+    "metadata": {
+        "rank_name": "family",
+        "id_endemia": 5902
+    },
+    "lft": 693,
+    "rght": 698,
+    "level": 0,
+    "parent_id": null,
+    "taxon_id": 14842,
+    "total_occurrences_count": 46,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.1630556, -21.3616667], \"count\": 2}, {\"coordinates\": [165.2564444, -21.250095], \"count\": 5}, {\"coordinates\": [165.4875206, -21.5642571], \"count\": 3}, {\"coordinates\": [164.9711111, -21.3344444], \"count\": 1}, {\"coordinates\": [165.2948877778, -21.3698925], \"count\": 1}, {\"coordinates\": [166.0227778, -21.7897222], \"count\": 2}, {\"coordinates\": [165.3033762, -21.1779231], \"count\": 1}, {\"coordinates\": [165.829186, -21.569957], \"count\": 1}, {\"coordinates\": [163.6641667, -19.6955556], \"count\": 3}, {\"coordinates\": [164.55683, -20.79479], \"count\": 1}, {\"coordinates\": [164.9581438, -21.328327], \"count\": 4}, {\"coordinates\": [166.59247222222223, -22.153488888888887], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [166.592617, -22.2621238], \"count\": 1}, {\"coordinates\": [167.4730564, -22.6069583], \"count\": 2}, {\"coordinates\": [163.663461, -19.7185171], \"count\": 1}, {\"coordinates\": [164.74643407757, -20.7382483062734], \"count\": 1}, {\"coordinates\": [163.656048398302, -19.6969677512964], \"count\": 1}, {\"coordinates\": [165.2720933, -21.2238756], \"count\": 1}, {\"coordinates\": [163.6561232, -19.6938147], \"count\": 1}, {\"coordinates\": [165.29869, -21.377], \"count\": 1}, {\"coordinates\": [164.744839538576, -20.733117238776], \"count\": 1}, {\"coordinates\": [163.634844082699, -19.6385843997043], \"count\": 1}, {\"coordinates\": [164.5516667, -20.7705556], \"count\": 1}, {\"coordinates\": [164.72714102, -20.59311903], \"count\": 1}, {\"coordinates\": [164.727043, -20.59367902], \"count\": 1}, {\"coordinates\": [164.74418901, -20.591228], \"count\": 1}]}",
+    "species_top": {},
+    "um_occurrences_true": 15,
+    "um_occurrences_false": 31,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0.0,
+                0,
+                25.0,
+                100.0,
+                100.0,
+                60.0,
+                80.0,
+                77.78,
+                66.67,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                100.0,
+                0,
+                50.0,
+                0.0,
+                0.0,
+                20.0,
+                0.0,
+                11.11,
+                66.67,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 19.48,
+    "dbh_max": 40.0,
+    "dbh_median": 15.0,
+    "dbh_min": 12.4,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 80.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 20.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 25.93,
+            "200": 25.93,
+            "300": 7.41,
+            "400": 14.81,
+            "500": 3.7,
+            "600": 14.81,
+            "700": 7.41,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 36.84,
+            "1500": 50.0,
+            "2000": 5.26,
+            "2500": 0.0,
+            "3000": 5.26,
+            "3500": 0.0,
+            "4000": 2.63,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 30.56,
+            "2": 69.44
+        }
+    }
+}

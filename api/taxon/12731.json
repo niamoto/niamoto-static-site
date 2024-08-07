@@ -1,0 +1,130 @@
+{
+    "id": 12731,
+    "full_name": "Storckiella neocaledonica",
+    "authors": "I.C.Nielsen, Labat & Munzinger",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3432
+    },
+    "lft": 1213,
+    "rght": 1214,
+    "level": 2,
+    "parent_id": 1420,
+    "taxon_id": 12731,
+    "total_occurrences_count": 84,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4119277, -21.8878731], \"count\": 1}, {\"coordinates\": [166.2965192, -21.9404243], \"count\": 7}, {\"coordinates\": [166.2866667, -21.9419444], \"count\": 1}, {\"coordinates\": [165.0876191, -21.3202152], \"count\": 3}, {\"coordinates\": [166.4846594, -22.146151], \"count\": 1}, {\"coordinates\": [166.2350358, -21.9661677], \"count\": 5}, {\"coordinates\": [166.2346877, -21.9022284], \"count\": 1}, {\"coordinates\": [166.2575, -21.9786111], \"count\": 1}, {\"coordinates\": [166.23167419433594, -21.96916961669922], \"count\": 6}, {\"coordinates\": [166.27847290039062, -21.93770980834961], \"count\": 1}, {\"coordinates\": [166.2866668701172, -21.941940307617188], \"count\": 7}, {\"coordinates\": [166.254011, -21.9632878], \"count\": 1}, {\"coordinates\": [165.08444213867188, -21.32332992553711], \"count\": 7}, {\"coordinates\": [166.4166717529297, -21.883333206176758], \"count\": 2}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 1}, {\"coordinates\": [166.25750732421875, -21.978609085083008], \"count\": 2}, {\"coordinates\": [166.48138427734375, -22.149169921875], \"count\": 2}, {\"coordinates\": [166.51695251464844, -22.168399810791016], \"count\": 2}, {\"coordinates\": [166.273681640625, -21.956809997558594], \"count\": 1}, {\"coordinates\": [166.23138427734375, -21.9052791595459], \"count\": 1}, {\"coordinates\": [166.3333282470703, -21.933332443237305], \"count\": 1}, {\"coordinates\": [166.23504991, -21.96617819], \"count\": 1}, {\"coordinates\": [166.231666666667, -21.9691666666667], \"count\": 3}, {\"coordinates\": [166.48467673, -22.14616203], \"count\": 1}, {\"coordinates\": [166.2933333, -21.94361111], \"count\": 4}, {\"coordinates\": [166.2575, -21.9786111111111], \"count\": 1}, {\"coordinates\": [166.2575, -21.97861111], \"count\": 1}, {\"coordinates\": [166.25977756, -21.9585302], \"count\": 3}, {\"coordinates\": [166.3291, -21.9234], \"count\": 3}, {\"coordinates\": [166.28780292487917, -21.941433501953142], \"count\": 1}, {\"coordinates\": [165.08761823, -21.32021707], \"count\": 1}, {\"coordinates\": [166.293333333333, -21.9436111111111], \"count\": 2}, {\"coordinates\": [165.084444444444, -21.3233333333333], \"count\": 3}, {\"coordinates\": [166.231388888889, -21.9052777777778], \"count\": 1}, {\"coordinates\": [166.23470189, -21.90223864], \"count\": 1}, {\"coordinates\": [166.25592386, -21.96389191], \"count\": 1}, {\"coordinates\": [166.28780292821207, -21.941433497508765], \"count\": 1}, {\"coordinates\": [166.5225, -22.140556], \"count\": 1}]}",
+    "species_top": {
+        "Storckiella neocaledonica": 84
+    },
+    "um_occurrences_true": 60,
+    "um_occurrences_false": 24,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                50.0,
+                100.0,
+                80.0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                16.67,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 19.57,
+    "dbh_max": 25.0,
+    "dbh_median": 16.0,
+    "dbh_min": 15.0,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 57.14,
+            "20": 42.86,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 42.86,
+            "200": 23.81,
+            "300": 4.76,
+            "400": 4.76,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 14.29,
+            "1100": 0.0,
+            "1200": 9.52
+        },
+        "rainfall": {
+            "1000": 52.54,
+            "1500": 32.2,
+            "2000": 10.17,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 5.08,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 58.97,
+            "2": 41.03
+        }
+    }
+}

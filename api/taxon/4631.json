@@ -1,0 +1,130 @@
+{
+    "id": 4631,
+    "full_name": "Pandanus altissimus",
+    "authors": "(Brongn.) Solms",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3208
+    },
+    "lft": 2239,
+    "rght": 2240,
+    "level": 2,
+    "parent_id": 1162,
+    "taxon_id": 4631,
+    "total_occurrences_count": 246,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4746338, -22.0412948], \"count\": 10}, {\"coordinates\": [166.5339829, -21.9608885], \"count\": 7}, {\"coordinates\": [166.6621871, -22.1760145], \"count\": 4}, {\"coordinates\": [166.9072063, -22.181529], \"count\": 3}, {\"coordinates\": [166.1634895, -21.7571535], \"count\": 10}, {\"coordinates\": [166.6199891, -22.0679947], \"count\": 1}, {\"coordinates\": [166.595, -22.1597222], \"count\": 2}, {\"coordinates\": [166.0589351, -21.6273311], \"count\": 2}, {\"coordinates\": [166.0019444, -21.7583333], \"count\": 2}, {\"coordinates\": [166.6638296, -22.0935546], \"count\": 2}, {\"coordinates\": [166.29558003, -21.93813101], \"count\": 1}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 2}, {\"coordinates\": [166.535, -21.965166666666665], \"count\": 5}, {\"coordinates\": [164.86138888888888, -20.64161111111111], \"count\": 6}, {\"coordinates\": [164.77608333333333, -20.6125], \"count\": 20}, {\"coordinates\": [166.50251412, -22.04243269], \"count\": 10}, {\"coordinates\": [166.50366274, -22.04401878], \"count\": 4}, {\"coordinates\": [166.48034553, -22.03847864], \"count\": 4}, {\"coordinates\": [164.774, -20.57027777777778], \"count\": 3}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 6}, {\"coordinates\": [166.8165565, -22.2439032], \"count\": 1}, {\"coordinates\": [165.86666870117188, -21.566667556762695], \"count\": 1}, {\"coordinates\": [166.4582463, -22.0089614], \"count\": 2}, {\"coordinates\": [166.1665635, -21.759654], \"count\": 1}, {\"coordinates\": [166.77184033493626, -22.17288406906132], \"count\": 2}, {\"coordinates\": [164.78111267089844, -20.620830535888672], \"count\": 3}, {\"coordinates\": [166.20443725585938, -21.726669311523438], \"count\": 2}, {\"coordinates\": [164.70805216906447, -20.482794025395993], \"count\": 1}, {\"coordinates\": [166.6925048828125, -22.167219161987305], \"count\": 2}, {\"coordinates\": [166.59952800000036, -22.01153200065558], \"count\": 1}, {\"coordinates\": [166.0000469, -21.7545723], \"count\": 2}, {\"coordinates\": [166.66055297851562, -22.096670150756836], \"count\": 2}, {\"coordinates\": [166.05166625976562, -21.622499465942383], \"count\": 4}, {\"coordinates\": [166.60664500000038, -22.01122100065555], \"count\": 1}, {\"coordinates\": [164.6780548095703, -20.54055404663086], \"count\": 1}, {\"coordinates\": [166.15983200000008, -21.81931200065099], \"count\": 1}, {\"coordinates\": [166.5308074951172, -21.963899612426758], \"count\": 1}, {\"coordinates\": [166.0549423, -21.6195172], \"count\": 3}, {\"coordinates\": [166.5908528, -22.1502086], \"count\": 2}, {\"coordinates\": [166.6947762, -22.0875621], \"count\": 1}, {\"coordinates\": [166.20230100000012, -21.864879000652095], \"count\": 1}, {\"coordinates\": [164.7802734375, -20.618610382080078], \"count\": 1}, {\"coordinates\": [166.6588897705078, -22.179170608520508], \"count\": 1}, {\"coordinates\": [164.68811666666667, -20.532816666666665], \"count\": 1}, {\"coordinates\": [166.6558333, -22.0280556], \"count\": 1}, {\"coordinates\": [166.67321200000046, -21.98318900065482], \"count\": 1}, {\"coordinates\": [166.5371307, -21.9749701], \"count\": 1}, {\"coordinates\": [166.59500122070312, -22.15999984741211], \"count\": 1}, {\"coordinates\": [164.861388888889, -20.6416111111111], \"count\": 12}, {\"coordinates\": [166.6925, -22.16722], \"count\": 1}, {\"coordinates\": [166.0517, -21.6225], \"count\": 1}, {\"coordinates\": [166.1581, -21.7564], \"count\": 2}, {\"coordinates\": [166.5308, -21.9639], \"count\": 1}, {\"coordinates\": [166.1633, -21.7628], \"count\": 1}, {\"coordinates\": [166.5339, -21.9781], \"count\": 1}, {\"coordinates\": [166.633333333333, -22.1030555555556], \"count\": 1}, {\"coordinates\": [166.658888888889, -22.1791666666667], \"count\": 1}, {\"coordinates\": [166.05167, -21.6225], \"count\": 1}, {\"coordinates\": [164.776083333333, -20.6125], \"count\": 40}, {\"coordinates\": [166.4714, -22.0444], \"count\": 2}, {\"coordinates\": [166.813333333333, -22.2469444444444], \"count\": 1}, {\"coordinates\": [165.996666666667, -21.7575], \"count\": 1}, {\"coordinates\": [166.66666776245802, -22.16666490075624], \"count\": 1}, {\"coordinates\": [166.535, -21.9651666666667], \"count\": 5}, {\"coordinates\": [166.595, -22.1597222222222], \"count\": 1}, {\"coordinates\": [166.455, -22.0119444444444], \"count\": 1}, {\"coordinates\": [166.6558, -22.0281], \"count\": 1}, {\"coordinates\": [166.65335802, -22.02405902], \"count\": 1}, {\"coordinates\": [166.6917, -22.0906], \"count\": 1}, {\"coordinates\": [166.9039, -22.1847], \"count\": 1}, {\"coordinates\": [166.535, -21.96516667], \"count\": 1}, {\"coordinates\": [165.98850112615597, -21.757987466230734], \"count\": 1}, {\"coordinates\": [164.78111, -20.62083], \"count\": 1}, {\"coordinates\": [164.6780556, -20.5405555], \"count\": 1}, {\"coordinates\": [166.0556, -21.6303], \"count\": 1}, {\"coordinates\": [166.6606, -22.0967], \"count\": 1}, {\"coordinates\": [166.3422953820797, -22.062874917527832], \"count\": 1}, {\"coordinates\": [166.65993504, -22.020349], \"count\": 1}, {\"coordinates\": [166.6589, -22.1792], \"count\": 1}, {\"coordinates\": [166.0019, -21.7583], \"count\": 2}, {\"coordinates\": [166.6333, -22.1031], \"count\": 1}, {\"coordinates\": [166.279722222222, -21.9158333333333], \"count\": 1}, {\"coordinates\": [166.4497, -22.0378], \"count\": 1}, {\"coordinates\": [165.9933, -21.7572], \"count\": 1}, {\"coordinates\": [166.66056, -22.09667], \"count\": 1}, {\"coordinates\": [166.6167, -22.0711], \"count\": 1}, {\"coordinates\": [164.774, -20.5702777777778], \"count\": 1}, {\"coordinates\": [166.00194436, -21.75858331], \"count\": 1}, {\"coordinates\": [164.450277777778, -20.3408333333333], \"count\": 1}, {\"coordinates\": [166.20444, -21.72667], \"count\": 1}, {\"coordinates\": [165.00472218, -20.90527782], \"count\": 1}]}",
+    "species_top": {
+        "Pandanus altissimus": 246
+    },
+    "um_occurrences_true": 152,
+    "um_occurrences_false": 94,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                66.67,
+                0.0,
+                0.0,
+                57.14,
+                0,
+                100.0,
+                0.0,
+                60.0,
+                30.0,
+                10.53,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                100.0,
+                66.67,
+                19.05,
+                0,
+                100.0,
+                100.0,
+                40.0,
+                25.0,
+                18.42,
+                66.67
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 9.01,
+    "dbh_max": 12.7,
+    "dbh_median": 8.9,
+    "dbh_min": 5.4,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 4.12,
+            "200": 6.58,
+            "300": 5.35,
+            "400": 1.65,
+            "500": 2.88,
+            "600": 1.23,
+            "700": 4.94,
+            "800": 6.58,
+            "900": 48.97,
+            "1000": 7.0,
+            "1100": 2.06,
+            "1200": 8.64
+        },
+        "rainfall": {
+            "1000": 0.41,
+            "1500": 1.63,
+            "2000": 13.82,
+            "2500": 22.76,
+            "3000": 15.85,
+            "3500": 35.77,
+            "4000": 1.63,
+            "4500": 8.13
+        },
+        "holdridge": {
+            "1": 4.0,
+            "2": 96.0
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 4579,
+    "full_name": "Oxera palmatinervia",
+    "authors": "Dubard",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1293
+    },
+    "lft": 1375,
+    "rght": 1376,
+    "level": 2,
+    "parent_id": 1152,
+    "taxon_id": 4579,
+    "total_occurrences_count": 160,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4663889, -22.0108333], \"count\": 1}, {\"coordinates\": [166.5288965, -22.2050938], \"count\": 1}, {\"coordinates\": [166.9067677, -22.1559741], \"count\": 1}, {\"coordinates\": [166.5366766, -22.1922361], \"count\": 1}, {\"coordinates\": [166.6654055556, -21.98305], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 7}, {\"coordinates\": [166.82579366, -22.2512891], \"count\": 2}, {\"coordinates\": [166.89682471, -22.28926679], \"count\": 2}, {\"coordinates\": [166.89935531, -22.29082505], \"count\": 2}, {\"coordinates\": [166.76044923, -22.19067053], \"count\": 2}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 26}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 2}, {\"coordinates\": [166.75527783, -22.31027775], \"count\": 3}, {\"coordinates\": [166.81138887, -22.24972223], \"count\": 2}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 1}, {\"coordinates\": [166.90349952, -22.27474405], \"count\": 2}, {\"coordinates\": [166.85555561, -22.23611112], \"count\": 2}, {\"coordinates\": [166.81333329, -22.24694445], \"count\": 2}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 4}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 2}, {\"coordinates\": [166.899976, -22.30008], \"count\": 1}, {\"coordinates\": [166.9132888888889, -22.325705555555555], \"count\": 1}, {\"coordinates\": [166.91365555555555, -22.32333611111111], \"count\": 2}, {\"coordinates\": [167.0036111111111, -22.28625], \"count\": 2}, {\"coordinates\": [166.91429444444444, -22.320222222222224], \"count\": 1}, {\"coordinates\": [166.7639, -22.3072], \"count\": 2}, {\"coordinates\": [166.93006111111112, -22.323755555555557], \"count\": 6}, {\"coordinates\": [167.00438888888888, -22.288222222222224], \"count\": 1}, {\"coordinates\": [167.00394444444444, -22.28677777777778], \"count\": 2}, {\"coordinates\": [166.99455555555556, -22.273083333333332], \"count\": 1}, {\"coordinates\": [166.9135222222222, -22.320644444444444], \"count\": 2}, {\"coordinates\": [167.00455555555556, -22.28775], \"count\": 3}, {\"coordinates\": [166.93077222222223, -22.323075], \"count\": 4}, {\"coordinates\": [166.91972777777778, -22.319808333333334], \"count\": 2}, {\"coordinates\": [166.91544444444443, -22.323611111111113], \"count\": 3}, {\"coordinates\": [166.9933888888889, -22.27563888888889], \"count\": 1}, {\"coordinates\": [166.99477777777778, -22.273083333333332], \"count\": 1}, {\"coordinates\": [166.9191, -22.321136111111112], \"count\": 2}, {\"coordinates\": [166.689425, -22.151216666666667], \"count\": 1}, {\"coordinates\": [166.91625833333333, -22.32465], \"count\": 1}, {\"coordinates\": [166.91551666666666, -22.324775], \"count\": 1}, {\"coordinates\": [166.92914166666668, -22.32357222222222], \"count\": 1}, {\"coordinates\": [166.91407777777778, -22.32217222222222], \"count\": 4}, {\"coordinates\": [166.91308055555555, -22.320875], \"count\": 1}, {\"coordinates\": [166.92970277777778, -22.32346111111111], \"count\": 2}, {\"coordinates\": [166.91332777777777, -22.32621111111111], \"count\": 2}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 1}, {\"coordinates\": [166.9051943, -22.1524996], \"count\": 1}, {\"coordinates\": [166.4180556, -21.7205556], \"count\": 1}, {\"coordinates\": [166.6, -22.1], \"count\": 1}, {\"coordinates\": [166.4687159, -22.0094731], \"count\": 1}, {\"coordinates\": [166.4700419, -22.0281815], \"count\": 2}, {\"coordinates\": [166.8998563, -22.1527906], \"count\": 1}, {\"coordinates\": [166.8483963, -22.2362221], \"count\": 1}, {\"coordinates\": [166.9972287, -22.2614004], \"count\": 1}, {\"coordinates\": [166.9645687760676, -22.275320647705428], \"count\": 1}, {\"coordinates\": [166.5139895, -22.171662], \"count\": 1}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 2}, {\"coordinates\": [166.79447766137358, -22.17342382776678], \"count\": 1}, {\"coordinates\": [166.5908528, -22.1502086], \"count\": 1}, {\"coordinates\": [166.2943611111, -21.77575], \"count\": 1}, {\"coordinates\": [166.5084848, -22.1787788], \"count\": 1}, {\"coordinates\": [166.6259795, -22.1477506], \"count\": 1}, {\"coordinates\": [166.44643306666666, -22.071402833333334], \"count\": 1}, {\"coordinates\": [166.91667, -22.33333], \"count\": 1}, {\"coordinates\": [166.6459011, -22.1181619], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 1}, {\"coordinates\": [166.7029618, -22.2034732], \"count\": 1}, {\"coordinates\": [166.81098200000065, -22.286328000662188], \"count\": 1}, {\"coordinates\": [166.4683333, -22.0302778], \"count\": 1}, {\"coordinates\": [166.73333, -22.01667], \"count\": 1}, {\"coordinates\": [166.9528526, -22.2698698], \"count\": 2}, {\"coordinates\": [166.8213518, -22.3212252], \"count\": 1}, {\"coordinates\": [166.2250993, -21.7039368], \"count\": 1}, {\"coordinates\": [167.006686, -22.28628], \"count\": 1}, {\"coordinates\": [166.9942457, -22.27291907], \"count\": 1}, {\"coordinates\": [166.60540802, -22.06978095], \"count\": 1}, {\"coordinates\": [166.55457305, -22.172743], \"count\": 1}, {\"coordinates\": [166.99985702, -22.28844299], \"count\": 1}, {\"coordinates\": [166.56184501, -21.95417003], \"count\": 1}, {\"coordinates\": [166.2068024, -21.67749288], \"count\": 1}, {\"coordinates\": [167.00311705, -22.285431], \"count\": 1}, {\"coordinates\": [166.41456298, -21.88367598], \"count\": 1}, {\"coordinates\": [166.65993504, -22.020349], \"count\": 1}, {\"coordinates\": [166.51136896, -21.96436504], \"count\": 1}, {\"coordinates\": [166.50944798, -21.96602], \"count\": 1}, {\"coordinates\": [166.56357998, -21.95330296], \"count\": 1}]}",
+    "species_top": {
+        "Oxera palmatinervia": 160
+    },
+    "um_occurrences_true": 159,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                28.57,
+                33.33,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                44.44,
+                87.5,
+                50.0
+            ],
+            "fruiting": [
+                42.86,
+                66.67,
+                50.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                5.56,
+                25.0,
+                25.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.86,
+    "dbh_max": 20.0,
+    "dbh_median": 7.0,
+    "dbh_min": 5.0,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 91.67,
+            "20": 8.33,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 33.33,
+            "200": 39.1,
+            "300": 10.26,
+            "400": 2.56,
+            "500": 5.77,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 2.56,
+            "900": 2.56,
+            "1000": 3.21,
+            "1100": 0.0,
+            "1200": 0.64
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 3.12,
+            "2000": 13.12,
+            "2500": 69.38,
+            "3000": 8.75,
+            "3500": 3.75,
+            "4000": 1.88,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

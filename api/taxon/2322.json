@@ -1,0 +1,130 @@
+{
+    "id": 2322,
+    "full_name": "Calophyllum inophyllum",
+    "authors": "L.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2023
+    },
+    "lft": 509,
+    "rght": 510,
+    "level": 2,
+    "parent_id": 454,
+    "taxon_id": 2322,
+    "total_occurrences_count": 58,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4435, -22.30123], \"count\": 1}, {\"coordinates\": [163.9301589, -20.160893], \"count\": 1}, {\"coordinates\": [165.7545388, -21.3280349], \"count\": 1}, {\"coordinates\": [164.87133333333333, -20.640805555555556], \"count\": 1}, {\"coordinates\": [166.5833282470703, -22.28333282470703], \"count\": 2}, {\"coordinates\": [163.576079995789, -19.5587401271259], \"count\": 1}, {\"coordinates\": [165.28347778320312, -20.887067794799805], \"count\": 1}, {\"coordinates\": [164.47500610351562, -20.299999237060547], \"count\": 2}, {\"coordinates\": [163.92694091796875, -20.163890838623047], \"count\": 1}, {\"coordinates\": [165.0512819, -20.6638914], \"count\": 1}, {\"coordinates\": [163.591051962161, -19.5987560522835], \"count\": 1}, {\"coordinates\": [166.52053833007812, -22.229473114013672], \"count\": 1}, {\"coordinates\": [166.50332641601562, -21.9950008392334], \"count\": 1}, {\"coordinates\": [166.4537353515625, -22.21053123474121], \"count\": 1}, {\"coordinates\": [164.03494967035, -20.0860820609971], \"count\": 1}, {\"coordinates\": [163.64309731138, -19.708836803173], \"count\": 1}, {\"coordinates\": [164.3646884, -20.5573808], \"count\": 1}, {\"coordinates\": [163.666338912437, -19.7365459449388], \"count\": 1}, {\"coordinates\": [166.4416192, -22.3021591], \"count\": 1}, {\"coordinates\": [164.410010833683, -20.5114645775929], \"count\": 1}, {\"coordinates\": [165.5491667, -21.1827778], \"count\": 1}, {\"coordinates\": [164.987009371702, -20.6454299465244], \"count\": 1}, {\"coordinates\": [164.034967981625, -20.0861652592412], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 1}, {\"coordinates\": [164.45889282226562, -20.29388999938965], \"count\": 1}, {\"coordinates\": [165.37190468586, -20.9203460255734], \"count\": 1}, {\"coordinates\": [165.148683491774, -20.7157604126348], \"count\": 1}, {\"coordinates\": [166.7559131553921, -22.01242716198538], \"count\": 1}, {\"coordinates\": [165.27963256835938, -20.88629722595215], \"count\": 1}, {\"coordinates\": [164.985913910278, -20.6906227825085], \"count\": 1}, {\"coordinates\": [167.4484405517578, -22.663278579711914], \"count\": 1}, {\"coordinates\": [164.917945047909, -20.6252443341279], \"count\": 1}, {\"coordinates\": [166.93861112, -22.3497222], \"count\": 1}]}",
+    "species_top": {
+        "Calophyllum inophyllum": 58
+    },
+    "um_occurrences_true": 9,
+    "um_occurrences_false": 49,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0.0,
+                0.0,
+                0,
+                40.0,
+                0,
+                0.0,
+                50.0,
+                0.0,
+                16.67,
+                60.0,
+                40.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                0,
+                20.0,
+                0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                20.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 48.35,
+    "dbh_max": 100.0,
+    "dbh_median": 42.39,
+    "dbh_min": 8.6,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 33.33,
+            "40": 33.33,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 33.33,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 50.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 25.0,
+            "700": 25.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 36.36,
+            "1500": 24.24,
+            "2000": 18.18,
+            "2500": 15.15,
+            "3000": 3.03,
+            "3500": 3.03,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 24.14,
+            "2": 75.86
+        }
+    }
+}

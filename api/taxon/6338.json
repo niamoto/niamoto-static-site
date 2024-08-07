@@ -1,0 +1,130 @@
+{
+    "id": 6338,
+    "full_name": "Zygogynum pauciflorum",
+    "authors": "(Baker f.) Vink",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5044
+    },
+    "lft": 3633,
+    "rght": 3634,
+    "level": 2,
+    "parent_id": 1575,
+    "taxon_id": 6338,
+    "total_occurrences_count": 47,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7930568, -20.562816], \"count\": 4}, {\"coordinates\": [164.7144444, -20.5036111], \"count\": 1}, {\"coordinates\": [164.78330555555556, -20.559833333333334], \"count\": 3}, {\"coordinates\": [164.78330555555556, -20.560027777777776], \"count\": 2}, {\"coordinates\": [164.774, -20.57027777777778], \"count\": 1}, {\"coordinates\": [164.7688388888889, -20.575755555555556], \"count\": 1}, {\"coordinates\": [164.78291666666667, -20.560388888888887], \"count\": 1}, {\"coordinates\": [164.7708282470703, -20.588329315185547], \"count\": 3}, {\"coordinates\": [164.73333740234375, -20.600000381469727], \"count\": 7}, {\"coordinates\": [164.870594, -20.641066], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.7912657, -20.5644516], \"count\": 4}, {\"coordinates\": [164.793962900013, -20.6094681269977], \"count\": 1}, {\"coordinates\": [164.6999969482422, -20.51667022705078], \"count\": 1}, {\"coordinates\": [164.71400451660156, -20.503599166870117], \"count\": 1}, {\"coordinates\": [164.7831917, -20.58035], \"count\": 1}, {\"coordinates\": [164.7759103, -20.5830689], \"count\": 1}, {\"coordinates\": [164.71444702148438, -20.503610610961914], \"count\": 2}, {\"coordinates\": [164.78334045410156, -20.600000381469727], \"count\": 1}, {\"coordinates\": [164.74087524414062, -20.597810745239258], \"count\": 1}, {\"coordinates\": [164.81045532226562, -20.58595085144043], \"count\": 1}, {\"coordinates\": [164.7334, -20.5108], \"count\": 1}, {\"coordinates\": [164.81666564941406, -20.600000381469727], \"count\": 1}, {\"coordinates\": [164.8604958, -20.6369621], \"count\": 1}, {\"coordinates\": [164.780996640523, -20.5626401901245], \"count\": 1}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [164.7416534423828, -20.5943603515625], \"count\": 1}, {\"coordinates\": [164.85740661621094, -20.641939163208008], \"count\": 1}, {\"coordinates\": [164.740966796875, -20.59910011291504], \"count\": 1}]}",
+    "species_top": {
+        "Zygogynum pauciflorum": 47
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 46,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0.0,
+                0.0,
+                50.0,
+                0.0,
+                50.0,
+                100.0,
+                0,
+                100.0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                0.0,
+                50.0,
+                0.0,
+                0,
+                0.0,
+                16.67,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 8.07,
+    "dbh_max": 11.5,
+    "dbh_median": 8.05,
+    "dbh_min": 5.1,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 2.13,
+            "200": 0.0,
+            "300": 14.89,
+            "400": 2.13,
+            "500": 17.02,
+            "600": 25.53,
+            "700": 4.26,
+            "800": 6.38,
+            "900": 2.13,
+            "1000": 8.51,
+            "1100": 4.26,
+            "1200": 12.77
+        },
+        "rainfall": {
+            "1000": 2.13,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 14.89,
+            "3000": 38.3,
+            "3500": 23.4,
+            "4000": 21.28,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 100.0,
+            "2": 0.0
+        }
+    }
+}

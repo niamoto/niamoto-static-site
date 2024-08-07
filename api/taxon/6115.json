@@ -1,0 +1,130 @@
+{
+    "id": 6115,
+    "full_name": "Tristaniopsis guillainii var. balansana",
+    "authors": "(Tison) J.W.Dawson",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 1410
+    },
+    "lft": 2116,
+    "rght": 2117,
+    "level": 3,
+    "parent_id": 6117,
+    "taxon_id": 6115,
+    "total_occurrences_count": 51,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.792291, -22.1668713], \"count\": 1}, {\"coordinates\": [166.1044695, -21.5598647], \"count\": 1}, {\"coordinates\": [166.9528526, -22.2698698], \"count\": 2}, {\"coordinates\": [166.7084851, -22.1941727], \"count\": 1}, {\"coordinates\": [166.8126643, -22.0840141], \"count\": 1}, {\"coordinates\": [166.0004251, -21.7574591], \"count\": 1}, {\"coordinates\": [166.303484092, -21.6590350806667], \"count\": 1}, {\"coordinates\": [166.442294851939, -21.8536827723185], \"count\": 1}, {\"coordinates\": [166.525146, -22.0356389], \"count\": 1}, {\"coordinates\": [166.2380490000001, -21.760671000649534], \"count\": 1}, {\"coordinates\": [166.8876362, -22.1687325], \"count\": 1}, {\"coordinates\": [166.8602562, -22.232445], \"count\": 1}, {\"coordinates\": [166.23935300000014, -21.759705000649483], \"count\": 1}, {\"coordinates\": [166.8457957, -22.1800082], \"count\": 1}, {\"coordinates\": [166.679335, -21.9802163], \"count\": 1}, {\"coordinates\": [166.2497321, -21.8677753], \"count\": 1}, {\"coordinates\": [166.303513139667, -21.6590200758333], \"count\": 1}, {\"coordinates\": [166.22512859, -21.67606915], \"count\": 1}, {\"coordinates\": [166.67710805, -22.04312998], \"count\": 1}, {\"coordinates\": [165.9972, -21.7606], \"count\": 1}, {\"coordinates\": [166.75, -22.16667], \"count\": 1}, {\"coordinates\": [166.80722, -22.32444], \"count\": 1}, {\"coordinates\": [166.8844, -22.1717], \"count\": 1}, {\"coordinates\": [166.5219, -22.0386], \"count\": 1}, {\"coordinates\": [166.80944, -22.08694], \"count\": 2}, {\"coordinates\": [166.7053, -22.1972], \"count\": 1}, {\"coordinates\": [166.88444, -22.17167], \"count\": 3}, {\"coordinates\": [166.24639, -21.87083], \"count\": 1}, {\"coordinates\": [166.8094, -22.0869], \"count\": 1}, {\"coordinates\": [167.00889, -22.29028], \"count\": 1}, {\"coordinates\": [166.2464, -21.8708], \"count\": 1}, {\"coordinates\": [166.8569, -22.2356], \"count\": 1}, {\"coordinates\": [166.9497, -22.2731], \"count\": 2}, {\"coordinates\": [166.1011, -21.5631], \"count\": 1}, {\"coordinates\": [166.70306, -22.17833], \"count\": 1}, {\"coordinates\": [166.8425, -22.1831], \"count\": 1}, {\"coordinates\": [166.33157518930284, -21.91059681208338], \"count\": 1}, {\"coordinates\": [166.90139, -22.14611], \"count\": 1}, {\"coordinates\": [166.8425, -22.18306], \"count\": 1}, {\"coordinates\": [166.7892, -22.17], \"count\": 1}, {\"coordinates\": [166.96333, -22.23139], \"count\": 1}, {\"coordinates\": [166.32833, -21.91972], \"count\": 1}, {\"coordinates\": [166.5, -21.98333], \"count\": 1}, {\"coordinates\": [166.67567358013127, -21.98242050902078], \"count\": 1}, {\"coordinates\": [166.42, -21.79528], \"count\": 1}]}",
+    "species_top": {
+        "Tristaniopsis guillainii var. balansana": 51
+    },
+    "um_occurrences_true": 49,
+    "um_occurrences_false": 2,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                33.33,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                66.67,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 35.0,
+    "dbh_max": 35.0,
+    "dbh_median": 35.0,
+    "dbh_min": 35.0,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 100.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 29.17,
+            "200": 18.75,
+            "300": 14.58,
+            "400": 8.33,
+            "500": 8.33,
+            "600": 2.08,
+            "700": 10.42,
+            "800": 0.0,
+            "900": 2.08,
+            "1000": 0.0,
+            "1100": 2.08,
+            "1200": 4.17
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 8.0,
+            "2000": 20.0,
+            "2500": 46.0,
+            "3000": 22.0,
+            "3500": 4.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

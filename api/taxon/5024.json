@@ -1,0 +1,118 @@
+{
+    "id": 5024,
+    "full_name": "Pisonia grandis",
+    "authors": "R.Br.    ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2123
+    },
+    "lft": 2181,
+    "rght": 2182,
+    "level": 2,
+    "parent_id": 1216,
+    "taxon_id": 5024,
+    "total_occurrences_count": 32,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.9383333, -21.1386111], \"count\": 1}, {\"coordinates\": [163.9301589, -20.160893], \"count\": 1}, {\"coordinates\": [165.04017572, -21.33598241], \"count\": 1}, {\"coordinates\": [165.14663403, -21.42448503], \"count\": 1}, {\"coordinates\": [164.89491502, -21.17869197], \"count\": 1}, {\"coordinates\": [167.2311488, -20.7060259], \"count\": 2}, {\"coordinates\": [165.1839461, -21.395803], \"count\": 2}, {\"coordinates\": [166.8126944444, -22.7074694444], \"count\": 1}, {\"coordinates\": [164.0355028736, -20.4052328647989], \"count\": 1}, {\"coordinates\": [164.128970617418, -20.4669820196012], \"count\": 2}, {\"coordinates\": [164.128348234179, -20.4680647998907], \"count\": 1}, {\"coordinates\": [163.9556389, -20.071427], \"count\": 1}, {\"coordinates\": [163.698626293459, -19.8406787640112], \"count\": 1}, {\"coordinates\": [167.2244805, -21.0286462], \"count\": 1}, {\"coordinates\": [164.037758284368, -20.4057021225201], \"count\": 2}, {\"coordinates\": [164.32496942404, -20.7673280306887], \"count\": 1}, {\"coordinates\": [163.576079995789, -19.5587401271259], \"count\": 1}, {\"coordinates\": [163.64309731138, -19.708836803173], \"count\": 1}, {\"coordinates\": [163.702054275173, -19.8788717532664], \"count\": 1}, {\"coordinates\": [168.003813888889, -21.6563889], \"count\": 1}, {\"coordinates\": [167.957808333333, -21.6461167], \"count\": 1}, {\"coordinates\": [163.707702616804, -19.89107281201], \"count\": 1}, {\"coordinates\": [163.697967997606, -19.844034358336], \"count\": 1}]}",
+    "species_top": {
+        "Pisonia grandis": 32
+    },
+    "um_occurrences_true": 8,
+    "um_occurrences_false": 24,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                14.29,
+                0.0,
+                0,
+                100.0,
+                66.67,
+                0.0,
+                0.0,
+                100.0,
+                50.0,
+                60.0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                66.67,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                40.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 50.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 50.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 70.83,
+            "1500": 29.17,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 51.85,
+            "2": 48.15
+        }
+    }
+}

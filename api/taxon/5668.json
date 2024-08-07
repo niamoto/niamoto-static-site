@@ -1,0 +1,135 @@
+{
+    "id": 5668,
+    "full_name": "Sloanea koghiensis",
+    "authors": "Tirel",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3672
+    },
+    "lft": 1047,
+    "rght": 1048,
+    "level": 2,
+    "parent_id": 1382,
+    "taxon_id": 5668,
+    "total_occurrences_count": 122,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.6252964, -22.1874354], \"count\": 1}, {\"coordinates\": [165.3488007, -21.4306073], \"count\": 1}, {\"coordinates\": [166.6958044, -22.1642337], \"count\": 2}, {\"coordinates\": [166.0765777, -21.5840203], \"count\": 2}, {\"coordinates\": [165.0083910115, -20.852514552], \"count\": 6}, {\"coordinates\": [166.684969, -22.1028821], \"count\": 1}, {\"coordinates\": [165.34671912, -21.43839498], \"count\": 2}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 10}, {\"coordinates\": [166.62572499, -22.19208599], \"count\": 2}, {\"coordinates\": [166.91328426, -22.3270637], \"count\": 1}, {\"coordinates\": [164.92032939444445, -20.95063654722222], \"count\": 1}, {\"coordinates\": [166.916475, -22.3241], \"count\": 8}, {\"coordinates\": [166.93077222222223, -22.323075], \"count\": 3}, {\"coordinates\": [166.91544444444443, -22.323611111111113], \"count\": 1}, {\"coordinates\": [166.6845703125, -22.11280059814453], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 2}, {\"coordinates\": [165.34556579589844, -21.433610916137695], \"count\": 2}, {\"coordinates\": [166.07333374023438, -21.58694076538086], \"count\": 2}, {\"coordinates\": [164.996619238371, -20.9039739643146], \"count\": 1}, {\"coordinates\": [166.5084848, -22.1787788], \"count\": 5}, {\"coordinates\": [166.5239167, -22.1855556], \"count\": 1}, {\"coordinates\": [166.50527954101562, -22.18194007873535], \"count\": 11}, {\"coordinates\": [165.010360833506, -20.8527391433716], \"count\": 1}, {\"coordinates\": [166.68167114257812, -22.1058292388916], \"count\": 1}, {\"coordinates\": [166.5086111, -22.1780556], \"count\": 1}, {\"coordinates\": [164.99177733631, -20.9126565333095], \"count\": 1}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 1}, {\"coordinates\": [166.6925048828125, -22.167219161987305], \"count\": 2}, {\"coordinates\": [166.62193298339844, -22.19055938720703], \"count\": 1}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 1}, {\"coordinates\": [166.7737973, -22.28872], \"count\": 1}, {\"coordinates\": [166.9154444444, -22.3236111111], \"count\": 1}, {\"coordinates\": [166.5053, -22.1819], \"count\": 5}, {\"coordinates\": [164.9203293944, -20.9506365472], \"count\": 1}, {\"coordinates\": [166.7706, -22.2917], \"count\": 1}, {\"coordinates\": [166.50925881653123, -22.179396046492236], \"count\": 1}, {\"coordinates\": [165.01944443, -20.92083334], \"count\": 1}, {\"coordinates\": [166.68167, -22.10583], \"count\": 1}, {\"coordinates\": [166.6817, -22.1058], \"count\": 1}, {\"coordinates\": [166.53538466027433, -22.192166246900207], \"count\": 1}, {\"coordinates\": [166.6219, -22.1906], \"count\": 1}, {\"coordinates\": [165.3456, -21.4336], \"count\": 3}, {\"coordinates\": [166.50528, -22.18194], \"count\": 10}, {\"coordinates\": [166.62194, -22.19056], \"count\": 1}, {\"coordinates\": [166.5203, -22.1683], \"count\": 1}, {\"coordinates\": [166.6925, -22.1672], \"count\": 2}, {\"coordinates\": [166.6848370167974, -22.11298172888446], \"count\": 1}, {\"coordinates\": [166.9307722222, -22.323075], \"count\": 3}, {\"coordinates\": [166.5086, -22.1781], \"count\": 1}, {\"coordinates\": [166.6925, -22.16722], \"count\": 2}, {\"coordinates\": [166.07333, -21.58694], \"count\": 2}, {\"coordinates\": [166.53527725367803, -22.192153717556472], \"count\": 1}, {\"coordinates\": [166.6848417996393, -22.112981199759503], \"count\": 1}, {\"coordinates\": [166.52352698, -22.18504201], \"count\": 1}, {\"coordinates\": [166.52392896, -22.18556301], \"count\": 1}, {\"coordinates\": [166.0733, -21.5869], \"count\": 2}]}",
+    "species_top": {
+        "Sloanea koghiensis": 122
+    },
+    "um_occurrences_true": 78,
+    "um_occurrences_false": 44,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 34.53,
+    "dbh_max": 100.0,
+    "dbh_median": 33.1,
+    "dbh_min": 7.3,
+    "height_max": 35.0,
+    "wood_density_mean": 0.6,
+    "wood_density_max": 0.62,
+    "wood_density_min": 0.56,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 13.04,
+            "20": 26.09,
+            "30": 21.74,
+            "40": 17.39,
+            "50": 13.04,
+            "75": 4.35,
+            "100": 4.35,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 11.48,
+            "200": 25.41,
+            "300": 13.93,
+            "400": 25.41,
+            "500": 18.03,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 4.1,
+            "900": 0.82,
+            "1000": 0.0,
+            "1100": 0.82,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 27.05,
+            "2000": 31.15,
+            "2500": 40.16,
+            "3000": 1.64,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "id": 3331,
+    "full_name": "Exocarpos spathulatus",
+    "authors": "Schltr. & Pilg.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4807
+    },
+    "lft": 3103,
+    "rght": 3104,
+    "level": 2,
+    "parent_id": 769,
+    "taxon_id": 3331,
+    "total_occurrences_count": 8,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.9095688, -22.1624314], \"count\": 1}, {\"coordinates\": [166.8998563, -22.1527906], \"count\": 3}, {\"coordinates\": [166.8602562, -22.232445], \"count\": 1}, {\"coordinates\": [166.9072063, -22.181529], \"count\": 1}, {\"coordinates\": [166.8683965, -22.2658764], \"count\": 1}, {\"coordinates\": [166.9528526, -22.2698698], \"count\": 1}]}",
+    "species_top": {
+        "Exocarpos spathulatus": 8
+    },
+    "um_occurrences_true": 8,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                50.0,
+                100.0,
+                0,
+                50.0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0.0,
+                100.0,
+                0,
+                50.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 3.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 12.5,
+            "200": 25.0,
+            "300": 62.5,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 37.5,
+            "3000": 62.5,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        }
+    }
+}

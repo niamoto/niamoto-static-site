@@ -1,0 +1,135 @@
+{
+    "id": 5735,
+    "full_name": "Soulamea trifoliata",
+    "authors": "Baill.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4940
+    },
+    "lft": 3457,
+    "rght": 3458,
+    "level": 2,
+    "parent_id": 1394,
+    "taxon_id": 5735,
+    "total_occurrences_count": 163,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.6366526, -22.100056], \"count\": 13}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 10}, {\"coordinates\": [166.43659, -21.8596], \"count\": 1}, {\"coordinates\": [166.792291, -22.1668713], \"count\": 15}, {\"coordinates\": [166.58333, -22.1], \"count\": 1}, {\"coordinates\": [166.9051943, -22.1524996], \"count\": 7}, {\"coordinates\": [166.4180556, -21.7205556], \"count\": 1}, {\"coordinates\": [166.5518611111, -21.9176388889], \"count\": 1}, {\"coordinates\": [166.4288986, -22.0713789], \"count\": 3}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 5}, {\"coordinates\": [166.5327778, -21.9594444], \"count\": 1}, {\"coordinates\": [166.9030556, -22.2947222], \"count\": 1}, {\"coordinates\": [166.76586604, -22.19108711], \"count\": 2}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 2}, {\"coordinates\": [166.9063444, -22.29200828], \"count\": 2}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 2}, {\"coordinates\": [166.89660352, -22.27926796], \"count\": 2}, {\"coordinates\": [166.89815938, -22.2766399], \"count\": 2}, {\"coordinates\": [166.90349952, -22.27474405], \"count\": 2}, {\"coordinates\": [166.81333329, -22.24694445], \"count\": 2}, {\"coordinates\": [166.24831899, -21.968545], \"count\": 1}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}, {\"coordinates\": [166.90391944444445, -22.274947222222224], \"count\": 2}, {\"coordinates\": [166.55194091796875, -21.91777992248535], \"count\": 2}, {\"coordinates\": [166.6034403, -22.1190641], \"count\": 2}, {\"coordinates\": [166.4704549999014, -22.116116000941656], \"count\": 1}, {\"coordinates\": [166.5388889, -21.9580556], \"count\": 1}, {\"coordinates\": [166.53611755371094, -21.983890533447266], \"count\": 2}, {\"coordinates\": [166.8602562, -22.232445], \"count\": 1}, {\"coordinates\": [166.7165318, -22.1612131], \"count\": 1}, {\"coordinates\": [166.8790385, -22.148921], \"count\": 2}, {\"coordinates\": [166.6031631, -22.1347164], \"count\": 1}, {\"coordinates\": [166.90306091308594, -22.294719696044922], \"count\": 1}, {\"coordinates\": [166.40472412109375, -21.944169998168945], \"count\": 3}, {\"coordinates\": [166.9088897705078, -22.3075008392334], \"count\": 1}, {\"coordinates\": [166.938624, -22.1776139], \"count\": 2}, {\"coordinates\": [166.5361111, -21.9838889], \"count\": 1}, {\"coordinates\": [166.4713897705078, -22.04435920715332], \"count\": 2}, {\"coordinates\": [166.4459062, -22.0767633], \"count\": 2}, {\"coordinates\": [166.60000610351562, -22.149999618530273], \"count\": 4}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 1}, {\"coordinates\": [166.93528747558594, -22.180559158325195], \"count\": 1}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 12}, {\"coordinates\": [166.4631195, -22.0355682], \"count\": 1}, {\"coordinates\": [166.5272222, -21.9522222], \"count\": 1}, {\"coordinates\": [166.993896484375, -22.264440536499023], \"count\": 3}, {\"coordinates\": [166.8175863, -22.245219], \"count\": 2}, {\"coordinates\": [166.4600067138672, -22.038610458374023], \"count\": 1}, {\"coordinates\": [166.47187499974453, -22.09972700025007], \"count\": 1}, {\"coordinates\": [166.8321755, -22.3043797], \"count\": 1}, {\"coordinates\": [163.6602783203125, -19.721389770507812], \"count\": 1}, {\"coordinates\": [166.90194702148438, -22.155559539794922], \"count\": 1}, {\"coordinates\": [166.9072795, -22.1688028], \"count\": 2}, {\"coordinates\": [166.60028076171875, -22.12221908569336], \"count\": 1}, {\"coordinates\": [166.5833282470703, -22.133329391479492], \"count\": 1}, {\"coordinates\": [166.81805419921875, -22.324169158935547], \"count\": 3}, {\"coordinates\": [166.8973584, -22.2802817], \"count\": 1}, {\"coordinates\": [164.1999969482422, -20.450000762939453], \"count\": 1}, {\"coordinates\": [166.84971618652344, -22.191669464111328], \"count\": 1}, {\"coordinates\": [166.5755615234375, -22.146669387817383], \"count\": 1}, {\"coordinates\": [166.8165565, -22.2439032], \"count\": 1}, {\"coordinates\": [166.4080672, -21.9410166], \"count\": 1}, {\"coordinates\": [166.5833282470703, -22.100000381469727], \"count\": 2}, {\"coordinates\": [166.9972287, -22.2614004], \"count\": 1}, {\"coordinates\": [167.01278686523438, -22.28805923461914], \"count\": 1}, {\"coordinates\": [166.9311065673828, -22.182220458984375], \"count\": 1}, {\"coordinates\": [166.5351813, -21.9698552], \"count\": 1}, {\"coordinates\": [166.9067677, -22.1559741], \"count\": 1}, {\"coordinates\": [166.84332275390625, -22.228609085083008], \"count\": 1}, {\"coordinates\": [166.7489444, -22.3398889], \"count\": 1}, {\"coordinates\": [166.8477724, -22.220262], \"count\": 1}, {\"coordinates\": [166.99281404, -22.27760203], \"count\": 1}, {\"coordinates\": [166.4922156, -21.94738372], \"count\": 1}, {\"coordinates\": [166.67612005, -22.04756799], \"count\": 1}, {\"coordinates\": [166.52813701, -21.95417595], \"count\": 1}, {\"coordinates\": [166.74893905, -22.33988899], \"count\": 1}]}",
+    "species_top": {
+        "Soulamea trifoliata": 163
+    },
+    "um_occurrences_true": 162,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                42.86,
+                75.0,
+                91.3,
+                87.18,
+                66.67
+            ],
+            "fruiting": [
+                66.67,
+                100.0,
+                100.0,
+                100.0,
+                0.0,
+                100.0,
+                100.0,
+                42.86,
+                12.5,
+                8.7,
+                30.77,
+                33.33
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.2,
+    "dbh_max": 12.1,
+    "dbh_median": 11.5,
+    "dbh_min": 10.0,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 18.62,
+            "200": 25.52,
+            "300": 6.21,
+            "400": 0.69,
+            "500": 13.1,
+            "600": 9.66,
+            "700": 2.76,
+            "800": 6.21,
+            "900": 2.76,
+            "1000": 11.03,
+            "1100": 0.0,
+            "1200": 3.45
+        },
+        "rainfall": {
+            "1000": 0.62,
+            "1500": 3.73,
+            "2000": 21.74,
+            "2500": 36.02,
+            "3000": 31.06,
+            "3500": 0.0,
+            "4000": 4.97,
+            "4500": 1.86
+        },
+        "holdridge": {
+            "1": 4.17,
+            "2": 95.83
+        },
+        "strate": {
+            "1": 50.0,
+            "2": 50.0,
+            "3": 0.0
+        }
+    }
+}

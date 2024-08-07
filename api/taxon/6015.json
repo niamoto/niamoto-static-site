@@ -1,0 +1,130 @@
+{
+    "id": 6015,
+    "full_name": "Terminalia cherrieri",
+    "authors": "MacKee",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 606
+    },
+    "lft": 677,
+    "rght": 678,
+    "level": 2,
+    "parent_id": 1460,
+    "taxon_id": 6015,
+    "total_occurrences_count": 12,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.1902231, -21.4865158], \"count\": 4}, {\"coordinates\": [165.14663403, -21.42448503], \"count\": 1}, {\"coordinates\": [165.04017572, -21.33598241], \"count\": 1}, {\"coordinates\": [165.1578107, -21.3435049], \"count\": 1}, {\"coordinates\": [165.2234229, -21.4261147], \"count\": 1}, {\"coordinates\": [164.96389, -21.26204], \"count\": 1}, {\"coordinates\": [165.149726661046, -21.4230566660563], \"count\": 1}, {\"coordinates\": [165.149350007375, -21.4228150049845], \"count\": 1}, {\"coordinates\": [165.149001669884, -21.4224091688792], \"count\": 1}]}",
+    "species_top": {
+        "Terminalia cherrieri": 12
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 11,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                100.0,
+                0,
+                100.0,
+                0,
+                50.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 38.33,
+    "dbh_max": 55.0,
+    "dbh_median": 40.0,
+    "dbh_min": 20.0,
+    "height_max": 25.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 33.33,
+            "30": 0.0,
+            "40": 33.33,
+            "50": 33.33,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 100.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 100.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 100.0,
+            "2": 0.0
+        }
+    }
+}

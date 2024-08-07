@@ -1,0 +1,130 @@
+{
+    "id": 5351,
+    "full_name": "Quintinia oreophila",
+    "authors": "(Schltr.) Schltr.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1264
+    },
+    "lft": 2277,
+    "rght": 2278,
+    "level": 2,
+    "parent_id": 1287,
+    "taxon_id": 5351,
+    "total_occurrences_count": 97,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4168042, -21.8828044], \"count\": 10}, {\"coordinates\": [166.5339829, -21.9608885], \"count\": 4}, {\"coordinates\": [166.40341666666666, -21.882194444444444], \"count\": 20}, {\"coordinates\": [166.5388889, -21.9580556], \"count\": 1}, {\"coordinates\": [166.41802978515625, -21.88077735900879], \"count\": 1}, {\"coordinates\": [166.41806030273438, -21.880830764770508], \"count\": 1}, {\"coordinates\": [166.42262268066406, -21.87994956970215], \"count\": 1}, {\"coordinates\": [166.5286102294922, -21.95611000061035], \"count\": 2}, {\"coordinates\": [166.4177305556, -21.881075], \"count\": 1}, {\"coordinates\": [166.75, -22.25], \"count\": 6}, {\"coordinates\": [166.5317212, -21.9529492], \"count\": 4}, {\"coordinates\": [166.5833282470703, -22.100000381469727], \"count\": 1}, {\"coordinates\": [166.5333251953125, -21.950000762939453], \"count\": 1}, {\"coordinates\": [166.40638732910156, -21.883609771728516], \"count\": 3}, {\"coordinates\": [166.58333, -22.1], \"count\": 1}, {\"coordinates\": [166.4189055556, -21.8806], \"count\": 1}, {\"coordinates\": [166.5388946533203, -21.958059310913086], \"count\": 1}, {\"coordinates\": [166.4210195, -21.8805313], \"count\": 2}, {\"coordinates\": [166.4219970703125, -21.880149841308594], \"count\": 1}, {\"coordinates\": [166.6031631, -22.1347164], \"count\": 2}, {\"coordinates\": [166.6034403, -22.1190641], \"count\": 3}, {\"coordinates\": [166.5370159, -21.9302017], \"count\": 2}, {\"coordinates\": [166.5371307, -21.9749701], \"count\": 2}, {\"coordinates\": [166.5351813, -21.9698552], \"count\": 1}, {\"coordinates\": [166.41778564453125, -21.883609771728516], \"count\": 1}, {\"coordinates\": [166.4086151123047, -21.89082908630371], \"count\": 1}, {\"coordinates\": [166.4119277, -21.8878731], \"count\": 4}, {\"coordinates\": [166.4180556, -21.8808333], \"count\": 1}, {\"coordinates\": [166.40269470214844, -21.884740829467773], \"count\": 1}, {\"coordinates\": [165.114513208688, -21.1769843564851], \"count\": 1}, {\"coordinates\": [166.53277299, -21.94965898], \"count\": 1}, {\"coordinates\": [166.41400003, -21.88146898], \"count\": 1}, {\"coordinates\": [166.41309002, -21.88024003], \"count\": 1}, {\"coordinates\": [166.6034, -22.1191], \"count\": 1}, {\"coordinates\": [166.42424299, -21.87864101], \"count\": 1}, {\"coordinates\": [166.42264501, -21.87992798], \"count\": 1}, {\"coordinates\": [166.4119, -21.8879], \"count\": 1}, {\"coordinates\": [166.50444, -21.97111], \"count\": 1}, {\"coordinates\": [166.5352, -21.9699], \"count\": 1}, {\"coordinates\": [166.60332631064654, -22.116341021000395], \"count\": 1}, {\"coordinates\": [166.53888889, -21.95805556], \"count\": 1}, {\"coordinates\": [166.41647604, -21.88208098], \"count\": 1}, {\"coordinates\": [166.38913988, -21.90084679], \"count\": 1}, {\"coordinates\": [166.53313401, -21.95081201], \"count\": 1}, {\"coordinates\": [166.41850201, -21.88063403], \"count\": 1}, {\"coordinates\": [166.534, -21.9609], \"count\": 1}]}",
+    "species_top": {
+        "Quintinia oreophila": 97
+    },
+    "um_occurrences_true": 96,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0.0,
+                100.0,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                10.0,
+                42.86
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.34,
+    "dbh_max": 19.7,
+    "dbh_median": 9.85,
+    "dbh_min": 6.4,
+    "height_max": 3.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 6.19,
+            "300": 1.03,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 2.06,
+            "700": 2.06,
+            "800": 4.12,
+            "900": 6.19,
+            "1000": 5.15,
+            "1100": 4.12,
+            "1200": 69.07
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 1.03,
+            "2000": 7.22,
+            "2500": 4.12,
+            "3000": 7.22,
+            "3500": 58.76,
+            "4000": 5.15,
+            "4500": 16.49
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

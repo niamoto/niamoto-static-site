@@ -1,0 +1,135 @@
+{
+    "id": 5846,
+    "full_name": "Symplocos montana var. baptica",
+    "authors": "(Brongn. & Gris) Noot.",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 4975
+    },
+    "lft": 3500,
+    "rght": 3501,
+    "level": 3,
+    "parent_id": 5845,
+    "taxon_id": 5846,
+    "total_occurrences_count": 64,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [165.2834384, -21.1767109], \"count\": 3}, {\"coordinates\": [165.1705556, -21.03], \"count\": 2}, {\"coordinates\": [165.9681084, -21.5928122], \"count\": 1}, {\"coordinates\": [164.5933333, -20.4544444], \"count\": 1}, {\"coordinates\": [165.3033762, -21.1779231], \"count\": 3}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 3}, {\"coordinates\": [164.5314902, -20.3976737], \"count\": 1}, {\"coordinates\": [166.6034403, -22.1190641], \"count\": 1}, {\"coordinates\": [165.96667, -21.6], \"count\": 1}, {\"coordinates\": [166.6031631, -22.1347164], \"count\": 1}, {\"coordinates\": [166.3488889, -22.06], \"count\": 1}, {\"coordinates\": [164.524275, -20.4016361], \"count\": 1}, {\"coordinates\": [164.7108333, -20.4869444], \"count\": 1}, {\"coordinates\": [165.2686111, -21.1772222], \"count\": 1}, {\"coordinates\": [165.9633611, -21.6034167], \"count\": 1}, {\"coordinates\": [164.7983844, -20.5587769], \"count\": 1}, {\"coordinates\": [164.5246221, -20.3836135], \"count\": 1}, {\"coordinates\": [164.5213457, -20.4031031], \"count\": 3}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 2}, {\"coordinates\": [166.0487566, -21.6361928], \"count\": 1}, {\"coordinates\": [164.4385111, -20.3024528], \"count\": 1}, {\"coordinates\": [165.277313, -21.177801], \"count\": 6}, {\"coordinates\": [164.4378741737, -20.3060228471], \"count\": 1}, {\"coordinates\": [164.77608333333333, -20.6125], \"count\": 1}, {\"coordinates\": [164.78330555555556, -20.560027777777776], \"count\": 1}, {\"coordinates\": [164.781, -20.625611111111112], \"count\": 2}, {\"coordinates\": [164.78330555555556, -20.559833333333334], \"count\": 1}, {\"coordinates\": [164.78291666666667, -20.560388888888887], \"count\": 2}, {\"coordinates\": [164.4001529, -20.3023148], \"count\": 1}, {\"coordinates\": [164.4215898, -20.3005713], \"count\": 1}, {\"coordinates\": [165.9398612, -21.5931635], \"count\": 1}, {\"coordinates\": [164.6063889, -20.4458333], \"count\": 1}, {\"coordinates\": [166.66625957489, -22.0208468993505], \"count\": 1}, {\"coordinates\": [164.6838889, -20.6586111], \"count\": 1}, {\"coordinates\": [165.8813852, -21.6202967], \"count\": 1}, {\"coordinates\": [165.3066239, -21.1762872], \"count\": 1}, {\"coordinates\": [164.8633353, -20.6400389], \"count\": 1}, {\"coordinates\": [164.6022222, -20.46], \"count\": 1}, {\"coordinates\": [165.9235941, -21.5779379], \"count\": 1}, {\"coordinates\": [165.8886305556, -21.617625], \"count\": 1}, {\"coordinates\": [164.5267956, -20.3927884], \"count\": 1}, {\"coordinates\": [166.440234470367, -21.8552534739176], \"count\": 1}, {\"coordinates\": [166.31428700000015, -21.682465000647625], \"count\": 1}, {\"coordinates\": [165.77573497, -21.60227396], \"count\": 2}]}",
+    "species_top": {
+        "Symplocos montana var. baptica": 64
+    },
+    "um_occurrences_true": 6,
+    "um_occurrences_false": 58,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                0.0,
+                90.0,
+                100.0,
+                83.33,
+                75.0,
+                33.33,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                25.0,
+                10.0,
+                25.0,
+                0.0,
+                50.0,
+                66.67,
+                100.0,
+                60.0,
+                50.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.31,
+    "dbh_max": 42.6,
+    "dbh_median": 13.85,
+    "dbh_min": 5.4,
+    "height_max": 20.0,
+    "wood_density_mean": 0.59,
+    "wood_density_max": 0.59,
+    "wood_density_min": 0.59,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 77.78,
+            "20": 0.0,
+            "30": 11.11,
+            "40": 11.11,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 1.59,
+            "200": 1.59,
+            "300": 1.59,
+            "400": 3.17,
+            "500": 4.76,
+            "600": 36.51,
+            "700": 14.29,
+            "800": 22.22,
+            "900": 9.52,
+            "1000": 1.59,
+            "1100": 1.59,
+            "1200": 1.59
+        },
+        "rainfall": {
+            "1000": 4.76,
+            "1500": 25.4,
+            "2000": 23.81,
+            "2500": 26.98,
+            "3000": 15.87,
+            "3500": 1.59,
+            "4000": 1.59,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

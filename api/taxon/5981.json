@@ -1,0 +1,130 @@
+{
+    "id": 5981,
+    "full_name": "Tapeinosperma vestitum",
+    "authors": "Mez",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4163
+    },
+    "lft": 2601,
+    "rght": 2602,
+    "level": 2,
+    "parent_id": 1449,
+    "taxon_id": 5981,
+    "total_occurrences_count": 65,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4168042, -21.8828044], \"count\": 1}, {\"coordinates\": [166.4687159, -22.0094731], \"count\": 1}, {\"coordinates\": [166.3492461, -22.0604159], \"count\": 1}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 2}, {\"coordinates\": [166.60524199, -22.12213601], \"count\": 2}, {\"coordinates\": [166.535, -21.965166666666665], \"count\": 2}, {\"coordinates\": [165.64999389648438, -21.516666412353516], \"count\": 1}, {\"coordinates\": [166.6034403, -22.1190641], \"count\": 1}, {\"coordinates\": [166.59991455078125, -22.137779235839844], \"count\": 1}, {\"coordinates\": [166.42564392089844, -22.074440002441406], \"count\": 1}, {\"coordinates\": [166.41082763671875, -21.883060455322266], \"count\": 1}, {\"coordinates\": [166.4167194, -21.8813611], \"count\": 1}, {\"coordinates\": [166.4096819, -21.8806563], \"count\": 1}, {\"coordinates\": [166.41360473632812, -21.881389617919922], \"count\": 2}, {\"coordinates\": [166.2630615234375, -21.828609466552734], \"count\": 2}, {\"coordinates\": [166.46556091308594, -22.012500762939453], \"count\": 2}, {\"coordinates\": [166.5183563232422, -22.19038963317871], \"count\": 4}, {\"coordinates\": [166.2216816, -21.8590887], \"count\": 1}, {\"coordinates\": [166.41665649414062, -21.883329391479492], \"count\": 1}, {\"coordinates\": [166.58749389648438, -22.153329849243164], \"count\": 1}, {\"coordinates\": [166.2661766, -21.8254492], \"count\": 1}, {\"coordinates\": [166.47166442871094, -22.004169464111328], \"count\": 1}, {\"coordinates\": [166.53639221191406, -21.958890914916992], \"count\": 1}, {\"coordinates\": [166.4749046, -22.0011963], \"count\": 1}, {\"coordinates\": [166.05555725097656, -21.632219314575195], \"count\": 2}, {\"coordinates\": [165.8265424, -21.3973133], \"count\": 1}, {\"coordinates\": [166.413675, -21.8814444444], \"count\": 1}, {\"coordinates\": [166.6, -22.1313889], \"count\": 1}, {\"coordinates\": [164.63333129882812, -20.46666717529297], \"count\": 1}, {\"coordinates\": [166.9072063, -22.181529], \"count\": 1}, {\"coordinates\": [166.535, -21.9627778], \"count\": 1}, {\"coordinates\": [166.53500366210938, -21.962779998779297], \"count\": 1}, {\"coordinates\": [166.53082275390625, -21.963890075683594], \"count\": 1}, {\"coordinates\": [166.60000610351562, -22.137779235839844], \"count\": 1}, {\"coordinates\": [166.41368103027344, -21.88145637512207], \"count\": 1}, {\"coordinates\": [166.53334045410156, -21.950000762939453], \"count\": 1}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 1}, {\"coordinates\": [166.5363889, -21.9588889], \"count\": 1}, {\"coordinates\": [166.4207861, -21.8801694], \"count\": 1}, {\"coordinates\": [166.5351813, -21.9698552], \"count\": 2}, {\"coordinates\": [166.5339829, -21.9608885], \"count\": 1}, {\"coordinates\": [166.5291748046875, -21.956390380859375], \"count\": 1}, {\"coordinates\": [166.6064118, -22.1331686], \"count\": 1}, {\"coordinates\": [166.535, -21.96516667], \"count\": 1}, {\"coordinates\": [166.60498335, -22.13108606], \"count\": 1}, {\"coordinates\": [166.41694503, -21.88176803], \"count\": 1}, {\"coordinates\": [166.52813701, -21.95417595], \"count\": 1}, {\"coordinates\": [166.41456298, -21.88367598], \"count\": 1}, {\"coordinates\": [166.41347801, -21.87976998], \"count\": 1}, {\"coordinates\": [165.3250222, -21.16188611], \"count\": 1}, {\"coordinates\": [166.41647604, -21.88208098], \"count\": 1}, {\"coordinates\": [166.41259901, -21.88279896], \"count\": 1}, {\"coordinates\": [166.41309002, -21.88024003], \"count\": 1}]}",
+    "species_top": {
+        "Tapeinosperma vestitum": 65
+    },
+    "um_occurrences_true": 56,
+    "um_occurrences_false": 9,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                20.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                33.33,
+                0.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                50.0,
+                40.0,
+                100.0,
+                100.0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 8.9,
+    "dbh_max": 11.3,
+    "dbh_median": 8.9,
+    "dbh_min": 6.5,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 4.69,
+            "200": 0.0,
+            "300": 1.56,
+            "400": 0.0,
+            "500": 7.81,
+            "600": 4.69,
+            "700": 6.25,
+            "800": 14.06,
+            "900": 7.81,
+            "1000": 1.56,
+            "1100": 3.12,
+            "1200": 48.44
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 10.77,
+            "2000": 7.69,
+            "2500": 18.46,
+            "3000": 13.85,
+            "3500": 27.69,
+            "4000": 0.0,
+            "4500": 21.54
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

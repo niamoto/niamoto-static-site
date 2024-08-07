@@ -1,0 +1,130 @@
+{
+    "id": 5957,
+    "full_name": "Tapeinosperma gracile",
+    "authors": "Mez",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4141
+    },
+    "lft": 2577,
+    "rght": 2578,
+    "level": 2,
+    "parent_id": 1449,
+    "taxon_id": 5957,
+    "total_occurrences_count": 146,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.7064855, -21.5485811], \"count\": 2}, {\"coordinates\": [165.8740833, -21.6207778], \"count\": 1}, {\"coordinates\": [165.3488007, -21.4306073], \"count\": 1}, {\"coordinates\": [165.3512034, -21.4264295], \"count\": 3}, {\"coordinates\": [166.5131965, -22.1749806], \"count\": 4}, {\"coordinates\": [165.8221349, -21.6178463], \"count\": 1}, {\"coordinates\": [165.3033762, -21.1779231], \"count\": 2}, {\"coordinates\": [165.3530556, -21.4363889], \"count\": 2}, {\"coordinates\": [165.8333563, -21.6067788], \"count\": 2}, {\"coordinates\": [166.320346, -22.0897946], \"count\": 1}, {\"coordinates\": [165.7734716, -21.5602335], \"count\": 1}, {\"coordinates\": [165.2222222, -21.005], \"count\": 1}, {\"coordinates\": [165.9862783333, -21.6875436111], \"count\": 2}, {\"coordinates\": [166.0765777, -21.5840203], \"count\": 1}, {\"coordinates\": [164.6916111, -20.5293333], \"count\": 1}, {\"coordinates\": [166.5084848, -22.1787788], \"count\": 2}, {\"coordinates\": [166.0566426, -21.6339039], \"count\": 1}, {\"coordinates\": [165.2313889, -21.0047222], \"count\": 1}, {\"coordinates\": [165.7706993, -21.5558274], \"count\": 1}, {\"coordinates\": [164.8730556, -20.6416667], \"count\": 1}, {\"coordinates\": [166.92011, -22.32465], \"count\": 4}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 1}, {\"coordinates\": [164.7406667, -20.5928333], \"count\": 1}, {\"coordinates\": [165.3005759, -21.1714564], \"count\": 1}, {\"coordinates\": [166.6232222, -22.1943889], \"count\": 5}, {\"coordinates\": [164.8705556, -20.64075], \"count\": 1}, {\"coordinates\": [166.5196226, -22.1898457], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 3}, {\"coordinates\": [166.62572499, -22.19208599], \"count\": 2}, {\"coordinates\": [166.6258055, -22.1965], \"count\": 1}, {\"coordinates\": [166.5931278, -22.15554175], \"count\": 1}, {\"coordinates\": [165.77492096, -21.60249097], \"count\": 1}, {\"coordinates\": [165.74091998, -21.60992398], \"count\": 1}, {\"coordinates\": [166.60617401, -22.07395503], \"count\": 1}, {\"coordinates\": [166.59216395, -22.15704999], \"count\": 1}, {\"coordinates\": [166.52474998, -22.17611402], \"count\": 1}, {\"coordinates\": [166.52352698, -22.18504201], \"count\": 1}, {\"coordinates\": [166.14347401, -21.74773102], \"count\": 1}, {\"coordinates\": [166.54058702, -22.17797097], \"count\": 1}, {\"coordinates\": [165.75966103, -21.561278], \"count\": 1}, {\"coordinates\": [166.15296098, -21.73768498], \"count\": 1}, {\"coordinates\": [165.776384, -21.60258795], \"count\": 1}, {\"coordinates\": [165.74713297, -21.61340002], \"count\": 1}, {\"coordinates\": [165.77269997, -21.60794696], \"count\": 1}, {\"coordinates\": [165.75500696, -21.61583104], \"count\": 1}, {\"coordinates\": [165.73016601, -21.60441597], \"count\": 1}, {\"coordinates\": [165.77777196, -21.608483], \"count\": 1}, {\"coordinates\": [165.73604001, -21.55237199], \"count\": 1}, {\"coordinates\": [166.14562501, -21.73726896], \"count\": 1}, {\"coordinates\": [165.27166666666668, -21.184444444444445], \"count\": 8}, {\"coordinates\": [165.277, -21.178219444444444], \"count\": 2}, {\"coordinates\": [165.32111111111112, -21.151944444444446], \"count\": 12}, {\"coordinates\": [166.91701666666665, -22.322566666666667], \"count\": 1}, {\"coordinates\": [165.30416666666667, -21.204722222222223], \"count\": 1}, {\"coordinates\": [164.76727777777776, -20.741777777777777], \"count\": 1}, {\"coordinates\": [165.77269444444445, -21.607944444444446], \"count\": 1}, {\"coordinates\": [165.26925, -21.177138888888887], \"count\": 3}, {\"coordinates\": [165.08108333333334, -20.824638888888888], \"count\": 2}, {\"coordinates\": [165.3199423, -21.1540391], \"count\": 2}, {\"coordinates\": [165.6911553, -21.5301293], \"count\": 1}, {\"coordinates\": [165.5220606, -21.4310086], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 4}, {\"coordinates\": [166.1665635, -21.759654], \"count\": 2}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 1}, {\"coordinates\": [165.7745996, -21.5711032], \"count\": 2}, {\"coordinates\": [166.5161226, -22.18526], \"count\": 2}, {\"coordinates\": [166.5212418, -22.2089127], \"count\": 1}, {\"coordinates\": [165.1267827, -21.2352252], \"count\": 3}, {\"coordinates\": [165.4719657, -21.2111451], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 1}, {\"coordinates\": [164.740407653167, -20.7396987453333], \"count\": 1}, {\"coordinates\": [165.121561932564, -21.1474905172984], \"count\": 1}, {\"coordinates\": [165.4575505, -21.4264237], \"count\": 1}, {\"coordinates\": [166.6499751, -22.115439], \"count\": 1}, {\"coordinates\": [164.7531733, -20.7333531], \"count\": 1}, {\"coordinates\": [164.708, -20.7178], \"count\": 1}, {\"coordinates\": [166.0951583, -21.8004389], \"count\": 1}, {\"coordinates\": [164.8685944, -20.6370471], \"count\": 3}, {\"coordinates\": [166.1567367, -21.7565028], \"count\": 1}, {\"coordinates\": [165.7119529, -21.3047226], \"count\": 1}, {\"coordinates\": [164.779938, -20.62580720833333], \"count\": 1}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 1}, {\"coordinates\": [165.112989981969, -21.1601064046224], \"count\": 1}, {\"coordinates\": [164.7814722, -20.6243611], \"count\": 1}, {\"coordinates\": [165.512809721629, -21.2534218788147], \"count\": 1}, {\"coordinates\": [165.867496562193, -21.6247940216754], \"count\": 1}, {\"coordinates\": [164.9326465, -20.975783], \"count\": 2}, {\"coordinates\": [164.8404275, -20.6516662], \"count\": 1}, {\"coordinates\": [166.1436111, -21.7477778], \"count\": 1}]}",
+    "species_top": {
+        "Tapeinosperma gracile": 146
+    },
+    "um_occurrences_true": 53,
+    "um_occurrences_false": 93,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                58.82,
+                86.67,
+                40.91,
+                9.09,
+                20.0,
+                0.0,
+                0.0,
+                0.0,
+                50.0,
+                33.33,
+                50.0,
+                57.14
+            ],
+            "fruiting": [
+                35.29,
+                66.67,
+                27.27,
+                27.27,
+                100.0,
+                100.0,
+                66.67,
+                0.0,
+                40.0,
+                66.67,
+                28.57,
+                57.14
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.47,
+    "dbh_max": 8.6,
+    "dbh_median": 6.75,
+    "dbh_min": 5.0,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 2.8,
+            "200": 11.89,
+            "300": 6.29,
+            "400": 17.48,
+            "500": 20.98,
+            "600": 12.59,
+            "700": 13.29,
+            "800": 8.39,
+            "900": 2.8,
+            "1000": 0.7,
+            "1100": 2.1,
+            "1200": 0.7
+        },
+        "rainfall": {
+            "1000": 2.08,
+            "1500": 17.36,
+            "2000": 41.67,
+            "2500": 31.25,
+            "3000": 6.25,
+            "3500": 0.69,
+            "4000": 0.69,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 1.18,
+            "2": 98.82
+        }
+    }
+}

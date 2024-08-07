@@ -1,0 +1,135 @@
+{
+    "id": 5885,
+    "full_name": "Syzygium koumacense",
+    "authors": "J.W.Dawson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1735
+    },
+    "lft": 2045,
+    "rght": 2046,
+    "level": 2,
+    "parent_id": 1439,
+    "taxon_id": 5885,
+    "total_occurrences_count": 38,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.3552861, -20.5391222], \"count\": 1}, {\"coordinates\": [164.355251, -20.539273], \"count\": 4}, {\"coordinates\": [164.3285535, -20.5249656], \"count\": 1}, {\"coordinates\": [164.3088722, -20.4904444], \"count\": 1}, {\"coordinates\": [165.2705555556, -21.1777777778], \"count\": 1}, {\"coordinates\": [164.3605972, -20.5475819], \"count\": 1}, {\"coordinates\": [164.3321002, -20.5340694], \"count\": 2}, {\"coordinates\": [164.349158, -20.5013764], \"count\": 1}, {\"coordinates\": [164.2906787, -20.5552568], \"count\": 1}, {\"coordinates\": [164.3458251953125, -20.504440307617188], \"count\": 2}, {\"coordinates\": [164.296426858984, -20.411888143119], \"count\": 1}, {\"coordinates\": [165.2705535888672, -21.177778244018555], \"count\": 1}, {\"coordinates\": [164.358392906816, -20.5315922222335], \"count\": 1}, {\"coordinates\": [164.307944482785, -20.4894573808422], \"count\": 1}, {\"coordinates\": [164.309448763529, -20.4901894505819], \"count\": 1}, {\"coordinates\": [164.320604083092, -20.4255108099778], \"count\": 1}, {\"coordinates\": [164.29278564453125, -20.534439086914062], \"count\": 1}, {\"coordinates\": [164.308041024222, -20.4897474673097], \"count\": 1}, {\"coordinates\": [165.2705535888672, -21.177780151367188], \"count\": 1}, {\"coordinates\": [164.32528686523438, -20.528060913085938], \"count\": 1}, {\"coordinates\": [164.361552581195, -20.530120240275], \"count\": 1}, {\"coordinates\": [164.35982888310656, -20.54066554119059], \"count\": 1}, {\"coordinates\": [164.34584723380252, -20.504459251133138], \"count\": 1}, {\"coordinates\": [164.33202286324118, -20.534021973453875], \"count\": 1}, {\"coordinates\": [164.3334133280482, -20.524232027794312], \"count\": 1}, {\"coordinates\": [164.35520367814482, -20.53925652696121], \"count\": 2}, {\"coordinates\": [164.34583, -20.50444], \"count\": 2}, {\"coordinates\": [164.32837037375347, -20.524969626246545], \"count\": 1}, {\"coordinates\": [164.36135532481936, -20.54725442544939], \"count\": 1}, {\"coordinates\": [164.3134959054133, -20.488618910044472], \"count\": 1}, {\"coordinates\": [164.3283745836248, -20.5249656], \"count\": 1}]}",
+    "species_top": {
+        "Syzygium koumacense": 38
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 35,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                20.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                20.0,
+                0.0,
+                0,
+                33.33
+            ],
+            "fruiting": [
+                60.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                0,
+                33.33
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 23.58,
+    "dbh_max": 40.0,
+    "dbh_median": 22.3,
+    "dbh_min": 12.1,
+    "height_max": 12.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 33.33,
+            "20": 33.33,
+            "30": 16.67,
+            "40": 16.67,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 60.0,
+            "200": 6.67,
+            "300": 13.33,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 20.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 70.27,
+            "1500": 21.62,
+            "2000": 0.0,
+            "2500": 8.11,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 11.43,
+            "2": 88.57
+        },
+        "strate": {
+            "1": 33.33,
+            "2": 0.0,
+            "3": 66.67
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 5494,
+    "full_name": "Sarcomelicope argyrophylla",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4778
+    },
+    "lft": 3001,
+    "rght": 3002,
+    "level": 2,
+    "parent_id": 1343,
+    "taxon_id": 5494,
+    "total_occurrences_count": 146,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.54472, -22.18089], \"count\": 1}, {\"coordinates\": [166.8734904, -22.1621753], \"count\": 2}, {\"coordinates\": [166.651034, -21.973106], \"count\": 1}, {\"coordinates\": [166.91, -22.2986111], \"count\": 1}, {\"coordinates\": [166.6835044, -22.2866669], \"count\": 2}, {\"coordinates\": [166.788903, -22.1907076], \"count\": 1}, {\"coordinates\": [166.8112215, -22.2056512], \"count\": 3}, {\"coordinates\": [166.9025673, -22.1528943], \"count\": 1}, {\"coordinates\": [166.7971689, -22.0841432], \"count\": 1}, {\"coordinates\": [166.7737973, -22.28872], \"count\": 1}, {\"coordinates\": [166.9528526, -22.2698698], \"count\": 2}, {\"coordinates\": [166.1886153, -21.6818769], \"count\": 1}, {\"coordinates\": [166.5339829, -21.9608885], \"count\": 1}, {\"coordinates\": [164.9203056, -20.9500383], \"count\": 1}, {\"coordinates\": [166.4719051, -22.0013752], \"count\": 1}, {\"coordinates\": [166.5273258, -22.1807993], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 6}, {\"coordinates\": [166.89935531, -22.29082505], \"count\": 2}, {\"coordinates\": [166.81333329, -22.24694445], \"count\": 2}, {\"coordinates\": [166.9, -22.27694447], \"count\": 2}, {\"coordinates\": [166.76044923, -22.19067053], \"count\": 2}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 4}, {\"coordinates\": [166.81138887, -22.24972223], \"count\": 2}, {\"coordinates\": [166.78555562, -22.19388891], \"count\": 2}, {\"coordinates\": [166.75527783, -22.31027775], \"count\": 1}, {\"coordinates\": [166.89815938, -22.2766399], \"count\": 2}, {\"coordinates\": [166.76104096, -22.18968099], \"count\": 2}, {\"coordinates\": [166.82579366, -22.2512891], \"count\": 2}, {\"coordinates\": [166.76361107, -22.17805556], \"count\": 1}, {\"coordinates\": [166.89660352, -22.27926796], \"count\": 2}, {\"coordinates\": [166.5928333, -22.15477782], \"count\": 1}, {\"coordinates\": [166.896372, -22.288916], \"count\": 1}, {\"coordinates\": [166.937861, -22.276796], \"count\": 1}, {\"coordinates\": [166.90829, -22.282251], \"count\": 1}, {\"coordinates\": [166.956099, -22.276151], \"count\": 1}, {\"coordinates\": [166.903162, -22.276171], \"count\": 2}, {\"coordinates\": [166.493505, -21.945976], \"count\": 2}, {\"coordinates\": [166.89711111111112, -22.154944444444446], \"count\": 12}, {\"coordinates\": [166.99477777777778, -22.273083333333332], \"count\": 1}, {\"coordinates\": [166.99425, -22.272916666666667], \"count\": 4}, {\"coordinates\": [166.99455555555556, -22.273083333333332], \"count\": 2}, {\"coordinates\": [166.493434, -21.946526], \"count\": 2}, {\"coordinates\": [166.59504444444445, -22.15985], \"count\": 1}, {\"coordinates\": [166.59312777777777, -22.155541666666668], \"count\": 1}, {\"coordinates\": [166.29916381835938, -21.778060913085938], \"count\": 2}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 2}, {\"coordinates\": [166.85000610351562, -22.183330535888672], \"count\": 2}, {\"coordinates\": [166.294158162917, -21.6593438100833], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 2}, {\"coordinates\": [166.68333329, -22.19999999], \"count\": 1}, {\"coordinates\": [166.8080596923828, -22.20861053466797], \"count\": 1}, {\"coordinates\": [166.9166717529297, -22.333332061767578], \"count\": 1}, {\"coordinates\": [166.79388427734375, -22.08721923828125], \"count\": 2}, {\"coordinates\": [166.68333435058594, -22.200000762939453], \"count\": 1}, {\"coordinates\": [166.6798667, -22.0444167], \"count\": 1}, {\"coordinates\": [166.8165565, -22.2439032], \"count\": 3}, {\"coordinates\": [166.6858367919922, -22.18000030517578], \"count\": 1}, {\"coordinates\": [166.191141, -21.771121], \"count\": 1}, {\"coordinates\": [164.919649119, -20.9508941953333], \"count\": 1}, {\"coordinates\": [166.78555297851562, -22.193889617919922], \"count\": 2}, {\"coordinates\": [166.829239, -22.2020994], \"count\": 1}, {\"coordinates\": [166.8702850341797, -22.165279388427734], \"count\": 2}, {\"coordinates\": [166.18165229066156, -21.747684131301895], \"count\": 1}, {\"coordinates\": [166.31264300000015, -21.69327000064787], \"count\": 1}, {\"coordinates\": [166.818115234375, -22.32430076599121], \"count\": 3}, {\"coordinates\": [165.71548461914062, -21.31633949279785], \"count\": 2}, {\"coordinates\": [166.5876970000004, -22.01470800065566], \"count\": 1}, {\"coordinates\": [166.18777465820312, -21.774169921875], \"count\": 1}, {\"coordinates\": [166.294, -21.6593], \"count\": 1}, {\"coordinates\": [166.53082275390625, -21.963890075683594], \"count\": 1}, {\"coordinates\": [166.93333435058594, -22.266660690307617], \"count\": 1}, {\"coordinates\": [166.18528747558594, -21.684999465942383], \"count\": 1}, {\"coordinates\": [166.67154400000044, -21.981300000654834], \"count\": 1}, {\"coordinates\": [166.89944458007812, -22.156110763549805], \"count\": 1}, {\"coordinates\": [166.90792800000003, -22.282068], \"count\": 1}, {\"coordinates\": [166.60565500000038, -22.011883000655597], \"count\": 1}, {\"coordinates\": [166.59187218, -22.15853054], \"count\": 1}, {\"coordinates\": [166.67986298, -22.04441702], \"count\": 1}, {\"coordinates\": [166.60572996, -22.06932999], \"count\": 1}, {\"coordinates\": [166.23174487, -21.67188604], \"count\": 1}, {\"coordinates\": [166.49182903, -21.94298703], \"count\": 1}, {\"coordinates\": [166.55107118, -22.09763637], \"count\": 1}, {\"coordinates\": [167.00462898, -22.27939996], \"count\": 1}, {\"coordinates\": [166.59215832, -22.15893608], \"count\": 1}, {\"coordinates\": [166.55548298, -22.17075496], \"count\": 1}, {\"coordinates\": [166.89710003, -22.15494298], \"count\": 1}, {\"coordinates\": [166.60617401, -22.07395503], \"count\": 1}, {\"coordinates\": [166.493759, -21.94574199], \"count\": 1}, {\"coordinates\": [166.50397599, -21.969119], \"count\": 1}, {\"coordinates\": [166.69888886, -22.17277775], \"count\": 1}]}",
+    "species_top": {
+        "Sarcomelicope argyrophylla": 146
+    },
+    "um_occurrences_true": 143,
+    "um_occurrences_false": 3,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                27.27,
+                0,
+                0.0,
+                33.33,
+                0.0,
+                66.67,
+                16.67,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                25.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                50.0,
+                100.0,
+                100.0,
+                33.33,
+                100.0,
+                50.0,
+                0.0,
+                66.67,
+                100.0,
+                25.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.66,
+    "dbh_max": 25.0,
+    "dbh_median": 10.1,
+    "dbh_min": 5.4,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 90.91,
+            "20": 9.09,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 15.33,
+            "200": 25.55,
+            "300": 27.01,
+            "400": 5.11,
+            "500": 11.68,
+            "600": 6.57,
+            "700": 2.19,
+            "800": 3.65,
+            "900": 1.46,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 1.46
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 4.83,
+            "2000": 28.97,
+            "2500": 32.41,
+            "3000": 28.97,
+            "3500": 2.76,
+            "4000": 0.69,
+            "4500": 1.38
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

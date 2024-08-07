@@ -1,0 +1,130 @@
+{
+    "id": 3097,
+    "full_name": "Dutaillyea trifoliolata",
+    "authors": "Baill.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1200
+    },
+    "lft": 2945,
+    "rght": 2946,
+    "level": 2,
+    "parent_id": 705,
+    "taxon_id": 3097,
+    "total_occurrences_count": 33,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7869471, -20.5700274], \"count\": 2}, {\"coordinates\": [164.53333, -20.4], \"count\": 1}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 2}, {\"coordinates\": [164.4369444, -20.3025], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [164.5509893, -20.4136256], \"count\": 1}, {\"coordinates\": [164.51667, -20.4], \"count\": 1}, {\"coordinates\": [164.78330555555556, -20.560027777777776], \"count\": 1}, {\"coordinates\": [164.4377778, -20.3022222], \"count\": 1}, {\"coordinates\": [164.802176056594, -20.5650370927431], \"count\": 1}, {\"coordinates\": [164.443568168208, -20.3069239854813], \"count\": 1}, {\"coordinates\": [164.5267956, -20.3927884], \"count\": 1}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 2}, {\"coordinates\": [164.5586943, -20.5123592], \"count\": 1}, {\"coordinates\": [164.784551874797, -20.5598618189494], \"count\": 1}, {\"coordinates\": [164.4922219, -20.3721472], \"count\": 1}, {\"coordinates\": [164.5289122222, -20.3611711111], \"count\": 2}, {\"coordinates\": [164.7930568, -20.562816], \"count\": 2}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 1}, {\"coordinates\": [164.443085829417, -20.3065583229065], \"count\": 1}, {\"coordinates\": [164.7884284, -20.5680147], \"count\": 1}, {\"coordinates\": [164.7904228, -20.5660142], \"count\": 1}, {\"coordinates\": [165.018376169135, -20.8964453835656], \"count\": 1}, {\"coordinates\": [164.5158172, -20.3853107], \"count\": 1}, {\"coordinates\": [164.5213457, -20.4031031], \"count\": 2}, {\"coordinates\": [164.5314902, -20.3976737], \"count\": 1}, {\"coordinates\": [164.996619238371, -20.9039739643146], \"count\": 1}]}",
+    "species_top": {
+        "Dutaillyea trifoliolata": 33
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 31,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0,
+                50.0,
+                66.67,
+                66.67,
+                100.0,
+                66.67,
+                100.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                66.67,
+                25.0,
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 5.4,
+    "dbh_max": 5.4,
+    "dbh_median": 5.4,
+    "dbh_min": 5.4,
+    "height_max": 14.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 3.03,
+            "300": 6.06,
+            "400": 0.0,
+            "500": 36.36,
+            "600": 21.21,
+            "700": 21.21,
+            "800": 0.0,
+            "900": 3.03,
+            "1000": 0.0,
+            "1100": 3.03,
+            "1200": 6.06
+        },
+        "rainfall": {
+            "1000": 6.06,
+            "1500": 42.42,
+            "2000": 15.15,
+            "2500": 6.06,
+            "3000": 30.3,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "id": 96,
+    "name": "\u00celot Am\u00e9d\u00e9e",
+    "type": "protected_areas",
+    "shape_coordinates": "{\"type\": \"FeatureCollection\", \"features\": [{\"id\": \"0\", \"type\": \"Feature\", \"properties\": {}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[166.4718222, -22.476915], [166.4680572, -22.4805886], [166.4642493, -22.4781297], [166.4680476, -22.4738139], [166.4718222, -22.476915]]]}, \"bbox\": [166.4642493, -22.4805886, 166.4718222, -22.4738139]}], \"bbox\": [166.4642493, -22.4805886, 166.4718222, -22.4738139]}",
+    "shape_id": 96,
+    "shape_area": "40.442629893380484",
+    "forest_area": null,
+    "forest_coordinates": null,
+    "num_families_unique_taxonomic_count": 2,
+    "num_species_unique_taxonomic_count": 2,
+    "num_occurrences_count": 2,
+    "rainfall_mean": null,
+    "rainfall_range": null,
+    "elevation_median": null,
+    "elevation_max": null,
+    "elevation_elevation_distribution": null,
+    "forest_fragmentation_fragment_size_distribution": null,
+    "forest_fragmentation_effective_mesh_size": null,
+    "forest_cover_percentage": null,
+    "forest_humidity_category_distribution": null,
+    "land_use_category_distribution": null,
+    "frequencies": {},
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    166.4718222,
+                    -22.476915
+                ],
+                [
+                    166.4715839,
+                    -22.4779358
+                ],
+                [
+                    166.4710661,
+                    -22.4786683
+                ],
+                [
+                    166.4698458,
+                    -22.479433
+                ],
+                [
+                    166.469074,
+                    -22.4801806
+                ],
+                [
+                    166.4680572,
+                    -22.4805886
+                ],
+                [
+                    166.4668836,
+                    -22.4805541
+                ],
+                [
+                    166.4655395,
+                    -22.4799631
+                ],
+                [
+                    166.4646833,
+                    -22.479172
+                ],
+                [
+                    166.4642493,
+                    -22.4781297
+                ],
+                [
+                    166.4643064,
+                    -22.4772378
+                ],
+                [
+                    166.4647201,
+                    -22.4765132
+                ],
+                [
+                    166.4662181,
+                    -22.4754688
+                ],
+                [
+                    166.4670376,
+                    -22.4742544
+                ],
+                [
+                    166.4680476,
+                    -22.4738139
+                ],
+                [
+                    166.4689299,
+                    -22.4738383
+                ],
+                [
+                    166.4697094,
+                    -22.4742228
+                ],
+                [
+                    166.4713804,
+                    -22.4757393
+                ],
+                [
+                    166.4717172,
+                    -22.4763347
+                ],
+                [
+                    166.4718222,
+                    -22.476915
+                ]
+            ]
+        ]
+    }
+}

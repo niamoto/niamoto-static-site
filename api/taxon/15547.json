@@ -1,0 +1,130 @@
+{
+    "id": 15547,
+    "full_name": "Gynochthodes kanalensis",
+    "authors": "(Baill. ex Guillaumin) Razafim. & B.Bremer",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1188
+    },
+    "lft": 2835,
+    "rght": 2836,
+    "level": 2,
+    "parent_id": 13012,
+    "taxon_id": 15547,
+    "total_occurrences_count": 81,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.1252977, -21.2365967], \"count\": 1}, {\"coordinates\": [166.5131965, -22.1749806], \"count\": 1}, {\"coordinates\": [165.9974767, -21.50644], \"count\": 1}, {\"coordinates\": [166.7636, -22.1735], \"count\": 1}, {\"coordinates\": [166.5370238, -22.0347027], \"count\": 1}, {\"coordinates\": [166.6074001, -22.1752118], \"count\": 1}, {\"coordinates\": [166.020421999693, -21.4979033470154], \"count\": 1}, {\"coordinates\": [164.02600900000084, -20.246115000611372], \"count\": 1}, {\"coordinates\": [164.208631, -20.4568555], \"count\": 1}, {\"coordinates\": [166.9051943, -22.1524996], \"count\": 2}, {\"coordinates\": [166.4180556, -21.7205556], \"count\": 2}, {\"coordinates\": [166.9528526, -22.2698698], \"count\": 2}, {\"coordinates\": [165.88810699999996, -21.3892130006405], \"count\": 1}, {\"coordinates\": [165.7780137564986, -21.436433550612012], \"count\": 1}, {\"coordinates\": [166.27944035739236, -21.64761349878325], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 3}, {\"coordinates\": [166.8636835, -22.0677933], \"count\": 1}, {\"coordinates\": [166.3313805556, -21.6932888889], \"count\": 1}, {\"coordinates\": [166.6284917, -22.1868724], \"count\": 1}, {\"coordinates\": [165.71169555187217, -21.420458062261794], \"count\": 1}, {\"coordinates\": [166.30425200000013, -21.68310600064764], \"count\": 1}, {\"coordinates\": [166.39500400000023, -21.937568000653794], \"count\": 1}, {\"coordinates\": [166.6686064, -22.2114812], \"count\": 1}, {\"coordinates\": [166.4119277, -21.8878731], \"count\": 1}, {\"coordinates\": [166.917304, -22.096018], \"count\": 1}, {\"coordinates\": [166.35356600000023, -21.915196000653257], \"count\": 1}, {\"coordinates\": [165.1548947, -21.2411851], \"count\": 1}, {\"coordinates\": [166.4190085, -21.7512944], \"count\": 1}, {\"coordinates\": [165.08239869028313, -21.19631909828856], \"count\": 1}, {\"coordinates\": [166.9072795, -22.1688028], \"count\": 1}, {\"coordinates\": [165.0108256, -21.1532693], \"count\": 1}, {\"coordinates\": [166.788903, -22.1907076], \"count\": 1}, {\"coordinates\": [166.6740392, -21.9944812], \"count\": 1}, {\"coordinates\": [166.7862932, -22.2395027], \"count\": 1}, {\"coordinates\": [166.4490915, -22.0944845], \"count\": 1}, {\"coordinates\": [166.7882686, -22.2441169], \"count\": 1}, {\"coordinates\": [166.60664500000038, -22.01122100065555], \"count\": 1}, {\"coordinates\": [166.9072063, -22.181529], \"count\": 1}, {\"coordinates\": [166.5099528, -21.8920801], \"count\": 1}, {\"coordinates\": [166.7474820000006, -22.208694000660326], \"count\": 1}, {\"coordinates\": [166.8466059, -22.2256129], \"count\": 1}, {\"coordinates\": [166.662188, -22.2220638], \"count\": 1}, {\"coordinates\": [166.18710330693577, -21.699040543328643], \"count\": 1}, {\"coordinates\": [166.23981807872525, -21.640284985024557], \"count\": 1}, {\"coordinates\": [166.4519368, -22.1039089], \"count\": 1}, {\"coordinates\": [164.02855700000083, -20.250215000611465], \"count\": 1}, {\"coordinates\": [165.76491, -21.38695], \"count\": 1}, {\"coordinates\": [166.19011400000005, -21.703527000648158], \"count\": 1}, {\"coordinates\": [165.74472745880476, -21.41968667571292], \"count\": 1}, {\"coordinates\": [165.08082825690497, -21.20148637395591], \"count\": 1}, {\"coordinates\": [166.3497100000002, -21.889861000652658], \"count\": 1}, {\"coordinates\": [166.895, -22.1677778], \"count\": 1}, {\"coordinates\": [166.8807171, -22.1248391], \"count\": 1}, {\"coordinates\": [166.9138423753056, -22.147438445558617], \"count\": 1}, {\"coordinates\": [166.59952800000036, -22.01153200065558], \"count\": 1}, {\"coordinates\": [166.31337800000014, -21.681378000647566], \"count\": 1}, {\"coordinates\": [166.8152456, -22.2666025], \"count\": 1}, {\"coordinates\": [166.27560245315183, -21.635036398847973], \"count\": 1}, {\"coordinates\": [165.74430618435136, -21.45575434033705], \"count\": 1}, {\"coordinates\": [166.67154400000044, -21.981300000654834], \"count\": 1}, {\"coordinates\": [166.63649700000042, -21.993910000655138], \"count\": 2}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 1}, {\"coordinates\": [166.36421002, -22.06067901], \"count\": 1}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 2}, {\"coordinates\": [165.75803653, -21.38917238], \"count\": 1}, {\"coordinates\": [166.76361107, -22.17805556], \"count\": 2}, {\"coordinates\": [165.77139313, -21.35714674], \"count\": 1}, {\"coordinates\": [165.7752768, -21.35473467], \"count\": 1}, {\"coordinates\": [166.62572499, -22.19208599], \"count\": 1}, {\"coordinates\": [164.2084247, -20.45218934], \"count\": 1}, {\"coordinates\": [165.70798499, -21.319986], \"count\": 1}, {\"coordinates\": [164.02729918, -20.24998125], \"count\": 1}, {\"coordinates\": [164.02530403, -20.24736372], \"count\": 1}]}",
+    "species_top": {
+        "Gynochthodes kanalensis": 81
+    },
+    "um_occurrences_true": 81,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                66.67,
+                0,
+                0,
+                50.0,
+                50.0,
+                25.0,
+                100.0,
+                16.67,
+                33.33,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                25.0,
+                50.0,
+                0,
+                0,
+                50.0,
+                50.0,
+                50.0,
+                0.0,
+                83.33,
+                66.67,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 5.3,
+    "dbh_max": 5.3,
+    "dbh_median": 5.3,
+    "dbh_min": 5.3,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 18.67,
+            "200": 17.33,
+            "300": 16.0,
+            "400": 13.33,
+            "500": 12.0,
+            "600": 5.33,
+            "700": 8.0,
+            "800": 5.33,
+            "900": 1.33,
+            "1000": 2.67,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 2.47,
+            "1500": 20.99,
+            "2000": 37.04,
+            "2500": 16.05,
+            "3000": 19.75,
+            "3500": 3.7,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 2.38,
+            "2": 97.62
+        }
+    }
+}

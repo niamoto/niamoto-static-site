@@ -1,0 +1,130 @@
+{
+    "id": 12583,
+    "full_name": "Planchonella microphylla",
+    "authors": "Pierre ex Dubard",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1248
+    },
+    "lft": 3311,
+    "rght": 3312,
+    "level": 2,
+    "parent_id": 1221,
+    "taxon_id": 12583,
+    "total_occurrences_count": 139,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.2150088889, -20.4594861111], \"count\": 2}, {\"coordinates\": [166.8602562, -22.232445], \"count\": 2}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 3}, {\"coordinates\": [164.1960922, -20.442675], \"count\": 4}, {\"coordinates\": [165.4675658, -21.1365387], \"count\": 2}, {\"coordinates\": [164.208631, -20.4568555], \"count\": 13}, {\"coordinates\": [166.9972222, -22.3205556], \"count\": 2}, {\"coordinates\": [163.663461, -19.7185171], \"count\": 2}, {\"coordinates\": [163.6661111, -19.7058333], \"count\": 2}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 4}, {\"coordinates\": [164.5158172, -20.3853107], \"count\": 2}, {\"coordinates\": [167.0036111111111, -22.28625], \"count\": 1}, {\"coordinates\": [167.00394444444444, -22.28677777777778], \"count\": 1}, {\"coordinates\": [165.77263888888888, -21.60661111111111], \"count\": 1}, {\"coordinates\": [166.96604931071562, -22.276170078875374], \"count\": 1}, {\"coordinates\": [163.6762134, -19.7480547], \"count\": 6}, {\"coordinates\": [166.53334045410156, -22.166667938232422], \"count\": 1}, {\"coordinates\": [164.21665954589844, -20.46666717529297], \"count\": 1}, {\"coordinates\": [166.99722290039062, -22.320560455322266], \"count\": 1}, {\"coordinates\": [163.67620849609375, -19.748050689697266], \"count\": 2}, {\"coordinates\": [163.66610717773438, -19.705829620361328], \"count\": 1}, {\"coordinates\": [166.96971224020854, -22.27918571549782], \"count\": 1}, {\"coordinates\": [164.19277954101562, -20.445560455322266], \"count\": 2}, {\"coordinates\": [165.46444702148438, -21.139440536499023], \"count\": 1}, {\"coordinates\": [163.6643499, -19.7113541], \"count\": 2}, {\"coordinates\": [166.93333435058594, -22.183330535888672], \"count\": 1}, {\"coordinates\": [164.2026525, -20.4661233], \"count\": 4}, {\"coordinates\": [164.5124969482422, -20.388330459594727], \"count\": 1}, {\"coordinates\": [163.666338912437, -19.7365459449388], \"count\": 1}, {\"coordinates\": [166.626102, -22.0804873], \"count\": 3}, {\"coordinates\": [164.2080556, -20.4672222], \"count\": 2}, {\"coordinates\": [163.6602783203125, -19.721389770507812], \"count\": 5}, {\"coordinates\": [164.19943237304688, -20.46916961669922], \"count\": 1}, {\"coordinates\": [167.0, -22.31999969482422], \"count\": 1}, {\"coordinates\": [163.656048398302, -19.6969677512964], \"count\": 1}, {\"coordinates\": [164.2100067138672, -20.469999313354492], \"count\": 1}, {\"coordinates\": [164.1913758613274, -20.44091588211691], \"count\": 1}, {\"coordinates\": [163.6561232, -19.6938147], \"count\": 2}, {\"coordinates\": [166.9166717529297, -22.266666412353516], \"count\": 1}, {\"coordinates\": [163.66111755371094, -19.714439392089844], \"count\": 1}, {\"coordinates\": [163.6699981689453, -19.709999084472656], \"count\": 1}, {\"coordinates\": [164.2080535888672, -20.467220306396484], \"count\": 1}, {\"coordinates\": [164.1999969482422, -20.450000762939453], \"count\": 1}, {\"coordinates\": [166.6638296, -22.0935546], \"count\": 2}, {\"coordinates\": [166.967690252129, -22.27549374168691], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 2}, {\"coordinates\": [165.77777196, -21.608483], \"count\": 2}, {\"coordinates\": [165.77263698, -21.60660103], \"count\": 2}, {\"coordinates\": [167.003611111111, -22.28625], \"count\": 1}, {\"coordinates\": [166.531, -22.187], \"count\": 2}, {\"coordinates\": [166.9972, -22.3206], \"count\": 1}, {\"coordinates\": [164.1928, -20.4456], \"count\": 2}, {\"coordinates\": [164.2081, -20.4672], \"count\": 1}, {\"coordinates\": [166.98898005, -22.28309995], \"count\": 1}, {\"coordinates\": [167.44773085548022, -22.66652896800609], \"count\": 1}, {\"coordinates\": [163.6661, -19.7058], \"count\": 1}, {\"coordinates\": [164.371267, -20.658473], \"count\": 1}, {\"coordinates\": [166.99057501, -22.28476898], \"count\": 1}, {\"coordinates\": [164.5125, -20.3883], \"count\": 1}, {\"coordinates\": [166.9333, -22.1833], \"count\": 1}, {\"coordinates\": [163.6611, -19.7144], \"count\": 1}, {\"coordinates\": [165.772638888889, -21.6066111111111], \"count\": 1}, {\"coordinates\": [166.662188, -22.2220638], \"count\": 1}, {\"coordinates\": [164.191372567913, -20.4409133920063], \"count\": 1}, {\"coordinates\": [167.00462898, -22.27939996], \"count\": 1}, {\"coordinates\": [163.67293, -19.75104], \"count\": 2}, {\"coordinates\": [167.003944444444, -22.2867777777778], \"count\": 1}, {\"coordinates\": [164.215009, -20.459486], \"count\": 3}, {\"coordinates\": [166.3824033329147, -21.703206878686153], \"count\": 1}, {\"coordinates\": [164.215067, -20.459781], \"count\": 1}, {\"coordinates\": [163.6603, -19.7214], \"count\": 1}, {\"coordinates\": [163.6663361, -19.73654556], \"count\": 1}, {\"coordinates\": [164.1994, -20.4692], \"count\": 1}, {\"coordinates\": [163.6560516, -19.69696808], \"count\": 1}, {\"coordinates\": [164.21061, -20.470993], \"count\": 1}, {\"coordinates\": [165.4644, -21.1394], \"count\": 1}, {\"coordinates\": [164.19024297, -20.46189168], \"count\": 1}, {\"coordinates\": [164.19886801, -20.44669029], \"count\": 1}, {\"coordinates\": [164.21318102, -20.47077277], \"count\": 1}, {\"coordinates\": [164.23150298, -20.4739806], \"count\": 1}, {\"coordinates\": [164.19913297, -20.44493418], \"count\": 1}, {\"coordinates\": [164.19587098, -20.43962186], \"count\": 1}, {\"coordinates\": [164.19416897, -20.45275746], \"count\": 1}, {\"coordinates\": [166.93861112, -22.3497222], \"count\": 1}]}",
+    "species_top": {
+        "Planchonella microphylla": 139
+    },
+    "um_occurrences_true": 123,
+    "um_occurrences_false": 16,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                66.67,
+                80.0,
+                100.0,
+                0.0,
+                33.33,
+                66.67,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 20.3,
+    "dbh_max": 40.0,
+    "dbh_median": 20.0,
+    "dbh_min": 6.0,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 16.67,
+            "20": 33.33,
+            "30": 33.33,
+            "40": 16.67,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 7.96,
+            "200": 32.74,
+            "300": 11.5,
+            "400": 7.96,
+            "500": 31.86,
+            "600": 7.08,
+            "700": 0.88,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 11.51,
+            "1500": 58.27,
+            "2000": 7.91,
+            "2500": 17.27,
+            "3000": 5.04,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 1.89,
+            "2": 98.11
+        }
+    }
+}

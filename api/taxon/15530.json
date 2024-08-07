@@ -1,0 +1,118 @@
+{
+    "id": 15530,
+    "full_name": "Myrsine lanceolata Pancher & Sebert subsp. lanceolata",
+    "authors": null,
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 1004
+    },
+    "lft": 2528,
+    "rght": 2529,
+    "level": 3,
+    "parent_id": 15487,
+    "taxon_id": 15530,
+    "total_occurrences_count": 9,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.1294279, -21.5812421], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [167.1272902, -20.9052864], \"count\": 1}, {\"coordinates\": [167.9954006, -21.5463051], \"count\": 1}, {\"coordinates\": [167.2364089, -20.9559721], \"count\": 1}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 2}, {\"coordinates\": [164.8817908, -20.8504536], \"count\": 1}, {\"coordinates\": [167.9794457, -21.5172018], \"count\": 1}]}",
+    "species_top": {
+        "Myrsine lanceolata Pancher & Sebert subsp. lanceolata": 9
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 6,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                100.0,
+                100.0,
+                0,
+                100.0,
+                0,
+                0,
+                100.0,
+                0,
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 33.33,
+            "200": 33.33,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 33.33,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 11.11,
+            "1500": 66.67,
+            "2000": 22.22,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

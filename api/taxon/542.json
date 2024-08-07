@@ -1,0 +1,130 @@
+{
+    "id": 542,
+    "full_name": "Citrus",
+    "authors": "L.",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 2211
+    },
+    "lft": 2916,
+    "rght": 2919,
+    "level": 1,
+    "parent_id": 190,
+    "taxon_id": 542,
+    "total_occurrences_count": 22,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.3600715, -20.4874759], \"count\": 1}, {\"coordinates\": [164.3647868, -20.445965], \"count\": 1}, {\"coordinates\": [164.3469275, -20.5175943], \"count\": 1}, {\"coordinates\": [164.4751944, -20.6519444], \"count\": 1}, {\"coordinates\": [166.4892139801677, -22.21298230637683], \"count\": 1}, {\"coordinates\": [166.4476949, -22.2693066], \"count\": 1}, {\"coordinates\": [164.999118605135, -21.3318337445427], \"count\": 1}, {\"coordinates\": [165.07440893731766, -21.069713630654334], \"count\": 1}, {\"coordinates\": [167.44079145987556, -22.633063465627966], \"count\": 1}, {\"coordinates\": [166.45157000000034, -22.099140000657748], \"count\": 1}, {\"coordinates\": [164.4166717529297, -20.333332061767578], \"count\": 1}, {\"coordinates\": [165.8511294, -21.6433032], \"count\": 1}, {\"coordinates\": [165.1758443, -20.9706758], \"count\": 1}, {\"coordinates\": [164.5036163330078, -20.31110954284668], \"count\": 2}, {\"coordinates\": [164.475, -20.6512], \"count\": 1}, {\"coordinates\": [164.021289803135, -20.2202231017003], \"count\": 1}, {\"coordinates\": [166.45693604, -22.25740195], \"count\": 1}]}",
+    "species_top": {
+        "Citrus macroptera": 13
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 21,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                100.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                50.0,
+                0,
+                40.0,
+                0,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                100.0,
+                0,
+                0,
+                0,
+                50.0,
+                0,
+                50.0,
+                0,
+                20.0,
+                0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 25.0,
+    "dbh_max": 25.0,
+    "dbh_median": 25.0,
+    "dbh_min": 25.0,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 100.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 85.71,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 14.29,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 62.5,
+            "1500": 31.25,
+            "2000": 6.25,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 23.53,
+            "2": 76.47
+        }
+    }
+}

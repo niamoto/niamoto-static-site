@@ -1,0 +1,130 @@
+{
+    "id": 4299,
+    "full_name": "Mezoneuron baudouinii",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1846
+    },
+    "lft": 1209,
+    "rght": 1210,
+    "level": 2,
+    "parent_id": 1053,
+    "taxon_id": 4299,
+    "total_occurrences_count": 12,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.2081330556, -20.3065463889], \"count\": 1}, {\"coordinates\": [165.96430555555557, -21.59263888888889], \"count\": 1}, {\"coordinates\": [164.208631, -20.4568555], \"count\": 1}, {\"coordinates\": [164.2026525, -20.4661233], \"count\": 1}, {\"coordinates\": [163.6644444, -19.7025], \"count\": 2}, {\"coordinates\": [163.64711, -19.6942021], \"count\": 1}, {\"coordinates\": [165.1988889, -21.2508333], \"count\": 1}, {\"coordinates\": [164.189099, -20.4287136], \"count\": 1}, {\"coordinates\": [164.775969378154, -21.0153762002786], \"count\": 2}]}",
+    "species_top": {
+        "Mezoneuron baudouinii": 12
+    },
+    "um_occurrences_true": 8,
+    "um_occurrences_false": 4,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                33.33,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                66.67,
+                100.0,
+                66.67,
+                0.0,
+                0,
+                0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 8.6,
+    "dbh_max": 8.6,
+    "dbh_median": 8.6,
+    "dbh_min": 8.6,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 30.0,
+            "200": 30.0,
+            "300": 20.0,
+            "400": 0.0,
+            "500": 20.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 9.09,
+            "1500": 81.82,
+            "2000": 9.09,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

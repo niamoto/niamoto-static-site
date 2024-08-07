@@ -1,0 +1,118 @@
+{
+    "id": 6209,
+    "full_name": "Vitex trifolia",
+    "authors": null,
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5511
+    },
+    "lft": 1397,
+    "rght": 1398,
+    "level": 2,
+    "parent_id": 12536,
+    "taxon_id": 6209,
+    "total_occurrences_count": 26,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.021289803135, -20.2202231017003], \"count\": 1}, {\"coordinates\": [164.381685071093, -20.5427826253987], \"count\": 1}, {\"coordinates\": [164.7094444, -21.0147222], \"count\": 2}, {\"coordinates\": [166.2811171, -22.1648062], \"count\": 1}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 1}, {\"coordinates\": [165.4380583, -21.604604], \"count\": 1}, {\"coordinates\": [166.4476949, -22.2693066], \"count\": 2}, {\"coordinates\": [165.003281238754, -20.9303872184225], \"count\": 1}, {\"coordinates\": [166.4549223, -22.3075441], \"count\": 1}, {\"coordinates\": [166.45157000000034, -22.099140000657748], \"count\": 1}, {\"coordinates\": [165.7037442, -21.7404652], \"count\": 1}, {\"coordinates\": [164.744839538576, -20.733117238776], \"count\": 1}, {\"coordinates\": [164.74643407757, -20.7382483062734], \"count\": 1}, {\"coordinates\": [164.461274, -20.3455909], \"count\": 1}]}",
+    "species_top": {
+        "Vitex trifolia": 26
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 24,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                0,
+                100.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                50.0,
+                0.0,
+                50.0,
+                60.0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                33.33,
+                20.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 33.33,
+            "200": 0.0,
+            "300": 16.67,
+            "400": 0.0,
+            "500": 16.67,
+            "600": 16.67,
+            "700": 16.67,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 40.0,
+            "1500": 50.0,
+            "2000": 10.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 53.33,
+            "2": 46.67
+        }
+    }
+}

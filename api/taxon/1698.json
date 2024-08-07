@@ -1,0 +1,130 @@
+{
+    "id": 1698,
+    "full_name": "Agathis montana",
+    "authors": "de Laub.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 55
+    },
+    "lft": 321,
+    "rght": 322,
+    "level": 2,
+    "parent_id": 271,
+    "taxon_id": 1698,
+    "total_occurrences_count": 95,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.76667, -20.58333], \"count\": 3}, {\"coordinates\": [164.5958505, -20.4586492], \"count\": 2}, {\"coordinates\": [164.7013889, -20.5180556], \"count\": 1}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 2}, {\"coordinates\": [164.7742238, -20.5856472], \"count\": 3}, {\"coordinates\": [164.7772261, -20.5827348], \"count\": 3}, {\"coordinates\": [164.7037479, -20.5031306], \"count\": 1}, {\"coordinates\": [164.7444444, -20.6005556], \"count\": 1}, {\"coordinates\": [164.7688388888889, -20.575755555555556], \"count\": 12}, {\"coordinates\": [164.774, -20.57027777777778], \"count\": 6}, {\"coordinates\": [164.7016667, -20.5119444], \"count\": 2}, {\"coordinates\": [164.7625778, -20.589281], \"count\": 1}, {\"coordinates\": [164.762482, -20.5892623875], \"count\": 1}, {\"coordinates\": [164.793962900013, -20.6094681269977], \"count\": 1}, {\"coordinates\": [164.7611570909091, -20.589995146951516], \"count\": 1}, {\"coordinates\": [164.777198317924, -20.5983936543717], \"count\": 2}, {\"coordinates\": [164.760254, -20.590917304166666], \"count\": 1}, {\"coordinates\": [164.758954, -20.5983438], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.68205, -20.4853], \"count\": 1}, {\"coordinates\": [164.76834023333333, -20.588544408333334], \"count\": 1}, {\"coordinates\": [164.73945, -20.593216666666667], \"count\": 1}, {\"coordinates\": [164.7617587055556, -20.589802638888887], \"count\": 1}, {\"coordinates\": [164.7772, -20.59839], \"count\": 2}, {\"coordinates\": [164.7739, -20.5858], \"count\": 3}, {\"coordinates\": [164.7708, -20.5886], \"count\": 3}, {\"coordinates\": [164.7017, -20.5119], \"count\": 1}, {\"coordinates\": [164.774, -20.5702777777778], \"count\": 2}, {\"coordinates\": [164.768838888889, -20.5757555555556], \"count\": 12}, {\"coordinates\": [164.77096, -20.58866], \"count\": 6}, {\"coordinates\": [164.5926, -20.4616], \"count\": 1}, {\"coordinates\": [164.770322, -20.5886], \"count\": 1}, {\"coordinates\": [164.7006, -20.5061], \"count\": 1}, {\"coordinates\": [164.7686, -20.5892], \"count\": 2}, {\"coordinates\": [164.7604, -20.58347], \"count\": 1}, {\"coordinates\": [164.76694, -20.59167], \"count\": 1}, {\"coordinates\": [164.76861, -20.58917], \"count\": 1}, {\"coordinates\": [164.6821, -20.4853], \"count\": 1}, {\"coordinates\": [164.7014, -20.5181], \"count\": 1}, {\"coordinates\": [164.77357777046117, -20.586457821085034], \"count\": 1}, {\"coordinates\": [164.7015188565095, -20.512167102419536], \"count\": 1}, {\"coordinates\": [164.70056, -20.50611], \"count\": 1}, {\"coordinates\": [164.77083, -20.58861], \"count\": 1}, {\"coordinates\": [164.76683, -20.59174], \"count\": 1}, {\"coordinates\": [164.76469796567557, -20.591324770651564], \"count\": 1}, {\"coordinates\": [164.77389, -20.58583], \"count\": 1}]}",
+    "species_top": {
+        "Agathis montana": 95
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 95,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                50.0,
+                0,
+                60.0,
+                75.0,
+                40.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                50.0,
+                0,
+                0.0,
+                0.0,
+                20.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 31.5,
+    "dbh_max": 81.2,
+    "dbh_median": 16.9,
+    "dbh_min": 5.4,
+    "height_max": 25.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 46.67,
+            "20": 6.67,
+            "30": 0.0,
+            "40": 6.67,
+            "50": 26.67,
+            "75": 13.33,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 1.05,
+            "500": 0.0,
+            "600": 1.05,
+            "700": 1.05,
+            "800": 0.0,
+            "900": 11.58,
+            "1000": 3.16,
+            "1100": 25.26,
+            "1200": 56.84
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 3.16,
+            "3000": 2.11,
+            "3500": 67.37,
+            "4000": 27.37,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        }
+    }
+}

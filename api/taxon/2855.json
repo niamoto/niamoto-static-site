@@ -1,0 +1,130 @@
+{
+    "id": 2855,
+    "full_name": "Dacrydium lycopodioides",
+    "authors": "Brongn. & Gris",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 658
+    },
+    "lft": 2463,
+    "rght": 2464,
+    "level": 2,
+    "parent_id": 638,
+    "taxon_id": 2855,
+    "total_occurrences_count": 110,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.0538251, -21.6079805], \"count\": 1}, {\"coordinates\": [166.5197111, -22.1918361], \"count\": 1}, {\"coordinates\": [166.4783333, -22.0047222], \"count\": 1}, {\"coordinates\": [166.5219632, -22.0354611], \"count\": 3}, {\"coordinates\": [166.2707222, -21.7773889], \"count\": 1}, {\"coordinates\": [166.50061065, -22.04388342], \"count\": 4}, {\"coordinates\": [166.3459930419922, -22.063480377197266], \"count\": 2}, {\"coordinates\": [166.1581268310547, -21.75650978088379], \"count\": 1}, {\"coordinates\": [166.5187225341797, -22.03852081298828], \"count\": 4}, {\"coordinates\": [166.161372, -21.7534519], \"count\": 2}, {\"coordinates\": [166.5035162, -22.04264], \"count\": 1}, {\"coordinates\": [166.4666667, -21.7666667], \"count\": 1}, {\"coordinates\": [166.4470977783203, -22.1547794342041], \"count\": 1}, {\"coordinates\": [166.35000610351562, -22.06999969482422], \"count\": 4}, {\"coordinates\": [166.4713897705078, -22.04435920715332], \"count\": 1}, {\"coordinates\": [166.3454147, -22.0625724], \"count\": 1}, {\"coordinates\": [166.39705, -21.8848611111], \"count\": 1}, {\"coordinates\": [166.4046064, -21.8853353], \"count\": 2}, {\"coordinates\": [166.05056762695312, -21.61111068725586], \"count\": 1}, {\"coordinates\": [166.52000427246094, -22.049999237060547], \"count\": 2}, {\"coordinates\": [166.47000122070312, -22.049999237060547], \"count\": 1}, {\"coordinates\": [166.35000610351562, -22.066667556762695], \"count\": 2}, {\"coordinates\": [166.3421630859375, -22.065629959106445], \"count\": 3}, {\"coordinates\": [166.1534881591797, -21.759559631347656], \"count\": 1}, {\"coordinates\": [166.3439483642578, -22.064830780029297], \"count\": 8}, {\"coordinates\": [166.4697265625, -22.03693962097168], \"count\": 1}, {\"coordinates\": [166.3977813720703, -21.885833740234375], \"count\": 1}, {\"coordinates\": [166.1410676, -21.7483157], \"count\": 1}, {\"coordinates\": [166.35000610351562, -22.066659927368164], \"count\": 1}, {\"coordinates\": [166.407810648118, -21.8524914378763], \"count\": 1}, {\"coordinates\": [166.3420867919922, -22.069000244140625], \"count\": 3}, {\"coordinates\": [166.34222412109375, -22.06555938720703], \"count\": 2}, {\"coordinates\": [166.41355895996094, -21.885860443115234], \"count\": 2}, {\"coordinates\": [166.13775634765625, -21.74703025817871], \"count\": 1}, {\"coordinates\": [164.5036163330078, -20.31110954284668], \"count\": 1}, {\"coordinates\": [166.1410062, -21.7439811], \"count\": 1}, {\"coordinates\": [166.35000610351562, -22.066699981689453], \"count\": 1}, {\"coordinates\": [166.4013671875, -21.888399124145508], \"count\": 1}, {\"coordinates\": [166.47833251953125, -22.00472068786621], \"count\": 1}, {\"coordinates\": [166.44972229003906, -22.01388931274414], \"count\": 1}, {\"coordinates\": [166.2704620361328, -21.76947021484375], \"count\": 1}, {\"coordinates\": [166.5063934326172, -22.044170379638672], \"count\": 1}, {\"coordinates\": [166.0500030517578, -21.6299991607666], \"count\": 1}, {\"coordinates\": [166.4631195, -22.0355682], \"count\": 1}, {\"coordinates\": [166.34388732910156, -22.064720153808594], \"count\": 1}, {\"coordinates\": [166.5186, -22.0386], \"count\": 2}, {\"coordinates\": [166.1581, -21.7564], \"count\": 1}, {\"coordinates\": [166.15812, -21.75651], \"count\": 1}, {\"coordinates\": [166.41356, -21.88586], \"count\": 2}, {\"coordinates\": [166.35931298, -22.05976203], \"count\": 1}, {\"coordinates\": [166.2707, -21.7774], \"count\": 2}, {\"coordinates\": [166.05056, -21.61111], \"count\": 1}, {\"coordinates\": [166.47139, -22.04436], \"count\": 1}, {\"coordinates\": [166.0506, -21.6111], \"count\": 1}, {\"coordinates\": [166.34395, -22.06483], \"count\": 2}, {\"coordinates\": [166.46972, -22.03694], \"count\": 1}, {\"coordinates\": [166.27046, -21.76947], \"count\": 1}, {\"coordinates\": [166.0556, -21.6303], \"count\": 1}, {\"coordinates\": [166.15349, -21.75956], \"count\": 1}, {\"coordinates\": [166.50639, -22.04417], \"count\": 1}, {\"coordinates\": [166.3422, -22.0656], \"count\": 1}, {\"coordinates\": [166.46, -22.0386], \"count\": 1}, {\"coordinates\": [166.39741, -21.88555004], \"count\": 1}, {\"coordinates\": [166.44972, -22.01389], \"count\": 1}, {\"coordinates\": [166.34389, -22.06472], \"count\": 1}, {\"coordinates\": [166.34222, -22.06556], \"count\": 2}, {\"coordinates\": [166.13776, -21.74703], \"count\": 1}, {\"coordinates\": [166.40136, -21.8884], \"count\": 1}, {\"coordinates\": [166.4783, -22.0047], \"count\": 1}, {\"coordinates\": [166.1378, -21.7469], \"count\": 1}, {\"coordinates\": [166.51136896, -21.96436504], \"count\": 1}, {\"coordinates\": [166.5197, -22.1918], \"count\": 1}, {\"coordinates\": [166.1378, -21.7514], \"count\": 1}, {\"coordinates\": [166.4014, -21.8883], \"count\": 2}]}",
+    "species_top": {
+        "Dacrydium lycopodioides": 110
+    },
+    "um_occurrences_true": 100,
+    "um_occurrences_false": 10,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                50.0,
+                100.0,
+                25.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.67,
+    "dbh_max": 13.1,
+    "dbh_median": 12.0,
+    "dbh_min": 9.9,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.94,
+            "500": 10.38,
+            "600": 4.72,
+            "700": 3.77,
+            "800": 16.04,
+            "900": 23.58,
+            "1000": 26.42,
+            "1100": 9.43,
+            "1200": 4.72
+        },
+        "rainfall": {
+            "1000": 0.92,
+            "1500": 11.01,
+            "2000": 31.19,
+            "2500": 27.52,
+            "3000": 16.51,
+            "3500": 11.93,
+            "4000": 0.92,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 6.25,
+            "2": 93.75
+        }
+    }
+}

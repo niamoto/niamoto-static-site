@@ -1,0 +1,118 @@
+{
+    "id": 2531,
+    "full_name": "Cleidion veillonii",
+    "authors": "McPherson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 848
+    },
+    "lft": 1149,
+    "rght": 1150,
+    "level": 2,
+    "parent_id": 545,
+    "taxon_id": 2531,
+    "total_occurrences_count": 26,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.88176, -20.64011], \"count\": 2}, {\"coordinates\": [164.8226667, -20.5895278], \"count\": 3}, {\"coordinates\": [164.8233301, -20.5895664], \"count\": 3}, {\"coordinates\": [165.0072222222, -20.8341666667], \"count\": 3}, {\"coordinates\": [164.6834233, -20.4771389], \"count\": 2}, {\"coordinates\": [164.8730556, -20.6416667], \"count\": 1}, {\"coordinates\": [165.2952130556, -21.3700536111], \"count\": 1}, {\"coordinates\": [164.8633353, -20.6400389], \"count\": 1}, {\"coordinates\": [165.0111111111, -20.8483333333], \"count\": 5}, {\"coordinates\": [164.681178983053, -20.4879585266113], \"count\": 1}, {\"coordinates\": [164.951611439387, -20.9622982025146], \"count\": 1}, {\"coordinates\": [164.877211443583, -20.6414702733358], \"count\": 1}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 2}]}",
+    "species_top": {
+        "Cleidion veillonii": 26
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 25,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0,
+                100.0,
+                87.5,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                100.0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                40.0,
+                0,
+                0.0,
+                25.0,
+                0.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 6.5,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 5.0,
+            "300": 35.0,
+            "400": 15.0,
+            "500": 5.0,
+            "600": 0.0,
+            "700": 15.0,
+            "800": 10.0,
+            "900": 0.0,
+            "1000": 5.0,
+            "1100": 0.0,
+            "1200": 10.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 3.85,
+            "2000": 34.62,
+            "2500": 53.85,
+            "3000": 7.69,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "id": 3457,
+    "full_name": "Geijera balansae",
+    "authors": "(Baill.) Schinz & Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1203
+    },
+    "lft": 2953,
+    "rght": 2954,
+    "level": 2,
+    "parent_id": 796,
+    "taxon_id": 3457,
+    "total_occurrences_count": 524,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.107077, -21.122677], \"count\": 411}, {\"coordinates\": [166.6115714, -20.4066411], \"count\": 1}, {\"coordinates\": [166.1392888, -21.5886288], \"count\": 1}, {\"coordinates\": [166.0313889, -21.7978056], \"count\": 1}, {\"coordinates\": [165.1202778, -21.1488889], \"count\": 1}, {\"coordinates\": [165.120361, -21.148142], \"count\": 10}, {\"coordinates\": [167.2364089, -20.9559721], \"count\": 2}, {\"coordinates\": [166.11809, -21.57774], \"count\": 1}, {\"coordinates\": [167.9794457, -21.5172018], \"count\": 1}, {\"coordinates\": [165.9775, -21.7747222], \"count\": 1}, {\"coordinates\": [166.592617, -22.2621238], \"count\": 1}, {\"coordinates\": [167.0086111, -22.2566667], \"count\": 1}, {\"coordinates\": [165.725293094, -21.378606381], \"count\": 7}, {\"coordinates\": [165.122272, -21.146053], \"count\": 8}, {\"coordinates\": [165.111632, -21.133673], \"count\": 1}, {\"coordinates\": [165.077224, -21.321421], \"count\": 1}, {\"coordinates\": [167.25, -21.0], \"count\": 13}, {\"coordinates\": [167.8888703, -21.5455288], \"count\": 1}, {\"coordinates\": [166.0833282470703, -21.583332061767578], \"count\": 1}, {\"coordinates\": [166.1964188, -21.5846349], \"count\": 1}, {\"coordinates\": [167.00860595703125, -22.256669998168945], \"count\": 1}, {\"coordinates\": [166.2003590000001, -21.928331000653657], \"count\": 1}, {\"coordinates\": [167.96665954589844, -21.600000381469727], \"count\": 1}, {\"coordinates\": [165.967956, -21.8568645], \"count\": 1}, {\"coordinates\": [167.46388244628906, -22.620559692382812], \"count\": 1}, {\"coordinates\": [165.125133983294, -21.1349695205688], \"count\": 1}, {\"coordinates\": [167.467064, -22.6175478], \"count\": 1}, {\"coordinates\": [167.15928649902344, -20.782970428466797], \"count\": 1}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 2}, {\"coordinates\": [167.14999389648438, -20.766666412353516], \"count\": 1}, {\"coordinates\": [166.03138732910156, -21.797779083251953], \"count\": 2}, {\"coordinates\": [166.1361083984375, -21.5916690826416], \"count\": 2}, {\"coordinates\": [167.14999389648438, -20.916667938232422], \"count\": 4}, {\"coordinates\": [166.60833740234375, -20.409719467163086], \"count\": 1}, {\"coordinates\": [165.94500732421875, -21.491390228271484], \"count\": 1}, {\"coordinates\": [167.454895, -21.0533977], \"count\": 2}, {\"coordinates\": [166.6213836669922, -20.453889846801758], \"count\": 1}, {\"coordinates\": [163.6561232, -19.6938147], \"count\": 1}, {\"coordinates\": [167.88555908203125, -21.54861068725586], \"count\": 1}, {\"coordinates\": [167.18333435058594, -20.833332061767578], \"count\": 3}, {\"coordinates\": [167.45167541503906, -21.0563907623291], \"count\": 2}]}",
+    "species_top": {
+        "Geijera balansae": 524
+    },
+    "um_occurrences_true": 22,
+    "um_occurrences_false": 502,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                66.67,
+                0.0,
+                50.0,
+                0.0,
+                40.0,
+                33.33,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                0.0,
+                12.5,
+                50.0,
+                25.0,
+                40.0,
+                66.67,
+                100.0,
+                0.95,
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.28,
+    "dbh_max": 38.5,
+    "dbh_median": 14.0,
+    "dbh_min": 6.7,
+    "height_max": 20.4,
+    "wood_density_mean": 0.84,
+    "wood_density_max": 0.87,
+    "wood_density_min": 0.8,
+    "bark_thickness_mean": 0.26,
+    "bark_thickness_max": 0.4,
+    "bark_thickness_min": 0.15,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 86.61,
+            "20": 12.01,
+            "30": 1.39,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 1.13,
+            "200": 0.23,
+            "300": 0.68,
+            "400": 92.57,
+            "500": 4.95,
+            "600": 0.23,
+            "700": 0.23,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 2.02,
+            "1500": 95.56,
+            "2000": 2.02,
+            "2500": 0.4,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.2,
+            "2": 99.8
+        },
+        "strate": {
+            "1": 1.38,
+            "2": 6.88,
+            "3": 91.74
+        }
+    }
+}

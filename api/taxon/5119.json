@@ -1,0 +1,135 @@
+{
+    "id": 5119,
+    "full_name": "Podonephelium subaequilaterum",
+    "authors": "Radlk.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4848
+    },
+    "lft": 3237,
+    "rght": 3238,
+    "level": 2,
+    "parent_id": 1237,
+    "taxon_id": 5119,
+    "total_occurrences_count": 50,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.9775, -21.7747222], \"count\": 2}, {\"coordinates\": [165.432071, -21.579172], \"count\": 2}, {\"coordinates\": [164.9158889, -20.9511889], \"count\": 1}, {\"coordinates\": [165.7452222, -21.4805278], \"count\": 1}, {\"coordinates\": [165.107077, -21.122677], \"count\": 11}, {\"coordinates\": [164.917007319554, -21.1374672531792], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 3}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 3}, {\"coordinates\": [166.0205841064453, -21.80828094482422], \"count\": 1}, {\"coordinates\": [165.43193763122, -21.5789777040482], \"count\": 1}, {\"coordinates\": [166.0083333, -21.8022222], \"count\": 2}, {\"coordinates\": [165.43206787109375, -21.57917022705078], \"count\": 2}, {\"coordinates\": [164.915900166829, -20.951189994812], \"count\": 1}, {\"coordinates\": [164.918056655004, -21.1397263613089], \"count\": 1}, {\"coordinates\": [164.931440785232, -21.1377738420272], \"count\": 1}, {\"coordinates\": [165.744160922935, -21.4780033340982], \"count\": 1}, {\"coordinates\": [165.9774932861328, -21.77471923828125], \"count\": 1}, {\"coordinates\": [165.7452850341797, -21.480560302734375], \"count\": 1}, {\"coordinates\": [165.778120783333, -21.556559622375], \"count\": 1}, {\"coordinates\": [164.925967009877, -21.137354751705], \"count\": 1}, {\"coordinates\": [165.9774932861328, -21.774721145629883], \"count\": 2}, {\"coordinates\": [165.744823137919, -21.4786506652832], \"count\": 1}, {\"coordinates\": [165.062212540713, -21.3505494839662], \"count\": 1}, {\"coordinates\": [165.9775, -21.77472222], \"count\": 4}, {\"coordinates\": [166.00861, -21.80248983], \"count\": 1}, {\"coordinates\": [165.7452222, -21.48052778], \"count\": 1}, {\"coordinates\": [165.42864069595163, -21.576462247132003], \"count\": 1}]}",
+    "species_top": {
+        "Podonephelium subaequilaterum": 50
+    },
+    "um_occurrences_true": 6,
+    "um_occurrences_false": 44,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                33.33,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0,
+                0,
+                50.0,
+                0,
+                33.33,
+                0.0,
+                0.0,
+                100.0,
+                0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.81,
+    "dbh_max": 15.3,
+    "dbh_median": 11.1,
+    "dbh_min": 10.2,
+    "height_max": 11.3,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 45.45,
+            "200": 9.09,
+            "300": 0.0,
+            "400": 38.64,
+            "500": 0.0,
+            "600": 4.55,
+            "700": 0.0,
+            "800": 2.27,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 34.04,
+            "1500": 59.57,
+            "2000": 6.38,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 23.4,
+            "2": 76.6
+        },
+        "strate": {
+            "1": 27.27,
+            "2": 9.09,
+            "3": 63.64
+        }
+    }
+}

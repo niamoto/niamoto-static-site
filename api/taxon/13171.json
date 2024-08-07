@@ -1,0 +1,135 @@
+{
+    "id": 13171,
+    "full_name": "Gossia ramiflora",
+    "authors": "Snow, ined.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1014
+    },
+    "lft": 1891,
+    "rght": 1892,
+    "level": 2,
+    "parent_id": 13069,
+    "taxon_id": 13171,
+    "total_occurrences_count": 48,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.830782, -21.5739157], \"count\": 3}, {\"coordinates\": [165.8740833, -21.6207778], \"count\": 1}, {\"coordinates\": [165.0119139, -20.9977778], \"count\": 1}, {\"coordinates\": [165.7745996, -21.5711032], \"count\": 1}, {\"coordinates\": [165.78349, -21.5986667], \"count\": 1}, {\"coordinates\": [165.8363201, -21.5767944], \"count\": 1}, {\"coordinates\": [166.0492279, -21.6434021], \"count\": 1}, {\"coordinates\": [165.8221349, -21.6178463], \"count\": 2}, {\"coordinates\": [165.7883191, -21.5735391], \"count\": 1}, {\"coordinates\": [165.7472192, -21.6545661], \"count\": 1}, {\"coordinates\": [166.0678581, -21.6391297], \"count\": 1}, {\"coordinates\": [165.4765625, -21.24147605896], \"count\": 1}, {\"coordinates\": [165.7795281, -21.6149716], \"count\": 1}, {\"coordinates\": [166.09515380859375, -21.800439834594727], \"count\": 1}, {\"coordinates\": [164.9019257, -21.123799], \"count\": 1}, {\"coordinates\": [165.8188934326172, -21.620830535888672], \"count\": 1}, {\"coordinates\": [165.77638244628906, -21.618061065673828], \"count\": 1}, {\"coordinates\": [166.06471252441406, -21.64221954345703], \"count\": 3}, {\"coordinates\": [165.010641, -20.852822], \"count\": 1}, {\"coordinates\": [165.8652801513672, -21.625560760498047], \"count\": 1}, {\"coordinates\": [165.67306518554688, -21.646940231323242], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 2}, {\"coordinates\": [165.8330535888672, -21.57971954345703], \"count\": 1}, {\"coordinates\": [165.71665954589844, -21.666667938232422], \"count\": 1}, {\"coordinates\": [165.78500366210938, -21.576669692993164], \"count\": 6}, {\"coordinates\": [165.8171492, -21.6154323], \"count\": 1}, {\"coordinates\": [165.77000427246094, -21.56999969482422], \"count\": 1}, {\"coordinates\": [165.1832194, -21.1368719], \"count\": 1}, {\"coordinates\": [165.77139282226562, -21.574169158935547], \"count\": 1}, {\"coordinates\": [165.743896484375, -21.657499313354492], \"count\": 1}, {\"coordinates\": [165.81666564941406, -21.600000381469727], \"count\": 1}, {\"coordinates\": [165.85000610351562, -21.600000381469727], \"count\": 1}, {\"coordinates\": [165.77638244628906, -21.618059158325195], \"count\": 2}, {\"coordinates\": [165.79861450195312, -21.612499237060547], \"count\": 1}, {\"coordinates\": [165.8300018310547, -21.579999923706055], \"count\": 1}, {\"coordinates\": [166.09527587890625, -21.800559997558594], \"count\": 1}]}",
+    "species_top": {
+        "Gossia ramiflora": 48
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 47,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                50.0,
+                100.0,
+                0,
+                100.0,
+                0,
+                100.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 23.55,
+    "dbh_max": 30.0,
+    "dbh_median": 23.55,
+    "dbh_min": 17.1,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 50.0,
+            "20": 0.0,
+            "30": 50.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 2.17,
+            "200": 10.87,
+            "300": 10.87,
+            "400": 34.78,
+            "500": 32.61,
+            "600": 4.35,
+            "700": 4.35,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 14.89,
+            "1500": 44.68,
+            "2000": 38.3,
+            "2500": 2.13,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 6.38,
+            "2": 93.62
+        },
+        "strate": {
+            "1": 100.0,
+            "2": 0.0,
+            "3": 0.0
+        }
+    }
+}

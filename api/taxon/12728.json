@@ -1,0 +1,118 @@
+{
+    "id": 12728,
+    "full_name": "Geissois bradfordii",
+    "authors": "H.C.Hopkins",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5831
+    },
+    "lft": 771,
+    "rght": 772,
+    "level": 2,
+    "parent_id": 797,
+    "taxon_id": 12728,
+    "total_occurrences_count": 29,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.6569444, -22.1011111], \"count\": 1}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 5}, {\"coordinates\": [166.684969, -22.1028821], \"count\": 2}, {\"coordinates\": [166.6569366455078, -22.101110458374023], \"count\": 7}, {\"coordinates\": [166.66000366210938, -22.100000381469727], \"count\": 2}, {\"coordinates\": [166.65708, -22.10123], \"count\": 1}, {\"coordinates\": [166.6541667, -22.1033333], \"count\": 1}, {\"coordinates\": [166.65735618084835, -22.10010668761225], \"count\": 1}, {\"coordinates\": [166.6569, -22.1011], \"count\": 1}, {\"coordinates\": [166.65661860673842, -22.100278003006178], \"count\": 1}, {\"coordinates\": [166.6581781313929, -22.10083497609706], \"count\": 1}, {\"coordinates\": [166.65832665755048, -22.10083497609706], \"count\": 1}, {\"coordinates\": [166.65814099985354, -22.100872107636455], \"count\": 1}, {\"coordinates\": [166.6585576724349, -22.100717639659905], \"count\": 1}, {\"coordinates\": [166.65694, -22.10111], \"count\": 2}, {\"coordinates\": [166.6581781313929, -22.10090923917585], \"count\": 1}]}",
+    "species_top": {
+        "Geissois bradfordii": 29
+    },
+    "um_occurrences_true": 29,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 75.86,
+            "200": 24.14,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 82.76,
+            "3000": 17.24,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        }
+    }
+}

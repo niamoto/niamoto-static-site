@@ -1,0 +1,130 @@
+{
+    "id": 14895,
+    "full_name": "Podonephelium plicatum",
+    "authors": "Munzinger, Lowry, Callm. & Buerki",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 8045
+    },
+    "lft": 3235,
+    "rght": 3236,
+    "level": 2,
+    "parent_id": 1237,
+    "taxon_id": 14895,
+    "total_occurrences_count": 38,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.1, -21.3122222], \"count\": 1}, {\"coordinates\": [165.259769, -21.378209], \"count\": 1}, {\"coordinates\": [165.3088909, -21.3750085], \"count\": 1}, {\"coordinates\": [164.8259205, -21.0125548], \"count\": 3}, {\"coordinates\": [165.1566375, -21.2162527778], \"count\": 1}, {\"coordinates\": [165.0465, -21.1720556], \"count\": 2}, {\"coordinates\": [165.1267827, -21.2352252], \"count\": 1}, {\"coordinates\": [164.3594444, -20.4872222], \"count\": 2}, {\"coordinates\": [165.26431517132943, -21.369231449601322], \"count\": 1}, {\"coordinates\": [165.094994168282, -21.3136442629496], \"count\": 1}, {\"coordinates\": [164.199625, -20.4379722], \"count\": 1}, {\"coordinates\": [164.2053603, -20.4573274], \"count\": 1}, {\"coordinates\": [164.2315031, -20.4739806], \"count\": 1}, {\"coordinates\": [165.1548947, -21.2411851], \"count\": 4}, {\"coordinates\": [165.146716574625, -21.3077100855833], \"count\": 1}, {\"coordinates\": [164.2026525, -20.4661233], \"count\": 2}, {\"coordinates\": [164.1888889, -20.4388889], \"count\": 1}, {\"coordinates\": [165.1107064, -21.172215], \"count\": 1}, {\"coordinates\": [165.04015, -21.15567], \"count\": 1}, {\"coordinates\": [165.044670233333, -21.1722839166667], \"count\": 1}, {\"coordinates\": [164.208631, -20.4568555], \"count\": 2}, {\"coordinates\": [165.1546947, -21.2812816], \"count\": 1}, {\"coordinates\": [165.0456241, -21.166711], \"count\": 1}, {\"coordinates\": [165.2619444, -21.1583333], \"count\": 1}, {\"coordinates\": [165.147762196111, -21.3084350992222], \"count\": 1}, {\"coordinates\": [165.1070264, -21.1626084], \"count\": 1}, {\"coordinates\": [165.29869, -21.377], \"count\": 1}, {\"coordinates\": [165.0464894, -21.17204961], \"count\": 1}, {\"coordinates\": [165.08000004, -21.1644444], \"count\": 1}]}",
+    "species_top": {
+        "Podonephelium plicatum": 38
+    },
+    "um_occurrences_true": 33,
+    "um_occurrences_false": 5,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                40.0,
+                0,
+                50.0,
+                50.0,
+                63.64,
+                0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                0,
+                100.0,
+                0,
+                100.0,
+                60.0,
+                0,
+                50.0,
+                50.0,
+                54.55,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.5,
+    "dbh_max": 7.5,
+    "dbh_median": 7.5,
+    "dbh_min": 7.5,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 5.26,
+            "200": 0.0,
+            "300": 15.79,
+            "400": 7.89,
+            "500": 28.95,
+            "600": 13.16,
+            "700": 7.89,
+            "800": 5.26,
+            "900": 15.79,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 28.95,
+            "1500": 39.47,
+            "2000": 21.05,
+            "2500": 10.53,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 3.03,
+            "2": 96.97
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "id": 4646,
+    "full_name": "Pandanus serpentinicus",
+    "authors": "H.St.John",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3217
+    },
+    "lft": 2259,
+    "rght": 2260,
+    "level": 2,
+    "parent_id": 1162,
+    "taxon_id": 4646,
+    "total_occurrences_count": 60,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5370238, -22.0347027], \"count\": 1}, {\"coordinates\": [166.693404, -22.1515192], \"count\": 2}, {\"coordinates\": [166.6639014, -22.2192565], \"count\": 3}, {\"coordinates\": [166.509547, -22.0410386], \"count\": 2}, {\"coordinates\": [166.7675, -22.2738889], \"count\": 3}, {\"coordinates\": [166.76361107, -22.17805556], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 1}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 4}, {\"coordinates\": [166.6734935, -22.2085982], \"count\": 3}, {\"coordinates\": [166.6784552, -22.2067599], \"count\": 2}, {\"coordinates\": [166.6495729, -22.1187974], \"count\": 4}, {\"coordinates\": [166.5063934326172, -22.044170379638672], \"count\": 3}, {\"coordinates\": [166.76739501953125, -22.273778915405273], \"count\": 1}, {\"coordinates\": [166.6259795, -22.1477506], \"count\": 5}, {\"coordinates\": [166.63360595703125, -22.099170684814453], \"count\": 1}, {\"coordinates\": [166.61666870117188, -22.100000381469727], \"count\": 1}, {\"coordinates\": [166.4550018310547, -22.011940002441406], \"count\": 1}, {\"coordinates\": [166.6228, -22.1508], \"count\": 2}, {\"coordinates\": [166.681666666667, -22.1058333333333], \"count\": 1}, {\"coordinates\": [166.5339, -22.0378], \"count\": 1}, {\"coordinates\": [166.7637299480501, -22.177507310112947], \"count\": 1}, {\"coordinates\": [166.6464, -22.1219], \"count\": 2}, {\"coordinates\": [166.69147259208705, -22.13927583658636], \"count\": 1}, {\"coordinates\": [166.6597227730352, -22.099725337032076], \"count\": 2}, {\"coordinates\": [166.65630127172713, -22.11899360794019], \"count\": 2}, {\"coordinates\": [166.70577167134084, -22.204724833860556], \"count\": 1}, {\"coordinates\": [166.6925, -22.1725], \"count\": 1}, {\"coordinates\": [166.7675, -22.2739], \"count\": 1}, {\"coordinates\": [166.5064, -22.0442], \"count\": 1}, {\"coordinates\": [166.6606, -22.2222], \"count\": 1}, {\"coordinates\": [166.6703, -22.2117], \"count\": 1}, {\"coordinates\": [166.6903, -22.1547], \"count\": 2}, {\"coordinates\": [166.6753, -22.2097], \"count\": 1}]}",
+    "species_top": {
+        "Pandanus serpentinicus": 60
+    },
+    "um_occurrences_true": 60,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                40.0,
+                0.0,
+                0,
+                100.0,
+                100.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                42.86,
+                0
+            ],
+            "fruiting": [
+                60.0,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                0,
+                100.0,
+                100.0,
+                0,
+                57.14,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 23.33,
+            "200": 46.67,
+            "300": 8.33,
+            "400": 5.0,
+            "500": 3.33,
+            "600": 0.0,
+            "700": 5.0,
+            "800": 8.33,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 5.0,
+            "2000": 26.67,
+            "2500": 46.67,
+            "3000": 21.67,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

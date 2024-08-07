@@ -1,0 +1,130 @@
+{
+    "id": 12766,
+    "full_name": "Pycnandra montana (Munzinger1717)",
+    "authors": "Swenson & Munzinger, ined",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 8264
+    },
+    "lft": 3415,
+    "rght": 3416,
+    "level": 2,
+    "parent_id": 1281,
+    "taxon_id": 12766,
+    "total_occurrences_count": 57,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5375, -21.9786111], \"count\": 1}, {\"coordinates\": [166.5466667, -21.9627778], \"count\": 1}, {\"coordinates\": [166.2469444, -21.6661111], \"count\": 1}, {\"coordinates\": [166.469655, -22.0426434], \"count\": 1}, {\"coordinates\": [166.46404003, -22.03794654], \"count\": 30}, {\"coordinates\": [166.54666137695312, -21.962778091430664], \"count\": 1}, {\"coordinates\": [166.5339829, -21.9608885], \"count\": 1}, {\"coordinates\": [166.5399932861328, -21.979999542236328], \"count\": 1}, {\"coordinates\": [166.246826171875, -21.666229248046875], \"count\": 1}, {\"coordinates\": [166.53750610351562, -21.97861099243164], \"count\": 1}, {\"coordinates\": [165.97999572753906, -21.75], \"count\": 1}, {\"coordinates\": [166.53750610351562, -21.978609085083008], \"count\": 1}, {\"coordinates\": [165.9983367919922, -21.755830764770508], \"count\": 1}, {\"coordinates\": [166.5466766357422, -21.962779998779297], \"count\": 1}, {\"coordinates\": [166.5500030517578, -21.959999084472656], \"count\": 1}, {\"coordinates\": [166.2469482421875, -21.66611099243164], \"count\": 1}, {\"coordinates\": [165.9984722, -21.7560278], \"count\": 1}, {\"coordinates\": [166.5466667, -21.96277778], \"count\": 2}, {\"coordinates\": [165.998472222222, -21.7560277779897], \"count\": 1}, {\"coordinates\": [165.9986111, -21.75611111], \"count\": 1}, {\"coordinates\": [166.535, -21.9651666662428], \"count\": 1}, {\"coordinates\": [166.464038889143, -22.0379472223918], \"count\": 1}, {\"coordinates\": [166.2469444, -21.66611111], \"count\": 1}, {\"coordinates\": [166.5375, -21.97861111], \"count\": 1}, {\"coordinates\": [166.246944444444, -21.6661111111111], \"count\": 1}, {\"coordinates\": [166.5375, -21.9786111111111], \"count\": 1}, {\"coordinates\": [166.546666666667, -21.9627777777778], \"count\": 1}]}",
+    "species_top": {
+        "Pycnandra montana (Munzinger1717)": 57
+    },
+    "um_occurrences_true": 57,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                3.23,
+                0,
+                100.0,
+                50.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                50.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 13.78,
+    "dbh_max": 28.3,
+    "dbh_median": 14.0,
+    "dbh_min": 5.1,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 90.48,
+            "20": 9.52,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 1.75,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 12.28,
+            "900": 61.4,
+            "1000": 10.53,
+            "1100": 0.0,
+            "1200": 14.04
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 8.77,
+            "2500": 56.14,
+            "3000": 8.77,
+            "3500": 0.0,
+            "4000": 22.81,
+            "4500": 3.51
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

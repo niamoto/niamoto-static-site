@@ -1,0 +1,135 @@
+{
+    "id": 5693,
+    "full_name": "Solanum mauritianum",
+    "authors": "Scop.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1308
+    },
+    "lft": 3467,
+    "rght": 3468,
+    "level": 2,
+    "parent_id": 1385,
+    "taxon_id": 5693,
+    "total_occurrences_count": 31,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.15, -21.5863889], \"count\": 1}, {\"coordinates\": [166.150005, -21.5835167], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 1}, {\"coordinates\": [166.41064998, -22.15238096], \"count\": 1}, {\"coordinates\": [165.122272, -21.146053], \"count\": 1}, {\"coordinates\": [165.8983826, -21.5248141], \"count\": 1}, {\"coordinates\": [166.3039850000002, -22.095179000657694], \"count\": 1}, {\"coordinates\": [164.174791887852, -20.2453234138271], \"count\": 1}, {\"coordinates\": [164.732715313806, -20.8570477476377], \"count\": 2}, {\"coordinates\": [164.916690544121, -21.0261779410423], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 2}, {\"coordinates\": [165.184975918382, -21.3396817445755], \"count\": 1}, {\"coordinates\": [164.838428532723, -21.0586280474475], \"count\": 1}, {\"coordinates\": [166.5013889, -22.1683333], \"count\": 1}, {\"coordinates\": [165.335003579474, -21.2948072018161], \"count\": 1}, {\"coordinates\": [166.2671004, -22.0792692], \"count\": 1}, {\"coordinates\": [166.55345200000045, -22.215673000660534], \"count\": 1}, {\"coordinates\": [164.730896314299, -20.8562895123126], \"count\": 2}, {\"coordinates\": [166.1371184, -21.8699209], \"count\": 1}, {\"coordinates\": [165.76728599, -21.62430602], \"count\": 1}, {\"coordinates\": [166.52290104, -22.18459897], \"count\": 1}, {\"coordinates\": [167.0075, -22.25722222], \"count\": 1}, {\"coordinates\": [165.3000294, -21.19759751], \"count\": 1}, {\"coordinates\": [165.76983101, -21.561096], \"count\": 1}]}",
+    "species_top": {
+        "Solanum mauritianum": 31
+    },
+    "um_occurrences_true": 7,
+    "um_occurrences_false": 24,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                0,
+                0,
+                0,
+                25.0,
+                0,
+                66.67,
+                50.0,
+                40.0,
+                100.0,
+                0,
+                0.0
+            ],
+            "fruiting": [
+                50.0,
+                0,
+                0,
+                0,
+                50.0,
+                0,
+                66.67,
+                50.0,
+                20.0,
+                100.0,
+                0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.6,
+    "dbh_max": 11.8,
+    "dbh_median": 10.0,
+    "dbh_min": 10.0,
+    "height_max": 4.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 13.33,
+            "200": 0.0,
+            "300": 20.0,
+            "400": 13.33,
+            "500": 40.0,
+            "600": 13.33,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 30.0,
+            "1500": 40.0,
+            "2000": 25.0,
+            "2500": 5.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 41.67,
+            "2": 58.33
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

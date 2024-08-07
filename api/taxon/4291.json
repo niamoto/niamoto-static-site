@@ -1,0 +1,130 @@
+{
+    "id": 4291,
+    "full_name": "Metrosideros oreomyrtus",
+    "authors": "D\u00e4niker",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1384
+    },
+    "lft": 1947,
+    "rght": 1948,
+    "level": 2,
+    "parent_id": 1052,
+    "taxon_id": 4291,
+    "total_occurrences_count": 53,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4046064, -21.8853353], \"count\": 2}, {\"coordinates\": [164.5933333, -20.4544444], \"count\": 1}, {\"coordinates\": [164.77608333333333, -20.6125], \"count\": 1}, {\"coordinates\": [166.2469444, -21.6661111], \"count\": 1}, {\"coordinates\": [164.774, -20.57027777777778], \"count\": 3}, {\"coordinates\": [164.7688388888889, -20.575755555555556], \"count\": 2}, {\"coordinates\": [166.3454147, -22.0625724], \"count\": 6}, {\"coordinates\": [165.3619384765625, -21.433610916137695], \"count\": 1}, {\"coordinates\": [166.24908447265625, -21.671499252319336], \"count\": 1}, {\"coordinates\": [165.8813852, -21.6202967], \"count\": 2}, {\"coordinates\": [166.1497722, -21.7462056], \"count\": 1}, {\"coordinates\": [165.3652452, -21.430546], \"count\": 2}, {\"coordinates\": [166.407810648118, -21.8524914378763], \"count\": 1}, {\"coordinates\": [165.4875206, -21.5642571], \"count\": 1}, {\"coordinates\": [165.87806701660156, -21.623329162597656], \"count\": 2}, {\"coordinates\": [165.018376169135, -20.8964453835656], \"count\": 1}, {\"coordinates\": [164.59332275390625, -20.454439163208008], \"count\": 1}, {\"coordinates\": [165.052040684223, -20.8455951054891], \"count\": 1}, {\"coordinates\": [164.59971618652344, -20.459720611572266], \"count\": 2}, {\"coordinates\": [166.14619297, -21.74131801], \"count\": 1}, {\"coordinates\": [166.407806396484, -21.8524913787842], \"count\": 1}, {\"coordinates\": [165.87806, -21.62333], \"count\": 2}, {\"coordinates\": [166.65540101, -22.01863899], \"count\": 1}, {\"coordinates\": [166.1614, -21.7535], \"count\": 1}, {\"coordinates\": [165.081083333333, -20.8246388888889], \"count\": 1}, {\"coordinates\": [164.774, -20.5702777777778], \"count\": 2}, {\"coordinates\": [166.14977158324058, -21.746206784425944], \"count\": 1}, {\"coordinates\": [164.5959, -20.4586], \"count\": 1}, {\"coordinates\": [165.33172487944597, -21.37008166203413], \"count\": 1}, {\"coordinates\": [165.018371582031, -20.8964443206787], \"count\": 1}, {\"coordinates\": [166.15546598, -21.74566497], \"count\": 1}, {\"coordinates\": [166.65993504, -22.020349], \"count\": 1}, {\"coordinates\": [166.14488998, -21.74338198], \"count\": 1}, {\"coordinates\": [166.2500618, -21.6631791], \"count\": 1}, {\"coordinates\": [165.36194, -21.43361], \"count\": 1}, {\"coordinates\": [166.14584804, -21.73838703], \"count\": 1}, {\"coordinates\": [165.079416666667, -20.8233166666667], \"count\": 1}]}",
+    "species_top": {
+        "Metrosideros oreomyrtus": 53
+    },
+    "um_occurrences_true": 29,
+    "um_occurrences_false": 24,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                50.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                100.0,
+                50.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0,
+                0.0,
+                33.33,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 18.75,
+    "dbh_max": 30.6,
+    "dbh_median": 19.7,
+    "dbh_min": 5.0,
+    "height_max": 16.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 33.33,
+            "20": 33.33,
+            "30": 33.33,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 3.92,
+            "500": 0.0,
+            "600": 1.96,
+            "700": 1.96,
+            "800": 13.73,
+            "900": 23.53,
+            "1000": 19.61,
+            "1100": 25.49,
+            "1200": 9.8
+        },
+        "rainfall": {
+            "1000": 1.92,
+            "1500": 1.92,
+            "2000": 34.62,
+            "2500": 32.69,
+            "3000": 5.77,
+            "3500": 19.23,
+            "4000": 3.85,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 11.11,
+            "2": 88.89
+        }
+    }
+}

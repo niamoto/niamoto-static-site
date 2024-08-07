@@ -1,0 +1,130 @@
+{
+    "id": 4504,
+    "full_name": "Olax hypoleuca Baill. var. hypoleuca",
+    "authors": null,
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 4327
+    },
+    "lft": 2188,
+    "rght": 2189,
+    "level": 3,
+    "parent_id": 4503,
+    "taxon_id": 4504,
+    "total_occurrences_count": 40,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.2137638, -20.8172347], \"count\": 1}, {\"coordinates\": [163.6778611111, -19.749775], \"count\": 1}, {\"coordinates\": [166.450345, -22.1517139], \"count\": 1}, {\"coordinates\": [164.2328469444, -20.4716336111], \"count\": 1}, {\"coordinates\": [166.91771666666668, -22.319005555555556], \"count\": 3}, {\"coordinates\": [166.92065833333334, -22.318175], \"count\": 1}, {\"coordinates\": [166.92571666666666, -22.320641666666667], \"count\": 4}, {\"coordinates\": [166.9134388888889, -22.318802777777776], \"count\": 3}, {\"coordinates\": [166.91840833333333, -22.324419444444445], \"count\": 1}, {\"coordinates\": [166.91572222222223, -22.321177777777777], \"count\": 2}, {\"coordinates\": [166.92914166666668, -22.32357222222222], \"count\": 1}, {\"coordinates\": [166.9180861111111, -22.3246], \"count\": 1}, {\"coordinates\": [163.6762134, -19.7480547], \"count\": 1}, {\"coordinates\": [165.967956, -21.8568645], \"count\": 1}, {\"coordinates\": [164.3942383, -20.639594], \"count\": 1}, {\"coordinates\": [165.2982555, -20.930613], \"count\": 1}, {\"coordinates\": [164.571388824, -20.7896265968333], \"count\": 1}, {\"coordinates\": [166.9528526, -22.2698698], \"count\": 1}, {\"coordinates\": [166.3129597, -22.0443961], \"count\": 1}, {\"coordinates\": [164.794373321533, -21.0182199994723], \"count\": 1}, {\"coordinates\": [163.6675363, -19.69041], \"count\": 1}, {\"coordinates\": [166.9746661, -22.1882755], \"count\": 1}, {\"coordinates\": [167.467064, -22.6175478], \"count\": 1}, {\"coordinates\": [165.2406109, -20.8167295], \"count\": 1}, {\"coordinates\": [166.8146141, -22.2466894], \"count\": 1}, {\"coordinates\": [164.208631, -20.4568555], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 2}, {\"coordinates\": [165.1548947, -21.2411851], \"count\": 1}, {\"coordinates\": [165.019459, -21.1845364], \"count\": 1}, {\"coordinates\": [164.20961895364445, -20.470775553768423], \"count\": 1}, {\"coordinates\": [165.75644056476924, -21.426972435516497], \"count\": 1}]}",
+    "species_top": {
+        "Olax hypoleuca Baill. var. hypoleuca": 40
+    },
+    "um_occurrences_true": 37,
+    "um_occurrences_false": 3,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                0.0,
+                0.0,
+                33.33,
+                0,
+                50.0,
+                100.0,
+                100.0,
+                0,
+                100.0,
+                0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 12.08,
+    "dbh_max": 20.8,
+    "dbh_median": 11.1,
+    "dbh_min": 5.6,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 81.82,
+            "20": 18.18,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 12.5,
+            "200": 43.75,
+            "300": 12.5,
+            "400": 12.5,
+            "500": 9.38,
+            "600": 3.12,
+            "700": 3.12,
+            "800": 0.0,
+            "900": 3.12,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 20.0,
+            "1500": 15.0,
+            "2000": 5.0,
+            "2500": 57.5,
+            "3000": 2.5,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 12.5,
+            "2": 87.5
+        }
+    }
+}

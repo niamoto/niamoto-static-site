@@ -1,0 +1,130 @@
+{
+    "id": 5787,
+    "full_name": "Stenocarpus trinervis var. paradoxus Virot",
+    "authors": "Virot",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 509
+    },
+    "lft": 2672,
+    "rght": 2673,
+    "level": 3,
+    "parent_id": 5786,
+    "taxon_id": 5787,
+    "total_occurrences_count": 37,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.9051943, -22.1524996], \"count\": 1}, {\"coordinates\": [164.4727031, -20.8036072], \"count\": 1}, {\"coordinates\": [166.9025673, -22.1528943], \"count\": 2}, {\"coordinates\": [166.6193737, -22.1494292], \"count\": 1}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 1}, {\"coordinates\": [164.5460263, -20.7247878], \"count\": 1}, {\"coordinates\": [166.8602562, -22.232445], \"count\": 1}, {\"coordinates\": [164.4765956, -20.8012802], \"count\": 1}, {\"coordinates\": [165.1630556, -21.3616667], \"count\": 1}, {\"coordinates\": [164.5267956, -20.3927884], \"count\": 1}, {\"coordinates\": [164.196263, -20.4623889], \"count\": 1}, {\"coordinates\": [167.467064, -22.6175478], \"count\": 1}, {\"coordinates\": [167.017991, -22.2840251], \"count\": 1}, {\"coordinates\": [166.32912703, -21.92507999], \"count\": 1}, {\"coordinates\": [166.7165318, -22.1612131], \"count\": 1}, {\"coordinates\": [164.924247296651, -20.9488153457642], \"count\": 1}, {\"coordinates\": [164.7643978, -21.0634639], \"count\": 1}, {\"coordinates\": [163.9545505, -20.067956], \"count\": 1}, {\"coordinates\": [166.792291, -22.1668713], \"count\": 1}, {\"coordinates\": [166.6259795, -22.1477506], \"count\": 1}, {\"coordinates\": [166.7694944, -22.1517784], \"count\": 1}, {\"coordinates\": [166.7029618, -22.2034732], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 1}, {\"coordinates\": [165.1205193, -21.2406056], \"count\": 1}, {\"coordinates\": [164.924050013224, -20.9486666361491], \"count\": 1}, {\"coordinates\": [165.259568, -21.379574], \"count\": 1}, {\"coordinates\": [166.8451341, -22.191104], \"count\": 1}, {\"coordinates\": [166.8137952, -22.3185056], \"count\": 1}, {\"coordinates\": [166.5908528, -22.1502086], \"count\": 1}, {\"coordinates\": [167.0109512, -22.2908542], \"count\": 1}, {\"coordinates\": [166.3200433, -21.6715195], \"count\": 1}]}",
+    "species_top": {
+        "Stenocarpus trinervis var. paradoxus Virot": 37
+    },
+    "um_occurrences_true": 26,
+    "um_occurrences_false": 11,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                50.0,
+                0.0,
+                0.0,
+                100.0,
+                0,
+                50.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                66.67
+            ],
+            "fruiting": [
+                100.0,
+                50.0,
+                100.0,
+                100.0,
+                0.0,
+                0,
+                50.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                33.33
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 25.71,
+    "dbh_max": 40.0,
+    "dbh_median": 25.0,
+    "dbh_min": 15.0,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 14.29,
+            "20": 57.14,
+            "30": 14.29,
+            "40": 14.29,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 19.23,
+            "200": 23.08,
+            "300": 11.54,
+            "400": 7.69,
+            "500": 19.23,
+            "600": 7.69,
+            "700": 3.85,
+            "800": 7.69,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 13.79,
+            "1500": 24.14,
+            "2000": 20.69,
+            "2500": 37.93,
+            "3000": 3.45,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 27.78,
+            "2": 72.22
+        }
+    }
+}

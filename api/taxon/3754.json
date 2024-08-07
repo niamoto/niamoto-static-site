@@ -1,0 +1,130 @@
+{
+    "id": 3754,
+    "full_name": "Hybanthus micranthus",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5021
+    },
+    "lft": 3589,
+    "rght": 3590,
+    "level": 2,
+    "parent_id": 878,
+    "taxon_id": 3754,
+    "total_occurrences_count": 99,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.0765777, -21.5840203], \"count\": 1}, {\"coordinates\": [166.92011, -22.32465], \"count\": 1}, {\"coordinates\": [165.2324719, -20.8169075], \"count\": 1}, {\"coordinates\": [166.0917032, -21.5809616], \"count\": 2}, {\"coordinates\": [166.9188861111111, -22.32347222222222], \"count\": 23}, {\"coordinates\": [166.9187, -22.323591666666665], \"count\": 26}, {\"coordinates\": [165.8221349, -21.6178463], \"count\": 1}, {\"coordinates\": [165.5220606, -21.4310086], \"count\": 1}, {\"coordinates\": [166.2949444444, -21.7774166667], \"count\": 1}, {\"coordinates\": [166.1126972, -21.5733283], \"count\": 1}, {\"coordinates\": [164.71429443359375, -20.50897979736328], \"count\": 2}, {\"coordinates\": [166.07333374023438, -21.58694076538086], \"count\": 2}, {\"coordinates\": [165.51889038085938, -21.43416976928711], \"count\": 1}, {\"coordinates\": [165.3138885498047, -20.995830535888672], \"count\": 2}, {\"coordinates\": [165.55694580078125, -21.428890228271484], \"count\": 1}, {\"coordinates\": [165.3138611, -20.9959444], \"count\": 1}, {\"coordinates\": [166.09132385253906, -21.57724952697754], \"count\": 1}, {\"coordinates\": [165.5812067, -21.4840236], \"count\": 1}, {\"coordinates\": [165.81666564941406, -21.616670608520508], \"count\": 1}, {\"coordinates\": [166.1392888, -21.5886288], \"count\": 1}, {\"coordinates\": [166.2949981689453, -21.77750015258789], \"count\": 2}, {\"coordinates\": [166.0883331298828, -21.583890914916992], \"count\": 2}, {\"coordinates\": [165.81667, -21.61667], \"count\": 1}, {\"coordinates\": [165.5602127, -21.4258858], \"count\": 1}, {\"coordinates\": [166.10943603515625, -21.57638931274414], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 21}]}",
+    "species_top": {
+        "Hybanthus micranthus": 99
+    },
+    "um_occurrences_true": 82,
+    "um_occurrences_false": 17,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                50.0,
+                100.0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                50.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.83,
+    "dbh_max": 10.2,
+    "dbh_median": 6.5,
+    "dbh_min": 5.1,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 76.6,
+            "300": 4.26,
+            "400": 6.38,
+            "500": 6.38,
+            "600": 1.06,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 3.19,
+            "1100": 2.13,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 16.16,
+            "2000": 3.03,
+            "2500": 75.76,
+            "3000": 3.03,
+            "3500": 0.0,
+            "4000": 2.02,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

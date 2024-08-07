@@ -1,0 +1,118 @@
+{
+    "id": 3330,
+    "full_name": "Exocarpos pseudocasuarina",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1219
+    },
+    "lft": 3101,
+    "rght": 3102,
+    "level": 2,
+    "parent_id": 769,
+    "taxon_id": 3330,
+    "total_occurrences_count": 24,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4476949, -22.2693066], \"count\": 1}, {\"coordinates\": [166.7383781, -22.0420953], \"count\": 1}, {\"coordinates\": [166.9476388889, -22.2483055556], \"count\": 1}, {\"coordinates\": [166.3454147, -22.0625724], \"count\": 1}, {\"coordinates\": [166.8483963, -22.2362221], \"count\": 1}, {\"coordinates\": [166.4991332, -21.852281], \"count\": 1}, {\"coordinates\": [166.9528526, -22.2698698], \"count\": 2}, {\"coordinates\": [166.862432, -22.1973239], \"count\": 1}, {\"coordinates\": [166.9436111, -22.2388889], \"count\": 1}, {\"coordinates\": [166.7086139, -22.071946], \"count\": 1}, {\"coordinates\": [166.58814600000036, -22.015263000655693], \"count\": 1}, {\"coordinates\": [166.8477724, -22.220262], \"count\": 1}, {\"coordinates\": [166.5219632, -22.0354611], \"count\": 1}, {\"coordinates\": [166.9125833333, -22.1025277778], \"count\": 1}, {\"coordinates\": [166.8594444, -22.2336111], \"count\": 1}, {\"coordinates\": [166.6581168, -21.988815], \"count\": 1}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 2}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 2}, {\"coordinates\": [166.60439722, -22.13453333], \"count\": 1}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 2}]}",
+    "species_top": {
+        "Exocarpos pseudocasuarina": 24
+    },
+    "um_occurrences_true": 23,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0.0,
+                60.0,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                40.0,
+                0.0,
+                0,
+                80.0,
+                100.0,
+                100.0,
+                0.0,
+                50.0,
+                0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 4.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 9.09,
+            "200": 31.82,
+            "300": 13.64,
+            "400": 4.55,
+            "500": 4.55,
+            "600": 18.18,
+            "700": 4.55,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 9.09,
+            "1100": 4.55,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 4.35,
+            "2500": 47.83,
+            "3000": 39.13,
+            "3500": 8.7,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 100.0,
+            "2": 0.0
+        }
+    }
+}

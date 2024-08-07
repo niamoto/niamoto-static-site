@@ -1,0 +1,1445 @@
+{
+    "total": 240,
+    "shapes": [
+        {
+            "id": 1,
+            "name": "PROVINCE DES ILES",
+            "type": "provinces",
+            "endpoint": "/api/shape/1.json"
+        },
+        {
+            "id": 2,
+            "name": "PROVINCE NORD",
+            "type": "provinces",
+            "endpoint": "/api/shape/2.json"
+        },
+        {
+            "id": 3,
+            "name": "PROVINCE SUD",
+            "type": "provinces",
+            "endpoint": "/api/shape/3.json"
+        },
+        {
+            "id": 4,
+            "name": "MONT DORE",
+            "type": "communes",
+            "endpoint": "/api/shape/4.json"
+        },
+        {
+            "id": 5,
+            "name": "LA FOA",
+            "type": "communes",
+            "endpoint": "/api/shape/5.json"
+        },
+        {
+            "id": 6,
+            "name": "POUM",
+            "type": "communes",
+            "endpoint": "/api/shape/6.json"
+        },
+        {
+            "id": 7,
+            "name": "OUEGOA",
+            "type": "communes",
+            "endpoint": "/api/shape/7.json"
+        },
+        {
+            "id": 8,
+            "name": "MOINDOU",
+            "type": "communes",
+            "endpoint": "/api/shape/8.json"
+        },
+        {
+            "id": 9,
+            "name": "SARRAMEA",
+            "type": "communes",
+            "endpoint": "/api/shape/9.json"
+        },
+        {
+            "id": 10,
+            "name": "POUEBO",
+            "type": "communes",
+            "endpoint": "/api/shape/10.json"
+        },
+        {
+            "id": 11,
+            "name": "YATE",
+            "type": "communes",
+            "endpoint": "/api/shape/11.json"
+        },
+        {
+            "id": 12,
+            "name": "PAITA",
+            "type": "communes",
+            "endpoint": "/api/shape/12.json"
+        },
+        {
+            "id": 13,
+            "name": "VOH",
+            "type": "communes",
+            "endpoint": "/api/shape/13.json"
+        },
+        {
+            "id": 14,
+            "name": "NOUMEA",
+            "type": "communes",
+            "endpoint": "/api/shape/14.json"
+        },
+        {
+            "id": 15,
+            "name": "CANALA",
+            "type": "communes",
+            "endpoint": "/api/shape/15.json"
+        },
+        {
+            "id": 16,
+            "name": "POINDIMIE",
+            "type": "communes",
+            "endpoint": "/api/shape/16.json"
+        },
+        {
+            "id": 17,
+            "name": "LIFOU",
+            "type": "communes",
+            "endpoint": "/api/shape/17.json"
+        },
+        {
+            "id": 18,
+            "name": "MARE",
+            "type": "communes",
+            "endpoint": "/api/shape/18.json"
+        },
+        {
+            "id": 19,
+            "name": "FARINO",
+            "type": "communes",
+            "endpoint": "/api/shape/19.json"
+        },
+        {
+            "id": 20,
+            "name": "ILE DES PINS",
+            "type": "communes",
+            "endpoint": "/api/shape/20.json"
+        },
+        {
+            "id": 21,
+            "name": "OUVEA",
+            "type": "communes",
+            "endpoint": "/api/shape/21.json"
+        },
+        {
+            "id": 22,
+            "name": "KONE",
+            "type": "communes",
+            "endpoint": "/api/shape/22.json"
+        },
+        {
+            "id": 23,
+            "name": "POYA",
+            "type": "communes",
+            "endpoint": "/api/shape/23.json"
+        },
+        {
+            "id": 24,
+            "name": "HIENGHENE",
+            "type": "communes",
+            "endpoint": "/api/shape/24.json"
+        },
+        {
+            "id": 25,
+            "name": "DUMBEA",
+            "type": "communes",
+            "endpoint": "/api/shape/25.json"
+        },
+        {
+            "id": 26,
+            "name": "BOURAIL",
+            "type": "communes",
+            "endpoint": "/api/shape/26.json"
+        },
+        {
+            "id": 27,
+            "name": "PONERIHOUEN",
+            "type": "communes",
+            "endpoint": "/api/shape/27.json"
+        },
+        {
+            "id": 28,
+            "name": "KAALA GOMEN",
+            "type": "communes",
+            "endpoint": "/api/shape/28.json"
+        },
+        {
+            "id": 29,
+            "name": "KOUMAC",
+            "type": "communes",
+            "endpoint": "/api/shape/29.json"
+        },
+        {
+            "id": 30,
+            "name": "KOUAOUA",
+            "type": "communes",
+            "endpoint": "/api/shape/30.json"
+        },
+        {
+            "id": 31,
+            "name": "HOUAILOU",
+            "type": "communes",
+            "endpoint": "/api/shape/31.json"
+        },
+        {
+            "id": 32,
+            "name": "POUEMBOUT",
+            "type": "communes",
+            "endpoint": "/api/shape/32.json"
+        },
+        {
+            "id": 33,
+            "name": "BELEP",
+            "type": "communes",
+            "endpoint": "/api/shape/33.json"
+        },
+        {
+            "id": 34,
+            "name": "TOUHO",
+            "type": "communes",
+            "endpoint": "/api/shape/34.json"
+        },
+        {
+            "id": 35,
+            "name": "BOULOUPARIS",
+            "type": "communes",
+            "endpoint": "/api/shape/35.json"
+        },
+        {
+            "id": 36,
+            "name": "THIO",
+            "type": "communes",
+            "endpoint": "/api/shape/36.json"
+        },
+        {
+            "id": 37,
+            "name": "Mont Pani\u00e9",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/37.json"
+        },
+        {
+            "id": 38,
+            "name": "Ilots du Nord-Ouest",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/38.json"
+        },
+        {
+            "id": 39,
+            "name": "Ilots de Poindimi\u00e9",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/39.json"
+        },
+        {
+            "id": 40,
+            "name": "Ile de pam",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/40.json"
+        },
+        {
+            "id": 41,
+            "name": "P\u00e9whane",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/41.json"
+        },
+        {
+            "id": 42,
+            "name": "Baie de Nekoro",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/42.json"
+        },
+        {
+            "id": 43,
+            "name": "Whanga l\u00e9dane",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/43.json"
+        },
+        {
+            "id": 44,
+            "name": "Whan-denece pouarape",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/44.json"
+        },
+        {
+            "id": 45,
+            "name": "Dohimen",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/45.json"
+        },
+        {
+            "id": 46,
+            "name": "Etang de koumac",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/46.json"
+        },
+        {
+            "id": 47,
+            "name": "Yeega",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/47.json"
+        },
+        {
+            "id": 48,
+            "name": "Aoupini\u00e9",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/48.json"
+        },
+        {
+            "id": 49,
+            "name": "Hyab\u00e9-L\u00e9 jao",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/49.json"
+        },
+        {
+            "id": 50,
+            "name": "Zone tampon d'aire de gestion durable des ressources",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/50.json"
+        },
+        {
+            "id": 51,
+            "name": "Mont Humboldt",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/51.json"
+        },
+        {
+            "id": 52,
+            "name": "Mont Mou",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/52.json"
+        },
+        {
+            "id": 53,
+            "name": "\u00celot T\u00e9nia",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/53.json"
+        },
+        {
+            "id": 54,
+            "name": "\u00celot Lar\u00e9gn\u00e8re",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/54.json"
+        },
+        {
+            "id": 55,
+            "name": "Fausse Yat\u00e9",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/55.json"
+        },
+        {
+            "id": 56,
+            "name": "\u00cele Verte",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/56.json"
+        },
+        {
+            "id": 57,
+            "name": "Grand Port",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/57.json"
+        },
+        {
+            "id": 58,
+            "name": "\u00cele Bailly",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/58.json"
+        },
+        {
+            "id": 59,
+            "name": "\u00cele Casy",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/59.json"
+        },
+        {
+            "id": 60,
+            "name": "Pointe Kuendu",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/60.json"
+        },
+        {
+            "id": 61,
+            "name": "Massif du Kouakou\u00e9",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/61.json"
+        },
+        {
+            "id": 62,
+            "name": "For\u00eat de Saille",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/62.json"
+        },
+        {
+            "id": 63,
+            "name": "Bois du Sud",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/63.json"
+        },
+        {
+            "id": 64,
+            "name": "Roche Perc\u00e9e et de la Baie des Tortues",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/64.json"
+        },
+        {
+            "id": 65,
+            "name": "Passe de Dumb\u00e9a",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/65.json"
+        },
+        {
+            "id": 66,
+            "name": "\u00celot Moind\u00e9-Ou\u00e9mi\u00e9",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/66.json"
+        },
+        {
+            "id": 67,
+            "name": "Parc des Grandes Foug\u00e8res",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/67.json"
+        },
+        {
+            "id": 68,
+            "name": "Chutes de la Madeleine",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/68.json"
+        },
+        {
+            "id": 69,
+            "name": "Parc provincial de la Rivi\u00e8re bleue",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/69.json"
+        },
+        {
+            "id": 70,
+            "name": "\u00celot Canard",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/70.json"
+        },
+        {
+            "id": 71,
+            "name": "Haute Yat\u00e9",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/71.json"
+        },
+        {
+            "id": 72,
+            "name": "Grand r\u00e9cif Abor\u00e9 et de la passe de Boulari",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/72.json"
+        },
+        {
+            "id": 73,
+            "name": "Parc de la C\u00f4te Oubli\u00e9e",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/73.json"
+        },
+        {
+            "id": 74,
+            "name": "For\u00eat cach\u00e9e",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/74.json"
+        },
+        {
+            "id": 75,
+            "name": "\u00cele Lepr\u00e9dour",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/75.json"
+        },
+        {
+            "id": 76,
+            "name": "Haute Pourina",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/76.json"
+        },
+        {
+            "id": 77,
+            "name": "Vall\u00e9e de la Thy",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/77.json"
+        },
+        {
+            "id": 78,
+            "name": "R\u00e9cif S\u00e8che Croissant",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/78.json"
+        },
+        {
+            "id": 79,
+            "name": "Ouano",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/79.json"
+        },
+        {
+            "id": 80,
+            "name": "\u00celot N'Digoro",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/80.json"
+        },
+        {
+            "id": 81,
+            "name": "Mont Do",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/81.json"
+        },
+        {
+            "id": 82,
+            "name": "Parc zoologique et forestier Michel Corbasson",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/82.json"
+        },
+        {
+            "id": 83,
+            "name": "Montagne des sources",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/83.json"
+        },
+        {
+            "id": 84,
+            "name": "Parc Municipal du Ouen Toro - Albert Etuv\u00e9 et Lucien Audet",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/84.json"
+        },
+        {
+            "id": 85,
+            "name": "Parc de la Haute Dumb\u00e9a",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/85.json"
+        },
+        {
+            "id": 86,
+            "name": "\u00celot Go\u00e9land",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/86.json"
+        },
+        {
+            "id": 87,
+            "name": "Barrage de Yat\u00e9",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/87.json"
+        },
+        {
+            "id": 88,
+            "name": "Cap N'dua",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/88.json"
+        },
+        {
+            "id": 89,
+            "name": "For\u00eat Nord",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/89.json"
+        },
+        {
+            "id": 90,
+            "name": "Pic Ningua",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/90.json"
+        },
+        {
+            "id": 91,
+            "name": "Po\u00e9",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/91.json"
+        },
+        {
+            "id": 92,
+            "name": "Parc du Grand Lagon Sud",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/92.json"
+        },
+        {
+            "id": 93,
+            "name": "Netcha",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/93.json"
+        },
+        {
+            "id": 94,
+            "name": "Pic du grand Kaori",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/94.json"
+        },
+        {
+            "id": 95,
+            "name": "\u00celot Signal",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/95.json"
+        },
+        {
+            "id": 96,
+            "name": "\u00celot Am\u00e9d\u00e9e",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/96.json"
+        },
+        {
+            "id": 97,
+            "name": "Parc de la Zone C\u00f4ti\u00e8re Ouest",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/97.json"
+        },
+        {
+            "id": 98,
+            "name": "Haute Dumb\u00e9a",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/98.json"
+        },
+        {
+            "id": 99,
+            "name": "\u00celot Ma\u00eetre",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/99.json"
+        },
+        {
+            "id": 100,
+            "name": "Lacs du grand Sud",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/100.json"
+        },
+        {
+            "id": 101,
+            "name": "\u00c9pave du Humboldt",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/101.json"
+        },
+        {
+            "id": 102,
+            "name": "Nod\u00e9la",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/102.json"
+        },
+        {
+            "id": 103,
+            "name": "Baie de Port Bouquet",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/103.json"
+        },
+        {
+            "id": 104,
+            "name": "Yves Merlet",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/104.json"
+        },
+        {
+            "id": 105,
+            "name": "Aiguille de Prony",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/105.json"
+        },
+        {
+            "id": 106,
+            "name": "Pic du Pin",
+            "type": "protected_areas",
+            "endpoint": "/api/shape/106.json"
+        },
+        {
+            "id": 107,
+            "name": "Ultramafique",
+            "type": "substrates",
+            "endpoint": "/api/shape/107.json"
+        },
+        {
+            "id": 108,
+            "name": "Sec",
+            "type": "holdridge",
+            "endpoint": "/api/shape/108.json"
+        },
+        {
+            "id": 109,
+            "name": "Humide",
+            "type": "holdridge",
+            "endpoint": "/api/shape/109.json"
+        },
+        {
+            "id": 110,
+            "name": "Tr\u00e8s Humide",
+            "type": "holdridge",
+            "endpoint": "/api/shape/110.json"
+        },
+        {
+            "id": 111,
+            "name": "P\u00e9rim\u00e8tre protection des eaux",
+            "type": "water_catchments",
+            "endpoint": "/api/shape/111.json"
+        },
+        {
+            "id": 112,
+            "name": "Grand Sud",
+            "type": "mines",
+            "endpoint": "/api/shape/112.json"
+        },
+        {
+            "id": 113,
+            "name": "Taom",
+            "type": "mines",
+            "endpoint": "/api/shape/113.json"
+        },
+        {
+            "id": 114,
+            "name": "Ouinne",
+            "type": "mines",
+            "endpoint": "/api/shape/114.json"
+        },
+        {
+            "id": 115,
+            "name": "Pinpin",
+            "type": "mines",
+            "endpoint": "/api/shape/115.json"
+        },
+        {
+            "id": 116,
+            "name": "Ouazangou",
+            "type": "mines",
+            "endpoint": "/api/shape/116.json"
+        },
+        {
+            "id": 117,
+            "name": "Mont Kaala",
+            "type": "mines",
+            "endpoint": "/api/shape/117.json"
+        },
+        {
+            "id": 118,
+            "name": "Kopeto",
+            "type": "mines",
+            "endpoint": "/api/shape/118.json"
+        },
+        {
+            "id": 119,
+            "name": "Cap Bocage",
+            "type": "mines",
+            "endpoint": "/api/shape/119.json"
+        },
+        {
+            "id": 120,
+            "name": "Montagne de Poum",
+            "type": "mines",
+            "endpoint": "/api/shape/120.json"
+        },
+        {
+            "id": 121,
+            "name": "Tiebaghi",
+            "type": "mines",
+            "endpoint": "/api/shape/121.json"
+        },
+        {
+            "id": 122,
+            "name": "Koniambo",
+            "type": "mines",
+            "endpoint": "/api/shape/122.json"
+        },
+        {
+            "id": 123,
+            "name": "Poro_Boakaine_Kiel",
+            "type": "mines",
+            "endpoint": "/api/shape/123.json"
+        },
+        {
+            "id": 124,
+            "name": "Thio Plateau",
+            "type": "mines",
+            "endpoint": "/api/shape/124.json"
+        },
+        {
+            "id": 125,
+            "name": "Bogota",
+            "type": "mines",
+            "endpoint": "/api/shape/125.json"
+        },
+        {
+            "id": 126,
+            "name": "Camp des Sapins",
+            "type": "mines",
+            "endpoint": "/api/shape/126.json"
+        },
+        {
+            "id": 127,
+            "name": "Tontouta_sensu_lato",
+            "type": "mines",
+            "endpoint": "/api/shape/127.json"
+        },
+        {
+            "id": 128,
+            "name": "Nakety_Dothio",
+            "type": "mines",
+            "endpoint": "/api/shape/128.json"
+        },
+        {
+            "id": 129,
+            "name": "3.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/129.json"
+        },
+        {
+            "id": 130,
+            "name": "112.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/130.json"
+        },
+        {
+            "id": 131,
+            "name": "6.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/131.json"
+        },
+        {
+            "id": 132,
+            "name": "12.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/132.json"
+        },
+        {
+            "id": 133,
+            "name": "8.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/133.json"
+        },
+        {
+            "id": 134,
+            "name": "9.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/134.json"
+        },
+        {
+            "id": 135,
+            "name": "22.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/135.json"
+        },
+        {
+            "id": 136,
+            "name": "15.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/136.json"
+        },
+        {
+            "id": 137,
+            "name": "16.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/137.json"
+        },
+        {
+            "id": 138,
+            "name": "21.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/138.json"
+        },
+        {
+            "id": 139,
+            "name": "18.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/139.json"
+        },
+        {
+            "id": 140,
+            "name": "19.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/140.json"
+        },
+        {
+            "id": 141,
+            "name": "24.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/141.json"
+        },
+        {
+            "id": 142,
+            "name": "25.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/142.json"
+        },
+        {
+            "id": 143,
+            "name": "30.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/143.json"
+        },
+        {
+            "id": 144,
+            "name": "27.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/144.json"
+        },
+        {
+            "id": 145,
+            "name": "28.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/145.json"
+        },
+        {
+            "id": 146,
+            "name": "34.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/146.json"
+        },
+        {
+            "id": 147,
+            "name": "33.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/147.json"
+        },
+        {
+            "id": 148,
+            "name": "37.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/148.json"
+        },
+        {
+            "id": 149,
+            "name": "52.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/149.json"
+        },
+        {
+            "id": 150,
+            "name": "53.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/150.json"
+        },
+        {
+            "id": 151,
+            "name": "55.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/151.json"
+        },
+        {
+            "id": 152,
+            "name": "61.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/152.json"
+        },
+        {
+            "id": 153,
+            "name": "41.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/153.json"
+        },
+        {
+            "id": 154,
+            "name": "45.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/154.json"
+        },
+        {
+            "id": 155,
+            "name": "42.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/155.json"
+        },
+        {
+            "id": 156,
+            "name": "43.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/156.json"
+        },
+        {
+            "id": 157,
+            "name": "44.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/157.json"
+        },
+        {
+            "id": 158,
+            "name": "95.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/158.json"
+        },
+        {
+            "id": 159,
+            "name": "40.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/159.json"
+        },
+        {
+            "id": 160,
+            "name": "20.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/160.json"
+        },
+        {
+            "id": 161,
+            "name": "48.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/161.json"
+        },
+        {
+            "id": 162,
+            "name": "4.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/162.json"
+        },
+        {
+            "id": 163,
+            "name": "56.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/163.json"
+        },
+        {
+            "id": 164,
+            "name": "58.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/164.json"
+        },
+        {
+            "id": 165,
+            "name": "59.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/165.json"
+        },
+        {
+            "id": 166,
+            "name": "29.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/166.json"
+        },
+        {
+            "id": 167,
+            "name": "90.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/167.json"
+        },
+        {
+            "id": 168,
+            "name": "63.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/168.json"
+        },
+        {
+            "id": 169,
+            "name": "64.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/169.json"
+        },
+        {
+            "id": 170,
+            "name": "65.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/170.json"
+        },
+        {
+            "id": 171,
+            "name": "69.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/171.json"
+        },
+        {
+            "id": 172,
+            "name": "70.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/172.json"
+        },
+        {
+            "id": 173,
+            "name": "68.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/173.json"
+        },
+        {
+            "id": 174,
+            "name": "66.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/174.json"
+        },
+        {
+            "id": 175,
+            "name": "73.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/175.json"
+        },
+        {
+            "id": 176,
+            "name": "72.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/176.json"
+        },
+        {
+            "id": 177,
+            "name": "75.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/177.json"
+        },
+        {
+            "id": 178,
+            "name": "78.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/178.json"
+        },
+        {
+            "id": 179,
+            "name": "87.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/179.json"
+        },
+        {
+            "id": 180,
+            "name": "85.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/180.json"
+        },
+        {
+            "id": 181,
+            "name": "91.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/181.json"
+        },
+        {
+            "id": 182,
+            "name": "67.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/182.json"
+        },
+        {
+            "id": 183,
+            "name": "100.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/183.json"
+        },
+        {
+            "id": 184,
+            "name": "81.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/184.json"
+        },
+        {
+            "id": 185,
+            "name": "84.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/185.json"
+        },
+        {
+            "id": 186,
+            "name": "86.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/186.json"
+        },
+        {
+            "id": 187,
+            "name": "88.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/187.json"
+        },
+        {
+            "id": 188,
+            "name": "89.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/188.json"
+        },
+        {
+            "id": 189,
+            "name": "49.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/189.json"
+        },
+        {
+            "id": 190,
+            "name": "93.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/190.json"
+        },
+        {
+            "id": 191,
+            "name": "54.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/191.json"
+        },
+        {
+            "id": 192,
+            "name": "101.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/192.json"
+        },
+        {
+            "id": 193,
+            "name": "76.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/193.json"
+        },
+        {
+            "id": 194,
+            "name": "104.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/194.json"
+        },
+        {
+            "id": 195,
+            "name": "106.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/195.json"
+        },
+        {
+            "id": 196,
+            "name": "109.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/196.json"
+        },
+        {
+            "id": 197,
+            "name": "98.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/197.json"
+        },
+        {
+            "id": 198,
+            "name": "1.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/198.json"
+        },
+        {
+            "id": 199,
+            "name": "10.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/199.json"
+        },
+        {
+            "id": 200,
+            "name": "7.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/200.json"
+        },
+        {
+            "id": 201,
+            "name": "17.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/201.json"
+        },
+        {
+            "id": 202,
+            "name": "38.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/202.json"
+        },
+        {
+            "id": 203,
+            "name": "26.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/203.json"
+        },
+        {
+            "id": 204,
+            "name": "31.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/204.json"
+        },
+        {
+            "id": 205,
+            "name": "47.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/205.json"
+        },
+        {
+            "id": 206,
+            "name": "92.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/206.json"
+        },
+        {
+            "id": 207,
+            "name": "94.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/207.json"
+        },
+        {
+            "id": 208,
+            "name": "96.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/208.json"
+        },
+        {
+            "id": 209,
+            "name": "82.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/209.json"
+        },
+        {
+            "id": 210,
+            "name": "107.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/210.json"
+        },
+        {
+            "id": 211,
+            "name": "111.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/211.json"
+        },
+        {
+            "id": 212,
+            "name": "11.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/212.json"
+        },
+        {
+            "id": 213,
+            "name": "35.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/213.json"
+        },
+        {
+            "id": 214,
+            "name": "39.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/214.json"
+        },
+        {
+            "id": 215,
+            "name": "57.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/215.json"
+        },
+        {
+            "id": 216,
+            "name": "32.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/216.json"
+        },
+        {
+            "id": 217,
+            "name": "103.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/217.json"
+        },
+        {
+            "id": 218,
+            "name": "23.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/218.json"
+        },
+        {
+            "id": 219,
+            "name": "110.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/219.json"
+        },
+        {
+            "id": 220,
+            "name": "83.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/220.json"
+        },
+        {
+            "id": 221,
+            "name": "99.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/221.json"
+        },
+        {
+            "id": 222,
+            "name": "108.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/222.json"
+        },
+        {
+            "id": 223,
+            "name": "50.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/223.json"
+        },
+        {
+            "id": 224,
+            "name": "13.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/224.json"
+        },
+        {
+            "id": 225,
+            "name": "2.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/225.json"
+        },
+        {
+            "id": 226,
+            "name": "60.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/226.json"
+        },
+        {
+            "id": 227,
+            "name": "14.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/227.json"
+        },
+        {
+            "id": 228,
+            "name": "102.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/228.json"
+        },
+        {
+            "id": 229,
+            "name": "5.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/229.json"
+        },
+        {
+            "id": 230,
+            "name": "97.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/230.json"
+        },
+        {
+            "id": 231,
+            "name": "36.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/231.json"
+        },
+        {
+            "id": 232,
+            "name": "46.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/232.json"
+        },
+        {
+            "id": 233,
+            "name": "51.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/233.json"
+        },
+        {
+            "id": 234,
+            "name": "62.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/234.json"
+        },
+        {
+            "id": 235,
+            "name": "71.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/235.json"
+        },
+        {
+            "id": 236,
+            "name": "77.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/236.json"
+        },
+        {
+            "id": 237,
+            "name": "79.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/237.json"
+        },
+        {
+            "id": 238,
+            "name": "74.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/238.json"
+        },
+        {
+            "id": 239,
+            "name": "80.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/239.json"
+        },
+        {
+            "id": 240,
+            "name": "105.0",
+            "type": "hotspots",
+            "endpoint": "/api/shape/240.json"
+        }
+    ]
+}

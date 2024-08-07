@@ -1,0 +1,118 @@
+{
+    "id": 1638,
+    "full_name": "Acropogon bosseri",
+    "authors": "Morat & Chalopin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5597
+    },
+    "lft": 1555,
+    "rght": 1556,
+    "level": 2,
+    "parent_id": 256,
+    "taxon_id": 1638,
+    "total_occurrences_count": 92,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4746338, -22.0412948], \"count\": 17}, {\"coordinates\": [166.4436111, -21.9008333], \"count\": 3}, {\"coordinates\": [166.4687159, -22.0094731], \"count\": 2}, {\"coordinates\": [166.4700419, -22.0281815], \"count\": 1}, {\"coordinates\": [166.4265194, -21.9293158], \"count\": 2}, {\"coordinates\": [166.4688889, -22.0102778], \"count\": 1}, {\"coordinates\": [166.46665954589844, -22.049999237060547], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 2}, {\"coordinates\": [166.4596307, -22.0068759], \"count\": 2}, {\"coordinates\": [166.2630615234375, -21.828609466552734], \"count\": 2}, {\"coordinates\": [166.46556091308594, -22.012500762939453], \"count\": 4}, {\"coordinates\": [166.45916748046875, -22.012500762939453], \"count\": 8}, {\"coordinates\": [166.4499969482422, -22.100000381469727], \"count\": 1}, {\"coordinates\": [166.4666748046875, -22.031110763549805], \"count\": 5}, {\"coordinates\": [166.2661766, -21.8254492], \"count\": 1}, {\"coordinates\": [166.4677734375, -22.030555725097656], \"count\": 1}, {\"coordinates\": [166.4677778, -22.0305556], \"count\": 1}, {\"coordinates\": [166.26306, -21.82861], \"count\": 1}, {\"coordinates\": [166.46889, -22.01028], \"count\": 1}, {\"coordinates\": [166.50832401, -21.966025], \"count\": 1}, {\"coordinates\": [166.46667, -22.03111], \"count\": 2}, {\"coordinates\": [166.4713889, -22.04444444], \"count\": 15}, {\"coordinates\": [166.4325, -21.8625], \"count\": 2}, {\"coordinates\": [166.4563889, -22.01], \"count\": 1}, {\"coordinates\": [166.5202778, -22.16833333], \"count\": 2}, {\"coordinates\": [166.46556, -22.0125], \"count\": 2}, {\"coordinates\": [166.4666667, -22.03111111], \"count\": 1}, {\"coordinates\": [166.4233333, -21.9325], \"count\": 1}, {\"coordinates\": [166.2630556, -21.82861111], \"count\": 1}, {\"coordinates\": [166.56357998, -21.95330296], \"count\": 1}, {\"coordinates\": [166.4655556, -22.0125], \"count\": 1}, {\"coordinates\": [166.50900905, -21.96551597], \"count\": 1}, {\"coordinates\": [166.45917, -22.0125], \"count\": 4}, {\"coordinates\": [166.51136896, -21.96436504], \"count\": 1}]}",
+    "species_top": {
+        "Acropogon bosseri": 92
+    },
+    "um_occurrences_true": 92,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                70.0,
+                72.73,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                33.33
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 1.09,
+            "600": 1.09,
+            "700": 1.09,
+            "800": 44.57,
+            "900": 19.57,
+            "1000": 26.09,
+            "1100": 3.26,
+            "1200": 3.26
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 1.09,
+            "2000": 4.35,
+            "2500": 42.39,
+            "3000": 33.7,
+            "3500": 15.22,
+            "4000": 3.26,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

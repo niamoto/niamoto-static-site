@@ -1,0 +1,63 @@
+{
+    "id": 8,
+    "locality": "Arago",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            165.4765625,
+            -21.24147605896
+        ]
+    },
+    "plot_id": 8,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [165.4765625, -21.24147605896]}",
+    "families_top": {
+        "Ebenaceae": 1014,
+        "Winteraceae": 811,
+        "Thymelaeaceae": 414,
+        "Arecaceae": 205,
+        "Sapindaceae": 150,
+        "Araliaceae": 133,
+        "Rubiaceae": 108,
+        "Sapotaceae": 86,
+        "Calophyllaceae": 84,
+        "Violaceae": 84
+    },
+    "species_top": {
+        "Diospyros minimifolia": 505,
+        "Zygogynum pancheri": 358,
+        "Solmsia calophylla": 354,
+        "Zygogynum amplexicaule": 212,
+        "Diospyros fasciculosa": 185,
+        "Diospyros pustulata": 161,
+        "Zygogynum comptonii": 114,
+        "Calophyllum caledonicum": 82,
+        "Cyphokentia macrostachya": 75,
+        "Hybanthus austrocaledonicus": 70
+    },
+    "height_mean": 8.74,
+    "wood_density_mean": 0.67,
+    "basal_area": 48.0,
+    "shannon": 4.04,
+    "pielou": 0.86,
+    "simpson": 0.98,
+    "biomass": 370.245518261247,
+    "frequencies": {
+        "dbh": {
+            "10": 76.03,
+            "20": 15.1,
+            "30": 4.58,
+            "40": 2.7,
+            "50": 0.83,
+            "75": 0.3,
+            "100": 0.45,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 20.05,
+            "2": 44.37,
+            "3": 35.58
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 4464,
+    "full_name": "Nothofagus baumanniae",
+    "authors": "(Baum.-Bod.) Steenis",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 866
+    },
+    "lft": 2167,
+    "rght": 2168,
+    "level": 2,
+    "parent_id": 1116,
+    "taxon_id": 4464,
+    "total_occurrences_count": 75,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.1988478, -21.7302248], \"count\": 2}, {\"coordinates\": [166.3454147, -22.0625724], \"count\": 4}, {\"coordinates\": [166.3336111, -22.05], \"count\": 1}, {\"coordinates\": [166.2076543, -21.7236475], \"count\": 4}, {\"coordinates\": [166.5370159, -21.9302017], \"count\": 2}, {\"coordinates\": [166.5339829, -21.9608885], \"count\": 2}, {\"coordinates\": [166.3459930419922, -22.063480377197266], \"count\": 3}, {\"coordinates\": [166.6161346435547, -22.15250015258789], \"count\": 2}, {\"coordinates\": [166.34010314941406, -22.069669723510742], \"count\": 3}, {\"coordinates\": [166.34034729003906, -22.072980880737305], \"count\": 1}, {\"coordinates\": [166.35000610351562, -22.066667556762695], \"count\": 2}, {\"coordinates\": [166.3421630859375, -22.065629959106445], \"count\": 1}, {\"coordinates\": [166.24908447265625, -21.671499252319336], \"count\": 1}, {\"coordinates\": [166.3439483642578, -22.064830780029297], \"count\": 8}, {\"coordinates\": [166.53082275390625, -21.963890075683594], \"count\": 1}, {\"coordinates\": [166.20443725585938, -21.726669311523438], \"count\": 2}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 1}, {\"coordinates\": [166.3433476, -22.0666051], \"count\": 2}, {\"coordinates\": [166.24427000000014, -21.75974100064956], \"count\": 1}, {\"coordinates\": [166.533888888889, -21.9333333333333], \"count\": 1}, {\"coordinates\": [166.34395, -22.06483], \"count\": 10}, {\"coordinates\": [166.33361111, -22.05013889], \"count\": 1}, {\"coordinates\": [166.34271104, -22.06453801], \"count\": 1}, {\"coordinates\": [166.2076674, -21.72365499], \"count\": 2}, {\"coordinates\": [166.34034, -22.07298], \"count\": 1}, {\"coordinates\": [166.204444444444, -21.7266666666667], \"count\": 1}, {\"coordinates\": [166.3453347, -22.0659384], \"count\": 1}, {\"coordinates\": [166.3401, -22.06967], \"count\": 2}, {\"coordinates\": [166.346, -22.06348], \"count\": 3}, {\"coordinates\": [166.35, -22.06666], \"count\": 2}, {\"coordinates\": [166.3422222, -22.06555556], \"count\": 1}, {\"coordinates\": [166.1955556, -21.73333333], \"count\": 1}, {\"coordinates\": [166.34, -22.0697222222222], \"count\": 1}, {\"coordinates\": [166.5308333, -21.96388889], \"count\": 1}, {\"coordinates\": [166.342222222222, -22.0655555555556], \"count\": 2}, {\"coordinates\": [166.5329662, -21.9346445], \"count\": 1}]}",
+    "species_top": {
+        "Nothofagus baumanniae": 75
+    },
+    "um_occurrences_true": 75,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                33.33,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                66.67,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                25.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 25.0,
+    "dbh_max": 25.0,
+    "dbh_median": 25.0,
+    "dbh_min": 25.0,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 100.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 1.33,
+            "200": 0.0,
+            "300": 2.67,
+            "400": 0.0,
+            "500": 2.67,
+            "600": 2.67,
+            "700": 8.0,
+            "800": 8.0,
+            "900": 12.0,
+            "1000": 32.0,
+            "1100": 17.33,
+            "1200": 13.33
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 12.0,
+            "2000": 56.0,
+            "2500": 12.0,
+            "3000": 9.33,
+            "3500": 4.0,
+            "4000": 1.33,
+            "4500": 5.33
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

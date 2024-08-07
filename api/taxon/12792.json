@@ -1,0 +1,130 @@
+{
+    "id": 12792,
+    "full_name": "Planchonella mandjeliana",
+    "authors": "Munzinger & Swenson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5568
+    },
+    "lft": 3309,
+    "rght": 3310,
+    "level": 2,
+    "parent_id": 1221,
+    "taxon_id": 12792,
+    "total_occurrences_count": 72,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.51667, -20.38333], \"count\": 2}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 6}, {\"coordinates\": [164.5509893, -20.4136256], \"count\": 1}, {\"coordinates\": [164.5322222, -20.3966667], \"count\": 2}, {\"coordinates\": [164.5213457, -20.4031031], \"count\": 1}, {\"coordinates\": [164.7825, -20.6244444], \"count\": 2}, {\"coordinates\": [164.5314902, -20.3976737], \"count\": 1}, {\"coordinates\": [164.4379685, -20.3436707], \"count\": 3}, {\"coordinates\": [164.6863889, -20.5398889], \"count\": 2}, {\"coordinates\": [164.73775, -20.5912222], \"count\": 2}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 8}, {\"coordinates\": [164.5477752685547, -20.416669845581055], \"count\": 2}, {\"coordinates\": [164.77999877929688, -20.6200008392334], \"count\": 1}, {\"coordinates\": [164.52833557128906, -20.40056037902832], \"count\": 2}, {\"coordinates\": [164.5246221, -20.3836135], \"count\": 3}, {\"coordinates\": [164.7801278, -20.6253028], \"count\": 2}, {\"coordinates\": [164.52999877929688, -20.399999618530273], \"count\": 2}, {\"coordinates\": [164.53334045410156, -20.399999618530273], \"count\": 1}, {\"coordinates\": [164.73777770996094, -20.591110229492188], \"count\": 1}, {\"coordinates\": [164.78250122070312, -20.624439239501953], \"count\": 1}, {\"coordinates\": [164.52366638183594, -20.40333366394043], \"count\": 1}, {\"coordinates\": [164.52139282226562, -20.386669158935547], \"count\": 2}, {\"coordinates\": [164.52000427246094, -20.3799991607666], \"count\": 1}, {\"coordinates\": [164.68638610839844, -20.540000915527344], \"count\": 1}, {\"coordinates\": [164.52000427246094, -20.389999389648438], \"count\": 1}, {\"coordinates\": [164.51669311523438, -20.38330078125], \"count\": 1}, {\"coordinates\": [164.5382080078125, -20.4036808013916], \"count\": 1}, {\"coordinates\": [164.52729479770304, -20.400191321997937], \"count\": 3}, {\"coordinates\": [164.6861487, -20.53962582], \"count\": 1}, {\"coordinates\": [164.5508204137671, -20.413902541950737], \"count\": 1}, {\"coordinates\": [164.533, -20.4], \"count\": 2}, {\"coordinates\": [164.5283, -20.4006], \"count\": 3}, {\"coordinates\": [164.7378, -20.5911], \"count\": 1}, {\"coordinates\": [164.52729275845266, -20.40018544776274], \"count\": 2}, {\"coordinates\": [164.6779932, -20.54067599], \"count\": 1}, {\"coordinates\": [164.6864, -20.54], \"count\": 1}, {\"coordinates\": [164.68060402, -20.53903599], \"count\": 1}, {\"coordinates\": [164.7825, -20.6244], \"count\": 1}, {\"coordinates\": [164.55030533253628, -20.414029901553413], \"count\": 1}]}",
+    "species_top": {
+        "Planchonella mandjeliana": 72
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 72,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                0,
+                50.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.0,
+    "dbh_max": 20.0,
+    "dbh_median": 15.0,
+    "dbh_min": 10.0,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 50.0,
+            "20": 50.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 4.41,
+            "400": 7.35,
+            "500": 19.12,
+            "600": 44.12,
+            "700": 25.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 19.72,
+            "1500": 54.93,
+            "2000": 0.0,
+            "2500": 2.82,
+            "3000": 22.54,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

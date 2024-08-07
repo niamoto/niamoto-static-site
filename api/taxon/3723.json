@@ -1,0 +1,118 @@
+{
+    "id": 3723,
+    "full_name": "Homalium rubiginosum",
+    "authors": "(Vieill.) Warb.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3888
+    },
+    "lft": 3053,
+    "rght": 3054,
+    "level": 2,
+    "parent_id": 870,
+    "taxon_id": 3723,
+    "total_occurrences_count": 34,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.2311111111, -20.9722222222], \"count\": 1}, {\"coordinates\": [165.2747583, -20.967275], \"count\": 1}, {\"coordinates\": [165.83193969726562, -21.416109085083008], \"count\": 3}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 2}, {\"coordinates\": [165.836150215958, -21.415836934125], \"count\": 1}, {\"coordinates\": [165.2137638, -20.8172347], \"count\": 1}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 3}, {\"coordinates\": [165.83416748046875, -21.42082977294922], \"count\": 2}, {\"coordinates\": [164.8925018310547, -20.64082908630371], \"count\": 7}, {\"coordinates\": [165.8350869, -21.4130309], \"count\": 1}, {\"coordinates\": [165.275, -20.9672783533732], \"count\": 1}, {\"coordinates\": [165.5880584716797, -21.225830078125], \"count\": 1}, {\"coordinates\": [165.5182216, -21.26361036], \"count\": 1}, {\"coordinates\": [165.226970081519, -20.8676651514154], \"count\": 1}, {\"coordinates\": [165.8374655, -21.41776], \"count\": 1}, {\"coordinates\": [165.83747377, -21.41776437], \"count\": 1}, {\"coordinates\": [165.83509501, -21.41303531], \"count\": 1}, {\"coordinates\": [165.834166666667, -21.4208333333333], \"count\": 1}, {\"coordinates\": [165.2747583331, -20.9672750000159], \"count\": 1}, {\"coordinates\": [165.831944444444, -21.4161111111111], \"count\": 1}, {\"coordinates\": [165.210555555556, -20.8202777777778], \"count\": 1}, {\"coordinates\": [165.51805556, -21.26361111], \"count\": 1}]}",
+    "species_top": {
+        "Homalium rubiginosum": 34
+    },
+    "um_occurrences_true": 20,
+    "um_occurrences_false": 14,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                66.67,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 65.22,
+            "200": 8.7,
+            "300": 13.04,
+            "400": 13.04,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 8.82,
+            "1500": 44.12,
+            "2000": 5.88,
+            "2500": 32.35,
+            "3000": 8.82,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 15.0,
+            "2": 85.0
+        }
+    }
+}

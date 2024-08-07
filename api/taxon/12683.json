@@ -1,0 +1,135 @@
+{
+    "id": 12683,
+    "full_name": "Gmelina magnifica",
+    "authors": "Mabb.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2039
+    },
+    "lft": 1359,
+    "rght": 1360,
+    "level": 2,
+    "parent_id": 813,
+    "taxon_id": 12683,
+    "total_occurrences_count": 74,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7108333, -20.4869444], \"count\": 1}, {\"coordinates\": [165.7731064, -21.6670483], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 2}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 1}, {\"coordinates\": [165.8363201, -21.5767944], \"count\": 1}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 1}, {\"coordinates\": [164.5247853, -20.4047457], \"count\": 1}, {\"coordinates\": [164.5463889, -20.4102778], \"count\": 1}, {\"coordinates\": [165.23975, -20.9573333], \"count\": 1}, {\"coordinates\": [164.5509893, -20.4136256], \"count\": 2}, {\"coordinates\": [164.4379685, -20.3436707], \"count\": 1}, {\"coordinates\": [164.5213457, -20.4031031], \"count\": 1}, {\"coordinates\": [166.0492279, -21.6434021], \"count\": 1}, {\"coordinates\": [164.4378741737, -20.3060228471], \"count\": 13}, {\"coordinates\": [165.75938888888888, -21.561222222222224], \"count\": 1}, {\"coordinates\": [164.87066666666666, -20.64097222222222], \"count\": 1}, {\"coordinates\": [164.78330555555556, -20.560027777777776], \"count\": 2}, {\"coordinates\": [165.96769444444445, -21.594694444444443], \"count\": 2}, {\"coordinates\": [165.77269444444445, -21.607944444444446], \"count\": 2}, {\"coordinates\": [165.77263888888888, -21.60661111111111], \"count\": 1}, {\"coordinates\": [164.87133333333333, -20.640805555555556], \"count\": 6}, {\"coordinates\": [164.5246221, -20.3836135], \"count\": 1}, {\"coordinates\": [164.52139282226562, -20.407779693603516], \"count\": 1}, {\"coordinates\": [164.51527404785156, -20.38443946838379], \"count\": 2}, {\"coordinates\": [164.5477752685547, -20.416669845581055], \"count\": 2}, {\"coordinates\": [164.7912657, -20.5644516], \"count\": 3}, {\"coordinates\": [164.5236053466797, -20.395830154418945], \"count\": 1}, {\"coordinates\": [164.71083068847656, -20.486940383911133], \"count\": 1}, {\"coordinates\": [164.52194213867188, -20.410280227661133], \"count\": 3}, {\"coordinates\": [165.7544403076172, -21.631940841674805], \"count\": 1}, {\"coordinates\": [166.0560234, -21.6309738], \"count\": 1}, {\"coordinates\": [164.53334045410156, -20.399999618530273], \"count\": 1}, {\"coordinates\": [164.52139282226562, -20.386669158935547], \"count\": 3}, {\"coordinates\": [164.71083068847656, -20.4869441986084], \"count\": 1}, {\"coordinates\": [164.68205, -20.4853], \"count\": 2}, {\"coordinates\": [164.54916381835938, -20.410829544067383], \"count\": 2}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 1}, {\"coordinates\": [164.52499389648438, -20.39971923828125], \"count\": 1}, {\"coordinates\": [164.710833365097, -20.4869444668293], \"count\": 1}, {\"coordinates\": [165.77269997, -21.60794696], \"count\": 1}, {\"coordinates\": [165.776384, -21.60258795], \"count\": 1}, {\"coordinates\": [165.77263698, -21.60660103], \"count\": 1}]}",
+    "species_top": {
+        "Gmelina magnifica": 74
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 74,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0,
+                100.0,
+                0,
+                0.0,
+                100.0,
+                0,
+                45.45,
+                6.25,
+                40.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                9.09,
+                6.25,
+                20.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 25.6,
+    "dbh_max": 71.5,
+    "dbh_median": 21.05,
+    "dbh_min": 8.0,
+    "height_max": 15.0,
+    "wood_density_mean": 0.52,
+    "wood_density_max": 0.54,
+    "wood_density_min": 0.48,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 46.43,
+            "20": 25.0,
+            "30": 3.57,
+            "40": 17.86,
+            "50": 7.14,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 8.33,
+            "400": 19.44,
+            "500": 11.11,
+            "600": 45.83,
+            "700": 9.72,
+            "800": 1.39,
+            "900": 2.78,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 1.39
+        },
+        "rainfall": {
+            "1000": 5.41,
+            "1500": 37.84,
+            "2000": 28.38,
+            "2500": 9.46,
+            "3000": 18.92,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 15.38,
+            "2": 30.77,
+            "3": 53.85
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 3944,
+    "full_name": "Lasiochlamys rivularis",
+    "authors": "Sleumer",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": null
+    },
+    "lft": 3071,
+    "rght": 3072,
+    "level": 2,
+    "parent_id": 937,
+    "taxon_id": 3944,
+    "total_occurrences_count": 28,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.6366526, -22.100056], \"count\": 3}, {\"coordinates\": [166.6947762, -22.0875621], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.81333329, -22.24694445], \"count\": 2}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 1}, {\"coordinates\": [166.89711111111112, -22.154944444444446], \"count\": 1}, {\"coordinates\": [166.6958044, -22.1642337], \"count\": 2}, {\"coordinates\": [166.70263671875, -22.103759765625], \"count\": 3}, {\"coordinates\": [164.90042114257812, -21.11488914489746], \"count\": 1}, {\"coordinates\": [166.60000610351562, -22.149999618530273], \"count\": 7}, {\"coordinates\": [166.6666717529297, -22.100000381469727], \"count\": 1}, {\"coordinates\": [166.66224670410156, -22.103139877319336], \"count\": 1}, {\"coordinates\": [166.65916442871094, -22.110450744628906], \"count\": 1}, {\"coordinates\": [166.89710003, -22.15494298], \"count\": 1}, {\"coordinates\": [166.89426531, -22.16159717], \"count\": 1}]}",
+    "species_top": {
+        "Lasiochlamys rivularis": 28
+    },
+    "um_occurrences_true": 24,
+    "um_occurrences_false": 4,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 9.9,
+    "dbh_max": 9.9,
+    "dbh_median": 9.9,
+    "dbh_min": 9.9,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 14.81,
+            "200": 25.93,
+            "300": 14.81,
+            "400": 7.41,
+            "500": 37.04,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 3.57,
+            "1500": 0.0,
+            "2000": 10.71,
+            "2500": 60.71,
+            "3000": 25.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 100.0,
+            "2": 0.0
+        }
+    }
+}

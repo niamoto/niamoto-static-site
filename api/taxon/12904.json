@@ -1,0 +1,130 @@
+{
+    "id": 12904,
+    "full_name": "Planchonella latihila",
+    "authors": "Munzinger & Swenson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5567
+    },
+    "lft": 3297,
+    "rght": 3298,
+    "level": 2,
+    "parent_id": 1221,
+    "taxon_id": 12904,
+    "total_occurrences_count": 48,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.9265556, -22.3103056], \"count\": 2}, {\"coordinates\": [166.7723776, -22.3106972], \"count\": 1}, {\"coordinates\": [166.8969722, -22.2900278], \"count\": 2}, {\"coordinates\": [166.903162, -22.276171], \"count\": 2}, {\"coordinates\": [166.92644444444446, -22.31008611111111], \"count\": 1}, {\"coordinates\": [166.89389038085938, -22.292499542236328], \"count\": 1}, {\"coordinates\": [166.88999938964844, -22.290000915527344], \"count\": 1}, {\"coordinates\": [166.81805419921875, -22.324169158935547], \"count\": 1}, {\"coordinates\": [166.9267900770027, -22.3097192040841], \"count\": 2}, {\"coordinates\": [166.9268080129346, -22.3095023459042], \"count\": 1}, {\"coordinates\": [166.92679756, -22.30971284], \"count\": 2}, {\"coordinates\": [166.8969741, -22.29019078], \"count\": 1}, {\"coordinates\": [166.927011, -22.3095390007], \"count\": 1}, {\"coordinates\": [166.9267593144333, -22.309475522076], \"count\": 1}, {\"coordinates\": [166.9269053524453, -22.3095469630112], \"count\": 1}, {\"coordinates\": [166.9268080129325, -22.3095023452648], \"count\": 1}, {\"coordinates\": [166.92678745581, -22.3094700546885], \"count\": 1}, {\"coordinates\": [166.9267742175841, -22.3097032415936], \"count\": 1}, {\"coordinates\": [166.9616722339116, -22.3171451048196], \"count\": 1}, {\"coordinates\": [166.926444444444, -22.3100861111111], \"count\": 1}, {\"coordinates\": [166.896972221798, -22.2900277778837], \"count\": 2}, {\"coordinates\": [166.895903082, -22.288844331], \"count\": 1}, {\"coordinates\": [166.903095472613, -22.2841647222735], \"count\": 1}, {\"coordinates\": [166.92655597, -22.31388889], \"count\": 2}, {\"coordinates\": [166.8973302, -22.28976398], \"count\": 2}, {\"coordinates\": [166.926915, -22.309466], \"count\": 1}, {\"coordinates\": [166.92655597, -22.31030553], \"count\": 1}, {\"coordinates\": [166.9267885450396, -22.3094934224759], \"count\": 1}, {\"coordinates\": [166.961672233912, -22.3171451048196], \"count\": 1}, {\"coordinates\": [166.9267885450376, -22.3094934218366], \"count\": 1}, {\"coordinates\": [166.89935531, -22.29082505], \"count\": 2}, {\"coordinates\": [166.9267593144313, -22.3094755214366], \"count\": 1}, {\"coordinates\": [166.9269053524433, -22.3095469623719], \"count\": 1}, {\"coordinates\": [166.92781156947282, -22.311253349207185], \"count\": 1}, {\"coordinates\": [166.926798531, -22.3097141413], \"count\": 1}, {\"coordinates\": [166.9079344245314, -22.282097395859], \"count\": 1}, {\"coordinates\": [166.76916672, -22.31388891], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 2}]}",
+    "species_top": {
+        "Planchonella latihila": 48
+    },
+    "um_occurrences_true": 48,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                66.67,
+                0,
+                0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 32.38,
+    "dbh_max": 37.9,
+    "dbh_median": 36.44,
+    "dbh_min": 15.0,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 16.67,
+            "20": 0.0,
+            "30": 83.33,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 17.78,
+            "200": 60.0,
+            "300": 20.0,
+            "400": 2.22,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 6.25,
+            "2500": 87.5,
+            "3000": 6.25,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

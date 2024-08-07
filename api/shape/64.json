@@ -1,0 +1,129 @@
+{
+    "id": 64,
+    "name": "Roche Perc\u00e9e et de la Baie des Tortues",
+    "type": "protected_areas",
+    "shape_coordinates": "{\"type\": \"FeatureCollection\", \"features\": [{\"id\": \"0\", \"type\": \"Feature\", \"properties\": {}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[165.4533608, -21.6065937], [165.4568818, -21.6082451], [165.4573863, -21.6062973], [165.4629645, -21.6115095], [165.4649239, -21.6171004], [165.4648532, -21.6229942], [165.4613918, -21.6226503], [165.4590648, -21.6241737], [165.4533608, -21.6065937]]]}, \"bbox\": [165.4533608, -21.6241737, 165.4649239, -21.6062973]}], \"bbox\": [165.4533608, -21.6241737, 165.4649239, -21.6062973]}",
+    "shape_id": 64,
+    "shape_area": "135.40766347460942",
+    "forest_area": null,
+    "forest_coordinates": null,
+    "num_families_unique_taxonomic_count": 2,
+    "num_species_unique_taxonomic_count": 2,
+    "num_occurrences_count": 2,
+    "rainfall_mean": "945.0",
+    "rainfall_range": "{\"min\": 945.0, \"max\": 945.0}",
+    "elevation_median": 0.0,
+    "elevation_max": 28.0,
+    "elevation_elevation_distribution": {
+        "altitudes": [
+            0.0
+        ],
+        "forest": [
+            0.0
+        ],
+        "non_forest": [
+            5.556404982226554
+        ]
+    },
+    "forest_fragmentation_fragment_size_distribution": null,
+    "forest_fragmentation_effective_mesh_size": null,
+    "forest_cover_percentage": null,
+    "forest_humidity_category_distribution": null,
+    "land_use_category_distribution": null,
+    "frequencies": {},
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    165.4533608,
+                    -21.6065937
+                ],
+                [
+                    165.4533918,
+                    -21.6064205
+                ],
+                [
+                    165.4538834,
+                    -21.6061544
+                ],
+                [
+                    165.4551932,
+                    -21.6064885
+                ],
+                [
+                    165.4562259,
+                    -21.6076272
+                ],
+                [
+                    165.4561187,
+                    -21.6082029
+                ],
+                [
+                    165.4568818,
+                    -21.6082451
+                ],
+                [
+                    165.4570676,
+                    -21.6079987
+                ],
+                [
+                    165.4569871,
+                    -21.6077567
+                ],
+                [
+                    165.4573863,
+                    -21.6062973
+                ],
+                [
+                    165.4601123,
+                    -21.6083706
+                ],
+                [
+                    165.4629645,
+                    -21.6115095
+                ],
+                [
+                    165.4642006,
+                    -21.6141719
+                ],
+                [
+                    165.4649239,
+                    -21.6171004
+                ],
+                [
+                    165.4647558,
+                    -21.6191885
+                ],
+                [
+                    165.4644331,
+                    -21.620435
+                ],
+                [
+                    165.4648532,
+                    -21.6229942
+                ],
+                [
+                    165.4613918,
+                    -21.6226503
+                ],
+                [
+                    165.4609739,
+                    -21.622851
+                ],
+                [
+                    165.4600006,
+                    -21.6237667
+                ],
+                [
+                    165.4590648,
+                    -21.6241737
+                ],
+                [
+                    165.4533608,
+                    -21.6065937
+                ]
+            ]
+        ]
+    }
+}

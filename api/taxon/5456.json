@@ -1,0 +1,130 @@
+{
+    "id": 5456,
+    "full_name": "Salaciopsis glomerata",
+    "authors": "H\u00fcrl.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3455
+    },
+    "lft": 607,
+    "rght": 608,
+    "level": 2,
+    "parent_id": 1327,
+    "taxon_id": 5456,
+    "total_occurrences_count": 45,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4688889, -22.0102778], \"count\": 1}, {\"coordinates\": [165.0072222222, -20.8344444444], \"count\": 1}, {\"coordinates\": [166.684969, -22.1028821], \"count\": 1}, {\"coordinates\": [165.9843630556, -21.6945508333], \"count\": 1}, {\"coordinates\": [167.467064, -22.6175478], \"count\": 2}, {\"coordinates\": [165.0876191, -21.3202152], \"count\": 2}, {\"coordinates\": [165.34671912, -21.43839498], \"count\": 2}, {\"coordinates\": [165.32751944444445, -21.16229722222222], \"count\": 1}, {\"coordinates\": [166.493505, -21.945976], \"count\": 1}, {\"coordinates\": [166.44791746, -22.06852576], \"count\": 2}, {\"coordinates\": [166.493434, -21.946526], \"count\": 1}, {\"coordinates\": [165.1988889, -21.2508333], \"count\": 2}, {\"coordinates\": [166.96171522153523, -22.274836811874763], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 1}, {\"coordinates\": [166.2830683, -21.9126918], \"count\": 2}, {\"coordinates\": [164.775290831091, -20.7617163413409], \"count\": 1}, {\"coordinates\": [165.1630556, -21.3616667], \"count\": 1}, {\"coordinates\": [165.330337, -21.365437], \"count\": 1}, {\"coordinates\": [166.5234167, -22.1834283], \"count\": 1}, {\"coordinates\": [165.320521675669, -21.2978998376941], \"count\": 1}, {\"coordinates\": [165.00451, -20.835434], \"count\": 1}, {\"coordinates\": [166.96344858206325, -22.276957951132324], \"count\": 1}, {\"coordinates\": [166.1665635, -21.759654], \"count\": 1}, {\"coordinates\": [165.0, -20.8347], \"count\": 1}, {\"coordinates\": [166.32790585583115, -21.95675794161452], \"count\": 1}, {\"coordinates\": [165.004270277669, -20.8347049183316], \"count\": 1}, {\"coordinates\": [166.96353100877246, -22.27612584304315], \"count\": 1}, {\"coordinates\": [166.15546598, -21.74566497], \"count\": 1}, {\"coordinates\": [166.99686698, -22.26869202], \"count\": 1}, {\"coordinates\": [166.52392896, -22.18556301], \"count\": 1}, {\"coordinates\": [166.52290104, -22.18459897], \"count\": 1}, {\"coordinates\": [167.00462898, -22.27939996], \"count\": 1}, {\"coordinates\": [166.60486498, -22.07270495], \"count\": 1}, {\"coordinates\": [166.51290896, -21.96684296], \"count\": 1}, {\"coordinates\": [166.99265896, -22.26787599], \"count\": 1}, {\"coordinates\": [167.006686, -22.28628], \"count\": 1}, {\"coordinates\": [166.52352698, -22.18504201], \"count\": 1}, {\"coordinates\": [166.14562501, -21.73726896], \"count\": 1}, {\"coordinates\": [166.15296098, -21.73768498], \"count\": 1}]}",
+    "species_top": {
+        "Salaciopsis glomerata": 45
+    },
+    "um_occurrences_true": 34,
+    "um_occurrences_false": 11,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0.0,
+                50.0,
+                0,
+                0,
+                100.0,
+                66.67,
+                83.33,
+                0.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                100.0,
+                50.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                33.33,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 5.98,
+    "dbh_max": 8.0,
+    "dbh_median": 5.7,
+    "dbh_min": 5.1,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 12.5,
+            "200": 17.5,
+            "300": 10.0,
+            "400": 10.0,
+            "500": 10.0,
+            "600": 0.0,
+            "700": 5.0,
+            "800": 15.0,
+            "900": 7.5,
+            "1000": 7.5,
+            "1100": 2.5,
+            "1200": 2.5
+        },
+        "rainfall": {
+            "1000": 11.36,
+            "1500": 29.55,
+            "2000": 25.0,
+            "2500": 22.73,
+            "3000": 6.82,
+            "3500": 2.27,
+            "4000": 2.27,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 3.85,
+            "2": 96.15
+        }
+    }
+}

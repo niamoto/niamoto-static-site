@@ -1,0 +1,130 @@
+{
+    "id": 1809,
+    "full_name": "Amphorogyne celastroides",
+    "authors": "Stauffer & H\u00fcrl.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1216
+    },
+    "lft": 3089,
+    "rght": 3090,
+    "level": 2,
+    "parent_id": 306,
+    "taxon_id": 1809,
+    "total_occurrences_count": 72,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.6947762, -22.0875621], \"count\": 2}, {\"coordinates\": [166.0000469, -21.7545723], \"count\": 3}, {\"coordinates\": [166.681708, -21.998293], \"count\": 1}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 1}, {\"coordinates\": [166.4519368, -22.1039089], \"count\": 1}, {\"coordinates\": [166.4061111, -21.8808333], \"count\": 1}, {\"coordinates\": [166.4168042, -21.8828044], \"count\": 2}, {\"coordinates\": [166.0004251, -21.7574591], \"count\": 1}, {\"coordinates\": [166.934427, -22.1792218], \"count\": 1}, {\"coordinates\": [166.59444166666665, -22.154552777777777], \"count\": 5}, {\"coordinates\": [166.4436111, -21.9008333], \"count\": 1}, {\"coordinates\": [166.46665954589844, -22.0333309173584], \"count\": 2}, {\"coordinates\": [166.4666748046875, -22.0333309173584], \"count\": 2}, {\"coordinates\": [166.6034403, -22.1190641], \"count\": 2}, {\"coordinates\": [166.54360961914062, -21.96306037902832], \"count\": 1}, {\"coordinates\": [166.0, -21.75], \"count\": 4}, {\"coordinates\": [165.9986389, -21.7500917], \"count\": 1}, {\"coordinates\": [166.5788876, -22.143681], \"count\": 1}, {\"coordinates\": [166.96460054138817, -22.276472070269556], \"count\": 1}, {\"coordinates\": [165.022216796875, -20.904159545898438], \"count\": 1}, {\"coordinates\": [166.9311065673828, -22.182220458984375], \"count\": 2}, {\"coordinates\": [166.5339829, -21.9608885], \"count\": 1}, {\"coordinates\": [165.99722290039062, -21.76055908203125], \"count\": 4}, {\"coordinates\": [166.9225647, -22.3216887], \"count\": 1}, {\"coordinates\": [166.96707138418964, -22.274298886653888], \"count\": 1}, {\"coordinates\": [166.96596131435916, -22.27725754475292], \"count\": 1}, {\"coordinates\": [166.40611267089844, -21.880830764770508], \"count\": 1}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 2}, {\"coordinates\": [166.5219632, -22.0354611], \"count\": 1}, {\"coordinates\": [166.96604931071562, -22.276170078875374], \"count\": 1}, {\"coordinates\": [165.7014622, -21.4427562], \"count\": 1}, {\"coordinates\": [166.4128056, -21.8823222], \"count\": 1}, {\"coordinates\": [166.96815291094026, -22.276346496188722], \"count\": 1}, {\"coordinates\": [166.4166717529297, -21.883333206176758], \"count\": 1}, {\"coordinates\": [165.0258331298828, -20.906940460205078], \"count\": 1}, {\"coordinates\": [166.96747168968247, -22.2773731027713], \"count\": 1}, {\"coordinates\": [165.9933333, -21.7572222], \"count\": 1}, {\"coordinates\": [166.60000610351562, -22.149999618530273], \"count\": 2}, {\"coordinates\": [166.540995, -22.0284346], \"count\": 1}, {\"coordinates\": [165.1070264, -21.1626084], \"count\": 1}, {\"coordinates\": [166.96852419683384, -22.279670458231347], \"count\": 1}, {\"coordinates\": [165.01667, -20.9], \"count\": 1}, {\"coordinates\": [166.6259795, -22.1477506], \"count\": 1}, {\"coordinates\": [166.4166717529297, -21.883329391479492], \"count\": 1}, {\"coordinates\": [166.41647604, -21.88208098], \"count\": 1}, {\"coordinates\": [166.40636401, -21.88103097], \"count\": 1}, {\"coordinates\": [166.99265896, -22.26787599], \"count\": 1}, {\"coordinates\": [165.99862599, -21.75152302], \"count\": 1}, {\"coordinates\": [166.99686698, -22.26869202], \"count\": 1}, {\"coordinates\": [166.52813701, -21.95417595], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 1}, {\"coordinates\": [166.5928333, -22.15477782], \"count\": 1}]}",
+    "species_top": {
+        "Amphorogyne celastroides": 72
+    },
+    "um_occurrences_true": 71,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                50.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                0,
+                28.57,
+                66.67,
+                83.33,
+                100.0
+            ],
+            "fruiting": [
+                100.0,
+                0.0,
+                33.33,
+                100.0,
+                0.0,
+                100.0,
+                33.33,
+                0,
+                14.29,
+                0.0,
+                33.33,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 8.45,
+    "dbh_max": 10.8,
+    "dbh_median": 8.8,
+    "dbh_min": 5.1,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 13.89,
+            "300": 6.94,
+            "400": 12.5,
+            "500": 6.94,
+            "600": 2.78,
+            "700": 11.11,
+            "800": 0.0,
+            "900": 25.0,
+            "1000": 2.78,
+            "1100": 0.0,
+            "1200": 18.06
+        },
+        "rainfall": {
+            "1000": 1.39,
+            "1500": 0.0,
+            "2000": 37.5,
+            "2500": 29.17,
+            "3000": 15.28,
+            "3500": 12.5,
+            "4000": 1.39,
+            "4500": 2.78
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

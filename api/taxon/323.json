@@ -1,0 +1,130 @@
+{
+    "id": 323,
+    "full_name": "Antidesma",
+    "authors": "L.",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 833
+    },
+    "lft": 2322,
+    "rght": 2325,
+    "level": 1,
+    "parent_id": 13497,
+    "taxon_id": 323,
+    "total_occurrences_count": 61,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3428385, -20.9460796], \"count\": 1}, {\"coordinates\": [165.5228317, -21.2857131], \"count\": 3}, {\"coordinates\": [165.3429861, -20.9449722], \"count\": 2}, {\"coordinates\": [164.1919192, -20.1072898], \"count\": 1}, {\"coordinates\": [164.9567746, -21.1690443], \"count\": 1}, {\"coordinates\": [165.3507407143, -20.947695232573], \"count\": 1}, {\"coordinates\": [165.1980556, -21.26], \"count\": 1}, {\"coordinates\": [164.732715313806, -20.8570477476377], \"count\": 1}, {\"coordinates\": [165.3700129, -21.0469519], \"count\": 2}, {\"coordinates\": [165.51943969726562, -21.288890838623047], \"count\": 3}, {\"coordinates\": [164.910800185027, -21.0267736845657], \"count\": 1}, {\"coordinates\": [164.915701451587, -21.0261322665327], \"count\": 1}, {\"coordinates\": [165.73324584960938, -21.655179977416992], \"count\": 1}, {\"coordinates\": [165.4842529296875, -21.56730079650879], \"count\": 4}, {\"coordinates\": [165.36676025390625, -21.04998016357422], \"count\": 3}, {\"coordinates\": [165.3430633544922, -20.94499969482422], \"count\": 1}, {\"coordinates\": [164.9684611, -21.1700833], \"count\": 2}, {\"coordinates\": [165.32472229003906, -20.936670303344727], \"count\": 1}, {\"coordinates\": [165.3427778, -20.945], \"count\": 1}, {\"coordinates\": [165.4052863, -21.0727273], \"count\": 1}, {\"coordinates\": [165.352906990051, -20.9481833140055], \"count\": 1}, {\"coordinates\": [165.353044986725, -20.9495166778564], \"count\": 1}, {\"coordinates\": [165.33944702148438, -20.949169158935547], \"count\": 2}, {\"coordinates\": [164.730896314299, -20.8562895123126], \"count\": 1}, {\"coordinates\": [165.3249289621778, -20.93937515490026], \"count\": 1}, {\"coordinates\": [164.9666, -21.17166], \"count\": 1}, {\"coordinates\": [165.46638686140435, -21.483570584213048], \"count\": 1}, {\"coordinates\": [165.519, -21.289], \"count\": 3}, {\"coordinates\": [164.91166, -21.02514], \"count\": 2}, {\"coordinates\": [164.9183944, -20.9538444], \"count\": 1}, {\"coordinates\": [165.367, -21.05], \"count\": 2}, {\"coordinates\": [165.325, -20.937], \"count\": 1}, {\"coordinates\": [165.35285, -20.95241], \"count\": 1}, {\"coordinates\": [165.20377, -21.23321], \"count\": 1}, {\"coordinates\": [165.40795, -21.06106], \"count\": 1}, {\"coordinates\": [164.21485, -20.13695], \"count\": 1}]}",
+    "species_top": {
+        "Antidesma messianianum": 53
+    },
+    "um_occurrences_true": 5,
+    "um_occurrences_false": 56,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                83.33,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                0,
+                0.0,
+                75.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0.0,
+                16.67,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                25.0,
+                100.0,
+                33.33
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 25.0,
+    "dbh_max": 25.0,
+    "dbh_median": 25.0,
+    "dbh_min": 25.0,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 100.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 55.17,
+            "200": 10.34,
+            "300": 24.14,
+            "400": 0.0,
+            "500": 3.45,
+            "600": 6.9,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 28.0,
+            "1500": 24.0,
+            "2000": 18.0,
+            "2500": 30.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 25.58,
+            "2": 74.42
+        }
+    }
+}

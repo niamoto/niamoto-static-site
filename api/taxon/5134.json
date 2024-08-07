@@ -1,0 +1,135 @@
+{
+    "id": 5134,
+    "full_name": "Polyosma leratii",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4921
+    },
+    "lft": 1091,
+    "rght": 1092,
+    "level": 2,
+    "parent_id": 1244,
+    "taxon_id": 5134,
+    "total_occurrences_count": 93,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.780212, -20.62504], \"count\": 5}, {\"coordinates\": [165.2497222, -21.0058333], \"count\": 1}, {\"coordinates\": [165.3, -21.16667], \"count\": 1}, {\"coordinates\": [164.7884284, -20.5680147], \"count\": 1}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 1}, {\"coordinates\": [165.30094, -21.18385], \"count\": 1}, {\"coordinates\": [164.5247853, -20.4047457], \"count\": 1}, {\"coordinates\": [164.5894444, -20.4527778], \"count\": 1}, {\"coordinates\": [165.9536243, -21.6011898], \"count\": 3}, {\"coordinates\": [165.8002329, -21.6167578], \"count\": 4}, {\"coordinates\": [165.8363201, -21.5767944], \"count\": 2}, {\"coordinates\": [165.2329924, -21.017049], \"count\": 6}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [165.830782, -21.5739157], \"count\": 2}, {\"coordinates\": [165.4313889, -21.2483056], \"count\": 1}, {\"coordinates\": [165.7868056, -21.6076389], \"count\": 1}, {\"coordinates\": [165.300278, -21.1806091], \"count\": 2}, {\"coordinates\": [165.2396196, -21.0120845], \"count\": 4}, {\"coordinates\": [165.29163888888888, -21.183], \"count\": 3}, {\"coordinates\": [164.74419444444445, -20.59122222222222], \"count\": 1}, {\"coordinates\": [165.9633611, -21.6034167], \"count\": 1}, {\"coordinates\": [165.14805603027344, -20.970279693603516], \"count\": 1}, {\"coordinates\": [165.26666259765625, -21.183330535888672], \"count\": 1}, {\"coordinates\": [165.7697786, -21.5818478], \"count\": 2}, {\"coordinates\": [165.23638916015625, -21.014999389648438], \"count\": 1}, {\"coordinates\": [165.2834384, -21.1767109], \"count\": 6}, {\"coordinates\": [164.52444458007812, -20.40250015258789], \"count\": 1}, {\"coordinates\": [165.76744079589844, -21.558870315551758], \"count\": 1}, {\"coordinates\": [165.95028686523438, -21.604169845581055], \"count\": 1}, {\"coordinates\": [164.74444580078125, -20.622779846191406], \"count\": 1}, {\"coordinates\": [165.288330078125, -21.040830612182617], \"count\": 2}, {\"coordinates\": [164.5246221, -20.3836135], \"count\": 1}, {\"coordinates\": [164.52194213867188, -20.410280227661133], \"count\": 1}, {\"coordinates\": [164.76666259765625, -20.674999237060547], \"count\": 2}, {\"coordinates\": [165.3000030517578, -21.166669845581055], \"count\": 1}, {\"coordinates\": [165.2336111, -21.2513889], \"count\": 1}, {\"coordinates\": [164.59332275390625, -20.454439163208008], \"count\": 1}, {\"coordinates\": [165.22972106933594, -21.020000457763672], \"count\": 1}, {\"coordinates\": [164.5427778, -20.4044444], \"count\": 1}, {\"coordinates\": [165.2572, -21.0217], \"count\": 1}, {\"coordinates\": [165.277313, -21.177801], \"count\": 9}, {\"coordinates\": [165.78689402, -21.60763397], \"count\": 1}, {\"coordinates\": [164.5254349371844, -20.40573313426644], \"count\": 1}, {\"coordinates\": [165.7540570953155, -21.635299458859166], \"count\": 1}, {\"coordinates\": [164.74727736319178, -20.602151089949555], \"count\": 1}, {\"coordinates\": [164.59320539468675, -20.458200089613083], \"count\": 1}, {\"coordinates\": [165.97080964363272, -21.586044255971824], \"count\": 1}, {\"coordinates\": [164.770197946, -20.5889062605], \"count\": 1}, {\"coordinates\": [164.5266879563027, -20.400651947491575], \"count\": 1}, {\"coordinates\": [165.2497, -21.0058], \"count\": 1}, {\"coordinates\": [165.30124095697334, -21.18049669725097], \"count\": 1}, {\"coordinates\": [165.4307, -21.2483], \"count\": 1}, {\"coordinates\": [165.9536, -21.6012], \"count\": 1}]}",
+    "species_top": {
+        "Polyosma leratii": 93
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 93,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                25.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                16.67,
+                25.0,
+                100.0,
+                100.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                50.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 14.02,
+    "dbh_max": 25.0,
+    "dbh_median": 14.05,
+    "dbh_min": 6.7,
+    "height_max": 12.0,
+    "wood_density_mean": 0.5,
+    "wood_density_max": 0.53,
+    "wood_density_min": 0.47,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 80.0,
+            "20": 20.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 3.37,
+            "300": 12.36,
+            "400": 2.25,
+            "500": 23.6,
+            "600": 25.84,
+            "700": 8.99,
+            "800": 19.1,
+            "900": 2.25,
+            "1000": 1.12,
+            "1100": 0.0,
+            "1200": 1.12
+        },
+        "rainfall": {
+            "1000": 1.1,
+            "1500": 19.78,
+            "2000": 23.08,
+            "2500": 45.05,
+            "3000": 7.69,
+            "3500": 1.1,
+            "4000": 2.2,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 20.0,
+            "2": 0.0,
+            "3": 80.0
+        }
+    }
+}

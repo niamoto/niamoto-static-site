@@ -1,0 +1,130 @@
+{
+    "id": 2449,
+    "full_name": "Cerberiopsis neriifolia",
+    "authors": "(S.Moore) Boiteau",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3344
+    },
+    "lft": 133,
+    "rght": 134,
+    "level": 2,
+    "parent_id": 512,
+    "taxon_id": 2449,
+    "total_occurrences_count": 50,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.3339803, -21.6904739], \"count\": 1}, {\"coordinates\": [166.6448333333, -21.9943333333], \"count\": 2}, {\"coordinates\": [166.9051943, -22.1524996], \"count\": 1}, {\"coordinates\": [166.76104096, -22.18968099], \"count\": 1}, {\"coordinates\": [166.33644104003906, -21.684289932250977], \"count\": 1}, {\"coordinates\": [166.2115088, -21.6078638], \"count\": 1}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 2}, {\"coordinates\": [166.4666748046875, -21.76667022705078], \"count\": 1}, {\"coordinates\": [166.2171630859375, -21.61071014404297], \"count\": 1}, {\"coordinates\": [166.6466835, -21.9930973], \"count\": 2}, {\"coordinates\": [166.5881181, -22.0161533], \"count\": 1}, {\"coordinates\": [166.6054229736328, -22.010480880737305], \"count\": 1}, {\"coordinates\": [166.679335, -21.9802163], \"count\": 1}, {\"coordinates\": [166.21742248535156, -21.610469818115234], \"count\": 1}, {\"coordinates\": [166.64332580566406, -21.996110916137695], \"count\": 2}, {\"coordinates\": [164.39999389648438, -20.633329391479492], \"count\": 1}, {\"coordinates\": [166.31332397460938, -21.70861053466797], \"count\": 1}, {\"coordinates\": [166.3638458251953, -21.728219985961914], \"count\": 1}, {\"coordinates\": [166.316492, -21.7055715], \"count\": 1}, {\"coordinates\": [166.3440161644962, -21.7924359475457], \"count\": 1}, {\"coordinates\": [166.33644, -21.6842899999992], \"count\": 1}, {\"coordinates\": [166.3484607918427, -21.7907467945122], \"count\": 1}, {\"coordinates\": [166.33083, -21.6936099999991], \"count\": 2}, {\"coordinates\": [166.3578282714988, -21.7932198738942], \"count\": 1}, {\"coordinates\": [166.3648382222354, -21.7887248486375], \"count\": 1}, {\"coordinates\": [166.585, -22.0192], \"count\": 1}, {\"coordinates\": [166.64333, -21.9961099999992], \"count\": 3}, {\"coordinates\": [166.60542, -22.0104799999992], \"count\": 1}, {\"coordinates\": [166.4231604, -21.7922193999991], \"count\": 1}, {\"coordinates\": [166.3776076346148, -21.7977556640377], \"count\": 1}, {\"coordinates\": [166.2911, -21.7044], \"count\": 1}, {\"coordinates\": [166.3133, -21.7086], \"count\": 1}, {\"coordinates\": [166.4029816492873, -21.8034499039155], \"count\": 1}, {\"coordinates\": [166.3665499364165, -21.788721108873], \"count\": 1}, {\"coordinates\": [166.36385, -21.72822], \"count\": 1}, {\"coordinates\": [166.6433, -21.9961], \"count\": 1}, {\"coordinates\": [166.3501265368916, -21.7917278107899], \"count\": 1}, {\"coordinates\": [166.64484, -21.9943329999991], \"count\": 2}, {\"coordinates\": [166.3432311400313, -21.7917240281657], \"count\": 1}, {\"coordinates\": [166.3308, -21.6936], \"count\": 1}, {\"coordinates\": [166.31332, -21.7086099999992], \"count\": 1}, {\"coordinates\": [166.67567358013127, -21.98242050902078], \"count\": 1}]}",
+    "species_top": {
+        "Cerberiopsis neriifolia": 50
+    },
+    "um_occurrences_true": 48,
+    "um_occurrences_false": 2,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                100.0,
+                0.0,
+                0.0,
+                25.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.0,
+    "dbh_max": 20.0,
+    "dbh_median": 15.0,
+    "dbh_min": 10.0,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 50.0,
+            "20": 50.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 61.76,
+            "200": 29.41,
+            "300": 2.94,
+            "400": 2.94,
+            "500": 0.0,
+            "600": 2.94,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 6.0,
+            "1500": 6.0,
+            "2000": 20.0,
+            "2500": 22.0,
+            "3000": 14.0,
+            "3500": 32.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 21.43,
+            "2": 78.57
+        }
+    }
+}

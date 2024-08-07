@@ -1,0 +1,130 @@
+{
+    "id": 2204,
+    "full_name": "Bocquillonia phenacostigma",
+    "authors": "AiryShaw    ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5088
+    },
+    "lft": 1135,
+    "rght": 1136,
+    "level": 2,
+    "parent_id": 410,
+    "taxon_id": 2204,
+    "total_occurrences_count": 144,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.277075, -21.1778139], \"count\": 1}, {\"coordinates\": [164.687128, -20.488342], \"count\": 1}, {\"coordinates\": [164.7814722, -20.6243611], \"count\": 1}, {\"coordinates\": [165.277, -21.178219444444444], \"count\": 3}, {\"coordinates\": [164.781, -20.625611111111112], \"count\": 4}, {\"coordinates\": [165.08263888888888, -20.825722222222222], \"count\": 46}, {\"coordinates\": [165.2854722222222, -21.17738888888889], \"count\": 5}, {\"coordinates\": [165.27694444444444, -21.178055555555556], \"count\": 1}, {\"coordinates\": [165.2834384, -21.1767109], \"count\": 1}, {\"coordinates\": [164.78146362304688, -20.624359130859375], \"count\": 1}, {\"coordinates\": [165.3062286376953, -21.171560287475586], \"count\": 2}, {\"coordinates\": [165.29693603515625, -21.183610916137695], \"count\": 3}, {\"coordinates\": [165.26666259765625, -21.183330535888672], \"count\": 2}, {\"coordinates\": [165.26666259765625, -21.183332443237305], \"count\": 1}, {\"coordinates\": [164.879, -20.9785], \"count\": 1}, {\"coordinates\": [164.8793470105, -20.9784559411833], \"count\": 1}, {\"coordinates\": [165.29443359375, -21.18471908569336], \"count\": 1}, {\"coordinates\": [164.781, -20.6256111111], \"count\": 4}, {\"coordinates\": [165.3250222, -21.16188611], \"count\": 1}, {\"coordinates\": [165.277, -21.1782194444], \"count\": 3}, {\"coordinates\": [165.29444, -21.18472], \"count\": 1}, {\"coordinates\": [165.2854722222, -21.1773888889], \"count\": 5}, {\"coordinates\": [164.7815, -20.6244], \"count\": 1}, {\"coordinates\": [165.0826388889, -20.8257222222], \"count\": 46}, {\"coordinates\": [165.31211392043357, -21.17332068982649], \"count\": 1}, {\"coordinates\": [165.31217321901462, -21.173254802514208], \"count\": 1}, {\"coordinates\": [165.2769444444, -21.1780555556], \"count\": 1}, {\"coordinates\": [165.2771, -21.1778], \"count\": 1}, {\"coordinates\": [165.2803, -21.1797], \"count\": 1}, {\"coordinates\": [165.29694, -21.18361], \"count\": 3}]}",
+    "species_top": {
+        "Bocquillonia phenacostigma": 144
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 144,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                2.17,
+                100.0,
+                100.0,
+                50.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.94,
+    "dbh_max": 10.5,
+    "dbh_median": 6.7,
+    "dbh_min": 5.1,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 4.86,
+            "600": 8.33,
+            "700": 3.47,
+            "800": 75.69,
+            "900": 6.94,
+            "1000": 0.69,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 1.39,
+            "2000": 9.03,
+            "2500": 81.25,
+            "3000": 8.33,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

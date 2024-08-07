@@ -1,0 +1,135 @@
+{
+    "id": 4536,
+    "full_name": "Osmanthus austrocaledonicus subsp. collinus",
+    "authors": "(Schltr.) P.S.Green",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": null
+    },
+    "lft": 2210,
+    "rght": 2211,
+    "level": 3,
+    "parent_id": 4532,
+    "taxon_id": 4536,
+    "total_occurrences_count": 23,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.3471186, -22.0794468], \"count\": 1}, {\"coordinates\": [165.1721524, -21.0437727], \"count\": 1}, {\"coordinates\": [166.4625197, -22.0094361], \"count\": 1}, {\"coordinates\": [165.6616667, -21.5222222], \"count\": 1}, {\"coordinates\": [164.850925, -20.8531444], \"count\": 1}, {\"coordinates\": [164.8259205, -21.0125548], \"count\": 1}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 2}, {\"coordinates\": [165.2324719, -20.8169075], \"count\": 1}, {\"coordinates\": [166.956121, -22.221669], \"count\": 1}, {\"coordinates\": [165.434952, -21.226105], \"count\": 1}, {\"coordinates\": [164.1960922, -20.442675], \"count\": 1}, {\"coordinates\": [166.5159952, -22.1695011], \"count\": 1}, {\"coordinates\": [164.3898782, -20.6244059], \"count\": 1}, {\"coordinates\": [167.45, -22.6513889], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 2}, {\"coordinates\": [164.7465075, -21.0212394], \"count\": 1}, {\"coordinates\": [164.9987006, -20.829384], \"count\": 1}, {\"coordinates\": [164.5609349, -20.7702868], \"count\": 1}, {\"coordinates\": [166.2359627, -21.8062643], \"count\": 1}, {\"coordinates\": [166.4080672, -21.9410166], \"count\": 1}, {\"coordinates\": [165.34671912, -21.43839498], \"count\": 1}]}",
+    "species_top": {
+        "Osmanthus austrocaledonicus subsp. collinus": 23
+    },
+    "um_occurrences_true": 19,
+    "um_occurrences_false": 4,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0.0,
+                0,
+                0,
+                100.0,
+                66.67,
+                0,
+                100.0,
+                25.0,
+                50.0,
+                75.0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                100.0,
+                0,
+                0,
+                100.0,
+                33.33,
+                0,
+                0.0,
+                50.0,
+                0.0,
+                25.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 20.12,
+    "dbh_max": 30.0,
+    "dbh_median": 19.5,
+    "dbh_min": 11.5,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": 3.86,
+    "leaf_sla_max": 3.86,
+    "leaf_sla_min": 3.86,
+    "leaf_area_mean": 7.05,
+    "leaf_area_max": 7.05,
+    "leaf_area_min": 7.05,
+    "leaf_thickness_mean": 450.82,
+    "leaf_thickness_max": 450.82,
+    "leaf_thickness_min": 450.82,
+    "frequencies": {
+        "dbh": {
+            "10": 50.0,
+            "20": 25.0,
+            "30": 25.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 4.76,
+            "300": 14.29,
+            "400": 4.76,
+            "500": 9.52,
+            "600": 19.05,
+            "700": 4.76,
+            "800": 14.29,
+            "900": 14.29,
+            "1000": 14.29,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 13.04,
+            "1500": 17.39,
+            "2000": 43.48,
+            "2500": 17.39,
+            "3000": 4.35,
+            "3500": 4.35,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 15.38,
+            "2": 84.62
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

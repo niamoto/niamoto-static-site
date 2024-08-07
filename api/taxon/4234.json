@@ -1,0 +1,118 @@
+{
+    "id": 4234,
+    "full_name": "Melochia odorata",
+    "authors": "L.f.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 570
+    },
+    "lft": 1613,
+    "rght": 1614,
+    "level": 2,
+    "parent_id": 1045,
+    "taxon_id": 4234,
+    "total_occurrences_count": 58,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.6606415, -21.5525816], \"count\": 1}, {\"coordinates\": [165.7015152, -21.5459901], \"count\": 1}, {\"coordinates\": [166.4927778, -21.7980556], \"count\": 1}, {\"coordinates\": [165.8221349, -21.6178463], \"count\": 1}, {\"coordinates\": [164.4219913, -20.3101206], \"count\": 1}, {\"coordinates\": [166.5417588, -22.2058535], \"count\": 1}, {\"coordinates\": [165.4875206, -21.5642571], \"count\": 1}, {\"coordinates\": [167.8112076, -21.0992523], \"count\": 1}, {\"coordinates\": [166.088535, -21.5787736], \"count\": 1}, {\"coordinates\": [164.3972222, -20.3233333], \"count\": 1}, {\"coordinates\": [166.5693906, -20.5629694], \"count\": 1}, {\"coordinates\": [164.435, -20.4305556], \"count\": 1}, {\"coordinates\": [164.307944482785, -20.4894573808422], \"count\": 1}, {\"coordinates\": [163.576079995789, -19.5587401271259], \"count\": 1}, {\"coordinates\": [164.989826902976, -21.3310209683341], \"count\": 1}, {\"coordinates\": [166.4832168, -22.1905132], \"count\": 1}, {\"coordinates\": [164.320604083092, -20.4255108099778], \"count\": 1}, {\"coordinates\": [167.4730564, -22.6069583], \"count\": 1}, {\"coordinates\": [165.5485568, -21.288817], \"count\": 1}, {\"coordinates\": [164.829288355509, -20.8688933054606], \"count\": 1}, {\"coordinates\": [163.632945158989, -19.6857117470376], \"count\": 1}, {\"coordinates\": [164.308041024222, -20.4897474673097], \"count\": 1}, {\"coordinates\": [164.3289108, -20.5091513], \"count\": 1}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 1}, {\"coordinates\": [164.3860933, -20.5221132], \"count\": 1}, {\"coordinates\": [165.3812644, -21.0368438], \"count\": 1}, {\"coordinates\": [167.017991, -22.2840251], \"count\": 1}, {\"coordinates\": [163.663461, -19.7185171], \"count\": 1}, {\"coordinates\": [165.4052863, -21.0727273], \"count\": 2}, {\"coordinates\": [166.4476949, -22.2693066], \"count\": 1}, {\"coordinates\": [164.2981885, -20.407149], \"count\": 1}, {\"coordinates\": [165.6315205, -21.2794748], \"count\": 1}, {\"coordinates\": [164.904187637544, -20.9499745254102], \"count\": 1}, {\"coordinates\": [164.925481563723, -20.727738591949], \"count\": 1}, {\"coordinates\": [165.233984750871, -20.8740439598545], \"count\": 1}, {\"coordinates\": [165.5174261, -21.1725489], \"count\": 1}, {\"coordinates\": [165.272828500134, -21.2175242702217], \"count\": 1}, {\"coordinates\": [164.03494967035, -20.0860820609971], \"count\": 1}]}",
+    "species_top": {
+        "Melochia odorata": 58
+    },
+    "um_occurrences_true": 9,
+    "um_occurrences_false": 49,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                40.0,
+                50.0,
+                0,
+                0.0,
+                100.0,
+                66.67,
+                80.0,
+                30.0,
+                71.43,
+                70.0,
+                0.0
+            ],
+            "fruiting": [
+                50.0,
+                0.0,
+                25.0,
+                0,
+                100.0,
+                0.0,
+                33.33,
+                40.0,
+                30.0,
+                14.29,
+                40.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 43.75,
+            "200": 31.25,
+            "300": 12.5,
+            "400": 6.25,
+            "500": 6.25,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 37.84,
+            "1500": 35.14,
+            "2000": 18.92,
+            "2500": 8.11,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 13.89,
+            "2": 86.11
+        }
+    }
+}

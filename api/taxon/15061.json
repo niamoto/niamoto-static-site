@@ -1,0 +1,135 @@
+{
+    "id": 15061,
+    "full_name": "Cryptocarya (McPherson4408)",
+    "authors": null,
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 920
+    },
+    "lft": 1413,
+    "rght": 1414,
+    "level": 2,
+    "parent_id": 603,
+    "taxon_id": 15061,
+    "total_occurrences_count": 20,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5081694444, -22.1773083333], \"count\": 1}, {\"coordinates\": [165.122272, -21.146053], \"count\": 1}, {\"coordinates\": [165.133563, -20.8148359], \"count\": 1}, {\"coordinates\": [166.91754722222223, -22.32334722222222], \"count\": 1}, {\"coordinates\": [166.91625833333333, -22.32465], \"count\": 2}, {\"coordinates\": [166.91544444444443, -22.323611111111113], \"count\": 1}, {\"coordinates\": [166.626125, -22.195666666666668], \"count\": 4}, {\"coordinates\": [166.916475, -22.3241], \"count\": 2}, {\"coordinates\": [166.93077222222223, -22.323075], \"count\": 1}, {\"coordinates\": [166.9135222222222, -22.320644444444444], \"count\": 1}, {\"coordinates\": [166.91471944444444, -22.324102777777778], \"count\": 1}, {\"coordinates\": [166.91660277777777, -22.32164722222222], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 2}]}",
+    "species_top": {
+        "Cryptocarya (McPherson4408)": 20
+    },
+    "um_occurrences_true": 17,
+    "um_occurrences_false": 3,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.75,
+    "dbh_max": 26.1,
+    "dbh_median": 11.0,
+    "dbh_min": 5.0,
+    "height_max": null,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 77.78,
+            "20": 22.22,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 15.0,
+            "200": 50.0,
+            "300": 20.0,
+            "400": 10.0,
+            "500": 5.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 5.0,
+            "2000": 10.0,
+            "2500": 85.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 50.0,
+            "3": 50.0
+        }
+    }
+}

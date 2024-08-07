@@ -1,0 +1,134 @@
+{
+    "id": 1299,
+    "full_name": "Rhizophora",
+    "authors": "L.",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 515
+    },
+    "lft": 2728,
+    "rght": 2739,
+    "level": 1,
+    "parent_id": 187,
+    "taxon_id": 1299,
+    "total_occurrences_count": 175,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4687889, -22.2687952], \"count\": 1}, {\"coordinates\": [164.3214905, -20.6267979], \"count\": 1}, {\"coordinates\": [164.1995211, -20.2507108], \"count\": 1}, {\"coordinates\": [163.7974848, -20.0546569], \"count\": 1}, {\"coordinates\": [164.9568208, -21.3531575], \"count\": 1}, {\"coordinates\": [164.3073118, -20.2438681], \"count\": 1}, {\"coordinates\": [164.1162406, -20.2681141], \"count\": 1}, {\"coordinates\": [164.6780556, -20.9391667], \"count\": 2}, {\"coordinates\": [165.8102778, -21.8525], \"count\": 3}, {\"coordinates\": [166.487002, -22.2380552], \"count\": 1}, {\"coordinates\": [164.865649, -21.2090632], \"count\": 1}, {\"coordinates\": [164.0262157, -20.2326689], \"count\": 1}, {\"coordinates\": [164.2064924, -20.5088171], \"count\": 2}, {\"coordinates\": [166.4330556, -22.1922222], \"count\": 1}, {\"coordinates\": [166.93861112, -22.3497222], \"count\": 1}, {\"coordinates\": [164.223717266755, -20.5520890700542], \"count\": 1}, {\"coordinates\": [164.987009371702, -20.6454299465244], \"count\": 1}, {\"coordinates\": [165.002174023671, -21.3319367277897], \"count\": 1}, {\"coordinates\": [164.679656756696, -20.9512130299579], \"count\": 1}, {\"coordinates\": [166.44756200000035, -22.154926000659135], \"count\": 1}, {\"coordinates\": [164.998655347636, -21.3354765361139], \"count\": 1}, {\"coordinates\": [164.995359609256, -21.3324931272905], \"count\": 1}, {\"coordinates\": [164.128348234179, -20.4680647998907], \"count\": 1}, {\"coordinates\": [165.32777782, -21.00722221], \"count\": 1}, {\"coordinates\": [165.0043478, -20.7453173], \"count\": 1}, {\"coordinates\": [164.0847373, -20.297525966666665], \"count\": 1}, {\"coordinates\": [165.4041687, -21.0060054], \"count\": 4}, {\"coordinates\": [165.3308928, -20.9378508], \"count\": 8}, {\"coordinates\": [166.38333129882812, -21.80500030517578], \"count\": 1}, {\"coordinates\": [163.8092293, -20.0599915], \"count\": 3}, {\"coordinates\": [163.5927671, -19.5712029], \"count\": 2}, {\"coordinates\": [164.97682189941406, -20.68711280822754], \"count\": 2}, {\"coordinates\": [166.0382804, -21.4672227], \"count\": 1}, {\"coordinates\": [165.3803673, -21.0169663], \"count\": 1}, {\"coordinates\": [165.2915391, -21.0377205], \"count\": 1}, {\"coordinates\": [164.945192985256, -20.6921961170535], \"count\": 3}, {\"coordinates\": [164.841407944975, -21.0698724669026], \"count\": 1}, {\"coordinates\": [166.4476949, -22.2693066], \"count\": 4}, {\"coordinates\": [164.8958377, -20.6377091], \"count\": 1}, {\"coordinates\": [165.3916667, -21.0697222], \"count\": 1}, {\"coordinates\": [166.5519473, -22.2277743], \"count\": 1}, {\"coordinates\": [164.9375457763672, -21.338973999023438], \"count\": 1}, {\"coordinates\": [166.48333740234375, -22.25], \"count\": 2}, {\"coordinates\": [166.450345, -22.1517139], \"count\": 1}, {\"coordinates\": [165.011874420751, -21.3110847079192], \"count\": 1}, {\"coordinates\": [166.8383333, -22.3058333], \"count\": 2}, {\"coordinates\": [163.673025, -19.7704835], \"count\": 1}, {\"coordinates\": [166.6848995, -22.3119416], \"count\": 1}, {\"coordinates\": [164.30442810058594, -20.242080688476562], \"count\": 1}, {\"coordinates\": [165.218243455245, -20.7717175213903], \"count\": 1}, {\"coordinates\": [166.5693906, -20.5629694], \"count\": 1}, {\"coordinates\": [164.02305603027344, -20.235559463500977], \"count\": 1}, {\"coordinates\": [167.4730564, -22.6069583], \"count\": 1}, {\"coordinates\": [164.838428532723, -21.0586280474475], \"count\": 1}, {\"coordinates\": [164.2934903, -20.2432173], \"count\": 1}, {\"coordinates\": [164.9375457763672, -21.338680267333984], \"count\": 1}, {\"coordinates\": [165.7037442, -21.7404652], \"count\": 3}, {\"coordinates\": [165.55962437672318, -21.195246491915487], \"count\": 1}, {\"coordinates\": [166.792291, -22.1668713], \"count\": 1}, {\"coordinates\": [165.006973771361, -21.3185387047658], \"count\": 1}, {\"coordinates\": [165.696533203125, -21.75824546813965], \"count\": 1}, {\"coordinates\": [164.93765258789062, -21.338571548461914], \"count\": 1}, {\"coordinates\": [165.006984205164, -21.3147334245728], \"count\": 1}, {\"coordinates\": [163.8096016, -20.053043], \"count\": 2}, {\"coordinates\": [165.37721252441406, -21.020000457763672], \"count\": 1}, {\"coordinates\": [165.9661102294922, -21.517499923706055], \"count\": 1}, {\"coordinates\": [165.25860595703125, -20.805559158325195], \"count\": 1}, {\"coordinates\": [165.2619353, -20.8025029], \"count\": 1}, {\"coordinates\": [164.1811153, -20.4840221], \"count\": 1}, {\"coordinates\": [166.074582, -21.4876863], \"count\": 1}, {\"coordinates\": [166.8321755, -22.3043797], \"count\": 1}]}",
+    "species_top": {
+        "Rhizophora stylosa": 80,
+        "Rhizophora apiculata": 27,
+        "Rhizophora samoensis": 23,
+        "Rhizophora x selala": 21,
+        "Rhizophora x lamarckii": 7
+    },
+    "um_occurrences_true": 29,
+    "um_occurrences_false": 146,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                62.5,
+                0.0,
+                42.86,
+                50.0,
+                60.0,
+                27.27,
+                88.24,
+                66.67,
+                84.21,
+                80.0,
+                83.33,
+                25.0
+            ],
+            "fruiting": [
+                43.75,
+                0.0,
+                28.57,
+                0.0,
+                40.0,
+                9.09,
+                17.65,
+                61.9,
+                21.05,
+                53.33,
+                50.0,
+                50.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 22.5,
+    "dbh_max": 30.0,
+    "dbh_median": 22.5,
+    "dbh_min": 15.0,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 50.0,
+            "20": 0.0,
+            "30": 50.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 80.0,
+            "200": 20.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 51.25,
+            "1500": 7.5,
+            "2000": 32.5,
+            "2500": 8.75,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 45.56,
+            "2": 54.44
+        }
+    }
+}

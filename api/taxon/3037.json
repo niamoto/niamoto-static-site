@@ -1,0 +1,130 @@
+{
+    "id": 3037,
+    "full_name": "Diospyros pancheri",
+    "authors": "Kosterm.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3628
+    },
+    "lft": 959,
+    "rght": 960,
+    "level": 2,
+    "parent_id": 679,
+    "taxon_id": 3037,
+    "total_occurrences_count": 40,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.8947594, -22.2560887], \"count\": 1}, {\"coordinates\": [166.2769299, -21.953748], \"count\": 1}, {\"coordinates\": [166.7007756, -22.3081465], \"count\": 2}, {\"coordinates\": [166.7737973, -22.28872], \"count\": 1}, {\"coordinates\": [163.6778611111, -19.749775], \"count\": 1}, {\"coordinates\": [166.9132888888889, -22.325705555555555], \"count\": 2}, {\"coordinates\": [166.91471944444444, -22.324102777777778], \"count\": 2}, {\"coordinates\": [166.7112684, -22.2432319], \"count\": 1}, {\"coordinates\": [166.3091498, -21.9067199], \"count\": 1}, {\"coordinates\": [166.6044444, -22.2908333], \"count\": 1}, {\"coordinates\": [166.7166111, -22.3001067], \"count\": 1}, {\"coordinates\": [166.1798018, -21.9660182], \"count\": 1}, {\"coordinates\": [166.3564392014976, -21.906185430812624], \"count\": 1}, {\"coordinates\": [166.18, -21.9619444], \"count\": 1}, {\"coordinates\": [166.66568, -22.21344], \"count\": 1}, {\"coordinates\": [163.632945158989, -19.6857117470376], \"count\": 1}, {\"coordinates\": [166.2965192, -21.9404243], \"count\": 3}, {\"coordinates\": [166.3300648, -21.9214313], \"count\": 2}, {\"coordinates\": [166.2817172, -21.9346473], \"count\": 2}, {\"coordinates\": [163.683900457534, -19.7586668294474], \"count\": 1}, {\"coordinates\": [166.9528526, -22.2698698], \"count\": 1}, {\"coordinates\": [166.2508333, -21.9663889], \"count\": 1}, {\"coordinates\": [166.33766850783707, -21.921771019146153], \"count\": 1}, {\"coordinates\": [163.656048398302, -19.6969677512964], \"count\": 1}, {\"coordinates\": [163.634844082699, -19.6385843997043], \"count\": 1}, {\"coordinates\": [166.7155556, -22.3016667], \"count\": 1}, {\"coordinates\": [166.71555598, -22.30166702], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 4}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.712222, -22.29527798], \"count\": 1}]}",
+    "species_top": {
+        "Diospyros pancheri": 40
+    },
+    "um_occurrences_true": 39,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                66.67,
+                0.0,
+                0,
+                0.0,
+                60.0,
+                50.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                33.33
+            ],
+            "fruiting": [
+                33.33,
+                50.0,
+                0,
+                100.0,
+                0.0,
+                50.0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                66.67
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.5,
+    "dbh_max": 15.0,
+    "dbh_median": 6.4,
+    "dbh_min": 5.4,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 35.0,
+            "200": 45.0,
+            "300": 5.0,
+            "400": 5.0,
+            "500": 5.0,
+            "600": 5.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 22.22,
+            "1500": 38.89,
+            "2000": 5.56,
+            "2500": 30.56,
+            "3000": 2.78,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 24.14,
+            "2": 75.86
+        }
+    }
+}

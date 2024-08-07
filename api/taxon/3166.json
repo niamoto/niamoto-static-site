@@ -1,0 +1,118 @@
+{
+    "id": 3166,
+    "full_name": "Elattostachys incisa",
+    "authors": "Radlk.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2240
+    },
+    "lft": 3181,
+    "rght": 3182,
+    "level": 2,
+    "parent_id": 719,
+    "taxon_id": 3166,
+    "total_occurrences_count": 67,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.3453347, -22.0659384], \"count\": 2}, {\"coordinates\": [165.6946375, -21.5721647222], \"count\": 2}, {\"coordinates\": [164.7325, -20.8569444], \"count\": 2}, {\"coordinates\": [166.4814894, -22.1968997], \"count\": 1}, {\"coordinates\": [166.0945716, -21.5741964], \"count\": 2}, {\"coordinates\": [166.47833251953125, -22.200000762939453], \"count\": 1}, {\"coordinates\": [164.2906787, -20.5552568], \"count\": 1}, {\"coordinates\": [166.45799255371094, -22.275800704956055], \"count\": 1}, {\"coordinates\": [164.3289108, -20.5091513], \"count\": 2}, {\"coordinates\": [165.4862060546875, -21.375659942626953], \"count\": 1}, {\"coordinates\": [164.45944213867188, -20.62833023071289], \"count\": 3}, {\"coordinates\": [165.95864868164062, -21.554250717163086], \"count\": 1}, {\"coordinates\": [165.6180419921875, -21.457490921020508], \"count\": 1}, {\"coordinates\": [165.5960693359375, -21.375659942626953], \"count\": 1}, {\"coordinates\": [164.730896314299, -20.8562895123126], \"count\": 2}, {\"coordinates\": [166.4832168, -22.1905132], \"count\": 1}, {\"coordinates\": [166.0913848876953, -21.577220916748047], \"count\": 3}, {\"coordinates\": [164.3400861, -20.5236889], \"count\": 1}, {\"coordinates\": [164.320604083092, -20.4255108099778], \"count\": 1}, {\"coordinates\": [164.3425, -20.5263889], \"count\": 1}, {\"coordinates\": [164.91462, -20.990265], \"count\": 1}, {\"coordinates\": [166.4680633544922, -22.200000762939453], \"count\": 2}, {\"coordinates\": [167.42430114746094, -22.551830291748047], \"count\": 1}, {\"coordinates\": [165.5960693359375, -21.498380661010742], \"count\": 1}, {\"coordinates\": [164.308041024222, -20.4897474673097], \"count\": 1}, {\"coordinates\": [164.732715313806, -20.8570477476377], \"count\": 2}, {\"coordinates\": [164.3597778, -20.5303611], \"count\": 1}, {\"coordinates\": [164.486968270513, -20.6242792405592], \"count\": 1}, {\"coordinates\": [164.3255615234375, -20.51222038269043], \"count\": 5}, {\"coordinates\": [166.48333740234375, -22.183332443237305], \"count\": 2}, {\"coordinates\": [166.4744873046875, -22.23889923095703], \"count\": 1}, {\"coordinates\": [166.48333740234375, -22.200000762939453], \"count\": 1}, {\"coordinates\": [165.5740966796875, -21.457490921020508], \"count\": 1}, {\"coordinates\": [166.45404052734375, -22.266090393066406], \"count\": 1}, {\"coordinates\": [166.4881134033203, -22.209339141845703], \"count\": 1}, {\"coordinates\": [165.74606323242188, -21.647769927978516], \"count\": 1}, {\"coordinates\": [164.307944482785, -20.4894573808422], \"count\": 1}, {\"coordinates\": [165.5960693359375, -21.437040328979492], \"count\": 1}, {\"coordinates\": [165.0054793375, -21.0816860536667], \"count\": 1}, {\"coordinates\": [164.2052764892578, -20.11944007873535], \"count\": 1}, {\"coordinates\": [164.21665954589844, -20.116666793823242], \"count\": 1}, {\"coordinates\": [164.4702778, -20.6218806], \"count\": 1}, {\"coordinates\": [164.732542355855, -20.8571235020955], \"count\": 1}, {\"coordinates\": [164.953722784254, -21.1728250026703], \"count\": 1}]}",
+    "species_top": {
+        "Elattostachys incisa": 67
+    },
+    "um_occurrences_true": 9,
+    "um_occurrences_false": 58,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                0,
+                0.0,
+                50.0,
+                100.0,
+                66.67,
+                33.33,
+                0,
+                0.0,
+                0.0,
+                0,
+                16.67
+            ],
+            "fruiting": [
+                50.0,
+                0,
+                50.0,
+                0.0,
+                0.0,
+                0.0,
+                66.67,
+                0,
+                0.0,
+                100.0,
+                0,
+                16.67
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 34.09,
+            "200": 15.91,
+            "300": 4.55,
+            "400": 18.18,
+            "500": 6.82,
+            "600": 13.64,
+            "700": 2.27,
+            "800": 0.0,
+            "900": 4.55,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 60.78,
+            "1500": 33.33,
+            "2000": 5.88,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 37.29,
+            "2": 62.71
+        }
+    }
+}

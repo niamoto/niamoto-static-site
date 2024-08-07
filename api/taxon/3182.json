@@ -1,0 +1,135 @@
+{
+    "id": 3182,
+    "full_name": "Endiandra polyneura",
+    "authors": "Schltr.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 926
+    },
+    "lft": 1469,
+    "rght": 1470,
+    "level": 2,
+    "parent_id": 727,
+    "taxon_id": 3182,
+    "total_occurrences_count": 100,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.2895556, -20.9489444], \"count\": 1}, {\"coordinates\": [165.545395, -21.416931], \"count\": 10}, {\"coordinates\": [166.5366766, -22.1922361], \"count\": 1}, {\"coordinates\": [165.725293094, -21.378606381], \"count\": 30}, {\"coordinates\": [165.3655056, -21.0489389], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 2}, {\"coordinates\": [166.5417588, -22.2058535], \"count\": 2}, {\"coordinates\": [165.8369444, -21.5502778], \"count\": 1}, {\"coordinates\": [165.120361, -21.148142], \"count\": 2}, {\"coordinates\": [165.122272, -21.146053], \"count\": 2}, {\"coordinates\": [164.92032939444445, -20.95063654722222], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 2}, {\"coordinates\": [166.5314178466797, -22.187490463256836], \"count\": 2}, {\"coordinates\": [165.83694458007812, -21.55027961730957], \"count\": 2}, {\"coordinates\": [165.6733856201172, -21.693950653076172], \"count\": 2}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [166.53860473632812, -22.208890914916992], \"count\": 4}, {\"coordinates\": [164.63055419921875, -20.429170608520508], \"count\": 1}, {\"coordinates\": [165.28944396972656, -20.948890686035156], \"count\": 1}, {\"coordinates\": [165.44749450683594, -21.42388916015625], \"count\": 8}, {\"coordinates\": [164.71556091308594, -20.5061092376709], \"count\": 1}, {\"coordinates\": [166.53334045410156, -22.183332443237305], \"count\": 2}, {\"coordinates\": [165.3655548095703, -21.04888916015625], \"count\": 3}, {\"coordinates\": [166.5333251953125, -22.195280075073242], \"count\": 2}, {\"coordinates\": [165.32061767578125, -21.12822151184082], \"count\": 1}, {\"coordinates\": [164.3576667, -20.5239722], \"count\": 2}, {\"coordinates\": [165.545135, -21.41668931666667], \"count\": 1}, {\"coordinates\": [165.4507422, -21.4209734], \"count\": 2}, {\"coordinates\": [165.320556640625, -21.12805938720703], \"count\": 1}, {\"coordinates\": [165.0094451904297, -20.851940155029297], \"count\": 1}, {\"coordinates\": [166.5333251953125, -22.183330535888672], \"count\": 1}, {\"coordinates\": [165.726, -21.3782], \"count\": 1}, {\"coordinates\": [165.724811004847, -21.3787500824333], \"count\": 1}, {\"coordinates\": [165.1759033203125, -20.948219299316406], \"count\": 1}, {\"coordinates\": [166.7737973, -22.28872], \"count\": 1}, {\"coordinates\": [166.52251903, -22.181908], \"count\": 1}, {\"coordinates\": [166.56184501, -21.95417003], \"count\": 1}, {\"coordinates\": [166.62572499, -22.19208599], \"count\": 1}]}",
+    "species_top": {
+        "Endiandra polyneura": 100
+    },
+    "um_occurrences_true": 17,
+    "um_occurrences_false": 83,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                87.5,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                37.5,
+                6.25,
+                0,
+                0.0,
+                0.0,
+                0,
+                100.0,
+                25.0,
+                100.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 19.37,
+    "dbh_max": 55.4,
+    "dbh_median": 16.4,
+    "dbh_min": 9.5,
+    "height_max": 18.6,
+    "wood_density_mean": 0.76,
+    "wood_density_max": 0.79,
+    "wood_density_min": 0.7,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 59.18,
+            "20": 28.57,
+            "30": 8.16,
+            "40": 2.04,
+            "50": 2.04,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 17.46,
+            "200": 23.81,
+            "300": 26.98,
+            "400": 1.59,
+            "500": 26.98,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 1.59,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 1.59,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 17.35,
+            "1500": 29.59,
+            "2000": 40.82,
+            "2500": 10.2,
+            "3000": 0.0,
+            "3500": 1.02,
+            "4000": 1.02,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 3.33,
+            "2": 96.67
+        },
+        "strate": {
+            "1": 15.56,
+            "2": 51.11,
+            "3": 33.33
+        }
+    }
+}

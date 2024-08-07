@@ -1,0 +1,130 @@
+{
+    "id": 2092,
+    "full_name": "Barringtonia integrifolia",
+    "authors": "(Montrouz.) Schltr.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4024
+    },
+    "lft": 1491,
+    "rght": 1492,
+    "level": 2,
+    "parent_id": 386,
+    "taxon_id": 2092,
+    "total_occurrences_count": 71,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5407448, -22.1979993], \"count\": 1}, {\"coordinates\": [165.2406109, -20.8167295], \"count\": 1}, {\"coordinates\": [164.1019444, -20.2609722], \"count\": 4}, {\"coordinates\": [164.1073675, -20.2204152778], \"count\": 1}, {\"coordinates\": [165.23333, -20.96667], \"count\": 1}, {\"coordinates\": [166.6416986, -22.2757964], \"count\": 1}, {\"coordinates\": [164.41667, -20.31667], \"count\": 1}, {\"coordinates\": [165.3158333, -20.9975], \"count\": 2}, {\"coordinates\": [164.4262889, -20.3280278], \"count\": 1}, {\"coordinates\": [166.5393865, -22.1956563], \"count\": 1}, {\"coordinates\": [164.221808616333, -20.4186503445], \"count\": 1}, {\"coordinates\": [164.5036163330078, -20.31110954284668], \"count\": 5}, {\"coordinates\": [165.236, -20.876], \"count\": 1}, {\"coordinates\": [164.3269044, -20.4667214], \"count\": 1}, {\"coordinates\": [164.43472290039062, -20.346670150756836], \"count\": 1}, {\"coordinates\": [166.53334045410156, -22.166667938232422], \"count\": 4}, {\"coordinates\": [166.53750610351562, -22.20111083984375], \"count\": 1}, {\"coordinates\": [165.94500732421875, -21.491390228271484], \"count\": 1}, {\"coordinates\": [165.349013, -20.946956], \"count\": 1}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 6}, {\"coordinates\": [165.2915391, -21.0377205], \"count\": 1}, {\"coordinates\": [165.227618, -20.857174], \"count\": 1}, {\"coordinates\": [164.431396484375, -20.308330535888672], \"count\": 1}, {\"coordinates\": [164.22091674804688, -20.417034149169922], \"count\": 2}, {\"coordinates\": [165.203918243907, -20.8876945406762], \"count\": 1}, {\"coordinates\": [165.2585612, -20.8143352], \"count\": 3}, {\"coordinates\": [164.220436249689, -20.4169189528896], \"count\": 1}, {\"coordinates\": [164.10194396972656, -20.26082992553711], \"count\": 2}, {\"coordinates\": [166.5417588, -22.2058535], \"count\": 1}, {\"coordinates\": [164.1474, -20.23885], \"count\": 1}, {\"coordinates\": [164.1398, -20.2884], \"count\": 1}, {\"coordinates\": [164.423781512305, -20.3165155649185], \"count\": 1}, {\"coordinates\": [163.6602783203125, -19.721389770507812], \"count\": 1}, {\"coordinates\": [165.248135654256, -20.8181610703468], \"count\": 1}, {\"coordinates\": [165.238078119807, -20.8633939497064], \"count\": 1}, {\"coordinates\": [164.189860440591, -20.2893480447779], \"count\": 1}, {\"coordinates\": [165.23333740234375, -20.9666690826416], \"count\": 1}, {\"coordinates\": [165.525943692774, -21.2947332859039], \"count\": 1}, {\"coordinates\": [164.191488034546, -20.2801820619107], \"count\": 1}, {\"coordinates\": [164.3109, -20.2641], \"count\": 1}, {\"coordinates\": [164.4164014, -20.2790835], \"count\": 1}, {\"coordinates\": [164.682068936527, -20.4725503921509], \"count\": 1}, {\"coordinates\": [164.16794, -20.237604], \"count\": 1}, {\"coordinates\": [165.517959594727, -21.2520219961802], \"count\": 1}, {\"coordinates\": [165.2137638, -20.8172347], \"count\": 1}, {\"coordinates\": [164.09879, -20.20185], \"count\": 1}, {\"coordinates\": [165.5224854, -21.25368576], \"count\": 1}, {\"coordinates\": [165.14522202, -20.83338898], \"count\": 1}]}",
+    "species_top": {
+        "Barringtonia integrifolia": 71
+    },
+    "um_occurrences_true": 17,
+    "um_occurrences_false": 54,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0.0,
+                100.0,
+                100.0,
+                75.0
+            ],
+            "fruiting": [
+                50.0,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                0.0,
+                66.67,
+                50.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 30.0,
+    "dbh_max": 30.0,
+    "dbh_median": 30.0,
+    "dbh_min": 30.0,
+    "height_max": 12.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 100.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 50.0,
+            "200": 12.5,
+            "300": 20.83,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 16.67,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 38.24,
+            "1500": 22.06,
+            "2000": 19.12,
+            "2500": 20.59,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 17.54,
+            "2": 82.46
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "id": 2005,
+    "full_name": "Atractocarpus vaginatus",
+    "authors": "Baill. ex Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4532
+    },
+    "lft": 2785,
+    "rght": 2786,
+    "level": 2,
+    "parent_id": 365,
+    "taxon_id": 2005,
+    "total_occurrences_count": 171,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.54621, -21.36532], \"count\": 2}, {\"coordinates\": [165.0119139, -20.9977778], \"count\": 1}, {\"coordinates\": [166.2115088, -21.6078638], \"count\": 5}, {\"coordinates\": [164.81486, -21.03349], \"count\": 2}, {\"coordinates\": [165.80717, -21.66581], \"count\": 2}, {\"coordinates\": [165.612404, -21.206135], \"count\": 1}, {\"coordinates\": [165.7872222, -21.46], \"count\": 2}, {\"coordinates\": [166.43, -21.73], \"count\": 1}, {\"coordinates\": [166.2022222, -21.9544444], \"count\": 2}, {\"coordinates\": [165.56161, -21.34146], \"count\": 1}, {\"coordinates\": [165.2299442, -21.0290791], \"count\": 1}, {\"coordinates\": [166.20983, -21.677226], \"count\": 1}, {\"coordinates\": [165.3488007, -21.4306073], \"count\": 2}, {\"coordinates\": [165.27932, -21.36971], \"count\": 1}, {\"coordinates\": [165.8071583, -21.6658056], \"count\": 8}, {\"coordinates\": [165.0410645, -21.3380071], \"count\": 2}, {\"coordinates\": [166.2682719, -21.6258837], \"count\": 1}, {\"coordinates\": [164.2044444444, -20.1194444444], \"count\": 1}, {\"coordinates\": [166.0472222, -21.4766111], \"count\": 1}, {\"coordinates\": [165.435464247833, -21.2143188053333], \"count\": 1}, {\"coordinates\": [165.8125, -21.666940689086914], \"count\": 2}, {\"coordinates\": [166.07139587402344, -21.490829467773438], \"count\": 1}, {\"coordinates\": [165.94500732421875, -21.491390228271484], \"count\": 3}, {\"coordinates\": [163.576079995789, -19.5587401271259], \"count\": 1}, {\"coordinates\": [165.1578107, -21.3435049], \"count\": 1}, {\"coordinates\": [165.5912988889, -21.1735813889], \"count\": 1}, {\"coordinates\": [165.8071746826172, -21.665809631347656], \"count\": 1}, {\"coordinates\": [165.80722045898438, -21.665830612182617], \"count\": 2}, {\"coordinates\": [164.743688, -20.9591004], \"count\": 1}, {\"coordinates\": [165.8825159, -21.373756], \"count\": 1}, {\"coordinates\": [166.4258270263672, -21.7326602935791], \"count\": 1}, {\"coordinates\": [165.5597101, -21.3703982], \"count\": 1}, {\"coordinates\": [166.14833068847656, -21.59556007385254], \"count\": 4}, {\"coordinates\": [166.20982360839844, -21.677230834960938], \"count\": 1}, {\"coordinates\": [165.7239990234375, -21.543899536132812], \"count\": 1}, {\"coordinates\": [165.2402049, -20.7818521], \"count\": 3}, {\"coordinates\": [164.9567746, -21.1690443], \"count\": 1}, {\"coordinates\": [164.949641173638, -21.1715352763352], \"count\": 1}, {\"coordinates\": [166.38257, -21.6767], \"count\": 1}, {\"coordinates\": [164.775599161784, -21.0143896669149], \"count\": 1}, {\"coordinates\": [166.26499938964844, -21.628889083862305], \"count\": 1}, {\"coordinates\": [165.81666564941406, -21.616670608520508], \"count\": 1}, {\"coordinates\": [165.043305036491, -21.218957847498437], \"count\": 1}, {\"coordinates\": [165.07916259765625, -21.320829391479492], \"count\": 1}, {\"coordinates\": [166.0693817138672, -21.775249481201172], \"count\": 1}, {\"coordinates\": [164.98152604895452, -21.169229559855687], \"count\": 1}, {\"coordinates\": [166.4180556, -21.7205556], \"count\": 1}, {\"coordinates\": [163.632945158989, -19.6857117470376], \"count\": 1}, {\"coordinates\": [165.806308, -21.665704], \"count\": 1}, {\"coordinates\": [163.698626293459, -19.8406787640112], \"count\": 1}, {\"coordinates\": [166.37641, -21.67398], \"count\": 1}, {\"coordinates\": [165.0714957, -21.3112753], \"count\": 1}, {\"coordinates\": [164.7402801513672, -20.96221923828125], \"count\": 1}, {\"coordinates\": [166.23167419433594, -21.96916961669922], \"count\": 1}, {\"coordinates\": [165.25, -20.840829849243164], \"count\": 1}, {\"coordinates\": [166.2933349609375, -21.9436092376709], \"count\": 1}, {\"coordinates\": [165.0678665, -20.9137223], \"count\": 1}, {\"coordinates\": [166.2965192, -21.9404243], \"count\": 4}, {\"coordinates\": [165.2696472, -21.3287116], \"count\": 1}, {\"coordinates\": [165.2982555, -20.930613], \"count\": 1}, {\"coordinates\": [163.69693659569, -19.8306913318686], \"count\": 1}, {\"coordinates\": [164.364191943523, -20.489892824], \"count\": 1}, {\"coordinates\": [164.732306911533, -20.9608453347526], \"count\": 1}, {\"coordinates\": [166.17611694335938, -21.961389541625977], \"count\": 1}, {\"coordinates\": [166.2022247314453, -21.954439163208008], \"count\": 2}, {\"coordinates\": [165.73240872438402, -21.299136557424845], \"count\": 1}, {\"coordinates\": [163.634844082699, -19.6385843997043], \"count\": 2}, {\"coordinates\": [165.27895, -21.36889], \"count\": 1}, {\"coordinates\": [165.22917, -20.81998], \"count\": 3}, {\"coordinates\": [165.8125, -21.66694], \"count\": 1}, {\"coordinates\": [166.2022222222222, -21.9544444], \"count\": 2}, {\"coordinates\": [165.812, -21.667], \"count\": 1}, {\"coordinates\": [166.24346, -21.61861], \"count\": 2}, {\"coordinates\": [166.22279512179657, -21.626724506431977], \"count\": 5}, {\"coordinates\": [164.9283394121431, -20.72836697008898], \"count\": 1}, {\"coordinates\": [166.07303, -21.48923], \"count\": 1}, {\"coordinates\": [165.7872222222222, -21.4602778], \"count\": 1}, {\"coordinates\": [165.26448976831443, -21.329750850158877], \"count\": 1}, {\"coordinates\": [165.29499826, -20.93364216], \"count\": 2}, {\"coordinates\": [163.6583137730669, -19.749278952246673], \"count\": 1}, {\"coordinates\": [164.4661111, -20.5611389], \"count\": 2}, {\"coordinates\": [166.15821, -21.58908], \"count\": 3}, {\"coordinates\": [166.23167, -21.96917], \"count\": 1}, {\"coordinates\": [166.43584926245921, -21.690208894257687], \"count\": 3}, {\"coordinates\": [166.1914, -21.58675], \"count\": 2}, {\"coordinates\": [165.8832424793351, -21.37680068], \"count\": 2}, {\"coordinates\": [165.03778, -21.34113], \"count\": 2}, {\"coordinates\": [166.425831, -21.732658], \"count\": 1}, {\"coordinates\": [165.077767139901, -21.3217534497811], \"count\": 2}, {\"coordinates\": [164.74028, -20.96221], \"count\": 2}, {\"coordinates\": [166.1761, -21.9614], \"count\": 1}, {\"coordinates\": [166.04705654252768, -21.476080996088648], \"count\": 1}, {\"coordinates\": [165.70012, -21.55001], \"count\": 1}, {\"coordinates\": [166.14898, -21.59465], \"count\": 1}, {\"coordinates\": [164.9496, -21.17154], \"count\": 1}, {\"coordinates\": [166.21208, -21.61171], \"count\": 1}, {\"coordinates\": [165.34559, -21.43352], \"count\": 4}, {\"coordinates\": [166.104448289538, -21.7278643962719], \"count\": 1}, {\"coordinates\": [166.265, -21.62889], \"count\": 1}, {\"coordinates\": [165.14147256, -20.80793326], \"count\": 1}, {\"coordinates\": [166.2034, -21.60844], \"count\": 1}, {\"coordinates\": [165.06419635006208, -21.353731074153476], \"count\": 1}, {\"coordinates\": [165.01319, -20.99093], \"count\": 3}, {\"coordinates\": [165.34555561, -21.43361115], \"count\": 2}, {\"coordinates\": [164.403839, -20.570117], \"count\": 2}, {\"coordinates\": [165.27370829893846, -21.02676732273917], \"count\": 1}, {\"coordinates\": [165.8071583333334, -21.6658056], \"count\": 2}, {\"coordinates\": [166.033854, -21.47810146], \"count\": 1}]}",
+    "species_top": {
+        "Atractocarpus vaginatus": 171
+    },
+    "um_occurrences_true": 118,
+    "um_occurrences_false": 53,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                40.0,
+                50.0,
+                0.0,
+                0.0,
+                0.0,
+                33.33,
+                0.0,
+                0.0,
+                0.0,
+                16.67,
+                42.86,
+                100.0
+            ],
+            "fruiting": [
+                70.0,
+                0.0,
+                66.67,
+                100.0,
+                0.0,
+                55.56,
+                100.0,
+                100.0,
+                50.0,
+                50.0,
+                71.43,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 58.54,
+            "200": 18.29,
+            "300": 3.66,
+            "400": 9.76,
+            "500": 9.76,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 37.75,
+            "1500": 35.76,
+            "2000": 18.54,
+            "2500": 7.95,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 35.42,
+            "2": 64.58
+        }
+    }
+}

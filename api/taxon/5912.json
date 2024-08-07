@@ -1,0 +1,130 @@
+{
+    "id": 5912,
+    "full_name": "Syzygium quadrangulare var. microsemmifolium",
+    "authors": "(Guillaumin) J.W.Dawson",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 4289
+    },
+    "lft": 2080,
+    "rght": 2081,
+    "level": 3,
+    "parent_id": 5911,
+    "taxon_id": 5912,
+    "total_occurrences_count": 22,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4625197, -22.0094361], \"count\": 1}, {\"coordinates\": [166.4666667, -22.0102778], \"count\": 1}, {\"coordinates\": [164.8633353, -20.6400389], \"count\": 2}, {\"coordinates\": [165.0820581, -20.8289511], \"count\": 1}, {\"coordinates\": [166.1405056, -21.7950268], \"count\": 2}, {\"coordinates\": [166.414647, -21.88173503], \"count\": 1}, {\"coordinates\": [166.13722, -21.79806], \"count\": 1}, {\"coordinates\": [166.4625197, -22.094361], \"count\": 1}, {\"coordinates\": [166.41944, -21.90639], \"count\": 1}, {\"coordinates\": [165.08179850545505, -20.829603893941012], \"count\": 1}, {\"coordinates\": [166.45917, -22.0125], \"count\": 1}, {\"coordinates\": [166.4749046, -22.011963], \"count\": 1}, {\"coordinates\": [166.60104814047625, -22.12354692823354], \"count\": 1}, {\"coordinates\": [165.0799075319445, -20.829084173302526], \"count\": 1}, {\"coordinates\": [164.86181632285437, -20.641083558785365], \"count\": 1}, {\"coordinates\": [166.45316766475545, -22.010881205089632], \"count\": 1}, {\"coordinates\": [165.99702062362132, -21.757415129041412], \"count\": 1}, {\"coordinates\": [166.51945235286928, -21.988131731060896], \"count\": 1}, {\"coordinates\": [164.86, -20.64306], \"count\": 1}, {\"coordinates\": [166.1449513795508, -21.799324076220742], \"count\": 1}]}",
+    "species_top": {
+        "Syzygium quadrangulare var. microsemmifolium": 22
+    },
+    "um_occurrences_true": 15,
+    "um_occurrences_false": 7,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                0.0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                100.0,
+                0.0,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.0,
+    "dbh_max": 15.0,
+    "dbh_median": 15.0,
+    "dbh_min": 15.0,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 4.55,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 4.55,
+            "800": 18.18,
+            "900": 22.73,
+            "1000": 36.36,
+            "1100": 4.55,
+            "1200": 9.09
+        },
+        "rainfall": {
+            "1000": 4.55,
+            "1500": 0.0,
+            "2000": 22.73,
+            "2500": 13.64,
+            "3000": 27.27,
+            "3500": 31.82,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

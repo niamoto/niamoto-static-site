@@ -1,0 +1,130 @@
+{
+    "id": 4275,
+    "full_name": "Meryta pachycarpa",
+    "authors": "Baill.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2345
+    },
+    "lft": 221,
+    "rght": 222,
+    "level": 2,
+    "parent_id": 1051,
+    "taxon_id": 4275,
+    "total_occurrences_count": 41,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.91, -22.2986111], \"count\": 2}, {\"coordinates\": [166.92011, -22.32465], \"count\": 2}, {\"coordinates\": [166.792291, -22.1668713], \"count\": 1}, {\"coordinates\": [166.9121272, -22.3043999], \"count\": 2}, {\"coordinates\": [166.9972287, -22.2614004], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 3}, {\"coordinates\": [166.91658611111112, -22.31903888888889], \"count\": 1}, {\"coordinates\": [166.91660277777777, -22.32164722222222], \"count\": 1}, {\"coordinates\": [166.4490915, -22.0944845], \"count\": 2}, {\"coordinates\": [166.4519368, -22.1039089], \"count\": 1}, {\"coordinates\": [166.9746661, -22.1882755], \"count\": 1}, {\"coordinates\": [166.2737073, -21.7664125], \"count\": 3}, {\"coordinates\": [166.91860961914062, -22.16777992248535], \"count\": 1}, {\"coordinates\": [166.96861267089844, -22.347780227661133], \"count\": 1}, {\"coordinates\": [167.00555419921875, -22.256940841674805], \"count\": 1}, {\"coordinates\": [167.0047149658203, -22.257219314575195], \"count\": 10}, {\"coordinates\": [166.4631195, -22.0355682], \"count\": 1}, {\"coordinates\": [167.00552368164062, -22.257028579711914], \"count\": 1}, {\"coordinates\": [166.9219061, -22.1647791], \"count\": 1}, {\"coordinates\": [166.4486083984375, -22.1069393157959], \"count\": 1}, {\"coordinates\": [166.993896484375, -22.264440536499023], \"count\": 1}, {\"coordinates\": [166.56184501, -21.95417003], \"count\": 1}, {\"coordinates\": [167.01228203, -22.290119], \"count\": 1}]}",
+    "species_top": {
+        "Meryta pachycarpa": 41
+    },
+    "um_occurrences_true": 39,
+    "um_occurrences_false": 2,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                100.0,
+                50.0,
+                66.67,
+                75.0,
+                0,
+                0,
+                33.33,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                100.0,
+                50.0,
+                50.0,
+                25.0,
+                0,
+                0,
+                66.67,
+                100.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 8.24,
+    "dbh_max": 10.0,
+    "dbh_median": 9.9,
+    "dbh_min": 5.7,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 13.04,
+            "200": 34.78,
+            "300": 13.04,
+            "400": 4.35,
+            "500": 8.7,
+            "600": 8.7,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 4.35,
+            "1000": 13.04,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 2.5,
+            "1500": 7.5,
+            "2000": 2.5,
+            "2500": 75.0,
+            "3000": 10.0,
+            "3500": 2.5,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

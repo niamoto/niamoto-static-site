@@ -1,0 +1,130 @@
+{
+    "id": 430,
+    "full_name": "Bruguiera",
+    "authors": "Lam.",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 518
+    },
+    "lft": 2716,
+    "rght": 2719,
+    "level": 1,
+    "parent_id": 187,
+    "taxon_id": 430,
+    "total_occurrences_count": 71,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4687889, -22.2687952], \"count\": 1}, {\"coordinates\": [166.487002, -22.2380552], \"count\": 2}, {\"coordinates\": [164.865649, -21.2090632], \"count\": 1}, {\"coordinates\": [166.8383333, -22.3058333], \"count\": 2}, {\"coordinates\": [167.5250523, -22.5802392], \"count\": 1}, {\"coordinates\": [165.6969444, -21.7580556], \"count\": 2}, {\"coordinates\": [166.450345, -22.1517139], \"count\": 2}, {\"coordinates\": [164.0262157, -20.2326689], \"count\": 1}, {\"coordinates\": [164.838428532723, -21.0586280474475], \"count\": 1}, {\"coordinates\": [166.9067677, -22.1559741], \"count\": 1}, {\"coordinates\": [166.44224080122868, -22.158339039894084], \"count\": 1}, {\"coordinates\": [165.39999389648438, -20.96666717529297], \"count\": 2}, {\"coordinates\": [165.2619353, -20.8025029], \"count\": 1}, {\"coordinates\": [166.82305908203125, -22.32638931274414], \"count\": 1}, {\"coordinates\": [165.7180633544922, -21.72888946533203], \"count\": 1}, {\"coordinates\": [166.4499969482422, -22.174999237060547], \"count\": 5}, {\"coordinates\": [164.53306579589844, -20.398889541625977], \"count\": 1}, {\"coordinates\": [164.043242212584, -20.1761848859452], \"count\": 1}, {\"coordinates\": [167.9794457, -21.5172018], \"count\": 1}, {\"coordinates\": [164.945192985256, -20.6921961170535], \"count\": 1}, {\"coordinates\": [165.391598, -21.6116346], \"count\": 1}, {\"coordinates\": [166.5265853, -20.6637748], \"count\": 1}, {\"coordinates\": [166.4666667, -21.7666667], \"count\": 1}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 1}, {\"coordinates\": [166.44756200000035, -22.154926000659135], \"count\": 1}, {\"coordinates\": [164.841407944975, -21.0698724669026], \"count\": 1}, {\"coordinates\": [166.8432883, -22.3549767], \"count\": 1}, {\"coordinates\": [166.5519473, -22.2277743], \"count\": 1}, {\"coordinates\": [166.074582, -21.4876863], \"count\": 1}, {\"coordinates\": [166.46556091308594, -22.271940231323242], \"count\": 1}, {\"coordinates\": [166.0382804, -21.4672227], \"count\": 1}, {\"coordinates\": [166.9565116, -22.3580977], \"count\": 1}, {\"coordinates\": [165.32777782, -21.00722221], \"count\": 1}]}",
+    "species_top": {
+        "Bruguiera gymnorrhiza": 67
+    },
+    "um_occurrences_true": 11,
+    "um_occurrences_false": 60,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                66.67,
+                83.33,
+                87.5,
+                0.0,
+                42.86,
+                50.0,
+                0.0,
+                50.0,
+                100.0,
+                50.0,
+                75.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                25.0,
+                0.0,
+                0.0,
+                50.0,
+                83.33,
+                0.0,
+                66.67,
+                50.0,
+                25.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 42.5,
+    "dbh_max": 45.0,
+    "dbh_median": 42.5,
+    "dbh_min": 40.0,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 100.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 20.0,
+            "200": 60.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 20.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 63.16,
+            "1500": 2.63,
+            "2000": 26.32,
+            "2500": 7.89,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 57.89,
+            "2": 42.11
+        }
+    }
+}

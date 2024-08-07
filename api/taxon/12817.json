@@ -1,0 +1,130 @@
+{
+    "id": 12817,
+    "full_name": "Elaeocarpus tremulus",
+    "authors": "Tirel & McPherson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5747
+    },
+    "lft": 1035,
+    "rght": 1036,
+    "level": 2,
+    "parent_id": 714,
+    "taxon_id": 12817,
+    "total_occurrences_count": 98,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5086111, -21.9819444], \"count\": 1}, {\"coordinates\": [166.4688889, -22.0102778], \"count\": 3}, {\"coordinates\": [166.5515, -21.9193333333], \"count\": 1}, {\"coordinates\": [166.493505, -21.945976], \"count\": 20}, {\"coordinates\": [166.492216, -21.947384], \"count\": 6}, {\"coordinates\": [166.493434, -21.946526], \"count\": 12}, {\"coordinates\": [166.4749046, -22.0011963], \"count\": 1}, {\"coordinates\": [166.30332946777344, -21.77750015258789], \"count\": 2}, {\"coordinates\": [166.50860595703125, -21.9819393157959], \"count\": 1}, {\"coordinates\": [166.30325, -21.7774444444], \"count\": 1}, {\"coordinates\": [166.46888732910156, -22.010269165039062], \"count\": 3}, {\"coordinates\": [166.51248168945312, -22.026779174804688], \"count\": 1}, {\"coordinates\": [166.901091787698, -22.1155390534834], \"count\": 1}, {\"coordinates\": [166.46888732910156, -22.01028060913086], \"count\": 6}, {\"coordinates\": [166.4927778, -21.9458333], \"count\": 1}, {\"coordinates\": [166.47166442871094, -22.004169464111328], \"count\": 3}, {\"coordinates\": [166.5219632, -22.0354611], \"count\": 1}, {\"coordinates\": [166.54832458496094, -22.009719848632812], \"count\": 2}, {\"coordinates\": [166.49278259277344, -21.945829391479492], \"count\": 1}, {\"coordinates\": [166.46888732910156, -22.010278701782227], \"count\": 1}, {\"coordinates\": [166.30425200000013, -21.68310600064764], \"count\": 1}, {\"coordinates\": [166.5483333, -22.0097222], \"count\": 1}, {\"coordinates\": [166.468994140625, -22.010299682617188], \"count\": 1}, {\"coordinates\": [166.468888888889, -22.0102777777778], \"count\": 2}, {\"coordinates\": [166.5483, -22.0097], \"count\": 1}, {\"coordinates\": [166.508611111111, -21.9819444444444], \"count\": 1}, {\"coordinates\": [166.4717, -22.0042], \"count\": 1}, {\"coordinates\": [166.4689, -22.0103], \"count\": 3}, {\"coordinates\": [166.47275368590948, -22.007277610283463], \"count\": 1}, {\"coordinates\": [166.46889, -22.01028], \"count\": 2}, {\"coordinates\": [166.46888889, -22.01027778], \"count\": 1}, {\"coordinates\": [166.471666666667, -22.0041666666667], \"count\": 1}, {\"coordinates\": [166.56397803, -21.95944503], \"count\": 1}, {\"coordinates\": [166.3473312590069, -22.06176137892261], \"count\": 1}, {\"coordinates\": [166.5086, -21.9819], \"count\": 1}, {\"coordinates\": [166.4928, -21.9458], \"count\": 1}, {\"coordinates\": [166.56357998, -21.95330296], \"count\": 1}, {\"coordinates\": [166.49182903, -21.94298703], \"count\": 1}, {\"coordinates\": [166.548333333333, -22.0097222222222], \"count\": 1}, {\"coordinates\": [166.54833, -22.00972], \"count\": 1}, {\"coordinates\": [166.50560659272907, -22.024406564669007], \"count\": 1}, {\"coordinates\": [166.29774484754492, -21.661751629787577], \"count\": 1}, {\"coordinates\": [166.50565908411798, -22.024376295502176], \"count\": 1}, {\"coordinates\": [166.493759, -21.94574199], \"count\": 1}, {\"coordinates\": [166.5056681006396, -22.024345648849174], \"count\": 1}, {\"coordinates\": [166.49277778, -21.94583334], \"count\": 1}]}",
+    "species_top": {
+        "Elaeocarpus tremulus": 98
+    },
+    "um_occurrences_true": 98,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                100.0,
+                16.67,
+                66.67,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                33.33,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.18,
+    "dbh_max": 13.1,
+    "dbh_median": 5.8,
+    "dbh_min": 5.0,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 7.14,
+            "500": 42.86,
+            "600": 10.2,
+            "700": 3.06,
+            "800": 12.24,
+            "900": 0.0,
+            "1000": 23.47,
+            "1100": 1.02,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 1.02,
+            "2000": 0.0,
+            "2500": 6.12,
+            "3000": 61.22,
+            "3500": 30.61,
+            "4000": 1.02,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        }
+    }
+}

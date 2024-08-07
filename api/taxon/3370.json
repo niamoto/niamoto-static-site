@@ -1,0 +1,118 @@
+{
+    "id": 3370,
+    "full_name": "Ficus pteroporum",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4097
+    },
+    "lft": 1743,
+    "rght": 1744,
+    "level": 2,
+    "parent_id": 774,
+    "taxon_id": 3370,
+    "total_occurrences_count": 26,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3033762, -21.1779231], \"count\": 2}, {\"coordinates\": [165.23483, -21.01773], \"count\": 1}, {\"coordinates\": [165.2338194, -21.0294444], \"count\": 1}, {\"coordinates\": [165.166705, -21.1270278], \"count\": 1}, {\"coordinates\": [165.7702901, -21.5612122], \"count\": 3}, {\"coordinates\": [166.4476949, -22.2693066], \"count\": 1}, {\"coordinates\": [165.525943692774, -21.2947332859039], \"count\": 1}, {\"coordinates\": [164.7333533, -20.5821389], \"count\": 2}, {\"coordinates\": [165.23916625976562, -21.01222038269043], \"count\": 2}, {\"coordinates\": [165.0094451904297, -20.852500915527344], \"count\": 2}, {\"coordinates\": [165.23471, -21.01773], \"count\": 1}, {\"coordinates\": [164.8024556, -20.5625543], \"count\": 1}, {\"coordinates\": [165.0094444444, -20.8525], \"count\": 1}, {\"coordinates\": [164.77805613333337, -20.624189199999996], \"count\": 1}, {\"coordinates\": [164.734724423, -20.6103295451667], \"count\": 1}, {\"coordinates\": [165.218487437814, -20.8171015977859], \"count\": 1}, {\"coordinates\": [165.23483276367188, -21.017730712890625], \"count\": 1}, {\"coordinates\": [165.167310126623, -21.1270347674688], \"count\": 1}, {\"coordinates\": [164.73365599999994, -20.582138999999998], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 1}]}",
+    "species_top": {
+        "Ficus pteroporum": 26
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 24,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                33.33,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                28.57,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                66.67,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                100.0,
+                71.43,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 16.0,
+            "200": 24.0,
+            "300": 16.0,
+            "400": 0.0,
+            "500": 24.0,
+            "600": 8.0,
+            "700": 12.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 16.0,
+            "2000": 32.0,
+            "2500": 32.0,
+            "3000": 8.0,
+            "3500": 12.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 9.09,
+            "2": 90.91
+        }
+    }
+}

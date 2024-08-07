@@ -1,0 +1,63 @@
+{
+    "id": 12,
+    "locality": "For\u00eat Plate P12",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            165.120361,
+            -21.148142
+        ]
+    },
+    "plot_id": 12,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [165.120361, -21.148142]}",
+    "families_top": {
+        "Moraceae": 734,
+        "Primulaceae": 732,
+        "Cunoniaceae": 412,
+        "Sapotaceae": 312,
+        "Monimiaceae": 255,
+        "Myrtaceae": 169,
+        "Sapindaceae": 151,
+        "Proteaceae": 149,
+        "Pandanaceae": 143,
+        "Pittosporaceae": 87
+    },
+    "species_top": {
+        "Hedycarya parvifolia": 159,
+        "Ficus austrocaledonica": 153,
+        "Myrsine asymmetrica": 140,
+        "Codia discolor": 132,
+        "Myrsine diminuta": 131,
+        "Ficus asperula": 94,
+        "Ficus habrophylla": 93,
+        "Myrsine citrifolia": 87,
+        "Kibaropsis caledonica": 87,
+        "Piliocalyx laurifolius": 79
+    },
+    "height_mean": 10.09,
+    "wood_density_mean": 0.65,
+    "basal_area": 52.7,
+    "shannon": 3.94,
+    "pielou": 0.85,
+    "simpson": 0.97,
+    "biomass": 415.901198293674,
+    "frequencies": {
+        "dbh": {
+            "10": 59.64,
+            "20": 20.18,
+            "30": 9.53,
+            "40": 4.48,
+            "50": 4.37,
+            "75": 1.46,
+            "100": 0.34,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 24.62,
+            "2": 37.16,
+            "3": 38.22
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 5881,
+    "full_name": "Syzygium guillauminii",
+    "authors": "J.W.Dawson    ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4269
+    },
+    "lft": 2039,
+    "rght": 2040,
+    "level": 2,
+    "parent_id": 1439,
+    "taxon_id": 5881,
+    "total_occurrences_count": 47,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.8757266, -20.6381212], \"count\": 4}, {\"coordinates\": [164.8226667, -20.5895278], \"count\": 2}, {\"coordinates\": [164.8063611, -20.5629722], \"count\": 1}, {\"coordinates\": [165.8094635, -21.6171288], \"count\": 1}, {\"coordinates\": [164.8730556, -20.6416667], \"count\": 1}, {\"coordinates\": [165.21502, -20.81788], \"count\": 1}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 2}, {\"coordinates\": [165.30416666666667, -21.204722222222223], \"count\": 2}, {\"coordinates\": [165.96369444444446, -21.590527777777776], \"count\": 1}, {\"coordinates\": [164.7757031, -20.7405281], \"count\": 1}, {\"coordinates\": [164.8074713, -20.7450527], \"count\": 2}, {\"coordinates\": [164.8333282470703, -20.600000381469727], \"count\": 1}, {\"coordinates\": [164.87306213378906, -20.64167022705078], \"count\": 2}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.87249755859375, -20.641109466552734], \"count\": 2}, {\"coordinates\": [164.70167541503906, -20.488609313964844], \"count\": 1}, {\"coordinates\": [165.230653683345, -20.7808160146077], \"count\": 1}, {\"coordinates\": [164.7943682, -20.5615867], \"count\": 2}, {\"coordinates\": [164.744839538576, -20.733117238776], \"count\": 1}, {\"coordinates\": [164.74643407757, -20.7382483062734], \"count\": 1}, {\"coordinates\": [165.21502685546875, -20.817880630493164], \"count\": 1}, {\"coordinates\": [166.44667053222656, -22.06555938720703], \"count\": 1}, {\"coordinates\": [164.80250549316406, -20.571109771728516], \"count\": 2}, {\"coordinates\": [164.775290831091, -20.7617163413409], \"count\": 1}, {\"coordinates\": [165.47702778, -21.2368611], \"count\": 1}, {\"coordinates\": [165.75218703, -21.61409096], \"count\": 2}, {\"coordinates\": [164.7866906, -20.7441739], \"count\": 1}, {\"coordinates\": [164.8725, -20.64111], \"count\": 2}, {\"coordinates\": [164.8604958, -20.6369621], \"count\": 1}, {\"coordinates\": [164.70167, -20.48861], \"count\": 1}, {\"coordinates\": [164.8025, -20.57111], \"count\": 2}, {\"coordinates\": [164.8024556, -20.5625543], \"count\": 1}, {\"coordinates\": [165.73604001, -21.55237199], \"count\": 1}]}",
+    "species_top": {
+        "Syzygium guillauminii": 47
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 44,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                25.0,
+                100.0,
+                60.0,
+                50.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                100.0,
+                0.0,
+                100.0,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 23.47,
+    "dbh_max": 27.4,
+    "dbh_median": 22.9,
+    "dbh_min": 20.1,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 100.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 11.36,
+            "200": 4.55,
+            "300": 9.09,
+            "400": 22.73,
+            "500": 20.45,
+            "600": 15.91,
+            "700": 2.27,
+            "800": 4.55,
+            "900": 2.27,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 6.82
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 25.53,
+            "2000": 6.38,
+            "2500": 44.68,
+            "3000": 19.15,
+            "3500": 2.13,
+            "4000": 2.13,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "id": 2747,
+    "full_name": "Cunonia varijuga",
+    "authors": "Hoogland",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3564
+    },
+    "lft": 759,
+    "rght": 760,
+    "level": 2,
+    "parent_id": 611,
+    "taxon_id": 2747,
+    "total_occurrences_count": 135,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3302424, -21.4574821], \"count\": 1}, {\"coordinates\": [165.0897938, -21.1804082], \"count\": 1}, {\"coordinates\": [166.829239, -22.2020994], \"count\": 1}, {\"coordinates\": [165.3722446, -21.4248134], \"count\": 1}, {\"coordinates\": [165.3644444, -21.4436111], \"count\": 1}, {\"coordinates\": [166.8864183, -22.1537698], \"count\": 1}, {\"coordinates\": [164.5825781, -20.7921802], \"count\": 1}, {\"coordinates\": [165.9933333, -21.7572222], \"count\": 1}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}, {\"coordinates\": [166.81333329, -22.24694445], \"count\": 2}, {\"coordinates\": [164.58084407, -20.78057011], \"count\": 1}, {\"coordinates\": [164.58845854, -20.78245404], \"count\": 1}, {\"coordinates\": [166.91746628, -22.32114038], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 2}, {\"coordinates\": [166.9, -22.27694447], \"count\": 2}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 3}, {\"coordinates\": [166.78555562, -22.19388891], \"count\": 2}, {\"coordinates\": [166.76361107, -22.17805556], \"count\": 1}, {\"coordinates\": [166.82579366, -22.2512891], \"count\": 2}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 2}, {\"coordinates\": [166.76104096, -22.18968099], \"count\": 1}, {\"coordinates\": [166.898951, -22.280555], \"count\": 5}, {\"coordinates\": [166.932047, -22.278092], \"count\": 7}, {\"coordinates\": [166.896594, -22.278415], \"count\": 2}, {\"coordinates\": [166.89851, -22.276586], \"count\": 2}, {\"coordinates\": [165.0959733501, -21.1677664798], \"count\": 1}, {\"coordinates\": [166.9188, -22.31930277777778], \"count\": 1}, {\"coordinates\": [166.6056861111111, -22.1304], \"count\": 1}, {\"coordinates\": [166.50061065, -22.04388342], \"count\": 2}, {\"coordinates\": [165.187145280838, -20.8324217478434], \"count\": 1}, {\"coordinates\": [165.188503106435, -20.8339276631673], \"count\": 1}, {\"coordinates\": [165.14999389648438, -21.333332061767578], \"count\": 1}, {\"coordinates\": [165.335894, -21.362521], \"count\": 1}, {\"coordinates\": [165.8821331, -21.4659629], \"count\": 1}, {\"coordinates\": [164.22772375843167, -20.47923080946186], \"count\": 1}, {\"coordinates\": [165.093879466667, -21.1677423833333], \"count\": 1}, {\"coordinates\": [165.022216796875, -20.904159545898438], \"count\": 1}, {\"coordinates\": [165.7728365, -21.5555308], \"count\": 1}, {\"coordinates\": [165.0820581, -20.8289511], \"count\": 1}, {\"coordinates\": [166.9320269, -22.2781517], \"count\": 1}, {\"coordinates\": [166.932053, -22.278162249999994], \"count\": 1}, {\"coordinates\": [164.85075, -20.8523333], \"count\": 1}, {\"coordinates\": [166.467346642222, -22.0403811055556], \"count\": 1}, {\"coordinates\": [164.23052907757398, -20.476236412866086], \"count\": 1}, {\"coordinates\": [166.768177784375, -22.17606768125], \"count\": 1}, {\"coordinates\": [165.0222222, -20.9041667], \"count\": 1}, {\"coordinates\": [164.71444702148438, -20.503610610961914], \"count\": 2}, {\"coordinates\": [166.4648600000003, -22.031530000656133], \"count\": 1}, {\"coordinates\": [164.8508333, -20.8527778], \"count\": 1}, {\"coordinates\": [165.07943725585938, -21.1813907623291], \"count\": 2}, {\"coordinates\": [165.0863025616853, -21.180844261014837], \"count\": 1}, {\"coordinates\": [165.0258331298828, -20.906940460205078], \"count\": 1}, {\"coordinates\": [165.7726979, -21.5531796], \"count\": 1}, {\"coordinates\": [166.44757000000033, -22.068590000657], \"count\": 1}, {\"coordinates\": [165.6893453790997, -21.44520582601145], \"count\": 1}, {\"coordinates\": [164.5833282470703, -20.833332061767578], \"count\": 1}, {\"coordinates\": [166.0, -21.75], \"count\": 1}, {\"coordinates\": [165.0826875, -21.1784801], \"count\": 1}, {\"coordinates\": [165.121885, -20.8695419], \"count\": 1}, {\"coordinates\": [165.76666259765625, -21.549999237060547], \"count\": 1}, {\"coordinates\": [165.76943969726562, -21.558610916137695], \"count\": 2}, {\"coordinates\": [165.6910904066697, -21.449177744135987], \"count\": 1}, {\"coordinates\": [165.092893416667, -21.16718855], \"count\": 1}, {\"coordinates\": [165.091581816667, -21.1665241166667], \"count\": 1}, {\"coordinates\": [166.4822160825, -22.045887094], \"count\": 1}, {\"coordinates\": [165.07850646972656, -20.82868003845215], \"count\": 1}, {\"coordinates\": [164.850888888041, -20.853027788798], \"count\": 1}, {\"coordinates\": [165.093389033333, -21.1675255], \"count\": 1}, {\"coordinates\": [164.8508888, -20.85302778], \"count\": 1}, {\"coordinates\": [166.41400003, -21.88146898], \"count\": 1}, {\"coordinates\": [164.2305257317118, -20.4762379176644], \"count\": 1}, {\"coordinates\": [164.8508, -20.8528], \"count\": 1}, {\"coordinates\": [165.3269, -21.4606], \"count\": 1}, {\"coordinates\": [165.99846303, -21.75603704], \"count\": 1}, {\"coordinates\": [165.6910904864741, -21.4491775699866], \"count\": 1}, {\"coordinates\": [165.07944, -21.18139], \"count\": 2}, {\"coordinates\": [166.89426531, -22.16159717], \"count\": 1}, {\"coordinates\": [165.0789, -20.8319], \"count\": 1}, {\"coordinates\": [166.7856, -22.1939], \"count\": 1}, {\"coordinates\": [165.6893429182313, -21.4452090516829], \"count\": 1}, {\"coordinates\": [165.02583, -20.90694], \"count\": 1}, {\"coordinates\": [165.3644, -21.4436], \"count\": 1}, {\"coordinates\": [165.0794, -21.1814], \"count\": 1}, {\"coordinates\": [165.76944, -21.55861], \"count\": 2}, {\"coordinates\": [165.0862981834948, -21.180840656728], \"count\": 1}, {\"coordinates\": [166.55548298, -22.17075496], \"count\": 1}, {\"coordinates\": [166.00017804, -21.75354599], \"count\": 1}, {\"coordinates\": [166.56357998, -21.95330296], \"count\": 1}, {\"coordinates\": [165.7675, -21.5589], \"count\": 1}, {\"coordinates\": [165.7694, -21.5586], \"count\": 1}, {\"coordinates\": [166.50900905, -21.96551597], \"count\": 1}, {\"coordinates\": [164.2297831720989, -20.4861840185223], \"count\": 1}, {\"coordinates\": [166.65540101, -22.01863899], \"count\": 1}, {\"coordinates\": [166.53313401, -21.95081201], \"count\": 1}, {\"coordinates\": [165.8789, -21.4689], \"count\": 1}, {\"coordinates\": [164.2277195679307, -20.4792339095234], \"count\": 1}, {\"coordinates\": [165.1186, -20.8725], \"count\": 1}, {\"coordinates\": [165.9933, -21.7572], \"count\": 1}, {\"coordinates\": [165.0864, -21.1833], \"count\": 1}, {\"coordinates\": [166.8831, -22.1569], \"count\": 1}, {\"coordinates\": [166.605686111111, -22.1304], \"count\": 1}, {\"coordinates\": [164.5792, -20.7953], \"count\": 1}, {\"coordinates\": [166.9188, -22.3193027777778], \"count\": 1}, {\"coordinates\": [165.3689, -21.4278], \"count\": 1}, {\"coordinates\": [165.0222, -20.9042], \"count\": 1}, {\"coordinates\": [166.932, -22.2782], \"count\": 1}, {\"coordinates\": [166.65993504, -22.020349], \"count\": 1}]}",
+    "species_top": {
+        "Cunonia varijuga": 135
+    },
+    "um_occurrences_true": 113,
+    "um_occurrences_false": 22,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                33.33,
+                0,
+                46.67,
+                40.0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                100.0,
+                100.0,
+                0.0,
+                0.0,
+                0,
+                33.33,
+                0.0,
+                0,
+                6.67,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.33,
+    "dbh_max": 33.0,
+    "dbh_median": 14.3,
+    "dbh_min": 6.0,
+    "height_max": 12.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 75.0,
+            "20": 18.75,
+            "30": 6.25,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 5.34,
+            "200": 10.69,
+            "300": 17.56,
+            "400": 3.82,
+            "500": 8.4,
+            "600": 7.63,
+            "700": 12.98,
+            "800": 5.34,
+            "900": 14.5,
+            "1000": 9.92,
+            "1100": 1.53,
+            "1200": 2.29
+        },
+        "rainfall": {
+            "1000": 6.06,
+            "1500": 5.3,
+            "2000": 40.91,
+            "2500": 23.48,
+            "3000": 18.18,
+            "3500": 1.52,
+            "4000": 3.79,
+            "4500": 0.76
+        },
+        "holdridge": {
+            "1": 5.66,
+            "2": 94.34
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 100.0,
+            "3": 0.0
+        }
+    }
+}

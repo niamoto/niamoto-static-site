@@ -1,0 +1,63 @@
+{
+    "id": 5,
+    "locality": "Tiebaghi",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            164.2260027956,
+            -20.4313115124
+        ]
+    },
+    "plot_id": 5,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [164.2260027956, -20.4313115124]}",
+    "families_top": {
+        "Cunoniaceae": 408,
+        "Calophyllaceae": 202,
+        "Apocynaceae": 141,
+        "Myrtaceae": 84,
+        "Elaeocarpaceae": 50,
+        "Clusiaceae": 33,
+        "Ebenaceae": 30,
+        "Chrysobalanaceae": 21,
+        "Malvaceae": 16,
+        "Casuarinaceae": 13
+    },
+    "species_top": {
+        "Geissois pruinosa var. intermedia": 393,
+        "Calophyllum caledonicum": 202,
+        "Cerberiopsis candelabra": 82,
+        "Melaleuca quinquenervia": 72,
+        "Elaeocarpus rotundifolius": 50,
+        "Alstonia balansae": 34,
+        "Diospyros macrocarpa": 28,
+        "Garcinia neglecta": 26,
+        "Tabernaemontana cerifera": 25,
+        "Maxwellia lepidota": 16
+    },
+    "height_mean": 11.59,
+    "wood_density_mean": 0.77,
+    "basal_area": 32.6,
+    "shannon": 2.2,
+    "pielou": 0.62,
+    "simpson": 0.8,
+    "biomass": 171.717838554663,
+    "frequencies": {
+        "dbh": {
+            "10": 71.9,
+            "20": 19.54,
+            "30": 6.26,
+            "40": 1.54,
+            "50": 0.77,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 2.34,
+            "2": 16.96,
+            "3": 80.7
+        }
+    }
+}

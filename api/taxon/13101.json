@@ -1,0 +1,135 @@
+{
+    "id": 13101,
+    "full_name": "Kanakomyrtus longipetiolata",
+    "authors": "N.Snow    ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5995
+    },
+    "lft": 1899,
+    "rght": 1900,
+    "level": 2,
+    "parent_id": 13098,
+    "taxon_id": 13101,
+    "total_occurrences_count": 59,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.0108333333, -20.8425], \"count\": 1}, {\"coordinates\": [165.3199423, -21.1540391], \"count\": 1}, {\"coordinates\": [164.5247853, -20.4047457], \"count\": 1}, {\"coordinates\": [164.5230556, -20.4041667], \"count\": 1}, {\"coordinates\": [164.7803333, -20.6151639], \"count\": 2}, {\"coordinates\": [164.5213457, -20.4031031], \"count\": 2}, {\"coordinates\": [165.277313, -21.177801], \"count\": 2}, {\"coordinates\": [164.780212, -20.62504], \"count\": 2}, {\"coordinates\": [164.774, -20.57027777777778], \"count\": 3}, {\"coordinates\": [164.677993, -20.540676], \"count\": 1}, {\"coordinates\": [165.32030555555556, -21.128655555555557], \"count\": 1}, {\"coordinates\": [165.32751944444445, -21.16229722222222], \"count\": 1}, {\"coordinates\": [165.2817194, -21.1761944], \"count\": 1}, {\"coordinates\": [164.5036163330078, -20.31110954284668], \"count\": 8}, {\"coordinates\": [164.6838889, -20.6586111], \"count\": 2}, {\"coordinates\": [165.01083374023438, -20.842500686645508], \"count\": 2}, {\"coordinates\": [164.52139282226562, -20.407779693603516], \"count\": 1}, {\"coordinates\": [165.31666564941406, -21.156940460205078], \"count\": 3}, {\"coordinates\": [165.3202778, -21.1286111], \"count\": 1}, {\"coordinates\": [164.7802734375, -20.614999771118164], \"count\": 1}, {\"coordinates\": [164.4379685, -20.3436707], \"count\": 1}, {\"coordinates\": [164.78062900000003, -20.625139999999995], \"count\": 1}, {\"coordinates\": [166.81805419921875, -22.324169158935547], \"count\": 1}, {\"coordinates\": [165.1759033203125, -20.948219299316406], \"count\": 1}, {\"coordinates\": [165.2817, -21.1762], \"count\": 1}, {\"coordinates\": [164.7803, -20.6152], \"count\": 2}, {\"coordinates\": [164.6839, -20.6586], \"count\": 2}, {\"coordinates\": [164.4347, -20.3467], \"count\": 1}, {\"coordinates\": [164.678, -20.54066667], \"count\": 2}, {\"coordinates\": [165.3167, -21.1569], \"count\": 1}, {\"coordinates\": [165.3203, -21.1286], \"count\": 1}, {\"coordinates\": [165.31667, -21.15694], \"count\": 1}, {\"coordinates\": [164.774, -20.57027778], \"count\": 1}, {\"coordinates\": [165.3275194, -21.16229722], \"count\": 1}, {\"coordinates\": [164.5231, -20.4042], \"count\": 1}, {\"coordinates\": [165.3203056, -21.12865556], \"count\": 1}, {\"coordinates\": [164.5181, -20.4061], \"count\": 2}, {\"coordinates\": [164.5214, -20.4078], \"count\": 1}]}",
+    "species_top": {
+        "Kanakomyrtus longipetiolata": 59
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 58,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                60.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                100.0,
+                0.0,
+                0.0,
+                100.0,
+                50.0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                20.0,
+                33.33,
+                50.0,
+                100.0,
+                0,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 25.25,
+    "dbh_max": 69.1,
+    "dbh_median": 17.5,
+    "dbh_min": 7.0,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 55.56,
+            "20": 11.11,
+            "30": 22.22,
+            "40": 0.0,
+            "50": 11.11,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 8.33,
+            "200": 8.33,
+            "300": 0.0,
+            "400": 6.25,
+            "500": 33.33,
+            "600": 16.67,
+            "700": 10.42,
+            "800": 8.33,
+            "900": 8.33,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 10.17,
+            "1500": 28.81,
+            "2000": 20.34,
+            "2500": 20.34,
+            "3000": 13.56,
+            "3500": 6.78,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

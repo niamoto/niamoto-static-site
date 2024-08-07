@@ -1,0 +1,130 @@
+{
+    "id": 5482,
+    "full_name": "Santalum austrocaledonicum var. pilosulum",
+    "authors": " N.Hall\u00e9",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 4810
+    },
+    "lft": 3110,
+    "rght": 3111,
+    "level": 3,
+    "parent_id": 5483,
+    "taxon_id": 5482,
+    "total_occurrences_count": 23,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4516198, -22.3053782], \"count\": 2}, {\"coordinates\": [166.3992488, -22.2572078], \"count\": 1}, {\"coordinates\": [166.4537725863487, -22.31056952078899], \"count\": 4}, {\"coordinates\": [166.4497895744867, -22.30683927313697], \"count\": 4}, {\"coordinates\": [166.45293284007357, -22.308559073293587], \"count\": 1}, {\"coordinates\": [166.3217, -22.1097], \"count\": 1}, {\"coordinates\": [166.3961, -22.2603], \"count\": 1}, {\"coordinates\": [166.45373764858113, -22.310269552866526], \"count\": 1}, {\"coordinates\": [166.4549223, -22.3075441], \"count\": 3}, {\"coordinates\": [166.4416192, -22.3021591], \"count\": 4}, {\"coordinates\": [166.32481, -22.1065862], \"count\": 1}]}",
+    "species_top": {
+        "Santalum austrocaledonicum var. pilosulum": 23
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 23,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                75.0,
+                0.0,
+                0.0,
+                0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                50.0,
+                0.0,
+                100.0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.0,
+    "dbh_max": 15.0,
+    "dbh_median": 15.0,
+    "dbh_min": 15.0,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 100.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 100.0,
+            "2": 0.0
+        }
+    }
+}

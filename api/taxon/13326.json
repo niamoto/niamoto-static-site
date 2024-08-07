@@ -1,0 +1,130 @@
+{
+    "id": 13326,
+    "full_name": "Pycnandra wagapensis",
+    "authors": "(Guillaumin) Swenson & Munzinger, comb. nov. ined.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 6460
+    },
+    "lft": 3443,
+    "rght": 3444,
+    "level": 2,
+    "parent_id": 1281,
+    "taxon_id": 13326,
+    "total_occurrences_count": 53,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.74, -21.5505556], \"count\": 1}, {\"coordinates\": [164.4376944, -20.3052986], \"count\": 2}, {\"coordinates\": [165.7334917, -21.5390556], \"count\": 1}, {\"coordinates\": [165.1269164, -20.9011324], \"count\": 3}, {\"coordinates\": [164.775290831091, -20.7617163413409], \"count\": 1}, {\"coordinates\": [164.7663611111111, -20.742472222222222], \"count\": 2}, {\"coordinates\": [164.76508333333334, -20.74147222222222], \"count\": 3}, {\"coordinates\": [165.21665954589844, -20.899999618530273], \"count\": 1}, {\"coordinates\": [164.739668201667, -20.7424927968333], \"count\": 1}, {\"coordinates\": [165.1236114501953, -20.9041690826416], \"count\": 5}, {\"coordinates\": [165.1199951171875, -20.899999618530273], \"count\": 1}, {\"coordinates\": [164.74, -20.7425], \"count\": 1}, {\"coordinates\": [164.739613467833, -20.7425280566667], \"count\": 1}, {\"coordinates\": [165.74000549316406, -21.550559997558594], \"count\": 1}, {\"coordinates\": [164.7730306, -20.7433767], \"count\": 1}, {\"coordinates\": [165.74000549316406, -21.549999237060547], \"count\": 1}, {\"coordinates\": [164.4377644, -20.3052958], \"count\": 1}, {\"coordinates\": [165.6725, -21.5316666667], \"count\": 1}, {\"coordinates\": [164.43777465820312, -20.305280685424805], \"count\": 1}, {\"coordinates\": [164.7730255126953, -20.743379592895508], \"count\": 1}, {\"coordinates\": [165.26666259765625, -20.883329391479492], \"count\": 3}, {\"coordinates\": [164.773030555513, -20.743376666175], \"count\": 2}, {\"coordinates\": [164.437764, -20.305296], \"count\": 1}, {\"coordinates\": [164.766361111111, -20.7424722222222], \"count\": 1}, {\"coordinates\": [165.733491666665, -21.5390555556615], \"count\": 1}, {\"coordinates\": [165.47681, -21.226699999999116], \"count\": 1}, {\"coordinates\": [165.123611111111, -20.9041666666667], \"count\": 6}, {\"coordinates\": [165.74, -21.5505555555556], \"count\": 2}, {\"coordinates\": [164.765083333333, -20.7414722222222], \"count\": 1}, {\"coordinates\": [165.07975, -20.83008], \"count\": 1}, {\"coordinates\": [164.437694, -20.305299], \"count\": 1}, {\"coordinates\": [165.74018504, -21.55071496], \"count\": 2}, {\"coordinates\": [165.73597996, -21.53906604], \"count\": 1}]}",
+    "species_top": {
+        "Pycnandra wagapensis": 53
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 50,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                54.55,
+                50.0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.52,
+    "dbh_max": 16.6,
+    "dbh_median": 8.6,
+    "dbh_min": 7.6,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 4.08,
+            "200": 28.57,
+            "300": 14.29,
+            "400": 22.45,
+            "500": 20.41,
+            "600": 2.04,
+            "700": 6.12,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 2.04,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 49.06,
+            "2000": 39.62,
+            "2500": 11.32,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

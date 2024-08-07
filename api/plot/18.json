@@ -1,0 +1,63 @@
+{
+    "id": 18,
+    "locality": "Wekori",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            165.725293094,
+            -21.378606381
+        ]
+    },
+    "plot_id": 18,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [165.725293094, -21.378606381]}",
+    "families_top": {
+        "Annonaceae": 114,
+        "Sapindaceae": 103,
+        "Rhizophoraceae": 87,
+        "Apocynaceae": 77,
+        "Myrtaceae": 76,
+        "Lauraceae": 73,
+        "Proteaceae": 49,
+        "Anacardiaceae": 37,
+        "Sapotaceae": 29,
+        "Rutaceae": 25
+    },
+    "species_top": {
+        "Xylopia vieillardii": 110,
+        "Crossostylis grandiflora": 87,
+        "Tabernaemontana cerifera": 71,
+        "Cupaniopsis macrocarpa": 59,
+        "Kermadecia rotundifolia": 45,
+        "Syzygium macranthum": 36,
+        "Cryptocarya odorata": 35,
+        "Endiandra polyneura": 30,
+        "Euroschinus verrucosus": 25,
+        "Syzygium densiflorum": 25
+    },
+    "height_mean": 16.65,
+    "wood_density_mean": null,
+    "basal_area": 43.9,
+    "shannon": 3.42,
+    "pielou": 0.78,
+    "simpson": 0.95,
+    "biomass": 324.205413415241,
+    "frequencies": {
+        "dbh": {
+            "10": 59.25,
+            "20": 22.62,
+            "30": 11.0,
+            "40": 2.38,
+            "50": 4.0,
+            "75": 0.62,
+            "100": 0.12,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 16.08,
+            "2": 36.84,
+            "3": 47.09
+        }
+    }
+}

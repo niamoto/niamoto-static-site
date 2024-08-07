@@ -1,0 +1,135 @@
+{
+    "id": 14044,
+    "full_name": "Tapeinosperma scrobiculatum",
+    "authors": "(Seem.) Mez",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 6399
+    },
+    "lft": 2599,
+    "rght": 2600,
+    "level": 2,
+    "parent_id": 1449,
+    "taxon_id": 14044,
+    "total_occurrences_count": 72,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7362777778, -20.7451694444], \"count\": 1}, {\"coordinates\": [165.2266667, -21.0025], \"count\": 1}, {\"coordinates\": [164.5158172, -20.3853107], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [164.7273056, -20.5834983], \"count\": 1}, {\"coordinates\": [165.3066239, -21.1762872], \"count\": 1}, {\"coordinates\": [165.0083910115, -20.852514552], \"count\": 1}, {\"coordinates\": [164.78330555555556, -20.559833333333334], \"count\": 1}, {\"coordinates\": [164.677993, -20.540676], \"count\": 2}, {\"coordinates\": [164.781, -20.625611111111112], \"count\": 3}, {\"coordinates\": [164.72730555555555, -20.586083333333335], \"count\": 4}, {\"coordinates\": [164.68613888888888, -20.539638888888888], \"count\": 4}, {\"coordinates\": [164.7808611111111, -20.623555555555555], \"count\": 1}, {\"coordinates\": [164.781, -20.6256111], \"count\": 1}, {\"coordinates\": [164.678, -20.5406667], \"count\": 1}, {\"coordinates\": [164.3975067138672, -20.306110382080078], \"count\": 1}, {\"coordinates\": [164.41055297851562, -20.314720153808594], \"count\": 2}, {\"coordinates\": [165.23638916015625, -21.014999389648438], \"count\": 2}, {\"coordinates\": [164.3078778, -20.484254], \"count\": 1}, {\"coordinates\": [165.2137638, -20.8172347], \"count\": 1}, {\"coordinates\": [164.5333251953125, -20.399999618530273], \"count\": 2}, {\"coordinates\": [164.52194213867188, -20.410280227661133], \"count\": 6}, {\"coordinates\": [164.82000732421875, -20.592500686645508], \"count\": 2}, {\"coordinates\": [164.77943420410156, -20.576940536499023], \"count\": 1}, {\"coordinates\": [164.4385111, -20.3024528], \"count\": 1}, {\"coordinates\": [164.48916625976562, -20.35638999938965], \"count\": 1}, {\"coordinates\": [164.5124969482422, -20.388330459594727], \"count\": 2}, {\"coordinates\": [164.7930568, -20.562816], \"count\": 1}, {\"coordinates\": [164.7147444, -20.728175], \"count\": 1}, {\"coordinates\": [164.7808333, -20.6255556], \"count\": 1}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 1}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 1}, {\"coordinates\": [166.89999998, -22.28333332], \"count\": 1}, {\"coordinates\": [164.737263685167, -20.7440974005], \"count\": 1}, {\"coordinates\": [165.056220105103, -20.8527402704158], \"count\": 1}, {\"coordinates\": [165.158061536153, -21.160707171758], \"count\": 1}, {\"coordinates\": [164.72913265, -20.597262383333334], \"count\": 1}, {\"coordinates\": [164.413785, -20.3116468], \"count\": 1}, {\"coordinates\": [164.37351, -20.2884525], \"count\": 1}, {\"coordinates\": [164.5236053466797, -20.395830154418945], \"count\": 3}, {\"coordinates\": [165.21055603027344, -20.820280075073242], \"count\": 1}, {\"coordinates\": [164.38330078125, -20.299999237060547], \"count\": 1}, {\"coordinates\": [165.008403333028, -20.8523199717204], \"count\": 1}, {\"coordinates\": [164.78111267089844, -20.625560760498047], \"count\": 2}]}",
+    "species_top": {
+        "Tapeinosperma scrobiculatum": 72
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 69,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                100.0,
+                48.0,
+                83.33
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                33.33,
+                0.0,
+                0.0,
+                4.0,
+                16.67
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.2,
+    "dbh_max": 14.3,
+    "dbh_median": 6.55,
+    "dbh_min": 5.09,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": 6.08,
+    "leaf_sla_max": 6.08,
+    "leaf_sla_min": 6.08,
+    "leaf_area_mean": 77.82,
+    "leaf_area_max": 77.82,
+    "leaf_area_min": 77.82,
+    "leaf_thickness_mean": 448.8,
+    "leaf_thickness_max": 448.8,
+    "leaf_thickness_min": 448.8,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 7.58,
+            "200": 0.0,
+            "300": 22.73,
+            "400": 6.06,
+            "500": 27.27,
+            "600": 28.79,
+            "700": 4.55,
+            "800": 0.0,
+            "900": 1.52,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 1.52
+        },
+        "rainfall": {
+            "1000": 3.03,
+            "1500": 36.36,
+            "2000": 9.09,
+            "2500": 15.15,
+            "3000": 33.33,
+            "3500": 3.03,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

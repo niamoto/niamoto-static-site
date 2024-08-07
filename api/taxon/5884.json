@@ -1,0 +1,118 @@
+{
+    "id": 5884,
+    "full_name": "Syzygium koniamboense",
+    "authors": "J.W.Dawson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4271
+    },
+    "lft": 2043,
+    "rght": 2044,
+    "level": 2,
+    "parent_id": 1439,
+    "taxon_id": 5884,
+    "total_occurrences_count": 45,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.0383333, -21.1680556], \"count\": 1}, {\"coordinates\": [164.7819011, -21.0403344], \"count\": 1}, {\"coordinates\": [164.2233463, -20.5242834], \"count\": 1}, {\"coordinates\": [164.79989, -21.04283], \"count\": 1}, {\"coordinates\": [164.8259205, -21.0125548], \"count\": 1}, {\"coordinates\": [165.10389709472656, -21.324169158935547], \"count\": 1}, {\"coordinates\": [165.1071934, -21.3211244], \"count\": 1}, {\"coordinates\": [165.1023806, -21.2432376], \"count\": 1}, {\"coordinates\": [166.2469482421875, -21.66611099243164], \"count\": 1}, {\"coordinates\": [165.88027954101562, -21.613889694213867], \"count\": 1}, {\"coordinates\": [164.7786102294922, -21.0433292388916], \"count\": 2}, {\"coordinates\": [164.22000122070312, -20.527219772338867], \"count\": 2}, {\"coordinates\": [164.807496070862, -21.0374680836995], \"count\": 1}, {\"coordinates\": [164.74917602539062, -20.984439849853516], \"count\": 1}, {\"coordinates\": [164.75364685058594, -20.97925567626953], \"count\": 1}, {\"coordinates\": [164.776964378357, -21.0225302497546], \"count\": 1}, {\"coordinates\": [164.8073737, -21.03981907], \"count\": 1}, {\"coordinates\": [164.7769444, -21.0225], \"count\": 1}, {\"coordinates\": [164.79577455, -21.00251858], \"count\": 1}, {\"coordinates\": [165.1054, -21.3165], \"count\": 1}, {\"coordinates\": [165.103888888889, -21.3241666666667], \"count\": 1}, {\"coordinates\": [164.80017087, -20.97836373], \"count\": 1}, {\"coordinates\": [164.78189464, -21.04033138], \"count\": 1}, {\"coordinates\": [164.80796403, -20.99437959], \"count\": 1}, {\"coordinates\": [164.79256443, -20.96431224], \"count\": 1}, {\"coordinates\": [165.10562503, -21.31855082], \"count\": 1}, {\"coordinates\": [165.10719289, -21.32112616], \"count\": 1}, {\"coordinates\": [164.76786949, -21.00628616], \"count\": 1}, {\"coordinates\": [164.80811666, -20.99296026], \"count\": 1}, {\"coordinates\": [164.79686884, -20.99106373], \"count\": 1}, {\"coordinates\": [164.77904817, -20.99424905], \"count\": 1}, {\"coordinates\": [164.77562453, -20.98956292], \"count\": 1}, {\"coordinates\": [164.22332968, -20.52427943], \"count\": 1}, {\"coordinates\": [164.76853795, -21.00386757], \"count\": 1}, {\"coordinates\": [164.73711041, -20.99875072], \"count\": 1}, {\"coordinates\": [164.22, -20.5272222222222], \"count\": 1}, {\"coordinates\": [164.78631278, -20.96253345], \"count\": 1}, {\"coordinates\": [164.78691925, -21.00173229], \"count\": 1}, {\"coordinates\": [164.80608346, -20.98185871], \"count\": 1}, {\"coordinates\": [164.778611111111, -21.0433333333333], \"count\": 1}, {\"coordinates\": [164.822777777778, -21.0155555555556], \"count\": 1}, {\"coordinates\": [164.77577636, -20.98288871], \"count\": 1}, {\"coordinates\": [164.7853679, -20.98840583], \"count\": 1}]}",
+    "species_top": {
+        "Syzygium koniamboense": 45
+    },
+    "um_occurrences_true": 29,
+    "um_occurrences_false": 16,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 25.0,
+            "200": 8.33,
+            "300": 0.0,
+            "400": 8.33,
+            "500": 8.33,
+            "600": 20.83,
+            "700": 20.83,
+            "800": 4.17,
+            "900": 4.17,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 52.38,
+            "1500": 33.33,
+            "2000": 11.9,
+            "2500": 0.0,
+            "3000": 2.38,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 38.64,
+            "2": 61.36
+        }
+    }
+}

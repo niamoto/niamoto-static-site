@@ -1,0 +1,135 @@
+{
+    "id": 5966,
+    "full_name": "Tapeinosperma nectandroides",
+    "authors": "Mez",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4150
+    },
+    "lft": 2585,
+    "rght": 2586,
+    "level": 2,
+    "parent_id": 1449,
+    "taxon_id": 5966,
+    "total_occurrences_count": 73,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.7576785, -21.6289529], \"count\": 1}, {\"coordinates\": [166.0167683, -21.6839333], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 1}, {\"coordinates\": [165.7260278, -21.3783056], \"count\": 2}, {\"coordinates\": [165.2720933, -21.2238756], \"count\": 1}, {\"coordinates\": [165.0094444444, -20.8519444444], \"count\": 2}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 1}, {\"coordinates\": [166.5366766, -22.1922361], \"count\": 3}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 3}, {\"coordinates\": [165.725293094, -21.378606381], \"count\": 2}, {\"coordinates\": [166.9187, -22.323591666666665], \"count\": 2}, {\"coordinates\": [166.5081666667, -22.1773055556], \"count\": 2}, {\"coordinates\": [166.0560234, -21.6309738], \"count\": 1}, {\"coordinates\": [166.818115234375, -22.32430076599121], \"count\": 3}, {\"coordinates\": [166.531005859375, -22.187000274658203], \"count\": 1}, {\"coordinates\": [166.20826721191406, -21.610919952392578], \"count\": 6}, {\"coordinates\": [166.508056640625, -22.17721939086914], \"count\": 3}, {\"coordinates\": [165.074652870496, -20.9050274531047], \"count\": 1}, {\"coordinates\": [166.01666259765625, -21.683889389038086], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 1}, {\"coordinates\": [166.50833129882812, -22.177221298217773], \"count\": 1}, {\"coordinates\": [166.5333251953125, -22.195280075073242], \"count\": 4}, {\"coordinates\": [165.120791570346, -21.1432421207428], \"count\": 1}, {\"coordinates\": [166.92011, -22.32465], \"count\": 2}, {\"coordinates\": [166.0996578, -21.5784518], \"count\": 1}, {\"coordinates\": [166.0533905029297, -21.63694953918457], \"count\": 3}, {\"coordinates\": [165.0094451904297, -20.851940155029297], \"count\": 2}, {\"coordinates\": [166.0883331298828, -21.583890914916992], \"count\": 1}, {\"coordinates\": [166.52694702148438, -22.178329467773438], \"count\": 1}, {\"coordinates\": [166.5236111, -22.185], \"count\": 1}, {\"coordinates\": [165.72525, -21.3782806], \"count\": 1}, {\"coordinates\": [166.0968017578125, -21.57794952392578], \"count\": 2}, {\"coordinates\": [166.47332763671875, -22.182220458984375], \"count\": 1}, {\"coordinates\": [165.49253845214844, -21.566499710083008], \"count\": 1}, {\"coordinates\": [165.725351566667, -21.3791116333333], \"count\": 1}, {\"coordinates\": [166.52389526367188, -22.18556022644043], \"count\": 1}, {\"coordinates\": [165.726138870333, -21.3782217705], \"count\": 1}, {\"coordinates\": [166.0558319091797, -21.63027000427246], \"count\": 1}, {\"coordinates\": [165.7544403076172, -21.631940841674805], \"count\": 2}, {\"coordinates\": [166.55548298, -22.17075496], \"count\": 1}, {\"coordinates\": [166.52465996, -22.18012997], \"count\": 1}, {\"coordinates\": [166.52352698, -22.18504201], \"count\": 1}, {\"coordinates\": [165.73611106, -21.55249996], \"count\": 1}, {\"coordinates\": [166.52392896, -22.18556301], \"count\": 1}]}",
+    "species_top": {
+        "Tapeinosperma nectandroides": 73
+    },
+    "um_occurrences_true": 30,
+    "um_occurrences_false": 43,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                100.0,
+                57.14,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                50.0,
+                0.0,
+                42.86,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                100.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 20.33,
+    "dbh_max": 40.0,
+    "dbh_median": 15.0,
+    "dbh_min": 7.3,
+    "height_max": 16.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 33.33,
+            "20": 33.33,
+            "30": 22.22,
+            "40": 11.11,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 26.67,
+            "200": 21.67,
+            "300": 10.0,
+            "400": 16.67,
+            "500": 13.33,
+            "600": 5.0,
+            "700": 0.0,
+            "800": 5.0,
+            "900": 1.67,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 1.41,
+            "1500": 45.07,
+            "2000": 40.85,
+            "2500": 12.68,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 3.45,
+            "2": 96.55
+        },
+        "strate": {
+            "1": 100.0,
+            "2": 0.0,
+            "3": 0.0
+        }
+    }
+}

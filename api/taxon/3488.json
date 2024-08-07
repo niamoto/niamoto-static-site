@@ -1,0 +1,130 @@
+{
+    "id": 3488,
+    "full_name": "Geniostoma vestitum",
+    "authors": "Baill.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4047
+    },
+    "lft": 1527,
+    "rght": 1528,
+    "level": 2,
+    "parent_id": 799,
+    "taxon_id": 3488,
+    "total_occurrences_count": 55,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.2915391, -21.0377205], \"count\": 2}, {\"coordinates\": [165.87473, -21.6129], \"count\": 1}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 1}, {\"coordinates\": [165.8740833, -21.6207778], \"count\": 1}, {\"coordinates\": [165.2316667, -21.0122222], \"count\": 1}, {\"coordinates\": [165.2336111, -21.2513889], \"count\": 1}, {\"coordinates\": [164.5754636, -20.4373708], \"count\": 1}, {\"coordinates\": [166.0563889, -21.6413889], \"count\": 1}, {\"coordinates\": [165.8888889, -21.6183333], \"count\": 1}, {\"coordinates\": [164.5283333, -20.4], \"count\": 1}, {\"coordinates\": [165.33552777777777, -21.150694444444444], \"count\": 1}, {\"coordinates\": [165.26427, -21.19282], \"count\": 2}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [165.3116161, -21.1726421], \"count\": 3}, {\"coordinates\": [164.5440158, -20.3968687], \"count\": 1}, {\"coordinates\": [165.17, -21.0280556], \"count\": 1}, {\"coordinates\": [164.5314902, -20.3976737], \"count\": 1}, {\"coordinates\": [164.8604958, -20.6369621], \"count\": 1}, {\"coordinates\": [164.7333533, -20.5821389], \"count\": 1}, {\"coordinates\": [165.870083, -21.6195841], \"count\": 1}, {\"coordinates\": [164.5959993, -20.4540463], \"count\": 2}, {\"coordinates\": [164.707386525472, -20.7170808156331], \"count\": 1}, {\"coordinates\": [165.776310944889, -21.5544694941111], \"count\": 1}, {\"coordinates\": [165.7772222, -21.6038889], \"count\": 1}, {\"coordinates\": [165.9746854, -21.5825089], \"count\": 1}, {\"coordinates\": [164.531591892242, -20.397342077891], \"count\": 1}, {\"coordinates\": [165.7736111, -21.6038889], \"count\": 1}, {\"coordinates\": [165.725, -21.6022222], \"count\": 1}, {\"coordinates\": [165.010019, -20.847058], \"count\": 1}, {\"coordinates\": [165.2396196, -21.0120845], \"count\": 1}, {\"coordinates\": [166.5212258, -22.1953864], \"count\": 1}, {\"coordinates\": [165.8802778, -21.6138889], \"count\": 1}, {\"coordinates\": [165.2677778, -21.1763889], \"count\": 1}, {\"coordinates\": [165.0119139, -20.9977778], \"count\": 1}, {\"coordinates\": [166.5131965, -22.1749806], \"count\": 1}, {\"coordinates\": [164.708, -20.7178], \"count\": 1}, {\"coordinates\": [164.441971651713, -20.3051800092061], \"count\": 1}, {\"coordinates\": [164.734724423, -20.6103295451667], \"count\": 1}, {\"coordinates\": [164.7930568, -20.562816], \"count\": 2}, {\"coordinates\": [165.2899415, -20.95822143], \"count\": 1}, {\"coordinates\": [164.73774297, -20.59123597], \"count\": 1}, {\"coordinates\": [167.0006689, -22.27775836], \"count\": 1}, {\"coordinates\": [164.784492, -20.62442143], \"count\": 1}, {\"coordinates\": [165.77918999, -21.60579297], \"count\": 1}, {\"coordinates\": [165.77708703, -21.60382301], \"count\": 1}, {\"coordinates\": [165.01833326, -20.92138889], \"count\": 1}, {\"coordinates\": [165.77492096, -21.60249097], \"count\": 1}, {\"coordinates\": [165.72472796, -21.60380101], \"count\": 1}, {\"coordinates\": [164.870594, -20.64106602], \"count\": 1}]}",
+    "species_top": {
+        "Geniostoma vestitum": 55
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 53,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0.0,
+                50.0,
+                25.0,
+                0.0,
+                50.0,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                85.71,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                100.0,
+                50.0,
+                50.0,
+                100.0,
+                50.0,
+                0,
+                100.0,
+                0.0,
+                0.0,
+                14.29,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.13,
+    "dbh_max": 6.5,
+    "dbh_median": 6.0,
+    "dbh_min": 5.9,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 1.89,
+            "200": 9.43,
+            "300": 1.89,
+            "400": 9.43,
+            "500": 18.87,
+            "600": 30.19,
+            "700": 11.32,
+            "800": 3.77,
+            "900": 13.21,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 9.09,
+            "1500": 27.27,
+            "2000": 25.45,
+            "2500": 23.64,
+            "3000": 10.91,
+            "3500": 3.64,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

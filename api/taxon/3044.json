@@ -1,0 +1,130 @@
+{
+    "id": 3044,
+    "full_name": "Diospyros tridentata",
+    "authors": "F.White",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1720
+    },
+    "lft": 973,
+    "rght": 974,
+    "level": 2,
+    "parent_id": 679,
+    "taxon_id": 3044,
+    "total_occurrences_count": 42,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.3698167, -20.5051495], \"count\": 1}, {\"coordinates\": [164.3860933, -20.5221132], \"count\": 3}, {\"coordinates\": [164.5167533, -20.4038333], \"count\": 1}, {\"coordinates\": [164.3567672222, -20.4054136111], \"count\": 1}, {\"coordinates\": [164.5158333333, -20.5467883333], \"count\": 1}, {\"coordinates\": [164.3578167, -20.5402083], \"count\": 1}, {\"coordinates\": [164.3400861, -20.5236889], \"count\": 1}, {\"coordinates\": [164.3577111111, -20.5402433333], \"count\": 1}, {\"coordinates\": [164.3402778, -20.5188889], \"count\": 1}, {\"coordinates\": [164.3458251953125, -20.504440307617188], \"count\": 3}, {\"coordinates\": [164.3789825439453, -20.529949188232422], \"count\": 1}, {\"coordinates\": [164.36666870117188, -20.508060455322266], \"count\": 1}, {\"coordinates\": [164.38278198242188, -20.524999618530273], \"count\": 1}, {\"coordinates\": [164.307944482785, -20.4894573808422], \"count\": 1}, {\"coordinates\": [164.270751953125, -20.549449920654297], \"count\": 1}, {\"coordinates\": [164.3402862548828, -20.518890380859375], \"count\": 2}, {\"coordinates\": [164.35777282714844, -20.540279388427734], \"count\": 1}, {\"coordinates\": [164.308041024222, -20.4897474673097], \"count\": 1}, {\"coordinates\": [164.349158, -20.5013764], \"count\": 1}, {\"coordinates\": [164.358392906816, -20.5315922222335], \"count\": 1}, {\"coordinates\": [164.32139587402344, -20.472219467163086], \"count\": 1}, {\"coordinates\": [164.3401641845703, -20.518972396850586], \"count\": 1}, {\"coordinates\": [164.33999633789062, -20.523609161376953], \"count\": 2}, {\"coordinates\": [164.320604083092, -20.4255108099778], \"count\": 1}, {\"coordinates\": [164.3490791223649, -20.531294563825217], \"count\": 1}, {\"coordinates\": [164.341944444444, -20.5225], \"count\": 1}, {\"coordinates\": [164.3490569001429, -20.531294563825217], \"count\": 1}, {\"coordinates\": [164.340178, -20.518971], \"count\": 1}, {\"coordinates\": [164.340086110963, -20.5236888890796], \"count\": 1}, {\"coordinates\": [164.357711, -20.540243], \"count\": 1}, {\"coordinates\": [164.307998657227, -20.4895000457764], \"count\": 1}, {\"coordinates\": [164.356767, -20.405414], \"count\": 1}, {\"coordinates\": [164.33334370733922, -20.52554624400926], \"count\": 1}, {\"coordinates\": [164.3561201269256, -20.50640117148647], \"count\": 1}, {\"coordinates\": [165.09518934, -21.30951666], \"count\": 1}, {\"coordinates\": [165.08422601, -21.29341614], \"count\": 1}]}",
+    "species_top": {
+        "Diospyros tridentata": 42
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 39,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                66.67,
+                0,
+                66.67,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                100.0,
+                0,
+                50.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                33.33,
+                100.0,
+                0,
+                0,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                50.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 16.37,
+    "dbh_max": 20.0,
+    "dbh_median": 19.1,
+    "dbh_min": 10.0,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 66.67,
+            "20": 33.33,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 51.72,
+            "200": 34.48,
+            "300": 3.45,
+            "400": 3.45,
+            "500": 6.9,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 90.24,
+            "1500": 9.76,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 35.71,
+            "2": 64.29
+        }
+    }
+}

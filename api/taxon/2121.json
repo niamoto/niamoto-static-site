@@ -1,0 +1,130 @@
+{
+    "id": 2121,
+    "full_name": "Beauprea comptonii",
+    "authors": "S.Moore    ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4470
+    },
+    "lft": 2615,
+    "rght": 2616,
+    "level": 2,
+    "parent_id": 391,
+    "taxon_id": 2121,
+    "total_occurrences_count": 146,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.74, -20.6136111], \"count\": 2}, {\"coordinates\": [164.7825, -20.6244444], \"count\": 2}, {\"coordinates\": [164.7444444, -20.6227778], \"count\": 2}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 2}, {\"coordinates\": [164.6925, -20.5289722], \"count\": 2}, {\"coordinates\": [164.7688388888889, -20.575755555555556], \"count\": 16}, {\"coordinates\": [164.774, -20.57027777777778], \"count\": 6}, {\"coordinates\": [164.77325, -20.570805555555555], \"count\": 16}, {\"coordinates\": [164.77380555555555, -20.570083333333333], \"count\": 9}, {\"coordinates\": [164.70693969726562, -20.509719848632812], \"count\": 1}, {\"coordinates\": [164.74444580078125, -20.622779846191406], \"count\": 2}, {\"coordinates\": [165.335894, -21.362521], \"count\": 1}, {\"coordinates\": [165.2834384, -21.1767109], \"count\": 2}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 4}, {\"coordinates\": [165.29693603515625, -21.183610916137695], \"count\": 2}, {\"coordinates\": [165.82139587402344, -21.540279388427734], \"count\": 1}, {\"coordinates\": [164.77389526367188, -20.585830688476562], \"count\": 3}, {\"coordinates\": [164.52194213867188, -20.410280227661133], \"count\": 6}, {\"coordinates\": [164.74000549316406, -20.613666534423828], \"count\": 1}, {\"coordinates\": [164.6925048828125, -20.52889060974121], \"count\": 1}, {\"coordinates\": [166.96067200000078, -22.315168000662815], \"count\": 1}, {\"coordinates\": [164.71444702148438, -20.5], \"count\": 1}, {\"coordinates\": [164.68811666666667, -20.532816666666665], \"count\": 1}, {\"coordinates\": [164.85360717773438, -20.643329620361328], \"count\": 2}, {\"coordinates\": [165.8740833, -21.6207778], \"count\": 2}, {\"coordinates\": [166.0549423, -21.6195172], \"count\": 2}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [165.87806701660156, -21.623329162597656], \"count\": 6}, {\"coordinates\": [166.76654300000058, -22.159435000659126], \"count\": 1}, {\"coordinates\": [165.2802734375, -21.179719924926758], \"count\": 2}, {\"coordinates\": [164.7742238, -20.5856472], \"count\": 2}, {\"coordinates\": [164.7772261, -20.5827348], \"count\": 2}, {\"coordinates\": [165.7726979, -21.5531796], \"count\": 2}, {\"coordinates\": [165.879486651556, -21.6246870586111], \"count\": 1}, {\"coordinates\": [164.60110473632812, -20.459720611572266], \"count\": 1}, {\"coordinates\": [164.68205, -20.4853], \"count\": 1}, {\"coordinates\": [164.74000549316406, -20.613611221313477], \"count\": 1}, {\"coordinates\": [164.7827236, -20.5740593], \"count\": 2}, {\"coordinates\": [165.88389587402344, -21.617780685424805], \"count\": 1}, {\"coordinates\": [164.84324845275, -20.8411994424167], \"count\": 1}, {\"coordinates\": [166.05166625976562, -21.622499465942383], \"count\": 1}, {\"coordinates\": [165.297, -21.184], \"count\": 2}, {\"coordinates\": [164.7771946275352, -20.583052502260106], \"count\": 1}, {\"coordinates\": [164.774, -20.586], \"count\": 3}, {\"coordinates\": [164.854, -20.643], \"count\": 2}, {\"coordinates\": [164.744, -20.623], \"count\": 2}, {\"coordinates\": [164.692, -20.529], \"count\": 1}, {\"coordinates\": [165.28, -21.18], \"count\": 2}, {\"coordinates\": [166.052, -21.622], \"count\": 1}, {\"coordinates\": [165.878, -21.623], \"count\": 6}, {\"coordinates\": [165.821, -21.54], \"count\": 1}, {\"coordinates\": [164.601, -20.46], \"count\": 1}, {\"coordinates\": [165.1375431281553, -20.814847455556734], \"count\": 1}, {\"coordinates\": [165.884, -21.618], \"count\": 1}, {\"coordinates\": [164.707, -20.51], \"count\": 1}, {\"coordinates\": [164.522, -20.41], \"count\": 6}]}",
+    "species_top": {
+        "Beauprea comptonii": 146
+    },
+    "um_occurrences_true": 8,
+    "um_occurrences_false": 138,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                100.0,
+                57.14,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                16.67,
+                0.0,
+                0.0,
+                0,
+                5.56,
+                0,
+                0,
+                0,
+                0.0,
+                42.86,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.84,
+    "dbh_max": 21.3,
+    "dbh_median": 10.8,
+    "dbh_min": 6.0,
+    "height_max": 9.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 89.66,
+            "20": 10.34,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 1.38,
+            "200": 4.14,
+            "300": 12.41,
+            "400": 0.0,
+            "500": 1.38,
+            "600": 0.0,
+            "700": 4.83,
+            "800": 15.17,
+            "900": 31.03,
+            "1000": 2.76,
+            "1100": 12.41,
+            "1200": 14.48
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 9.59,
+            "2000": 17.81,
+            "2500": 12.33,
+            "3000": 9.59,
+            "3500": 47.95,
+            "4000": 2.74,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

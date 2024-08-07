@@ -1,0 +1,135 @@
+{
+    "id": 2018,
+    "full_name": "Austrobuxus ovalis",
+    "authors": "AiryShaw    ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5069
+    },
+    "lft": 2373,
+    "rght": 2374,
+    "level": 2,
+    "parent_id": 367,
+    "taxon_id": 2018,
+    "total_occurrences_count": 117,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.277313, -21.177801], \"count\": 17}, {\"coordinates\": [164.77608333333333, -20.6125], \"count\": 9}, {\"coordinates\": [165.3066239, -21.1762872], \"count\": 1}, {\"coordinates\": [164.7827236, -20.5740593], \"count\": 1}, {\"coordinates\": [164.7144444, -20.5], \"count\": 1}, {\"coordinates\": [164.7144444, -20.5036111], \"count\": 1}, {\"coordinates\": [164.86138888888888, -20.64161111111111], \"count\": 5}, {\"coordinates\": [164.7688388888889, -20.575755555555556], \"count\": 9}, {\"coordinates\": [166.689425, -22.151216666666667], \"count\": 1}, {\"coordinates\": [164.774, -20.57027777777778], \"count\": 9}, {\"coordinates\": [164.77325, -20.570805555555555], \"count\": 28}, {\"coordinates\": [165.29163888888888, -21.183], \"count\": 1}, {\"coordinates\": [165.28566666666666, -21.1775], \"count\": 2}, {\"coordinates\": [164.77380555555555, -20.570083333333333], \"count\": 6}, {\"coordinates\": [166.0, -21.75], \"count\": 3}, {\"coordinates\": [165.2834384, -21.1767109], \"count\": 1}, {\"coordinates\": [165.518517462413, -21.2628607590993], \"count\": 1}, {\"coordinates\": [165.29693603515625, -21.183610916137695], \"count\": 1}, {\"coordinates\": [164.793962900013, -20.6094681269977], \"count\": 1}, {\"coordinates\": [165.300278, -21.1806091], \"count\": 1}, {\"coordinates\": [164.71444702148438, -20.5], \"count\": 1}, {\"coordinates\": [165.30332946777344, -21.179439544677734], \"count\": 2}, {\"coordinates\": [164.6998291015625, -20.52968978881836], \"count\": 1}, {\"coordinates\": [165.26666259765625, -21.166667938232422], \"count\": 2}, {\"coordinates\": [164.689453125, -20.511709213256836], \"count\": 1}, {\"coordinates\": [164.71444702148438, -20.503610610961914], \"count\": 1}, {\"coordinates\": [164.7930568, -20.562816], \"count\": 1}, {\"coordinates\": [164.63333129882812, -20.46666717529297], \"count\": 1}, {\"coordinates\": [165.2802734375, -21.179719924926758], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [165.9687833, -21.5909], \"count\": 1}, {\"coordinates\": [164.6988067626953, -20.523420333862305], \"count\": 1}, {\"coordinates\": [164.7794647216797, -20.57707977294922], \"count\": 2}, {\"coordinates\": [164.7808528, -20.62355247], \"count\": 1}, {\"coordinates\": [165.96763596, -21.59472498], \"count\": 1}]}",
+    "species_top": {
+        "Austrobuxus ovalis": 117
+    },
+    "um_occurrences_true": 5,
+    "um_occurrences_false": 112,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                14.29,
+                0,
+                0.0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                11.76,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.05,
+    "dbh_max": 57.9,
+    "dbh_median": 9.9,
+    "dbh_min": 5.0,
+    "height_max": 10.5,
+    "wood_density_mean": 0.83,
+    "wood_density_max": 0.87,
+    "wood_density_min": 0.8,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 83.72,
+            "20": 13.95,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 2.33,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.85,
+            "400": 0.85,
+            "500": 2.56,
+            "600": 1.71,
+            "700": 6.84,
+            "800": 17.09,
+            "900": 55.56,
+            "1000": 4.27,
+            "1100": 8.55,
+            "1200": 1.71
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 11.97,
+            "2500": 19.66,
+            "3000": 1.71,
+            "3500": 61.54,
+            "4000": 5.13,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 25.0,
+            "3": 75.0
+        }
+    }
+}

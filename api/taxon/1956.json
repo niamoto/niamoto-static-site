@@ -1,0 +1,135 @@
+{
+    "id": 1956,
+    "full_name": "Arytera gracilipes",
+    "authors": "Radlk.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": null
+    },
+    "lft": 3127,
+    "rght": 3128,
+    "level": 2,
+    "parent_id": 356,
+    "taxon_id": 1956,
+    "total_occurrences_count": 59,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.9972287, -22.2614004], \"count\": 1}, {\"coordinates\": [166.6908667, -21.9911416], \"count\": 1}, {\"coordinates\": [164.7772222, -21.0205556], \"count\": 2}, {\"coordinates\": [166.151467, -21.5925989], \"count\": 1}, {\"coordinates\": [166.2682719, -21.6258837], \"count\": 2}, {\"coordinates\": [165.8697252721, -21.4936389495], \"count\": 5}, {\"coordinates\": [166.4249722222, -21.7303611111], \"count\": 1}, {\"coordinates\": [164.8369444444, -20.8325], \"count\": 2}, {\"coordinates\": [164.3787333333, -20.5863805556], \"count\": 1}, {\"coordinates\": [165.2906218, -21.3841247], \"count\": 1}, {\"coordinates\": [165.29545, -21.36983], \"count\": 1}, {\"coordinates\": [164.5761111111, -20.8169444444], \"count\": 1}, {\"coordinates\": [166.2115088, -21.6078638], \"count\": 1}, {\"coordinates\": [164.54350473425, -20.7357223163333], \"count\": 1}, {\"coordinates\": [166.5500030517578, -22.233333587646484], \"count\": 2}, {\"coordinates\": [164.987483342489, -21.2522666613261], \"count\": 1}, {\"coordinates\": [164.98333740234375, -21.299999237060547], \"count\": 4}, {\"coordinates\": [166.21665954589844, -21.666667938232422], \"count\": 1}, {\"coordinates\": [164.28334045410156, -20.5], \"count\": 1}, {\"coordinates\": [164.8333282470703, -21.0], \"count\": 1}, {\"coordinates\": [165.26666259765625, -21.316667556762695], \"count\": 2}, {\"coordinates\": [164.39999389648438, -20.666667938232422], \"count\": 1}, {\"coordinates\": [164.987566693624, -21.2528000036875], \"count\": 1}, {\"coordinates\": [164.796270282167, -21.0449769031667], \"count\": 1}, {\"coordinates\": [165.019865587657, -21.14630015865], \"count\": 1}, {\"coordinates\": [164.86666870117188, -21.0], \"count\": 1}, {\"coordinates\": [164.83665060375, -20.8323121238333], \"count\": 1}, {\"coordinates\": [164.545019, -20.737833], \"count\": 1}, {\"coordinates\": [166.4180556, -21.7205556], \"count\": 1}, {\"coordinates\": [165.3436111, -21.3611111], \"count\": 1}, {\"coordinates\": [164.544, -20.7357], \"count\": 1}, {\"coordinates\": [165.1548947, -21.2411851], \"count\": 2}, {\"coordinates\": [165.1071934, -21.3211244], \"count\": 2}, {\"coordinates\": [165.0870464, -21.3226138], \"count\": 1}, {\"coordinates\": [165.87, -21.4947], \"count\": 1}, {\"coordinates\": [164.2906787, -20.5552568], \"count\": 1}, {\"coordinates\": [165.02866, -21.2968066], \"count\": 1}]}",
+    "species_top": {
+        "Arytera gracilipes": 59
+    },
+    "um_occurrences_true": 36,
+    "um_occurrences_false": 23,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                100.0,
+                50.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                14.29,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0.0,
+                50.0,
+                100.0,
+                75.0,
+                55.56,
+                100.0,
+                100.0,
+                100.0,
+                71.43,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 16.88,
+    "dbh_max": 30.0,
+    "dbh_median": 12.7,
+    "dbh_min": 10.0,
+    "height_max": 10.4,
+    "wood_density_mean": 0.8,
+    "wood_density_max": 0.86,
+    "wood_density_min": 0.75,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 75.0,
+            "20": 0.0,
+            "30": 25.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 19.23,
+            "200": 26.92,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 15.38,
+            "600": 23.08,
+            "700": 0.0,
+            "800": 3.85,
+            "900": 7.69,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 3.85
+        },
+        "rainfall": {
+            "1000": 38.46,
+            "1500": 25.64,
+            "2000": 23.08,
+            "2500": 12.82,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 41.46,
+            "2": 58.54
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 20.0,
+            "3": 80.0
+        }
+    }
+}

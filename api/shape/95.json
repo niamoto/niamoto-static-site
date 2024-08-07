@@ -1,0 +1,51 @@
+{
+    "id": 95,
+    "name": "\u00celot Signal",
+    "type": "protected_areas",
+    "shape_coordinates": "{\"type\": \"FeatureCollection\", \"features\": [{\"id\": \"0\", \"type\": \"Feature\", \"properties\": {}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[166.2848202, -22.2916383], [166.2948322, -22.2908196], [166.3020594, -22.2999772], [166.2909053, -22.3128822], [166.2848202, -22.2916383]]]}, \"bbox\": [166.2848202, -22.3128822, 166.3020594, -22.2908196]}], \"bbox\": [166.2848202, -22.3128822, 166.3020594, -22.2908196]}",
+    "shape_id": 95,
+    "shape_area": "235.59691690391367",
+    "forest_area": null,
+    "forest_coordinates": null,
+    "num_families_unique_taxonomic_count": 4,
+    "num_species_unique_taxonomic_count": 4,
+    "num_occurrences_count": 8,
+    "rainfall_mean": null,
+    "rainfall_range": null,
+    "elevation_median": null,
+    "elevation_max": null,
+    "elevation_elevation_distribution": null,
+    "forest_fragmentation_fragment_size_distribution": null,
+    "forest_fragmentation_effective_mesh_size": null,
+    "forest_cover_percentage": null,
+    "forest_humidity_category_distribution": null,
+    "land_use_category_distribution": null,
+    "frequencies": {},
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    166.2848202,
+                    -22.2916383
+                ],
+                [
+                    166.2948322,
+                    -22.2908196
+                ],
+                [
+                    166.3020594,
+                    -22.2999772
+                ],
+                [
+                    166.2909053,
+                    -22.3128822
+                ],
+                [
+                    166.2848202,
+                    -22.2916383
+                ]
+            ]
+        ]
+    }
+}

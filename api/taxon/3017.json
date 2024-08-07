@@ -1,0 +1,135 @@
+{
+    "id": 3017,
+    "full_name": "Diospyros cherrieri",
+    "authors": "F.White",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3617
+    },
+    "lft": 937,
+    "rght": 938,
+    "level": 2,
+    "parent_id": 679,
+    "taxon_id": 3017,
+    "total_occurrences_count": 80,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.1578107, -21.3435049], \"count\": 1}, {\"coordinates\": [165.0410645, -21.3380071], \"count\": 5}, {\"coordinates\": [164.2058333333, -20.1094444444], \"count\": 2}, {\"coordinates\": [164.9583333, -21.1777778], \"count\": 2}, {\"coordinates\": [165.1630556, -21.3616667], \"count\": 4}, {\"coordinates\": [164.9614186, -21.17487971], \"count\": 1}, {\"coordinates\": [165.2283333, -21.4758333], \"count\": 1}, {\"coordinates\": [164.3755556, -20.2663889], \"count\": 1}, {\"coordinates\": [165.2269444, -21.4766667], \"count\": 1}, {\"coordinates\": [165.22833251953125, -21.475830078125], \"count\": 1}, {\"coordinates\": [165.1426049, -21.4291973], \"count\": 1}, {\"coordinates\": [165.0627778, -21.3558333], \"count\": 1}, {\"coordinates\": [164.3073118, -20.2438681], \"count\": 1}, {\"coordinates\": [165.1469444, -21.4230556], \"count\": 1}, {\"coordinates\": [165.14639282226562, -21.42388916015625], \"count\": 1}, {\"coordinates\": [164.290283203125, -20.246110916137695], \"count\": 1}, {\"coordinates\": [165.22799682617188, -21.475799560546875], \"count\": 1}, {\"coordinates\": [164.20582580566406, -20.109439849853516], \"count\": 1}, {\"coordinates\": [165.1475, -21.4252778], \"count\": 1}, {\"coordinates\": [165.1463889, -21.4241667], \"count\": 1}, {\"coordinates\": [165.22694396972656, -21.476669311523438], \"count\": 2}, {\"coordinates\": [164.959839274375, -21.1731924055674], \"count\": 1}, {\"coordinates\": [165.22830200195312, -21.475778579711914], \"count\": 1}, {\"coordinates\": [164.2934903, -20.2432173], \"count\": 1}, {\"coordinates\": [165.15745544433594, -21.347379684448242], \"count\": 2}, {\"coordinates\": [165.2270050048828, -21.476699829101562], \"count\": 1}, {\"coordinates\": [164.9567746, -21.1690443], \"count\": 1}, {\"coordinates\": [164.3755645751953, -20.266389846801758], \"count\": 1}, {\"coordinates\": [164.9563889, -21.1738889], \"count\": 1}, {\"coordinates\": [164.37554931640625, -20.266389846801758], \"count\": 2}, {\"coordinates\": [165.2269744873047, -21.476694107055664], \"count\": 1}, {\"coordinates\": [165.062212540713, -21.3505494839662], \"count\": 1}, {\"coordinates\": [165.04898071289062, -21.312410354614258], \"count\": 1}, {\"coordinates\": [164.97154298047252, -21.337326349608617], \"count\": 1}, {\"coordinates\": [165.037777777778, -21.3411111111111], \"count\": 5}, {\"coordinates\": [165.041876, -21.33382], \"count\": 4}, {\"coordinates\": [164.976666666667, -21.1794444444444], \"count\": 1}, {\"coordinates\": [164.958333333333, -21.1777777777778], \"count\": 2}, {\"coordinates\": [165.154444444444, -21.3466666666667], \"count\": 1}, {\"coordinates\": [164.9875164009797, -21.29225674978632], \"count\": 1}, {\"coordinates\": [165.042408, -21.33372], \"count\": 2}, {\"coordinates\": [164.290277777778, -20.2461111111111], \"count\": 1}, {\"coordinates\": [165.14697345977402, -21.423255080368467], \"count\": 1}, {\"coordinates\": [165.146577, -21.426435], \"count\": 1}, {\"coordinates\": [164.30886722888783, -20.24625396637806], \"count\": 1}, {\"coordinates\": [164.3755714, -20.26626917], \"count\": 1}, {\"coordinates\": [165.163055555556, -21.3616666666667], \"count\": 1}, {\"coordinates\": [165.1475, -21.4253], \"count\": 1}, {\"coordinates\": [164.956388888889, -21.1738888888889], \"count\": 1}, {\"coordinates\": [165.228275, -21.475743], \"count\": 1}, {\"coordinates\": [165.19010374199186, -21.39499737222945], \"count\": 1}, {\"coordinates\": [165.007419902666, -21.314804890873], \"count\": 1}, {\"coordinates\": [165.065735040973, -21.3572959414327], \"count\": 1}, {\"coordinates\": [165.1471752168982, -21.423047803864236], \"count\": 1}, {\"coordinates\": [165.1469, -21.4231], \"count\": 1}, {\"coordinates\": [165.01543911304, -21.3013842697866], \"count\": 1}, {\"coordinates\": [165.086934385499, -21.347829560759], \"count\": 1}, {\"coordinates\": [165.0378, -21.3411], \"count\": 1}, {\"coordinates\": [165.04017572, -21.33598241], \"count\": 1}]}",
+    "species_top": {
+        "Diospyros cherrieri": 80
+    },
+    "um_occurrences_true": 8,
+    "um_occurrences_false": 72,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                12.5,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                100.0,
+                42.86,
+                100.0,
+                60.0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                37.5,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                28.57,
+                0.0,
+                40.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 12.4,
+    "dbh_max": 17.8,
+    "dbh_median": 12.4,
+    "dbh_min": 7.0,
+    "height_max": 15.0,
+    "wood_density_mean": 0.77,
+    "wood_density_max": 0.77,
+    "wood_density_min": 0.77,
+    "bark_thickness_mean": 6.0,
+    "bark_thickness_max": 6.0,
+    "bark_thickness_min": 6.0,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 100.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 73.17,
+            "1500": 26.83,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 75.0,
+            "2": 25.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

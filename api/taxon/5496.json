@@ -1,0 +1,135 @@
+{
+    "id": 5496,
+    "full_name": "Sarcomelicope follicularis",
+    "authors": "T.G.Hartley    ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4780
+    },
+    "lft": 3003,
+    "rght": 3004,
+    "level": 2,
+    "parent_id": 1343,
+    "taxon_id": 5496,
+    "total_occurrences_count": 210,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.107077, -21.122677], \"count\": 38}, {\"coordinates\": [164.5407281, -20.4033112], \"count\": 1}, {\"coordinates\": [164.9472105, -21.17195501], \"count\": 1}, {\"coordinates\": [164.9538618, -21.17032925], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 1}, {\"coordinates\": [165.111632, -21.133673], \"count\": 106}, {\"coordinates\": [165.725293094, -21.378606381], \"count\": 2}, {\"coordinates\": [165.066745352741, -21.1092495107065], \"count\": 2}, {\"coordinates\": [164.86138888888888, -20.64161111111111], \"count\": 1}, {\"coordinates\": [164.78330555555556, -20.560027777777776], \"count\": 1}, {\"coordinates\": [164.77325, -20.570805555555555], \"count\": 3}, {\"coordinates\": [164.7808611111111, -20.623555555555555], \"count\": 4}, {\"coordinates\": [164.774, -20.57027777777778], \"count\": 3}, {\"coordinates\": [164.77380555555555, -20.570083333333333], \"count\": 3}, {\"coordinates\": [164.5338897705078, -20.396944046020508], \"count\": 1}, {\"coordinates\": [164.5246221, -20.3836135], \"count\": 2}, {\"coordinates\": [165.143201351166, -20.9566505432129], \"count\": 1}, {\"coordinates\": [164.5477752685547, -20.416669845581055], \"count\": 4}, {\"coordinates\": [165.143871, -20.9591237], \"count\": 1}, {\"coordinates\": [164.5267956, -20.3927884], \"count\": 1}, {\"coordinates\": [164.53750610351562, -20.406389236450195], \"count\": 3}, {\"coordinates\": [164.52833557128906, -20.40056037902832], \"count\": 3}, {\"coordinates\": [164.5333251953125, -20.399999618530273], \"count\": 1}, {\"coordinates\": [165.1548947, -21.2411851], \"count\": 1}, {\"coordinates\": [165.00885009765625, -20.89617919921875], \"count\": 1}, {\"coordinates\": [164.83056640625, -20.647220611572266], \"count\": 3}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 1}, {\"coordinates\": [165.01333618164062, -20.891389846801758], \"count\": 1}, {\"coordinates\": [164.7904228, -20.5660142], \"count\": 1}, {\"coordinates\": [164.9775493, -20.9040223], \"count\": 1}, {\"coordinates\": [164.7788391, -20.5782818], \"count\": 1}, {\"coordinates\": [164.5338897705078, -20.396940231323242], \"count\": 1}, {\"coordinates\": [164.52139282226562, -20.386669158935547], \"count\": 3}, {\"coordinates\": [164.9983571, -20.904973], \"count\": 1}, {\"coordinates\": [164.5314902, -20.3976737], \"count\": 1}, {\"coordinates\": [164.52444458007812, -20.40250015258789], \"count\": 3}, {\"coordinates\": [165.14056396484375, -20.96221923828125], \"count\": 1}, {\"coordinates\": [164.696407, -20.53459796], \"count\": 1}, {\"coordinates\": [164.6779932, -20.54067599], \"count\": 1}, {\"coordinates\": [165.48333333, -21.22655553], \"count\": 1}, {\"coordinates\": [164.6861487, -20.53962582], \"count\": 1}, {\"coordinates\": [164.87136298, -20.63993899], \"count\": 1}]}",
+    "species_top": {
+        "Sarcomelicope follicularis": 210
+    },
+    "um_occurrences_true": 9,
+    "um_occurrences_false": 201,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                1.82,
+                20.0,
+                20.0,
+                50.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                50.0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0.0,
+                0.0,
+                50.0,
+                0.0,
+                0,
+                0,
+                4.88,
+                100.0,
+                14.29,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 16.13,
+    "dbh_max": 43.0,
+    "dbh_median": 14.15,
+    "dbh_min": 5.1,
+    "height_max": 25.0,
+    "wood_density_mean": 0.83,
+    "wood_density_max": 0.83,
+    "wood_density_min": 0.83,
+    "bark_thickness_mean": 9.75,
+    "bark_thickness_max": 10.0,
+    "bark_thickness_min": 9.5,
+    "leaf_sla_mean": 11.23,
+    "leaf_sla_max": 13.06,
+    "leaf_sla_min": 10.02,
+    "leaf_area_mean": 31.12,
+    "leaf_area_max": 45.74,
+    "leaf_area_min": 22.21,
+    "leaf_thickness_mean": 220.19,
+    "leaf_thickness_max": 234.81,
+    "leaf_thickness_min": 191.95,
+    "frequencies": {
+        "dbh": {
+            "10": 75.0,
+            "20": 19.08,
+            "30": 2.63,
+            "40": 3.29,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.48,
+            "200": 0.97,
+            "300": 0.0,
+            "400": 19.81,
+            "500": 57.49,
+            "600": 7.25,
+            "700": 4.83,
+            "800": 1.45,
+            "900": 5.31,
+            "1000": 1.45,
+            "1100": 0.48,
+            "1200": 0.48
+        },
+        "rainfall": {
+            "1000": 3.35,
+            "1500": 79.9,
+            "2000": 0.96,
+            "2500": 4.31,
+            "3000": 5.74,
+            "3500": 5.74,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 1.13,
+            "2": 98.87
+        },
+        "strate": {
+            "1": 2.67,
+            "2": 25.33,
+            "3": 72.0
+        }
+    }
+}

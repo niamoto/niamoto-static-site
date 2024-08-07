@@ -1,0 +1,135 @@
+{
+    "id": 2977,
+    "full_name": "Dicksonia munzingeri",
+    "authors": "Noben & Lehnert",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 8039
+    },
+    "lft": 897,
+    "rght": 898,
+    "level": 2,
+    "parent_id": 668,
+    "taxon_id": 2977,
+    "total_occurrences_count": 81,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.2854444444, -21.7799166667], \"count\": 4}, {\"coordinates\": [165.277313, -21.177801], \"count\": 10}, {\"coordinates\": [165.28566666666666, -21.1775], \"count\": 1}, {\"coordinates\": [165.26925, -21.177138888888887], \"count\": 6}, {\"coordinates\": [165.00750732421875, -20.898889541625977], \"count\": 1}, {\"coordinates\": [166.15, -21.75], \"count\": 1}, {\"coordinates\": [165.84146118164062, -21.764385223388672], \"count\": 1}, {\"coordinates\": [165.8008575439453, -21.76771354675293], \"count\": 1}, {\"coordinates\": [165.2675018310547, -21.176389694213867], \"count\": 4}, {\"coordinates\": [166.2469482421875, -21.66611099243164], \"count\": 1}, {\"coordinates\": [165.8652801513672, -21.625560760498047], \"count\": 3}, {\"coordinates\": [165.866943359375, -21.622499465942383], \"count\": 3}, {\"coordinates\": [166.466570237667, -22.040432185], \"count\": 1}, {\"coordinates\": [166.5057830810547, -22.042369842529297], \"count\": 1}, {\"coordinates\": [166.24908447265625, -21.671499252319336], \"count\": 4}, {\"coordinates\": [166.1527491, -21.7495655], \"count\": 5}, {\"coordinates\": [165.0059814453125, -20.89887046813965], \"count\": 8}, {\"coordinates\": [166.28555297851562, -21.780000686645508], \"count\": 4}, {\"coordinates\": [165.8686017, -21.622486], \"count\": 4}, {\"coordinates\": [165.27754860000002, -21.177607233333333], \"count\": 1}, {\"coordinates\": [165.26666259765625, -21.183332443237305], \"count\": 1}, {\"coordinates\": [165.81074428898683, -21.61053673194501], \"count\": 1}, {\"coordinates\": [165.26925, -21.1771388888889], \"count\": 2}, {\"coordinates\": [166.1494, -21.7525], \"count\": 1}, {\"coordinates\": [166.67231422411209, -22.099914075462717], \"count\": 1}, {\"coordinates\": [165.00598, -20.89887], \"count\": 3}, {\"coordinates\": [165.0125, -20.9094], \"count\": 1}, {\"coordinates\": [166.24908, -21.6715], \"count\": 2}, {\"coordinates\": [165.8653, -21.6256], \"count\": 1}, {\"coordinates\": [166.1581, -21.7564], \"count\": 1}, {\"coordinates\": [165.26924233393106, -21.177137847147826], \"count\": 1}, {\"coordinates\": [165.285666666667, -21.1775], \"count\": 1}, {\"coordinates\": [166.2469, -21.6661], \"count\": 1}]}",
+    "species_top": {
+        "Dicksonia munzingeri": 81
+    },
+    "um_occurrences_true": 40,
+    "um_occurrences_false": 41,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                80.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 12.56,
+    "dbh_max": 23.1,
+    "dbh_median": 11.8,
+    "dbh_min": 7.0,
+    "height_max": 4.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 83.33,
+            "20": 16.67,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 1.27,
+            "300": 0.0,
+            "400": 6.33,
+            "500": 10.13,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 17.72,
+            "900": 39.24,
+            "1000": 2.53,
+            "1100": 7.59,
+            "1200": 15.19
+        },
+        "rainfall": {
+            "1000": 1.25,
+            "1500": 1.25,
+            "2000": 16.25,
+            "2500": 47.5,
+            "3000": 33.75,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 14.29,
+            "2": 85.71
+        },
+        "strate": {
+            "1": 40.0,
+            "2": 40.0,
+            "3": 20.0
+        }
+    }
+}

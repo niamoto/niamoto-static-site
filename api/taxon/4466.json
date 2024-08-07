@@ -1,0 +1,130 @@
+{
+    "id": 4466,
+    "full_name": "Nothofagus discoidea",
+    "authors": "(Baum.-Bod.) Steenis",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 347
+    },
+    "lft": 2171,
+    "rght": 2172,
+    "level": 2,
+    "parent_id": 1116,
+    "taxon_id": 4466,
+    "total_occurrences_count": 149,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.6958044, -22.1642337], \"count\": 8}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 8}, {\"coordinates\": [166.7166589, -22.1844762], \"count\": 4}, {\"coordinates\": [166.5393865, -22.1956563], \"count\": 4}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.66500005, -22.18305556], \"count\": 22}, {\"coordinates\": [166.62572499, -22.19208599], \"count\": 4}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 1}, {\"coordinates\": [166.6247222, -22.19758336], \"count\": 1}, {\"coordinates\": [166.699267, -22.1525116], \"count\": 2}, {\"coordinates\": [166.0, -21.75], \"count\": 40}, {\"coordinates\": [166.86666870117188, -22.183332443237305], \"count\": 2}, {\"coordinates\": [166.6555556, -22.1166667], \"count\": 1}, {\"coordinates\": [166.646728515625, -22.11850929260254], \"count\": 5}, {\"coordinates\": [166.53334045410156, -22.183332443237305], \"count\": 5}, {\"coordinates\": [166.6925048828125, -22.167219161987305], \"count\": 6}, {\"coordinates\": [166.6495729, -22.1187974], \"count\": 2}, {\"coordinates\": [166.52407836914062, -22.183860778808594], \"count\": 2}, {\"coordinates\": [166.54483032226562, -22.1838321685791], \"count\": 1}, {\"coordinates\": [166.69602966308594, -22.155580520629883], \"count\": 4}, {\"coordinates\": [166.7112684, -22.2432319], \"count\": 2}, {\"coordinates\": [166.69403076171875, -22.1652774810791], \"count\": 1}, {\"coordinates\": [166.5967254638672, -22.130550384521484], \"count\": 1}, {\"coordinates\": [166.81138887, -22.24972223], \"count\": 1}, {\"coordinates\": [166.866667, -22.183333], \"count\": 2}, {\"coordinates\": [166.69603, -22.15558], \"count\": 3}, {\"coordinates\": [166.64673, -22.11851], \"count\": 5}, {\"coordinates\": [166.52408, -22.18386], \"count\": 2}, {\"coordinates\": [166.6459011, -22.1181619], \"count\": 1}, {\"coordinates\": [166.53333, -22.18333], \"count\": 5}, {\"coordinates\": [166.6838787, -22.16518592], \"count\": 1}, {\"coordinates\": [165.0813889, -20.9197222], \"count\": 1}, {\"coordinates\": [166.90690461684136, -22.17132660813812], \"count\": 1}]}",
+    "species_top": {
+        "Nothofagus discoidea": 149
+    },
+    "um_occurrences_true": 148,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                50.0,
+                50.0,
+                28.57,
+                0.0,
+                0,
+                100.0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                50.0,
+                0.0,
+                57.14,
+                0.0,
+                0,
+                0.0,
+                50.0,
+                0,
+                0,
+                0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 32.8,
+    "dbh_max": 66.5,
+    "dbh_median": 27.7,
+    "dbh_min": 11.8,
+    "height_max": 25.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 26.67,
+            "20": 33.33,
+            "30": 3.33,
+            "40": 13.33,
+            "50": 23.33,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 3.5,
+            "200": 29.37,
+            "300": 34.27,
+            "400": 3.5,
+            "500": 0.7,
+            "600": 0.7,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 27.97,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 11.41,
+            "2000": 38.93,
+            "2500": 45.64,
+            "3000": 4.03,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

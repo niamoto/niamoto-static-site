@@ -1,0 +1,135 @@
+{
+    "id": 15254,
+    "full_name": "Albizia saman",
+    "authors": "(Jacq.) Merr.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 378
+    },
+    "lft": 1233,
+    "rght": 1234,
+    "level": 2,
+    "parent_id": 280,
+    "taxon_id": 15254,
+    "total_occurrences_count": 46,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4949611, -22.2011687], \"count\": 1}, {\"coordinates\": [166.4847417, -22.2077587], \"count\": 2}, {\"coordinates\": [164.9677844, -21.0372637], \"count\": 1}, {\"coordinates\": [164.92173872274, -21.0421626158471], \"count\": 6}, {\"coordinates\": [164.927979130284, -21.1431618168549], \"count\": 3}, {\"coordinates\": [164.919680362163, -21.0690161529907], \"count\": 1}, {\"coordinates\": [164.91926351445, -21.0681824575643], \"count\": 1}, {\"coordinates\": [164.968582764473, -21.0807318693905], \"count\": 2}, {\"coordinates\": [164.977465687462, -21.0836769875428], \"count\": 2}, {\"coordinates\": [164.926723595287, -21.141743244141], \"count\": 1}, {\"coordinates\": [164.922309249564, -21.0399219992], \"count\": 1}, {\"coordinates\": [165.240768432617, -21.2571277618408], \"count\": 1}, {\"coordinates\": [165.004123, -21.081768], \"count\": 1}, {\"coordinates\": [164.985349319603, -21.0801036465473], \"count\": 1}, {\"coordinates\": [164.9091314, -20.9462264], \"count\": 1}, {\"coordinates\": [166.011448, -21.97927], \"count\": 1}, {\"coordinates\": [165.204110797495, -21.2694239616394], \"count\": 1}, {\"coordinates\": [165.4768639, -21.505174], \"count\": 1}, {\"coordinates\": [165.8594444, -21.6388889], \"count\": 1}, {\"coordinates\": [164.838428532723, -21.0586280474475], \"count\": 2}, {\"coordinates\": [164.841407944975, -21.0698724669026], \"count\": 1}, {\"coordinates\": [164.849659758814, -21.0527809894267], \"count\": 1}, {\"coordinates\": [164.748804010771, -20.7644456726401], \"count\": 1}, {\"coordinates\": [164.296426858984, -20.411888143119], \"count\": 1}, {\"coordinates\": [164.916690544121, -21.0261779410423], \"count\": 1}, {\"coordinates\": [164.307944482785, -20.4894573808422], \"count\": 1}, {\"coordinates\": [164.918056655004, -21.1397263613089], \"count\": 1}, {\"coordinates\": [164.308041024222, -20.4897474673097], \"count\": 1}, {\"coordinates\": [166.3980928185063, -22.13868931780885], \"count\": 1}, {\"coordinates\": [164.320604083092, -20.4255108099778], \"count\": 1}, {\"coordinates\": [166.44756200000035, -22.154926000659135], \"count\": 1}, {\"coordinates\": [165.09209631670925, -21.099902240774494], \"count\": 1}, {\"coordinates\": [164.812442008203, -21.0457998122969], \"count\": 1}, {\"coordinates\": [165.268230716474, -20.8776812302915], \"count\": 1}, {\"coordinates\": [164.812443641625, -21.0457094948119], \"count\": 1}]}",
+    "species_top": {
+        "Albizia saman": 46
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 45,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0.0,
+                50.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                11.11,
+                0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 33.21,
+    "dbh_max": 200.0,
+    "dbh_median": 18.75,
+    "dbh_min": 10.5,
+    "height_max": 15.0,
+    "wood_density_mean": 0.46,
+    "wood_density_max": 0.51,
+    "wood_density_min": 0.43,
+    "bark_thickness_mean": 10.83,
+    "bark_thickness_max": 19.0,
+    "bark_thickness_min": 7.0,
+    "leaf_sla_mean": 19.78,
+    "leaf_sla_max": 21.81,
+    "leaf_sla_min": 15.86,
+    "leaf_area_mean": 11.4,
+    "leaf_area_max": 17.81,
+    "leaf_area_min": 6.97,
+    "leaf_thickness_mean": 129.14,
+    "leaf_thickness_max": 143.2,
+    "leaf_thickness_min": 121.03,
+    "frequencies": {
+        "dbh": {
+            "10": 55.0,
+            "20": 10.0,
+            "30": 10.0,
+            "40": 15.0,
+            "50": 5.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 5.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 40.0,
+            "200": 40.0,
+            "300": 10.0,
+            "400": 10.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 91.11,
+            "1500": 4.44,
+            "2000": 4.44,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 66.67,
+            "2": 33.33
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

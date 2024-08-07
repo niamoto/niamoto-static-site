@@ -1,0 +1,131 @@
+{
+    "id": 4564,
+    "full_name": "Oxera baladica",
+    "authors": "Vieill.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1292
+    },
+    "lft": 1365,
+    "rght": 1368,
+    "level": 2,
+    "parent_id": 1152,
+    "taxon_id": 4564,
+    "total_occurrences_count": 58,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.5235, -21.61486], \"count\": 1}, {\"coordinates\": [164.7309708333, -20.9253016667], \"count\": 1}, {\"coordinates\": [166.4119277, -21.8878731], \"count\": 1}, {\"coordinates\": [164.4661111, -20.5611472], \"count\": 2}, {\"coordinates\": [164.74863229, -21.01040027], \"count\": 1}, {\"coordinates\": [164.02729918, -20.24998125], \"count\": 1}, {\"coordinates\": [164.3969349, -20.64778773], \"count\": 1}, {\"coordinates\": [164.25913668, -20.48448748], \"count\": 1}, {\"coordinates\": [164.03300058, -20.25509205], \"count\": 1}, {\"coordinates\": [164.57626342, -20.74812076], \"count\": 1}, {\"coordinates\": [165.09845612, -21.31238322], \"count\": 1}, {\"coordinates\": [164.81140299, -21.0032184], \"count\": 1}, {\"coordinates\": [164.727404693108, -20.9719291499958], \"count\": 1}, {\"coordinates\": [164.403629656881, -20.5699950456619], \"count\": 1}, {\"coordinates\": [164.20379800000052, -20.487543000617514], \"count\": 1}, {\"coordinates\": [165.52419834137, -21.6171986897786], \"count\": 1}, {\"coordinates\": [165.1569290645, -21.3050536718333], \"count\": 1}, {\"coordinates\": [164.480264894664, -20.7897055149078], \"count\": 1}, {\"coordinates\": [164.20578000000054, -20.43562000061621], \"count\": 1}, {\"coordinates\": [164.22862026420302, -20.476216039918032], \"count\": 1}, {\"coordinates\": [165.523987556765, -21.615969559022], \"count\": 1}, {\"coordinates\": [164.8259205, -21.0125548], \"count\": 2}, {\"coordinates\": [164.2339671418789, -20.486461961999396], \"count\": 1}, {\"coordinates\": [164.23897907767557, -20.486558317030912], \"count\": 1}, {\"coordinates\": [164.579391670227, -20.8134000142415], \"count\": 1}, {\"coordinates\": [164.198929773999, -20.4899332933481], \"count\": 1}, {\"coordinates\": [164.19249110802403, -20.489052385919425], \"count\": 1}, {\"coordinates\": [164.723924140916, -20.9742471113021], \"count\": 1}, {\"coordinates\": [164.211193964911, -20.4522190434264], \"count\": 2}, {\"coordinates\": [165.158051317667, -21.3055150956667], \"count\": 1}, {\"coordinates\": [165.0936177, -21.2291385233333], \"count\": 1}, {\"coordinates\": [164.22393766344922, -20.485349698601105], \"count\": 1}, {\"coordinates\": [165.043305036491, -21.218957847498437], \"count\": 1}, {\"coordinates\": [165.1168067, -21.3009], \"count\": 2}, {\"coordinates\": [164.6914151, -20.93200282], \"count\": 1}, {\"coordinates\": [164.366116650899, -20.6372716903687], \"count\": 1}, {\"coordinates\": [164.722324196566, -20.9756112302592], \"count\": 1}, {\"coordinates\": [165.0876191, -21.3202152], \"count\": 1}, {\"coordinates\": [164.2348692223679, -20.475468887367775], \"count\": 1}, {\"coordinates\": [164.691428947449, -20.9319637298584], \"count\": 1}, {\"coordinates\": [164.18134740074206, -20.438592991445436], \"count\": 1}, {\"coordinates\": [165.144456139813, -20.8995095526471], \"count\": 1}, {\"coordinates\": [164.73093242202, -20.96827799066], \"count\": 1}, {\"coordinates\": [164.22017867848115, -20.48207927933293], \"count\": 1}, {\"coordinates\": [164.23052907757398, -20.476236412866086], \"count\": 1}, {\"coordinates\": [164.23629158290586, -20.48449091931935], \"count\": 1}, {\"coordinates\": [165.144, -20.8995], \"count\": 1}, {\"coordinates\": [164.371387497584, -20.6331615130107], \"count\": 1}, {\"coordinates\": [163.6805138889, -19.7581972222], \"count\": 2}, {\"coordinates\": [166.253075, -21.9685722], \"count\": 1}, {\"coordinates\": [166.3544258, -21.9331227], \"count\": 1}, {\"coordinates\": [164.22736096, -20.47680501], \"count\": 1}, {\"coordinates\": [164.18739801, -20.4358586], \"count\": 1}]}",
+    "species_top": {
+        "Oxera baladica": 55,
+        "Oxera baladica subsp. nuda": 3
+    },
+    "um_occurrences_true": 51,
+    "um_occurrences_false": 7,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                0,
+                50.0,
+                0,
+                0,
+                0.0,
+                100.0,
+                0,
+                20.0,
+                100.0,
+                50.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0,
+                50.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.5,
+    "dbh_max": 10.0,
+    "dbh_median": 7.5,
+    "dbh_min": 5.0,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 29.55,
+            "200": 22.73,
+            "300": 11.36,
+            "400": 20.45,
+            "500": 4.55,
+            "600": 4.55,
+            "700": 2.27,
+            "800": 2.27,
+            "900": 0.0,
+            "1000": 2.27,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 51.06,
+            "1500": 38.3,
+            "2000": 8.51,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 2.13,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 31.58,
+            "2": 68.42
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 12855,
+    "full_name": "Planchonella cauliflora",
+    "authors": "Munzinger & Swenson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5886
+    },
+    "lft": 3283,
+    "rght": 3284,
+    "level": 2,
+    "parent_id": 1221,
+    "taxon_id": 12855,
+    "total_occurrences_count": 25,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.967956, -21.8568645], \"count\": 2}, {\"coordinates\": [164.3083333, -20.4894444], \"count\": 2}, {\"coordinates\": [165.9775, -21.7747222], \"count\": 4}, {\"coordinates\": [166.0, -21.75], \"count\": 1}, {\"coordinates\": [165.97999572753906, -21.770000457763672], \"count\": 3}, {\"coordinates\": [165.9774932861328, -21.77471923828125], \"count\": 3}, {\"coordinates\": [165.97695922851562, -21.88334083557129], \"count\": 1}, {\"coordinates\": [164.30833435058594, -20.48944091796875], \"count\": 1}, {\"coordinates\": [164.30999755859375, -20.489999771118164], \"count\": 1}, {\"coordinates\": [164.3083, -20.4894], \"count\": 1}, {\"coordinates\": [165.97728138448247, -21.775055445221778], \"count\": 2}, {\"coordinates\": [165.9775, -21.7747], \"count\": 2}, {\"coordinates\": [165.9837, -21.76598], \"count\": 2}]}",
+    "species_top": {
+        "Planchonella cauliflora": 25
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 22,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                50.0,
+                100.0,
+                100.0,
+                0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.73,
+    "dbh_max": 20.0,
+    "dbh_median": 15.73,
+    "dbh_min": 11.46,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 50.0,
+            "20": 50.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 66.67,
+            "200": 27.78,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 5.56,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 29.17,
+            "1500": 66.67,
+            "2000": 4.17,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 12.0,
+            "2": 88.0
+        }
+    }
+}

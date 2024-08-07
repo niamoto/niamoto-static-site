@@ -1,0 +1,135 @@
+{
+    "id": 3897,
+    "full_name": "Kentiopsis magnifica",
+    "authors": "(H.E.Moore) Pintaud & Hodel",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": null
+    },
+    "lft": 413,
+    "rght": 414,
+    "level": 2,
+    "parent_id": 917,
+    "taxon_id": 3897,
+    "total_occurrences_count": 157,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.37351, -20.2884525], \"count\": 15}, {\"coordinates\": [164.4378741737, -20.3060228471], \"count\": 35}, {\"coordinates\": [164.3588236, -20.2983234], \"count\": 5}, {\"coordinates\": [164.3800048828125, -20.299999237060547], \"count\": 8}, {\"coordinates\": [164.44778442382812, -20.31056022644043], \"count\": 8}, {\"coordinates\": [164.438155202071, -20.3058708349864], \"count\": 1}, {\"coordinates\": [164.3702850341797, -20.29138946533203], \"count\": 16}, {\"coordinates\": [164.4199981689453, -20.299999237060547], \"count\": 1}, {\"coordinates\": [164.3702392578125, -20.291460037231445], \"count\": 13}, {\"coordinates\": [164.35556030273438, -20.301389694213867], \"count\": 5}, {\"coordinates\": [164.438333320618, -20.306516679128], \"count\": 1}, {\"coordinates\": [164.443560866667, -20.3068194166667], \"count\": 1}, {\"coordinates\": [164.4407196044922, -20.382883071899414], \"count\": 1}, {\"coordinates\": [164.37028, -20.29139], \"count\": 16}, {\"coordinates\": [164.38, -20.3], \"count\": 4}, {\"coordinates\": [164.37024, -20.29146], \"count\": 13}, {\"coordinates\": [164.3556, -20.3014], \"count\": 2}, {\"coordinates\": [164.3703, -20.2914], \"count\": 3}, {\"coordinates\": [164.35556, -20.30139], \"count\": 5}, {\"coordinates\": [164.437666, -20.302118], \"count\": 1}, {\"coordinates\": [164.41, -20.3], \"count\": 1}, {\"coordinates\": [164.39754, -20.30792], \"count\": 2}]}",
+    "species_top": {
+        "Kentiopsis magnifica": 157
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 157,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                100.0,
+                0,
+                0,
+                0.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0,
+                20.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 51.52,
+    "dbh_max": 281.36,
+    "dbh_median": 19.4,
+    "dbh_min": 10.0,
+    "height_max": 25.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 52.5,
+            "20": 35.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 12.5,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 1.28,
+            "400": 46.15,
+            "500": 52.56,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.64,
+            "1500": 54.14,
+            "2000": 45.22,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 42.86,
+            "2": 21.43,
+            "3": 35.71
+        }
+    }
+}

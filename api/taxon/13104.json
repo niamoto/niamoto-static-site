@@ -1,0 +1,118 @@
+{
+    "id": 13104,
+    "full_name": "Kanakomyrtus mcphersonii",
+    "authors": "N.Snow",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5998
+    },
+    "lft": 1901,
+    "rght": 1902,
+    "level": 2,
+    "parent_id": 13098,
+    "taxon_id": 13104,
+    "total_occurrences_count": 36,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7742238, -20.5856472], \"count\": 1}, {\"coordinates\": [164.6022186279297, -20.459999084472656], \"count\": 3}, {\"coordinates\": [164.6020050048828, -20.459999084472656], \"count\": 1}, {\"coordinates\": [164.6022222, -20.46], \"count\": 1}, {\"coordinates\": [164.7700977, -20.5887274], \"count\": 1}, {\"coordinates\": [164.76873779296875, -20.58746910095215], \"count\": 1}, {\"coordinates\": [164.59361267089844, -20.458059310913086], \"count\": 1}, {\"coordinates\": [164.76666259765625, -20.600000381469727], \"count\": 1}, {\"coordinates\": [164.7704605995493, -20.586734511892857], \"count\": 1}, {\"coordinates\": [164.7680451219171, -20.581271119093074], \"count\": 1}, {\"coordinates\": [164.7677673158895, -20.581739292196467], \"count\": 1}, {\"coordinates\": [164.77032903255076, -20.58669917876427], \"count\": 1}, {\"coordinates\": [164.76818945813417, -20.580495414426373], \"count\": 1}, {\"coordinates\": [164.77045112650163, -20.58377562615153], \"count\": 1}, {\"coordinates\": [164.76801787761718, -20.582479827159016], \"count\": 1}, {\"coordinates\": [164.76864570133952, -20.590995417866765], \"count\": 2}, {\"coordinates\": [164.76791347200677, -20.58121502313857], \"count\": 1}, {\"coordinates\": [164.6022, -20.46], \"count\": 1}, {\"coordinates\": [164.7690879189491, -20.588970310644424], \"count\": 1}, {\"coordinates\": [164.60241522319785, -20.459796399989077], \"count\": 1}, {\"coordinates\": [164.7677808585696, -20.581211863476394], \"count\": 1}, {\"coordinates\": [164.7682857424038, -20.580427203262524], \"count\": 1}, {\"coordinates\": [164.76769512142718, -20.581750123094228], \"count\": 1}, {\"coordinates\": [164.76852873175758, -20.590996292182375], \"count\": 1}, {\"coordinates\": [164.7678228383766, -20.581819941729293], \"count\": 1}, {\"coordinates\": [164.77405, -20.58581], \"count\": 1}, {\"coordinates\": [164.77013285849083, -20.58512712702021], \"count\": 1}, {\"coordinates\": [164.77001585335128, -20.58758676708942], \"count\": 1}, {\"coordinates\": [164.60418532114446, -20.462450471485408], \"count\": 1}, {\"coordinates\": [164.77011563995632, -20.58737748328322], \"count\": 1}, {\"coordinates\": [164.77040127900827, -20.588159922980875], \"count\": 1}, {\"coordinates\": [164.76773289282494, -20.58185509532611], \"count\": 1}, {\"coordinates\": [164.76826218405267, -20.580370331963945], \"count\": 1}]}",
+    "species_top": {
+        "Kanakomyrtus mcphersonii": 36
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 36,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 4.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 5.56,
+            "1100": 0.0,
+            "1200": 94.44
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 25.0,
+            "3000": 0.0,
+            "3500": 72.22,
+            "4000": 0.0,
+            "4500": 2.78
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        }
+    }
+}

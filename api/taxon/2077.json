@@ -1,0 +1,130 @@
+{
+    "id": 2077,
+    "full_name": "Baloghia anisomera",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 839
+    },
+    "lft": 1113,
+    "rght": 1114,
+    "level": 2,
+    "parent_id": 383,
+    "taxon_id": 2077,
+    "total_occurrences_count": 47,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.7325, -22.0286111], \"count\": 1}, {\"coordinates\": [165.7115519, -21.3426426], \"count\": 1}, {\"coordinates\": [165.7100263, -21.3363902], \"count\": 1}, {\"coordinates\": [166.7264118, -22.0295756], \"count\": 2}, {\"coordinates\": [166.5881181, -22.0161533], \"count\": 1}, {\"coordinates\": [165.8265424, -21.3973133], \"count\": 1}, {\"coordinates\": [166.73333740234375, -22.016666412353516], \"count\": 1}, {\"coordinates\": [165.7119529, -21.3047226], \"count\": 2}, {\"coordinates\": [166.07075766973327, -21.80238456367634], \"count\": 1}, {\"coordinates\": [165.7007398, -21.3599435], \"count\": 1}, {\"coordinates\": [166.72305297851562, -22.032779693603516], \"count\": 5}, {\"coordinates\": [165.71665954589844, -21.433330535888672], \"count\": 1}, {\"coordinates\": [165.7610801, -21.3017963], \"count\": 1}, {\"coordinates\": [166.818115234375, -22.32430076599121], \"count\": 3}, {\"coordinates\": [165.690591684977, -21.3544533411662], \"count\": 1}, {\"coordinates\": [165.7780137564986, -21.436433550612012], \"count\": 1}, {\"coordinates\": [165.7738486211746, -21.439528065443977], \"count\": 1}, {\"coordinates\": [165.69749450683594, -21.362979888916016], \"count\": 1}, {\"coordinates\": [166.59952800000036, -22.01153200065558], \"count\": 1}, {\"coordinates\": [166.64332580566406, -21.996110916137695], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 2}, {\"coordinates\": [166.72306, -22.03278], \"count\": 5}, {\"coordinates\": [165.68778925155559, -21.354486050912232], \"count\": 1}, {\"coordinates\": [166.7231, -22.0328], \"count\": 2}, {\"coordinates\": [165.6975, -21.3631], \"count\": 1}, {\"coordinates\": [165.75672391901006, -21.30585579069291], \"count\": 1}, {\"coordinates\": [165.69749, -21.36298], \"count\": 1}, {\"coordinates\": [165.7008821387007, -21.310912541223974], \"count\": 1}, {\"coordinates\": [165.7083, -21.3456], \"count\": 1}, {\"coordinates\": [166.655, -21.9919], \"count\": 1}, {\"coordinates\": [166.64333, -21.99611], \"count\": 1}, {\"coordinates\": [165.7086, -21.3078], \"count\": 1}, {\"coordinates\": [166.7325, -22.0286], \"count\": 1}]}",
+    "species_top": {
+        "Baloghia anisomera": 47
+    },
+    "um_occurrences_true": 45,
+    "um_occurrences_false": 2,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                50.0,
+                100.0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                50.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 30.0,
+    "dbh_max": 30.0,
+    "dbh_median": 30.0,
+    "dbh_min": 30.0,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 100.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 22.73,
+            "200": 13.64,
+            "300": 22.73,
+            "400": 13.64,
+            "500": 18.18,
+            "600": 4.55,
+            "700": 4.55,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 2.13,
+            "1500": 29.79,
+            "2000": 21.28,
+            "2500": 36.17,
+            "3000": 2.13,
+            "3500": 8.51,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 4.0,
+            "2": 96.0
+        }
+    }
+}

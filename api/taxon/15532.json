@@ -1,0 +1,135 @@
+{
+    "id": 15532,
+    "full_name": "Myrsine modesta (Mez) Ricketson & Pipoly subsp. modesta",
+    "authors": null,
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 5927
+    },
+    "lft": 2540,
+    "rght": 2541,
+    "level": 3,
+    "parent_id": 15494,
+    "taxon_id": 15532,
+    "total_occurrences_count": 17,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7444444, -20.6022222], \"count\": 1}, {\"coordinates\": [164.7444444, -20.6227778], \"count\": 1}, {\"coordinates\": [166.3454147, -22.0625724], \"count\": 2}, {\"coordinates\": [165.5602127, -21.4258858], \"count\": 1}, {\"coordinates\": [164.7842333, -20.6259444], \"count\": 1}, {\"coordinates\": [166.5131965, -22.1749806], \"count\": 1}, {\"coordinates\": [165.5606286, -21.4441385], \"count\": 1}, {\"coordinates\": [164.7912657, -20.5644516], \"count\": 1}, {\"coordinates\": [164.92032939444445, -20.95063654722222], \"count\": 1}, {\"coordinates\": [165.280312, -21.190931], \"count\": 2}, {\"coordinates\": [164.72730555555555, -20.586083333333335], \"count\": 1}, {\"coordinates\": [166.2469444, -21.6661111], \"count\": 1}, {\"coordinates\": [164.5958505, -20.4586492], \"count\": 1}, {\"coordinates\": [165.2454728, -20.9978359], \"count\": 1}, {\"coordinates\": [165.1548947, -21.2411851], \"count\": 1}]}",
+    "species_top": {
+        "Myrsine modesta (Mez) Ricketson & Pipoly subsp. modesta": 17
+    },
+    "um_occurrences_true": 5,
+    "um_occurrences_false": 12,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                100.0,
+                0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                100.0,
+                100.0,
+                75.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 9.55,
+    "dbh_max": 13.7,
+    "dbh_median": 8.8,
+    "dbh_min": 6.9,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 5.88,
+            "300": 11.76,
+            "400": 5.88,
+            "500": 11.76,
+            "600": 23.53,
+            "700": 5.88,
+            "800": 11.76,
+            "900": 5.88,
+            "1000": 5.88,
+            "1100": 11.76,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 11.76,
+            "2000": 23.53,
+            "2500": 29.41,
+            "3000": 29.41,
+            "3500": 0.0,
+            "4000": 5.88,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

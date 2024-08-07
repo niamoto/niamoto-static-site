@@ -1,0 +1,130 @@
+{
+    "id": 6350,
+    "full_name": "Zygogynum vinkii",
+    "authors": "Sampson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5055
+    },
+    "lft": 3653,
+    "rght": 3654,
+    "level": 2,
+    "parent_id": 1575,
+    "taxon_id": 6350,
+    "total_occurrences_count": 38,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.702832, -21.5214633], \"count\": 1}, {\"coordinates\": [165.771, -21.5566], \"count\": 1}, {\"coordinates\": [164.7954147, -20.5604561], \"count\": 1}, {\"coordinates\": [164.7943682, -20.5615867], \"count\": 3}, {\"coordinates\": [164.73333, -20.6], \"count\": 1}, {\"coordinates\": [165.2266667, -21.0025], \"count\": 1}, {\"coordinates\": [164.677993, -20.540676], \"count\": 2}, {\"coordinates\": [164.77608333333333, -20.6125], \"count\": 1}, {\"coordinates\": [164.73333740234375, -20.600000381469727], \"count\": 7}, {\"coordinates\": [164.71083068847656, -20.486940383911133], \"count\": 2}, {\"coordinates\": [164.71083068847656, -20.4869441986084], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.77806091308594, -20.62306022644043], \"count\": 1}, {\"coordinates\": [164.7827236, -20.5740593], \"count\": 1}, {\"coordinates\": [165.1894444, -20.8325], \"count\": 1}, {\"coordinates\": [165.771261379833, -21.5565808638333], \"count\": 1}, {\"coordinates\": [165.6999969482422, -21.566667556762695], \"count\": 2}, {\"coordinates\": [165.7015152, -21.5459901], \"count\": 1}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 1}, {\"coordinates\": [164.81666564941406, -20.600000381469727], \"count\": 2}, {\"coordinates\": [165.18953166008, -20.8327038447062], \"count\": 1}, {\"coordinates\": [164.5833282470703, -20.450000762939453], \"count\": 1}, {\"coordinates\": [164.8219889654721, -20.59163433774781], \"count\": 1}, {\"coordinates\": [164.74000549316406, -20.613611221313477], \"count\": 1}, {\"coordinates\": [164.76666259765625, -20.600000381469727], \"count\": 1}, {\"coordinates\": [164.78334045410156, -20.600000381469727], \"count\": 1}]}",
+    "species_top": {
+        "Zygogynum vinkii": 38
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 36,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                100.0,
+                0,
+                100.0,
+                0,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                0.0,
+                0,
+                50.0,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                100.0,
+                100.0,
+                40.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.93,
+    "dbh_max": 11.5,
+    "dbh_median": 7.55,
+    "dbh_min": 5.1,
+    "height_max": 9.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 8.11,
+            "300": 27.03,
+            "400": 8.11,
+            "500": 10.81,
+            "600": 16.22,
+            "700": 5.41,
+            "800": 5.41,
+            "900": 5.41,
+            "1000": 8.11,
+            "1100": 0.0,
+            "1200": 5.41
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 7.89,
+            "2000": 7.89,
+            "2500": 44.74,
+            "3000": 23.68,
+            "3500": 10.53,
+            "4000": 2.63,
+            "4500": 2.63
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

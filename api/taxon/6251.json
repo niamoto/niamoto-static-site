@@ -1,0 +1,130 @@
+{
+    "id": 6251,
+    "full_name": "Xanthostemon velutinus",
+    "authors": "(Gugerli) J.W.Dawson   ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4323
+    },
+    "lft": 2155,
+    "rght": 2156,
+    "level": 2,
+    "parent_id": 1553,
+    "taxon_id": 6251,
+    "total_occurrences_count": 85,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.9746661, -22.1882755], \"count\": 5}, {\"coordinates\": [166.9972287, -22.2614004], \"count\": 2}, {\"coordinates\": [166.4896179, -21.8127666], \"count\": 1}, {\"coordinates\": [166.5855278, -22.252], \"count\": 1}, {\"coordinates\": [166.92011, -22.32465], \"count\": 1}, {\"coordinates\": [166.9072063, -22.181529], \"count\": 1}, {\"coordinates\": [166.7042186, -22.2905383], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 13}, {\"coordinates\": [166.91105586, -22.32504244], \"count\": 1}, {\"coordinates\": [166.91424722222223, -22.32207777777778], \"count\": 4}, {\"coordinates\": [166.93077222222223, -22.323075], \"count\": 1}, {\"coordinates\": [166.9188, -22.31930277777778], \"count\": 2}, {\"coordinates\": [166.91572222222223, -22.321177777777777], \"count\": 3}, {\"coordinates\": [166.9713897705078, -22.191389083862305], \"count\": 3}, {\"coordinates\": [166.41082763671875, -21.724720001220703], \"count\": 1}, {\"coordinates\": [166.8811261, -22.0602682], \"count\": 1}, {\"coordinates\": [166.993896484375, -22.264440536499023], \"count\": 4}, {\"coordinates\": [166.41402, -21.721534], \"count\": 1}, {\"coordinates\": [166.97283935546875, -22.1883602142334], \"count\": 1}, {\"coordinates\": [166.48638916015625, -21.81583023071289], \"count\": 1}, {\"coordinates\": [166.93333435058594, -22.149999618530273], \"count\": 1}, {\"coordinates\": [166.701, -22.3080999999991], \"count\": 1}, {\"coordinates\": [166.410987657016, -21.7249510697915], \"count\": 1}, {\"coordinates\": [166.414, -21.7214999999991], \"count\": 1}, {\"coordinates\": [166.974666105682, -22.1882754581048], \"count\": 10}, {\"coordinates\": [166.641698553865, -22.275796427079], \"count\": 2}, {\"coordinates\": [166.490186721371, -21.8130171300757], \"count\": 3}, {\"coordinates\": [166.32911857092, -21.9205927233173], \"count\": 1}, {\"coordinates\": [166.295753104019, -21.9388140604177], \"count\": 1}, {\"coordinates\": [166.939752760979, -22.1642833162926], \"count\": 1}, {\"coordinates\": [166.9972287087, -22.2614004020798], \"count\": 5}, {\"coordinates\": [166.948767177487, -22.1643954530747], \"count\": 1}, {\"coordinates\": [167.013909584331, -22.2630601777915], \"count\": 1}, {\"coordinates\": [166.586, -22.2519999999991], \"count\": 1}, {\"coordinates\": [166.704, -22.2904999999991], \"count\": 1}, {\"coordinates\": [166.921906069, -22.1647790545116], \"count\": 1}, {\"coordinates\": [166.916, -22.3223999999991], \"count\": 1}, {\"coordinates\": [166.324332962874, -21.9253223385129], \"count\": 1}, {\"coordinates\": [166.88739699273225, -22.055881429780563], \"count\": 1}, {\"coordinates\": [166.881, -22.0602999999991], \"count\": 1}]}",
+    "species_top": {
+        "Xanthostemon velutinus": 85
+    },
+    "um_occurrences_true": 59,
+    "um_occurrences_false": 26,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                100.0,
+                100.0,
+                66.67,
+                100.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0.0,
+                50.0,
+                66.67,
+                0.0,
+                100.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 22.68,
+    "dbh_max": 57.6,
+    "dbh_median": 21.5,
+    "dbh_min": 5.4,
+    "height_max": 25.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 38.1,
+            "20": 28.57,
+            "30": 23.81,
+            "40": 4.76,
+            "50": 4.76,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 38.89,
+            "200": 52.78,
+            "300": 8.33,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 2.38,
+            "1500": 8.33,
+            "2000": 7.14,
+            "2500": 79.76,
+            "3000": 2.38,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 5.26,
+            "2": 94.74
+        }
+    }
+}

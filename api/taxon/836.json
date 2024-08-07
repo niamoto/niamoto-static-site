@@ -1,0 +1,135 @@
+{
+    "id": 836,
+    "full_name": "Gyrocarpus",
+    "authors": "Jacq.",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 8274
+    },
+    "lft": 1344,
+    "rght": 1347,
+    "level": 1,
+    "parent_id": 100,
+    "taxon_id": 836,
+    "total_occurrences_count": 91,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.355251, -20.539273], \"count\": 29}, {\"coordinates\": [164.3406135, -20.5349202], \"count\": 2}, {\"coordinates\": [164.3217896, -20.5254633], \"count\": 1}, {\"coordinates\": [164.3552861, -20.5391222], \"count\": 1}, {\"coordinates\": [165.4041687, -21.0060054], \"count\": 1}, {\"coordinates\": [164.3372809, -20.5349183], \"count\": 1}, {\"coordinates\": [165.4875206, -21.5642571], \"count\": 1}, {\"coordinates\": [164.3074722, -20.4743333], \"count\": 1}, {\"coordinates\": [164.24249267578125, -20.29388999938965], \"count\": 1}, {\"coordinates\": [164.503742159383, -20.6612071340462], \"count\": 1}, {\"coordinates\": [164.285807244102, -20.5509924557987], \"count\": 1}, {\"coordinates\": [164.49801635742188, -20.315780639648438], \"count\": 3}, {\"coordinates\": [164.732715313806, -20.8570477476377], \"count\": 1}, {\"coordinates\": [164.2906787, -20.5552568], \"count\": 1}, {\"coordinates\": [164.67361450195312, -20.887779235839844], \"count\": 1}, {\"coordinates\": [165.4008331298828, -21.009170532226562], \"count\": 1}, {\"coordinates\": [164.358392906816, -20.5315922222335], \"count\": 1}, {\"coordinates\": [164.307944482785, -20.4894573808422], \"count\": 1}, {\"coordinates\": [164.3333282470703, -20.5333309173584], \"count\": 1}, {\"coordinates\": [164.985930213349, -20.689950102441], \"count\": 1}, {\"coordinates\": [164.361552581195, -20.530120240275], \"count\": 1}, {\"coordinates\": [164.2959376, -20.5313652], \"count\": 2}, {\"coordinates\": [164.29278564453125, -20.534439086914062], \"count\": 2}, {\"coordinates\": [164.308041024222, -20.4897474673097], \"count\": 1}, {\"coordinates\": [164.33389282226562, -20.53805923461914], \"count\": 1}, {\"coordinates\": [164.33734130859375, -20.53792953491211], \"count\": 2}, {\"coordinates\": [164.497749645736, -20.6651338389948], \"count\": 1}, {\"coordinates\": [164.537676093714, -20.7371153195828], \"count\": 1}, {\"coordinates\": [164.346605523427, -20.5181507428487], \"count\": 1}, {\"coordinates\": [164.3943328857422, -20.671770095825195], \"count\": 1}, {\"coordinates\": [164.381685071093, -20.5427826253987], \"count\": 1}, {\"coordinates\": [164.4379685, -20.3436707], \"count\": 1}, {\"coordinates\": [164.30870552063, -20.4883673350016], \"count\": 1}, {\"coordinates\": [165.2369384765625, -20.78499984741211], \"count\": 1}, {\"coordinates\": [164.318603515625, -20.528329849243164], \"count\": 1}, {\"coordinates\": [164.6736602783203, -20.887720108032227], \"count\": 1}, {\"coordinates\": [164.38499450683594, -20.67694091796875], \"count\": 1}, {\"coordinates\": [164.725552909076, -20.9304678440094], \"count\": 1}, {\"coordinates\": [164.034967981625, -20.0861652592412], \"count\": 1}, {\"coordinates\": [165.23333740234375, -20.833332061767578], \"count\": 1}, {\"coordinates\": [164.730896314299, -20.8562895123126], \"count\": 1}, {\"coordinates\": [164.03494967035, -20.0860820609971], \"count\": 1}, {\"coordinates\": [164.320604083092, -20.4255108099778], \"count\": 1}, {\"coordinates\": [164.1474, -20.23885], \"count\": 1}]}",
+    "species_top": {
+        "Gyrocarpus americanus": 91
+    },
+    "um_occurrences_true": 8,
+    "um_occurrences_false": 83,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0,
+                100.0,
+                66.67,
+                50.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                50.0,
+                16.67,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                66.67,
+                20.0,
+                0,
+                25.0,
+                11.76
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 31.46,
+    "dbh_max": 81.5,
+    "dbh_median": 15.3,
+    "dbh_min": 10.5,
+    "height_max": 40.0,
+    "wood_density_mean": 0.29,
+    "wood_density_max": 0.33,
+    "wood_density_min": 0.25,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 60.61,
+            "20": 6.06,
+            "30": 0.0,
+            "40": 6.06,
+            "50": 12.12,
+            "75": 15.15,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 70.0,
+            "200": 10.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 10.0,
+            "600": 10.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 44.29,
+            "1500": 48.57,
+            "2000": 4.29,
+            "2500": 2.86,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 31.58,
+            "2": 68.42
+        },
+        "strate": {
+            "1": 14.29,
+            "2": 10.71,
+            "3": 75.0
+        }
+    }
+}

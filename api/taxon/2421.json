@@ -1,0 +1,135 @@
+{
+    "id": 2421,
+    "full_name": "Celtis paniculata",
+    "authors": "(Endl.) Planch.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2268
+    },
+    "lft": 527,
+    "rght": 528,
+    "level": 2,
+    "parent_id": 496,
+    "taxon_id": 2421,
+    "total_occurrences_count": 104,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [167.454895, -21.0533977], \"count\": 1}, {\"coordinates\": [164.0570730556, -20.2026991667], \"count\": 1}, {\"coordinates\": [164.3977778, -20.3222222], \"count\": 1}, {\"coordinates\": [167.9794457, -21.5172018], \"count\": 3}, {\"coordinates\": [164.3406135, -20.5349202], \"count\": 1}, {\"coordinates\": [167.4436984, -22.6596984], \"count\": 1}, {\"coordinates\": [164.3545444, -20.5390361], \"count\": 1}, {\"coordinates\": [165.120361, -21.148142], \"count\": 1}, {\"coordinates\": [165.28058333333334, -21.23818888888889], \"count\": 1}, {\"coordinates\": [167.44056701660156, -22.66278076171875], \"count\": 1}, {\"coordinates\": [164.017058, -20.2352261], \"count\": 1}, {\"coordinates\": [164.296426858984, -20.411888143119], \"count\": 1}, {\"coordinates\": [164.917945047909, -20.6252443341279], \"count\": 1}, {\"coordinates\": [164.358392906816, -20.5315922222335], \"count\": 1}, {\"coordinates\": [164.03494967035, -20.0860820609971], \"count\": 1}, {\"coordinates\": [164.021289803135, -20.2202231017003], \"count\": 1}, {\"coordinates\": [164.043242212584, -20.1761848859452], \"count\": 1}, {\"coordinates\": [164.3333282470703, -20.5333309173584], \"count\": 1}, {\"coordinates\": [164.1275625, -20.4009454], \"count\": 1}, {\"coordinates\": [164.3977813720703, -20.322219848632812], \"count\": 2}, {\"coordinates\": [164.320604083092, -20.4255108099778], \"count\": 1}, {\"coordinates\": [164.1911163330078, -20.290830612182617], \"count\": 1}, {\"coordinates\": [167.23333740234375, -20.959169387817383], \"count\": 1}, {\"coordinates\": [167.43755881241808, -22.66342458833868], \"count\": 1}, {\"coordinates\": [164.1945111, -20.2877705], \"count\": 1}, {\"coordinates\": [163.9126061, -20.1357273], \"count\": 1}, {\"coordinates\": [164.308041024222, -20.4897474673097], \"count\": 1}, {\"coordinates\": [164.987009371702, -20.6454299465244], \"count\": 1}, {\"coordinates\": [164.034967981625, -20.0861652592412], \"count\": 1}, {\"coordinates\": [164.3269044, -20.4667214], \"count\": 1}, {\"coordinates\": [167.4392658006496, -22.662787983556058], \"count\": 1}, {\"coordinates\": [164.307944482785, -20.4894573808422], \"count\": 1}, {\"coordinates\": [165.148683491774, -20.7157604126348], \"count\": 1}, {\"coordinates\": [164.2906787, -20.5552568], \"count\": 1}, {\"coordinates\": [164.309444618225, -20.4901858647664], \"count\": 1}, {\"coordinates\": [164.361552581195, -20.530120240275], \"count\": 1}, {\"coordinates\": [164.4716956, -20.3438417], \"count\": 1}]}",
+    "species_top": {
+        "Celtis paniculata": 104
+    },
+    "um_occurrences_true": 7,
+    "um_occurrences_false": 97,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                50.0,
+                12.5,
+                27.27,
+                0.0,
+                100.0
+            ],
+            "fruiting": [
+                50.0,
+                0.0,
+                80.0,
+                100.0,
+                66.67,
+                50.0,
+                0,
+                50.0,
+                25.0,
+                9.09,
+                80.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 8.05,
+    "dbh_max": 10.5,
+    "dbh_median": 8.05,
+    "dbh_min": 5.6,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 66.67,
+            "200": 16.67,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 16.67,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 64.1,
+            "1500": 28.21,
+            "2000": 7.69,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 25.0,
+            "2": 75.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 100.0,
+            "3": 0.0
+        }
+    }
+}

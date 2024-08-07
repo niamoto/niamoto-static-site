@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Niamoto - 2.0</title>
+    <link rel="stylesheet" href="../js/vendor/tailwindcss/2.2.19_dist_tailwind.css">
+    <link rel="stylesheet" href="../js/vendor/leaflet/1.9.4_leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+<script src="../js/shape_list.js"></script>
+
+<style>
+    #shape-type-list li, #shape-list li {
+        list-style: none;
+        text-transform: capitalize;
+    }
+
+    .shape-type-link, .shape-link {
+        display: block;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .shape-type-link:hover, .shape-link:hover {
+        background-color: #f0f0f0;
+    }
+
+    .shape-type-link.active, .shape-link.active {
+        background-color: #3498db;
+        color: #fff;
+    }
+
+    #shapeMap, #allShapesMap {
+        position: relative;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #allShapesMap {
+        height: 400px;
+    }
+
+    .chart-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .chart-container > div {
+        flex: 1 1 calc(33.333% - 10px);
+        margin: 5px;
+    }
+    .custom-tooltip {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    font-size: 12px;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+</style>
+
+    <style>
+        .gauge {
+            height: 349px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .loader-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loader {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-bg p-4 fixed w-full top-0 shadow-md z-50 custom-nav">
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <a id="home-link" class="inline-flex items-center py-2 px-4 text-white no-underline" href="#" data-link="index.html">
+                <span class="site-title">Niamoto</span>
+            </a>
+        </div>
+
+        <div class="block lg:hidden">
+            <button id="nav-toggle"
+                class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
+            <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="index.html">
+                        <i class="fas fa-home menu-icon"></i>Accueil
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#introduction">Introduction</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#project">Projet</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#objective">Objectifs</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#context">Contexte</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#flora">Flore</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="methodology.html">
+                        <i class="fas fa-flask menu-icon"></i>Méthodologie
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#methodes">Nos méthodes</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#faq">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="trees.html">
+                        <i class="fas fa-leaf menu-icon"></i>Arbres
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#learnTaxon">Étudier les
+                arbres</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#taxon">Les arbres de
+                Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="plots.html">
+                        <i class="fas fa-map-marked-alt menu-icon"></i>Peuplements
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#learnPlot">Étudier les
+                            peuplements forestiers</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#plot">Les
+                peuplements forestiers de Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="forests.html">
+                        <i class="fas fa-tree menu-icon"></i>Forêt
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#learnForest">Étudier les
+                forêts</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#forestPN">La forêt de la
+                province Nord</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#forestPS">La forêt de la
+                province Sud</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="resources.html">
+                        <i class="fas fa-book menu-icon"></i>Ressources
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#equipe">L'équipe</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#article">Articles</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#academic">Académique</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#media-production">Médias</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script>
+  document.getElementById('nav-toggle').onclick = function () {
+    document.getElementById('nav-content').classList.toggle('hidden');
+  };
+
+  // Function to adjust the navigation links based on page depth
+  function adjustNavLinks(depth) {
+    document.querySelectorAll('a[data-link]').forEach(link => {
+      link.href = depth + link.getAttribute('data-link');
+    });
+  }
+
+  // Adjust the navigation links based on the depth
+  adjustNavLinks("../");
+</script>
+
+<style>
+    .site-title {
+        font-family: 'Arial Black', sans-serif; /* Custom font for a bold effect */
+        font-size: 2rem; /* Increased font size */
+        text-transform: uppercase; /* Uppercase letters for visibility */
+        letter-spacing: 2px; /* Spacing between letters */
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
+        transition: color 0.3s; /* Smooth transition for hover effect */
+    }
+
+    .site-title:hover {
+        color: #ffdd57; /* Change color on hover */
+    }
+
+    .text-contour {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-bg {
+        background-color: rgba(34, 139, 34, 0.8); /* Fond vert semi-transparent */
+        transition: background-color 0.3s;
+    }
+
+    .nav-bg:hover {
+        background-color: rgba(34, 139, 34, 1); /* Fond vert opaque au survol */
+    }
+
+    .group:hover .group-hover\:block {
+        display: block;
+    }
+
+    .custom-nav {
+        z-index: 500;
+    }
+
+    .custom-dropdown {
+        z-index: 500;
+    }
+
+    .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.2); /* Fond blanc transparent au survol */
+        border-radius: 4px;
+    }
+
+    .menu-icon {
+        margin-right: 8px;
+    }
+</style>
+    <div class="flex">
+        
+<aside class="w-1/4 p-4 mt-28">
+    <h2 class="font-semibold text-lg mb-4">Shape Types</h2>
+    <ul id="shape-type-list" class="list-disc pl-5">
+        <!-- The list of shape types will be generated by JavaScript -->
+    </ul>
+</aside>
+
+        <div class="w-full">
+            
+<div id="allShapesMap" class="mt-28"></div>
+
+<div class="rounded overflow-hidden shadow-lg mb-2 mt-8">
+    <div class="px-6 py-4">
+        <div class="font-bold text-4xl mb-2">2.0</div>
+    </div>
+</div>
+
+<div class="chart-container">
+    <!-- Section for general information -->
+    <div>
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            <h2 class="font-bold text-xl mb-2">General Information</h2>
+            
+                
+                    
+                        
+                        
+                            <p>Shape Area (Total Area): 1223.9607922562598</p>
+                        
+                    
+                
+                    
+                
+            
+                
+                    
+                        
+                        
+                            <p>Forest Area (Forest Area): 980.6482462725085</p>
+                        
+                    
+                
+                    
+                
+            
+                
+                    
+                        
+                        
+                            <p>Number of Families (Number of Families): 54</p>
+                        
+                    
+                
+            
+                
+                    
+                        
+                        
+                            <p>Number of Species (Number of Species): 168</p>
+                        
+                    
+                
+            
+                
+                    
+                        
+                        
+                            <p>Number of Occurrences (Number of Occurrences): 2108</p>
+                        
+                    
+                
+            
+                
+                    
+                        
+                        
+                            <p>Average Rainfall (Average Rainfall): 3172.75</p>
+                        
+                    
+                
+                    
+                        
+                        
+                            <p>Average Rainfall (Rainfall Range): {"min": 2830.0, "max": 3320.0}</p>
+                        
+                    
+                
+            
+                
+                    
+                        
+                        
+                            <p>Altitude (Median Altitude): 423.0</p>
+                        
+                    
+                
+                    
+                        
+                        
+                            <p>Altitude (Maximum Altitude): 578.0</p>
+                        
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+        </div>
+    </div>
+
+    <!-- Section for shape map -->
+    <div>
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            <h2 class="font-bold text-xl mb-2">Shape Map</h2>
+            <div id="shapeMap" style="height: 400px; position: relative;">
+                <div class="loader-container" id="shapeMapLoader">
+                    <div class="loader"></div>
+                </div>
+                <!-- The Leaflet map will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Section for forest map -->
+    <div>
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            <h2 class="font-bold text-xl mb-2">Forest Map</h2>
+            <div id="forestMap" style="height: 400px; position: relative;">
+                <div class="loader-container" id="forestMapLoader">
+                    <div class="loader"></div>
+                </div>
+                <!-- The Leaflet map will be loaded here -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="flex flex-wrap -mx-2">
+    
+
+    
+
+    
+    
+        
+    
+        
+    
+        
+            
+            
+
+            
+            
+                
+            
+
+    
+        
+    
+        
+            
+            
+
+            
+            
+                
+            
+
+    
+        
+    
+        
+            
+            
+
+            
+            
+                
+            
+
+    
+        
+    
+        
+    
+        
+            
+            
+
+            
+            
+                
+            
+                
+            
+                
+                    <div class="w-1/2 px-2 mb-4">
+                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                            
+    
+        
+            <h2 class="font-bold text-xl mb-2">Elevation Distribution</h2>
+        
+    
+    
+        <canvas id="elevationDistributionChart"></canvas>
+    
+    
+                        </div>
+                    </div>
+                
+            
+
+    
+        
+    
+        
+            
+            
+
+            
+            
+                
+                    <div class="w-1/2 px-2 mb-4">
+                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                            
+    
+        
+            <h2 class="font-bold text-xl mb-2">Forest Fragment Distribution</h2>
+        
+    
+    
+        <canvas id="forestFragmentationChart"></canvas>
+    
+    
+                        </div>
+                    </div>
+                
+            
+                
+                    <div class="w-1/2 px-2 mb-4">
+                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                            
+    
+        
+            <h2 class="font-bold text-xl mb-2">Fragmentation</h2>
+        
+    
+    
+        <div class="gauge" id="forest_fragmentationeffective_mesh_sizeGauge"></div>
+    
+    
+                        </div>
+                    </div>
+                
+            
+
+    
+        
+    
+        
+            
+            
+
+            
+            
+                
+            
+
+    
+        
+    
+        
+            
+            
+
+            
+            
+                
+            
+
+    
+        
+    
+        
+            
+            
+
+            
+            
+                
+            
+
+    
+        
+    
+</div>
+
+        </div>
+    </div>
+    <footer class="bg-green-700 text-white p-4 mt-8">
+        <div class="container mx-auto">
+            <div class="flex justify-center mb-4">
+                <div class="bg-white p-2 rounded-lg shadow-md flex justify-center">
+                    <figure class="mx-2"><img class="img-fluid" src="../files/ps_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/pn_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/amap_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/herbarium_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/iac_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/ird_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/cirad_100.png"></figure>
+                </div>
+            </div>
+            <div class="text-center">
+                <p>Niamoto - Portail de la forêt de Nouvelle-Calédonie</p>
+                <a class="inline-block py-2 px-4 text-white no-underline" href="https://github.com/niamoto/niamoto" target="_blank">
+                    <span class="fab fa-github fa-lg" aria-hidden="true"></span> Github
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/vendor/chart/4.4.2_chart.js"></script>
+    <script src="../js/vendor/d3/7.8.5_d3.js"></script>
+    <script src="../js/vendor/jquery/3.6.0_jquery.js"></script>
+    <script src="../js/vendor/raphael/2.3.0_raphael.js"></script>
+    <script src="../js/vendor/justgage/1.6.1_justgage.js"></script>
+    <script src="../js/vendor/leaflet/1.9.4_leaflet.js"></script>
+    
+<script>
+    var shape = {"elevation_elevation_distribution": {"altitudes": [189.0, 289.0, 389.0, 489.0], "forest": [85.56863672628893, 255.59462918242147, 485.6297954466008, 153.35677750945288], "non_forest": [30.00458690402339, 82.234793736953, 87.79119871917955, 46.67380185070305]}, "elevation_max": 578.0, "elevation_median": 423.0, "forest_area": "980.6482462725085", "forest_coordinates": "{\"type\": \"MultiPolygon\", \"coordinates\": [[[[166.97921642808708, -22.23728308010107], [166.9791820414811, -22.23693601863936], [166.9792546870996, -22.236871444756236], [166.97921642808708, -22.23728308010107]]], [[[166.9540504215835, -22.22119094411631], [166.95468992630077, -22.22150308332355], [166.95419125199777, -22.222400503443517], [166.95362605735806, -22.221545091745217], [166.9540504215835, -22.22119094411631]]], [[[166.9696135865343, -22.217031516402727], [166.97001156995304, -22.216928223097867], [166.96968074694794, -22.217451749920432], [166.96959075192277, -22.217343589426907], [166.9696135865343, -22.217031516402727]]], [[[166.94882897786357, -22.190833104658175], [166.9499511628278, -22.19340081601706], [166.95092156983216, -22.189427149284704], [166.95321509241975, -22.189838634315997], [166.95366928176782, -22.193246554662995], [166.95478226419934, -22.1913941971403], [166.95805139579383, -22.19436038904039], [166.95822879354432, -22.196243958202302], [166.9559984248921, -22.19717735921127], [166.95715928748632, -22.198498989832792], [166.9567633508703, -22.199131622379348], [166.95513641370175, -22.197110684312555], [166.95549359478127, -22.200011013463328], [166.95411647272056, -22.199084042437644], [166.95391271829143, -22.20049059211568], [166.95183600621652, -22.198196532662728], [166.95257834519742, -22.20239421934665], [166.9542545319809, -22.20307993212171], [166.95498462925224, -22.20168905818452], [166.9566926218477, -22.203279931681095], [166.95787267323095, -22.20139152636154], [166.96524980312893, -22.204416720036196], [166.966897936723, -22.21113071012571], [166.96797484017483, -22.210497797412305], [166.96912676017553, -22.212115144680038], [166.9694139745061, -22.216140167255425], [166.96802816754692, -22.21659260067305], [166.9670917499252, -22.2149253205173], [166.96693833316786, -22.21803471818931], [166.9679569732923, -22.217815758162555], [166.96897421741158, -22.220471931205875], [166.9695881190925, -22.217797878390066], [166.97025925385205, -22.219606896950047], [166.97309055750085, -22.219439561637362], [166.97413408307685, -22.223499800528035], [166.97287508628418, -22.221359829838654], [166.97186636420736, -22.22567068928005], [166.9782027560029, -22.230225355222508], [166.97829870287833, -22.2319415119315], [166.97643798606154, -22.231653396557963], [166.9756490928288, -22.233783980893005], [166.97827474621465, -22.232306130781474], [166.97918511611024, -22.235372044695254], [166.97771480818693, -22.235931703530376], [166.9774194239639, -22.237904107858412], [166.97912754744863, -22.237620288793114], [166.97714092533658, -22.240278966139623], [166.97365606718606, -22.2410351862283], [166.9738219523237, -22.238286841414528], [166.97183545534554, -22.2412949865133], [166.96824153578413, -22.240210436832626], [166.96774582968618, -22.23905053116655], [166.96914104513982, -22.239800443301487], [166.96985434410277, -22.238394824756856], [166.96696591644502, -22.23865719518044], [166.96620037449065, -22.237656362939344], [166.97091380285656, -22.23666402580265], [166.96798717917034, -22.23707312373728], [166.96585777197214, -22.235352814473703], [166.96988348914397, -22.23222924224869], [166.96706107470374, -22.23263043450755], [166.96656082038496, -22.231487399266204], [166.96555709310445, -22.232817390031652], [166.96452174101745, -22.230324933458558], [166.9636923812142, -22.23174561598336], [166.96190640200808, -22.22856199956669], [166.96341593775273, -22.22773571466366], [166.9597182332756, -22.22532914774754], [166.95911671938708, -22.22249670260164], [166.95795176210933, -22.22152209782025], [166.95813450050582, -22.22325049848724], [166.95714466752474, -22.223494149682587], [166.955405562532, -22.219546503414747], [166.95360124565113, -22.21991193468176], [166.9518882865871, -22.217140747573577], [166.94899914056808, -22.216578423446897], [166.94901843629367, -22.21408696079234], [166.9507395210931, -22.213396746968595], [166.94973596696315, -22.212741729440573], [166.9511878226927, -22.210936526705815], [166.9519594093994, -22.212938321411997], [166.95360289103184, -22.21037898915254], [166.95530786344128, -22.21075998857365], [166.95315521671202, -22.205464096620283], [166.95088311083683, -22.204975166041642], [166.95021371596613, -22.20844485810563], [166.9463106984029, -22.21252899409738], [166.94379575741937, -22.212615819027842], [166.9423916898383, -22.210164595670747], [166.93882524249148, -22.213023720590353], [166.93605979414176, -22.21162197294554], [166.93725577747813, -22.208998226274907], [166.93555549923596, -22.207852819113484], [166.93884168580936, -22.205473829481903], [166.9366736183315, -22.2018704109768], [166.93933446271146, -22.199196656143105], [166.93726754085196, -22.197501208719185], [166.93825460750344, -22.195230379922375], [166.93564286430197, -22.194480388440702], [166.93677224160453, -22.193472139841], [166.93580919696907, -22.191895280502216], [166.9378593870899, -22.19043845927865], [166.93561432409655, -22.191156200463997], [166.9363423060278, -22.188875490518722], [166.94207211471905, -22.186802653966605], [166.94378481118304, -22.187417904669225], [166.94451667053943, -22.18794019527162], [166.94636748819826, -22.19060156169621], [166.94882897786357, -22.190833104658175]], [[166.953464208926, -22.19397392787516], [166.95289322257128, -22.19413380405448], [166.95320536177852, -22.19462104574383], [166.95341853001761, -22.19450684847289], [166.953464208926, -22.19397392787516]], [[166.9546077770051, -22.196443935325643], [166.95532215091964, -22.195986736020316], [166.9546778704697, -22.193346367137135], [166.95359313583577, -22.1947736495502], [166.9546077770051, -22.196443935325643]], [[166.96420660873267, -22.209801521763193], [166.96472917970175, -22.209997432105723], [166.96491950462192, -22.20921709993311], [166.96463401724168, -22.20921709993311], [166.96420660873267, -22.209801521763193]], [[166.95093072977957, -22.200689461197552], [166.95057834960352, -22.20086088939132], [166.95074025400874, -22.201213269567386], [166.9512259672244, -22.20113707925905], [166.95093072977957, -22.200689461197552]], [[166.95083549189417, -22.20142279291532], [166.95054977823787, -22.202613266483127], [166.95094977735667, -22.202841837408144], [166.951359300264, -22.20177517309139], [166.95083549189417, -22.20142279291532]], [[166.96062594651576, -22.20334659820089], [166.95950213946773, -22.202613266483127], [166.95921642581146, -22.203879930359268], [166.96065760417224, -22.203889968529623], [166.96062594651576, -22.20334659820089]], [[166.94373976851807, -22.1977393333574], [166.94382598352684, -22.197137088071226], [166.94293074740386, -22.19758470613272], [166.94318731935746, -22.197967933010066], [166.94373976851807, -22.1977393333574]], [[166.96257858827414, -22.212782996410812], [166.9631494828645, -22.212719078463866], [166.96329222655464, -22.212452623575658], [166.96245479690597, -22.21220520117946], [166.96257858827414, -22.212782996410812]], [[166.96213880121894, -22.211095813344436], [166.96135518064781, -22.211207759140308], [166.9615310954699, -22.212127313892125], [166.96206683606445, -22.21173550360657], [166.96213880121894, -22.211095813344436]], [[166.96061953684637, -22.20975246379395], [166.96093938197743, -22.209784448307058], [166.96089940133604, -22.20920073094286], [166.9603636607415, -22.209584545100142], [166.96061953684637, -22.20975246379395]], [[166.97350315852069, -22.234806285447217], [166.97395042208305, -22.235786458785988], [166.97559220487818, -22.232615005218864], [166.97414462757104, -22.23312900005981], [166.97350315852069, -22.234806285447217]], [[166.9477878873673, -22.19492946262675], [166.94854988620952, -22.1945675131767], [166.9469592136264, -22.19416746378454], [166.9468830137422, -22.195358086975492], [166.9477878873673, -22.19492946262675]], [[166.94791171217918, -22.197348808950768], [166.94852621271642, -22.1974352412459], [166.9488162748364, -22.197152749457864], [166.94808316191867, -22.196920184602025], [166.94791171217918, -22.197348808950768]], [[166.96300119425462, -22.222764360626176], [166.96279175573787, -22.222935719412593], [166.96262039695145, -22.22337363631122], [166.96316303310846, -22.223411716041536], [166.96300119425462, -22.222764360626176]], [[166.94330969028087, -22.18985551474632], [166.94437137183004, -22.191125532688904], [166.94385767200245, -22.19269517105096], [166.9455890306806, -22.190193262631443], [166.94310614818062, -22.18908024633835], [166.94351520545075, -22.187472556137216], [166.9422596584894, -22.189231307596373], [166.94330969028087, -22.18985551474632]], [[166.94602662682993, -22.19227660082108], [166.94685425432993, -22.193408643033713], [166.9470825653644, -22.193484746711874], [166.94621688602533, -22.190840143895805], [166.94602662682993, -22.19227660082108]], [[166.97503625127473, -22.239464773201277], [166.97467960179327, -22.239454283510643], [166.97433344200243, -22.240188561854854], [166.97466911210265, -22.240178072164223], [166.97503625127473, -22.239464773201277]], [[166.9635914300745, -22.226201056287138], [166.96342959122066, -22.225172903568623], [166.96302023411977, -22.225153863703465], [166.96298215438946, -22.2261724964894], [166.9635914300745, -22.226201056287138]], [[166.9711970245036, -22.233286345419284], [166.97177395748835, -22.23294018562844], [166.9709662513097, -22.23224786604676], [166.97139632862562, -22.232772350578337], [166.9711970245036, -22.233286345419284]], [[166.9681750060082, -22.219558546744864], [166.96747093881953, -22.219004807415367], [166.967143642721, -22.219370161199773], [166.96763078110018, -22.21979640728158], [166.9681750060082, -22.219558546744864]], [[166.95031206700048, -22.204725431817575], [166.949683994764, -22.204297200747238], [166.94902737378948, -22.206400291114893], [166.94976012473205, -22.206305128654815], [166.95031206700048, -22.204725431817575]], [[166.96454837102758, -22.217420103991557], [166.9644627248135, -22.216420898160774], [166.96388223380706, -22.21624960573264], [166.9642057861713, -22.217543815189654], [166.96454837102758, -22.217420103991557]], [[166.9762057723868, -22.239592957188982], [166.97628190235488, -22.23906004741256], [166.97564431387238, -22.23894585246047], [166.9759202850066, -22.239583440942972], [166.9762057723868, -22.239592957188982]], [[166.97716691323356, -22.237232928179125], [166.97672916591722, -22.237004538274945], [166.97635803232293, -22.237994227859723], [166.97703368578948, -22.23778487044756], [166.97716691323356, -22.237232928179125]], [[166.94012016752635, -22.202222659117577], [166.94077678850087, -22.201147323318732], [166.94001548882025, -22.20067151101836], [166.93939693282977, -22.20104264461265], [166.94012016752635, -22.202222659117577]], [[166.96146753433135, -22.204367782818732], [166.96080519015987, -22.205722923767244], [166.9622554955008, -22.20671644002444], [166.96123533321372, -22.20565059882898], [166.96146753433135, -22.204367782818732]], [[166.96249038113316, -22.20584190021408], [166.9629375372393, -22.206041693367894], [166.96347031898281, -22.20565162101997], [166.96276628596462, -22.205309118470574], [166.96249038113316, -22.20584190021408]], [[166.964228012388, -22.208902616395775], [166.96450338726714, -22.207564268195714], [166.96279458018108, -22.20798856260176], [166.9634469635747, -22.208902616395775], [166.964228012388, -22.208902616395775]], [[166.95156639480922, -22.2151742728409], [166.95117627094965, -22.214746088116982], [166.9509193601153, -22.215973550992217], [166.9514488684212, -22.21591034997009], [166.95156639480922, -22.2151742728409]], [[166.9546046137201, -22.213092109126073], [166.9551155704097, -22.212843044899568], [166.95502993346494, -22.212367284095215], [166.95395725830477, -22.212587552699393], [166.9546046137201, -22.213092109126073]], [[166.9570191729147, -22.212629916844335], [166.95755146572802, -22.212300677582604], [166.95761807224062, -22.21175831026564], [166.9572660092454, -22.211777340697815], [166.9570191729147, -22.212629916844335]], [[166.95521072257057, -22.20494541554729], [166.9540688966401, -22.205906452372083], [166.95403083577577, -22.206201424070784], [166.95590113002402, -22.20536015176439], [166.95556881479973, -22.20421326295826], [166.95521072257057, -22.20494541554729]], [[166.96367077934022, -22.207150459058237], [166.96368030324413, -22.20628378380301], [166.96261406260933, -22.206793296184625], [166.963099345106, -22.207512367406576], [166.96367077934022, -22.207150459058237]], [[166.97580910352215, -22.23502649381461], [166.9754660766825, -22.234702524021596], [166.97513257836616, -22.23533140656097], [166.97617118740845, -22.23515989314114], [166.97580910352215, -22.23502649381461]], [[166.97569133247046, -22.23175305667656], [166.97538653293358, -22.23143873215415], [166.97475788388874, -22.231562556966008], [166.9755294077165, -22.231895931459476], [166.97569133247046, -22.23175305667656]], [[166.96018941852427, -22.204225848501707], [166.95990366895845, -22.20458779795176], [166.96006559371241, -22.204883072503115], [166.96049421806117, -22.204463973139898], [166.96018941852427, -22.204225848501707]], [[166.94718788088232, -22.197537087190007], [166.94730216634483, -22.197632325075432], [166.94746407075004, -22.198384704370284], [166.9476545465209, -22.197165659436852], [166.94718788088232, -22.197537087190007]]], [[[166.97059166906132, -22.213691954467116], [166.97058405752415, -22.213646285244064], [166.97060352467912, -22.213612217722847], [166.97060474827072, -22.213699801992757], [166.97059166906132, -22.213691954467116]]], [[[166.9697696230464, -22.212892743063726], [166.97051095932432, -22.212437079415963], [166.97059945083848, -22.21332061359696], [166.97008930760776, -22.213395104517286], [166.9697696230464, -22.212892743063726]]], [[[166.96948038463375, -22.210913743398187], [166.9686431155445, -22.21098985876994], [166.96855938863558, -22.210822404952086], [166.96943650248525, -22.210288257043928], [166.96948038463375, -22.210913743398187]]], [[[166.93621709528801, -22.20541677316622], [166.93558414011721, -22.205326673581045], [166.93605481525788, -22.204752834869566], [166.9362931703756, -22.205102963429972], [166.93621709528801, -22.20541677316622]]], [[[166.9578440414326, -22.197669534495688], [166.95751268401756, -22.198273279677654], [166.95750214387382, -22.197908514943162], [166.9578440414326, -22.197669534495688]]], [[[166.9581835264243, -22.196606291538693], [166.95819044080696, -22.196667317385085], [166.95813910521755, -22.196834622391947], [166.95806177112811, -22.196705217716847], [166.9581835264243, -22.196606291538693]]]]}", "forest_cover_percentage": null, "forest_fragmentation_effective_mesh_size": 9.754132460082914, "forest_fragmentation_fragment_size_distribution": {"10": 0.26736305106018415, "100": 0.26736305106018415, "1000": 100.0, "1100": 100.0, "1200": 100.0, "12000": 100.0, "125": 0.26736305106018415, "1300": 100.0, "1400": 100.0, "150": 0.26736305106018415, "1500": 100.0, "1600": 100.0, "1700": 100.0, "17000": 100.0, "175": 0.26736305106018415, "1800": 100.0, "1900": 100.0, "20": 0.26736305106018415, "200": 0.26736305106018415, "2000": 100.0, "225": 0.26736305106018415, "250": 0.26736305106018415, "27000": 100.0, "275": 0.26736305106018415, "30": 0.26736305106018415, "300": 0.26736305106018415, "325": 0.26736305106018415, "350": 0.26736305106018415, "375": 0.26736305106018415, "40": 0.26736305106018415, "400": 0.26736305106018415, "425": 0.26736305106018415, "450": 0.26736305106018415, "475": 0.26736305106018415, "50": 0.26736305106018415, "500": 0.26736305106018415, "500000": 100.0, "60": 0.26736305106018415, "600": 0.26736305106018415, "70": 0.26736305106018415, "700": 0.26736305106018415, "7000": 100.0, "80": 0.26736305106018415, "800": 0.26736305106018415, "90": 0.26736305106018415, "900": 0.26736305106018415}, "forest_humidity_category_distribution": null, "frequencies": {}, "id": 225, "land_use_category_distribution": null, "name": "2.0", "num_families_unique_taxonomic_count": 54, "num_occurrences_count": 2108, "num_species_unique_taxonomic_count": 168, "rainfall_mean": "3172.75", "rainfall_range": "{\"min\": 2830.0, \"max\": 3320.0}", "shape_area": "1223.9607922562598", "shape_coordinates": "{\"type\": \"FeatureCollection\", \"features\": [{\"id\": \"0\", \"type\": \"Feature\", \"properties\": {}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[166.93632461170807, -22.204519423337768], [166.9371616255685, -22.1993108922486], [166.93548965492985, -22.19228921088031], [166.93766712878255, -22.187566391886495], [166.94207211471905, -22.186802653966605], [166.94656008496432, -22.190692683722887], [166.95227978462887, -22.18952894782437], [166.95666309759596, -22.192263974281307], [166.95819044080696, -22.196667317385085], [166.9536865905276, -22.200517164426294], [166.95371024201876, -22.20222586627908], [166.9632337570245, -22.202587425103285], [166.9696757079436, -22.210537655559385], [166.9696027654222, -22.21785544708523], [166.9736109540858, -22.2201399913593], [166.9741646932426, -22.225404301315617], [166.9781827361126, -22.23005545872176], [166.97849077005822, -22.23901389472391], [166.97146399047594, -22.241299492959975], [166.96705888868453, -22.238963404723645], [166.96591803954297, -22.233644260706743], [166.9492012881016, -22.217185061805147], [166.94901843629367, -22.21408696079234], [166.95234314190688, -22.20941012195014], [166.95153386365138, -22.207183514597364], [166.9463106984029, -22.21252899409738], [166.93828885530846, -22.2129310019275], [166.935015310718, -22.209959806840697], [166.93632461170807, -22.204519423337768]]]}, \"bbox\": [166.935015310718, -22.241299492959975, 166.97849077005822, -22.186802653966605]}], \"bbox\": [166.935015310718, -22.241299492959975, 166.97849077005822, -22.186802653966605]}", "shape_id": 225, "type": "hotspots"};
+    var mapping = {"fields": {"elevation": {"data_source": {"name": "elevation", "type": "layer"}, "description": "Altitude metrics within the shape", "field_type": "JSON", "label": "Altitude", "transformations": [{"chart_options": {"title": "Median Altitude"}, "chart_type": "text", "name": "median"}, {"chart_options": {"title": "Maximum Altitude"}, "chart_type": "text", "name": "max"}, {"chart_options": {"title": "Elevation Distribution", "x_label": "Elevation (m)", "y_label": "Area (ha)"}, "chart_type": "stacked_bar", "data_structure": {"x_field": "altitudes", "y_fields": [{"color": "#4BC0C0", "label": "For\u00eat", "name": "forest"}, {"color": "#FF6384", "label": "Hors-for\u00eat", "name": "non_forest"}]}, "name": "elevation_distribution"}]}, "forest": {"data_source": {"name": "forest_cover", "type": "layer"}, "description": "Area covered by forest within the shape", "field_type": "TEXT", "label": "Forest Area", "transformations": [{"chart_options": {"title": "Forest Area"}, "chart_type": "text", "name": "area"}, {"chart_options": {"coordinates_field": "forest_coordinates", "title": "Forest Location"}, "chart_type": "map", "name": "coordinates"}]}, "forest_cover": {"data_source": {"name": "forest_cover", "type": "layer"}, "description": "Area covered by forest within the shape", "field_type": "JSON", "label": "Forest Area", "transformations": [{"chart_options": {"categories": ["UM", "Non-UM", "Commune"], "title": "Forest Cover"}, "chart_type": "donut", "layer_params": {"forest_cover": [{"name": "area"}, {"attribute": "cover_type"}], "soil_types": [{"attribute": "soil_category"}]}, "name": "percentage"}]}, "forest_fragmentation": {"data_source": {"name": "forest_cover", "type": "layer"}, "description": "Analysis of forest fragmentation", "field_type": "JSON", "label": "Forest Fragmentation", "transformations": [{"chart_options": {"bins": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 125, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425, 450, 475, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 7000, 12000, 17000, 27000, 500000], "title": "Forest Fragment Distribution", "x_label": "Area (ha)", "y_label": "Cumulative Area (%)"}, "chart_type": "line", "data_structure": {"color": "#4BC0C0", "x_field": "keys", "y_field": "values"}, "name": "fragment_size_distribution"}, {"chart_options": {"label": "Effective Mesh Size (km\u00b2)", "max": 1000, "min": 0, "title": "Fragmentation"}, "chart_type": "gauge", "name": "effective_mesh_size"}]}, "forest_humidity": {"data_source": [{"name": "forest_cover", "type": "layer"}, {"name": "holdridge", "type": "shape"}], "description": "Distribution of forests by humidity level", "field_type": "JSON", "label": "Forest and Living Environments", "transformations": [{"chart_options": {"categories": ["Dry", "Humid", "Very Humid"], "title": "Forest and Living Environments", "x_label": "Category", "y_label": "Frequency (%)"}, "chart_type": "stacked_bar", "layer_params": {"forest_cover": [{"name": "area"}], "humidity": [{"name": "value"}]}, "name": "category_distribution"}]}, "land_use": {"data_source": [{"name": "ultramafic", "type": "shape"}, {"name": "holdridge", "type": "shape"}, {"name": "forest_cover", "type": "layer"}], "description": "Land use distribution", "field_type": "JSON", "label": "Land Use", "transformations": [{"chart_options": {"title": "Land Use", "x_label": "Category", "y_label": "Area (ha)"}, "chart_type": "bar", "name": "category_distribution"}]}, "num_families": {"data_source": {"name": "occurrences", "type": "source"}, "description": "Total number of families in the zone", "field_type": "INTEGER", "label": "Number of Families", "transformations": [{"chart_options": {"title": "Number of Families"}, "chart_type": "text", "name": "unique_taxonomic_count", "target_ranks": ["family"]}]}, "num_occurrences": {"data_source": {"name": "occurrences", "type": "source"}, "description": "Total number of occurrences in the zone", "field_type": "INTEGER", "label": "Number of Occurrences", "source_field": "id_occurrence", "transformations": [{"chart_options": {"title": "Number of Occurrences"}, "chart_type": "text", "name": "count"}]}, "num_species": {"data_source": {"name": "occurrences", "type": "source"}, "description": "Total number of species in the zone", "field_type": "INTEGER", "label": "Number of Species", "transformations": [{"chart_options": {"title": "Number of Species"}, "chart_type": "text", "name": "unique_taxonomic_count", "target_ranks": ["species", "infra"]}]}, "rainfall": {"data_source": {"name": "rainfall", "type": "layer"}, "description": "Average annual rainfall within the shape", "field_type": "TEXT", "label": "Average Rainfall", "transformations": [{"chart_options": {"title": "Average Rainfall"}, "chart_type": "text", "name": "mean"}, {"chart_options": {"title": "Rainfall Range"}, "chart_type": "text", "name": "range"}]}, "shape": {"data_source": {"name": "self", "type": "shape"}, "description": "Total area of the reference zone", "field_type": "TEXT", "label": "Shape Area", "transformations": [{"chart_options": {"title": "Total Area"}, "chart_type": "text", "name": "area"}, {"chart_options": {"coordinates_field": "shape_coordinates", "title": "Location"}, "chart_type": "map", "name": "coordinates"}]}}, "group_by": "shape", "source_location_field": "geo_pt", "source_table_name": "occurrences"};
+    var currentShapeType = "hotspots";
+
+    document.addEventListener('DOMContentLoaded', function () {
+        loadShapeCharts(shape, mapping);
+        loadShapeTypeList();
+        initShapeMaps(mapping, shape);
+        loadAllShapesMap(shape);
+    });
+
+    function loadShapeCharts(shape, mapping) {
+        Object.entries(mapping.fields).forEach(function([field_key, field]) {
+            if (field.field_type !== 'TEXT' && shape[field_key] !== null) {
+                // Handle bins chart if present
+                if (field.bins && field.bins.values && field.bins.values.length > 0) {
+                    var binChartId = field_key + 'BinChart';
+                    var binCtx = document.getElementById(binChartId);
+                    if (binCtx) {
+                        createBinChart(binCtx, field, shape);
+                    }
+                }
+
+                // Handle transformations
+                field.transformations.forEach(function(transformation) {
+                    var transformationName = transformation.name ? transformation.name : '';
+                    var valueKey = field_key + '_' + transformationName;
+
+                    if (shape[valueKey] !== null) {
+                        switch(transformation.chart_type) {
+                            case 'pie':
+                                var pieChartId = field_key + 'PieChart';
+                                var pieCtx = document.getElementById(pieChartId);
+                                if (pieCtx) {
+                                    createPieChart(pieCtx, transformation, shape[valueKey]);
+                                }
+                                break;
+                            case 'gauge':
+                                var gaugeId = field_key + transformationName + 'Gauge';
+                                var gaugeElement = document.getElementById(gaugeId);
+                                if (gaugeElement) {
+                                    createGauge({
+                                        id: gaugeId,
+                                        value: parseFloat(shape[valueKey]),
+                                        min: 0,
+                                        max: transformation.chart_options.max,
+                                        title: transformation.chart_options.title,
+                                        label: transformation.chart_options.label
+                                    });
+                                }
+                                break;
+                            case 'bar':
+                                var barChartId = field_key + transformationName + 'BarChart';
+                                var barCtx = document.getElementById(barChartId);
+                                if (barCtx) {
+                                    createBarChart(barCtx, field, transformation, shape[valueKey]);
+                                }
+                                break;
+                            case 'stacked_bar':
+                                if (field_key === 'elevation' && transformationName === 'elevation_distribution') {
+                                    var stackedBarChartId = 'elevationDistributionChart';
+                                    var stackedBarCtx = document.getElementById(stackedBarChartId);
+                                    if (stackedBarCtx) {
+                                        createElevationDistributionChart(stackedBarCtx, shape.elevation_elevation_distribution, transformation);
+                                    }
+                                }
+                                break;
+                            case 'line':
+                                if (field_key === 'forest_fragmentation' && transformationName === 'fragment_size_distribution') {
+                                    var lineChartId = 'forestFragmentationChart';
+                                    var lineCtx = document.getElementById(lineChartId);
+                                    if (lineCtx) {
+                                        createForestFragmentationChart(lineCtx, shape.forest_fragmentation_fragment_size_distribution, transformation);
+                                    }
+                                }
+                                break;
+                        }
+                    }
+                });
+            }
+        });
+    }
+
+    function createBinChart(ctx, field, shape) {
+        var binData = {
+            labels: field.bins.values,
+            datasets: [{
+                label: field.label,
+                data: field.bins.values.map(value => shape.frequencies[field.field_key][value] || 0),
+                backgroundColor: field.bins.chart_options.color
+            }]
+        };
+
+        new Chart(ctx, {
+            type: field.bins.chart_type,
+            data: binData,
+            options: field.bins.chart_options
+        });
+    }
+
+    function createPieChart(ctx, transformation, data) {
+        new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['True', 'False'],
+                datasets: [{
+                    data: [data.true || 0, data.false || 0],
+                    backgroundColor: ['#FF6384', '#36A2EB']
+                }]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: transformation.chart_options.title
+                }
+            }
+        });
+    }
+
+    function createBarChart(ctx, field, transformation, data) {
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: Object.keys(data),
+                datasets: [{
+                    label: field.label,
+                    data: Object.values(data),
+                    backgroundColor: getColor(0).background,
+                    borderColor: getColor(0).border,
+                    borderWidth: 1
+                }]
+            },
+            options: transformation.chart_options
+        });
+    }
+
+    function createElevationDistributionChart(ctx, elevationData, chartConfig) {
+        const altitudes = elevationData.altitudes.reverse();
+        const forestData = elevationData.forest.reverse();
+        const nonForestData = elevationData.non_forest.reverse();
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: altitudes,
+                datasets: [
+                    {
+                        label: 'Forest',
+                        data: forestData,
+                        backgroundColor: '#4CAF50',
+                        stack: 'Stack 0',
+                    },
+                    {
+                        label: 'Non-Forest',
+                        data: nonForestData,
+                        backgroundColor: '#FFF59D',
+                        stack: 'Stack 0',
+                    }
+                ]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                scales: {
+                    x: {
+                        stacked: true,
+                        title: {
+                            display: true,
+                            text: 'Area (ha)'
+                        },
+                        ticks: {
+                            callback: function(value) {
+                                return value.toLocaleString(); // Format les grands nombres
+                            }
+                        }
+                    },
+                    y: {
+                        stacked: true,
+                        title: {
+                            display: true,
+                            text: 'Elevation (m)'
+                        },
+                        reverse: false
+                    }
+                },
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    },
+                    tooltip: {
+                        mode: 'index',
+                        intersect: false
+                    }
+                },
+                layout: {
+                    padding: {
+                        left: 10,
+                        right: 10,
+                        top: 0,
+                        bottom: 10
+                    }
+                }
+            }
+        });
+    }
+
+    function createForestFragmentationChart(ctx, fragmentationData, chartConfig) {
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: Object.keys(fragmentationData),
+                datasets: [{
+                    label: 'Cumulative Area (%)',
+                    data: Object.values(fragmentationData),
+                    borderColor: '#4BC0C0',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    tension: 0.1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: chartConfig.chart_options.x_label
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: chartConfig.chart_options.y_label
+                        }
+                    }
+                },
+                plugins: {
+                    title: {
+                        display: true,
+                        text: chartConfig.chart_options.title
+                    }
+                }
+            }
+        });
+    }
+
+    function createGauge(options) {
+        new JustGage({
+            id: options.id,
+            value: options.value || 0,
+            min: options.min || 0,
+            max: options.max,
+            title: options.title,
+            label: options.label,
+            pointer: true,
+            pointerOptions: {
+                toplength: 10,
+                bottomlength: 10,
+                bottomwidth: 2,
+                color: '#8e8e93',
+                stroke: '#ffffff',
+                stroke_width: 3,
+                stroke_linecap: 'round'
+            },
+            gaugeWidthScale: 0.6,
+            counter: true,
+            donut: true,
+            relativeGaugeSize: true,
+            donutStartAngle: 270,
+            hideInnerShadow: true,
+            customSectors: [{
+                color: "#ff0000",
+                lo: 0,
+                hi: options.max * 0.33
+            }, {
+                color: "#ffff00",
+                lo: options.max * 0.33,
+                hi: options.max * 0.66
+            }, {
+                color: "#00ff00",
+                lo: options.max * 0.66,
+                hi: options.max
+            }],
+            humanFriendly: true,
+            formatNumber: true,
+            textRenderer: function (val) {
+                return parseFloat(val).toFixed(2);
+            }
+        });
+    }
+
+    // Function to get a color based on the index
+    function getColor(index) {
+        var colors = [
+            {background: 'rgba(54, 162, 235, 0.6)', border: 'rgba(54, 162, 235, 1)'},
+            {background: 'rgba(75, 192, 192, 0.6)', border: 'rgba(75, 192, 192, 1)'},
+            {background: 'rgba(255, 99, 132, 0.6)', border: 'rgba(255, 99, 132, 1)'}
+        ];
+        return colors[index % colors.length];
+    }
+
+// Rest of the code (loadShapeTypeList, initShapeMaps, loadAllShapesMap) remains the same...
+
+    let maps = {};  // Object to keep track of initialized maps
+
+    function initMap(field_key, geometry) {
+        const mapId = field_key + 'Map';
+        const mapLoaderId = field_key + 'MapLoader';
+
+        // Check if the map already exists
+        if (maps[mapId]) {
+            return; // Map is already initialized, so do nothing
+        }
+
+        const satellite = L.tileLayer.wms("https://carto10.gouv.nc/arcgis/services/fond_imagerie/MapServer/WMSServer", {
+            layers: '0',
+            format: 'image/png',
+            transparent: true,
+            attribution: "<a href='http://www.geoportal.gouv.nc/'>Géorep</a> <i> - Gouvernement de la Nouvelle-Calédonie</i>"
+        });
+        const carte = L.tileLayer.wms('https://carto.gouv.nc/arcgis/services/fond_cartographie/MapServer/WMSServer', {
+            layers: '0',
+            format: 'image/png',
+            transparent: true,
+            attribution: "<a href='http://www.geoportal.gouv.nc/'>Géorep</a> <i> - Gouvernement de la Nouvelle-Calédonie</i>"
+        });
+        const map = L.map(mapId, {
+            layers: [carte, satellite],
+            scrollWheelZoom: false
+        });
+        map.attributionControl.setPrefix(false); // Remove the "Powered by Leaflet" prefix
+        map.attributionControl.addAttribution("<a href='http://www.geoportal.gouv.nc/'>Géorep</a> <i> - Gouvernement de la Nouvelle-Calédonie</i>");
+
+        const baseMaps = {
+            "Carte": carte,
+            "Satellite": satellite,
+        };
+
+        L.control.layers(baseMaps).addTo(map);
+
+        map.on('load', function () {
+            document.getElementById(mapLoaderId).style.display = 'none';
+        });
+
+        if (geometry) {
+            const geoJsonLayer = L.geoJSON(geometry, {
+                style: function() {
+                    return {
+                        color: '#228b22', // Border color
+                        weight: 2,       // Border width
+                        fillColor: '#228b22cc', // Fill color with opacity
+                        fillOpacity: 0.8 // Fill opacity
+                    };
+                }
+            }).addTo(map);
+            map.fitBounds(geoJsonLayer.getBounds());
+        } else {
+            console.warn("No geographic coordinates found.");
+            // Set default view if no geometry is found
+            map.setView([-21.291237, 165.516418], 10);
+        }
+
+        // Store the map instance in the maps object
+        maps[mapId] = map;
+    }
+
+    function initShapeMaps(mapping, shape) {
+        Object.entries(mapping.fields).forEach(function([field_key, field]) {
+            field.transformations.forEach(function(transformation) {
+                if (transformation.chart_type === 'map') {
+                    var coordinatesField = transformation.chart_options.coordinates_field;
+                    var geometry = shape[coordinatesField];
+
+                    // Check if geometry is a string, if so, parse it as JSON
+                    if (typeof geometry === 'string') {
+                        try {
+                            geometry = JSON.parse(geometry);
+                        } catch (e) {
+                            console.error("Invalid JSON for field", coordinatesField, ":", geometry);
+                            return; // Skip this field if JSON is invalid
+                        }
+                    }
+
+                    // Initialize the map with the parsed geometry
+                    initMap(field_key, geometry);
+                }
+            });
+        });
+    }
+
+    function loadAllShapesMap(currentShape) {
+        const mapId = 'allShapesMap';
+        const satellite = L.tileLayer.wms("https://carto10.gouv.nc/arcgis/services/fond_imagerie/MapServer/WMSServer", {
+            layers: '0',
+            format: 'image/png',
+            transparent: true,
+            attribution: "<a href='http://www.geoportal.gouv.nc/'>Géorep</a> <i> - Gouvernement de la Nouvelle-Calédonie</i>"
+        });
+        const carte = L.tileLayer.wms('https://carto.gouv.nc/arcgis/services/fond_cartographie/MapServer/WMSServer', {
+            layers: '0',
+            format: 'image/png',
+            transparent: true,
+            attribution: "<a href='http://www.geoportal.gouv.nc/'>Géorep</a> <i> - Gouvernement de la Nouvelle-Calédonie</i>"
+        });
+        const map = L.map(mapId, {
+            layers: [carte, satellite],
+            scrollWheelZoom: false
+        });
+        map.attributionControl.setPrefix(false); // Remove the "Powered by Leaflet" prefix
+        map.attributionControl.addAttribution("<a href='http://www.geoportal.gouv.nc/'>Géorep</a> <i> - Gouvernement de la Nouvelle-Calédonie</i>");
+
+        const baseMaps = {
+            "Carte": carte,
+            "Satellite": satellite,
+        };
+
+        L.control.layers(baseMaps).addTo(map);
+
+        var group = L.featureGroup(); // Create a group to hold all the layers
+
+        shapeTypes.forEach(function(shapeTypeItem) {
+            if (shapeTypeItem.type === currentShape.type) {
+                shapeTypeItem.shapes.forEach(function(shapeItem) {
+                    var geometry = shapeItem.geometry;
+                    // No need to parse geometry if it's already GeoJSON
+                    var layer = L.geoJSON(geometry, {
+                        style: function() {
+                            return {
+                                color: '#228b22', // Border color
+                                weight: 2,       // Border width
+                                fillColor: '#228b22cc', // Fill color with opacity
+                                fillOpacity: 0.8 // Fill opacity
+                            };
+                        }
+                    }).addTo(map);
+                    group.addLayer(layer); // Add each layer to the group
+
+                    // Highlight current shape
+                    if (shapeItem.id === currentShape.id) {
+                        layer.setStyle({color: 'red', weight: 3, fillOpacity: 0.4});
+                        layer.bringToFront(); // Ensure the highlighted shape is on top
+                    } else {
+                        layer.setStyle({fillOpacity: 0.2}); // Reduce opacity for other shapes
+                    }
+
+                    // Show tooltip on hover with additional content
+                    var tooltipContent = "<strong>" + shapeItem.name + "</strong><br>";
+
+                    
+
+
+                    layer.bindTooltip(tooltipContent, {
+                        permanent: false,
+                        direction: 'right',
+                        offset: L.point(10, 0),
+                        opacity: 0.9,
+                        className: 'custom-tooltip'
+                    });
+
+
+                    layer.on('mousemove', function(e) {
+                        var tooltip = e.target.getTooltip();
+                        tooltip.setLatLng(e.latlng);
+                    });
+
+                    layer.on('click', function() {
+                        window.location.href = '../shape/' + shapeItem.id + '.html';
+                    });
+                });
+            }
+        });
+
+        map.fitBounds(group.getBounds()); // Adjust the view to fit the bounds of the group
+
+        map.attributionControl.setPrefix(false);
+        map.attributionControl.addAttribution("<a href='http://www.geoportal.gouv.nc/'>Géorep</a> <i> - Gouvernement de la Nouvelle-Calédonie</i>");
+
+        maps['allShapesMap'] = map;
+    }
+
+    function loadShapeTypeList() {
+            var shapeTypeListElement = document.getElementById("shape-type-list");
+            shapeTypes.forEach(function (shapeTypeItem) {
+                var li = document.createElement("li");
+                var a = document.createElement("a");
+                a.href = "javascript:void(0)";
+                a.textContent = shapeTypeItem.type;
+                a.className = "shape-type-link";
+                if (shapeTypeItem.type === currentShapeType) {
+                    a.classList.add("active");
+                }
+                a.onclick = function () {
+                    if (shapeTypeItem.shapes.length > 0) {
+                        // Redirect to the first shape of the selected type
+                        window.location.href = "../shape/" + shapeTypeItem.shapes[0].id + ".html";
+                    }
+                    loadShapeList(shapeTypeItem.shapes);
+                };
+                li.appendChild(a);
+                shapeTypeListElement.appendChild(li);
+            });
+        }
+
+        function loadShapeList(shapes) {
+            var shapeListElement = document.getElementById("shape-list");
+            shapeListElement.innerHTML = ''; // Clear the previous list
+            shapes.forEach(function (shapeItem) {
+                var li = document.createElement("li");
+                var a = document.createElement("a");
+                a.href = "../shape/" + shapeItem.id + ".html";
+                a.textContent = shapeItem.name;
+                a.className = "shape-link";
+                if (shapeItem.id === shape.id) {
+                    a.classList.add("active");
+                }
+                li.appendChild(a);
+                shapeListElement.appendChild(li);
+            });
+        }
+
+</script>
+
+</body>
+</html>

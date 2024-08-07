@@ -1,0 +1,118 @@
+{
+    "id": 5069,
+    "full_name": "Pittosporum sylvaticum",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4454
+    },
+    "lft": 2441,
+    "rght": 2442,
+    "level": 2,
+    "parent_id": 1220,
+    "taxon_id": 5069,
+    "total_occurrences_count": 32,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5235093, -22.1653416], \"count\": 11}, {\"coordinates\": [166.5273258, -22.1807993], \"count\": 2}, {\"coordinates\": [166.5212418, -22.2089127], \"count\": 1}, {\"coordinates\": [166.5253085, -22.1788004], \"count\": 1}, {\"coordinates\": [166.5084848, -22.1787788], \"count\": 1}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 3}, {\"coordinates\": [166.5196226, -22.1898457], \"count\": 1}, {\"coordinates\": [166.5148155, -22.1729879], \"count\": 1}, {\"coordinates\": [166.2801583333, -22.0140222222], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 3}, {\"coordinates\": [166.5166667, -22.1863889], \"count\": 1}, {\"coordinates\": [164.882790756226, -21.179327138265], \"count\": 1}, {\"coordinates\": [166.5302696, -22.1752938], \"count\": 1}, {\"coordinates\": [166.5308038, -22.1651517], \"count\": 1}, {\"coordinates\": [166.5131965, -22.1749806], \"count\": 1}, {\"coordinates\": [166.51824197, -22.18478002], \"count\": 1}, {\"coordinates\": [166.52392896, -22.18556301], \"count\": 1}]}",
+    "species_top": {
+        "Pittosporum sylvaticum": 32
+    },
+    "um_occurrences_true": 27,
+    "um_occurrences_false": 5,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                50.0,
+                50.0,
+                0,
+                0.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                50.0,
+                50.0,
+                0,
+                50.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                100.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 15.62,
+            "200": 0.0,
+            "300": 18.75,
+            "400": 3.12,
+            "500": 15.62,
+            "600": 3.12,
+            "700": 3.12,
+            "800": 40.62,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 3.12,
+            "1500": 34.38,
+            "2000": 62.5,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

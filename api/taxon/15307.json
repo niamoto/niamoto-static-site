@@ -1,0 +1,135 @@
+{
+    "id": 15307,
+    "full_name": "Alsophila stelligera",
+    "authors": "(Holttum) R.M.Tryon",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1555
+    },
+    "lft": 875,
+    "rght": 876,
+    "level": 2,
+    "parent_id": 12654,
+    "taxon_id": 15307,
+    "total_occurrences_count": 228,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.2915391, -21.0377205], \"count\": 2}, {\"coordinates\": [165.5459833, -21.4161167], \"count\": 2}, {\"coordinates\": [165.7547833333, -21.62055], \"count\": 1}, {\"coordinates\": [166.5208333, -22.1822222], \"count\": 3}, {\"coordinates\": [164.8388302, -20.6546879], \"count\": 2}, {\"coordinates\": [165.3066239, -21.1762872], \"count\": 1}, {\"coordinates\": [165.2454728, -20.9978359], \"count\": 1}, {\"coordinates\": [165.252421, -21.008015], \"count\": 1}, {\"coordinates\": [165.545395, -21.416931], \"count\": 126}, {\"coordinates\": [165.96430555555557, -21.59263888888889], \"count\": 2}, {\"coordinates\": [165.28566666666666, -21.1775], \"count\": 1}, {\"coordinates\": [164.736952, -20.595487], \"count\": 1}, {\"coordinates\": [166.15, -21.75], \"count\": 1}, {\"coordinates\": [165.75801000002733, -21.6005199999987], \"count\": 1}, {\"coordinates\": [164.86467996666667, -20.639681083333333], \"count\": 1}, {\"coordinates\": [165.46656799316406, -21.53584861755371], \"count\": 1}, {\"coordinates\": [164.74444580078125, -20.622777938842773], \"count\": 3}, {\"coordinates\": [165.52000427246094, -21.520000457763672], \"count\": 3}, {\"coordinates\": [165.9746854, -21.5825089], \"count\": 1}, {\"coordinates\": [167.4705469, -22.5899232], \"count\": 1}, {\"coordinates\": [165.1759033203125, -20.948219299316406], \"count\": 1}, {\"coordinates\": [164.83555603027344, -20.657779693603516], \"count\": 5}, {\"coordinates\": [164.70805216906447, -20.482794025395993], \"count\": 1}, {\"coordinates\": [165.866943359375, -21.622499465942383], \"count\": 2}, {\"coordinates\": [166.5208282470703, -22.182220458984375], \"count\": 5}, {\"coordinates\": [165.24221801757812, -21.000829696655273], \"count\": 3}, {\"coordinates\": [164.8644783, -20.63982005], \"count\": 1}, {\"coordinates\": [165.76943969726562, -21.558610916137695], \"count\": 4}, {\"coordinates\": [165.5580113455, -21.376062054], \"count\": 1}, {\"coordinates\": [165.8740833, -21.6207778], \"count\": 1}, {\"coordinates\": [164.80221557617188, -20.5686092376709], \"count\": 4}, {\"coordinates\": [165.549072265625, -21.480052947998047], \"count\": 1}, {\"coordinates\": [165.2329924, -21.017049], \"count\": 3}, {\"coordinates\": [165.9713897705078, -21.585559844970703], \"count\": 1}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [165.51889038085938, -21.43416976928711], \"count\": 2}, {\"coordinates\": [165.45953369140625, -21.417186737060547], \"count\": 1}, {\"coordinates\": [165.26766967773438, -21.176193237304688], \"count\": 2}, {\"coordinates\": [165.2422, -21.0008], \"count\": 1}, {\"coordinates\": [165.2854723, -21.1773889], \"count\": 1}, {\"coordinates\": [165.51889, -21.43417], \"count\": 1}, {\"coordinates\": [165.2297, -21.02], \"count\": 1}, {\"coordinates\": [165.88785540673544, -21.619001342671933], \"count\": 1}, {\"coordinates\": [165.8741, -21.6208], \"count\": 1}, {\"coordinates\": [165.964305555556, -21.5926388888889], \"count\": 2}, {\"coordinates\": [164.72714102, -20.59311903], \"count\": 1}, {\"coordinates\": [164.727222222222, -20.5930555555556], \"count\": 1}, {\"coordinates\": [164.870594, -20.64106602], \"count\": 1}, {\"coordinates\": [165.9714, -21.5856], \"count\": 1}, {\"coordinates\": [164.8356, -20.6578], \"count\": 1}, {\"coordinates\": [165.2883, -21.0408], \"count\": 1}, {\"coordinates\": [164.870555555556, -20.6411111111111], \"count\": 1}, {\"coordinates\": [164.74193796, -20.59328704], \"count\": 1}, {\"coordinates\": [164.744166666667, -20.5911111111111], \"count\": 1}, {\"coordinates\": [165.285666666667, -21.1775], \"count\": 1}, {\"coordinates\": [165.0033, -20.93039], \"count\": 1}, {\"coordinates\": [164.7340761595413, -20.49975099029822], \"count\": 1}, {\"coordinates\": [164.8022, -20.56504], \"count\": 1}, {\"coordinates\": [164.741944444444, -20.5933333333333], \"count\": 1}, {\"coordinates\": [164.86852453577262, -20.638897890751405], \"count\": 1}, {\"coordinates\": [164.74665392408008, -20.587552992847506], \"count\": 1}, {\"coordinates\": [165.75139125642136, -21.60910898303249], \"count\": 1}, {\"coordinates\": [165.3033, -21.1794], \"count\": 1}, {\"coordinates\": [165.546, -21.4161], \"count\": 1}, {\"coordinates\": [164.74418901, -20.591228], \"count\": 1}, {\"coordinates\": [165.23448741803062, -20.988693322919808], \"count\": 1}, {\"coordinates\": [165.060645106073, -20.9524831847978], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.802176056594, -20.5650370927431], \"count\": 1}, {\"coordinates\": [165.003281238754, -20.9303872184225], \"count\": 1}, {\"coordinates\": [165.77477034, -21.61681948], \"count\": 1}]}",
+    "species_top": {
+        "Alsophila stelligera": 228
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 226,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                33.33,
+                100.0,
+                100.0,
+                40.0,
+                75.0,
+                25.0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 30.93,
+    "dbh_max": 79.6,
+    "dbh_median": 21.8,
+    "dbh_min": 10.0,
+    "height_max": 25.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 47.06,
+            "20": 14.71,
+            "30": 7.35,
+            "40": 8.82,
+            "50": 20.59,
+            "75": 1.47,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.45,
+            "200": 2.73,
+            "300": 5.0,
+            "400": 13.64,
+            "500": 67.27,
+            "600": 4.09,
+            "700": 3.18,
+            "800": 0.0,
+            "900": 2.73,
+            "1000": 0.0,
+            "1100": 0.45,
+            "1200": 0.45
+        },
+        "rainfall": {
+            "1000": 58.33,
+            "1500": 10.09,
+            "2000": 7.89,
+            "2500": 13.16,
+            "3000": 7.89,
+            "3500": 0.0,
+            "4000": 2.19,
+            "4500": 0.44
+        },
+        "holdridge": {
+            "1": 2.91,
+            "2": 97.09
+        },
+        "strate": {
+            "1": 72.58,
+            "2": 14.52,
+            "3": 12.9
+        }
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "id": 2504,
+    "full_name": "Citronella macrocarpa",
+    "authors": "H\u00fcrl.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3954
+    },
+    "lft": 541,
+    "rght": 542,
+    "level": 2,
+    "parent_id": 540,
+    "taxon_id": 2504,
+    "total_occurrences_count": 97,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.240768432617, -21.2571277618408], \"count\": 13}, {\"coordinates\": [165.0819444, -21.1602778], \"count\": 1}, {\"coordinates\": [166.5084848, -22.1787788], \"count\": 1}, {\"coordinates\": [164.7854609, -21.003135], \"count\": 1}, {\"coordinates\": [166.5366766, -22.1922361], \"count\": 1}, {\"coordinates\": [165.7016211111, -21.5711238889], \"count\": 2}, {\"coordinates\": [164.92438, -20.983092], \"count\": 1}, {\"coordinates\": [165.824643, -21.5372393], \"count\": 1}, {\"coordinates\": [166.0313889, -21.7977778], \"count\": 1}, {\"coordinates\": [166.0492279, -21.6434021], \"count\": 1}, {\"coordinates\": [165.111632, -21.133673], \"count\": 14}, {\"coordinates\": [165.122272, -21.146053], \"count\": 12}, {\"coordinates\": [164.965948126723, -21.1729643821252], \"count\": 2}, {\"coordinates\": [164.966209188004, -21.1715155812163], \"count\": 4}, {\"coordinates\": [165.120361, -21.148142], \"count\": 3}, {\"coordinates\": [164.8311111, -20.997], \"count\": 3}, {\"coordinates\": [164.9662578175, -21.1714847261667], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 1}, {\"coordinates\": [164.81666564941406, -21.0], \"count\": 1}, {\"coordinates\": [165.0108256, -21.1532693], \"count\": 1}, {\"coordinates\": [165.458459, -21.3282626], \"count\": 1}, {\"coordinates\": [165.70167541503906, -21.571109771728516], \"count\": 1}, {\"coordinates\": [165.82139587402344, -21.540279388427734], \"count\": 4}, {\"coordinates\": [166.0833282470703, -21.583330154418945], \"count\": 1}, {\"coordinates\": [165.4552764892578, -21.331390380859375], \"count\": 3}, {\"coordinates\": [166.16555786132812, -21.797779083251953], \"count\": 1}, {\"coordinates\": [166.10943603515625, -21.57638931274414], \"count\": 3}, {\"coordinates\": [164.74, -20.7422], \"count\": 1}, {\"coordinates\": [165.0817934872349, -21.160446915668796], \"count\": 1}, {\"coordinates\": [166.1126972, -21.5733283], \"count\": 2}, {\"coordinates\": [165.6938934326172, -21.616670608520508], \"count\": 1}, {\"coordinates\": [165.8686017, -21.622486], \"count\": 1}, {\"coordinates\": [165.4575505, -21.4264237], \"count\": 1}, {\"coordinates\": [165.697225, -21.6136597], \"count\": 1}, {\"coordinates\": [164.02855700000083, -20.250215000611465], \"count\": 1}, {\"coordinates\": [165.867496562193, -21.6247940216754], \"count\": 1}, {\"coordinates\": [166.53334045410156, -22.183332443237305], \"count\": 1}, {\"coordinates\": [164.966238338042, -21.1715483896621], \"count\": 1}, {\"coordinates\": [166.50527954101562, -22.18194007873535], \"count\": 1}, {\"coordinates\": [165.08000004, -21.1644444], \"count\": 1}, {\"coordinates\": [165.08220404, -21.16039103], \"count\": 1}, {\"coordinates\": [165.75500696, -21.61583104], \"count\": 1}, {\"coordinates\": [165.08035605, -21.16247197], \"count\": 1}]}",
+    "species_top": {
+        "Citronella macrocarpa": 97
+    },
+    "um_occurrences_true": 27,
+    "um_occurrences_false": 70,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                13.33,
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                100.0,
+                25.0,
+                7.69,
+                100.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                6.67,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                7.69,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 29.4,
+    "dbh_max": 96.1,
+    "dbh_median": 22.0,
+    "dbh_min": 6.2,
+    "height_max": 35.0,
+    "wood_density_mean": 0.71,
+    "wood_density_max": 0.76,
+    "wood_density_min": 0.66,
+    "bark_thickness_mean": 6.0,
+    "bark_thickness_max": 8.0,
+    "bark_thickness_min": 5.0,
+    "leaf_sla_mean": 6.76,
+    "leaf_sla_max": 10.23,
+    "leaf_sla_min": 4.23,
+    "leaf_area_mean": 64.03,
+    "leaf_area_max": 85.2,
+    "leaf_area_min": 41.96,
+    "leaf_thickness_mean": 354.88,
+    "leaf_thickness_max": 462.83,
+    "leaf_thickness_min": 256.08,
+    "frequencies": {
+        "dbh": {
+            "10": 41.18,
+            "20": 31.37,
+            "30": 5.88,
+            "40": 5.88,
+            "50": 7.84,
+            "75": 7.84,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 5.21,
+            "200": 36.46,
+            "300": 7.29,
+            "400": 4.17,
+            "500": 35.42,
+            "600": 2.08,
+            "700": 6.25,
+            "800": 3.12,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 23.96,
+            "1500": 60.42,
+            "2000": 15.62,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 7.29,
+            "2": 92.71
+        },
+        "strate": {
+            "1": 2.27,
+            "2": 22.73,
+            "3": 75.0
+        }
+    }
+}

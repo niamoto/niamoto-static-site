@@ -1,0 +1,130 @@
+{
+    "id": 6319,
+    "full_name": "Zygogynum bicolor",
+    "authors": "Tiegh.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1303
+    },
+    "lft": 3605,
+    "rght": 3606,
+    "level": 2,
+    "parent_id": 1575,
+    "taxon_id": 6319,
+    "total_occurrences_count": 58,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.9681084, -21.5928122], \"count\": 1}, {\"coordinates\": [165.9633611, -21.6034167], \"count\": 1}, {\"coordinates\": [166.05, -21.61667], \"count\": 2}, {\"coordinates\": [165.8813852, -21.6202967], \"count\": 5}, {\"coordinates\": [166.0549423, -21.6195172], \"count\": 1}, {\"coordinates\": [165.8740833, -21.6207778], \"count\": 2}, {\"coordinates\": [165.9536243, -21.6011898], \"count\": 1}, {\"coordinates\": [166.0566426, -21.6339039], \"count\": 2}, {\"coordinates\": [165.8802778, -21.6138889], \"count\": 1}, {\"coordinates\": [166.50251412, -22.04243269], \"count\": 2}, {\"coordinates\": [166.44791746, -22.06852576], \"count\": 2}, {\"coordinates\": [166.50061065, -22.04388342], \"count\": 3}, {\"coordinates\": [165.96769444444445, -21.594694444444443], \"count\": 1}, {\"coordinates\": [165.49647222222222, -21.360666666666667], \"count\": 2}, {\"coordinates\": [165.88333129882812, -21.625], \"count\": 1}, {\"coordinates\": [165.8652801513672, -21.625560760498047], \"count\": 1}, {\"coordinates\": [166.05348205566406, -21.640459060668945], \"count\": 2}, {\"coordinates\": [165.9499969482422, -21.600000381469727], \"count\": 2}, {\"coordinates\": [166.31337800000014, -21.681378000647566], \"count\": 1}, {\"coordinates\": [166.05569458007812, -21.630380630493164], \"count\": 2}, {\"coordinates\": [165.8363201, -21.5767944], \"count\": 1}, {\"coordinates\": [166.0533905029297, -21.63694953918457], \"count\": 2}, {\"coordinates\": [165.96665954589844, -21.583330154418945], \"count\": 2}, {\"coordinates\": [166.38432200000017, -21.734635000648876], \"count\": 1}, {\"coordinates\": [165.2300074, -21.019814], \"count\": 1}, {\"coordinates\": [165.87806701660156, -21.623329162597656], \"count\": 1}, {\"coordinates\": [165.88333129882812, -21.61665916442871], \"count\": 3}, {\"coordinates\": [166.60664500000038, -22.01122100065555], \"count\": 1}, {\"coordinates\": [165.88333129882812, -21.616666793823242], \"count\": 1}, {\"coordinates\": [166.33988200000016, -21.70800500064822], \"count\": 1}, {\"coordinates\": [165.85000610351562, -21.600000381469727], \"count\": 1}, {\"coordinates\": [164.772216796875, -20.5897159576416], \"count\": 1}, {\"coordinates\": [166.9499969482422, -22.26667022705078], \"count\": 1}, {\"coordinates\": [166.30425200000013, -21.68310600064764], \"count\": 1}, {\"coordinates\": [166.31428700000015, -21.682465000647625], \"count\": 1}, {\"coordinates\": [166.05166625976562, -21.622499465942383], \"count\": 1}, {\"coordinates\": [166.35271800000018, -21.727769000648724], \"count\": 1}, {\"coordinates\": [165.95028686523438, -21.604169845581055], \"count\": 1}]}",
+    "species_top": {
+        "Zygogynum bicolor": 58
+    },
+    "um_occurrences_true": 19,
+    "um_occurrences_false": 39,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0,
+                33.33,
+                0,
+                0,
+                0.0,
+                50.0,
+                50.0,
+                22.22,
+                70.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0,
+                33.33,
+                0,
+                0,
+                100.0,
+                100.0,
+                0.0,
+                22.22,
+                10.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.44,
+    "dbh_max": 20.0,
+    "dbh_median": 7.6,
+    "dbh_min": 5.7,
+    "height_max": 12.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 75.0,
+            "20": 25.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 3.51,
+            "300": 3.51,
+            "400": 1.75,
+            "500": 12.28,
+            "600": 17.54,
+            "700": 15.79,
+            "800": 12.28,
+            "900": 24.56,
+            "1000": 7.02,
+            "1100": 0.0,
+            "1200": 1.75
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 3.51,
+            "2000": 56.14,
+            "2500": 22.81,
+            "3000": 14.04,
+            "3500": 3.51,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

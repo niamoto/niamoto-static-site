@@ -1,0 +1,118 @@
+{
+    "id": 2564,
+    "full_name": "Cocconerion balansae",
+    "authors": "Baill.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 336
+    },
+    "lft": 1155,
+    "rght": 1156,
+    "level": 2,
+    "parent_id": 556,
+    "taxon_id": 2564,
+    "total_occurrences_count": 75,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5930028, -22.1509806], \"count\": 1}, {\"coordinates\": [166.7383781, -22.0420953], \"count\": 1}, {\"coordinates\": [166.9200626, -22.20832], \"count\": 2}, {\"coordinates\": [166.5938828, -22.1545261], \"count\": 1}, {\"coordinates\": [166.80943298339844, -22.08694076538086], \"count\": 2}, {\"coordinates\": [166.46665954589844, -22.0333309173584], \"count\": 1}, {\"coordinates\": [166.58694458007812, -22.148059844970703], \"count\": 1}, {\"coordinates\": [166.60000610351562, -22.137779235839844], \"count\": 3}, {\"coordinates\": [166.9169464111328, -22.211389541625977], \"count\": 2}, {\"coordinates\": [166.30058700000015, -21.685430000647656], \"count\": 1}, {\"coordinates\": [166.30961000000013, -21.68339600064763], \"count\": 1}, {\"coordinates\": [166.30425200000013, -21.68310600064764], \"count\": 1}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 2}, {\"coordinates\": [166.76689700000057, -22.161135000659154], \"count\": 1}, {\"coordinates\": [166.60000610351562, -22.149999618530273], \"count\": 14}, {\"coordinates\": [166.58749389648438, -22.153329849243164], \"count\": 2}, {\"coordinates\": [166.31337800000014, -21.681378000647566], \"count\": 1}, {\"coordinates\": [166.59056091308594, -22.157499313354492], \"count\": 2}, {\"coordinates\": [166.60000610351562, -22.166667938232422], \"count\": 4}, {\"coordinates\": [166.73500061035156, -22.04528045654297], \"count\": 1}, {\"coordinates\": [166.60028076171875, -22.12221908569336], \"count\": 1}, {\"coordinates\": [166.6031631, -22.1347164], \"count\": 1}, {\"coordinates\": [166.30791900000014, -21.68251400064763], \"count\": 1}, {\"coordinates\": [166.60664500000038, -22.01122100065555], \"count\": 1}, {\"coordinates\": [166.60383170794688, -22.131734589900642], \"count\": 2}, {\"coordinates\": [166.9169, -22.2114], \"count\": 4}, {\"coordinates\": [166.54046922989758, -22.03240163595441], \"count\": 1}, {\"coordinates\": [166.7304736157794, -22.085208801228326], \"count\": 1}, {\"coordinates\": [166.5869, -22.1481], \"count\": 1}, {\"coordinates\": [166.593, -22.151], \"count\": 1}, {\"coordinates\": [166.6, -22.1378], \"count\": 4}, {\"coordinates\": [166.7002509122358, -22.07839950223198], \"count\": 1}, {\"coordinates\": [166.5875, -22.1533], \"count\": 2}, {\"coordinates\": [166.8094, -22.0869], \"count\": 2}, {\"coordinates\": [166.73128942202104, -22.081258178352837], \"count\": 2}, {\"coordinates\": [166.5906, -22.1575], \"count\": 3}, {\"coordinates\": [166.5404679036164, -22.032248531345854], \"count\": 1}, {\"coordinates\": [166.53048193061113, -22.034243368106416], \"count\": 1}, {\"coordinates\": [166.6003, -22.1222], \"count\": 1}]}",
+    "species_top": {
+        "Cocconerion balansae": 75
+    },
+    "um_occurrences_true": 75,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                100.0,
+                0,
+                0,
+                0.0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 25.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 12.0,
+            "300": 8.0,
+            "400": 24.0,
+            "500": 29.33,
+            "600": 12.0,
+            "700": 10.67,
+            "800": 2.67,
+            "900": 1.33,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 14.67,
+            "2500": 48.0,
+            "3000": 36.0,
+            "3500": 1.33,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

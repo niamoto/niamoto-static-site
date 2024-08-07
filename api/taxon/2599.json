@@ -1,0 +1,118 @@
+{
+    "id": 2599,
+    "full_name": "Commersonia bartramia",
+    "authors": "(L.) Merr.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4966
+    },
+    "lft": 1593,
+    "rght": 1594,
+    "level": 2,
+    "parent_id": 569,
+    "taxon_id": 2599,
+    "total_occurrences_count": 102,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.254011, -21.9632878], \"count\": 2}, {\"coordinates\": [165.889401, -21.5384184], \"count\": 1}, {\"coordinates\": [166.5366766, -22.1922361], \"count\": 1}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 1}, {\"coordinates\": [165.5232501, -21.173669], \"count\": 1}, {\"coordinates\": [165.3527, -20.94486], \"count\": 1}, {\"coordinates\": [165.048288249996, -20.948064816239], \"count\": 1}, {\"coordinates\": [166.4945068359375, -22.22089958190918], \"count\": 1}, {\"coordinates\": [166.82366943359375, -22.31995964050293], \"count\": 4}, {\"coordinates\": [167.46873474121094, -22.60504913330078], \"count\": 3}, {\"coordinates\": [165.236, -20.876], \"count\": 1}, {\"coordinates\": [165.5, -21.5], \"count\": 7}, {\"coordinates\": [166.4701690673828, -21.818140029907227], \"count\": 1}, {\"coordinates\": [165.2982555, -20.930613], \"count\": 1}, {\"coordinates\": [164.4215898, -20.3005713], \"count\": 1}, {\"coordinates\": [166.5333251953125, -22.195280075073242], \"count\": 3}, {\"coordinates\": [165.081130192365, -20.9912739770591], \"count\": 1}, {\"coordinates\": [163.8058651, -20.0535184], \"count\": 1}, {\"coordinates\": [164.925481563723, -20.727738591949], \"count\": 1}, {\"coordinates\": [166.25, -21.966659545898438], \"count\": 1}, {\"coordinates\": [165.33425903320312, -20.936939239501953], \"count\": 1}, {\"coordinates\": [166.3490753173828, -22.060169219970703], \"count\": 1}, {\"coordinates\": [166.89303588867188, -22.25926971435547], \"count\": 1}, {\"coordinates\": [165.89999389648438, -21.5333309173584], \"count\": 1}, {\"coordinates\": [164.20150756835938, -20.45509910583496], \"count\": 1}, {\"coordinates\": [165.9115312, -21.6415191], \"count\": 1}, {\"coordinates\": [165.072251556763, -20.9867052251082], \"count\": 1}, {\"coordinates\": [165.85000610351562, -21.66670036315918], \"count\": 2}, {\"coordinates\": [166.686767578125, -22.3028507232666], \"count\": 3}, {\"coordinates\": [163.6605556, -19.7188889], \"count\": 1}, {\"coordinates\": [165.9499969482422, -21.53333282470703], \"count\": 2}, {\"coordinates\": [165.074319901956, -20.9871088206898], \"count\": 1}, {\"coordinates\": [165.248135654256, -20.8181610703468], \"count\": 1}, {\"coordinates\": [166.6226043701172, -22.26511001586914], \"count\": 1}, {\"coordinates\": [166.84722900390625, -22.179443359375], \"count\": 2}, {\"coordinates\": [165.204110797495, -21.2694239616394], \"count\": 1}, {\"coordinates\": [164.989972112854, -21.2421159132028], \"count\": 1}, {\"coordinates\": [165.2324719, -20.8169075], \"count\": 1}, {\"coordinates\": [166.4180556, -21.7205556], \"count\": 1}, {\"coordinates\": [165.21665954589844, -20.808332443237305], \"count\": 1}, {\"coordinates\": [166.25, -21.9666690826416], \"count\": 1}, {\"coordinates\": [166.2965192, -21.9404243], \"count\": 1}, {\"coordinates\": [165.9499969482422, -21.5333309173584], \"count\": 1}, {\"coordinates\": [163.632945158989, -19.6857117470376], \"count\": 1}, {\"coordinates\": [167.44317626953125, -22.645130157470703], \"count\": 1}, {\"coordinates\": [167.4436798095703, -22.643999099731445], \"count\": 1}, {\"coordinates\": [166.46800231933594, -22.145000457763672], \"count\": 1}, {\"coordinates\": [165.77528381347656, -21.667869567871094], \"count\": 1}, {\"coordinates\": [166.5897216796875, -22.202220916748047], \"count\": 1}, {\"coordinates\": [166.5871565, -22.2327595], \"count\": 1}, {\"coordinates\": [164.9443746, -20.6886358], \"count\": 1}, {\"coordinates\": [166.5420379638672, -22.20503044128418], \"count\": 1}, {\"coordinates\": [164.73330688476562, -20.48332977294922], \"count\": 1}, {\"coordinates\": [165.060645106073, -20.9524831847978], \"count\": 1}, {\"coordinates\": [165.52000427246094, -21.626670837402344], \"count\": 1}, {\"coordinates\": [166.44241333007812, -22.2745304107666], \"count\": 1}, {\"coordinates\": [166.6833038330078, -22.279199600219727], \"count\": 1}, {\"coordinates\": [165.68299865722656, -21.700000762939453], \"count\": 1}, {\"coordinates\": [164.8247528076172, -20.589080810546875], \"count\": 1}, {\"coordinates\": [166.46775817871094, -22.1466007232666], \"count\": 1}, {\"coordinates\": [163.656048398302, -19.6969677512964], \"count\": 1}, {\"coordinates\": [163.5995667, -19.5980691], \"count\": 1}, {\"coordinates\": [166.151467, -21.5925989], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 1}, {\"coordinates\": [164.5, -20.316669464111328], \"count\": 1}, {\"coordinates\": [165.075326582759, -20.9382286957999], \"count\": 1}, {\"coordinates\": [166.46827697753906, -22.14529037475586], \"count\": 1}, {\"coordinates\": [165.23327638891, -20.8738430555662], \"count\": 1}, {\"coordinates\": [165.77071998, -21.56925703], \"count\": 1}]}",
+    "species_top": {
+        "Commersonia bartramia": 102
+    },
+    "um_occurrences_true": 43,
+    "um_occurrences_false": 59,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                33.33,
+                25.0,
+                0.0,
+                0.0,
+                33.33,
+                50.0,
+                100.0,
+                85.71,
+                0.0,
+                80.0,
+                0.0,
+                80.0
+            ],
+            "fruiting": [
+                16.67,
+                50.0,
+                100.0,
+                0.0,
+                66.67,
+                50.0,
+                0.0,
+                28.57,
+                0.0,
+                40.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 54.05,
+            "200": 18.92,
+            "300": 18.92,
+            "400": 0.0,
+            "500": 5.41,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 2.7,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 30.86,
+            "1500": 39.51,
+            "2000": 16.05,
+            "2500": 11.11,
+            "3000": 2.47,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 27.16,
+            "2": 72.84
+        }
+    }
+}

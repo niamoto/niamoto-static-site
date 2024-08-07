@@ -1,0 +1,130 @@
+{
+    "id": 6340,
+    "full_name": "Zygogynum pomiferum subsp. balansae",
+    "authors": "(Tiegh.) Vink",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 5045
+    },
+    "lft": 3638,
+    "rght": 3639,
+    "level": 3,
+    "parent_id": 6339,
+    "taxon_id": 6340,
+    "total_occurrences_count": 43,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4454743, -22.0828451], \"count\": 1}, {\"coordinates\": [166.5393865, -22.1956563], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 2}, {\"coordinates\": [166.678838, -22.2756569], \"count\": 1}, {\"coordinates\": [166.5881181, -22.0161533], \"count\": 1}, {\"coordinates\": [166.4719051, -22.0013752], \"count\": 1}, {\"coordinates\": [166.5370238, -22.0347027], \"count\": 3}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 2}, {\"coordinates\": [166.885711, -22.276123], \"count\": 1}, {\"coordinates\": [166.931837, -22.278266], \"count\": 1}, {\"coordinates\": [166.932047, -22.278092], \"count\": 1}, {\"coordinates\": [167.00455555555556, -22.28775], \"count\": 1}, {\"coordinates\": [166.99477777777778, -22.273083333333332], \"count\": 1}, {\"coordinates\": [165.9933333, -21.7572222], \"count\": 4}, {\"coordinates\": [166.915361105315, -22.1396972955931], \"count\": 1}, {\"coordinates\": [166.462540369467, -22.0382916983], \"count\": 1}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 1}, {\"coordinates\": [166.684969, -22.1028821], \"count\": 1}, {\"coordinates\": [166.6957533, -22.1694831], \"count\": 1}, {\"coordinates\": [166.911119, -22.121169], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 1}, {\"coordinates\": [166.92011, -22.32465], \"count\": 1}, {\"coordinates\": [166.508556632333, -22.0607323665], \"count\": 1}, {\"coordinates\": [166.6958044, -22.1642337], \"count\": 1}, {\"coordinates\": [166.7319444444, -22.1786111111], \"count\": 1}, {\"coordinates\": [166.6740392, -21.9944812], \"count\": 1}, {\"coordinates\": [166.4519368, -22.1039089], \"count\": 1}, {\"coordinates\": [166.829239, -22.2020994], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 1}, {\"coordinates\": [166.9039194, -22.2749472], \"count\": 1}, {\"coordinates\": [166.5131965, -22.1749806], \"count\": 1}, {\"coordinates\": [166.5283945435, -22.070333208], \"count\": 1}, {\"coordinates\": [166.900666681925, -22.2748333295186], \"count\": 1}, {\"coordinates\": [166.6259795, -22.1477506], \"count\": 1}, {\"coordinates\": [166.23174487, -21.67188604], \"count\": 1}, {\"coordinates\": [166.9, -22.27694447], \"count\": 1}]}",
+    "species_top": {
+        "Zygogynum pomiferum subsp. balansae": 43
+    },
+    "um_occurrences_true": 43,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                100.0,
+                50.0,
+                66.67,
+                83.33,
+                100.0,
+                50.0,
+                83.33,
+                25.0,
+                50.0,
+                0
+            ],
+            "fruiting": [
+                50.0,
+                0,
+                0.0,
+                50.0,
+                0.0,
+                16.67,
+                0.0,
+                25.0,
+                16.67,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 13.58,
+    "dbh_max": 22.9,
+    "dbh_median": 12.7,
+    "dbh_min": 6.4,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 75.0,
+            "20": 25.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 12.2,
+            "200": 24.39,
+            "300": 17.07,
+            "400": 7.32,
+            "500": 9.76,
+            "600": 0.0,
+            "700": 17.07,
+            "800": 7.32,
+            "900": 2.44,
+            "1000": 2.44,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 2.33,
+            "1500": 4.65,
+            "2000": 23.26,
+            "2500": 27.91,
+            "3000": 39.53,
+            "3500": 2.33,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

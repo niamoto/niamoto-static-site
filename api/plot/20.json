@@ -1,0 +1,63 @@
+{
+    "id": 20,
+    "locality": "Prokomeo",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            165.8697252721,
+            -21.4936389495
+        ]
+    },
+    "plot_id": 20,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [165.8697252721, -21.4936389495]}",
+    "families_top": {
+        "Sapindaceae": 216,
+        "Atherospermataceae": 192,
+        "Myrtaceae": 173,
+        "Casuarinaceae": 160,
+        "Sapotaceae": 129,
+        "Myodocarpaceae": 100,
+        "Apocynaceae": 47,
+        "Cunoniaceae": 46,
+        "Stemonuraceae": 45,
+        "Araucariaceae": 39
+    },
+    "species_top": {
+        "Gongrodiscus bilocularis": 195,
+        "Nemuaron vieillardii": 192,
+        "Gymnostoma intermedium": 160,
+        "Myodocarpus fraxinifolius": 99,
+        "Pleioluma lasiantha": 69,
+        "Metrosideros nitida": 49,
+        "Xanthomyrtus kanalaensis": 46,
+        "Gastrolepis austrocaledonica": 45,
+        "Araucaria montana": 39,
+        "Pancheria ternata": 35
+    },
+    "height_mean": 10.49,
+    "wood_density_mean": 0.73,
+    "basal_area": 41.7,
+    "shannon": 3.34,
+    "pielou": 0.78,
+    "simpson": 0.94,
+    "biomass": 221.717935966451,
+    "frequencies": {
+        "dbh": {
+            "10": 77.54,
+            "20": 15.53,
+            "30": 4.24,
+            "40": 1.82,
+            "50": 0.74,
+            "75": 0.07,
+            "100": 0.07,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 6.86,
+            "2": 27.3,
+            "3": 65.84
+        }
+    }
+}

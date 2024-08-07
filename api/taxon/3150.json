@@ -1,0 +1,135 @@
+{
+    "id": 3150,
+    "full_name": "Elaeocarpus toninensis",
+    "authors": "Baker f.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3664
+    },
+    "lft": 1033,
+    "rght": 1034,
+    "level": 2,
+    "parent_id": 714,
+    "taxon_id": 3150,
+    "total_occurrences_count": 62,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.525206, -20.4073358], \"count\": 1}, {\"coordinates\": [165.78349, -21.5986667], \"count\": 1}, {\"coordinates\": [165.830782, -21.5739157], \"count\": 1}, {\"coordinates\": [165.2998333, -21.1923861], \"count\": 1}, {\"coordinates\": [166.0492279, -21.6434021], \"count\": 1}, {\"coordinates\": [165.9750424, -21.5748362], \"count\": 2}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 1}, {\"coordinates\": [165.764755, -21.622285], \"count\": 1}, {\"coordinates\": [165.764176, -21.622468], \"count\": 1}, {\"coordinates\": [165.8697252721, -21.4936389495], \"count\": 1}, {\"coordinates\": [165.4765625, -21.24147605896], \"count\": 1}, {\"coordinates\": [166.0560234, -21.6309738], \"count\": 1}, {\"coordinates\": [164.734946591796, -20.7454518228704], \"count\": 1}, {\"coordinates\": [165.7731064, -21.6670483], \"count\": 1}, {\"coordinates\": [165.97166442871094, -21.57777976989746], \"count\": 2}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [165.010152217001, -20.8510959148407], \"count\": 1}, {\"coordinates\": [164.915566022167, -20.9518018486667], \"count\": 1}, {\"coordinates\": [166.5044403076172, -22.209720611572266], \"count\": 2}, {\"coordinates\": [166.5021209716797, -22.200410842895508], \"count\": 2}, {\"coordinates\": [164.737, -20.7445], \"count\": 1}, {\"coordinates\": [165.4758889, -21.2411111], \"count\": 1}, {\"coordinates\": [165.8059844970703, -21.614459991455078], \"count\": 2}, {\"coordinates\": [166.5077428, -22.2065694], \"count\": 1}, {\"coordinates\": [165.15420532226562, -20.983150482177734], \"count\": 1}, {\"coordinates\": [166.0459747314453, -21.64645004272461], \"count\": 1}, {\"coordinates\": [165.8008575439453, -21.600339889526367], \"count\": 1}, {\"coordinates\": [164.52194213867188, -20.410280227661133], \"count\": 1}, {\"coordinates\": [165.8439839121838, -21.47246488104125], \"count\": 1}, {\"coordinates\": [166.04939503769657, -21.647025580492258], \"count\": 1}, {\"coordinates\": [164.52194, -20.41028], \"count\": 1}, {\"coordinates\": [165.77453104, -21.60363202], \"count\": 1}, {\"coordinates\": [166.50444, -22.20972], \"count\": 2}, {\"coordinates\": [165.80085, -21.60034], \"count\": 1}, {\"coordinates\": [165.97167, -21.57778], \"count\": 2}, {\"coordinates\": [165.839055314232, -21.587912811216434], \"count\": 1}, {\"coordinates\": [164.9152903171341, -20.952044319723715], \"count\": 1}, {\"coordinates\": [165.8103, -21.6117], \"count\": 1}, {\"coordinates\": [165.15421, -20.98315], \"count\": 1}, {\"coordinates\": [164.5219, -20.4103], \"count\": 1}, {\"coordinates\": [165.4765625, -21.241476059], \"count\": 1}, {\"coordinates\": [165.4759, -21.2411], \"count\": 1}, {\"coordinates\": [165.9717, -21.5778], \"count\": 2}, {\"coordinates\": [165.73932599, -21.61193997], \"count\": 1}, {\"coordinates\": [165.83895468086536, -21.58807016268671], \"count\": 1}, {\"coordinates\": [165.7673831630646, -21.627178462159577], \"count\": 1}, {\"coordinates\": [165.77269997, -21.60794696], \"count\": 1}, {\"coordinates\": [165.83895468086536, -21.588075246520475], \"count\": 1}, {\"coordinates\": [165.2998, -21.1924], \"count\": 1}, {\"coordinates\": [165.76972225, -21.67000002], \"count\": 1}, {\"coordinates\": [166.04943988105026, -21.647163943708787], \"count\": 1}, {\"coordinates\": [166.5044, -22.2097], \"count\": 1}, {\"coordinates\": [165.7835, -21.5987], \"count\": 1}, {\"coordinates\": [166.04950496230342, -21.647223781202445], \"count\": 1}]}",
+    "species_top": {
+        "Elaeocarpus toninensis": 62
+    },
+    "um_occurrences_true": 4,
+    "um_occurrences_false": 58,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                0,
+                100.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                33.33,
+                0
+            ],
+            "fruiting": [
+                50.0,
+                0,
+                0.0,
+                0,
+                0,
+                50.0,
+                0.0,
+                100.0,
+                100.0,
+                0.0,
+                33.33,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 22.06,
+    "dbh_max": 45.0,
+    "dbh_median": 15.3,
+    "dbh_min": 11.3,
+    "height_max": 20.0,
+    "wood_density_mean": 0.58,
+    "wood_density_max": 0.58,
+    "wood_density_min": 0.58,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 60.0,
+            "20": 20.0,
+            "30": 0.0,
+            "40": 20.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 16.39,
+            "200": 3.28,
+            "300": 19.67,
+            "400": 11.48,
+            "500": 31.15,
+            "600": 9.84,
+            "700": 6.56,
+            "800": 1.64,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 12.9,
+            "1500": 35.48,
+            "2000": 43.55,
+            "2500": 8.06,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 2.0,
+            "2": 98.0
+        },
+        "strate": {
+            "1": 50.0,
+            "2": 0.0,
+            "3": 50.0
+        }
+    }
+}

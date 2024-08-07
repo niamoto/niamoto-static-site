@@ -1,0 +1,130 @@
+{
+    "id": 1648,
+    "full_name": "Acropogon scheffleraefolius",
+    "authors": "(Guillaumin) Morat",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1276
+    },
+    "lft": 1583,
+    "rght": 1584,
+    "level": 2,
+    "parent_id": 256,
+    "taxon_id": 1648,
+    "total_occurrences_count": 89,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.23305, -21.8801], \"count\": 1}, {\"coordinates\": [165.1252778, -21.2763889], \"count\": 1}, {\"coordinates\": [165.54721, -21.36266], \"count\": 2}, {\"coordinates\": [166.4454743, -22.0828451], \"count\": 1}, {\"coordinates\": [166.2769299, -21.953748], \"count\": 1}, {\"coordinates\": [165.0870464, -21.3226138], \"count\": 3}, {\"coordinates\": [165.9862783333, -21.6875436111], \"count\": 1}, {\"coordinates\": [165.5964619, -21.4736675], \"count\": 2}, {\"coordinates\": [165.5956904, -21.473834], \"count\": 1}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 1}, {\"coordinates\": [165.986098, -21.68747], \"count\": 3}, {\"coordinates\": [165.1055273, -21.3174819], \"count\": 4}, {\"coordinates\": [165.1668705, -21.3168323], \"count\": 2}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 1}, {\"coordinates\": [166.2965192, -21.9404243], \"count\": 1}, {\"coordinates\": [165.1548947, -21.2411851], \"count\": 1}, {\"coordinates\": [166.92011, -22.32465], \"count\": 1}, {\"coordinates\": [166.9225647, -22.3216887], \"count\": 1}, {\"coordinates\": [165.6288889, -21.3468202], \"count\": 2}, {\"coordinates\": [165.183621, -20.8438635], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 3}, {\"coordinates\": [166.9525, -22.3647222222], \"count\": 1}, {\"coordinates\": [166.91701666666665, -22.322566666666667], \"count\": 4}, {\"coordinates\": [166.91544444444443, -22.323611111111113], \"count\": 1}, {\"coordinates\": [165.1045585, -21.3163888], \"count\": 2}, {\"coordinates\": [166.23304748535156, -21.88010025024414], \"count\": 1}, {\"coordinates\": [165.6315205, -21.2794748], \"count\": 2}, {\"coordinates\": [165.04015, -21.15567], \"count\": 1}, {\"coordinates\": [165.1252977, -21.2365967], \"count\": 1}, {\"coordinates\": [165.1022186279297, -21.320560455322266], \"count\": 1}, {\"coordinates\": [165.27895, -21.36889], \"count\": 1}, {\"coordinates\": [166.4422222, -22.08583333], \"count\": 1}, {\"coordinates\": [166.2933333, -21.94361111], \"count\": 1}, {\"coordinates\": [165.1022222, -21.32055556], \"count\": 4}, {\"coordinates\": [164.5219444, -20.41027778], \"count\": 1}, {\"coordinates\": [165.1219444, -21.23972222], \"count\": 2}, {\"coordinates\": [166.9386111, -22.34972222], \"count\": 1}, {\"coordinates\": [166.2736111, -21.95694444], \"count\": 1}, {\"coordinates\": [165.596462, -21.473668], \"count\": 1}, {\"coordinates\": [165.6255556, -21.35], \"count\": 1}, {\"coordinates\": [165.59105816856902, -21.472101458544856], \"count\": 1}, {\"coordinates\": [165.10508, -21.31481], \"count\": 1}, {\"coordinates\": [166.9194444, -22.32472222], \"count\": 2}, {\"coordinates\": [164.525, -20.39972222], \"count\": 1}, {\"coordinates\": [165.6283333, -21.2825], \"count\": 1}, {\"coordinates\": [165.1802778, -20.84694444], \"count\": 1}, {\"coordinates\": [165.0875, -21.32777778], \"count\": 1}, {\"coordinates\": [165.986278, -21.687544], \"count\": 1}, {\"coordinates\": [165.1516667, -21.24416667], \"count\": 2}, {\"coordinates\": [165.0838889, -21.32555556], \"count\": 1}, {\"coordinates\": [165.0080556, -21.17555556], \"count\": 1}, {\"coordinates\": [165.99846303, -21.75603704], \"count\": 1}, {\"coordinates\": [166.91382455, -22.32552964], \"count\": 1}, {\"coordinates\": [165.09845547, -21.31140063], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 11}]}",
+    "species_top": {
+        "Acropogon scheffleraefolius": 89
+    },
+    "um_occurrences_true": 64,
+    "um_occurrences_false": 25,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0.0,
+                100.0,
+                0.0,
+                100.0,
+                50.0,
+                0.0,
+                50.0,
+                33.33,
+                50.0,
+                33.33,
+                70.0
+            ],
+            "fruiting": [
+                100.0,
+                100.0,
+                0.0,
+                100.0,
+                0.0,
+                75.0,
+                100.0,
+                100.0,
+                66.67,
+                100.0,
+                66.67,
+                40.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 28.77,
+    "dbh_max": 55.9,
+    "dbh_median": 26.0,
+    "dbh_min": 10.0,
+    "height_max": 25.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 36.36,
+            "20": 18.18,
+            "30": 9.09,
+            "40": 27.27,
+            "50": 9.09,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 10.29,
+            "200": 32.35,
+            "300": 7.35,
+            "400": 5.88,
+            "500": 14.71,
+            "600": 10.29,
+            "700": 14.71,
+            "800": 1.47,
+            "900": 2.94,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 29.41,
+            "1500": 20.0,
+            "2000": 21.18,
+            "2500": 28.24,
+            "3000": 1.18,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 30.0,
+            "2": 70.0
+        }
+    }
+}

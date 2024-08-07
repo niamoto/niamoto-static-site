@@ -1,0 +1,130 @@
+{
+    "id": 13495,
+    "full_name": "Pancheria xaragurensis",
+    "authors": "H.C.Hopkins & Pillon  ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 6139
+    },
+    "lft": 827,
+    "rght": 828,
+    "level": 2,
+    "parent_id": 1160,
+    "taxon_id": 13495,
+    "total_occurrences_count": 28,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.1791667, -21.6169444], \"count\": 1}, {\"coordinates\": [166.3530556, -21.9041667], \"count\": 1}, {\"coordinates\": [166.493505, -21.945976], \"count\": 4}, {\"coordinates\": [166.493434, -21.946526], \"count\": 9}, {\"coordinates\": [166.60850400000038, -22.008734000655487], \"count\": 1}, {\"coordinates\": [166.456461461385, -21.8267909367879], \"count\": 1}, {\"coordinates\": [166.60440754542563, -22.008748819885184], \"count\": 1}, {\"coordinates\": [166.5099528, -21.8920801], \"count\": 1}, {\"coordinates\": [166.4180556, -21.7205556], \"count\": 1}, {\"coordinates\": [166.27559, -21.62865], \"count\": 1}, {\"coordinates\": [166.3712006, -21.6991062], \"count\": 1}, {\"coordinates\": [166.4936111, -21.9461111], \"count\": 1}, {\"coordinates\": [166.53333, -21.88333], \"count\": 1}, {\"coordinates\": [166.493759, -21.94574199], \"count\": 1}, {\"coordinates\": [166.493505, -21.94597607], \"count\": 1}, {\"coordinates\": [166.49182903, -21.94298703], \"count\": 1}, {\"coordinates\": [166.492829, -21.93731499], \"count\": 1}]}",
+    "species_top": {
+        "Pancheria xaragurensis": 28
+    },
+    "um_occurrences_true": 28,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                100.0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                80.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0.0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                20.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.57,
+    "dbh_max": 9.7,
+    "dbh_median": 8.0,
+    "dbh_min": 5.1,
+    "height_max": 3.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 4.35,
+            "200": 8.7,
+            "300": 0.0,
+            "400": 4.35,
+            "500": 73.91,
+            "600": 4.35,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 4.35,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 3.57,
+            "2000": 10.71,
+            "2500": 10.71,
+            "3000": 60.71,
+            "3500": 14.29,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

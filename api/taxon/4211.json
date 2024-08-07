@@ -1,0 +1,130 @@
+{
+    "id": 4211,
+    "full_name": "Melaleuca buseana",
+    "authors": "(Guillaumin) Craven & J.W.Dawson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4235
+    },
+    "lft": 1913,
+    "rght": 1914,
+    "level": 2,
+    "parent_id": 1038,
+    "taxon_id": 4211,
+    "total_occurrences_count": 64,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4991332, -21.852281], \"count\": 1}, {\"coordinates\": [166.4688889, -22.0102778], \"count\": 1}, {\"coordinates\": [166.5932081, -22.1594012], \"count\": 1}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 1}, {\"coordinates\": [166.30325, -21.7774444444], \"count\": 1}, {\"coordinates\": [166.76361107, -22.17805556], \"count\": 2}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 2}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}, {\"coordinates\": [166.50452785, -21.97022221], \"count\": 1}, {\"coordinates\": [166.50752785, -21.96772218], \"count\": 1}, {\"coordinates\": [166.5046944, -21.9701944], \"count\": 2}, {\"coordinates\": [166.50683334, -21.96855555], \"count\": 2}, {\"coordinates\": [166.38912000000016, -21.735165000648884], \"count\": 1}, {\"coordinates\": [166.4983367919922, -21.880279541015625], \"count\": 2}, {\"coordinates\": [166.507144350833, -22.063472704], \"count\": 1}, {\"coordinates\": [166.444320392609, -21.8523356119792], \"count\": 1}, {\"coordinates\": [166.3545150000002, -21.73366900064891], \"count\": 1}, {\"coordinates\": [166.9528526, -22.2698698], \"count\": 2}, {\"coordinates\": [166.2616734, -21.8455673], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 1}, {\"coordinates\": [166.49583435058594, -21.85527992248535], \"count\": 2}, {\"coordinates\": [166.25833129882812, -21.848609924316406], \"count\": 2}, {\"coordinates\": [166.5339829, -21.9608885], \"count\": 1}, {\"coordinates\": [166.23280800000012, -21.78044700065001], \"count\": 1}, {\"coordinates\": [166.58749389648438, -22.153329849243164], \"count\": 2}, {\"coordinates\": [166.46888732910156, -22.01028060913086], \"count\": 2}, {\"coordinates\": [166.97193908691406, -22.276390075683594], \"count\": 1}, {\"coordinates\": [166.8332977294922, -22.16670036315918], \"count\": 1}, {\"coordinates\": [166.23300900000012, -21.766645000649685], \"count\": 1}, {\"coordinates\": [166.23935300000014, -21.759705000649483], \"count\": 1}, {\"coordinates\": [166.46888732910156, -22.010269165039062], \"count\": 1}, {\"coordinates\": [166.46890258789062, -22.010299682617188], \"count\": 1}, {\"coordinates\": [166.507593216333, -22.0654030143333], \"count\": 1}, {\"coordinates\": [166.5017079, -21.8771973], \"count\": 1}, {\"coordinates\": [166.2433920000001, -21.75965400064951], \"count\": 1}, {\"coordinates\": [166.5942209, -22.1657415], \"count\": 1}, {\"coordinates\": [166.30332946777344, -21.76667022705078], \"count\": 2}, {\"coordinates\": [166.50397599, -21.969119], \"count\": 1}, {\"coordinates\": [166.25833, -21.84861], \"count\": 1}, {\"coordinates\": [166.59, -22.1625], \"count\": 1}, {\"coordinates\": [166.4958, -21.8553], \"count\": 1}, {\"coordinates\": [166.9497, -22.2731], \"count\": 2}, {\"coordinates\": [167.00586881237726, -22.28310546774243], \"count\": 1}, {\"coordinates\": [166.49417669837433, -21.80855882487107], \"count\": 1}, {\"coordinates\": [166.49583, -21.85528], \"count\": 1}, {\"coordinates\": [166.49833, -21.88028], \"count\": 1}, {\"coordinates\": [166.2583, -21.8486], \"count\": 1}, {\"coordinates\": [166.5911, -22.1689], \"count\": 1}, {\"coordinates\": [166.4983, -21.8803], \"count\": 1}, {\"coordinates\": [166.5967, -22.1306], \"count\": 1}, {\"coordinates\": [166.5875, -22.15333], \"count\": 1}, {\"coordinates\": [166.53221513585598, -21.957648465972383], \"count\": 1}]}",
+    "species_top": {
+        "Melaleuca buseana": 64
+    },
+    "um_occurrences_true": 64,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                0,
+                0,
+                0.0,
+                66.67,
+                66.67
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                100.0,
+                66.67,
+                33.33
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 21.14,
+    "dbh_max": 39.5,
+    "dbh_median": 20.2,
+    "dbh_min": 10.8,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 50.0,
+            "20": 25.0,
+            "30": 25.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 8.06,
+            "200": 9.68,
+            "300": 17.74,
+            "400": 3.23,
+            "500": 4.84,
+            "600": 9.68,
+            "700": 9.68,
+            "800": 11.29,
+            "900": 8.06,
+            "1000": 8.06,
+            "1100": 6.45,
+            "1200": 3.23
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 20.31,
+            "2500": 34.38,
+            "3000": 23.44,
+            "3500": 7.81,
+            "4000": 10.94,
+            "4500": 3.12
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

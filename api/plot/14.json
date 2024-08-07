@@ -1,0 +1,63 @@
+{
+    "id": 14,
+    "locality": "For\u00eat Plate P17",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            165.107077,
+            -21.122677
+        ]
+    },
+    "plot_id": 14,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [165.107077, -21.122677]}",
+    "families_top": {
+        "Araliaceae": 677,
+        "Rutaceae": 553,
+        "Araucariaceae": 333,
+        "Podocarpaceae": 263,
+        "Winteraceae": 236,
+        "Sapindaceae": 159,
+        "Salicaceae": 139,
+        "Primulaceae": 100,
+        "Myrtaceae": 84,
+        "Ebenaceae": 82
+    },
+    "species_top": {
+        "Geijera balansae": 411,
+        "Polyscias dioica": 382,
+        "Xylosma vincentii": 131,
+        "Zygogynum stipitatum": 85,
+        "Zygogynum pomiferum": 78,
+        "Diospyros fasciculosa": 73,
+        "Polyscias otopyrena": 71,
+        "Garcinia densiflora": 56,
+        "Falcatifolium taxoides": 48,
+        "Arytera arcuata": 48
+    },
+    "height_mean": 10.17,
+    "wood_density_mean": null,
+    "basal_area": 32.4,
+    "shannon": 2.74,
+    "pielou": 0.66,
+    "simpson": 0.85,
+    "biomass": 180.565069340673,
+    "frequencies": {
+        "dbh": {
+            "10": 76.27,
+            "20": 15.74,
+            "30": 4.35,
+            "40": 1.82,
+            "50": 1.11,
+            "75": 0.24,
+            "100": 0.4,
+            "200": 0.08,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 3.23,
+            "2": 10.6,
+            "3": 86.18
+        }
+    }
+}

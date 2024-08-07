@@ -1,0 +1,63 @@
+{
+    "id": 4,
+    "locality": "Calcaires de Koumac",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            164.355251,
+            -20.539273
+        ]
+    },
+    "plot_id": 4,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [164.355251, -20.539273]}",
+    "families_top": {
+        "Ebenaceae": 126,
+        "Meliaceae": 106,
+        "Anacardiaceae": 56,
+        "Annonaceae": 46,
+        "Cannabaceae": 39,
+        "Hernandiaceae": 29,
+        "Apocynaceae": 18,
+        "Dilleniaceae": 15,
+        "Oleaceae": 9,
+        "Phyllanthaceae": 9
+    },
+    "species_top": {
+        "Diospyros fasciculosa": 126,
+        "Aglaia elaeagnoidea": 102,
+        "Huberantha nitidissima": 46,
+        "Semecarpus atra": 39,
+        "Celtis balansae": 39,
+        "Gyrocarpus americanus": 29,
+        "Tabernaemontana cerifera": 18,
+        "Pleiogynium timoriense": 16,
+        "Tetracera billardierei": 15,
+        "Olea paniculata": 9
+    },
+    "height_mean": 15.59,
+    "wood_density_mean": 0.58,
+    "basal_area": 34.5,
+    "shannon": 2.53,
+    "pielou": 0.72,
+    "simpson": 0.87,
+    "biomass": 237.445066286336,
+    "frequencies": {
+        "dbh": {
+            "10": 55.11,
+            "20": 21.44,
+            "30": 10.22,
+            "40": 5.81,
+            "50": 5.21,
+            "75": 1.6,
+            "100": 0.6,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 12.8,
+            "2": 32.52,
+            "3": 54.67
+        }
+    }
+}

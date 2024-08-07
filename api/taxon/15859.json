@@ -1,0 +1,135 @@
+{
+    "id": 15859,
+    "full_name": "Ficus virens",
+    "authors": "Aiton",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4088
+    },
+    "lft": 1753,
+    "rght": 1754,
+    "level": 2,
+    "parent_id": 774,
+    "taxon_id": 15859,
+    "total_occurrences_count": 7,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.92463, -20.98198], \"count\": 1}, {\"coordinates\": [165.06532935739, -21.1401256893441], \"count\": 1}, {\"coordinates\": [166.460018, -22.259073], \"count\": 1}, {\"coordinates\": [164.985349319603, -21.0801036465473], \"count\": 1}, {\"coordinates\": [166.12466430664062, -21.890460968017578], \"count\": 1}, {\"coordinates\": [166.493376, -22.210077], \"count\": 1}, {\"coordinates\": [164.146, -20.205], \"count\": 1}]}",
+    "species_top": {
+        "Ficus virens": 7
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 7,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 30.4,
+    "dbh_max": 41.4,
+    "dbh_median": 30.4,
+    "dbh_min": 19.4,
+    "height_max": null,
+    "wood_density_mean": 0.53,
+    "wood_density_max": 0.53,
+    "wood_density_min": 0.52,
+    "bark_thickness_mean": 6.5,
+    "bark_thickness_max": 9.0,
+    "bark_thickness_min": 4.0,
+    "leaf_sla_mean": 9.52,
+    "leaf_sla_max": 9.52,
+    "leaf_sla_min": 9.52,
+    "leaf_area_mean": 24.34,
+    "leaf_area_max": 24.34,
+    "leaf_area_min": 24.34,
+    "leaf_thickness_mean": 258.76,
+    "leaf_thickness_max": 258.76,
+    "leaf_thickness_min": 258.76,
+    "frequencies": {
+        "dbh": {
+            "10": 50.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 50.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 33.33,
+            "200": 33.33,
+            "300": 33.33,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 66.67,
+            "1500": 16.67,
+            "2000": 16.67,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 71.43,
+            "2": 28.57
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

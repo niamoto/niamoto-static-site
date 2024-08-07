@@ -1,0 +1,135 @@
+{
+    "id": 15787,
+    "full_name": "Metrosideros tardiflora",
+    "authors": "(J.W. Dawson) Pillon",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1383
+    },
+    "lft": 1953,
+    "rght": 1954,
+    "level": 2,
+    "parent_id": 1052,
+    "taxon_id": 15787,
+    "total_occurrences_count": 172,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7444444, -20.6022222], \"count\": 2}, {\"coordinates\": [166.2815277778, -21.7802777778], \"count\": 1}, {\"coordinates\": [164.6034511, -20.4451689], \"count\": 2}, {\"coordinates\": [165.277313, -21.177801], \"count\": 43}, {\"coordinates\": [164.5213457, -20.4031031], \"count\": 1}, {\"coordinates\": [166.4700419, -22.0281815], \"count\": 2}, {\"coordinates\": [164.6121317, -20.4447554], \"count\": 2}, {\"coordinates\": [165.3114222, -21.1739389], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 2}, {\"coordinates\": [164.7904228, -20.5660142], \"count\": 2}, {\"coordinates\": [164.5314902, -20.3976737], \"count\": 2}, {\"coordinates\": [164.7037479, -20.5031306], \"count\": 2}, {\"coordinates\": [164.6, -20.43333], \"count\": 1}, {\"coordinates\": [166.4119277, -21.8878731], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.759323, -20.59905765555556], \"count\": 1}, {\"coordinates\": [165.76227899, -21.56707701], \"count\": 1}, {\"coordinates\": [166.23174487, -21.67188604], \"count\": 1}, {\"coordinates\": [166.15547218, -21.74575002], \"count\": 1}, {\"coordinates\": [166.2500833, -21.66319442], \"count\": 1}, {\"coordinates\": [166.23142118, -21.67261039], \"count\": 1}, {\"coordinates\": [166.52474998, -22.17611402], \"count\": 1}, {\"coordinates\": [166.52251903, -22.181908], \"count\": 1}, {\"coordinates\": [166.14569697, -21.740991], \"count\": 1}, {\"coordinates\": [166.54058702, -22.17797097], \"count\": 1}, {\"coordinates\": [166.51290896, -21.96684296], \"count\": 1}, {\"coordinates\": [166.14383398, -21.74637098], \"count\": 1}, {\"coordinates\": [166.39741, -21.88555004], \"count\": 1}, {\"coordinates\": [166.535486, -22.18440703], \"count\": 1}, {\"coordinates\": [166.41248097, -21.88368699], \"count\": 1}, {\"coordinates\": [166.14499498, -21.73580302], \"count\": 1}, {\"coordinates\": [164.7688388888889, -20.575755555555556], \"count\": 1}, {\"coordinates\": [166.40238888888888, -21.882472222222223], \"count\": 1}, {\"coordinates\": [166.40308333333334, -21.88275], \"count\": 1}, {\"coordinates\": [166.46404003, -22.03794654], \"count\": 1}, {\"coordinates\": [166.40341666666666, -21.882194444444444], \"count\": 2}, {\"coordinates\": [165.27694444444444, -21.178055555555556], \"count\": 1}, {\"coordinates\": [166.28167724609375, -21.76667022705078], \"count\": 2}, {\"coordinates\": [166.4086151123047, -21.89082908630371], \"count\": 2}, {\"coordinates\": [165.335894, -21.362521], \"count\": 1}, {\"coordinates\": [164.60638427734375, -20.445829391479492], \"count\": 3}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 4}, {\"coordinates\": [164.5267956, -20.3927884], \"count\": 4}, {\"coordinates\": [164.51806640625, -20.406110763549805], \"count\": 2}, {\"coordinates\": [164.7005615234375, -20.5061092376709], \"count\": 1}, {\"coordinates\": [165.29693603515625, -21.183610916137695], \"count\": 1}, {\"coordinates\": [164.5722198486328, -20.44028091430664], \"count\": 1}, {\"coordinates\": [166.5339829, -21.9608885], \"count\": 2}, {\"coordinates\": [165.300278, -21.1806091], \"count\": 2}, {\"coordinates\": [164.52194213867188, -20.410280227661133], \"count\": 2}, {\"coordinates\": [166.4077778, -21.8805556], \"count\": 1}, {\"coordinates\": [166.4631195, -22.0355682], \"count\": 2}, {\"coordinates\": [166.662099011739, -22.0181882003943], \"count\": 1}, {\"coordinates\": [166.161372, -21.7534519], \"count\": 4}, {\"coordinates\": [164.63333129882812, -20.46666717529297], \"count\": 1}, {\"coordinates\": [164.5754636, -20.4373708], \"count\": 2}, {\"coordinates\": [164.53334045410156, -20.399999618530273], \"count\": 1}, {\"coordinates\": [164.63055419921875, -20.429170608520508], \"count\": 1}, {\"coordinates\": [164.8237796, -20.6370892], \"count\": 2}, {\"coordinates\": [165.28334045410156, -21.183332443237305], \"count\": 1}, {\"coordinates\": [164.74000549316406, -20.613611221313477], \"count\": 1}, {\"coordinates\": [164.71444702148438, -20.5], \"count\": 1}, {\"coordinates\": [165.29722595214844, -21.174440383911133], \"count\": 1}, {\"coordinates\": [164.820556640625, -20.639999389648438], \"count\": 1}, {\"coordinates\": [164.5236053466797, -20.395830154418945], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 1}, {\"coordinates\": [166.4666748046875, -22.031110763549805], \"count\": 1}, {\"coordinates\": [164.7904, -20.566], \"count\": 1}, {\"coordinates\": [164.920329394444, -20.9506365472222], \"count\": 1}, {\"coordinates\": [164.5213, -20.4031], \"count\": 1}, {\"coordinates\": [165.434952, -21.226105], \"count\": 7}, {\"coordinates\": [164.82056, -20.64], \"count\": 1}, {\"coordinates\": [164.776083333333, -20.6125], \"count\": 4}, {\"coordinates\": [164.57222, -20.44028], \"count\": 1}, {\"coordinates\": [164.7718, -20.586], \"count\": 1}, {\"coordinates\": [166.4119, -21.8879], \"count\": 1}, {\"coordinates\": [165.545395, -21.416931], \"count\": 1}, {\"coordinates\": [164.52194, -20.41028], \"count\": 2}, {\"coordinates\": [164.51806, -20.40611], \"count\": 2}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 1}, {\"coordinates\": [165.29722, -21.17444], \"count\": 1}, {\"coordinates\": [166.46667, -22.03111], \"count\": 1}, {\"coordinates\": [164.70056, -20.50611], \"count\": 1}, {\"coordinates\": [165.3034, -21.1779], \"count\": 1}, {\"coordinates\": [164.869111111111, -20.6402777777778], \"count\": 2}, {\"coordinates\": [164.52361, -20.39583], \"count\": 1}, {\"coordinates\": [165.29694, -21.18361], \"count\": 1}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 1}, {\"coordinates\": [165.133563, -20.8148359], \"count\": 1}]}",
+    "species_top": {
+        "Metrosideros tardiflora": 172
+    },
+    "um_occurrences_true": 42,
+    "um_occurrences_false": 130,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                20.69,
+                100.0,
+                75.0,
+                40.0,
+                0.0,
+                0,
+                50.0,
+                100.0,
+                33.33,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                12.5,
+                50.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                66.67,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 48.81,
+    "dbh_max": 110.0,
+    "dbh_median": 50.75,
+    "dbh_min": 10.0,
+    "height_max": 30.0,
+    "wood_density_mean": 0.86,
+    "wood_density_max": 0.9,
+    "wood_density_min": 0.82,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 22.22,
+            "20": 8.33,
+            "30": 8.33,
+            "40": 8.33,
+            "50": 33.33,
+            "75": 13.89,
+            "100": 5.56,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 1.2,
+            "200": 1.2,
+            "300": 8.98,
+            "400": 2.4,
+            "500": 6.59,
+            "600": 12.57,
+            "700": 6.59,
+            "800": 31.14,
+            "900": 10.18,
+            "1000": 7.78,
+            "1100": 2.4,
+            "1200": 8.98
+        },
+        "rainfall": {
+            "1000": 2.91,
+            "1500": 15.12,
+            "2000": 20.93,
+            "2500": 37.21,
+            "3000": 7.56,
+            "3500": 8.72,
+            "4000": 5.81,
+            "4500": 1.74
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 12.5,
+            "3": 87.5
+        }
+    }
+}

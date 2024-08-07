@@ -1,0 +1,130 @@
+{
+    "id": 3606,
+    "full_name": "Gymnostoma nodiflorum",
+    "authors": "(Thunb.) L.A.S.Johnson   ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2426
+    },
+    "lft": 565,
+    "rght": 566,
+    "level": 2,
+    "parent_id": 832,
+    "taxon_id": 3606,
+    "total_occurrences_count": 47,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.9851319, -21.5590014], \"count\": 1}, {\"coordinates\": [165.3308928, -20.9378508], \"count\": 1}, {\"coordinates\": [164.497441, -20.4197566], \"count\": 1}, {\"coordinates\": [165.9723227, -21.6488487], \"count\": 1}, {\"coordinates\": [164.435, -20.4305556], \"count\": 1}, {\"coordinates\": [164.8055555556, -20.5661111111], \"count\": 2}, {\"coordinates\": [165.28058333333334, -21.23818888888889], \"count\": 3}, {\"coordinates\": [165.2192204, -20.8929874], \"count\": 1}, {\"coordinates\": [165.281507303515, -21.2384788907155], \"count\": 1}, {\"coordinates\": [165.24221801757812, -20.940000534057617], \"count\": 1}, {\"coordinates\": [165.63333129882812, -21.616666793823242], \"count\": 1}, {\"coordinates\": [166.5755615234375, -22.150279998779297], \"count\": 1}, {\"coordinates\": [165.0813889, -20.9197222], \"count\": 1}, {\"coordinates\": [165.96917724609375, -21.651939392089844], \"count\": 2}, {\"coordinates\": [165.107107152039, -20.9438018833046], \"count\": 1}, {\"coordinates\": [165.8273357, -21.5415171], \"count\": 1}, {\"coordinates\": [165.55349, -21.1957584], \"count\": 1}, {\"coordinates\": [164.7406667, -20.5928333], \"count\": 1}, {\"coordinates\": [164.8024556, -20.5625543], \"count\": 1}, {\"coordinates\": [164.5124969482422, -20.388330459594727], \"count\": 2}, {\"coordinates\": [164.363833332062, -20.4452199935913], \"count\": 1}, {\"coordinates\": [164.70905052184148, -20.47715653751574], \"count\": 1}, {\"coordinates\": [164.945192985256, -20.6921961170535], \"count\": 1}, {\"coordinates\": [165.1771398, -20.8830634], \"count\": 1}, {\"coordinates\": [164.2204228115, -20.4175950056667], \"count\": 1}, {\"coordinates\": [164.189860440591, -20.2893480447779], \"count\": 1}, {\"coordinates\": [164.174791887852, -20.2453234138271], \"count\": 1}, {\"coordinates\": [164.191488034546, -20.2801820619107], \"count\": 1}, {\"coordinates\": [164.364932714961, -20.4369923472404], \"count\": 1}, {\"coordinates\": [165.8265424, -21.3973133], \"count\": 1}, {\"coordinates\": [165.40194702148438, -21.075830459594727], \"count\": 1}, {\"coordinates\": [165.63333129882812, -21.616670608520508], \"count\": 1}, {\"coordinates\": [165.2096447, -20.8907613], \"count\": 1}, {\"coordinates\": [164.50901794433594, -20.37822914123535], \"count\": 1}, {\"coordinates\": [164.3011694, -20.4466472], \"count\": 1}, {\"coordinates\": [165.439557860092, -21.0997786296709], \"count\": 1}, {\"coordinates\": [164.2127778, -20.4113889], \"count\": 1}, {\"coordinates\": [165.5174261, -21.1725489], \"count\": 1}, {\"coordinates\": [164.220436249689, -20.4169189528896], \"count\": 1}, {\"coordinates\": [164.50902, -20.37823], \"count\": 1}]}",
+    "species_top": {
+        "Gymnostoma nodiflorum": 47
+    },
+    "um_occurrences_true": 6,
+    "um_occurrences_false": 41,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                100.0,
+                0.0,
+                25.0,
+                33.33,
+                0.0
+            ],
+            "fruiting": [
+                80.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                33.33,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 13.37,
+    "dbh_max": 19.9,
+    "dbh_median": 14.0,
+    "dbh_min": 6.2,
+    "height_max": 12.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 48.28,
+            "200": 24.14,
+            "300": 24.14,
+            "400": 0.0,
+            "500": 3.45,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 22.22,
+            "1500": 44.44,
+            "2000": 13.33,
+            "2500": 8.89,
+            "3000": 8.89,
+            "3500": 0.0,
+            "4000": 2.22,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 18.92,
+            "2": 81.08
+        }
+    }
+}

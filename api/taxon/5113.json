@@ -1,0 +1,135 @@
+{
+    "id": 5113,
+    "full_name": "Podocarpus polyspermus",
+    "authors": "de Laub.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2301
+    },
+    "lft": 2477,
+    "rght": 2478,
+    "level": 2,
+    "parent_id": 1236,
+    "taxon_id": 5113,
+    "total_occurrences_count": 53,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.2981885, -20.407149], \"count\": 2}, {\"coordinates\": [165.1123822, -21.1705472], \"count\": 1}, {\"coordinates\": [165.0959733501, -21.1677664798], \"count\": 1}, {\"coordinates\": [165.3644444, -21.4436111], \"count\": 1}, {\"coordinates\": [165.1070264, -21.1626084], \"count\": 1}, {\"coordinates\": [165.3436111, -21.3611111], \"count\": 1}, {\"coordinates\": [165.3488007, -21.4306073], \"count\": 1}, {\"coordinates\": [165.4499969482422, -21.43000030517578], \"count\": 1}, {\"coordinates\": [165.36721801757812, -21.45111083984375], \"count\": 2}, {\"coordinates\": [165.3705204, -21.4479488], \"count\": 1}, {\"coordinates\": [165.4275665283203, -21.44243049621582], \"count\": 2}, {\"coordinates\": [165.121885, -20.8695419], \"count\": 1}, {\"coordinates\": [165.0826875, -21.1784801], \"count\": 1}, {\"coordinates\": [165.07638549804688, -21.189720153808594], \"count\": 1}, {\"coordinates\": [165.3300018310547, -21.3700008392334], \"count\": 2}, {\"coordinates\": [165.0916585965, -21.1670442306667], \"count\": 1}, {\"coordinates\": [165.114513208688, -21.1769843564851], \"count\": 1}, {\"coordinates\": [165.38278198242188, -21.383060455322266], \"count\": 1}, {\"coordinates\": [165.157654937357, -21.2145513296127], \"count\": 1}, {\"coordinates\": [165.07943725585938, -21.1813907623291], \"count\": 1}, {\"coordinates\": [165.29055786132812, -20.9677791595459], \"count\": 1}, {\"coordinates\": [165.08883666992188, -21.174667358398438], \"count\": 1}, {\"coordinates\": [165.098249366667, -21.1710130333333], \"count\": 1}, {\"coordinates\": [165.335894, -21.362521], \"count\": 1}, {\"coordinates\": [165.084320448294, -21.1773405985512], \"count\": 1}, {\"coordinates\": [165.36444091796875, -21.4436092376709], \"count\": 1}, {\"coordinates\": [165.02999877929688, -21.219999313354492], \"count\": 1}, {\"coordinates\": [165.112266596407, -21.1706811189652], \"count\": 1}, {\"coordinates\": [165.094375703749, -21.1690623785814], \"count\": 1}, {\"coordinates\": [165.1124, -21.1705], \"count\": 1}, {\"coordinates\": [165.1145, -21.17698], \"count\": 1}, {\"coordinates\": [165.0843, -21.17734], \"count\": 1}, {\"coordinates\": [165.3672, -21.4511], \"count\": 1}, {\"coordinates\": [165.34671912, -21.43839498], \"count\": 1}, {\"coordinates\": [165.34555561, -21.43361115], \"count\": 1}, {\"coordinates\": [165.07944, -21.18139], \"count\": 1}, {\"coordinates\": [165.29056, -20.96778], \"count\": 1}, {\"coordinates\": [165.3644, -21.4436], \"count\": 1}, {\"coordinates\": [165.36722, -21.45111], \"count\": 2}, {\"coordinates\": [165.0794, -21.1814], \"count\": 1}, {\"coordinates\": [165.38278, -21.38306], \"count\": 1}, {\"coordinates\": [165.1039, -21.1656], \"count\": 1}, {\"coordinates\": [165.42757, -21.44243], \"count\": 2}, {\"coordinates\": [165.1186, -20.8725], \"count\": 1}, {\"coordinates\": [165.3456, -21.4336], \"count\": 1}, {\"coordinates\": [165.4275, -21.4425], \"count\": 1}, {\"coordinates\": [165.07639, -21.18972], \"count\": 1}]}",
+    "species_top": {
+        "Podocarpus polyspermus": 53
+    },
+    "um_occurrences_true": 41,
+    "um_occurrences_false": 12,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                100.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                25.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                33.33,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 20.9,
+    "dbh_max": 30.0,
+    "dbh_median": 20.9,
+    "dbh_min": 11.8,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 50.0,
+            "20": 0.0,
+            "30": 50.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 10.0,
+            "400": 4.0,
+            "500": 10.0,
+            "600": 20.0,
+            "700": 16.0,
+            "800": 2.0,
+            "900": 20.0,
+            "1000": 10.0,
+            "1100": 0.0,
+            "1200": 8.0
+        },
+        "rainfall": {
+            "1000": 3.77,
+            "1500": 30.19,
+            "2000": 52.83,
+            "2500": 9.43,
+            "3000": 3.77,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 2.86,
+            "2": 97.14
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

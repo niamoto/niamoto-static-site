@@ -1,0 +1,135 @@
+{
+    "id": 3013,
+    "full_name": "Diospyros balansae",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3615
+    },
+    "lft": 931,
+    "rght": 932,
+    "level": 2,
+    "parent_id": 679,
+    "taxon_id": 3013,
+    "total_occurrences_count": 28,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.9627208, -21.5236466], \"count\": 1}, {\"coordinates\": [166.6395833, -22.096425], \"count\": 1}, {\"coordinates\": [166.788903, -22.1907076], \"count\": 1}, {\"coordinates\": [166.9067677, -22.1559741], \"count\": 1}, {\"coordinates\": [166.96736718107937, -22.22834512309512], \"count\": 1}, {\"coordinates\": [165.13569444444445, -20.816222222222223], \"count\": 1}, {\"coordinates\": [166.6592254638672, -22.110490798950195], \"count\": 1}, {\"coordinates\": [166.77142333984375, -22.186769485473633], \"count\": 1}, {\"coordinates\": [167.25, -21.0], \"count\": 2}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [165.71665954589844, -21.433330535888672], \"count\": 1}, {\"coordinates\": [165.89512634277344, -21.527860641479492], \"count\": 1}, {\"coordinates\": [165.6793212890625, -21.36747932434082], \"count\": 1}, {\"coordinates\": [166.3638458251953, -21.728219985961914], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 1}, {\"coordinates\": [166.818, -22.211], \"count\": 1}, {\"coordinates\": [165.959444444444, -21.5266666666667], \"count\": 1}, {\"coordinates\": [166.785555555556, -22.1938888888889], \"count\": 1}, {\"coordinates\": [166.639583333333, -22.0964250002967], \"count\": 1}, {\"coordinates\": [166.36385, -21.72822], \"count\": 1}, {\"coordinates\": [165.67932, -21.36748], \"count\": 1}, {\"coordinates\": [166.76104096, -22.18968099], \"count\": 1}]}",
+    "species_top": {
+        "Diospyros balansae": 28
+    },
+    "um_occurrences_true": 15,
+    "um_occurrences_false": 13,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                50.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                0,
+                100.0,
+                0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 12.25,
+    "dbh_max": 13.7,
+    "dbh_median": 12.25,
+    "dbh_min": 10.8,
+    "height_max": 6.0,
+    "wood_density_mean": 0.64,
+    "wood_density_max": 0.64,
+    "wood_density_min": 0.64,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": 3.02,
+    "leaf_sla_max": 3.02,
+    "leaf_sla_min": 3.02,
+    "leaf_area_mean": 76.18,
+    "leaf_area_max": 76.18,
+    "leaf_area_min": 76.18,
+    "leaf_thickness_mean": 645.54,
+    "leaf_thickness_max": 645.54,
+    "leaf_thickness_min": 645.54,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 22.22,
+            "200": 38.89,
+            "300": 22.22,
+            "400": 11.11,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 5.56,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 4.35,
+            "1500": 26.09,
+            "2000": 34.78,
+            "2500": 30.43,
+            "3000": 4.35,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 8.33,
+            "2": 91.67
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 100.0,
+            "3": 0.0
+        }
+    }
+}

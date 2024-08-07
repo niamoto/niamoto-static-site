@@ -1,0 +1,130 @@
+{
+    "id": 3230,
+    "full_name": "Erythrina variegata",
+    "authors": "L.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4382
+    },
+    "lft": 1293,
+    "rght": 1294,
+    "level": 2,
+    "parent_id": 750,
+    "taxon_id": 3230,
+    "total_occurrences_count": 21,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.4075113, -20.6753298], \"count\": 2}, {\"coordinates\": [167.0327766, -22.2481537], \"count\": 3}, {\"coordinates\": [164.7824448, -20.6859197], \"count\": 1}, {\"coordinates\": [164.9455108642578, -20.688199996948242], \"count\": 3}, {\"coordinates\": [165.6315205, -21.2794748], \"count\": 1}, {\"coordinates\": [165.9499969482422, -21.533300399780273], \"count\": 1}, {\"coordinates\": [165.7731064, -21.6670483], \"count\": 1}, {\"coordinates\": [165.55349, -21.1957584], \"count\": 2}, {\"coordinates\": [164.67361450195312, -20.965560913085938], \"count\": 1}, {\"coordinates\": [165.439557860092, -21.0997786296709], \"count\": 1}]}",
+    "species_top": {
+        "Erythrina variegata": 21
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 19,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                83.33,
+                100.0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                50.0,
+                0.0,
+                100.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 38.33,
+    "dbh_max": 45.0,
+    "dbh_median": 45.0,
+    "dbh_min": 25.0,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 33.33,
+            "30": 0.0,
+            "40": 66.67,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 50.0,
+            "300": 50.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 7.69,
+            "1500": 30.77,
+            "2000": 61.54,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 23.08,
+            "2": 76.92
+        }
+    }
+}

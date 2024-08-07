@@ -1,0 +1,63 @@
+{
+    "id": 6,
+    "locality": "Aoupini\u00e9",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            165.277313,
+            -21.177801
+        ]
+    },
+    "plot_id": 6,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [165.277313, -21.177801]}",
+    "families_top": {
+        "Proteaceae": 1044,
+        "Primulaceae": 466,
+        "Sapindaceae": 281,
+        "Myrtaceae": 224,
+        "Araliaceae": 213,
+        "Malvaceae": 203,
+        "Sapotaceae": 178,
+        "Arecaceae": 168,
+        "Lauraceae": 160,
+        "Chloranthaceae": 103
+    },
+    "species_top": {
+        "Grevillea exul": 315,
+        "Grevillea gillivrayi": 313,
+        "Acropogon aoupiniensis": 198,
+        "Burretiokentia vieillardii": 125,
+        "Cupaniopsis phalacrocarpa": 122,
+        "Ascarina solmsiana": 102,
+        "Kermadecia rotundifolia": 85,
+        "Tapeinosperma vieillardii": 80,
+        "Tapeinosperma robustum": 78,
+        "Sloanea magnifolia": 68
+    },
+    "height_mean": 8.78,
+    "wood_density_mean": 0.69,
+    "basal_area": 52.7,
+    "shannon": 3.61,
+    "pielou": 0.8,
+    "simpson": 0.96,
+    "biomass": 188.522572057711,
+    "frequencies": {
+        "dbh": {
+            "10": 78.45,
+            "20": 13.85,
+            "30": 3.91,
+            "40": 1.32,
+            "50": 1.57,
+            "75": 0.78,
+            "100": 0.12,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 3.63,
+            "2": 29.61,
+            "3": 66.76
+        }
+    }
+}

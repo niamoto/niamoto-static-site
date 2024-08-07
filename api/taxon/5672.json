@@ -1,0 +1,135 @@
+{
+    "id": 5672,
+    "full_name": "Sloanea ramiflora",
+    "authors": "Tirel",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3676
+    },
+    "lft": 1055,
+    "rght": 1056,
+    "level": 2,
+    "parent_id": 1382,
+    "taxon_id": 5672,
+    "total_occurrences_count": 106,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.133563, -20.8148359], \"count\": 14}, {\"coordinates\": [165.200225, -21.1276], \"count\": 1}, {\"coordinates\": [165.3116161, -21.1726421], \"count\": 1}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 2}, {\"coordinates\": [166.5302696, -22.1752938], \"count\": 1}, {\"coordinates\": [165.4969722222222, -21.36047222222222], \"count\": 1}, {\"coordinates\": [165.3199423, -21.1540391], \"count\": 2}, {\"coordinates\": [165.2909623, -20.9468279], \"count\": 1}, {\"coordinates\": [165.3236111, -21.1575], \"count\": 1}, {\"coordinates\": [165.764176, -21.622468], \"count\": 1}, {\"coordinates\": [165.545395, -21.416931], \"count\": 2}, {\"coordinates\": [165.122272, -21.146053], \"count\": 2}, {\"coordinates\": [165.3173888888889, -21.160555555555554], \"count\": 1}, {\"coordinates\": [165.31519444444444, -21.16627777777778], \"count\": 1}, {\"coordinates\": [165.32030555555556, -21.128655555555557], \"count\": 1}, {\"coordinates\": [165.21722222222223, -20.817222222222224], \"count\": 3}, {\"coordinates\": [165.2550861111111, -21.187297222222224], \"count\": 3}, {\"coordinates\": [165.28778076171875, -20.950000762939453], \"count\": 2}, {\"coordinates\": [165.79861450195312, -21.612499237060547], \"count\": 1}, {\"coordinates\": [165.478301874797, -21.2358695348104], \"count\": 1}, {\"coordinates\": [165.31666564941406, -21.156940460205078], \"count\": 8}, {\"coordinates\": [165.108943, -20.978058], \"count\": 1}, {\"coordinates\": [166.53860473632812, -22.208890914916992], \"count\": 2}, {\"coordinates\": [165.308349609375, -21.175670623779297], \"count\": 1}, {\"coordinates\": [165.8019098, -21.6094528], \"count\": 1}, {\"coordinates\": [165.2329924, -21.017049], \"count\": 1}, {\"coordinates\": [164.78334045410156, -20.566667556762695], \"count\": 2}, {\"coordinates\": [165.7736111, -21.6038889], \"count\": 1}, {\"coordinates\": [166.48353254425, -22.0472397655833], \"count\": 1}, {\"coordinates\": [165.22972106933594, -21.020000457763672], \"count\": 1}, {\"coordinates\": [166.5107421875, -22.17473030090332], \"count\": 1}, {\"coordinates\": [166.5270233154297, -22.178359985351562], \"count\": 3}, {\"coordinates\": [165.108346, -20.978855], \"count\": 1}, {\"coordinates\": [165.47447263333333, -21.241005716666667], \"count\": 1}, {\"coordinates\": [166.53265380859375, -22.18147087097168], \"count\": 1}, {\"coordinates\": [165.79861, -21.6125], \"count\": 1}, {\"coordinates\": [165.3167, -21.1569], \"count\": 2}, {\"coordinates\": [165.3173888889, -21.1605555556], \"count\": 1}, {\"coordinates\": [165.2297, -21.02], \"count\": 1}, {\"coordinates\": [165.4969722222, -21.3604722222], \"count\": 1}, {\"coordinates\": [165.2550861111, -21.1872972222], \"count\": 1}, {\"coordinates\": [166.52465996, -22.18012997], \"count\": 1}, {\"coordinates\": [166.52702, -22.17836], \"count\": 3}, {\"coordinates\": [165.3151944444, -21.1662777778], \"count\": 1}, {\"coordinates\": [166.5269, -22.1783], \"count\": 1}, {\"coordinates\": [165.3203055556, -21.1286555556], \"count\": 1}, {\"coordinates\": [165.28778, -20.95], \"count\": 2}, {\"coordinates\": [165.7986, -21.6125], \"count\": 1}, {\"coordinates\": [166.5314, -22.1875], \"count\": 1}, {\"coordinates\": [165.13463892, -20.81599997], \"count\": 1}, {\"coordinates\": [165.2878, -20.95], \"count\": 1}, {\"coordinates\": [166.54058702, -22.17797097], \"count\": 1}, {\"coordinates\": [165.30835, -21.17567], \"count\": 1}, {\"coordinates\": [165.77332348795943, -21.608566140684513], \"count\": 1}, {\"coordinates\": [165.3236, -21.1575], \"count\": 1}, {\"coordinates\": [165.31667, -21.15694], \"count\": 5}, {\"coordinates\": [165.2172222222, -20.8172222222], \"count\": 1}, {\"coordinates\": [166.53861, -22.20889], \"count\": 2}, {\"coordinates\": [165.22972, -21.02], \"count\": 1}, {\"coordinates\": [165.3083, -21.1756], \"count\": 1}, {\"coordinates\": [166.52352698, -22.18504201], \"count\": 1}, {\"coordinates\": [166.52290104, -22.18459897], \"count\": 1}, {\"coordinates\": [165.2002, -21.1276], \"count\": 1}]}",
+    "species_top": {
+        "Sloanea ramiflora": 106
+    },
+    "um_occurrences_true": 22,
+    "um_occurrences_false": 84,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                12.5,
+                66.67,
+                100.0,
+                50.0,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                12.5,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                33.33,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 24.09,
+    "dbh_max": 95.0,
+    "dbh_median": 14.55,
+    "dbh_min": 5.9,
+    "height_max": 30.0,
+    "wood_density_mean": 0.45,
+    "wood_density_max": 0.6,
+    "wood_density_min": 0.35,
+    "bark_thickness_mean": 6.0,
+    "bark_thickness_max": 6.0,
+    "bark_thickness_min": 6.0,
+    "leaf_sla_mean": 5.93,
+    "leaf_sla_max": 5.93,
+    "leaf_sla_min": 5.93,
+    "leaf_area_mean": 1020.37,
+    "leaf_area_max": 1020.37,
+    "leaf_area_min": 1020.37,
+    "leaf_thickness_mean": 401.63,
+    "leaf_thickness_max": 401.63,
+    "leaf_thickness_min": 401.63,
+    "frequencies": {
+        "dbh": {
+            "10": 63.16,
+            "20": 10.53,
+            "30": 5.26,
+            "40": 5.26,
+            "50": 5.26,
+            "75": 10.53,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 11.43,
+            "200": 20.0,
+            "300": 15.24,
+            "400": 10.48,
+            "500": 29.52,
+            "600": 12.38,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.95,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 5.71,
+            "1500": 16.19,
+            "2000": 52.38,
+            "2500": 22.86,
+            "3000": 0.95,
+            "3500": 1.9,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 55.56,
+            "3": 44.44
+        }
+    }
+}

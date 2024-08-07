@@ -1,0 +1,118 @@
+{
+    "id": 1867,
+    "full_name": "Araucaria schmidii",
+    "authors": "de Laub.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 647
+    },
+    "lft": 349,
+    "rght": 350,
+    "level": 2,
+    "parent_id": 336,
+    "taxon_id": 1867,
+    "total_occurrences_count": 62,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7718214, -20.5860337], \"count\": 4}, {\"coordinates\": [164.76667, -20.58333], \"count\": 2}, {\"coordinates\": [164.76683044433594, -20.591739654541016], \"count\": 6}, {\"coordinates\": [164.7700977, -20.5887274], \"count\": 1}, {\"coordinates\": [164.73333740234375, -20.600000381469727], \"count\": 2}, {\"coordinates\": [164.76666259765625, -20.600000381469727], \"count\": 2}, {\"coordinates\": [164.7685546875, -20.58905029296875], \"count\": 1}, {\"coordinates\": [164.777198317924, -20.5983936543717], \"count\": 1}, {\"coordinates\": [164.77000427246094, -20.600000381469727], \"count\": 3}, {\"coordinates\": [164.784013048808, -20.5599147796631], \"count\": 1}, {\"coordinates\": [164.7742238, -20.5856472], \"count\": 2}, {\"coordinates\": [164.76666259765625, -20.674999237060547], \"count\": 3}, {\"coordinates\": [164.7708282470703, -20.58860969543457], \"count\": 2}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.793962900013, -20.6094681269977], \"count\": 1}, {\"coordinates\": [164.74000549316406, -20.613611221313477], \"count\": 1}, {\"coordinates\": [164.766667, -20.6], \"count\": 1}, {\"coordinates\": [164.7669, -20.5917], \"count\": 3}, {\"coordinates\": [164.76307382870988, -20.589152751547697], \"count\": 1}, {\"coordinates\": [164.7686, -20.5892], \"count\": 6}, {\"coordinates\": [164.77083, -20.58861], \"count\": 2}, {\"coordinates\": [164.76683, -20.59174], \"count\": 6}, {\"coordinates\": [164.76856, -20.58905], \"count\": 1}, {\"coordinates\": [164.77014, -20.59042], \"count\": 1}, {\"coordinates\": [164.766667, -20.583333], \"count\": 1}, {\"coordinates\": [164.76307382871, -20.5891527515477], \"count\": 1}, {\"coordinates\": [164.7772, -20.59839], \"count\": 1}, {\"coordinates\": [164.77002, -20.58993], \"count\": 1}, {\"coordinates\": [164.7604, -20.58347], \"count\": 1}, {\"coordinates\": [164.76827, -20.58534], \"count\": 1}, {\"coordinates\": [164.76995, -20.59125], \"count\": 1}, {\"coordinates\": [164.770322, -20.5886], \"count\": 1}]}",
+    "species_top": {
+        "Araucaria schmidii": 62
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 62,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 30.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 4.84,
+            "400": 0.0,
+            "500": 4.84,
+            "600": 1.61,
+            "700": 1.61,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 9.68,
+            "1100": 0.0,
+            "1200": 77.42
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 4.84,
+            "2500": 3.23,
+            "3000": 3.23,
+            "3500": 41.94,
+            "4000": 41.94,
+            "4500": 4.84
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

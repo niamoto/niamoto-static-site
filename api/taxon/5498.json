@@ -1,0 +1,135 @@
+{
+    "id": 5498,
+    "full_name": "Sarcomelicope leiocarpa",
+    "authors": "(P.S.Green) T.G.Hartley   ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4782
+    },
+    "lft": 3005,
+    "rght": 3006,
+    "level": 2,
+    "parent_id": 1343,
+    "taxon_id": 5498,
+    "total_occurrences_count": 63,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.348066, -22.2018393], \"count\": 5}, {\"coordinates\": [166.4592085, -22.2574446], \"count\": 3}, {\"coordinates\": [165.432133, -21.5791873], \"count\": 1}, {\"coordinates\": [164.6727778, -20.9858333], \"count\": 2}, {\"coordinates\": [166.455, -22.3088889], \"count\": 1}, {\"coordinates\": [166.4842619, -22.2981293], \"count\": 1}, {\"coordinates\": [166.91511398, -22.30698298], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 1}, {\"coordinates\": [166.45693604, -22.25740195], \"count\": 1}, {\"coordinates\": [165.120361, -21.148142], \"count\": 1}, {\"coordinates\": [165.2879, -21.20781], \"count\": 1}, {\"coordinates\": [166.4549223, -22.3075441], \"count\": 3}, {\"coordinates\": [166.460018, -22.259073], \"count\": 1}, {\"coordinates\": [164.970041913345, -21.318487821104], \"count\": 1}, {\"coordinates\": [166.45582580566406, -22.26055908203125], \"count\": 7}, {\"coordinates\": [166.45167541503906, -22.31056022644043], \"count\": 1}, {\"coordinates\": [164.971075243234, -21.3100745013484], \"count\": 1}, {\"coordinates\": [164.967462001103, -21.3125099452166], \"count\": 1}, {\"coordinates\": [165.091289819784, -20.9751630331682], \"count\": 1}, {\"coordinates\": [164.949635379016, -21.2943685054779], \"count\": 1}, {\"coordinates\": [166.487002, -22.2380552], \"count\": 1}, {\"coordinates\": [164.973192639359, -21.3303074545641], \"count\": 1}, {\"coordinates\": [164.969866102457, -21.3255390888529], \"count\": 1}, {\"coordinates\": [164.9708333, -21.3402778], \"count\": 1}, {\"coordinates\": [166.5063018798828, -22.044099807739258], \"count\": 1}, {\"coordinates\": [164.915028302172, -21.1668529953464], \"count\": 1}, {\"coordinates\": [166.3940481, -22.2528873], \"count\": 1}, {\"coordinates\": [164.914150673248, -21.1670290660294], \"count\": 1}, {\"coordinates\": [164.6727752685547, -20.985830307006836], \"count\": 2}, {\"coordinates\": [164.913661481297, -21.1670114823015], \"count\": 1}, {\"coordinates\": [164.961750322611, -21.3449767398617], \"count\": 1}, {\"coordinates\": [165.43212890625, -21.57918930053711], \"count\": 2}, {\"coordinates\": [166.48333740234375, -22.25], \"count\": 1}, {\"coordinates\": [165.077224, -21.321421], \"count\": 2}, {\"coordinates\": [164.974463725074, -21.3167934677496], \"count\": 1}, {\"coordinates\": [164.973158, -21.3197], \"count\": 1}, {\"coordinates\": [164.949842, -21.32835], \"count\": 1}, {\"coordinates\": [165.2853, -21.37292], \"count\": 1}, {\"coordinates\": [167.00219701, -22.27849697], \"count\": 1}]}",
+    "species_top": {
+        "Sarcomelicope leiocarpa": 63
+    },
+    "um_occurrences_true": 14,
+    "um_occurrences_false": 49,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                50.0,
+                50.0,
+                75.0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                50.0,
+                0.0,
+                66.67,
+                100.0,
+                50.0,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                66.67,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 22.97,
+    "dbh_max": 40.0,
+    "dbh_median": 20.0,
+    "dbh_min": 8.0,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 33.33,
+            "20": 16.67,
+            "30": 33.33,
+            "40": 16.67,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 26.67,
+            "200": 33.33,
+            "300": 6.67,
+            "400": 20.0,
+            "500": 6.67,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 6.67,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 77.42,
+            "1500": 6.45,
+            "2000": 3.23,
+            "2500": 9.68,
+            "3000": 3.23,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 83.02,
+            "2": 16.98
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

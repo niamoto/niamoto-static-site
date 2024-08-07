@@ -1,0 +1,135 @@
+{
+    "id": 6126,
+    "full_name": "Tristaniopsis yateensis",
+    "authors": "J.W.Dawson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1405
+    },
+    "lft": 2129,
+    "rght": 2130,
+    "level": 2,
+    "parent_id": 1504,
+    "taxon_id": 6126,
+    "total_occurrences_count": 83,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.9025673, -22.1528943], \"count\": 2}, {\"coordinates\": [166.9072795, -22.1688028], \"count\": 2}, {\"coordinates\": [166.862432, -22.1973239], \"count\": 1}, {\"coordinates\": [166.9072063, -22.181529], \"count\": 1}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 2}, {\"coordinates\": [166.959031, -22.229581], \"count\": 1}, {\"coordinates\": [166.958021, -22.230514], \"count\": 1}, {\"coordinates\": [166.8080596923828, -22.20861053466797], \"count\": 6}, {\"coordinates\": [165.69139099121094, -21.351110458374023], \"count\": 2}, {\"coordinates\": [166.8591766357422, -22.200279235839844], \"count\": 4}, {\"coordinates\": [166.959157901833, -22.2285699315], \"count\": 1}, {\"coordinates\": [166.9499160000008, -22.32497100066308], \"count\": 1}, {\"coordinates\": [166.60565500000038, -22.011883000655597], \"count\": 1}, {\"coordinates\": [166.8112215, -22.2056512], \"count\": 2}, {\"coordinates\": [166.89944458007812, -22.156110763549805], \"count\": 6}, {\"coordinates\": [166.8602562, -22.232445], \"count\": 1}, {\"coordinates\": [166.662, -21.976], \"count\": 1}, {\"coordinates\": [166.99850500000082, -22.325241000663016], \"count\": 1}, {\"coordinates\": [166.74917602539062, -22.16351890563965], \"count\": 1}, {\"coordinates\": [166.9067677, -22.1559741], \"count\": 1}, {\"coordinates\": [166.8592, -22.2003], \"count\": 1}, {\"coordinates\": [166.91438426488676, -22.248438631996603], \"count\": 1}, {\"coordinates\": [166.947442, -22.223921], \"count\": 2}, {\"coordinates\": [166.842279351, -22.1816593481], \"count\": 1}, {\"coordinates\": [166.951389, -22.228426], \"count\": 1}, {\"coordinates\": [166.84688, -22.1811], \"count\": 1}, {\"coordinates\": [166.84281782090272, -22.187565017235364], \"count\": 3}, {\"coordinates\": [166.85917, -22.20028], \"count\": 2}, {\"coordinates\": [166.842280969, -22.1819402895], \"count\": 1}, {\"coordinates\": [166.89944, -22.15611], \"count\": 3}, {\"coordinates\": [166.847835, -22.183329], \"count\": 1}, {\"coordinates\": [166.93208730751613, -22.209158247377832], \"count\": 1}, {\"coordinates\": [166.9036, -22.1592], \"count\": 1}, {\"coordinates\": [166.84398, -22.1806], \"count\": 1}, {\"coordinates\": [166.9042, -22.1719], \"count\": 2}, {\"coordinates\": [166.843978, -22.180601], \"count\": 1}, {\"coordinates\": [166.959526, -22.228618], \"count\": 1}, {\"coordinates\": [166.959216, -22.228764], \"count\": 1}, {\"coordinates\": [166.943423, -22.221001], \"count\": 1}, {\"coordinates\": [166.842052, -22.180733], \"count\": 1}, {\"coordinates\": [166.842577441, -22.1810397686], \"count\": 1}, {\"coordinates\": [166.919346525, -22.216351647], \"count\": 1}, {\"coordinates\": [166.959117, -22.228995], \"count\": 1}, {\"coordinates\": [166.943463, -22.220997], \"count\": 1}, {\"coordinates\": [166.842760696, -22.1814321813], \"count\": 1}, {\"coordinates\": [166.951342, -22.228385], \"count\": 1}, {\"coordinates\": [166.85908997584204, -22.228458598359385], \"count\": 1}, {\"coordinates\": [166.8428578209027, -22.187555017235365], \"count\": 2}, {\"coordinates\": [166.8994, -22.1561], \"count\": 2}, {\"coordinates\": [166.951149, -22.228258], \"count\": 2}, {\"coordinates\": [166.846884, -22.181105], \"count\": 1}, {\"coordinates\": [166.84784, -22.18333], \"count\": 1}, {\"coordinates\": [166.959144, -22.228201], \"count\": 1}, {\"coordinates\": [166.843600939, -22.1806694119], \"count\": 1}, {\"coordinates\": [166.842398393, -22.1813778034], \"count\": 1}]}",
+    "species_top": {
+        "Tristaniopsis yateensis": 83
+    },
+    "um_occurrences_true": 83,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                100.0,
+                0,
+                71.43,
+                66.67,
+                0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 17.17,
+    "dbh_max": 20.0,
+    "dbh_median": 16.2,
+    "dbh_min": 15.3,
+    "height_max": 6.0,
+    "wood_density_mean": 0.99,
+    "wood_density_max": 1.0,
+    "wood_density_min": 0.98,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": 3.7,
+    "leaf_sla_max": 3.74,
+    "leaf_sla_min": 3.66,
+    "leaf_area_mean": 0.89,
+    "leaf_area_max": 1.27,
+    "leaf_area_min": 0.51,
+    "leaf_thickness_mean": 498.43,
+    "leaf_thickness_max": 506.46,
+    "leaf_thickness_min": 490.4,
+    "frequencies": {
+        "dbh": {
+            "10": 66.67,
+            "20": 33.33,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 37.04,
+            "200": 19.75,
+            "300": 38.27,
+            "400": 2.47,
+            "500": 0.0,
+            "600": 2.47,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 13.25,
+            "2500": 43.37,
+            "3000": 42.17,
+            "3500": 1.2,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 100.0,
+            "3": 0.0
+        }
+    }
+}

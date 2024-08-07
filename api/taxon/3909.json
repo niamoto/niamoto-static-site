@@ -1,0 +1,118 @@
+{
+    "id": 3909,
+    "full_name": "Knightia strobilina",
+    "authors": "(Labill.) R.Br.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": null
+    },
+    "lft": 2655,
+    "rght": 2656,
+    "level": 2,
+    "parent_id": 922,
+    "taxon_id": 3909,
+    "total_occurrences_count": 21,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.5213457, -20.4031031], \"count\": 2}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 1}, {\"coordinates\": [164.5947222, -20.4597222], \"count\": 1}, {\"coordinates\": [165.2329924, -21.017049], \"count\": 2}, {\"coordinates\": [164.437010002136, -20.3020600001017], \"count\": 1}, {\"coordinates\": [164.4378375, -20.3021708], \"count\": 1}, {\"coordinates\": [164.443568168208, -20.3069239854813], \"count\": 1}, {\"coordinates\": [165.870083, -21.6195841], \"count\": 3}, {\"coordinates\": [165.6408061, -21.4675374], \"count\": 1}, {\"coordinates\": [165.2396196, -21.0120845], \"count\": 1}, {\"coordinates\": [165.8740833, -21.6207778], \"count\": 1}, {\"coordinates\": [164.8656369, -20.647354], \"count\": 1}, {\"coordinates\": [165.4341667, -21.2375778], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 1}, {\"coordinates\": [165.275496673584, -21.178661664327], \"count\": 1}, {\"coordinates\": [165.434333674113, -21.2375833352407], \"count\": 1}, {\"coordinates\": [165.635355, -21.4945747], \"count\": 1}]}",
+    "species_top": {
+        "Knightia strobilina": 21
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 18,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                80.0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                25.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                20.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                75.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 9.52,
+            "400": 0.0,
+            "500": 28.57,
+            "600": 33.33,
+            "700": 9.52,
+            "800": 9.52,
+            "900": 4.76,
+            "1000": 4.76,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 28.57,
+            "2000": 42.86,
+            "2500": 23.81,
+            "3000": 0.0,
+            "3500": 4.76,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

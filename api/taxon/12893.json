@@ -1,0 +1,118 @@
+{
+    "id": 12893,
+    "full_name": "Acropogon pilosus",
+    "authors": "Morat & Chalopin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5807
+    },
+    "lft": 1579,
+    "rght": 1580,
+    "level": 2,
+    "parent_id": 256,
+    "taxon_id": 12893,
+    "total_occurrences_count": 70,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.2915391, -21.0377205], \"count\": 2}, {\"coordinates\": [165.54913, -21.36008], \"count\": 1}, {\"coordinates\": [165.6288889, -21.3468202], \"count\": 2}, {\"coordinates\": [165.5597101, -21.3703982], \"count\": 2}, {\"coordinates\": [165.2329924, -21.017049], \"count\": 3}, {\"coordinates\": [165.4655556, -21.2271667], \"count\": 2}, {\"coordinates\": [165.5402831, -21.3799], \"count\": 5}, {\"coordinates\": [165.5884743, -21.2970374], \"count\": 2}, {\"coordinates\": [165.2364722, -21.1773333], \"count\": 2}, {\"coordinates\": [165.5369415283203, -21.383060455322266], \"count\": 7}, {\"coordinates\": [165.2345792, -21.0218208], \"count\": 1}, {\"coordinates\": [165.22972106933594, -21.020000457763672], \"count\": 8}, {\"coordinates\": [165.6315205, -21.2794748], \"count\": 1}, {\"coordinates\": [166.51156616210938, -22.176050186157227], \"count\": 2}, {\"coordinates\": [165.22888887, -21.14083334], \"count\": 1}, {\"coordinates\": [165.2883333, -21.04083333], \"count\": 1}, {\"coordinates\": [165.46333335, -21.22583333], \"count\": 1}, {\"coordinates\": [165.5852778, -21.3], \"count\": 1}, {\"coordinates\": [165.53694, -21.38306], \"count\": 3}, {\"coordinates\": [165.2297222, -21.02], \"count\": 3}, {\"coordinates\": [165.5369444, -21.38305556], \"count\": 2}, {\"coordinates\": [165.22972, -21.02], \"count\": 8}, {\"coordinates\": [165.6255556, -21.35], \"count\": 2}, {\"coordinates\": [165.47702778, -21.2368611], \"count\": 1}, {\"coordinates\": [165.4480556, -21.22388889], \"count\": 1}, {\"coordinates\": [165.5563889, -21.37333333], \"count\": 2}, {\"coordinates\": [165.2572222, -21.02166667], \"count\": 2}, {\"coordinates\": [165.3, -21.18083333], \"count\": 1}, {\"coordinates\": [165.6291667, -21.34], \"count\": 1}]}",
+    "species_top": {
+        "Acropogon pilosus": 70
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 67,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0.0,
+                50.0,
+                50.0,
+                0,
+                100.0,
+                100.0,
+                80.0,
+                0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                40.0,
+                100.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 6.35,
+            "200": 36.51,
+            "300": 12.7,
+            "400": 9.52,
+            "500": 33.33,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 1.59,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 1.43,
+            "1500": 37.14,
+            "2000": 17.14,
+            "2500": 44.29,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

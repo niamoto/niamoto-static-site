@@ -1,0 +1,130 @@
+{
+    "id": 5602,
+    "full_name": "Semecarpus poyaensis",
+    "authors": "M.Hoff",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3275
+    },
+    "lft": 49,
+    "rght": 50,
+    "level": 2,
+    "parent_id": 1368,
+    "taxon_id": 5602,
+    "total_occurrences_count": 42,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.2665614, -21.3312458], \"count\": 2}, {\"coordinates\": [165.1045585, -21.3163888], \"count\": 1}, {\"coordinates\": [165.0876191, -21.3202152], \"count\": 2}, {\"coordinates\": [165.2551944, -21.3334967], \"count\": 1}, {\"coordinates\": [165.0791667, -21.3208333], \"count\": 1}, {\"coordinates\": [165.09845547, -21.31140063], \"count\": 1}, {\"coordinates\": [165.240654, -21.357905], \"count\": 1}, {\"coordinates\": [165.2968736111, -21.3709594444], \"count\": 1}, {\"coordinates\": [165.147080496, -21.3079848233333], \"count\": 1}, {\"coordinates\": [165.255210002263, -21.3360633214315], \"count\": 1}, {\"coordinates\": [165.26431517132943, -21.369231449601322], \"count\": 1}, {\"coordinates\": [165.28334045410156, -21.350000381469727], \"count\": 2}, {\"coordinates\": [165.26333618164062, -21.334169387817383], \"count\": 4}, {\"coordinates\": [165.08444213867188, -21.32332992553711], \"count\": 1}, {\"coordinates\": [165.0449185325, -21.1723176555], \"count\": 1}, {\"coordinates\": [165.124, -21.2981], \"count\": 1}, {\"coordinates\": [165.124161, -21.298115], \"count\": 1}, {\"coordinates\": [165.26666259765625, -21.316667556762695], \"count\": 2}, {\"coordinates\": [165.045, -21.1723], \"count\": 1}, {\"coordinates\": [165.1178515, -21.2417249], \"count\": 1}, {\"coordinates\": [165.122969, -21.292368], \"count\": 1}, {\"coordinates\": [165.14999389648438, -21.233333587646484], \"count\": 1}, {\"coordinates\": [165.26638793945312, -21.3316707611084], \"count\": 1}, {\"coordinates\": [165.239264, -21.357613], \"count\": 1}, {\"coordinates\": [165.2696472, -21.3287116], \"count\": 1}, {\"coordinates\": [165.124465, -21.299413], \"count\": 1}, {\"coordinates\": [165.093740691763, -21.2961999290854], \"count\": 1}, {\"coordinates\": [165.26666259765625, -21.316669464111328], \"count\": 1}, {\"coordinates\": [165.0833282470703, -21.333332061767578], \"count\": 1}, {\"coordinates\": [165.27895, -21.36889], \"count\": 1}, {\"coordinates\": [165.31014, -21.39172], \"count\": 1}, {\"coordinates\": [165.0464894, -21.17204961], \"count\": 1}]}",
+    "species_top": {
+        "Semecarpus poyaensis": 42
+    },
+    "um_occurrences_true": 36,
+    "um_occurrences_false": 6,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                66.67,
+                50.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                33.33,
+                100.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 20.0,
+    "dbh_max": 20.0,
+    "dbh_median": 20.0,
+    "dbh_min": 20.0,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 100.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 22.58,
+            "200": 38.71,
+            "300": 6.45,
+            "400": 6.45,
+            "500": 9.68,
+            "600": 3.23,
+            "700": 0.0,
+            "800": 9.68,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 3.23
+        },
+        "rainfall": {
+            "1000": 57.58,
+            "1500": 33.33,
+            "2000": 9.09,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 26.32,
+            "2": 73.68
+        }
+    }
+}

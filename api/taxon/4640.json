@@ -1,0 +1,135 @@
+{
+    "id": 4640,
+    "full_name": "Pandanus macrocarpus",
+    "authors": "(Brongn.) Solms",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2416
+    },
+    "lft": 2255,
+    "rght": 2256,
+    "level": 2,
+    "parent_id": 1162,
+    "taxon_id": 4640,
+    "total_occurrences_count": 173,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [167.0359484, -22.2569925], \"count\": 2}, {\"coordinates\": [167.2364089, -20.9559721], \"count\": 2}, {\"coordinates\": [167.428897, -22.5499363], \"count\": 2}, {\"coordinates\": [167.2244805, -21.0286462], \"count\": 2}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 4}, {\"coordinates\": [165.9693248, -21.5007036], \"count\": 2}, {\"coordinates\": [165.5530556, -21.1494444], \"count\": 2}, {\"coordinates\": [165.5228317, -21.2857131], \"count\": 2}, {\"coordinates\": [166.7180556, -22.3044444], \"count\": 1}, {\"coordinates\": [165.358702, -20.9403107], \"count\": 1}, {\"coordinates\": [167.9794457, -21.5172018], \"count\": 1}, {\"coordinates\": [166.662188, -22.2220638], \"count\": 4}, {\"coordinates\": [167.933625, -21.4638111], \"count\": 2}, {\"coordinates\": [166.6638296, -22.0935546], \"count\": 2}, {\"coordinates\": [165.5662343, -21.4479541], \"count\": 2}, {\"coordinates\": [165.5566667, -21.5030556], \"count\": 3}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 1}, {\"coordinates\": [166.71832544076557, -22.304464959009017], \"count\": 1}, {\"coordinates\": [166.719238, -22.305311346666663], \"count\": 1}, {\"coordinates\": [166.718334, -22.30448], \"count\": 1}, {\"coordinates\": [164.909197915408, -21.1521606317426], \"count\": 1}, {\"coordinates\": [167.25, -21.0], \"count\": 18}, {\"coordinates\": [164.984388806452, -20.6888546164712], \"count\": 1}, {\"coordinates\": [167.171647, -20.7313395], \"count\": 1}, {\"coordinates\": [164.983329422946, -20.6886513416314], \"count\": 1}, {\"coordinates\": [166.9121272, -22.3043999], \"count\": 4}, {\"coordinates\": [165.7183885715059, -21.638138689874822], \"count\": 1}, {\"coordinates\": [165.5466828596795, -21.2128436002213], \"count\": 1}, {\"coordinates\": [167.14999389648438, -20.916667938232422], \"count\": 3}, {\"coordinates\": [167.21665954589844, -20.924999237060547], \"count\": 4}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 6}, {\"coordinates\": [164.36666870117188, -20.516666412353516], \"count\": 44}, {\"coordinates\": [164.4536154, -20.33787], \"count\": 2}, {\"coordinates\": [167.871635669642, -21.4910334866426], \"count\": 1}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 2}, {\"coordinates\": [167.03278, -22.26], \"count\": 1}, {\"coordinates\": [164.4503, -20.3408], \"count\": 1}, {\"coordinates\": [164.97461708208084, -20.686210069959287], \"count\": 1}, {\"coordinates\": [167.18142440547626, -20.97319067336443], \"count\": 1}, {\"coordinates\": [167.22139, -21.03167], \"count\": 1}, {\"coordinates\": [164.1829362173121, -20.116422865855192], \"count\": 1}, {\"coordinates\": [165.50817796935658, -21.61540733642118], \"count\": 1}, {\"coordinates\": [165.5567, -21.5031], \"count\": 1}, {\"coordinates\": [167.16833, -20.73444], \"count\": 2}, {\"coordinates\": [166.633333333333, -22.1030555555556], \"count\": 1}, {\"coordinates\": [167.221388888889, -21.0316666666667], \"count\": 1}, {\"coordinates\": [166.4714, -22.0444], \"count\": 1}, {\"coordinates\": [167.00885952092963, -22.321801693686197], \"count\": 1}, {\"coordinates\": [165.35556, -20.94333], \"count\": 1}, {\"coordinates\": [165.9704802402986, -21.50032348205515], \"count\": 3}, {\"coordinates\": [166.6606, -22.0967], \"count\": 1}, {\"coordinates\": [167.43641594483552, -22.547449662899446], \"count\": 1}, {\"coordinates\": [167.42556, -22.55306], \"count\": 1}, {\"coordinates\": [167.0147, -22.2872], \"count\": 2}, {\"coordinates\": [167.0328, -22.26], \"count\": 1}, {\"coordinates\": [167.42627718294628, -22.55236879887714], \"count\": 1}, {\"coordinates\": [164.5216785302526, -20.54900456977389], \"count\": 1}, {\"coordinates\": [165.00111, -20.74833], \"count\": 1}, {\"coordinates\": [166.658888888889, -22.225], \"count\": 1}, {\"coordinates\": [165.3556, -20.9433], \"count\": 1}, {\"coordinates\": [167.976388888889, -21.5202777777778], \"count\": 1}, {\"coordinates\": [165.97047024029862, -21.500333482055154], \"count\": 1}, {\"coordinates\": [165.5631, -21.4511], \"count\": 1}, {\"coordinates\": [165.52707158568458, -21.28009632406496], \"count\": 1}, {\"coordinates\": [167.4256, -22.5531], \"count\": 1}, {\"coordinates\": [167.207777777778, -20.9380555555556], \"count\": 1}, {\"coordinates\": [165.607234, -21.18694699999914], \"count\": 1}, {\"coordinates\": [167.24141211698438, -21.034756128109645], \"count\": 1}, {\"coordinates\": [167.95140132822303, -21.513334577281622], \"count\": 1}, {\"coordinates\": [165.823333333333, -21.4002777777778], \"count\": 1}, {\"coordinates\": [167.9336, -21.4638], \"count\": 1}, {\"coordinates\": [166.7181, -22.3044], \"count\": 1}, {\"coordinates\": [167.0147206109161, -22.287220879976648], \"count\": 1}]}",
+    "species_top": {
+        "Pandanus macrocarpus": 173
+    },
+    "um_occurrences_true": 52,
+    "um_occurrences_false": 121,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                40.0,
+                100.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                33.33,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                60.0,
+                0.0,
+                66.67,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                50.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.21,
+    "dbh_max": 20.0,
+    "dbh_median": 16.9,
+    "dbh_min": 10.0,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 55.56,
+            "20": 44.44,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 7.59,
+            "200": 12.66,
+            "300": 67.09,
+            "400": 1.27,
+            "500": 0.0,
+            "600": 2.53,
+            "700": 0.0,
+            "800": 1.27,
+            "900": 0.0,
+            "1000": 7.59,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 32.74,
+            "1500": 42.26,
+            "2000": 7.14,
+            "2500": 13.69,
+            "3000": 4.17,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 32.14,
+            "2": 67.86
+        },
+        "strate": {
+            "1": 100.0,
+            "2": 0.0,
+            "3": 0.0
+        }
+    }
+}

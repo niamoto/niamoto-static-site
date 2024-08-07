@@ -1,0 +1,130 @@
+{
+    "id": 6168,
+    "full_name": "Ventilago pseudocalyculata",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2195
+    },
+    "lft": 2711,
+    "rght": 2712,
+    "level": 2,
+    "parent_id": 1529,
+    "taxon_id": 6168,
+    "total_occurrences_count": 21,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3033762, -21.1779231], \"count\": 1}, {\"coordinates\": [164.89491502, -21.17869197], \"count\": 1}, {\"coordinates\": [166.41064998, -22.15238096], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 2}, {\"coordinates\": [165.04017572, -21.33598241], \"count\": 1}, {\"coordinates\": [166.91840833333333, -22.324419444444445], \"count\": 1}, {\"coordinates\": [164.967117407655, -21.1772078902849], \"count\": 1}, {\"coordinates\": [164.916690544121, -21.0261779410423], \"count\": 1}, {\"coordinates\": [166.9225647, -22.3216887], \"count\": 1}, {\"coordinates\": [164.9383333, -21.1386111], \"count\": 1}, {\"coordinates\": [164.889688071604, -21.2102011414922], \"count\": 1}, {\"coordinates\": [166.1973961, -21.5869637], \"count\": 1}, {\"coordinates\": [167.4424877, -22.6104829], \"count\": 1}, {\"coordinates\": [164.959995327881, -21.1742301820588], \"count\": 1}, {\"coordinates\": [166.493376, -22.210077], \"count\": 1}, {\"coordinates\": [165.76487998995694, -21.461645206128495], \"count\": 1}, {\"coordinates\": [167.1624877, -20.779905], \"count\": 1}, {\"coordinates\": [164.966557358783, -21.3098249890952], \"count\": 1}, {\"coordinates\": [165.308710569195, -21.3219273844265], \"count\": 1}, {\"coordinates\": [167.01228203, -22.290119], \"count\": 1}]}",
+    "species_top": {
+        "Ventilago pseudocalyculata": 21
+    },
+    "um_occurrences_true": 9,
+    "um_occurrences_false": 12,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                100.0,
+                0.0,
+                50.0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                0,
+                0.0,
+                50.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.07,
+    "dbh_max": 8.0,
+    "dbh_median": 5.1,
+    "dbh_min": 5.1,
+    "height_max": 4.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 46.15,
+            "200": 23.08,
+            "300": 7.69,
+            "400": 15.38,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 7.69,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 50.0,
+            "1500": 20.0,
+            "2000": 5.0,
+            "2500": 25.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 53.33,
+            "2": 46.67
+        }
+    }
+}

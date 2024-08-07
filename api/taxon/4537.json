@@ -1,0 +1,135 @@
+{
+    "id": 4537,
+    "full_name": "Osmanthus cymosus",
+    "authors": "(Guillaumin) P.S.Green",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": null
+    },
+    "lft": 2213,
+    "rght": 2214,
+    "level": 2,
+    "parent_id": 1146,
+    "taxon_id": 4537,
+    "total_occurrences_count": 84,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.7504763547, -21.4376642648], \"count\": 14}, {\"coordinates\": [165.859987, -21.4986485], \"count\": 2}, {\"coordinates\": [165.8737667, -21.4939722], \"count\": 2}, {\"coordinates\": [164.204413, -20.4599982], \"count\": 2}, {\"coordinates\": [165.3729746, -21.4194153], \"count\": 1}, {\"coordinates\": [165.8767374, -21.4888623], \"count\": 1}, {\"coordinates\": [164.21318102, -20.47077277], \"count\": 1}, {\"coordinates\": [164.19024297, -20.46189168], \"count\": 1}, {\"coordinates\": [164.197841, -20.43780776], \"count\": 1}, {\"coordinates\": [164.23150298, -20.4739806], \"count\": 1}, {\"coordinates\": [164.23255798, -20.47910609], \"count\": 1}, {\"coordinates\": [164.21235601, -20.46770472], \"count\": 1}, {\"coordinates\": [164.19913297, -20.44493418], \"count\": 1}, {\"coordinates\": [164.19587098, -20.43962186], \"count\": 1}, {\"coordinates\": [164.23052903, -20.47903667], \"count\": 1}, {\"coordinates\": [164.209056, -20.47216215], \"count\": 1}, {\"coordinates\": [164.2084247, -20.45218934], \"count\": 1}, {\"coordinates\": [164.23167103, -20.48115189], \"count\": 1}, {\"coordinates\": [164.19416897, -20.45275746], \"count\": 1}, {\"coordinates\": [164.19886801, -20.44669029], \"count\": 1}, {\"coordinates\": [165.04323365, -21.17381474], \"count\": 1}, {\"coordinates\": [165.098608, -21.1629], \"count\": 1}, {\"coordinates\": [165.097673, -21.16714], \"count\": 1}, {\"coordinates\": [166.957417, -22.221535], \"count\": 1}, {\"coordinates\": [166.960792, -22.224973], \"count\": 1}, {\"coordinates\": [166.961754, -22.22574], \"count\": 1}, {\"coordinates\": [165.095294, -21.164601], \"count\": 1}, {\"coordinates\": [166.955653, -22.220109], \"count\": 1}, {\"coordinates\": [166.954438, -22.221697], \"count\": 1}, {\"coordinates\": [165.8697252721, -21.4936389495], \"count\": 7}, {\"coordinates\": [165.0959733501, -21.1677664798], \"count\": 1}, {\"coordinates\": [164.2163806, -20.460631], \"count\": 1}, {\"coordinates\": [164.208631, -20.4568555], \"count\": 1}, {\"coordinates\": [164.1855011, -20.4627585], \"count\": 1}, {\"coordinates\": [165.7166748046875, -21.51667022705078], \"count\": 3}, {\"coordinates\": [165.8736114501953, -21.491939544677734], \"count\": 1}, {\"coordinates\": [165.36972045898438, -21.422500610351562], \"count\": 2}, {\"coordinates\": [165.85000610351562, -21.5], \"count\": 2}, {\"coordinates\": [164.9802095057603, -21.169117652698777], \"count\": 1}, {\"coordinates\": [164.2026525, -20.4661233], \"count\": 1}, {\"coordinates\": [165.03614279995844, -21.164443598502626], \"count\": 1}, {\"coordinates\": [165.8567352294922, -21.501689910888672], \"count\": 3}, {\"coordinates\": [165.03836002474557, -21.16848504731567], \"count\": 1}, {\"coordinates\": [164.9905124126347, -21.17819191545538], \"count\": 1}, {\"coordinates\": [166.511085704, -22.0610567043333], \"count\": 1}, {\"coordinates\": [165.0456241, -21.166711], \"count\": 1}, {\"coordinates\": [165.751, -21.4383], \"count\": 1}, {\"coordinates\": [164.98851990034706, -21.16986999322603], \"count\": 1}, {\"coordinates\": [164.20961895364445, -20.470775553768423], \"count\": 1}, {\"coordinates\": [165.02013483581274, -21.182235251298042], \"count\": 1}, {\"coordinates\": [164.21665954589844, -20.466659545898438], \"count\": 1}, {\"coordinates\": [165.87388610839844, -21.4938907623291], \"count\": 1}, {\"coordinates\": [165.04222106933594, -21.169719696044922], \"count\": 1}, {\"coordinates\": [165.8439839121838, -21.47246488104125], \"count\": 1}, {\"coordinates\": [165.749966500333, -21.4379405636667], \"count\": 1}, {\"coordinates\": [165.0217047711657, -21.177890649858664], \"count\": 1}]}",
+    "species_top": {
+        "Osmanthus cymosus": 84
+    },
+    "um_occurrences_true": 81,
+    "um_occurrences_false": 3,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                50.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                18.18,
+                20.0,
+                0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                0,
+                100.0,
+                100.0,
+                0,
+                0.0,
+                20.0,
+                0,
+                66.67,
+                28.57,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 16.01,
+    "dbh_max": 40.0,
+    "dbh_median": 12.9,
+    "dbh_min": 7.0,
+    "height_max": 18.0,
+    "wood_density_mean": 0.92,
+    "wood_density_max": 1.0,
+    "wood_density_min": 0.77,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": 3.75,
+    "leaf_sla_max": 4.03,
+    "leaf_sla_min": 3.57,
+    "leaf_area_mean": 23.51,
+    "leaf_area_max": 30.92,
+    "leaf_area_min": 17.69,
+    "leaf_thickness_mean": 533.49,
+    "leaf_thickness_max": 597.14,
+    "leaf_thickness_min": 487.66,
+    "frequencies": {
+        "dbh": {
+            "10": 81.25,
+            "20": 6.25,
+            "30": 9.38,
+            "40": 3.12,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 14.29,
+            "400": 8.33,
+            "500": 19.05,
+            "600": 16.67,
+            "700": 13.1,
+            "800": 2.38,
+            "900": 17.86,
+            "1000": 3.57,
+            "1100": 4.76,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 8.33,
+            "1500": 29.76,
+            "2000": 51.19,
+            "2500": 4.76,
+            "3000": 5.95,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 1.72,
+            "2": 98.28
+        },
+        "strate": {
+            "1": 3.33,
+            "2": 36.67,
+            "3": 60.0
+        }
+    }
+}

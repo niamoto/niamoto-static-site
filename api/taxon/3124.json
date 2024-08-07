@@ -1,0 +1,130 @@
+{
+    "id": 3124,
+    "full_name": "Elaeocarpus bullatus",
+    "authors": "Tirel",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3645
+    },
+    "lft": 1001,
+    "rght": 1002,
+    "level": 2,
+    "parent_id": 714,
+    "taxon_id": 3124,
+    "total_occurrences_count": 125,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.8363201, -21.5767944], \"count\": 1}, {\"coordinates\": [164.5314902, -20.3976737], \"count\": 2}, {\"coordinates\": [165.277075, -21.1778139], \"count\": 1}, {\"coordinates\": [165.7713889, -21.6194444], \"count\": 1}, {\"coordinates\": [164.8604958, -20.6369621], \"count\": 1}, {\"coordinates\": [164.5509893, -20.4136256], \"count\": 1}, {\"coordinates\": [164.7144444, -20.5036111], \"count\": 1}, {\"coordinates\": [164.7904228, -20.5660142], \"count\": 1}, {\"coordinates\": [164.86138888888888, -20.64161111111111], \"count\": 4}, {\"coordinates\": [164.77608333333333, -20.6125], \"count\": 9}, {\"coordinates\": [166.59064166666667, -22.155438888888888], \"count\": 1}, {\"coordinates\": [164.79222106933594, -20.563329696655273], \"count\": 1}, {\"coordinates\": [164.5264043, -20.40050592], \"count\": 1}, {\"coordinates\": [164.52628847758, -20.4005940755208], \"count\": 1}, {\"coordinates\": [164.789794921875, -20.56583023071289], \"count\": 1}, {\"coordinates\": [164.86805725097656, -20.63861083984375], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.5722198486328, -20.44028091430664], \"count\": 2}, {\"coordinates\": [164.5236053466797, -20.395830154418945], \"count\": 2}, {\"coordinates\": [164.77943420410156, -20.576940536499023], \"count\": 1}, {\"coordinates\": [164.52833557128906, -20.40056037902832], \"count\": 5}, {\"coordinates\": [164.683919660747, -20.485897064209], \"count\": 1}, {\"coordinates\": [164.595947265625, -20.47308921813965], \"count\": 1}, {\"coordinates\": [165.483590634664, -21.2265859762828], \"count\": 1}, {\"coordinates\": [165.335910616, -21.3635765876667], \"count\": 1}, {\"coordinates\": [164.71444702148438, -20.503610610961914], \"count\": 1}, {\"coordinates\": [165.8330535888672, -21.5798397064209], \"count\": 2}, {\"coordinates\": [165.1911163330078, -20.821380615234375], \"count\": 1}, {\"coordinates\": [166.55629, -22.08811], \"count\": 1}, {\"coordinates\": [164.5925951, -20.4344592], \"count\": 1}, {\"coordinates\": [164.7869471, -20.5700274], \"count\": 1}, {\"coordinates\": [164.6008216, -20.4502264], \"count\": 1}, {\"coordinates\": [165.330350661679, -21.3614844910441], \"count\": 1}, {\"coordinates\": [165.22355556488, -20.8593888600667], \"count\": 1}, {\"coordinates\": [165.2725067138672, -21.0927791595459], \"count\": 1}, {\"coordinates\": [165.1911163330078, -20.82139015197754], \"count\": 1}, {\"coordinates\": [164.59754943847656, -20.45323944091797], \"count\": 1}, {\"coordinates\": [164.58944702148438, -20.4375], \"count\": 1}, {\"coordinates\": [165.85000610351562, -21.600000381469727], \"count\": 1}, {\"coordinates\": [164.5267956, -20.3927884], \"count\": 1}, {\"coordinates\": [164.5477752685547, -20.416669845581055], \"count\": 2}, {\"coordinates\": [164.7794647216797, -20.57707977294922], \"count\": 1}, {\"coordinates\": [165.330355488667, -21.3615221343333], \"count\": 1}, {\"coordinates\": [164.78799438476562, -20.56747055053711], \"count\": 1}, {\"coordinates\": [164.5754636, -20.4373708], \"count\": 1}, {\"coordinates\": [164.7144, -20.5036], \"count\": 1}, {\"coordinates\": [165.8331, -21.5797], \"count\": 1}, {\"coordinates\": [164.91520622205934, -20.951686136996663], \"count\": 1}, {\"coordinates\": [164.5975, -20.4533], \"count\": 1}, {\"coordinates\": [164.8572, -20.64], \"count\": 1}, {\"coordinates\": [164.58944, -20.4375], \"count\": 1}, {\"coordinates\": [164.85532224437054, -20.849829757056828], \"count\": 1}, {\"coordinates\": [164.86806, -20.63861], \"count\": 1}, {\"coordinates\": [165.48333333, -21.22655553], \"count\": 1}, {\"coordinates\": [164.55028533253628, -20.413999901553414], \"count\": 2}, {\"coordinates\": [164.57222, -20.44028], \"count\": 2}, {\"coordinates\": [164.8613888889, -20.6416111111], \"count\": 4}, {\"coordinates\": [164.78000004, -20.61916663], \"count\": 1}, {\"coordinates\": [164.5894, -20.4375], \"count\": 1}, {\"coordinates\": [166.5906416667, -22.1554388889], \"count\": 1}, {\"coordinates\": [164.788, -20.56747], \"count\": 1}, {\"coordinates\": [165.01951374424263, -20.89425429384647], \"count\": 1}, {\"coordinates\": [164.5722, -20.4403], \"count\": 1}, {\"coordinates\": [164.870594, -20.64106602], \"count\": 1}, {\"coordinates\": [164.52833, -20.40056], \"count\": 5}, {\"coordinates\": [164.77944, -20.57694], \"count\": 1}, {\"coordinates\": [165.76972225, -21.67000002], \"count\": 1}, {\"coordinates\": [164.5283, -20.4006], \"count\": 2}, {\"coordinates\": [165.83306, -21.57984], \"count\": 1}, {\"coordinates\": [165.77477034, -21.61681948], \"count\": 1}, {\"coordinates\": [164.79176011570212, -20.564064330266984], \"count\": 1}, {\"coordinates\": [164.7836, -20.5731], \"count\": 1}, {\"coordinates\": [165.7714, -21.6194], \"count\": 1}, {\"coordinates\": [164.78362299276324, -20.57310285512799], \"count\": 1}, {\"coordinates\": [165.2771, -21.1778], \"count\": 1}, {\"coordinates\": [165.2725, -21.09278], \"count\": 1}, {\"coordinates\": [164.5478, -20.4167], \"count\": 1}, {\"coordinates\": [164.78798985353768, -20.567450386448524], \"count\": 1}, {\"coordinates\": [164.7760833333, -20.6125], \"count\": 9}, {\"coordinates\": [164.696407, -20.53459796], \"count\": 1}, {\"coordinates\": [164.59755, -20.45324], \"count\": 1}, {\"coordinates\": [164.52361, -20.39583], \"count\": 2}, {\"coordinates\": [164.79222, -20.56333], \"count\": 1}, {\"coordinates\": [164.59595, -20.47309], \"count\": 1}, {\"coordinates\": [164.5236, -20.3958], \"count\": 1}, {\"coordinates\": [165.19111, -20.82139], \"count\": 1}]}",
+    "species_top": {
+        "Elaeocarpus bullatus": 125
+    },
+    "um_occurrences_true": 11,
+    "um_occurrences_false": 114,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                66.67,
+                100.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                11.11,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0,
+                0,
+                100.0,
+                66.67,
+                100.0,
+                0,
+                0,
+                66.67,
+                11.11,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.61,
+    "dbh_max": 25.0,
+    "dbh_median": 11.1,
+    "dbh_min": 5.4,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 80.0,
+            "20": 20.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 2.4,
+            "300": 0.8,
+            "400": 3.2,
+            "500": 16.8,
+            "600": 8.0,
+            "700": 23.2,
+            "800": 6.4,
+            "900": 32.8,
+            "1000": 1.6,
+            "1100": 1.6,
+            "1200": 3.2
+        },
+        "rainfall": {
+            "1000": 4.0,
+            "1500": 24.0,
+            "2000": 16.8,
+            "2500": 12.8,
+            "3000": 12.0,
+            "3500": 27.2,
+            "4000": 3.2,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

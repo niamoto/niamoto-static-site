@@ -1,0 +1,135 @@
+{
+    "id": 2416,
+    "full_name": "Celtis balansae",
+    "authors": "Planch.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1478
+    },
+    "lft": 521,
+    "rght": 522,
+    "level": 2,
+    "parent_id": 496,
+    "taxon_id": 2416,
+    "total_occurrences_count": 68,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.77435, -21.665275], \"count\": 1}, {\"coordinates\": [166.4331973, -22.166286], \"count\": 4}, {\"coordinates\": [166.3788367, -22.0861242], \"count\": 1}, {\"coordinates\": [164.355251, -20.539273], \"count\": 39}, {\"coordinates\": [166.0928116, -21.5733615], \"count\": 1}, {\"coordinates\": [166.4492622, -22.1235124], \"count\": 2}, {\"coordinates\": [164.957033812788, -20.6794384853803], \"count\": 1}, {\"coordinates\": [164.999125553073, -21.331786928695], \"count\": 1}, {\"coordinates\": [165.10186795378, -20.9270139575175], \"count\": 3}, {\"coordinates\": [166.40911865234375, -22.157190322875977], \"count\": 1}, {\"coordinates\": [164.381685071093, -20.5427826253987], \"count\": 1}, {\"coordinates\": [164.9555866667, -20.6787294444], \"count\": 1}, {\"coordinates\": [164.955491225908, -20.6787743957377], \"count\": 1}, {\"coordinates\": [166.44345000000033, -22.167361000659398], \"count\": 1}, {\"coordinates\": [165.8041083, -21.5972978], \"count\": 1}, {\"coordinates\": [166.4141083333, -22.155475], \"count\": 1}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [164.998655347636, -21.3354765361139], \"count\": 1}, {\"coordinates\": [165.002174023671, -21.3319367277897], \"count\": 1}, {\"coordinates\": [164.995359609256, -21.3324931272905], \"count\": 1}, {\"coordinates\": [165.76972225, -21.67000002], \"count\": 2}, {\"coordinates\": [167.02400997, -22.24725997], \"count\": 1}]}",
+    "species_top": {
+        "Celtis balansae": 68
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 66,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                0.0,
+                0,
+                100.0,
+                50.0,
+                0.0,
+                0,
+                80.0,
+                100.0,
+                0,
+                25.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 39.38,
+    "dbh_max": 64.9,
+    "dbh_median": 41.55,
+    "dbh_min": 14.6,
+    "height_max": 24.6,
+    "wood_density_mean": 0.63,
+    "wood_density_max": 0.67,
+    "wood_density_min": 0.6,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 10.0,
+            "20": 17.5,
+            "30": 20.0,
+            "40": 32.5,
+            "50": 20.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 27.27,
+            "200": 54.55,
+            "300": 18.18,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 23.81,
+            "1500": 65.08,
+            "2000": 9.52,
+            "2500": 1.59,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 18.18,
+            "2": 81.82
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 7.69,
+            "3": 92.31
+        }
+    }
+}

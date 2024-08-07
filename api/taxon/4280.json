@@ -1,0 +1,118 @@
+{
+    "id": 4280,
+    "full_name": "Metrosideros cacuminum",
+    "authors": "J.W.Dawson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4241
+    },
+    "lft": 1929,
+    "rght": 1930,
+    "level": 2,
+    "parent_id": 1052,
+    "taxon_id": 4280,
+    "total_occurrences_count": 72,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.9983571, -20.904973], \"count\": 5}, {\"coordinates\": [164.6022222, -20.46], \"count\": 1}, {\"coordinates\": [164.848195584615, -20.6436108271281], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 2}, {\"coordinates\": [165.212356252338, -20.8848214307276], \"count\": 1}, {\"coordinates\": [164.86000061035156, -20.6430606842041], \"count\": 1}, {\"coordinates\": [164.86944580078125, -20.636943817138672], \"count\": 10}, {\"coordinates\": [165.01861572265625, -20.90860939025879], \"count\": 4}, {\"coordinates\": [165.415208, -21.4261256], \"count\": 1}, {\"coordinates\": [165.8813852, -21.6202967], \"count\": 1}, {\"coordinates\": [164.8604958, -20.6369621], \"count\": 1}, {\"coordinates\": [165.01495361328125, -20.89215087890625], \"count\": 4}, {\"coordinates\": [165.01092529296875, -20.893939971923828], \"count\": 2}, {\"coordinates\": [164.8480556, -20.6436111], \"count\": 1}, {\"coordinates\": [165.121885, -20.8695419], \"count\": 2}, {\"coordinates\": [165.0218565, -20.9054869], \"count\": 1}, {\"coordinates\": [165.3436111, -21.3611111], \"count\": 2}, {\"coordinates\": [166.65638732910156, -22.120559692382812], \"count\": 2}, {\"coordinates\": [164.7742238, -20.5856472], \"count\": 2}, {\"coordinates\": [166.099402388254, -21.5201511529026], \"count\": 1}, {\"coordinates\": [165.053533587394, -20.8465117266771], \"count\": 1}, {\"coordinates\": [165.330337, -21.365437], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 1}, {\"coordinates\": [164.9239722, -20.9489167], \"count\": 1}, {\"coordinates\": [165.14056396484375, -20.96221923828125], \"count\": 2}, {\"coordinates\": [165.143871, -20.9591237], \"count\": 2}, {\"coordinates\": [164.848887589157, -20.6436869324555], \"count\": 1}, {\"coordinates\": [164.8569, -20.6403], \"count\": 1}, {\"coordinates\": [164.9984, -20.905], \"count\": 2}, {\"coordinates\": [164.8925, -20.9063], \"count\": 1}, {\"coordinates\": [164.86, -20.64306], \"count\": 1}, {\"coordinates\": [165.01861, -20.90861], \"count\": 4}, {\"coordinates\": [165.14056, -20.96222], \"count\": 2}, {\"coordinates\": [164.9775493, -20.9040223], \"count\": 1}, {\"coordinates\": [164.6015, -20.4594], \"count\": 1}, {\"coordinates\": [165.0219, -20.9055], \"count\": 1}, {\"coordinates\": [165.41390416607769, -21.434581518967217], \"count\": 2}, {\"coordinates\": [164.52638717549948, -20.40299839990127], \"count\": 1}]}",
+    "species_top": {
+        "Metrosideros cacuminum": 72
+    },
+    "um_occurrences_true": 44,
+    "um_occurrences_false": 28,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                83.33,
+                0,
+                100.0,
+                0.0,
+                50.0,
+                100.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0.0,
+                100.0,
+                50.0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 4.5,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 4.23,
+            "200": 1.41,
+            "300": 1.41,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 8.45,
+            "700": 25.35,
+            "800": 21.13,
+            "900": 8.45,
+            "1000": 15.49,
+            "1100": 4.23,
+            "1200": 9.86
+        },
+        "rainfall": {
+            "1000": 5.63,
+            "1500": 5.63,
+            "2000": 22.54,
+            "2500": 29.58,
+            "3000": 23.94,
+            "3500": 12.68,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

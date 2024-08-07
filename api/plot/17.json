@@ -1,0 +1,63 @@
+{
+    "id": 17,
+    "locality": "Bouirou",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            165.545395,
+            -21.416931
+        ]
+    },
+    "plot_id": 17,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [165.545395, -21.416931]}",
+    "families_top": {
+        "Thymelaeaceae": 510,
+        "Picrodendraceae": 458,
+        "Pittosporaceae": 417,
+        "Arecaceae": 164,
+        "Myrtaceae": 157,
+        "Annonaceae": 152,
+        "Winteraceae": 136,
+        "Sapotaceae": 120,
+        "Proteaceae": 108,
+        "Cyatheaceae": 108
+    },
+    "species_top": {
+        "Solmsia calophylla": 368,
+        "Burretiokentia vieillardii": 163,
+        "Pittosporum deplanchei": 119,
+        "Xylopia vieillardii": 90,
+        "Gastrolepis austrocaledonica": 84,
+        "Calophyllum caledonicum": 74,
+        "Apodytes clusiifolia": 70,
+        "Austrobuxus eugeniifolius": 69,
+        "Pittosporum oreophilum": 67,
+        "Alsophila stelligera": 64
+    },
+    "height_mean": 16.66,
+    "wood_density_mean": 0.63,
+    "basal_area": 64.5,
+    "shannon": 3.79,
+    "pielou": 0.82,
+    "simpson": 0.96,
+    "biomass": 502.013855672099,
+    "frequencies": {
+        "dbh": {
+            "10": 60.96,
+            "20": 16.69,
+            "30": 10.03,
+            "40": 6.16,
+            "50": 5.4,
+            "75": 0.59,
+            "100": 0.17,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 26.58,
+            "2": 36.42,
+            "3": 36.99
+        }
+    }
+}

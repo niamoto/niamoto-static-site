@@ -1,0 +1,130 @@
+{
+    "id": 4057,
+    "full_name": "Litsea lecardii",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4012
+    },
+    "lft": 1481,
+    "rght": 1482,
+    "level": 2,
+    "parent_id": 977,
+    "taxon_id": 4057,
+    "total_occurrences_count": 38,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.8813852, -21.6202967], \"count\": 1}, {\"coordinates\": [166.5881181, -22.0161533], \"count\": 1}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 1}, {\"coordinates\": [164.69475, -20.5301667], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 1}, {\"coordinates\": [166.66500005, -22.18305556], \"count\": 2}, {\"coordinates\": [166.48034553, -22.03847864], \"count\": 1}, {\"coordinates\": [166.46665954589844, -22.0333309173584], \"count\": 1}, {\"coordinates\": [164.89256286621094, -20.640729904174805], \"count\": 14}, {\"coordinates\": [165.9203338623047, -21.580989837646484], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 1}, {\"coordinates\": [165.7388916015625, -21.645830154418945], \"count\": 2}, {\"coordinates\": [166.6878075, -22.1097306], \"count\": 1}, {\"coordinates\": [164.5036163330078, -20.31110954284668], \"count\": 2}, {\"coordinates\": [166.4665985107422, -22.0333309173584], \"count\": 1}, {\"coordinates\": [166.7705535888672, -22.291669845581055], \"count\": 1}, {\"coordinates\": [166.3438720703125, -22.082509994506836], \"count\": 1}, {\"coordinates\": [164.696407, -20.53459796], \"count\": 1}, {\"coordinates\": [166.50671396, -21.96833698], \"count\": 1}, {\"coordinates\": [166.60572996, -22.06932999], \"count\": 1}, {\"coordinates\": [166.59023002, -22.08083696], \"count\": 1}, {\"coordinates\": [166.493759, -21.94574199], \"count\": 1}]}",
+    "species_top": {
+        "Litsea lecardii": 38
+    },
+    "um_occurrences_true": 16,
+    "um_occurrences_false": 22,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                50.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.33,
+    "dbh_max": 12.1,
+    "dbh_median": 11.1,
+    "dbh_min": 10.8,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 44.44,
+            "200": 2.78,
+            "300": 11.11,
+            "400": 2.78,
+            "500": 11.11,
+            "600": 2.78,
+            "700": 0.0,
+            "800": 5.56,
+            "900": 16.67,
+            "1000": 2.78,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 2.63,
+            "1500": 13.16,
+            "2000": 10.53,
+            "2500": 55.26,
+            "3000": 2.63,
+            "3500": 13.16,
+            "4000": 2.63,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

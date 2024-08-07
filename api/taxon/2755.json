@@ -1,0 +1,135 @@
+{
+    "id": 2755,
+    "full_name": "Cupaniopsis globosa",
+    "authors": "Adema",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4819
+    },
+    "lft": 3145,
+    "rght": 3146,
+    "level": 2,
+    "parent_id": 612,
+    "taxon_id": 2755,
+    "total_occurrences_count": 95,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.0755556, -21.3211111], \"count\": 1}, {\"coordinates\": [165.3141194, -21.5607556], \"count\": 1}, {\"coordinates\": [165.1630556, -21.3616667], \"count\": 1}, {\"coordinates\": [165.4875206, -21.5642571], \"count\": 4}, {\"coordinates\": [165.0174636, -21.2734521], \"count\": 1}, {\"coordinates\": [164.9711111, -21.3344444], \"count\": 1}, {\"coordinates\": [164.9997944, -21.3667861], \"count\": 1}, {\"coordinates\": [165.6766547, -21.6909039], \"count\": 4}, {\"coordinates\": [165.107077, -21.122677], \"count\": 35}, {\"coordinates\": [165.1578107, -21.3435049], \"count\": 1}, {\"coordinates\": [164.96704707131, -21.3404664061995], \"count\": 2}, {\"coordinates\": [164.977369358661, -21.3394694847436], \"count\": 1}, {\"coordinates\": [165.6803436279297, -21.698579788208008], \"count\": 2}, {\"coordinates\": [164.910273877904, -21.0373029112816], \"count\": 1}, {\"coordinates\": [165.006984205164, -21.3147334245728], \"count\": 1}, {\"coordinates\": [164.916690544121, -21.0261779410423], \"count\": 1}, {\"coordinates\": [164.998655347636, -21.3354765361139], \"count\": 1}, {\"coordinates\": [164.966557358783, -21.3098249890952], \"count\": 1}, {\"coordinates\": [164.953014765402, -21.3421431627335], \"count\": 1}, {\"coordinates\": [164.969881588162, -21.3415424588415], \"count\": 1}, {\"coordinates\": [164.971075243234, -21.3100745013484], \"count\": 1}, {\"coordinates\": [164.970800386474, -21.3329887198876], \"count\": 1}, {\"coordinates\": [165.004468707447, -21.3120526316603], \"count\": 1}, {\"coordinates\": [165.008402733333, -20.8523204333333], \"count\": 1}, {\"coordinates\": [164.968349686807, -21.3417737749057], \"count\": 1}, {\"coordinates\": [164.946944601664, -21.3345535495444], \"count\": 1}, {\"coordinates\": [164.977908325195, -21.3392566680908], \"count\": 1}, {\"coordinates\": [164.991132646549, -21.3203007455161], \"count\": 1}, {\"coordinates\": [164.964812406309, -21.3376933241026], \"count\": 1}, {\"coordinates\": [164.999125553073, -21.331786928695], \"count\": 1}, {\"coordinates\": [164.999118605135, -21.3318337445427], \"count\": 1}, {\"coordinates\": [165.006973771361, -21.3185387047658], \"count\": 1}, {\"coordinates\": [164.961750322611, -21.3449767398617], \"count\": 1}, {\"coordinates\": [164.967462001103, -21.3125099452166], \"count\": 1}, {\"coordinates\": [164.970041913345, -21.318487821104], \"count\": 1}, {\"coordinates\": [164.949842, -21.32835], \"count\": 1}, {\"coordinates\": [164.968724468932, -21.3433181563283], \"count\": 2}, {\"coordinates\": [165.011874420751, -21.3110847079192], \"count\": 1}, {\"coordinates\": [165.002174023671, -21.3319367277897], \"count\": 1}, {\"coordinates\": [164.995359609256, -21.3324931272905], \"count\": 1}, {\"coordinates\": [165.3001194, -21.5111898], \"count\": 1}, {\"coordinates\": [164.9719444, -21.3477778], \"count\": 2}, {\"coordinates\": [164.9581438, -21.328327], \"count\": 2}, {\"coordinates\": [164.9708333, -21.3402778], \"count\": 1}, {\"coordinates\": [165.2865365, -21.5294714], \"count\": 1}, {\"coordinates\": [164.89491502, -21.17869197], \"count\": 1}, {\"coordinates\": [165.04017572, -21.33598241], \"count\": 1}]}",
+    "species_top": {
+        "Cupaniopsis globosa": 95
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 93,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                16.67,
+                25.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                100.0,
+                100.0,
+                40.0,
+                16.67,
+                40.0,
+                33.33,
+                7.69,
+                40.0,
+                50.0,
+                25.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 22.77,
+    "dbh_max": 38.8,
+    "dbh_median": 23.6,
+    "dbh_min": 10.2,
+    "height_max": 14.4,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 40.0,
+            "20": 40.0,
+            "30": 20.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 5.13,
+            "200": 0.0,
+            "300": 2.56,
+            "400": 92.31,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 43.08,
+            "1500": 55.38,
+            "2000": 1.54,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 57.61,
+            "2": 42.39
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 2.86,
+            "3": 97.14
+        }
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "id": 16146,
+    "full_name": "Phelline barrierei",
+    "authors": "Barriera & Schl\u00fcssel",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 8418
+    },
+    "lft": 2299,
+    "rght": 2300,
+    "level": 2,
+    "parent_id": 1198,
+    "taxon_id": 16146,
+    "total_occurrences_count": 51,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.1267827, -21.2352252], \"count\": 3}, {\"coordinates\": [165.1070264, -21.1626084], \"count\": 2}, {\"coordinates\": [165.1548947, -21.2411851], \"count\": 1}, {\"coordinates\": [165.095582, -21.1603505], \"count\": 1}, {\"coordinates\": [165.0952778, -21.1588889], \"count\": 2}, {\"coordinates\": [165.0959733501, -21.1677664798], \"count\": 2}, {\"coordinates\": [164.99966430664062, -21.16657066345215], \"count\": 2}, {\"coordinates\": [165.14999389648438, -21.26667022705078], \"count\": 1}, {\"coordinates\": [165.09527587890625, -21.158889770507812], \"count\": 3}, {\"coordinates\": [165.14443969726562, -21.229169845581055], \"count\": 1}, {\"coordinates\": [165.13333129882812, -21.26667022705078], \"count\": 5}, {\"coordinates\": [165.1605166, -21.2568095], \"count\": 1}, {\"coordinates\": [165.1375542, -21.2296768], \"count\": 2}, {\"coordinates\": [165.0930633544922, -21.167219161987305], \"count\": 1}, {\"coordinates\": [165.156158, -21.2554927], \"count\": 1}, {\"coordinates\": [165.14999389648438, -21.233333587646484], \"count\": 1}, {\"coordinates\": [165.1572265625, -21.259719848632812], \"count\": 1}, {\"coordinates\": [165.091, -21.1756], \"count\": 2}, {\"coordinates\": [165.10389709472656, -21.165559768676758], \"count\": 1}, {\"coordinates\": [165.0916748046875, -21.166940689086914], \"count\": 2}, {\"coordinates\": [165.15, -21.2666666666667], \"count\": 1}, {\"coordinates\": [165.091666666667, -21.1669444444444], \"count\": 1}, {\"coordinates\": [165.14431766, -21.22907306], \"count\": 1}, {\"coordinates\": [165.1572, -21.2597], \"count\": 1}, {\"coordinates\": [165.0922, -21.1633], \"count\": 1}, {\"coordinates\": [165.1517, -21.2442], \"count\": 1}, {\"coordinates\": [165.1236, -21.2383], \"count\": 3}, {\"coordinates\": [165.1039, -21.1656], \"count\": 2}, {\"coordinates\": [165.095277777778, -21.1588888888889], \"count\": 1}, {\"coordinates\": [165.1342, -21.2328], \"count\": 2}, {\"coordinates\": [165.093055555556, -21.1672222222222], \"count\": 1}, {\"coordinates\": [165.1528, -21.2586], \"count\": 1}]}",
+    "species_top": {
+        "Phelline barrierei": 51
+    },
+    "um_occurrences_true": 49,
+    "um_occurrences_false": 2,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                40.0,
+                100.0,
+                0,
+                60.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                60.0,
+                0.0,
+                0,
+                0.0,
+                66.67,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 12.7,
+    "dbh_max": 14.6,
+    "dbh_median": 12.7,
+    "dbh_min": 10.8,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 9.8,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 7.84,
+            "800": 9.8,
+            "900": 15.69,
+            "1000": 37.25,
+            "1100": 13.73,
+            "1200": 5.88
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 7.84,
+            "2000": 82.35,
+            "2500": 9.8,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 100.0,
+            "2": 0.0,
+            "3": 0.0
+        }
+    }
+}

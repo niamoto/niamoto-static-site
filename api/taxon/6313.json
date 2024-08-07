@@ -1,0 +1,130 @@
+{
+    "id": 6313,
+    "full_name": "Zygogynum acsmithii",
+    "authors": "Vink",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5023
+    },
+    "lft": 3595,
+    "rght": 3596,
+    "level": 2,
+    "parent_id": 1575,
+    "taxon_id": 6313,
+    "total_occurrences_count": 50,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.8936111, -22.2919444], \"count\": 1}, {\"coordinates\": [166.8734904, -22.1621753], \"count\": 2}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 1}, {\"coordinates\": [166.9072063, -22.181529], \"count\": 1}, {\"coordinates\": [166.89682471, -22.28926679], \"count\": 2}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 2}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 10}, {\"coordinates\": [166.99297, -22.274809833333332], \"count\": 2}, {\"coordinates\": [166.93027222222221, -22.323916666666666], \"count\": 8}, {\"coordinates\": [166.92571666666666, -22.320641666666667], \"count\": 1}, {\"coordinates\": [166.99966666666666, -22.276916666666665], \"count\": 2}, {\"coordinates\": [166.4436111, -21.9008333], \"count\": 1}, {\"coordinates\": [166.77184033493626, -22.17288406906132], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 2}, {\"coordinates\": [166.8702850341797, -22.165279388427734], \"count\": 4}, {\"coordinates\": [166.81666564941406, -22.333332061767578], \"count\": 1}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [166.66568, -22.21344], \"count\": 1}, {\"coordinates\": [166.81805419921875, -22.324169158935547], \"count\": 1}, {\"coordinates\": [165.8265424, -21.3973133], \"count\": 1}, {\"coordinates\": [166.9138423753056, -22.147438445558617], \"count\": 1}, {\"coordinates\": [166.93333435058594, -22.149999618530273], \"count\": 2}, {\"coordinates\": [167.00462898, -22.27939996], \"count\": 1}, {\"coordinates\": [166.9942457, -22.27291907], \"count\": 1}]}",
+    "species_top": {
+        "Zygogynum acsmithii": 50
+    },
+    "um_occurrences_true": 49,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                25.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0.0,
+                100.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0,
+                0,
+                100.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.03,
+    "dbh_max": 25.0,
+    "dbh_median": 7.5,
+    "dbh_min": 5.1,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 88.89,
+            "20": 11.11,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 38.64,
+            "200": 56.82,
+            "300": 0.0,
+            "400": 2.27,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 2.27
+        },
+        "rainfall": {
+            "1000": 2.0,
+            "1500": 6.0,
+            "2000": 8.0,
+            "2500": 74.0,
+            "3000": 10.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 12.5,
+            "2": 87.5
+        }
+    }
+}

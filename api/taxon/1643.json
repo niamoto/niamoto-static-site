@@ -1,0 +1,130 @@
+{
+    "id": 1643,
+    "full_name": "Acropogon francii",
+    "authors": "(Guillaumin) Morat",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4960
+    },
+    "lft": 1565,
+    "rght": 1566,
+    "level": 2,
+    "parent_id": 256,
+    "taxon_id": 1643,
+    "total_occurrences_count": 162,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.678838, -22.2756569], \"count\": 4}, {\"coordinates\": [166.6284917, -22.1868724], \"count\": 2}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 5}, {\"coordinates\": [166.6034403, -22.1190641], \"count\": 2}, {\"coordinates\": [166.6756839, -22.0966901], \"count\": 1}, {\"coordinates\": [166.5302696, -22.1752938], \"count\": 2}, {\"coordinates\": [166.6031631, -22.1347164], \"count\": 2}, {\"coordinates\": [166.6958044, -22.1642337], \"count\": 4}, {\"coordinates\": [166.6740392, -21.9944812], \"count\": 3}, {\"coordinates\": [166.6682211, -22.1863886], \"count\": 1}, {\"coordinates\": [166.5308038, -22.1651517], \"count\": 1}, {\"coordinates\": [166.636932, -22.0962102], \"count\": 2}, {\"coordinates\": [166.5881181, -22.0161533], \"count\": 2}, {\"coordinates\": [166.6803, -21.9977], \"count\": 2}, {\"coordinates\": [166.6638296, -22.0935546], \"count\": 2}, {\"coordinates\": [166.6495729, -22.1187974], \"count\": 1}, {\"coordinates\": [166.5370238, -22.0347027], \"count\": 1}, {\"coordinates\": [166.6233463, -22.0584002], \"count\": 1}, {\"coordinates\": [166.9225647, -22.3216887], \"count\": 1}, {\"coordinates\": [166.6943922, -22.1661794], \"count\": 3}, {\"coordinates\": [166.5788876, -22.143681], \"count\": 2}, {\"coordinates\": [166.6323966, -22.0855495], \"count\": 1}, {\"coordinates\": [166.91771666666668, -22.319005555555556], \"count\": 2}, {\"coordinates\": [166.5920277777778, -22.156402777777778], \"count\": 3}, {\"coordinates\": [166.92065833333334, -22.318175], \"count\": 1}, {\"coordinates\": [166.59121944444445, -22.155191666666667], \"count\": 1}, {\"coordinates\": [166.5333251953125, -22.166669845581055], \"count\": 2}, {\"coordinates\": [166.5755615234375, -22.146669387817383], \"count\": 3}, {\"coordinates\": [166.20443725585938, -21.726669311523438], \"count\": 1}, {\"coordinates\": [166.818115234375, -22.32430076599121], \"count\": 3}, {\"coordinates\": [166.6619873046875, -22.120119094848633], \"count\": 1}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 1}, {\"coordinates\": [166.91, -22.2986111], \"count\": 3}, {\"coordinates\": [166.2076543, -21.7236475], \"count\": 1}, {\"coordinates\": [165.84356689453125, -21.659669876098633], \"count\": 1}, {\"coordinates\": [166.93417358398438, -22.177499771118164], \"count\": 2}, {\"coordinates\": [166.6712833, -22.0392833], \"count\": 1}, {\"coordinates\": [166.684969, -22.1028821], \"count\": 2}, {\"coordinates\": [166.68443298339844, -22.11277961730957], \"count\": 2}, {\"coordinates\": [166.6957533, -22.1694831], \"count\": 1}, {\"coordinates\": [166.667461266667, -22.0446773333333], \"count\": 1}, {\"coordinates\": [166.5113889, -21.9644444], \"count\": 2}, {\"coordinates\": [166.63360595703125, -22.099170684814453], \"count\": 2}, {\"coordinates\": [166.6459011, -22.1181619], \"count\": 1}, {\"coordinates\": [166.41943359375, -21.906389236450195], \"count\": 1}, {\"coordinates\": [166.6947762, -22.0875621], \"count\": 1}, {\"coordinates\": [166.6925048828125, -22.167219161987305], \"count\": 5}, {\"coordinates\": [166.68333435058594, -22.200000762939453], \"count\": 1}, {\"coordinates\": [166.6426544189453, -22.12122917175293], \"count\": 1}, {\"coordinates\": [166.6050453, -22.1508795], \"count\": 1}, {\"coordinates\": [166.626102, -22.0804873], \"count\": 1}, {\"coordinates\": [166.6199951171875, -22.061389923095703], \"count\": 1}, {\"coordinates\": [166.60486498, -22.07270495], \"count\": 1}, {\"coordinates\": [166.665, -22.18944444], \"count\": 1}, {\"coordinates\": [166.6916667, -22.09055556], \"count\": 1}, {\"coordinates\": [166.81333329, -22.24694445], \"count\": 2}, {\"coordinates\": [166.6005425578949, -22.11845030558891], \"count\": 3}, {\"coordinates\": [166.55548298, -22.17075496], \"count\": 1}, {\"coordinates\": [166.6755556, -22.27861111], \"count\": 2}, {\"coordinates\": [166.5338889, -22.03777778], \"count\": 1}, {\"coordinates\": [166.6925, -22.1725], \"count\": 2}, {\"coordinates\": [166.6427778, -22.12111111], \"count\": 1}, {\"coordinates\": [166.6816667, -22.10583333], \"count\": 1}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 6}, {\"coordinates\": [166.5966667, -22.13055556], \"count\": 1}, {\"coordinates\": [166.24223984, -21.66792617], \"count\": 1}, {\"coordinates\": [166.59134999, -22.15500002], \"count\": 1}, {\"coordinates\": [166.6227778, -22.08361111], \"count\": 1}, {\"coordinates\": [166.6336111, -22.09916667], \"count\": 2}, {\"coordinates\": [166.5269444, -22.17833333], \"count\": 2}, {\"coordinates\": [166.52392896, -22.18556301], \"count\": 1}, {\"coordinates\": [166.585, -22.01916667], \"count\": 3}, {\"coordinates\": [166.5308333, -21.96388889], \"count\": 1}, {\"coordinates\": [166.24221447, -21.67145127], \"count\": 1}, {\"coordinates\": [166.6725, -22.09972222], \"count\": 1}, {\"coordinates\": [166.6463889, -22.12194444], \"count\": 1}, {\"coordinates\": [166.91, -22.29861111], \"count\": 1}, {\"coordinates\": [166.6925, -22.16722222], \"count\": 2}, {\"coordinates\": [166.6333333, -22.10305556], \"count\": 4}, {\"coordinates\": [166.6252778, -22.19], \"count\": 2}, {\"coordinates\": [166.5275, -22.16833333], \"count\": 1}, {\"coordinates\": [166.9194444, -22.32472222], \"count\": 1}, {\"coordinates\": [165.08035605, -21.16247197], \"count\": 1}, {\"coordinates\": [166.2044444, -21.72666667], \"count\": 1}, {\"coordinates\": [166.67710805, -22.04312998], \"count\": 1}, {\"coordinates\": [166.67945, -22.04596667], \"count\": 1}, {\"coordinates\": [166.5755556, -22.14666667], \"count\": 1}, {\"coordinates\": [166.6291667, -22.08861111], \"count\": 1}, {\"coordinates\": [166.62, -22.06138889], \"count\": 1}, {\"coordinates\": [166.60540802, -22.06978095], \"count\": 1}, {\"coordinates\": [166.6016667, -22.15388889], \"count\": 1}, {\"coordinates\": [166.66500005, -22.18305556], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 3}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}, {\"coordinates\": [166.5924721, -22.15348894], \"count\": 1}]}",
+    "species_top": {
+        "Acropogon francii": 162
+    },
+    "um_occurrences_true": 158,
+    "um_occurrences_false": 4,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                100.0,
+                60.0,
+                33.33,
+                33.33,
+                0.0,
+                0.0,
+                0.0,
+                50.0,
+                23.08,
+                50.0
+            ],
+            "fruiting": [
+                0.0,
+                40.0,
+                0.0,
+                60.0,
+                0.0,
+                66.67,
+                0.0,
+                77.78,
+                0.0,
+                37.5,
+                46.15,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.19,
+    "dbh_max": 10.0,
+    "dbh_median": 6.4,
+    "dbh_min": 5.1,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 8.97,
+            "200": 33.33,
+            "300": 16.67,
+            "400": 13.46,
+            "500": 8.97,
+            "600": 3.85,
+            "700": 6.41,
+            "800": 2.56,
+            "900": 1.92,
+            "1000": 1.28,
+            "1100": 1.28,
+            "1200": 1.28
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 5.03,
+            "2000": 18.24,
+            "2500": 37.11,
+            "3000": 30.19,
+            "3500": 6.92,
+            "4000": 1.89,
+            "4500": 0.63
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 5975,
+    "full_name": "Tapeinosperma rubidum",
+    "authors": "Mez",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4158
+    },
+    "lft": 2597,
+    "rght": 2598,
+    "level": 2,
+    "parent_id": 1449,
+    "taxon_id": 5975,
+    "total_occurrences_count": 19,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.6881667, -20.5398889], \"count\": 1}, {\"coordinates\": [164.5213457, -20.4031031], \"count\": 2}, {\"coordinates\": [164.757925, -20.6139389], \"count\": 1}, {\"coordinates\": [165.3033762, -21.1779231], \"count\": 1}, {\"coordinates\": [165.2854722222222, -21.17738888888889], \"count\": 2}, {\"coordinates\": [164.9983571, -20.904973], \"count\": 1}, {\"coordinates\": [165.2834617, -21.1773889], \"count\": 1}, {\"coordinates\": [164.8505556, -20.8519444], \"count\": 1}, {\"coordinates\": [164.8714388, -20.635479], \"count\": 1}, {\"coordinates\": [164.8512917, -20.8513611], \"count\": 1}, {\"coordinates\": [164.756149, -20.61235875], \"count\": 1}, {\"coordinates\": [165.142922401428, -20.9568709055583], \"count\": 1}, {\"coordinates\": [165.191850180096, -20.8333931393094], \"count\": 1}, {\"coordinates\": [164.71046596049675, -20.485179300838254], \"count\": 1}, {\"coordinates\": [164.850797653198, -20.8522749582926], \"count\": 1}, {\"coordinates\": [165.2834733, -21.1673167], \"count\": 1}, {\"coordinates\": [165.3116161, -21.1726421], \"count\": 1}]}",
+    "species_top": {
+        "Tapeinosperma rubidum": 19
+    },
+    "um_occurrences_true": 5,
+    "um_occurrences_false": 14,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                28.57,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                57.14,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 5.5,
+    "dbh_max": 6.4,
+    "dbh_median": 5.1,
+    "dbh_min": 5.0,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 10.53,
+            "600": 26.32,
+            "700": 15.79,
+            "800": 10.53,
+            "900": 31.58,
+            "1000": 5.26,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 10.53,
+            "2000": 26.32,
+            "2500": 36.84,
+            "3000": 15.79,
+            "3500": 10.53,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

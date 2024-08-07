@@ -1,0 +1,135 @@
+{
+    "id": 4567,
+    "full_name": "Oxera coriacea",
+    "authors": "Dubard",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3962
+    },
+    "lft": 1369,
+    "rght": 1370,
+    "level": 2,
+    "parent_id": 1152,
+    "taxon_id": 4567,
+    "total_occurrences_count": 97,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4454743, -22.0828451], \"count\": 2}, {\"coordinates\": [164.3603014, -20.6614411], \"count\": 2}, {\"coordinates\": [165.5644248, -21.4835708], \"count\": 1}, {\"coordinates\": [166.388394, -21.9001559], \"count\": 1}, {\"coordinates\": [166.3534222, -21.9047222], \"count\": 1}, {\"coordinates\": [165.7115519, -21.3426426], \"count\": 1}, {\"coordinates\": [166.0000469, -21.7545723], \"count\": 2}, {\"coordinates\": [166.3229561, -21.9083139], \"count\": 1}, {\"coordinates\": [166.4530645, -22.0345937], \"count\": 1}, {\"coordinates\": [166.3226209, -21.6564339], \"count\": 1}, {\"coordinates\": [166.94141685, -22.21108835], \"count\": 2}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 4}, {\"coordinates\": [166.89935531, -22.29082505], \"count\": 2}, {\"coordinates\": [166.82579366, -22.2512891], \"count\": 2}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 2}, {\"coordinates\": [165.7504763547, -21.4376642648], \"count\": 1}, {\"coordinates\": [166.44981384277344, -22.037660598754883], \"count\": 2}, {\"coordinates\": [165.752012353133, -21.4376012549333], \"count\": 1}, {\"coordinates\": [165.8265424, -21.3973133], \"count\": 1}, {\"coordinates\": [166.0, -21.583332061767578], \"count\": 2}, {\"coordinates\": [166.0004251, -21.7574591], \"count\": 2}, {\"coordinates\": [166.47187499974453, -22.09972700025007], \"count\": 1}, {\"coordinates\": [165.5611114501953, -21.486669540405273], \"count\": 2}, {\"coordinates\": [166.31680297851562, -21.674579620361328], \"count\": 2}, {\"coordinates\": [165.86321499999994, -21.46894800064242], \"count\": 1}, {\"coordinates\": [165.7083282470703, -21.34556007385254], \"count\": 2}, {\"coordinates\": [165.806308, -21.665704], \"count\": 1}, {\"coordinates\": [165.99679565429688, -21.757619857788086], \"count\": 1}, {\"coordinates\": [165.9965564, -21.7581821], \"count\": 1}, {\"coordinates\": [165.75543212890625, -21.443279266357422], \"count\": 1}, {\"coordinates\": [165.7069720979779, -21.423210343987268], \"count\": 1}, {\"coordinates\": [166.524510746833, -22.0687246788333], \"count\": 1}, {\"coordinates\": [165.99717712402344, -21.760509490966797], \"count\": 1}, {\"coordinates\": [166.44223022460938, -22.08591079711914], \"count\": 1}, {\"coordinates\": [165.57972717285156, -21.486629486083984], \"count\": 2}, {\"coordinates\": [166.3267822265625, -21.909080505371094], \"count\": 1}, {\"coordinates\": [165.90457153320312, -21.689620971679688], \"count\": 1}, {\"coordinates\": [165.8316024, -21.7092682], \"count\": 1}, {\"coordinates\": [165.9693248, -21.5007036], \"count\": 1}, {\"coordinates\": [166.358154296875, -21.9097900390625], \"count\": 1}, {\"coordinates\": [166.3526933, -21.9049309], \"count\": 1}, {\"coordinates\": [165.999428, -21.760718], \"count\": 1}, {\"coordinates\": [166.23120445, -21.67360558], \"count\": 1}, {\"coordinates\": [165.9995616, -21.754162], \"count\": 1}, {\"coordinates\": [166.0004406, -21.7555999], \"count\": 1}, {\"coordinates\": [166.49107401, -21.95016101], \"count\": 1}, {\"coordinates\": [165.9668076436747, -21.497338489909637], \"count\": 1}, {\"coordinates\": [165.9996116, -21.7537287], \"count\": 1}, {\"coordinates\": [166.3337953, -21.6716506], \"count\": 1}, {\"coordinates\": [166.52465996, -22.18012997], \"count\": 1}, {\"coordinates\": [165.5654776, -21.4859772], \"count\": 1}, {\"coordinates\": [166.333633333333, -21.6716777777778], \"count\": 1}, {\"coordinates\": [166.3534353, -21.904758], \"count\": 1}, {\"coordinates\": [165.7641494, -21.4414532], \"count\": 1}, {\"coordinates\": [166.23142118, -21.67261039], \"count\": 1}, {\"coordinates\": [165.5653944, -21.4868488], \"count\": 1}, {\"coordinates\": [166.290835, -21.9351205], \"count\": 1}, {\"coordinates\": [165.8062754, -21.6662773], \"count\": 1}, {\"coordinates\": [165.9863448, -21.766846], \"count\": 1}, {\"coordinates\": [165.8062789, -21.6662767], \"count\": 1}, {\"coordinates\": [165.693897222222, -21.3488888888889], \"count\": 1}, {\"coordinates\": [165.981413888889, -21.7711277777778], \"count\": 1}, {\"coordinates\": [166.4451399, -22.0831505], \"count\": 1}, {\"coordinates\": [166.54058702, -22.17797097], \"count\": 1}, {\"coordinates\": [165.9998073, -21.7604659], \"count\": 1}, {\"coordinates\": [166.3144361, -21.6678796], \"count\": 1}, {\"coordinates\": [165.811963888889, -21.6613888888889], \"count\": 1}, {\"coordinates\": [166.54084298, -22.178624], \"count\": 1}, {\"coordinates\": [165.99846303, -21.75603704], \"count\": 1}, {\"coordinates\": [165.8065333333333, -21.6658833333333], \"count\": 1}, {\"coordinates\": [166.4661713, -22.021287], \"count\": 1}, {\"coordinates\": [166.23548779, -21.67773254], \"count\": 1}, {\"coordinates\": [165.5778028, -21.4982475], \"count\": 1}, {\"coordinates\": [166.3608124, -21.9105377], \"count\": 1}, {\"coordinates\": [165.6850755, -21.3597592], \"count\": 1}, {\"coordinates\": [166.3532674, -21.9046059], \"count\": 1}]}",
+    "species_top": {
+        "Oxera coriacea": 97
+    },
+    "um_occurrences_true": 85,
+    "um_occurrences_false": 12,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                100.0,
+                0,
+                83.33
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                100.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                33.33
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 16.9,
+    "dbh_max": 25.0,
+    "dbh_median": 15.0,
+    "dbh_min": 10.7,
+    "height_max": 10.0,
+    "wood_density_mean": 0.59,
+    "wood_density_max": 0.59,
+    "wood_density_min": 0.59,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 66.67,
+            "20": 33.33,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 11.39,
+            "200": 8.86,
+            "300": 15.19,
+            "400": 8.86,
+            "500": 11.39,
+            "600": 8.86,
+            "700": 17.72,
+            "800": 5.06,
+            "900": 12.66,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 16.48,
+            "1500": 16.48,
+            "2000": 43.96,
+            "2500": 12.09,
+            "3000": 10.99,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 11.59,
+            "2": 88.41
+        },
+        "strate": {
+            "1": 100.0,
+            "2": 0.0,
+            "3": 0.0
+        }
+    }
+}

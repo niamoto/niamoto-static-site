@@ -1,0 +1,63 @@
+{
+    "id": 9,
+    "locality": "Gohapin",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            165.240768432617,
+            -21.2571277618408
+        ]
+    },
+    "plot_id": 9,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [165.240768432617, -21.2571277618408]}",
+    "families_top": {
+        "Proteaceae": 674,
+        "Salicaceae": 372,
+        "Violaceae": 152,
+        "Putranjivaceae": 119,
+        "Oleaceae": 88,
+        "Ebenaceae": 51,
+        "Rutaceae": 45,
+        "Apocynaceae": 44,
+        "Monimiaceae": 42,
+        "Elaeocarpaceae": 41
+    },
+    "species_top": {
+        "Homalium deplanchei": 369,
+        "Stenocarpus milnei": 138,
+        "Stenocarpus trinervis": 124,
+        "Drypetes deplanchei": 119,
+        "Sleumerodendron austrocaledonicum": 92,
+        "Olea paniculata": 87,
+        "Virotia leptophylla": 81,
+        "Hybanthus austrocaledonicus": 73,
+        "Kermadecia sinuata": 64,
+        "Diospyros fasciculosa": 48
+    },
+    "height_mean": 11.15,
+    "wood_density_mean": 0.65,
+    "basal_area": 39.3,
+    "shannon": 2.27,
+    "pielou": 0.61,
+    "simpson": 0.77,
+    "biomass": 302.333316530379,
+    "frequencies": {
+        "dbh": {
+            "10": 72.81,
+            "20": 12.63,
+            "30": 6.31,
+            "40": 3.87,
+            "50": 3.22,
+            "75": 0.77,
+            "100": 0.26,
+            "200": 0.13,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 5.11,
+            "2": 29.13,
+            "3": 65.77
+        }
+    }
+}

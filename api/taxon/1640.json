@@ -1,0 +1,130 @@
+{
+    "id": 1640,
+    "full_name": "Acropogon domatifer",
+    "authors": "Morat",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4958
+    },
+    "lft": 1559,
+    "rght": 1560,
+    "level": 2,
+    "parent_id": 256,
+    "taxon_id": 1640,
+    "total_occurrences_count": 24,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3033762, -21.1779231], \"count\": 13}, {\"coordinates\": [165.234557, -21.01718], \"count\": 2}, {\"coordinates\": [165.29916666666668, -21.196944444444444], \"count\": 1}, {\"coordinates\": [165.2329924, -21.017049], \"count\": 2}, {\"coordinates\": [165.1064516, -20.981288], \"count\": 2}, {\"coordinates\": [165.3066239, -21.1762872], \"count\": 1}, {\"coordinates\": [165.3116161, -21.1726421], \"count\": 2}, {\"coordinates\": [165.330337, -21.365437], \"count\": 1}]}",
+    "species_top": {
+        "Acropogon domatifer": 24
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 23,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0.0,
+                28.57,
+                0,
+                0,
+                0,
+                100.0,
+                85.71,
+                100.0,
+                100.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                100.0,
+                42.86,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.7,
+    "dbh_max": 6.7,
+    "dbh_median": 6.7,
+    "dbh_min": 6.7,
+    "height_max": 12.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 8.33,
+            "400": 20.83,
+            "500": 0.0,
+            "600": 8.33,
+            "700": 58.33,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 4.17
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 4.17,
+            "2000": 79.17,
+            "2500": 16.67,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

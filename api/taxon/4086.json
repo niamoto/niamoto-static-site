@@ -1,0 +1,118 @@
+{
+    "id": 4086,
+    "full_name": "Lumnitzera racemosa",
+    "authors": "Willd.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 289
+    },
+    "lft": 673,
+    "rght": 674,
+    "level": 2,
+    "parent_id": 991,
+    "taxon_id": 4086,
+    "total_occurrences_count": 31,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.208631, -20.4568555], \"count\": 1}, {\"coordinates\": [165.6972222, -21.7583333], \"count\": 1}, {\"coordinates\": [164.0492222222, -20.1934191667], \"count\": 1}, {\"coordinates\": [164.0124409, -20.2172937], \"count\": 1}, {\"coordinates\": [165.8102778, -21.8525], \"count\": 2}, {\"coordinates\": [163.9556389, -20.071427], \"count\": 1}, {\"coordinates\": [165.0174636, -21.2734521], \"count\": 1}, {\"coordinates\": [164.968553760673, -21.351171666198], \"count\": 1}, {\"coordinates\": [166.4687889, -22.2687952], \"count\": 1}, {\"coordinates\": [165.391598, -21.6116346], \"count\": 1}, {\"coordinates\": [164.6980741, -21.039406], \"count\": 1}, {\"coordinates\": [164.0042973, -20.0793627], \"count\": 1}, {\"coordinates\": [164.969866102457, -21.3255390888529], \"count\": 1}, {\"coordinates\": [164.670193621147, -20.9849621504681], \"count\": 1}, {\"coordinates\": [164.838428532723, -21.0586280474475], \"count\": 1}, {\"coordinates\": [164.655183529413, -20.9789836730436], \"count\": 1}, {\"coordinates\": [164.679656756696, -20.9512130299579], \"count\": 1}, {\"coordinates\": [164.043242212584, -20.1761848859452], \"count\": 1}, {\"coordinates\": [166.3781837, -22.1688699], \"count\": 1}, {\"coordinates\": [166.487002, -22.2380552], \"count\": 2}, {\"coordinates\": [164.972069407988, -21.3468048430361], \"count\": 1}, {\"coordinates\": [164.974463725074, -21.3167934677496], \"count\": 1}, {\"coordinates\": [164.973158, -21.3197], \"count\": 1}, {\"coordinates\": [164.03494967035, -20.0860820609971], \"count\": 1}, {\"coordinates\": [164.223717266755, -20.5520890700542], \"count\": 1}, {\"coordinates\": [164.973192639359, -21.3303074545641], \"count\": 1}]}",
+    "species_top": {
+        "Lumnitzera racemosa": 31
+    },
+    "um_occurrences_true": 6,
+    "um_occurrences_false": 25,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                57.14,
+                40.0,
+                50.0,
+                0.0,
+                0,
+                50.0,
+                50.0,
+                60.0,
+                0.0,
+                0.0,
+                0,
+                100.0
+            ],
+            "fruiting": [
+                14.29,
+                20.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                20.0,
+                0.0,
+                0.0,
+                0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 3.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 100.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 92.31,
+            "1500": 7.69,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 75.0,
+            "2": 25.0
+        }
+    }
+}

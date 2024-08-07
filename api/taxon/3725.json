@@ -1,0 +1,130 @@
+{
+    "id": 3725,
+    "full_name": "Homalium serratum",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1972
+    },
+    "lft": 3055,
+    "rght": 3056,
+    "level": 2,
+    "parent_id": 870,
+    "taxon_id": 3725,
+    "total_occurrences_count": 37,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.3860933, -20.5221132], \"count\": 1}, {\"coordinates\": [164.2211427, -20.4191931], \"count\": 2}, {\"coordinates\": [165.0078139, -21.0808583], \"count\": 1}, {\"coordinates\": [164.3552861, -20.5391222], \"count\": 1}, {\"coordinates\": [164.31968, -20.432189], \"count\": 1}, {\"coordinates\": [164.8641549, -20.733694], \"count\": 1}, {\"coordinates\": [166.0944366455078, -21.752220153808594], \"count\": 3}, {\"coordinates\": [164.3269044, -20.4667214], \"count\": 1}, {\"coordinates\": [165.971666666667, -21.5858833312988], \"count\": 1}, {\"coordinates\": [164.364191943523, -20.489892824], \"count\": 1}, {\"coordinates\": [164.296426858984, -20.411888143119], \"count\": 1}, {\"coordinates\": [164.86082458496094, -20.736669540405273], \"count\": 2}, {\"coordinates\": [166.0641632080078, -21.80694007873535], \"count\": 1}, {\"coordinates\": [164.3647868, -20.445965], \"count\": 1}, {\"coordinates\": [164.31639099121094, -20.435279846191406], \"count\": 1}, {\"coordinates\": [164.320604083092, -20.4255108099778], \"count\": 1}, {\"coordinates\": [166.0976809, -21.7491261], \"count\": 1}, {\"coordinates\": [164.2177734375, -20.42222023010254], \"count\": 3}, {\"coordinates\": [164.36138916015625, -20.448890686035156], \"count\": 4}, {\"coordinates\": [164.308041024222, -20.4897474673097], \"count\": 1}, {\"coordinates\": [165.971449979146, -21.5861666361491], \"count\": 1}, {\"coordinates\": [164.3458251953125, -20.504440307617188], \"count\": 1}, {\"coordinates\": [164.93832397460938, -21.13861083984375], \"count\": 1}, {\"coordinates\": [164.22198486328125, -20.443639755249023], \"count\": 1}, {\"coordinates\": [164.307944482785, -20.4894573808422], \"count\": 1}, {\"coordinates\": [164.38278198242188, -20.524999618530273], \"count\": 2}]}",
+    "species_top": {
+        "Homalium serratum": 37
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 36,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                100.0,
+                100.0,
+                50.0,
+                100.0,
+                0,
+                0,
+                0.0,
+                100.0,
+                0.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 29.3,
+    "dbh_max": 29.3,
+    "dbh_median": 29.3,
+    "dbh_min": 29.3,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 100.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 65.22,
+            "200": 26.09,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 8.7,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 63.89,
+            "1500": 22.22,
+            "2000": 13.89,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 41.67,
+            "2": 58.33
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "id": 3367,
+    "full_name": "Ficus otophoroides",
+    "authors": "Corner",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4096
+    },
+    "lft": 1737,
+    "rght": 1738,
+    "level": 2,
+    "parent_id": 774,
+    "taxon_id": 3367,
+    "total_occurrences_count": 48,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.9775493, -20.9040223], \"count\": 1}, {\"coordinates\": [165.8363201, -21.5767944], \"count\": 3}, {\"coordinates\": [165.1064516, -20.981288], \"count\": 1}, {\"coordinates\": [164.5395556, -20.4021222], \"count\": 1}, {\"coordinates\": [164.5158172, -20.3853107], \"count\": 2}, {\"coordinates\": [164.4922219, -20.3721472], \"count\": 1}, {\"coordinates\": [164.5247853, -20.4047457], \"count\": 1}, {\"coordinates\": [165.7050018310547, -21.523330688476562], \"count\": 1}, {\"coordinates\": [165.84056091308594, -21.657779693603516], \"count\": 3}, {\"coordinates\": [165.743896484375, -21.657499313354492], \"count\": 1}, {\"coordinates\": [165.2909623, -20.9468279], \"count\": 1}, {\"coordinates\": [165.7731064, -21.6670483], \"count\": 1}, {\"coordinates\": [165.5379132, -21.5883702], \"count\": 1}, {\"coordinates\": [165.7472192, -21.6545661], \"count\": 1}, {\"coordinates\": [164.3781944, -20.3921389], \"count\": 2}, {\"coordinates\": [165.2516632080078, -21.01527976989746], \"count\": 1}, {\"coordinates\": [165.2834384, -21.1767109], \"count\": 1}, {\"coordinates\": [164.5509893, -20.4136256], \"count\": 1}, {\"coordinates\": [165.26666259765625, -21.183332443237305], \"count\": 4}, {\"coordinates\": [165.226726657667, -20.8589179143333], \"count\": 1}, {\"coordinates\": [164.741219524333, -20.7346173003333], \"count\": 1}, {\"coordinates\": [165.10305786132812, -20.984439849853516], \"count\": 3}, {\"coordinates\": [165.7665252685547, -21.584890365600586], \"count\": 1}, {\"coordinates\": [165.773882, -21.602725], \"count\": 1}, {\"coordinates\": [165.3199423, -21.1540391], \"count\": 1}, {\"coordinates\": [165.227, -20.8589], \"count\": 1}, {\"coordinates\": [165.23638916015625, -21.014999389648438], \"count\": 1}, {\"coordinates\": [165.221377357201, -20.8694236133335], \"count\": 1}, {\"coordinates\": [165.2402801513672, -21.018329620361328], \"count\": 1}, {\"coordinates\": [165.2188889, -21.0183333], \"count\": 1}, {\"coordinates\": [165.220027, -20.868687], \"count\": 2}, {\"coordinates\": [165.80812072753906, -21.619020462036133], \"count\": 1}, {\"coordinates\": [165.9499969482422, -21.600000381469727], \"count\": 1}, {\"coordinates\": [165.83425903320312, -21.586910247802734], \"count\": 1}, {\"coordinates\": [165.77492096, -21.60249097], \"count\": 1}, {\"coordinates\": [165.77269997, -21.60794696], \"count\": 1}]}",
+    "species_top": {
+        "Ficus otophoroides": 48
+    },
+    "um_occurrences_true": 7,
+    "um_occurrences_false": 41,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                33.33,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                100.0,
+                66.67,
+                80.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 6.67,
+            "200": 13.33,
+            "300": 15.56,
+            "400": 13.33,
+            "500": 20.0,
+            "600": 20.0,
+            "700": 6.67,
+            "800": 2.22,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 2.22,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 10.64,
+            "1500": 29.79,
+            "2000": 25.53,
+            "2500": 27.66,
+            "3000": 6.38,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 3.23,
+            "2": 96.77
+        }
+    }
+}

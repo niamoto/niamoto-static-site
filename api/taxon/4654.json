@@ -1,0 +1,130 @@
+{
+    "id": 4654,
+    "full_name": "Pandanus viscidus",
+    "authors": "(Brongn.) Solms",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2416
+    },
+    "lft": 2265,
+    "rght": 2266,
+    "level": 2,
+    "parent_id": 1162,
+    "taxon_id": 4654,
+    "total_occurrences_count": 41,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.0413889, -21.2011111], \"count\": 4}, {\"coordinates\": [166.686476, -22.2759375], \"count\": 1}, {\"coordinates\": [166.6911111, -22.29], \"count\": 4}, {\"coordinates\": [166.7112684, -22.2432319], \"count\": 3}, {\"coordinates\": [164.83781783705, -20.7200181036622], \"count\": 2}, {\"coordinates\": [164.849659758814, -21.0527809894267], \"count\": 1}, {\"coordinates\": [164.8355066, -20.882027], \"count\": 4}, {\"coordinates\": [166.8521084, -22.2273689], \"count\": 6}, {\"coordinates\": [164.2211427, -20.4191931], \"count\": 2}, {\"coordinates\": [164.950830456778, -21.1824355453825], \"count\": 1}, {\"coordinates\": [164.904340146974, -20.7743600022156], \"count\": 1}, {\"coordinates\": [164.959709238987, -21.1759531069642], \"count\": 1}, {\"coordinates\": [165.334551653803, -21.2998764090595], \"count\": 1}, {\"coordinates\": [164.847778744097, -21.0573917005793], \"count\": 1}, {\"coordinates\": [164.924872947825, -21.275065183327], \"count\": 1}, {\"coordinates\": [164.889688071604, -21.2102011414922], \"count\": 1}, {\"coordinates\": [164.945199938138, -20.8017498617618], \"count\": 1}, {\"coordinates\": [164.967117407655, -21.1772078902849], \"count\": 1}, {\"coordinates\": [164.989972112854, -21.2421159132028], \"count\": 1}, {\"coordinates\": [164.957033812788, -20.6794384853803], \"count\": 1}, {\"coordinates\": [164.364191943523, -20.489892824], \"count\": 1}, {\"coordinates\": [165.335003579474, -21.2948072018161], \"count\": 1}, {\"coordinates\": [165.003281238754, -20.9303872184225], \"count\": 1}]}",
+    "species_top": {
+        "Pandanus viscidus": 41
+    },
+    "um_occurrences_true": 20,
+    "um_occurrences_false": 21,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                66.67,
+                28.57,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                66.67,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                42.86,
+                60.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 20.0,
+    "dbh_max": 20.0,
+    "dbh_median": 20.0,
+    "dbh_min": 20.0,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 100.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 52.63,
+            "200": 36.84,
+            "300": 5.26,
+            "400": 5.26,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 50.0,
+            "1500": 25.0,
+            "2000": 10.0,
+            "2500": 15.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 34.29,
+            "2": 65.71
+        }
+    }
+}

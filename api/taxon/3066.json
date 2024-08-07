@@ -1,0 +1,118 @@
+{
+    "id": 3066,
+    "full_name": "Dolichandrone spathacea",
+    "authors": "(L.f.) K.Schum.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3419
+    },
+    "lft": 463,
+    "rght": 464,
+    "level": 2,
+    "parent_id": 690,
+    "taxon_id": 3066,
+    "total_occurrences_count": 27,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.4379685, -20.3436707], \"count\": 3}, {\"coordinates\": [165.4027166667, -21.0752222222], \"count\": 2}, {\"coordinates\": [164.7347255, -20.4957136], \"count\": 1}, {\"coordinates\": [164.9474036, -20.6882638], \"count\": 2}, {\"coordinates\": [165.3308928, -20.9378508], \"count\": 1}, {\"coordinates\": [164.73138427734375, -20.49860954284668], \"count\": 1}, {\"coordinates\": [165.6315205, -21.2794748], \"count\": 2}, {\"coordinates\": [166.06332397460938, -21.533889770507812], \"count\": 2}, {\"coordinates\": [165.4361114501953, -21.101940155029297], \"count\": 1}, {\"coordinates\": [165.5233913, -21.6237146], \"count\": 2}, {\"coordinates\": [165.25860595703125, -20.805559158325195], \"count\": 1}, {\"coordinates\": [165.2369384765625, -20.78499984741211], \"count\": 1}]}",
+    "species_top": {
+        "Dolichandrone spathacea": 27
+    },
+    "um_occurrences_true": 4,
+    "um_occurrences_false": 23,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0.0,
+                0,
+                100.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                100.0,
+                83.33
+            ],
+            "fruiting": [
+                0.0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0,
+                60.0,
+                100.0,
+                0,
+                0,
+                100.0,
+                66.67
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 60.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 20.0,
+            "500": 20.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 26.32,
+            "1500": 21.05,
+            "2000": 31.58,
+            "2500": 10.53,
+            "3000": 10.53,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

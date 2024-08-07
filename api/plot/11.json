@@ -1,0 +1,63 @@
+{
+    "id": 11,
+    "locality": "Laguen",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            164.780212,
+            -20.62504
+        ]
+    },
+    "plot_id": 11,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [164.780212, -20.62504]}",
+    "families_top": {
+        "Cunoniaceae": 1172,
+        "Myodocarpaceae": 1090,
+        "Proteaceae": 1067,
+        "Arecaceae": 496,
+        "Moraceae": 405,
+        "Sapotaceae": 357,
+        "Pittosporaceae": 313,
+        "Sapindaceae": 279,
+        "Myrtaceae": 218,
+        "Podocarpaceae": 131
+    },
+    "species_top": {
+        "Grevillea exul": 401,
+        "Grevillea gillivrayi": 386,
+        "Myodocarpus nervatus": 349,
+        "Basselinia glabrata": 289,
+        "Myodocarpus fraxinifolius": 239,
+        "Pleurocalyptus pancheri": 160,
+        "Delarbrea paradoxa": 138,
+        "Stenocarpus milnei": 138,
+        "Cunonia balansae": 135,
+        "Planchonella kuebiniensis": 134
+    },
+    "height_mean": 8.28,
+    "wood_density_mean": 0.55,
+    "basal_area": 41.8,
+    "shannon": 3.3,
+    "pielou": 0.75,
+    "simpson": 0.94,
+    "biomass": 207.935810205865,
+    "frequencies": {
+        "dbh": {
+            "10": 78.13,
+            "20": 11.55,
+            "30": 5.38,
+            "40": 2.81,
+            "50": 1.83,
+            "75": 0.31,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 36.24,
+            "2": 0.51,
+            "3": 63.25
+        }
+    }
+}

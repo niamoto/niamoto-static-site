@@ -1,0 +1,136 @@
+{
+    "id": 705,
+    "full_name": "Dutaillyea",
+    "authors": "Baill.",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 1200
+    },
+    "lft": 2942,
+    "rght": 2947,
+    "level": 1,
+    "parent_id": 190,
+    "taxon_id": 705,
+    "total_occurrences_count": 68,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7813056, -20.6167733], \"count\": 2}, {\"coordinates\": [164.7869471, -20.5700274], \"count\": 2}, {\"coordinates\": [164.53333, -20.4], \"count\": 1}, {\"coordinates\": [164.4215898, -20.3005713], \"count\": 4}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 2}, {\"coordinates\": [164.1162406, -20.2681141], \"count\": 2}, {\"coordinates\": [164.73333, -20.61667], \"count\": 1}, {\"coordinates\": [164.4369444, -20.3025], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [164.5509893, -20.4136256], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 4}, {\"coordinates\": [164.7803333, -20.6151639], \"count\": 1}, {\"coordinates\": [164.4074961111, -20.5178416667], \"count\": 2}, {\"coordinates\": [164.51667, -20.4], \"count\": 1}, {\"coordinates\": [164.780212, -20.62504], \"count\": 1}, {\"coordinates\": [165.4765625, -21.24147605896], \"count\": 2}, {\"coordinates\": [164.410010833683, -20.5114645775929], \"count\": 1}, {\"coordinates\": [164.41860961914062, -20.313060760498047], \"count\": 3}, {\"coordinates\": [165.12167358398438, -21.13833236694336], \"count\": 1}, {\"coordinates\": [164.4166717529297, -20.299999237060547], \"count\": 1}, {\"coordinates\": [164.4219913, -20.3101206], \"count\": 1}, {\"coordinates\": [165.4758889, -21.2411111], \"count\": 1}, {\"coordinates\": [165.125, -21.14167022705078], \"count\": 1}, {\"coordinates\": [165.8109893798828, -21.61107063293457], \"count\": 1}, {\"coordinates\": [164.4166717529297, -20.333332061767578], \"count\": 1}, {\"coordinates\": [164.422629928589, -20.3103275934855], \"count\": 1}, {\"coordinates\": [164.39694213867188, -20.305280685424805], \"count\": 2}, {\"coordinates\": [165.529846000671, -21.2157340049744], \"count\": 1}, {\"coordinates\": [165.8000030517578, -21.616670608520508], \"count\": 1}, {\"coordinates\": [164.78330555555556, -20.560027777777776], \"count\": 1}, {\"coordinates\": [164.4377778, -20.3022222], \"count\": 1}, {\"coordinates\": [164.802176056594, -20.5650370927431], \"count\": 1}, {\"coordinates\": [164.443568168208, -20.3069239854813], \"count\": 1}, {\"coordinates\": [164.5267956, -20.3927884], \"count\": 1}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 2}, {\"coordinates\": [164.5586943, -20.5123592], \"count\": 1}, {\"coordinates\": [164.784551874797, -20.5598618189494], \"count\": 1}, {\"coordinates\": [164.4922219, -20.3721472], \"count\": 1}, {\"coordinates\": [164.5289122222, -20.3611711111], \"count\": 2}, {\"coordinates\": [164.7930568, -20.562816], \"count\": 2}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 1}, {\"coordinates\": [164.443085829417, -20.3065583229065], \"count\": 1}, {\"coordinates\": [164.7884284, -20.5680147], \"count\": 1}, {\"coordinates\": [164.7904228, -20.5660142], \"count\": 1}, {\"coordinates\": [165.018376169135, -20.8964453835656], \"count\": 1}, {\"coordinates\": [164.5158172, -20.3853107], \"count\": 1}, {\"coordinates\": [164.5213457, -20.4031031], \"count\": 2}, {\"coordinates\": [164.5314902, -20.3976737], \"count\": 1}, {\"coordinates\": [164.996619238371, -20.9039739643146], \"count\": 1}]}",
+    "species_top": {
+        "Dutaillyea trifoliolata": 33,
+        "Dutaillyea amosensis": 32
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 66,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                33.33,
+                0,
+                50.0,
+                50.0,
+                50.0,
+                100.0,
+                66.67,
+                66.67,
+                25.0,
+                50.0,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                33.33,
+                0,
+                0.0,
+                25.0,
+                16.67,
+                25.0,
+                66.67,
+                50.0,
+                75.0,
+                83.33,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 16.76,
+    "dbh_max": 47.4,
+    "dbh_median": 11.72,
+    "dbh_min": 5.4,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 66.67,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 33.33,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 9.68,
+            "300": 14.52,
+            "400": 3.23,
+            "500": 37.1,
+            "600": 12.9,
+            "700": 16.13,
+            "800": 0.0,
+            "900": 1.61,
+            "1000": 0.0,
+            "1100": 1.61,
+            "1200": 3.23
+        },
+        "rainfall": {
+            "1000": 11.76,
+            "1500": 50.0,
+            "2000": 8.82,
+            "2500": 8.82,
+            "3000": 20.59,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 6.38,
+            "2": 93.62
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

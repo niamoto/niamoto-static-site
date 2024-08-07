@@ -1,0 +1,130 @@
+{
+    "id": 13358,
+    "full_name": "Pycnandra ouaiemensis",
+    "authors": "Swenson & Munzinger",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5994
+    },
+    "lft": 3419,
+    "rght": 3420,
+    "level": 2,
+    "parent_id": 1281,
+    "taxon_id": 13358,
+    "total_occurrences_count": 14,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7813056, -20.6167733], \"count\": 1}, {\"coordinates\": [164.8686111, -20.6388889], \"count\": 1}, {\"coordinates\": [164.8604958, -20.6369621], \"count\": 1}, {\"coordinates\": [164.7708282470703, -20.588329315185547], \"count\": 1}, {\"coordinates\": [164.78131103515625, -20.62306785583496], \"count\": 1}, {\"coordinates\": [164.78773498535156, -20.626819610595703], \"count\": 1}, {\"coordinates\": [164.8699951171875, -20.639999389648438], \"count\": 1}, {\"coordinates\": [164.7448272705078, -20.61285972595215], \"count\": 2}, {\"coordinates\": [164.70805216906447, -20.482794025395993], \"count\": 1}, {\"coordinates\": [164.868611111111, -20.6388888888889], \"count\": 1}, {\"coordinates\": [164.781305555767, -20.6167733333343], \"count\": 2}, {\"coordinates\": [164.868055555556, -20.6386111111111], \"count\": 1}]}",
+    "species_top": {
+        "Pycnandra ouaiemensis": 14
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 14,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 19.91,
+    "dbh_max": 24.83,
+    "dbh_median": 19.91,
+    "dbh_min": 15.0,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 50.0,
+            "20": 50.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 21.43,
+            "500": 14.29,
+            "600": 14.29,
+            "700": 42.86,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 7.14
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 7.14,
+            "3000": 78.57,
+            "3500": 14.29,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        }
+    }
+}

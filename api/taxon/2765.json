@@ -1,0 +1,118 @@
+{
+    "id": 2765,
+    "full_name": "Cupaniopsis megalocarpa",
+    "authors": "Adema",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4823
+    },
+    "lft": 3157,
+    "rght": 3158,
+    "level": 2,
+    "parent_id": 612,
+    "taxon_id": 2765,
+    "total_occurrences_count": 40,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4746338, -22.0412948], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 7}, {\"coordinates\": [166.4454743, -22.0828451], \"count\": 1}, {\"coordinates\": [166.2965192, -21.9404243], \"count\": 1}, {\"coordinates\": [165.0958333, -21.3136111], \"count\": 1}, {\"coordinates\": [165.0451111111, -21.1862777778], \"count\": 1}, {\"coordinates\": [166.1798018, -21.9660182], \"count\": 1}, {\"coordinates\": [165.01722717285156, -21.156110763549805], \"count\": 2}, {\"coordinates\": [165.0449981689453, -21.186389923095703], \"count\": 2}, {\"coordinates\": [166.46665954589844, -22.0], \"count\": 2}, {\"coordinates\": [166.46121215820312, -22.079790115356445], \"count\": 2}, {\"coordinates\": [166.3402862548828, -21.91278076171875], \"count\": 2}, {\"coordinates\": [165.22666931152344, -21.0322208404541], \"count\": 4}, {\"coordinates\": [166.46665954589844, -22.049999237060547], \"count\": 2}, {\"coordinates\": [166.459716796875, -22.119720458984375], \"count\": 2}, {\"coordinates\": [165.35305786132812, -21.436670303344727], \"count\": 1}, {\"coordinates\": [165.095833333333, -21.3136111111111], \"count\": 1}, {\"coordinates\": [166.46969079, -22.03288219], \"count\": 1}, {\"coordinates\": [166.44222, -22.0858333], \"count\": 1}, {\"coordinates\": [166.52392896, -22.18556301], \"count\": 1}, {\"coordinates\": [166.26976288, -21.95501013], \"count\": 1}, {\"coordinates\": [166.532778, -22.1813889], \"count\": 2}, {\"coordinates\": [166.176666666667, -21.9691666666667], \"count\": 1}]}",
+    "species_top": {
+        "Cupaniopsis megalocarpa": 40
+    },
+    "um_occurrences_true": 33,
+    "um_occurrences_false": 7,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 11.11,
+            "200": 19.44,
+            "300": 25.0,
+            "400": 11.11,
+            "500": 11.11,
+            "600": 0.0,
+            "700": 8.33,
+            "800": 8.33,
+            "900": 2.78,
+            "1000": 2.78,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 21.62,
+            "1500": 29.73,
+            "2000": 18.92,
+            "2500": 24.32,
+            "3000": 5.41,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 13.79,
+            "2": 86.21
+        }
+    }
+}

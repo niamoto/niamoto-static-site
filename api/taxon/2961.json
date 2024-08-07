@@ -1,0 +1,130 @@
+{
+    "id": 2961,
+    "full_name": "Dicarpellum baillonianum",
+    "authors": "(Loes.) A.C.Sm.   ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3947
+    },
+    "lft": 579,
+    "rght": 580,
+    "level": 2,
+    "parent_id": 663,
+    "taxon_id": 2961,
+    "total_occurrences_count": 53,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.2137638, -20.8172347], \"count\": 4}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 10}, {\"coordinates\": [164.5171417, -20.4043389], \"count\": 1}, {\"coordinates\": [164.8338909, -20.6440815], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 4}, {\"coordinates\": [164.72730555555555, -20.586083333333335], \"count\": 1}, {\"coordinates\": [164.87133333333333, -20.640805555555556], \"count\": 1}, {\"coordinates\": [164.5184939, -20.3814548], \"count\": 1}, {\"coordinates\": [165.2720933, -21.2238756], \"count\": 1}, {\"coordinates\": [164.879646667167, -20.9783248111429], \"count\": 1}, {\"coordinates\": [165.1548947, -21.2411851], \"count\": 1}, {\"coordinates\": [164.793962900013, -20.6094681269977], \"count\": 1}, {\"coordinates\": [164.7813056, -20.6167733], \"count\": 1}, {\"coordinates\": [166.6686064, -22.2114812], \"count\": 1}, {\"coordinates\": [166.33988200000016, -21.70800500064822], \"count\": 1}, {\"coordinates\": [164.7545681, -20.7388258], \"count\": 2}, {\"coordinates\": [165.00451, -20.835434], \"count\": 1}, {\"coordinates\": [166.7723776, -22.3106972], \"count\": 1}, {\"coordinates\": [166.31264300000015, -21.69327000064787], \"count\": 1}, {\"coordinates\": [166.8930556, -22.1647222], \"count\": 1}, {\"coordinates\": [166.5033333, -21.9686111], \"count\": 1}, {\"coordinates\": [166.7112684, -22.2432319], \"count\": 1}, {\"coordinates\": [164.781, -20.6256111], \"count\": 1}, {\"coordinates\": [166.662188, -22.2220638], \"count\": 1}, {\"coordinates\": [165.197125, -20.875905], \"count\": 1}, {\"coordinates\": [164.737047683467, -20.7447896450667], \"count\": 1}, {\"coordinates\": [165.0039290328, -20.8343660653221], \"count\": 1}, {\"coordinates\": [166.402401, -21.88248101], \"count\": 1}, {\"coordinates\": [166.52290104, -22.18459897], \"count\": 1}, {\"coordinates\": [165.2899415, -20.95822143], \"count\": 1}, {\"coordinates\": [164.78000004, -20.61916663], \"count\": 1}, {\"coordinates\": [166.89314208, -22.16459943], \"count\": 1}, {\"coordinates\": [166.50397599, -21.969119], \"count\": 1}, {\"coordinates\": [165.08422601, -21.29341614], \"count\": 1}, {\"coordinates\": [165.09518934, -21.30951666], \"count\": 1}, {\"coordinates\": [166.6258055, -22.1965], \"count\": 1}]}",
+    "species_top": {
+        "Dicarpellum baillonianum": 53
+    },
+    "um_occurrences_true": 25,
+    "um_occurrences_false": 28,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                100.0,
+                0,
+                33.33,
+                0,
+                0,
+                100.0,
+                0.0,
+                66.67,
+                80.0,
+                66.67,
+                84.62
+            ],
+            "fruiting": [
+                0.0,
+                33.33,
+                0,
+                66.67,
+                0,
+                0,
+                0.0,
+                100.0,
+                33.33,
+                20.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 5.7,
+    "dbh_max": 6.0,
+    "dbh_median": 5.7,
+    "dbh_min": 5.4,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 12.0,
+            "200": 2.0,
+            "300": 16.0,
+            "400": 10.0,
+            "500": 10.0,
+            "600": 10.0,
+            "700": 6.0,
+            "800": 10.0,
+            "900": 2.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 22.0
+        },
+        "rainfall": {
+            "1000": 1.92,
+            "1500": 19.23,
+            "2000": 15.38,
+            "2500": 25.0,
+            "3000": 11.54,
+            "3500": 21.15,
+            "4000": 5.77,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

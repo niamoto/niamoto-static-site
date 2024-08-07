@@ -1,0 +1,118 @@
+{
+    "id": 2642,
+    "full_name": "Coronanthera squamata",
+    "authors": "Virot",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 886
+    },
+    "lft": 1321,
+    "rght": 1322,
+    "level": 2,
+    "parent_id": 581,
+    "taxon_id": 2642,
+    "total_occurrences_count": 25,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5999648, -22.1274882], \"count\": 2}, {\"coordinates\": [166.2991388889, -21.7786388889], \"count\": 1}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 1}, {\"coordinates\": [166.6031631, -22.1347164], \"count\": 1}, {\"coordinates\": [166.55437, -22.09172], \"count\": 1}, {\"coordinates\": [166.6638296, -22.0935546], \"count\": 1}, {\"coordinates\": [166.4136111, -21.8797222], \"count\": 1}, {\"coordinates\": [166.6064118, -22.1331686], \"count\": 2}, {\"coordinates\": [166.407810648118, -21.8524914378763], \"count\": 1}, {\"coordinates\": [166.5351813, -21.9698552], \"count\": 1}, {\"coordinates\": [166.2602721, -21.9393947], \"count\": 1}, {\"coordinates\": [166.2250993, -21.7039368], \"count\": 1}, {\"coordinates\": [166.2469444, -21.6661111], \"count\": 1}, {\"coordinates\": [166.6043583, -22.1156028], \"count\": 1}, {\"coordinates\": [166.5339829, -21.9608885], \"count\": 1}, {\"coordinates\": [166.65993504, -22.020349], \"count\": 1}, {\"coordinates\": [166.41647604, -21.88208098], \"count\": 1}, {\"coordinates\": [166.60524199, -22.12213601], \"count\": 2}, {\"coordinates\": [166.41456298, -21.88367598], \"count\": 1}, {\"coordinates\": [166.2500833, -21.66319442], \"count\": 1}, {\"coordinates\": [166.60330279, -22.13627775], \"count\": 1}, {\"coordinates\": [166.41347801, -21.87976998], \"count\": 1}]}",
+    "species_top": {
+        "Coronanthera squamata": 25
+    },
+    "um_occurrences_true": 25,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                100.0,
+                100.0,
+                66.67,
+                50.0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                100.0,
+                0.0,
+                0.0,
+                33.33,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 3.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 4.0,
+            "300": 4.0,
+            "400": 4.0,
+            "500": 0.0,
+            "600": 8.0,
+            "700": 16.0,
+            "800": 28.0,
+            "900": 4.0,
+            "1000": 8.0,
+            "1100": 0.0,
+            "1200": 24.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 4.0,
+            "2000": 0.0,
+            "2500": 40.0,
+            "3000": 32.0,
+            "3500": 12.0,
+            "4000": 4.0,
+            "4500": 8.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

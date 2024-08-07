@@ -1,0 +1,118 @@
+{
+    "id": 4008,
+    "full_name": "Libocedrus yateensis",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 78
+    },
+    "lft": 869,
+    "rght": 870,
+    "level": 2,
+    "parent_id": 962,
+    "taxon_id": 4008,
+    "total_occurrences_count": 71,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.7325, -22.0286111], \"count\": 1}, {\"coordinates\": [165.2939003, -20.9647401], \"count\": 1}, {\"coordinates\": [166.636932, -22.0962102], \"count\": 1}, {\"coordinates\": [166.6055145263672, -22.012680053710938], \"count\": 1}, {\"coordinates\": [166.6297607421875, -22.179941177368164], \"count\": 1}, {\"coordinates\": [165.0863848, -20.8274555], \"count\": 1}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 1}, {\"coordinates\": [166.6845703125, -22.11280059814453], \"count\": 17}, {\"coordinates\": [166.61666870117188, -22.100000381469727], \"count\": 1}, {\"coordinates\": [166.6699981689453, -22.100000381469727], \"count\": 7}, {\"coordinates\": [166.69166564941406, -22.090560913085938], \"count\": 1}, {\"coordinates\": [166.65252685546875, -22.101055145263672], \"count\": 1}, {\"coordinates\": [166.6750030517578, -22.100000381469727], \"count\": 1}, {\"coordinates\": [166.60850400000038, -22.008734000655487], \"count\": 1}, {\"coordinates\": [166.6878075, -22.1097306], \"count\": 2}, {\"coordinates\": [166.64816284179688, -22.100833892822266], \"count\": 1}, {\"coordinates\": [165.29055786132812, -20.9677791595459], \"count\": 3}, {\"coordinates\": [166.63360595703125, -22.099170684814453], \"count\": 2}, {\"coordinates\": [166.41355895996094, -21.885860443115234], \"count\": 1}, {\"coordinates\": [164.8714388, -20.635479], \"count\": 1}, {\"coordinates\": [166.7069854736328, -22.187135696411133], \"count\": 1}, {\"coordinates\": [165.1699981689453, -20.950000762939453], \"count\": 1}, {\"coordinates\": [166.62286376953125, -22.08354949951172], \"count\": 1}, {\"coordinates\": [166.6638296, -22.0935546], \"count\": 1}, {\"coordinates\": [164.793962900013, -20.6094681269977], \"count\": 1}, {\"coordinates\": [166.72296859187483, -22.033046094974885], \"count\": 1}, {\"coordinates\": [166.68457, -22.1128], \"count\": 3}, {\"coordinates\": [166.6336, -22.0992], \"count\": 1}, {\"coordinates\": [166.67710805, -22.04312998], \"count\": 1}, {\"coordinates\": [166.67612005, -22.04756799], \"count\": 1}, {\"coordinates\": [165.0831, -20.8306], \"count\": 1}, {\"coordinates\": [166.6228, -22.0836], \"count\": 1}, {\"coordinates\": [166.56397803, -21.95944503], \"count\": 1}, {\"coordinates\": [166.63361, -22.09917], \"count\": 2}, {\"coordinates\": [166.6333, -22.1031], \"count\": 3}, {\"coordinates\": [166.60617401, -22.07395503], \"count\": 1}, {\"coordinates\": [166.60551, -22.01268], \"count\": 1}, {\"coordinates\": [165.2906, -20.9678], \"count\": 1}, {\"coordinates\": [166.69167, -22.09056], \"count\": 1}, {\"coordinates\": [166.62286, -22.08355], \"count\": 1}]}",
+    "species_top": {
+        "Libocedrus yateensis": 71
+    },
+    "um_occurrences_true": 62,
+    "um_occurrences_false": 9,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 5.8,
+            "200": 30.43,
+            "300": 46.38,
+            "400": 4.35,
+            "500": 2.9,
+            "600": 2.9,
+            "700": 4.35,
+            "800": 0.0,
+            "900": 1.45,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 1.45
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 1.41,
+            "2500": 56.34,
+            "3000": 32.39,
+            "3500": 8.45,
+            "4000": 1.41,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

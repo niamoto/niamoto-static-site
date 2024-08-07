@@ -1,0 +1,130 @@
+{
+    "id": 5759,
+    "full_name": "Sphenostemon thibaudii",
+    "authors": "J\u00e9r\u00e9mie",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4953
+    },
+    "lft": 2291,
+    "rght": 2292,
+    "level": 2,
+    "parent_id": 1403,
+    "taxon_id": 5759,
+    "total_occurrences_count": 16,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.77608333333333, -20.6125], \"count\": 2}, {\"coordinates\": [164.793962900013, -20.6094681269977], \"count\": 1}, {\"coordinates\": [164.7904228, -20.5660142], \"count\": 1}, {\"coordinates\": [164.78721618652344, -20.568889617919922], \"count\": 3}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.7872, -20.5689], \"count\": 1}, {\"coordinates\": [164.776083333333, -20.6125], \"count\": 4}, {\"coordinates\": [164.78722, -20.56889], \"count\": 3}]}",
+    "species_top": {
+        "Sphenostemon thibaudii": 16
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 16,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                33.33,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 8.9,
+    "dbh_max": 10.2,
+    "dbh_median": 8.9,
+    "dbh_min": 7.6,
+    "height_max": null,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 56.25,
+            "800": 0.0,
+            "900": 37.5,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 6.25
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 50.0,
+            "3500": 37.5,
+            "4000": 12.5,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        }
+    }
+}

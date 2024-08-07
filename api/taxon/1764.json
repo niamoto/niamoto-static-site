@@ -1,0 +1,135 @@
+{
+    "id": 1764,
+    "full_name": "Alstonia sphaerocapitata",
+    "authors": "Boiteau",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3303
+    },
+    "lft": 109,
+    "rght": 110,
+    "level": 2,
+    "parent_id": 294,
+    "taxon_id": 1764,
+    "total_occurrences_count": 111,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3995187, -20.941485], \"count\": 2}, {\"coordinates\": [165.23333, -20.96667], \"count\": 1}, {\"coordinates\": [165.2101017, -20.9745093], \"count\": 1}, {\"coordinates\": [165.2340502, -20.9600282], \"count\": 2}, {\"coordinates\": [165.3014175, -20.9110864], \"count\": 1}, {\"coordinates\": [165.5383784, -21.1538382], \"count\": 1}, {\"coordinates\": [165.2982555, -20.930613], \"count\": 1}, {\"coordinates\": [165.2302028, -20.8640833], \"count\": 1}, {\"coordinates\": [165.2137638, -20.8172347], \"count\": 1}, {\"coordinates\": [165.4961968, -21.1649297], \"count\": 1}, {\"coordinates\": [165.133563, -20.8148359], \"count\": 19}, {\"coordinates\": [165.1574764, -20.9801227], \"count\": 3}, {\"coordinates\": [165.358702, -20.9403107], \"count\": 1}, {\"coordinates\": [165.3308928, -20.9378508], \"count\": 2}, {\"coordinates\": [165.35556030273438, -20.943330764770508], \"count\": 1}, {\"coordinates\": [165.205260114058, -20.8879977911278], \"count\": 1}, {\"coordinates\": [165.230200004578, -20.8633333206177], \"count\": 1}, {\"coordinates\": [165.2481036, -20.9432879], \"count\": 1}, {\"coordinates\": [165.53500366210938, -21.156940460205078], \"count\": 1}, {\"coordinates\": [165.23333740234375, -20.9666690826416], \"count\": 1}, {\"coordinates\": [165.20693969726562, -20.977500915527344], \"count\": 1}, {\"coordinates\": [165.39639282226562, -20.944440841674805], \"count\": 1}, {\"coordinates\": [165.21055603027344, -20.820280075073242], \"count\": 2}, {\"coordinates\": [165.15747, -20.9801239999991], \"count\": 2}, {\"coordinates\": [165.2106, -20.8203], \"count\": 1}, {\"coordinates\": [165.2137638415985, -20.817234743551], \"count\": 2}, {\"coordinates\": [165.4962, -21.1649299999991], \"count\": 2}, {\"coordinates\": [165.295, -20.9336], \"count\": 3}, {\"coordinates\": [165.3964, -20.9444], \"count\": 2}, {\"coordinates\": [165.2308, -20.9631], \"count\": 3}, {\"coordinates\": [165.1542, -20.9831], \"count\": 2}, {\"coordinates\": [165.3556, -20.9433], \"count\": 3}, {\"coordinates\": [165.5383784162888, -21.1538382164933], \"count\": 1}, {\"coordinates\": [165.49306, -21.1680599999991], \"count\": 1}, {\"coordinates\": [165.535, -21.1569399999991], \"count\": 1}, {\"coordinates\": [165.157476355237, -20.9801227080405], \"count\": 2}, {\"coordinates\": [165.2101, -20.9745099999991], \"count\": 3}, {\"coordinates\": [165.24811, -20.9432889999991], \"count\": 8}, {\"coordinates\": [165.33089, -20.9378499999991], \"count\": 2}, {\"coordinates\": [165.54916, -21.1827799999992], \"count\": 2}, {\"coordinates\": [165.3278, -20.9408], \"count\": 2}, {\"coordinates\": [165.1574763552373, -20.9801227080405], \"count\": 9}, {\"coordinates\": [165.1664, -20.9730599999991], \"count\": 2}, {\"coordinates\": [165.4026190341184, -20.9424597883102], \"count\": 3}, {\"coordinates\": [165.2333, -20.9667], \"count\": 1}, {\"coordinates\": [165.23405, -20.9600279999991], \"count\": 1}, {\"coordinates\": [165.23334, -20.9666699999991], \"count\": 1}, {\"coordinates\": [165.535, -21.1569], \"count\": 1}, {\"coordinates\": [165.54916, -21.1827769999991], \"count\": 1}, {\"coordinates\": [165.2981, -20.9142], \"count\": 1}, {\"coordinates\": [165.2447, -20.9464], \"count\": 1}, {\"coordinates\": [165.2302, -20.8641], \"count\": 1}]}",
+    "species_top": {
+        "Alstonia sphaerocapitata": 111
+    },
+    "um_occurrences_true": 21,
+    "um_occurrences_false": 90,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                0,
+                100.0,
+                29.17,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                50.0,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                33.33
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 18.91,
+    "dbh_max": 45.0,
+    "dbh_median": 14.45,
+    "dbh_min": 10.2,
+    "height_max": 20.0,
+    "wood_density_mean": 0.76,
+    "wood_density_max": 0.81,
+    "wood_density_min": 0.67,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 69.23,
+            "20": 7.69,
+            "30": 11.54,
+            "40": 11.54,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 34.21,
+            "200": 57.89,
+            "300": 7.89,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 7.21,
+            "2000": 58.56,
+            "2500": 34.23,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 11.76,
+            "3": 88.24
+        }
+    }
+}

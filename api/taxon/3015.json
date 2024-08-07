@@ -1,0 +1,135 @@
+{
+    "id": 3015,
+    "full_name": "Diospyros brassica",
+    "authors": "F.White    ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3616
+    },
+    "lft": 933,
+    "rght": 934,
+    "level": 2,
+    "parent_id": 679,
+    "taxon_id": 3015,
+    "total_occurrences_count": 50,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.678, -20.5406667], \"count\": 1}, {\"coordinates\": [164.7803333, -20.6151639], \"count\": 1}, {\"coordinates\": [165.1911111, -20.8186111], \"count\": 1}, {\"coordinates\": [164.8000712, -20.5736731], \"count\": 1}, {\"coordinates\": [164.8569195, -20.6402999], \"count\": 1}, {\"coordinates\": [164.780212, -20.62504], \"count\": 1}, {\"coordinates\": [164.77955555555556, -20.625027777777778], \"count\": 1}, {\"coordinates\": [165.1911163330078, -20.81861114501953], \"count\": 1}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.80250549316406, -20.571109771728516], \"count\": 1}, {\"coordinates\": [164.87249755859375, -20.641109466552734], \"count\": 3}, {\"coordinates\": [165.191129732132, -20.8318177541097], \"count\": 1}, {\"coordinates\": [164.7904228, -20.5660142], \"count\": 1}, {\"coordinates\": [164.75672626666667, -20.61315018333333], \"count\": 1}, {\"coordinates\": [165.1911163330078, -20.8186092376709], \"count\": 1}, {\"coordinates\": [164.7704102, -20.6099923], \"count\": 1}, {\"coordinates\": [165.107107152039, -20.9438018833046], \"count\": 1}, {\"coordinates\": [164.678, -20.540683333333334], \"count\": 1}, {\"coordinates\": [164.78062900000003, -20.62514], \"count\": 1}, {\"coordinates\": [164.758358001709, -20.6189676920573], \"count\": 1}, {\"coordinates\": [164.7050095, -20.4855967], \"count\": 1}, {\"coordinates\": [164.76722717285156, -20.613059997558594], \"count\": 1}, {\"coordinates\": [164.79693603515625, -20.576669692993164], \"count\": 1}, {\"coordinates\": [165.1246733, -20.8648206], \"count\": 1}, {\"coordinates\": [164.78000004, -20.61916663], \"count\": 1}, {\"coordinates\": [164.69636205, -20.532782], \"count\": 1}, {\"coordinates\": [164.6827574, -20.53825462], \"count\": 1}, {\"coordinates\": [165.121388888889, -20.8677777777778], \"count\": 1}, {\"coordinates\": [164.76992184269386, -20.589358886969084], \"count\": 1}, {\"coordinates\": [164.7803, -20.6152], \"count\": 2}, {\"coordinates\": [164.787222222222, -20.5688888888889], \"count\": 1}, {\"coordinates\": [164.78, -20.6191666666667], \"count\": 1}, {\"coordinates\": [164.682777777778, -20.5383333333333], \"count\": 1}, {\"coordinates\": [164.8025, -20.57111], \"count\": 1}, {\"coordinates\": [164.7017, -20.4886], \"count\": 1}, {\"coordinates\": [164.696388888889, -20.5327777777778], \"count\": 1}, {\"coordinates\": [164.8725, -20.64111], \"count\": 1}, {\"coordinates\": [165.191111111111, -20.8186111111111], \"count\": 1}, {\"coordinates\": [164.796944444444, -20.5766666666667], \"count\": 1}, {\"coordinates\": [164.677999999788, -20.5406666665607], \"count\": 2}, {\"coordinates\": [164.779555555556, -20.6250277777778], \"count\": 1}, {\"coordinates\": [164.857222222222, -20.64], \"count\": 1}, {\"coordinates\": [165.106994628906, -20.9437999725342], \"count\": 1}, {\"coordinates\": [164.768611111111, -20.5891666666667], \"count\": 1}]}",
+    "species_top": {
+        "Diospyros brassica": 50
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 49,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                75.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                0,
+                100.0,
+                25.0,
+                0,
+                0,
+                0.0,
+                0,
+                66.67,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.5,
+    "dbh_max": 13.1,
+    "dbh_median": 11.5,
+    "dbh_min": 9.9,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 4.08,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 4.08,
+            "500": 24.49,
+            "600": 22.45,
+            "700": 20.41,
+            "800": 8.16,
+            "900": 8.16,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 8.16
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 4.08,
+            "2500": 34.69,
+            "3000": 30.61,
+            "3500": 28.57,
+            "4000": 2.04,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

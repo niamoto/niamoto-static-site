@@ -1,0 +1,135 @@
+{
+    "id": 13509,
+    "full_name": "Cryptocarya (aurea_Munzinger4792)",
+    "authors": null,
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 920
+    },
+    "lft": 1419,
+    "rght": 1420,
+    "level": 2,
+    "parent_id": 603,
+    "taxon_id": 13509,
+    "total_occurrences_count": 179,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.2854722222222, -21.17738888888889], \"count\": 13}, {\"coordinates\": [165.2698806, -21.177625], \"count\": 2}, {\"coordinates\": [165.2677778, -21.1763889], \"count\": 2}, {\"coordinates\": [165.3033762, -21.1779231], \"count\": 2}, {\"coordinates\": [164.8705555556, -20.6408333333], \"count\": 1}, {\"coordinates\": [164.780212, -20.62504], \"count\": 40}, {\"coordinates\": [166.2943611111, -21.77575], \"count\": 1}, {\"coordinates\": [165.28566666666666, -21.1775], \"count\": 21}, {\"coordinates\": [164.7813056, -20.6167733], \"count\": 1}, {\"coordinates\": [165.277313, -21.177801], \"count\": 2}, {\"coordinates\": [164.77955555555556, -20.625027777777778], \"count\": 4}, {\"coordinates\": [165.29163888888888, -21.183], \"count\": 4}, {\"coordinates\": [165.27694444444444, -21.178055555555556], \"count\": 4}, {\"coordinates\": [164.781, -20.625611111111112], \"count\": 1}, {\"coordinates\": [164.7808611111111, -20.623555555555555], \"count\": 1}, {\"coordinates\": [164.74419444444445, -20.59122222222222], \"count\": 2}, {\"coordinates\": [165.26925, -21.177138888888887], \"count\": 48}, {\"coordinates\": [164.7845, -20.624416666666665], \"count\": 1}, {\"coordinates\": [165.28205555555556, -21.177416666666666], \"count\": 2}, {\"coordinates\": [165.2677764892578, -21.176389694213867], \"count\": 3}, {\"coordinates\": [166.2469482421875, -21.66611099243164], \"count\": 1}, {\"coordinates\": [165.26666259765625, -21.183330535888672], \"count\": 3}, {\"coordinates\": [165.3062286376953, -21.171560287475586], \"count\": 1}, {\"coordinates\": [164.834250005086, -20.8658416748047], \"count\": 1}, {\"coordinates\": [166.246826171875, -21.666229248046875], \"count\": 1}, {\"coordinates\": [164.78131103515625, -20.62306785583496], \"count\": 1}, {\"coordinates\": [166.29443359375, -21.775829315185547], \"count\": 3}, {\"coordinates\": [164.78111267089844, -20.616670608520508], \"count\": 1}, {\"coordinates\": [166.24908447265625, -21.671499252319336], \"count\": 1}, {\"coordinates\": [164.8705596923828, -20.64082908630371], \"count\": 2}, {\"coordinates\": [166.29444885253906, -21.775833129882812], \"count\": 1}, {\"coordinates\": [164.7776111, -20.6245833], \"count\": 2}, {\"coordinates\": [164.77761840820312, -20.624582290649414], \"count\": 1}, {\"coordinates\": [165.30337524414062, -21.177919387817383], \"count\": 1}, {\"coordinates\": [165.221377357201, -20.8694236133335], \"count\": 1}, {\"coordinates\": [164.77749633789062, -20.624439239501953], \"count\": 1}, {\"coordinates\": [165.26666259765625, -21.183332443237305], \"count\": 1}, {\"coordinates\": [164.696407, -20.53459796], \"count\": 1}]}",
+    "species_top": {
+        "Cryptocarya (aurea_Munzinger4792)": 179
+    },
+    "um_occurrences_true": 10,
+    "um_occurrences_false": 169,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                29.41,
+                0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                66.67,
+                0,
+                29.41,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 13.43,
+    "dbh_max": 41.7,
+    "dbh_median": 10.1,
+    "dbh_min": 5.1,
+    "height_max": 20.0,
+    "wood_density_mean": 0.56,
+    "wood_density_max": 0.58,
+    "wood_density_min": 0.53,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 57.53,
+            "20": 30.14,
+            "30": 9.59,
+            "40": 2.74,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.56,
+            "300": 0.56,
+            "400": 0.0,
+            "500": 28.49,
+            "600": 3.91,
+            "700": 7.26,
+            "800": 6.15,
+            "900": 50.28,
+            "1000": 2.79,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 2.79,
+            "2500": 58.66,
+            "3000": 36.87,
+            "3500": 0.56,
+            "4000": 1.12,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 25.0,
+            "2": 3.12,
+            "3": 71.88
+        }
+    }
+}

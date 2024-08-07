@@ -1,0 +1,130 @@
+{
+    "id": 1492,
+    "full_name": "Trema",
+    "authors": "Lour.",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 2269
+    },
+    "lft": 530,
+    "rght": 533,
+    "level": 1,
+    "parent_id": 45,
+    "taxon_id": 1492,
+    "total_occurrences_count": 69,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.7883191, -21.5735391], \"count\": 1}, {\"coordinates\": [165.3033762, -21.1779231], \"count\": 1}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 1}, {\"coordinates\": [164.6980741, -21.039406], \"count\": 1}, {\"coordinates\": [166.6538321, -22.2251521], \"count\": 1}, {\"coordinates\": [164.994455780319, -21.3231466585056], \"count\": 1}, {\"coordinates\": [165.095903893779, -20.9326240295392], \"count\": 2}, {\"coordinates\": [165.094301663403, -20.9348994769685], \"count\": 1}, {\"coordinates\": [165.27166666666668, -21.184444444444445], \"count\": 2}, {\"coordinates\": [166.505762504886, -22.1764323837053], \"count\": 1}, {\"coordinates\": [167.4730564, -22.6069583], \"count\": 1}, {\"coordinates\": [167.171647, -20.7313395], \"count\": 1}, {\"coordinates\": [164.3976132, -20.6687632], \"count\": 1}, {\"coordinates\": [165.80833435058594, -21.600000381469727], \"count\": 1}, {\"coordinates\": [163.64711, -19.6942021], \"count\": 1}, {\"coordinates\": [164.174791887852, -20.2453234138271], \"count\": 1}, {\"coordinates\": [167.01699829101562, -22.266700744628906], \"count\": 1}, {\"coordinates\": [165.7833251953125, -21.583330154418945], \"count\": 1}, {\"coordinates\": [166.9746661, -22.1882755], \"count\": 1}, {\"coordinates\": [164.989826902976, -21.3310209683341], \"count\": 1}, {\"coordinates\": [164.141627, -20.201176], \"count\": 1}, {\"coordinates\": [165.8740833, -21.6207778], \"count\": 1}, {\"coordinates\": [167.467064, -22.6175478], \"count\": 1}, {\"coordinates\": [164.69142150878906, -20.931957244873047], \"count\": 1}, {\"coordinates\": [163.6602783203125, -19.721389770507812], \"count\": 1}, {\"coordinates\": [163.6605556, -19.7188889], \"count\": 1}, {\"coordinates\": [166.978981, -22.2666668], \"count\": 1}, {\"coordinates\": [166.58944702148438, -22.26527976989746], \"count\": 1}, {\"coordinates\": [164.146, -20.205], \"count\": 1}, {\"coordinates\": [165.204110797495, -21.2694239616394], \"count\": 1}, {\"coordinates\": [166.5728962, -22.2457274], \"count\": 1}, {\"coordinates\": [165.2324719, -20.8169075], \"count\": 1}, {\"coordinates\": [164.017058, -20.2352261], \"count\": 1}, {\"coordinates\": [167.25, -20.96666717529297], \"count\": 1}, {\"coordinates\": [166.3333282470703, -21.933332443237305], \"count\": 1}, {\"coordinates\": [166.68333435058594, -22.305280685424805], \"count\": 1}, {\"coordinates\": [165.21665954589844, -20.808332443237305], \"count\": 1}, {\"coordinates\": [166.4985907, -22.1819232], \"count\": 1}, {\"coordinates\": [163.64309731138, -19.708836803173], \"count\": 1}, {\"coordinates\": [165.116922160299, -21.2113940135192], \"count\": 1}, {\"coordinates\": [166.81805419921875, -22.324169158935547], \"count\": 2}, {\"coordinates\": [166.9067677, -22.1559741], \"count\": 1}, {\"coordinates\": [164.475240559048, -20.6528472264608], \"count\": 1}, {\"coordinates\": [165.218243455245, -20.7717175213903], \"count\": 1}, {\"coordinates\": [165.76233099, -21.56010099], \"count\": 1}]}",
+    "species_top": {
+        "Trema cannabina": 55
+    },
+    "um_occurrences_true": 21,
+    "um_occurrences_false": 48,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                60.0,
+                25.0,
+                33.33,
+                40.0,
+                25.0,
+                33.33,
+                66.67,
+                0.0,
+                100.0,
+                0.0,
+                62.5,
+                40.0
+            ],
+            "fruiting": [
+                0.0,
+                25.0,
+                66.67,
+                20.0,
+                75.0,
+                100.0,
+                33.33,
+                0.0,
+                0.0,
+                100.0,
+                0.0,
+                60.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.83,
+    "dbh_max": 12.0,
+    "dbh_median": 6.4,
+    "dbh_min": 5.1,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 23.08,
+            "200": 26.92,
+            "300": 3.85,
+            "400": 23.08,
+            "500": 7.69,
+            "600": 0.0,
+            "700": 15.38,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 27.27,
+            "1500": 22.73,
+            "2000": 31.82,
+            "2500": 18.18,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 15.38,
+            "2": 84.62
+        }
+    }
+}

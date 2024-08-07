@@ -1,0 +1,63 @@
+{
+    "id": 21,
+    "locality": "Grand Lac",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            166.90391944444445,
+            -22.274947222222224
+        ]
+    },
+    "plot_id": 21,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [166.90391944444445, -22.274947222222224]}",
+    "families_top": {
+        "Myrtaceae": 186,
+        "Sapotaceae": 168,
+        "Moraceae": 100,
+        "Arecaceae": 96,
+        "Bignoniaceae": 92,
+        "Sapindaceae": 91,
+        "Cunoniaceae": 82,
+        "Calophyllaceae": 52,
+        "Rubiaceae": 46,
+        "Lauraceae": 45
+    },
+    "species_top": {
+        "Sparattosyce dioica": 95,
+        "Deplanchea speciosa": 90,
+        "Pleurocalyptus pancheri": 84,
+        "Planchonella endlicheri": 75,
+        "Storthocalyx chryseus": 66,
+        "Cunonia balansae": 59,
+        "Cyphophoenix fulcita": 56,
+        "Calophyllum caledonicum": 52,
+        "Pycnandra acuminata": 39,
+        "Gastrolepis austrocaledonica": 34
+    },
+    "height_mean": 9.81,
+    "wood_density_mean": 0.7,
+    "basal_area": 64.3,
+    "shannon": 3.84,
+    "pielou": 0.84,
+    "simpson": 0.97,
+    "biomass": 416.561882315952,
+    "frequencies": {
+        "dbh": {
+            "10": 66.59,
+            "20": 19.27,
+            "30": 7.27,
+            "40": 3.55,
+            "50": 2.29,
+            "75": 0.47,
+            "100": 0.47,
+            "200": 0.08,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 15.22,
+            "2": 43.54,
+            "3": 41.24
+        }
+    }
+}

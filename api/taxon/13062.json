@@ -1,0 +1,130 @@
+{
+    "id": 13062,
+    "full_name": "Atractocarpus ngoyensis",
+    "authors": "(Schltr.) comb. ined.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5619
+    },
+    "lft": 2779,
+    "rght": 2780,
+    "level": 2,
+    "parent_id": 365,
+    "taxon_id": 13062,
+    "total_occurrences_count": 80,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5386111, -21.8838889], \"count\": 1}, {\"coordinates\": [166.7062436, -22.1752506], \"count\": 1}, {\"coordinates\": [165.1691616667, -21.2023408333], \"count\": 1}, {\"coordinates\": [164.741547, -20.734341], \"count\": 2}, {\"coordinates\": [166.6517, -21.974], \"count\": 2}, {\"coordinates\": [164.7037479, -20.5031306], \"count\": 1}, {\"coordinates\": [165.45233, -21.58347], \"count\": 2}, {\"coordinates\": [166.92011, -22.32465], \"count\": 4}, {\"coordinates\": [165.2915391, -21.0377205], \"count\": 2}, {\"coordinates\": [164.741986, -20.734467], \"count\": 2}, {\"coordinates\": [166.5938828, -22.1545261], \"count\": 2}, {\"coordinates\": [165.543, -21.3639], \"count\": 2}, {\"coordinates\": [166.396618, -21.9263858], \"count\": 1}, {\"coordinates\": [165.3488007, -21.4306073], \"count\": 3}, {\"coordinates\": [166.2422222, -21.6713889], \"count\": 2}, {\"coordinates\": [165.4052863, -21.0727273], \"count\": 2}, {\"coordinates\": [166.8165565, -22.2439032], \"count\": 2}, {\"coordinates\": [165.3302424, -21.4574821], \"count\": 2}, {\"coordinates\": [165.3158333, -20.9975], \"count\": 1}, {\"coordinates\": [166.9268733, -22.3260056], \"count\": 1}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 3}, {\"coordinates\": [166.9528526, -22.2698698], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 1}, {\"coordinates\": [166.9498327, -22.3414269], \"count\": 1}, {\"coordinates\": [165.1006833, -21.1334283], \"count\": 1}, {\"coordinates\": [165.1630556, -21.3616667], \"count\": 2}, {\"coordinates\": [166.792291, -22.1668713], \"count\": 1}, {\"coordinates\": [166.4431028, -22.1198625], \"count\": 1}, {\"coordinates\": [166.8166234, -22.262431], \"count\": 1}, {\"coordinates\": [166.4490915, -22.0944845], \"count\": 1}, {\"coordinates\": [166.3252413, -21.8834107], \"count\": 1}, {\"coordinates\": [165.1837606, -20.8526154], \"count\": 1}, {\"coordinates\": [166.9972287, -22.2614004], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 2}, {\"coordinates\": [165.1980556, -21.26], \"count\": 3}, {\"coordinates\": [165.5379132, -21.5883702], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 1}, {\"coordinates\": [165.1908333, -21.2516667], \"count\": 1}, {\"coordinates\": [166.31, -21.9488888889], \"count\": 1}, {\"coordinates\": [166.5871565, -22.2327595], \"count\": 1}, {\"coordinates\": [166.31001614500227, -21.948789911094842], \"count\": 1}, {\"coordinates\": [164.72655, -20.8550444], \"count\": 1}, {\"coordinates\": [165.324854, -21.0113603], \"count\": 1}, {\"coordinates\": [166.9038806, -22.2749306], \"count\": 1}, {\"coordinates\": [165.8511294, -21.6433032], \"count\": 1}, {\"coordinates\": [166.3091498, -21.9067199], \"count\": 2}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 1}, {\"coordinates\": [166.50812, -22.17511], \"count\": 1}, {\"coordinates\": [166.6495729, -22.1187974], \"count\": 1}, {\"coordinates\": [165.3830794, -21.4637616], \"count\": 1}, {\"coordinates\": [166.9067677, -22.1559741], \"count\": 1}, {\"coordinates\": [166.0773108, -21.5568654], \"count\": 1}, {\"coordinates\": [166.9002778, -22.2775], \"count\": 1}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 1}, {\"coordinates\": [165.27895, -21.36889], \"count\": 1}, {\"coordinates\": [166.60524166666667, -22.13049722222222], \"count\": 1}]}",
+    "species_top": {
+        "Atractocarpus ngoyensis": 80
+    },
+    "um_occurrences_true": 47,
+    "um_occurrences_false": 33,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                37.5,
+                0.0,
+                20.0,
+                75.0,
+                83.33,
+                81.82,
+                58.33
+            ],
+            "fruiting": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                75.0,
+                100.0,
+                80.0,
+                25.0,
+                8.33,
+                9.09,
+                41.67
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.0,
+    "dbh_max": 7.0,
+    "dbh_median": 7.0,
+    "dbh_min": 7.0,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 15.0,
+            "200": 23.33,
+            "300": 10.0,
+            "400": 18.33,
+            "500": 11.67,
+            "600": 10.0,
+            "700": 8.33,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 3.33,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 13.16,
+            "1500": 26.32,
+            "2000": 18.42,
+            "2500": 26.32,
+            "3000": 14.47,
+            "3500": 0.0,
+            "4000": 1.32,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 13.95,
+            "2": 86.05
+        }
+    }
+}

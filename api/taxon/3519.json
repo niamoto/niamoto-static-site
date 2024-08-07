@@ -1,0 +1,135 @@
+{
+    "id": 3519,
+    "full_name": "Gongrodiscus parvifolius",
+    "authors": "Radlk.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2589
+    },
+    "lft": 3187,
+    "rght": 3188,
+    "level": 2,
+    "parent_id": 817,
+    "taxon_id": 3519,
+    "total_occurrences_count": 98,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4746338, -22.0412948], \"count\": 4}, {\"coordinates\": [165.9933333, -21.7572222], \"count\": 2}, {\"coordinates\": [166.4489924, -22.0441492], \"count\": 2}, {\"coordinates\": [165.8697252721, -21.4936389495], \"count\": 3}, {\"coordinates\": [166.0, -21.75], \"count\": 16}, {\"coordinates\": [166.0, -21.75149917602539], \"count\": 1}, {\"coordinates\": [166.0010223388672, -21.752199172973633], \"count\": 1}, {\"coordinates\": [165.9997222, -21.7541667], \"count\": 1}, {\"coordinates\": [165.9999444, -21.7538056], \"count\": 1}, {\"coordinates\": [165.99667358398438, -21.75749969482422], \"count\": 1}, {\"coordinates\": [166.38319396972656, -21.899999618530273], \"count\": 1}, {\"coordinates\": [166.0, -21.583332061767578], \"count\": 5}, {\"coordinates\": [165.99972534179688, -21.754169464111328], \"count\": 1}, {\"coordinates\": [166.46665954589844, -22.0], \"count\": 5}, {\"coordinates\": [166.46783447265625, -22.046499252319336], \"count\": 1}, {\"coordinates\": [165.99722290039062, -21.76055908203125], \"count\": 2}, {\"coordinates\": [165.75389099121094, -21.444440841674805], \"count\": 1}, {\"coordinates\": [166.4249267578125, -21.884859085083008], \"count\": 1}, {\"coordinates\": [166.8070831298828, -22.062040328979492], \"count\": 3}, {\"coordinates\": [166.0004251, -21.7574591], \"count\": 1}, {\"coordinates\": [166.47166442871094, -22.004169464111328], \"count\": 3}, {\"coordinates\": [166.4749046, -22.0011963], \"count\": 1}, {\"coordinates\": [166.46665954589844, -22.049999237060547], \"count\": 2}, {\"coordinates\": [164.9202777778, -20.935], \"count\": 1}, {\"coordinates\": [165.99717712402344, -21.730440139770508], \"count\": 1}, {\"coordinates\": [165.5456979997865, -21.417147000000696], \"count\": 1}, {\"coordinates\": [166.44583129882812, -22.04722023010254], \"count\": 1}, {\"coordinates\": [166.53334045410156, -22.166669845581055], \"count\": 1}, {\"coordinates\": [166.0000469, -21.7545723], \"count\": 5}, {\"coordinates\": [166.51666259765625, -22.183330535888672], \"count\": 2}, {\"coordinates\": [165.7738486211746, -21.439528065443977], \"count\": 1}, {\"coordinates\": [166.45265197753906, -22.051830291748047], \"count\": 1}, {\"coordinates\": [166.44639587402344, -22.07193946838379], \"count\": 1}, {\"coordinates\": [166.48733520507812, -22.180360794067383], \"count\": 1}, {\"coordinates\": [166.27972412109375, -21.915830612182617], \"count\": 1}, {\"coordinates\": [166.295231408833, -21.6583448339722], \"count\": 1}, {\"coordinates\": [165.5411376953125, -21.426809310913086], \"count\": 1}, {\"coordinates\": [165.99991669, -21.75425004], \"count\": 1}, {\"coordinates\": [166.0004, -21.7575], \"count\": 2}, {\"coordinates\": [166.00008191387215, -21.75668125288503], \"count\": 1}, {\"coordinates\": [166.52467436665125, -22.16815410740441], \"count\": 1}, {\"coordinates\": [166.44899376204853, -22.04421522987435], \"count\": 1}, {\"coordinates\": [166.453, -22.052], \"count\": 1}, {\"coordinates\": [166.5242895513299, -22.167266116931465], \"count\": 1}, {\"coordinates\": [166.45291791005636, -22.051903642320635], \"count\": 1}, {\"coordinates\": [166.52410458216423, -22.16747815126298], \"count\": 1}, {\"coordinates\": [166.35931298, -22.05976203], \"count\": 1}, {\"coordinates\": [166.425, -21.885], \"count\": 1}, {\"coordinates\": [166.44504771709035, -22.073830599723447], \"count\": 1}, {\"coordinates\": [166.0, -21.7546], \"count\": 1}, {\"coordinates\": [166.287, -21.931], \"count\": 1}, {\"coordinates\": [166.4749, -22.0012], \"count\": 1}, {\"coordinates\": [166.15296098, -21.73768498], \"count\": 1}]}",
+    "species_top": {
+        "Gongrodiscus parvifolius": 98
+    },
+    "um_occurrences_true": 84,
+    "um_occurrences_false": 14,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                25.0,
+                0.0,
+                0.0,
+                0.0,
+                50.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 12.7,
+    "dbh_max": 16.6,
+    "dbh_median": 12.1,
+    "dbh_min": 10.0,
+    "height_max": 6.0,
+    "wood_density_mean": 0.74,
+    "wood_density_max": 0.75,
+    "wood_density_min": 0.73,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 1.05,
+            "200": 1.05,
+            "300": 3.16,
+            "400": 7.37,
+            "500": 5.26,
+            "600": 3.16,
+            "700": 11.58,
+            "800": 20.0,
+            "900": 40.0,
+            "1000": 5.26,
+            "1100": 0.0,
+            "1200": 2.11
+        },
+        "rainfall": {
+            "1000": 3.16,
+            "1500": 9.47,
+            "2000": 55.79,
+            "2500": 15.79,
+            "3000": 15.79,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 33.33,
+            "3": 66.67
+        }
+    }
+}

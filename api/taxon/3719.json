@@ -1,0 +1,130 @@
+{
+    "id": 3719,
+    "full_name": "Homalium leratiorum",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3885
+    },
+    "lft": 3051,
+    "rght": 3052,
+    "level": 2,
+    "parent_id": 870,
+    "taxon_id": 3719,
+    "total_occurrences_count": 29,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.9051943, -22.1524996], \"count\": 3}, {\"coordinates\": [166.4574077, -22.2824024], \"count\": 1}, {\"coordinates\": [166.684969, -22.1028821], \"count\": 1}, {\"coordinates\": [164.93611, -21.13528], \"count\": 3}, {\"coordinates\": [166.90194702148438, -22.155559539794922], \"count\": 3}, {\"coordinates\": [166.44444274902344, -22.272499084472656], \"count\": 3}, {\"coordinates\": [166.52027893066406, -22.1683292388916], \"count\": 1}, {\"coordinates\": [166.68167114257812, -22.1058292388916], \"count\": 2}, {\"coordinates\": [166.45416259765625, -22.28546905517578], \"count\": 3}, {\"coordinates\": [165.4841766357422, -21.56722068786621], \"count\": 3}, {\"coordinates\": [166.4166717529297, -21.833332061767578], \"count\": 1}, {\"coordinates\": [166.2965192, -21.9404243], \"count\": 1}, {\"coordinates\": [164.70944213867188, -21.014720916748047], \"count\": 1}, {\"coordinates\": [166.993896484375, -22.264440536499023], \"count\": 1}, {\"coordinates\": [166.2079843, -21.67677461], \"count\": 1}]}",
+    "species_top": {
+        "Homalium leratiorum": 29
+    },
+    "um_occurrences_true": 14,
+    "um_occurrences_false": 15,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.0,
+    "dbh_max": 15.0,
+    "dbh_median": 15.0,
+    "dbh_min": 15.0,
+    "height_max": 25.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 15.38,
+            "200": 46.15,
+            "300": 23.08,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 15.38,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 43.48,
+            "1500": 0.0,
+            "2000": 8.7,
+            "2500": 30.43,
+            "3000": 17.39,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 93.75,
+            "2": 6.25
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 5623,
+    "full_name": "Serianthes petitiana",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 388
+    },
+    "lft": 1267,
+    "rght": 1268,
+    "level": 2,
+    "parent_id": 1371,
+    "taxon_id": 5623,
+    "total_occurrences_count": 71,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.6345546, -22.2218776], \"count\": 1}, {\"coordinates\": [166.73333, -22.01667], \"count\": 1}, {\"coordinates\": [166.9051943, -22.1524996], \"count\": 2}, {\"coordinates\": [166.6819, -21.9928], \"count\": 1}, {\"coordinates\": [166.9366738, -22.3499925], \"count\": 1}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 1}, {\"coordinates\": [166.9067677, -22.1559741], \"count\": 1}, {\"coordinates\": [166.74917602539062, -22.16351890563965], \"count\": 1}, {\"coordinates\": [166.8080596923828, -22.20861053466797], \"count\": 1}, {\"coordinates\": [166.4774932861328, -22.149169921875], \"count\": 2}, {\"coordinates\": [166.66555786132812, -21.984439849853516], \"count\": 1}, {\"coordinates\": [166.72305297851562, -22.032779693603516], \"count\": 1}, {\"coordinates\": [166.7264118, -22.0295756], \"count\": 2}, {\"coordinates\": [166.93333435058594, -22.353059768676758], \"count\": 2}, {\"coordinates\": [166.5979871, -21.9233215], \"count\": 1}, {\"coordinates\": [166.8864183, -22.1537698], \"count\": 1}, {\"coordinates\": [166.684969, -22.1028821], \"count\": 1}, {\"coordinates\": [166.89999389648438, -22.149999618530273], \"count\": 1}, {\"coordinates\": [166.81805419921875, -22.324169158935547], \"count\": 1}, {\"coordinates\": [166.883056640625, -22.156940460205078], \"count\": 1}, {\"coordinates\": [166.936673795896, -22.3499924692368], \"count\": 2}, {\"coordinates\": [166.873375903301, -22.2863264792776], \"count\": 2}, {\"coordinates\": [166.634554608653, -22.221877585305], \"count\": 2}, {\"coordinates\": [166.484139506561, -22.1312687745357], \"count\": 2}, {\"coordinates\": [166.598, -21.9232999999991], \"count\": 2}, {\"coordinates\": [166.684968952323, -22.1028821155801], \"count\": 6}, {\"coordinates\": [166.669, -21.9813999999991], \"count\": 1}, {\"coordinates\": [166.730462533576, -22.0258647739783], \"count\": 3}, {\"coordinates\": [166.711, -22.2431999999991], \"count\": 2}, {\"coordinates\": [166.825919612308, -22.1574222194752], \"count\": 2}, {\"coordinates\": [166.782124180572, -22.1356320209194], \"count\": 2}, {\"coordinates\": [166.87712499678, -22.2868849207935], \"count\": 2}, {\"coordinates\": [166.76776718631, -22.1759015437453], \"count\": 1}, {\"coordinates\": [166.875177292417, -22.2889631509107], \"count\": 2}, {\"coordinates\": [166.8973302, -22.28976398], \"count\": 1}, {\"coordinates\": [166.795065857294, -22.1248779128731], \"count\": 2}, {\"coordinates\": [166.831100463867, -22.3178005218497], \"count\": 1}, {\"coordinates\": [166.90614, -22.29973], \"count\": 2}, {\"coordinates\": [166.905194272212, -22.1524996320001], \"count\": 5}, {\"coordinates\": [166.835562574365, -22.1601199892336], \"count\": 2}, {\"coordinates\": [166.883792602569, -22.1529478483039], \"count\": 1}]}",
+    "species_top": {
+        "Serianthes petitiana": 71
+    },
+    "um_occurrences_true": 64,
+    "um_occurrences_false": 7,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.0,
+    "dbh_max": 10.0,
+    "dbh_median": 10.0,
+    "dbh_min": 10.0,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 48.78,
+            "200": 48.78,
+            "300": 2.44,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 2.9,
+            "1500": 5.8,
+            "2000": 23.19,
+            "2500": 43.48,
+            "3000": 24.64,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

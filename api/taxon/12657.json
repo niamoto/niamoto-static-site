@@ -1,0 +1,130 @@
+{
+    "id": 12657,
+    "full_name": "Pandanus bilinearis",
+    "authors": "H.St.John",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 8058
+    },
+    "lft": 2247,
+    "rght": 2248,
+    "level": 2,
+    "parent_id": 1162,
+    "taxon_id": 12657,
+    "total_occurrences_count": 61,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.215, -20.4594444], \"count\": 2}, {\"coordinates\": [164.208631, -20.4568555], \"count\": 8}, {\"coordinates\": [164.19024297, -20.46189168], \"count\": 1}, {\"coordinates\": [164.21235601, -20.46770472], \"count\": 1}, {\"coordinates\": [165.31519444444444, -21.16627777777778], \"count\": 1}, {\"coordinates\": [163.6636111, -19.7005556], \"count\": 2}, {\"coordinates\": [164.22407607626374, -20.466597121206096], \"count\": 1}, {\"coordinates\": [164.20193481445312, -20.46027946472168], \"count\": 6}, {\"coordinates\": [164.2053603, -20.4573274], \"count\": 3}, {\"coordinates\": [163.6675363, -19.69041], \"count\": 3}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 1}, {\"coordinates\": [166.0928116, -21.5733615], \"count\": 2}, {\"coordinates\": [163.6561232, -19.6938147], \"count\": 2}, {\"coordinates\": [164.21499633789062, -20.459440231323242], \"count\": 3}, {\"coordinates\": [163.66416931152344, -19.693330764770508], \"count\": 1}, {\"coordinates\": [164.20124200000058, -20.440393000616318], \"count\": 1}, {\"coordinates\": [164.77833557128906, -21.024721145629883], \"count\": 1}, {\"coordinates\": [164.1921490240618, -20.446050214852097], \"count\": 1}, {\"coordinates\": [164.19570071344185, -20.461032590937567], \"count\": 1}, {\"coordinates\": [164.22413171766766, -20.469116961467662], \"count\": 1}, {\"coordinates\": [164.19408637427, -20.44561985583601], \"count\": 1}, {\"coordinates\": [164.19367065059564, -20.45081507330809], \"count\": 1}, {\"coordinates\": [164.20211300000054, -20.460245000616773], \"count\": 1}, {\"coordinates\": [164.793962900013, -20.6094681269977], \"count\": 1}, {\"coordinates\": [164.2053, -20.46], \"count\": 3}, {\"coordinates\": [163.6528, -19.6967], \"count\": 1}, {\"coordinates\": [164.2019, -20.4603], \"count\": 2}, {\"coordinates\": [163.6642, -19.6933], \"count\": 2}, {\"coordinates\": [164.215, -20.4594], \"count\": 1}, {\"coordinates\": [164.200061666667, -20.4434444448683], \"count\": 1}, {\"coordinates\": [164.215, -20.45944], \"count\": 1}, {\"coordinates\": [164.214984378743, -20.4591860064258], \"count\": 1}, {\"coordinates\": [164.21466498940842, -20.459402684594256], \"count\": 1}, {\"coordinates\": [164.20194, -20.46028], \"count\": 1}, {\"coordinates\": [164.201666666667, -20.4434166664547], \"count\": 1}]}",
+    "species_top": {
+        "Pandanus bilinearis": 61
+    },
+    "um_occurrences_true": 58,
+    "um_occurrences_false": 3,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                66.67,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                100.0,
+                66.67
+            ],
+            "fruiting": [
+                66.67,
+                100.0,
+                0.0,
+                33.33,
+                0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                0.0,
+                0.0,
+                33.33
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.67,
+    "dbh_max": 12.0,
+    "dbh_median": 12.0,
+    "dbh_min": 8.0,
+    "height_max": 4.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 18.33,
+            "300": 5.0,
+            "400": 23.33,
+            "500": 50.0,
+            "600": 1.67,
+            "700": 1.67,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 6.56,
+            "1500": 90.16,
+            "2000": 0.0,
+            "2500": 1.64,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 1.64,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "id": 2,
+    "locality": "Ateou",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            164.92032939444445,
+            -20.95063654722222
+        ]
+    },
+    "plot_id": 2,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [164.92032939444445, -20.95063654722222]}",
+    "families_top": {
+        "Sapotaceae": 713,
+        "Malvaceae": 583,
+        "Arecaceae": 477,
+        "Monimiaceae": 426,
+        "Pittosporaceae": 408,
+        "Cunoniaceae": 394,
+        "Podocarpaceae": 206,
+        "Phellinaceae": 186,
+        "Meliaceae": 168,
+        "Pandanaceae": 157
+    },
+    "species_top": {
+        "Burretiokentia vieillardii": 476,
+        "Hedycarya cupulata": 275,
+        "Apodytes clusiifolia": 156,
+        "Maxwellia lepidota": 152,
+        "Pancheria gatopensis": 135,
+        "Dacrydium araucarioides": 132,
+        "Pittosporum gracile": 123,
+        "Pycnandra petiolata": 109,
+        "Pancheria ternata": 93,
+        "Pycnandra comptonii": 90
+    },
+    "height_mean": 9.03,
+    "wood_density_mean": 0.59,
+    "basal_area": 74.8,
+    "shannon": 2.89,
+    "pielou": 0.65,
+    "simpson": 0.82,
+    "biomass": 634.122450609119,
+    "frequencies": {
+        "dbh": {
+            "10": 71.91,
+            "20": 11.27,
+            "30": 5.14,
+            "40": 4.06,
+            "50": 5.8,
+            "75": 0.91,
+            "100": 0.83,
+            "200": 0.08,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 57.41,
+            "2": 24.68,
+            "3": 17.9
+        }
+    }
+}

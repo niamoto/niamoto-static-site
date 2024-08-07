@@ -1,0 +1,130 @@
+{
+    "id": 5406,
+    "full_name": "Rhizophora stylosa",
+    "authors": "Griff.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4508
+    },
+    "lft": 2733,
+    "rght": 2734,
+    "level": 2,
+    "parent_id": 1299,
+    "taxon_id": 5406,
+    "total_occurrences_count": 80,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [163.7974848, -20.0546569], \"count\": 1}, {\"coordinates\": [164.9568208, -21.3531575], \"count\": 1}, {\"coordinates\": [164.3073118, -20.2438681], \"count\": 1}, {\"coordinates\": [164.6780556, -20.9391667], \"count\": 2}, {\"coordinates\": [165.8102778, -21.8525], \"count\": 3}, {\"coordinates\": [166.487002, -22.2380552], \"count\": 1}, {\"coordinates\": [164.865649, -21.2090632], \"count\": 1}, {\"coordinates\": [164.0262157, -20.2326689], \"count\": 1}, {\"coordinates\": [164.2064924, -20.5088171], \"count\": 2}, {\"coordinates\": [166.5519473, -22.2277743], \"count\": 1}, {\"coordinates\": [164.9375457763672, -21.338973999023438], \"count\": 1}, {\"coordinates\": [166.48333740234375, -22.25], \"count\": 2}, {\"coordinates\": [166.450345, -22.1517139], \"count\": 1}, {\"coordinates\": [166.4476949, -22.2693066], \"count\": 1}, {\"coordinates\": [165.3308928, -20.9378508], \"count\": 3}, {\"coordinates\": [165.011874420751, -21.3110847079192], \"count\": 1}, {\"coordinates\": [166.8383333, -22.3058333], \"count\": 2}, {\"coordinates\": [163.673025, -19.7704835], \"count\": 1}, {\"coordinates\": [163.5927671, -19.5712029], \"count\": 1}, {\"coordinates\": [166.6848995, -22.3119416], \"count\": 1}, {\"coordinates\": [164.30442810058594, -20.242080688476562], \"count\": 1}, {\"coordinates\": [165.218243455245, -20.7717175213903], \"count\": 1}, {\"coordinates\": [164.945192985256, -20.6921961170535], \"count\": 1}, {\"coordinates\": [166.5693906, -20.5629694], \"count\": 1}, {\"coordinates\": [164.02305603027344, -20.235559463500977], \"count\": 1}, {\"coordinates\": [167.4730564, -22.6069583], \"count\": 1}, {\"coordinates\": [164.838428532723, -21.0586280474475], \"count\": 1}, {\"coordinates\": [164.2934903, -20.2432173], \"count\": 1}, {\"coordinates\": [164.9375457763672, -21.338680267333984], \"count\": 1}, {\"coordinates\": [165.7037442, -21.7404652], \"count\": 1}, {\"coordinates\": [165.55962437672318, -21.195246491915487], \"count\": 1}, {\"coordinates\": [166.792291, -22.1668713], \"count\": 1}, {\"coordinates\": [165.4041687, -21.0060054], \"count\": 2}, {\"coordinates\": [165.006973771361, -21.3185387047658], \"count\": 1}, {\"coordinates\": [165.696533203125, -21.75824546813965], \"count\": 1}, {\"coordinates\": [164.93765258789062, -21.338571548461914], \"count\": 1}, {\"coordinates\": [165.006984205164, -21.3147334245728], \"count\": 1}, {\"coordinates\": [163.8096016, -20.053043], \"count\": 1}, {\"coordinates\": [163.8092293, -20.0599915], \"count\": 1}]}",
+    "species_top": {
+        "Rhizophora stylosa": 80
+    },
+    "um_occurrences_true": 17,
+    "um_occurrences_false": 63,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                53.85,
+                0.0,
+                60.0,
+                0,
+                66.67,
+                0.0,
+                75.0,
+                68.75,
+                77.78,
+                100.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                46.15,
+                0.0,
+                40.0,
+                0,
+                33.33,
+                0.0,
+                50.0,
+                75.0,
+                44.44,
+                62.5,
+                100.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.0,
+    "dbh_max": 15.0,
+    "dbh_median": 15.0,
+    "dbh_min": 15.0,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 100.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 63.16,
+            "1500": 10.53,
+            "2000": 26.32,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 52.17,
+            "2": 47.83
+        }
+    }
+}

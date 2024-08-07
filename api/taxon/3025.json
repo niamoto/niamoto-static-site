@@ -1,0 +1,130 @@
+{
+    "id": 3025,
+    "full_name": "Diospyros impolita",
+    "authors": "F.White",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1940
+    },
+    "lft": 947,
+    "rght": 948,
+    "level": 2,
+    "parent_id": 679,
+    "taxon_id": 3025,
+    "total_occurrences_count": 58,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.6766547, -21.6909039], \"count\": 3}, {\"coordinates\": [165.4875206, -21.5642571], \"count\": 2}, {\"coordinates\": [165.5233913, -21.6237146], \"count\": 1}, {\"coordinates\": [165.3139583, -21.5633611], \"count\": 1}, {\"coordinates\": [165.391598, -21.6116346], \"count\": 3}, {\"coordinates\": [166.5361328125, -22.198720932006836], \"count\": 2}, {\"coordinates\": [165.2833251953125, -21.532499313354492], \"count\": 1}, {\"coordinates\": [165.2711111, -21.5452778], \"count\": 1}, {\"coordinates\": [165.3138885498047, -21.563329696655273], \"count\": 1}, {\"coordinates\": [166.1238158, -22.0336556], \"count\": 1}, {\"coordinates\": [165.4380583, -21.604604], \"count\": 2}, {\"coordinates\": [165.52000427246094, -21.626670837402344], \"count\": 1}, {\"coordinates\": [165.2865365, -21.5294714], \"count\": 1}, {\"coordinates\": [165.313958333333, -21.5633611106873], \"count\": 1}, {\"coordinates\": [165.283333333333, -21.5325], \"count\": 1}, {\"coordinates\": [165.673333333333, -21.6938888888889], \"count\": 2}, {\"coordinates\": [165.397592561081, -21.5633528751949], \"count\": 1}, {\"coordinates\": [165.28333, -21.5325], \"count\": 1}, {\"coordinates\": [165.2638458478205, -21.54733375714333], \"count\": 1}, {\"coordinates\": [165.38334282680734, -21.60426592283509], \"count\": 3}, {\"coordinates\": [165.271111111111, -21.5452777777778], \"count\": 1}, {\"coordinates\": [165.5634394365133, -21.704462355307424], \"count\": 1}, {\"coordinates\": [165.4344895050941, -21.607752864022018], \"count\": 2}, {\"coordinates\": [165.52, -21.6266666666667], \"count\": 1}, {\"coordinates\": [165.314361, -21.5625339997], \"count\": 1}, {\"coordinates\": [166.117116666668, -22.0333416666665], \"count\": 1}, {\"coordinates\": [165.4683436212694, -21.611880429841424], \"count\": 2}, {\"coordinates\": [165.38333949347432, -21.60426370061289], \"count\": 1}, {\"coordinates\": [165.37033558924827, -21.600254622558744], \"count\": 1}, {\"coordinates\": [165.45607040246085, -21.605549839840478], \"count\": 1}]}",
+    "species_top": {
+        "Diospyros impolita": 58
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 58,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                0.0,
+                66.67,
+                0,
+                33.33,
+                0.0,
+                0,
+                0,
+                0.0,
+                33.33,
+                50.0
+            ],
+            "fruiting": [
+                0,
+                50.0,
+                100.0,
+                66.67,
+                0,
+                33.33,
+                100.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                50.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.0,
+    "dbh_max": 15.0,
+    "dbh_median": 15.0,
+    "dbh_min": 15.0,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 100.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 87.5,
+            "1500": 12.5,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 85.71,
+            "2": 14.29
+        }
+    }
+}

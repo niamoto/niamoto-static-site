@@ -1,0 +1,130 @@
+{
+    "id": 954,
+    "full_name": "Leptopteris",
+    "authors": "C.Presl",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 2798
+    },
+    "lft": 2228,
+    "rght": 2231,
+    "level": 1,
+    "parent_id": 157,
+    "taxon_id": 954,
+    "total_occurrences_count": 68,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.8135063, -21.6085584], \"count\": 1}, {\"coordinates\": [166.40341666666666, -21.882194444444444], \"count\": 3}, {\"coordinates\": [166.40308333333334, -21.88275], \"count\": 1}, {\"coordinates\": [164.7, -20.5], \"count\": 1}, {\"coordinates\": [165.8833333333, -21.6088333333], \"count\": 1}, {\"coordinates\": [164.7742238, -20.5856472], \"count\": 1}, {\"coordinates\": [165.2497222, -21.0058333], \"count\": 1}, {\"coordinates\": [166.161372, -21.7534519], \"count\": 3}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 2}, {\"coordinates\": [165.3595, -21.4341666667], \"count\": 2}, {\"coordinates\": [166.2949444444, -21.7774166667], \"count\": 1}, {\"coordinates\": [166.3492461, -22.0604159], \"count\": 5}, {\"coordinates\": [165.478590838114, -21.2358793258667], \"count\": 1}, {\"coordinates\": [166.474891975444, -22.0422275551111], \"count\": 1}, {\"coordinates\": [165.10095083775, -20.9245379799554], \"count\": 3}, {\"coordinates\": [166.407810648118, -21.8524914378763], \"count\": 1}, {\"coordinates\": [165.1137222, -20.8713889], \"count\": 2}, {\"coordinates\": [164.7772261, -20.5827348], \"count\": 1}, {\"coordinates\": [166.55629, -22.08811], \"count\": 1}, {\"coordinates\": [164.7444444, -20.6227778], \"count\": 1}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 1}, {\"coordinates\": [164.5213457, -20.4031031], \"count\": 1}, {\"coordinates\": [165.9566389, -21.5970833], \"count\": 1}, {\"coordinates\": [165.3331924, -21.3667376], \"count\": 2}, {\"coordinates\": [166.5383333, -21.9611111], \"count\": 1}, {\"coordinates\": [166.0566426, -21.6339039], \"count\": 1}, {\"coordinates\": [165.0097222, -20.8966667], \"count\": 1}, {\"coordinates\": [165.056710000833, -20.8521588643392], \"count\": 1}, {\"coordinates\": [165.3151945, -21.16627777], \"count\": 1}, {\"coordinates\": [166.52251903, -22.181908], \"count\": 1}, {\"coordinates\": [166.65540101, -22.01863899], \"count\": 1}, {\"coordinates\": [166.23898885, -21.68170686], \"count\": 1}, {\"coordinates\": [165.95663005, -21.597096], \"count\": 1}, {\"coordinates\": [165.47702778, -21.2368611], \"count\": 1}, {\"coordinates\": [164.69557097, -20.53103404], \"count\": 1}, {\"coordinates\": [166.40280199, -21.88168298], \"count\": 1}, {\"coordinates\": [164.68060402, -20.53903599], \"count\": 1}, {\"coordinates\": [166.51290896, -21.96684296], \"count\": 1}, {\"coordinates\": [166.25233329, -21.66844445], \"count\": 1}, {\"coordinates\": [164.73774297, -20.59123597], \"count\": 1}, {\"coordinates\": [165.3275158, -21.16230232], \"count\": 1}, {\"coordinates\": [165.7727, -21.60794724], \"count\": 1}, {\"coordinates\": [165.2854723, -21.1773889], \"count\": 1}, {\"coordinates\": [165.77777196, -21.608483], \"count\": 1}, {\"coordinates\": [166.52465996, -22.18012997], \"count\": 1}, {\"coordinates\": [166.42424299, -21.87864101], \"count\": 1}]}",
+    "species_top": {
+        "Leptopteris wilkesiana": 68
+    },
+    "um_occurrences_true": 32,
+    "um_occurrences_false": 36,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                0,
+                66.67,
+                0.0,
+                100.0,
+                42.86,
+                100.0,
+                100.0,
+                44.44,
+                72.73,
+                80.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.12,
+    "dbh_max": 8.1,
+    "dbh_median": 5.65,
+    "dbh_min": 5.1,
+    "height_max": 3.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 6.67,
+            "300": 1.67,
+            "400": 6.67,
+            "500": 8.33,
+            "600": 11.67,
+            "700": 5.0,
+            "800": 10.0,
+            "900": 6.67,
+            "1000": 10.0,
+            "1100": 11.67,
+            "1200": 21.67
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 20.0,
+            "2000": 21.67,
+            "2500": 23.33,
+            "3000": 15.0,
+            "3500": 13.33,
+            "4000": 6.67,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

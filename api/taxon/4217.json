@@ -1,0 +1,130 @@
+{
+    "id": 4217,
+    "full_name": "Melaleuca sphaerodendra var. microphylla",
+    "authors": "(Virot) Craven & J.W.Dawson",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 4238
+    },
+    "lft": 1922,
+    "rght": 1923,
+    "level": 3,
+    "parent_id": 4216,
+    "taxon_id": 4217,
+    "total_occurrences_count": 18,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.5825781, -20.7921802], \"count\": 1}, {\"coordinates\": [164.5609349, -20.7702868], \"count\": 1}, {\"coordinates\": [165.0897938, -21.1804082], \"count\": 2}, {\"coordinates\": [165.1546947, -21.2812816], \"count\": 1}, {\"coordinates\": [164.4828415, -20.7415691], \"count\": 1}, {\"coordinates\": [164.0430416667, -20.2683861111], \"count\": 1}, {\"coordinates\": [165.1178515, -21.2417249], \"count\": 1}, {\"coordinates\": [164.4931433, -20.7437111], \"count\": 1}, {\"coordinates\": [164.3898782, -20.6244059], \"count\": 1}, {\"coordinates\": [165.1567319444, -21.2143727778], \"count\": 1}, {\"coordinates\": [164.590761, -20.7788888], \"count\": 1}, {\"coordinates\": [165.1252977, -21.2365967], \"count\": 2}, {\"coordinates\": [164.5701046, -20.7768785], \"count\": 1}, {\"coordinates\": [164.5424329, -20.7299854], \"count\": 1}, {\"coordinates\": [165.156732, -21.214373], \"count\": 1}, {\"coordinates\": [164.135264, -20.391005], \"count\": 1}]}",
+    "species_top": {
+        "Melaleuca sphaerodendra var. microphylla": 18
+    },
+    "um_occurrences_true": 18,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0.0,
+                50.0,
+                66.67,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                0.0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                100.0,
+                50.0,
+                33.33,
+                0.0,
+                50.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.0,
+    "dbh_max": 15.0,
+    "dbh_median": 15.0,
+    "dbh_min": 15.0,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 5.88,
+            "400": 5.88,
+            "500": 5.88,
+            "600": 11.76,
+            "700": 35.29,
+            "800": 5.88,
+            "900": 29.41,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 16.67,
+            "1500": 61.11,
+            "2000": 22.22,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 12.5,
+            "2": 87.5
+        }
+    }
+}

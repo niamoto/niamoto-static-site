@@ -1,0 +1,130 @@
+{
+    "id": 6264,
+    "full_name": "Xylosma confusum",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 876
+    },
+    "lft": 3077,
+    "rght": 3078,
+    "level": 2,
+    "parent_id": 1558,
+    "taxon_id": 6264,
+    "total_occurrences_count": 113,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5118631, -22.1769299], \"count\": 1}, {\"coordinates\": [166.6284917, -22.1868724], \"count\": 1}, {\"coordinates\": [166.9403333333, -22.3751055556], \"count\": 2}, {\"coordinates\": [166.151192, -21.73614], \"count\": 1}, {\"coordinates\": [166.151224, -21.736502], \"count\": 1}, {\"coordinates\": [166.6863504, -22.1729426], \"count\": 1}, {\"coordinates\": [166.6958044, -22.1642337], \"count\": 1}, {\"coordinates\": [166.6050453, -22.1508795], \"count\": 2}, {\"coordinates\": [166.1798018, -21.9660182], \"count\": 2}, {\"coordinates\": [166.3230758, -22.0711387], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 4}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.62572499, -22.19208599], \"count\": 2}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 1}, {\"coordinates\": [166.82579366, -22.2512891], \"count\": 2}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 1}, {\"coordinates\": [166.6247222, -22.19758336], \"count\": 1}, {\"coordinates\": [166.5924721, -22.15348894], \"count\": 1}, {\"coordinates\": [166.898966, -22.281638], \"count\": 1}, {\"coordinates\": [166.91429444444444, -22.320222222222224], \"count\": 1}, {\"coordinates\": [166.91754722222223, -22.32334722222222], \"count\": 2}, {\"coordinates\": [166.50251412, -22.04243269], \"count\": 1}, {\"coordinates\": [166.916475, -22.3241], \"count\": 1}, {\"coordinates\": [165.25418611111112, -21.187], \"count\": 23}, {\"coordinates\": [165.2550861111111, -21.187297222222224], \"count\": 9}, {\"coordinates\": [165.25464722222222, -21.187136111111112], \"count\": 6}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 5}, {\"coordinates\": [166.1410676, -21.7483157], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 1}, {\"coordinates\": [166.1339513, -21.7291295], \"count\": 1}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 3}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 1}, {\"coordinates\": [166.18, -21.9619444], \"count\": 1}, {\"coordinates\": [166.92011, -22.32465], \"count\": 4}, {\"coordinates\": [166.6957533, -22.1694831], \"count\": 1}, {\"coordinates\": [166.4461800000003, -22.07449000065716], \"count\": 1}, {\"coordinates\": [166.6499751, -22.115439], \"count\": 1}, {\"coordinates\": [166.662188, -22.2220638], \"count\": 1}, {\"coordinates\": [166.9163289, -22.3224198], \"count\": 1}, {\"coordinates\": [166.59952800000036, -22.01153200065558], \"count\": 1}, {\"coordinates\": [166.5342063, -22.1807328], \"count\": 1}, {\"coordinates\": [166.161372, -21.7534519], \"count\": 2}, {\"coordinates\": [166.2344444, -21.6783333], \"count\": 2}, {\"coordinates\": [166.6878075, -22.1097306], \"count\": 1}, {\"coordinates\": [166.9225647, -22.3216887], \"count\": 1}, {\"coordinates\": [166.9472586, -22.3507006], \"count\": 1}, {\"coordinates\": [166.23564126, -21.68023843], \"count\": 1}, {\"coordinates\": [166.15546598, -21.74566497], \"count\": 1}, {\"coordinates\": [166.52352698, -22.18504201], \"count\": 1}, {\"coordinates\": [166.52392896, -22.18556301], \"count\": 1}, {\"coordinates\": [166.69888886, -22.17277775], \"count\": 1}, {\"coordinates\": [166.33385798, -22.05200599], \"count\": 1}, {\"coordinates\": [166.14257401, -21.74793101], \"count\": 1}, {\"coordinates\": [166.14557904, -21.73694597], \"count\": 1}, {\"coordinates\": [166.89187897, -22.15379903], \"count\": 1}, {\"coordinates\": [166.23534177, -21.67944653], \"count\": 1}, {\"coordinates\": [166.52474998, -22.17611402], \"count\": 1}]}",
+    "species_top": {
+        "Xylosma confusum": 113
+    },
+    "um_occurrences_true": 74,
+    "um_occurrences_false": 39,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                40.0,
+                25.0,
+                57.14,
+                6.9,
+                7.69,
+                30.0,
+                50.0,
+                50.0,
+                0.0,
+                50.0,
+                0.0,
+                66.67
+            ],
+            "fruiting": [
+                20.0,
+                75.0,
+                42.86,
+                6.9,
+                23.08,
+                40.0,
+                50.0,
+                50.0,
+                100.0,
+                50.0,
+                100.0,
+                33.33
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 17.47,
+    "dbh_max": 46.8,
+    "dbh_median": 14.7,
+    "dbh_min": 5.4,
+    "height_max": 9.0,
+    "wood_density_mean": 0.72,
+    "wood_density_max": 0.78,
+    "wood_density_min": 0.67,
+    "bark_thickness_mean": 6.22,
+    "bark_thickness_max": 13.0,
+    "bark_thickness_min": 2.0,
+    "leaf_sla_mean": 11.74,
+    "leaf_sla_max": 12.63,
+    "leaf_sla_min": 9.77,
+    "leaf_area_mean": 23.93,
+    "leaf_area_max": 25.16,
+    "leaf_area_min": 22.17,
+    "leaf_thickness_mean": 205.92,
+    "leaf_thickness_max": 227.94,
+    "leaf_thickness_min": 196.87,
+    "frequencies": {
+        "dbh": {
+            "10": 62.86,
+            "20": 22.86,
+            "30": 8.57,
+            "40": 5.71,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 3.85,
+            "200": 26.92,
+            "300": 7.69,
+            "400": 41.35,
+            "500": 4.81,
+            "600": 0.96,
+            "700": 4.81,
+            "800": 1.92,
+            "900": 1.92,
+            "1000": 2.88,
+            "1100": 2.88,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 6.36,
+            "2000": 16.36,
+            "2500": 67.27,
+            "3000": 9.09,
+            "3500": 0.91,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 11.54,
+            "2": 88.46
+        }
+    }
+}

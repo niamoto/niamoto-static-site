@@ -1,0 +1,118 @@
+{
+    "id": 4227,
+    "full_name": "Melicope pedicellata",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4760
+    },
+    "lft": 2975,
+    "rght": 2976,
+    "level": 2,
+    "parent_id": 1042,
+    "taxon_id": 4227,
+    "total_occurrences_count": 19,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.86306762695312, -21.604169845581055], \"count\": 1}, {\"coordinates\": [166.1455833, -21.7369444], \"count\": 2}, {\"coordinates\": [165.8652801513672, -21.625560760498047], \"count\": 2}, {\"coordinates\": [165.9027862548828, -21.594440460205078], \"count\": 1}, {\"coordinates\": [165.8333563, -21.6067788], \"count\": 1}, {\"coordinates\": [165.8663072, -21.6012264], \"count\": 1}, {\"coordinates\": [164.74444580078125, -20.622779846191406], \"count\": 1}, {\"coordinates\": [166.1505565, -21.7376594], \"count\": 1}, {\"coordinates\": [166.1455535888672, -21.736940383911133], \"count\": 1}, {\"coordinates\": [165.08035605, -21.16247197], \"count\": 1}, {\"coordinates\": [166.14557904, -21.73694597], \"count\": 1}, {\"coordinates\": [166.145583332909, -21.7369444444444], \"count\": 1}, {\"coordinates\": [166.14388775, -21.74639315], \"count\": 1}, {\"coordinates\": [166.15265937, -21.74907694], \"count\": 1}, {\"coordinates\": [165.86631621, -21.60123266], \"count\": 1}, {\"coordinates\": [165.8775750505155, -21.611293301710276], \"count\": 1}, {\"coordinates\": [165.84108445, -21.58998648], \"count\": 1}]}",
+    "species_top": {
+        "Melicope pedicellata": 19
+    },
+    "um_occurrences_true": 9,
+    "um_occurrences_false": 10,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                50.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0,
+                0,
+                0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                50.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                100.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": null,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 5.26,
+            "300": 0.0,
+            "400": 10.53,
+            "500": 0.0,
+            "600": 10.53,
+            "700": 10.53,
+            "800": 15.79,
+            "900": 5.26,
+            "1000": 5.26,
+            "1100": 36.84,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 10.53,
+            "2000": 73.68,
+            "2500": 10.53,
+            "3000": 5.26,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "id": 13242,
+    "full_name": "Eugenia (poroensis_Barrab\u00e9293)",
+    "authors": "J.W. Dawson, sp. nov. ined.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1018
+    },
+    "lft": 1835,
+    "rght": 1836,
+    "level": 2,
+    "parent_id": 758,
+    "taxon_id": 13242,
+    "total_occurrences_count": 88,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.6232222, -22.1943889], \"count\": 1}, {\"coordinates\": [165.7115519, -21.3426426], \"count\": 1}, {\"coordinates\": [166.8973584, -22.2802817], \"count\": 1}, {\"coordinates\": [166.3226209, -21.6564339], \"count\": 1}, {\"coordinates\": [166.9225647, -22.3216887], \"count\": 2}, {\"coordinates\": [166.9972287, -22.2614004], \"count\": 1}, {\"coordinates\": [166.6863504, -22.1729426], \"count\": 1}, {\"coordinates\": [166.89999996, -22.1666667], \"count\": 2}, {\"coordinates\": [165.72089242122905, -21.333703566835627], \"count\": 1}, {\"coordinates\": [165.73069516364424, -21.32946532012146], \"count\": 1}, {\"coordinates\": [166.6957533, -22.1694831], \"count\": 1}, {\"coordinates\": [166.898951, -22.280555], \"count\": 4}, {\"coordinates\": [165.8265424, -21.3973133], \"count\": 1}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 1}, {\"coordinates\": [166.8483963, -22.2362221], \"count\": 1}, {\"coordinates\": [167.00879204, -22.289453], \"count\": 1}, {\"coordinates\": [167.00462898, -22.27939996], \"count\": 1}, {\"coordinates\": [166.59187218, -22.15853054], \"count\": 1}, {\"coordinates\": [166.948834, -22.278186], \"count\": 3}, {\"coordinates\": [166.931837, -22.278266], \"count\": 2}, {\"coordinates\": [166.896594, -22.278415], \"count\": 3}, {\"coordinates\": [166.898966, -22.281638], \"count\": 1}, {\"coordinates\": [166.903162, -22.276171], \"count\": 1}, {\"coordinates\": [166.90391944444445, -22.274947222222224], \"count\": 10}, {\"coordinates\": [166.89711111111112, -22.154944444444446], \"count\": 15}, {\"coordinates\": [166.99455555555556, -22.273083333333332], \"count\": 2}, {\"coordinates\": [166.99477777777778, -22.273083333333332], \"count\": 4}, {\"coordinates\": [166.8918888888889, -22.153805555555557], \"count\": 1}, {\"coordinates\": [166.99322222222222, -22.275277777777777], \"count\": 2}, {\"coordinates\": [167.00441666666666, -22.28725], \"count\": 5}, {\"coordinates\": [166.9, -22.166666666666668], \"count\": 1}, {\"coordinates\": [165.71435554, -21.31340874], \"count\": 1}, {\"coordinates\": [165.77661571, -21.37635751], \"count\": 1}, {\"coordinates\": [165.84154395, -21.43921374], \"count\": 1}, {\"coordinates\": [165.77801699, -21.36773198], \"count\": 1}, {\"coordinates\": [165.77908854, -21.40251038], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 1}, {\"coordinates\": [165.73550416, -21.37225134], \"count\": 1}, {\"coordinates\": [165.78787413, -21.38390314], \"count\": 1}, {\"coordinates\": [165.72848549, -21.33390232], \"count\": 1}, {\"coordinates\": [165.77903528, -21.44156731], \"count\": 1}, {\"coordinates\": [165.77557865, -21.36259351], \"count\": 1}, {\"coordinates\": [165.74557826, -21.38068142], \"count\": 1}, {\"coordinates\": [165.7752768, -21.35473467], \"count\": 1}, {\"coordinates\": [165.78085127, -21.34926998], \"count\": 1}, {\"coordinates\": [165.78074312, -21.45057583], \"count\": 1}]}",
+    "species_top": {
+        "Eugenia (poroensis_Barrab\u00e9293)": 88
+    },
+    "um_occurrences_true": 87,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                7.14,
+                75.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0.0,
+                25.0,
+                100.0,
+                0,
+                9.09,
+                0,
+                0,
+                0,
+                5.88,
+                9.09,
+                100.0,
+                50.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.79,
+    "dbh_max": 36.1,
+    "dbh_median": 11.1,
+    "dbh_min": 5.0,
+    "height_max": 6.0,
+    "wood_density_mean": 0.87,
+    "wood_density_max": 0.92,
+    "wood_density_min": 0.78,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 91.18,
+            "20": 5.88,
+            "30": 2.94,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 10.84,
+            "200": 37.35,
+            "300": 42.17,
+            "400": 8.43,
+            "500": 1.2,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 15.91,
+            "2000": 6.82,
+            "2500": 39.77,
+            "3000": 37.5,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 10.0,
+            "2": 50.0,
+            "3": 40.0
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 4584,
+    "full_name": "Oxera rugosa",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3970
+    },
+    "lft": 1379,
+    "rght": 1380,
+    "level": 2,
+    "parent_id": 1152,
+    "taxon_id": 4584,
+    "total_occurrences_count": 47,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.6232222, -22.1943889], \"count\": 2}, {\"coordinates\": [166.5302696, -22.1752938], \"count\": 1}, {\"coordinates\": [166.85555561, -22.23611112], \"count\": 2}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 7}, {\"coordinates\": [166.89815938, -22.2766399], \"count\": 2}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 3}, {\"coordinates\": [166.62572499, -22.19208599], \"count\": 1}, {\"coordinates\": [166.90349952, -22.27474405], \"count\": 2}, {\"coordinates\": [166.81333329, -22.24694445], \"count\": 2}, {\"coordinates\": [166.90343614, -22.27866384], \"count\": 2}, {\"coordinates\": [166.91786944444445, -22.318091666666668], \"count\": 1}, {\"coordinates\": [166.91544444444443, -22.323611111111113], \"count\": 1}, {\"coordinates\": [166.6791944444, -22.2065555556], \"count\": 2}, {\"coordinates\": [166.6686064, -22.2114812], \"count\": 3}, {\"coordinates\": [166.6791666667, -22.2066666667], \"count\": 7}, {\"coordinates\": [166.662188, -22.2220638], \"count\": 1}, {\"coordinates\": [166.68, -22.2058333333], \"count\": 2}, {\"coordinates\": [166.24274017, -21.67045493], \"count\": 1}, {\"coordinates\": [167.00462898, -22.27939996], \"count\": 1}, {\"coordinates\": [166.67612005, -22.04756799], \"count\": 1}, {\"coordinates\": [166.52474998, -22.17611402], \"count\": 1}, {\"coordinates\": [166.52392896, -22.18556301], \"count\": 1}]}",
+    "species_top": {
+        "Oxera rugosa": 47
+    },
+    "um_occurrences_true": 47,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                37.5,
+                0.0,
+                100.0,
+                0,
+                100.0,
+                0,
+                50.0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "fruiting": [
+                12.5,
+                100.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                50.0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.65,
+    "dbh_max": 8.9,
+    "dbh_median": 7.65,
+    "dbh_min": 6.4,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 10.64,
+            "200": 61.7,
+            "300": 8.51,
+            "400": 10.64,
+            "500": 6.38,
+            "600": 0.0,
+            "700": 2.13,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 2.13,
+            "2000": 40.43,
+            "2500": 40.43,
+            "3000": 17.02,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

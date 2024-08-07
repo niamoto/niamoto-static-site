@@ -1,0 +1,118 @@
+{
+    "id": 13499,
+    "full_name": "Polyscias vieillardii (Baill.) Lowry & G.M.Plunkett subsp. vieillardii",
+    "authors": null,
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 6275
+    },
+    "lft": 300,
+    "rght": 301,
+    "level": 3,
+    "parent_id": 13498,
+    "taxon_id": 13499,
+    "total_occurrences_count": 70,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3116161, -21.1726421], \"count\": 1}, {\"coordinates\": [164.7559243, -20.6075358], \"count\": 1}, {\"coordinates\": [164.5314902, -20.3976737], \"count\": 5}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 1}, {\"coordinates\": [164.8604958, -20.6369621], \"count\": 2}, {\"coordinates\": [165.1222361, -21.1519556], \"count\": 1}, {\"coordinates\": [165.0108333333, -20.8425], \"count\": 2}, {\"coordinates\": [164.8633353, -20.6400389], \"count\": 1}, {\"coordinates\": [164.2026525, -20.4661233], \"count\": 2}, {\"coordinates\": [164.5263611, -20.4000283], \"count\": 1}, {\"coordinates\": [164.7930568, -20.562816], \"count\": 1}, {\"coordinates\": [164.5283333, -20.4], \"count\": 1}, {\"coordinates\": [164.7444444, -20.6166667], \"count\": 1}, {\"coordinates\": [164.2163806, -20.460631], \"count\": 6}, {\"coordinates\": [165.3066239, -21.1762872], \"count\": 2}, {\"coordinates\": [164.209056, -20.47216215], \"count\": 1}, {\"coordinates\": [164.21349304, -20.47436112], \"count\": 1}, {\"coordinates\": [164.19416897, -20.45275746], \"count\": 1}, {\"coordinates\": [164.19024297, -20.46189168], \"count\": 1}, {\"coordinates\": [164.21235601, -20.46770472], \"count\": 1}, {\"coordinates\": [164.84387771259568, -20.64367929029789], \"count\": 1}, {\"coordinates\": [164.53111, -20.39805], \"count\": 1}, {\"coordinates\": [164.201111111111, -20.4630555555556], \"count\": 1}, {\"coordinates\": [164.213055555556, -20.4636111111111], \"count\": 1}, {\"coordinates\": [164.73333, -20.61666], \"count\": 1}, {\"coordinates\": [164.2133333, -20.4577778], \"count\": 2}, {\"coordinates\": [164.7833333, -20.6], \"count\": 1}, {\"coordinates\": [164.8675, -20.6458333], \"count\": 1}, {\"coordinates\": [164.215, -20.467], \"count\": 1}, {\"coordinates\": [164.52833, -20.4], \"count\": 1}, {\"coordinates\": [164.74, -20.6136111], \"count\": 1}, {\"coordinates\": [164.21666, -20.46666], \"count\": 1}, {\"coordinates\": [164.7815278, -20.6243889], \"count\": 1}, {\"coordinates\": [165.316666666667, -21.1569444444444], \"count\": 1}, {\"coordinates\": [164.201944444444, -20.4602777777778], \"count\": 1}, {\"coordinates\": [164.21465540655717, -20.459402581444735], \"count\": 1}, {\"coordinates\": [165.26666, -21.18333], \"count\": 1}, {\"coordinates\": [164.853611111111, -20.6433333333333], \"count\": 1}, {\"coordinates\": [164.5311111, -20.3988889], \"count\": 3}, {\"coordinates\": [164.5333333, -20.4], \"count\": 1}, {\"coordinates\": [164.857222222222, -20.64], \"count\": 1}, {\"coordinates\": [165.308333333333, -21.1755555555556], \"count\": 1}, {\"coordinates\": [164.518055555556, -20.4061111111111], \"count\": 1}, {\"coordinates\": [164.53333, -20.4], \"count\": 1}, {\"coordinates\": [164.208631, -20.4568555], \"count\": 1}, {\"coordinates\": [164.8569195, -20.6402999], \"count\": 1}, {\"coordinates\": [164.204413, -20.4599982], \"count\": 2}, {\"coordinates\": [164.5311111, -20.3980556], \"count\": 1}, {\"coordinates\": [164.2053603, -20.4573274], \"count\": 1}, {\"coordinates\": [164.526350824038, -20.4005672971408], \"count\": 1}, {\"coordinates\": [165.3199423, -21.1540391], \"count\": 1}, {\"coordinates\": [164.5213457, -20.4031031], \"count\": 1}, {\"coordinates\": [165.127511111895, -21.1585333294339], \"count\": 1}]}",
+    "species_top": {
+        "Polyscias vieillardii (Baill.) Lowry & G.M.Plunkett subsp. vieillardii": 70
+    },
+    "um_occurrences_true": 25,
+    "um_occurrences_false": 45,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                50.0,
+                33.33,
+                100.0,
+                66.67,
+                100.0,
+                100.0,
+                100.0,
+                20.0,
+                85.71,
+                100.0
+            ],
+            "fruiting": [
+                100.0,
+                100.0,
+                50.0,
+                66.67,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                14.29,
+                42.86
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 18.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 7.14,
+            "400": 11.43,
+            "500": 35.71,
+            "600": 14.29,
+            "700": 21.43,
+            "800": 4.29,
+            "900": 4.29,
+            "1000": 1.43,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 14.29,
+            "1500": 51.43,
+            "2000": 11.43,
+            "2500": 2.86,
+            "3000": 7.14,
+            "3500": 11.43,
+            "4000": 1.43,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

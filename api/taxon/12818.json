@@ -1,0 +1,131 @@
+{
+    "id": 12818,
+    "full_name": "Tinadendron",
+    "authors": "Achille",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 1520
+    },
+    "lft": 2904,
+    "rght": 2909,
+    "level": 1,
+    "parent_id": 189,
+    "taxon_id": 12818,
+    "total_occurrences_count": 99,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.487002, -22.2380552], \"count\": 22}, {\"coordinates\": [167.9794457, -21.5172018], \"count\": 1}, {\"coordinates\": [166.4505157470703, -22.25581932067871], \"count\": 1}, {\"coordinates\": [166.4486083984375, -22.273889541625977], \"count\": 4}, {\"coordinates\": [164.9581438, -21.328327], \"count\": 2}, {\"coordinates\": [166.4841766357422, -22.246410369873047], \"count\": 1}, {\"coordinates\": [165.15745544433594, -21.347379684448242], \"count\": 1}, {\"coordinates\": [166.45729064941406, -22.286340713500977], \"count\": 2}, {\"coordinates\": [164.9499969482422, -21.350000381469727], \"count\": 1}, {\"coordinates\": [166.486, -22.255], \"count\": 2}, {\"coordinates\": [166.499, -22.258], \"count\": 1}, {\"coordinates\": [166.459, -22.26], \"count\": 1}, {\"coordinates\": [166.491, -22.236], \"count\": 1}, {\"coordinates\": [166.489, -22.236], \"count\": 2}, {\"coordinates\": [166.485, -22.254], \"count\": 4}, {\"coordinates\": [166.485, -22.255], \"count\": 3}, {\"coordinates\": [166.48548011141995, -22.255939233802337], \"count\": 8}, {\"coordinates\": [166.48406719871292, -22.23998656025741], \"count\": 2}, {\"coordinates\": [166.49, -22.235], \"count\": 1}, {\"coordinates\": [166.488, -22.239], \"count\": 2}, {\"coordinates\": [166.48579912232975, -22.238586137441683], \"count\": 2}, {\"coordinates\": [166.49522511568833, -22.250576648108503], \"count\": 1}, {\"coordinates\": [166.491, -22.235], \"count\": 2}, {\"coordinates\": [166.49, -22.242], \"count\": 1}, {\"coordinates\": [166.485, -22.256], \"count\": 2}, {\"coordinates\": [166.486, -22.254], \"count\": 2}, {\"coordinates\": [166.48777244358908, -22.238880860480315], \"count\": 1}, {\"coordinates\": [166.486, -22.237], \"count\": 1}, {\"coordinates\": [166.4909, -22.24631], \"count\": 1}, {\"coordinates\": [166.46, -22.26], \"count\": 1}, {\"coordinates\": [166.4987944167382, -22.25476916967096], \"count\": 1}, {\"coordinates\": [166.4899540142704, -22.24292876720315], \"count\": 1}, {\"coordinates\": [166.48837713965528, -22.23879770401421], \"count\": 1}, {\"coordinates\": [166.487, -22.234], \"count\": 1}, {\"coordinates\": [166.495668181402, -22.250394070386278], \"count\": 1}, {\"coordinates\": [166.499, -22.259], \"count\": 1}]}",
+    "species_top": {
+        "Tinadendron noumeanum": 97,
+        "Tinadendron kajewskii": 2
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 99,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0,
+                100.0,
+                0.0,
+                80.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                100.0,
+                100.0,
+                0,
+                100.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 17.5,
+    "dbh_max": 20.0,
+    "dbh_median": 17.5,
+    "dbh_min": 15.0,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 50.0,
+            "20": 50.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 98.75,
+            "1500": 1.25,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 98.78,
+            "2": 1.22
+        }
+    }
+}

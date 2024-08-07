@@ -1,0 +1,130 @@
+{
+    "id": 1924,
+    "full_name": "Arthroclianthus maximus",
+    "authors": "Schindl.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4366
+    },
+    "lft": 1281,
+    "rght": 1282,
+    "level": 2,
+    "parent_id": 349,
+    "taxon_id": 1924,
+    "total_occurrences_count": 25,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3803673, -21.0169663], \"count\": 2}, {\"coordinates\": [165.3152778, -20.9975], \"count\": 2}, {\"coordinates\": [165.2481036, -20.9432879], \"count\": 1}, {\"coordinates\": [164.7704925, -20.7433128], \"count\": 1}, {\"coordinates\": [165.2324719, -20.8169075], \"count\": 1}, {\"coordinates\": [165.4969722, -21.3604722], \"count\": 1}, {\"coordinates\": [165.0428889, -20.9777222], \"count\": 2}, {\"coordinates\": [165.32111111111112, -21.151944444444446], \"count\": 3}, {\"coordinates\": [165.49394444444445, -21.36111111111111], \"count\": 2}, {\"coordinates\": [165.2266667, -21.2416667], \"count\": 1}, {\"coordinates\": [165.435464247833, -21.2143188053333], \"count\": 1}, {\"coordinates\": [165.3202778, -21.1511111], \"count\": 1}, {\"coordinates\": [165.2258333, -21.2427778], \"count\": 2}, {\"coordinates\": [164.7746806, -20.7439917], \"count\": 1}, {\"coordinates\": [165.436093594952, -21.2388628586946], \"count\": 1}]}",
+    "species_top": {
+        "Arthroclianthus maximus": 25
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 23,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0.0,
+                0,
+                0,
+                50.0,
+                0,
+                0,
+                75.0,
+                60.0,
+                16.67,
+                0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                0.0,
+                0,
+                0,
+                50.0,
+                0,
+                0,
+                25.0,
+                0.0,
+                50.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.44,
+    "dbh_max": 10.0,
+    "dbh_median": 6.25,
+    "dbh_min": 5.1,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 25.0,
+            "200": 0.0,
+            "300": 12.5,
+            "400": 37.5,
+            "500": 18.75,
+            "600": 0.0,
+            "700": 6.25,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 36.36,
+            "2000": 45.45,
+            "2500": 18.18,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

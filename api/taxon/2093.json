@@ -1,0 +1,135 @@
+{
+    "id": 2093,
+    "full_name": "Barringtonia longifolia",
+    "authors": "Schltr.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4025
+    },
+    "lft": 1493,
+    "rght": 1494,
+    "level": 2,
+    "parent_id": 386,
+    "taxon_id": 2093,
+    "total_occurrences_count": 130,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.780212, -20.62504], \"count\": 26}, {\"coordinates\": [165.3199423, -21.1540391], \"count\": 1}, {\"coordinates\": [165.235, -21.0055], \"count\": 1}, {\"coordinates\": [165.3046861, -21.1818889], \"count\": 1}, {\"coordinates\": [164.7795556, -20.6250278], \"count\": 1}, {\"coordinates\": [165.3002778, -21.1941667], \"count\": 1}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 1}, {\"coordinates\": [164.743817, -20.491117], \"count\": 1}, {\"coordinates\": [165.4765625, -21.24147605896], \"count\": 28}, {\"coordinates\": [164.8725444444, -20.6416694444], \"count\": 1}, {\"coordinates\": [165.3116161, -21.1726421], \"count\": 1}, {\"coordinates\": [165.2932823, -21.1826171], \"count\": 1}, {\"coordinates\": [165.725293094, -21.378606381], \"count\": 3}, {\"coordinates\": [165.3173888888889, -21.160555555555554], \"count\": 10}, {\"coordinates\": [165.31519444444444, -21.16627777777778], \"count\": 11}, {\"coordinates\": [164.87066666666666, -20.64097222222222], \"count\": 1}, {\"coordinates\": [165.33552777777777, -21.150694444444444], \"count\": 1}, {\"coordinates\": [165.30105277777778, -21.196755555555555], \"count\": 1}, {\"coordinates\": [165.29163888888888, -21.183], \"count\": 1}, {\"coordinates\": [165.31727222222221, -21.16279722222222], \"count\": 5}, {\"coordinates\": [164.86911111111112, -20.64027777777778], \"count\": 1}, {\"coordinates\": [165.31750277777778, -21.162436111111113], \"count\": 13}, {\"coordinates\": [165.277, -21.178219444444444], \"count\": 1}, {\"coordinates\": [165.3179722222222, -21.127866666666666], \"count\": 1}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [165.3050277778, -21.1941666667], \"count\": 1}, {\"coordinates\": [165.30499267578125, -21.194169998168945], \"count\": 2}, {\"coordinates\": [164.61666870117188, -20.450000762939453], \"count\": 1}, {\"coordinates\": [164.74005126953125, -20.494630813598633], \"count\": 1}, {\"coordinates\": [165.1330624, -21.1493545], \"count\": 1}, {\"coordinates\": [164.78062900000003, -20.62514], \"count\": 1}, {\"coordinates\": [164.75, -20.5], \"count\": 1}, {\"coordinates\": [164.7708282470703, -20.588329315185547], \"count\": 1}, {\"coordinates\": [164.7606667, -20.5026111], \"count\": 2}, {\"coordinates\": [164.82269689208567, -20.590266363381616], \"count\": 1}, {\"coordinates\": [164.73333740234375, -20.48332977294922], \"count\": 1}, {\"coordinates\": [164.8219889654721, -20.59163433774781], \"count\": 1}, {\"coordinates\": [165.26666259765625, -21.166669845581055], \"count\": 1}, {\"coordinates\": [166.54231198, -22.20668797], \"count\": 1}]}",
+    "species_top": {
+        "Barringtonia longifolia": 130
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 129,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                100.0,
+                100.0,
+                0.0,
+                100.0,
+                40.0,
+                33.33
+            ],
+            "fruiting": [
+                100.0,
+                3.7,
+                2.17,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                66.67
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.01,
+    "dbh_max": 36.0,
+    "dbh_median": 13.6,
+    "dbh_min": 5.1,
+    "height_max": 13.6,
+    "wood_density_mean": 0.54,
+    "wood_density_max": 0.57,
+    "wood_density_min": 0.52,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 75.9,
+            "20": 19.28,
+            "30": 4.82,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 2.48,
+            "200": 1.65,
+            "300": 0.0,
+            "400": 0.83,
+            "500": 56.2,
+            "600": 33.88,
+            "700": 0.83,
+            "800": 2.48,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 1.65
+        },
+        "rainfall": {
+            "1000": 0.77,
+            "1500": 0.0,
+            "2000": 19.23,
+            "2500": 49.23,
+            "3000": 29.23,
+            "3500": 1.54,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 10.0,
+            "2": 90.0
+        },
+        "strate": {
+            "1": 27.27,
+            "2": 30.91,
+            "3": 41.82
+        }
+    }
+}

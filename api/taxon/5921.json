@@ -1,0 +1,130 @@
+{
+    "id": 5921,
+    "full_name": "Syzygium tenuiflorum",
+    "authors": "Brongn. & Gris",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4296
+    },
+    "lft": 2091,
+    "rght": 2092,
+    "level": 2,
+    "parent_id": 1439,
+    "taxon_id": 5921,
+    "total_occurrences_count": 73,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.2450833, -21.0001033], \"count\": 1}, {\"coordinates\": [165.33333, -21.16667], \"count\": 1}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [165.32030555555556, -21.128655555555557], \"count\": 9}, {\"coordinates\": [165.32502222222223, -21.163830555555556], \"count\": 1}, {\"coordinates\": [165.318025, -21.127594444444444], \"count\": 3}, {\"coordinates\": [164.87066666666666, -20.64097222222222], \"count\": 2}, {\"coordinates\": [164.86911111111112, -20.64027777777778], \"count\": 3}, {\"coordinates\": [166.60524166666667, -22.13049722222222], \"count\": 1}, {\"coordinates\": [165.3179722222222, -21.127866666666666], \"count\": 2}, {\"coordinates\": [165.25464722222222, -21.187136111111112], \"count\": 3}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 4}, {\"coordinates\": [164.5036163330078, -20.31110954284668], \"count\": 4}, {\"coordinates\": [165.01806640625, -20.96639060974121], \"count\": 1}, {\"coordinates\": [166.8412307, -22.2229916], \"count\": 2}, {\"coordinates\": [165.33299255371094, -21.16670036315918], \"count\": 1}, {\"coordinates\": [165.31666564941406, -21.166667938232422], \"count\": 1}, {\"coordinates\": [165.081130192365, -20.9912739770591], \"count\": 1}, {\"coordinates\": [166.636932, -22.0962102], \"count\": 1}, {\"coordinates\": [165.321072498957, -21.1381016651789], \"count\": 1}, {\"coordinates\": [166.63360595703125, -22.099170684814453], \"count\": 2}, {\"coordinates\": [165.7892682, -21.5958939], \"count\": 2}, {\"coordinates\": [165.318181997935, -21.1274260012309], \"count\": 1}, {\"coordinates\": [165.3333282470703, -21.166669845581055], \"count\": 1}, {\"coordinates\": [164.6963611, -20.5327778], \"count\": 1}, {\"coordinates\": [165.8802778, -21.6138889], \"count\": 1}, {\"coordinates\": [165.0214366, -20.9634017], \"count\": 1}, {\"coordinates\": [166.9657339, -22.1956714], \"count\": 1}, {\"coordinates\": [166.6495729, -22.1187974], \"count\": 2}, {\"coordinates\": [165.318, -21.1274], \"count\": 1}, {\"coordinates\": [164.5586943, -20.5123592], \"count\": 2}, {\"coordinates\": [165.24831293095002, -21.020798169307362], \"count\": 1}, {\"coordinates\": [165.8813852, -21.6202967], \"count\": 1}, {\"coordinates\": [164.8691111111, -20.6402777778], \"count\": 1}, {\"coordinates\": [166.63361, -22.09917], \"count\": 2}, {\"coordinates\": [165.3033762, -21.1779231], \"count\": 1}, {\"coordinates\": [165.3250222222, -21.1638305556], \"count\": 1}, {\"coordinates\": [165.3203055556, -21.1286555556], \"count\": 1}, {\"coordinates\": [165.318025, -21.1275944444], \"count\": 1}, {\"coordinates\": [166.6052416667, -22.1304972222], \"count\": 1}, {\"coordinates\": [165.3179722222, -21.1278666667], \"count\": 1}, {\"coordinates\": [166.63208787581922, -22.095003771638417], \"count\": 1}, {\"coordinates\": [164.6805556, -20.5388889], \"count\": 1}, {\"coordinates\": [164.8706666667, -20.6409722222], \"count\": 1}]}",
+    "species_top": {
+        "Syzygium tenuiflorum": 73
+    },
+    "um_occurrences_true": 20,
+    "um_occurrences_false": 53,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                75.0,
+                100.0,
+                6.25,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                25.0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                33.33,
+                0,
+                0,
+                100.0,
+                50.0,
+                0.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.07,
+    "dbh_max": 25.3,
+    "dbh_median": 8.0,
+    "dbh_min": 5.1,
+    "height_max": 9.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": 3.5,
+    "bark_thickness_max": 3.5,
+    "bark_thickness_min": 3.5,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 62.5,
+            "20": 37.5,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 52.17,
+            "300": 5.8,
+            "400": 17.39,
+            "500": 0.0,
+            "600": 15.94,
+            "700": 4.35,
+            "800": 0.0,
+            "900": 4.35,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 2.74,
+            "1500": 12.33,
+            "2000": 9.59,
+            "2500": 53.42,
+            "3000": 20.55,
+            "3500": 1.37,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

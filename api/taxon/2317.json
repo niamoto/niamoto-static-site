@@ -1,0 +1,130 @@
+{
+    "id": 2317,
+    "full_name": "Callitris sulcata",
+    "authors": "(Parlatore) Schltr.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 313
+    },
+    "lft": 863,
+    "rght": 864,
+    "level": 2,
+    "parent_id": 450,
+    "taxon_id": 2317,
+    "total_occurrences_count": 94,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.2965192, -21.9404243], \"count\": 5}, {\"coordinates\": [166.2769299, -21.953748], \"count\": 1}, {\"coordinates\": [166.195622, -21.9789127], \"count\": 1}, {\"coordinates\": [166.31258, -21.9814716], \"count\": 1}, {\"coordinates\": [166.27833557128906, -21.937780380249023], \"count\": 1}, {\"coordinates\": [166.27999877929688, -21.950000762939453], \"count\": 1}, {\"coordinates\": [166.2933349609375, -21.9436092376709], \"count\": 2}, {\"coordinates\": [166.3267822265625, -21.909080505371094], \"count\": 1}, {\"coordinates\": [166.42999267578125, -22.1299991607666], \"count\": 2}, {\"coordinates\": [165.36056518554688, -21.4424991607666], \"count\": 1}, {\"coordinates\": [166.5097222, -22.1088889], \"count\": 1}, {\"coordinates\": [166.5103919, -22.1090961], \"count\": 1}, {\"coordinates\": [166.499755859375, -22.126760482788086], \"count\": 3}, {\"coordinates\": [166.4470977783203, -22.1547794342041], \"count\": 2}, {\"coordinates\": [166.4499969482422, -22.166667938232422], \"count\": 1}, {\"coordinates\": [166.450345, -22.1517139], \"count\": 2}, {\"coordinates\": [166.30943298339844, -21.984439849853516], \"count\": 3}, {\"coordinates\": [166.46600341796875, -22.149999618530273], \"count\": 1}, {\"coordinates\": [166.273681640625, -21.956809997558594], \"count\": 2}, {\"coordinates\": [166.35118103027344, -21.936180114746094], \"count\": 2}, {\"coordinates\": [166.4199981689453, -21.79528045654297], \"count\": 1}, {\"coordinates\": [166.4666667, -21.7666667], \"count\": 4}, {\"coordinates\": [166.29327392578125, -21.943479537963867], \"count\": 3}, {\"coordinates\": [166.4936065673828, -22.125560760498047], \"count\": 4}, {\"coordinates\": [166.2817172, -21.9346473], \"count\": 1}, {\"coordinates\": [166.31666564941406, -21.933332443237305], \"count\": 1}, {\"coordinates\": [166.25, -21.8799991607666], \"count\": 1}, {\"coordinates\": [166.49305725097656, -22.12833023071289], \"count\": 1}, {\"coordinates\": [166.3333282470703, -21.933330535888672], \"count\": 1}, {\"coordinates\": [166.419921875, -21.79528045654297], \"count\": 1}, {\"coordinates\": [166.4969203, -22.122356], \"count\": 1}, {\"coordinates\": [166.27000427246094, -21.93000030517578], \"count\": 1}, {\"coordinates\": [166.49366760253906, -22.12541961669922], \"count\": 2}, {\"coordinates\": [166.3333282470703, -21.933332443237305], \"count\": 1}, {\"coordinates\": [167.46383666992188, -22.62063980102539], \"count\": 1}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [166.31971740722656, -21.91136932373047], \"count\": 3}, {\"coordinates\": [166.25, -21.966659545898438], \"count\": 1}, {\"coordinates\": [166.31805419921875, -21.88722038269043], \"count\": 2}, {\"coordinates\": [166.5030064, -22.1236963], \"count\": 2}, {\"coordinates\": [166.3300018310547, -21.93000030517578], \"count\": 1}, {\"coordinates\": [166.49976, -22.12676], \"count\": 1}, {\"coordinates\": [166.27368, -21.95681], \"count\": 2}, {\"coordinates\": [166.49361, -22.12556], \"count\": 4}, {\"coordinates\": [166.29327, -21.94348], \"count\": 3}, {\"coordinates\": [166.3908093700681, -22.025124685034054], \"count\": 3}, {\"coordinates\": [166.27833, -21.93778], \"count\": 1}, {\"coordinates\": [166.29333, -21.94361], \"count\": 1}, {\"coordinates\": [166.31806, -21.88722], \"count\": 2}, {\"coordinates\": [166.49622520946062, -22.125850709984295], \"count\": 1}, {\"coordinates\": [166.49306, -22.12833], \"count\": 1}, {\"coordinates\": [166.49367, -22.12542], \"count\": 1}, {\"coordinates\": [166.41992, -21.79528], \"count\": 1}, {\"coordinates\": [166.42, -21.79528], \"count\": 1}]}",
+    "species_top": {
+        "Callitris sulcata": 94
+    },
+    "um_occurrences_true": 79,
+    "um_occurrences_false": 15,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0.0,
+                100.0,
+                0,
+                0.0,
+                66.67,
+                0.0,
+                0,
+                50.0,
+                100.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                0,
+                100.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 35.0,
+    "dbh_max": 35.0,
+    "dbh_median": 35.0,
+    "dbh_min": 35.0,
+    "height_max": 9.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 100.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 40.62,
+            "200": 28.12,
+            "300": 15.62,
+            "400": 9.38,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 3.12,
+            "800": 0.0,
+            "900": 3.12,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 79.01,
+            "1500": 3.7,
+            "2000": 9.88,
+            "2500": 7.41,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 42.35,
+            "2": 57.65
+        }
+    }
+}

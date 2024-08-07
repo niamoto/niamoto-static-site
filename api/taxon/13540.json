@@ -1,0 +1,130 @@
+{
+    "id": 13540,
+    "full_name": "Pycnandra caeruleilatex",
+    "authors": "Swenson & Munzinger",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 6444
+    },
+    "lft": 3369,
+    "rght": 3370,
+    "level": 2,
+    "parent_id": 1281,
+    "taxon_id": 13540,
+    "total_occurrences_count": 42,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.92011, -22.32465], \"count\": 2}, {\"coordinates\": [165.0159642, -21.1560719], \"count\": 1}, {\"coordinates\": [166.978981, -22.2666668], \"count\": 1}, {\"coordinates\": [165.0172069444, -21.1561630556], \"count\": 1}, {\"coordinates\": [165.0172069, -21.1561631], \"count\": 1}, {\"coordinates\": [167.0044444, -22.2575], \"count\": 1}, {\"coordinates\": [166.91736666666668, -22.321202777777778], \"count\": 2}, {\"coordinates\": [167.00441666666666, -22.28725], \"count\": 1}, {\"coordinates\": [167.0106658935547, -22.25933074951172], \"count\": 1}, {\"coordinates\": [165.02000427246094, -21.15999984741211], \"count\": 2}, {\"coordinates\": [166.9210968017578, -22.321210861206055], \"count\": 1}, {\"coordinates\": [164.98851990034706, -21.16986999322603], \"count\": 1}, {\"coordinates\": [165.00750732421875, -21.156389236450195], \"count\": 4}, {\"coordinates\": [165.0158233642578, -21.156110763549805], \"count\": 2}, {\"coordinates\": [165.0447235107422, -21.172500610351562], \"count\": 2}, {\"coordinates\": [165.01722717285156, -21.156110763549805], \"count\": 3}, {\"coordinates\": [165.01693725585938, -21.156110763549805], \"count\": 1}, {\"coordinates\": [165.02000427246094, -21.198890686035156], \"count\": 1}, {\"coordinates\": [166.919444444444, -22.3247222222222], \"count\": 3}, {\"coordinates\": [166.82722217, -22.32500004], \"count\": 1}, {\"coordinates\": [167.004444444444, -22.2575], \"count\": 1}, {\"coordinates\": [166.975833333333, -22.2697222222222], \"count\": 1}, {\"coordinates\": [166.98223, -22.30085], \"count\": 1}, {\"coordinates\": [167.004416666667, -22.28725], \"count\": 1}, {\"coordinates\": [166.917366666667, -22.3212027777778], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 4}, {\"coordinates\": [166.91417511, -22.32416658], \"count\": 1}]}",
+    "species_top": {
+        "Pycnandra caeruleilatex": 42
+    },
+    "um_occurrences_true": 41,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.3,
+    "dbh_max": 12.3,
+    "dbh_median": 11.4,
+    "dbh_min": 7.2,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 10.53,
+            "200": 36.84,
+            "300": 2.63,
+            "400": 10.53,
+            "500": 34.21,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 5.26,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 7.14,
+            "1500": 38.1,
+            "2000": 2.38,
+            "2500": 52.38,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

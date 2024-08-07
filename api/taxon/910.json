@@ -1,0 +1,130 @@
+{
+    "id": 910,
+    "full_name": "Jasminum",
+    "authors": "L.",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 1043
+    },
+    "lft": 2200,
+    "rght": 2203,
+    "level": 1,
+    "parent_id": 152,
+    "taxon_id": 910,
+    "total_occurrences_count": 51,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5346651, -22.184421], \"count\": 1}, {\"coordinates\": [164.76727777777776, -20.741777777777777], \"count\": 1}, {\"coordinates\": [165.0072222222, -20.8341666667], \"count\": 1}, {\"coordinates\": [164.7094444, -21.0147222], \"count\": 1}, {\"coordinates\": [166.20983, -21.677226], \"count\": 1}, {\"coordinates\": [164.970800386474, -21.3329887198876], \"count\": 1}, {\"coordinates\": [165.59431916944723, -21.688870836195836], \"count\": 1}, {\"coordinates\": [165.83435299999996, -21.46572900064235], \"count\": 1}, {\"coordinates\": [164.958484, -21.174648], \"count\": 1}, {\"coordinates\": [165.018719401501, -21.3744366424732], \"count\": 1}, {\"coordinates\": [164.338311007757, -20.2398714283776], \"count\": 1}, {\"coordinates\": [165.538559496272, -21.6368659041168], \"count\": 1}, {\"coordinates\": [164.7444444, -20.6166667], \"count\": 1}, {\"coordinates\": [166.52465996, -22.18012997], \"count\": 1}, {\"coordinates\": [166.21940347, -21.67568648], \"count\": 1}, {\"coordinates\": [166.15296098, -21.73768498], \"count\": 1}, {\"coordinates\": [165.2550861, -21.18729722], \"count\": 1}, {\"coordinates\": [165.75500696, -21.61583104], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 1}, {\"coordinates\": [166.54084298, -22.178624], \"count\": 1}, {\"coordinates\": [165.75591305, -21.61498202], \"count\": 1}, {\"coordinates\": [165.32751944444445, -21.16229722222222], \"count\": 1}, {\"coordinates\": [165.153270117442, -21.1469836393992], \"count\": 1}, {\"coordinates\": [165.24272, -21.25939], \"count\": 1}, {\"coordinates\": [165.5402831, -21.3799], \"count\": 1}, {\"coordinates\": [165.1416916, -21.0016549], \"count\": 1}, {\"coordinates\": [165.0149809, -20.987225], \"count\": 1}, {\"coordinates\": [165.9741111, -21.58338], \"count\": 1}, {\"coordinates\": [165.0149493, -20.9663606], \"count\": 1}, {\"coordinates\": [165.26667, -21.16667], \"count\": 1}, {\"coordinates\": [165.1658333, -21.0241667], \"count\": 1}, {\"coordinates\": [165.15325, -21.1469722], \"count\": 1}, {\"coordinates\": [165.974110031128, -21.584116007487], \"count\": 1}, {\"coordinates\": [164.9283878, -20.9547485], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 2}, {\"coordinates\": [164.740395080333, -20.7401247136667], \"count\": 1}, {\"coordinates\": [164.74033, -20.74115], \"count\": 1}, {\"coordinates\": [165.2450833, -21.2546389], \"count\": 1}, {\"coordinates\": [165.275662, -21.0898803], \"count\": 1}, {\"coordinates\": [165.0214366, -20.9634017], \"count\": 1}, {\"coordinates\": [165.3223078, -21.1276468], \"count\": 1}, {\"coordinates\": [165.7576785, -21.6289529], \"count\": 1}, {\"coordinates\": [166.5366766, -22.1922361], \"count\": 1}, {\"coordinates\": [166.52392896, -22.18556301], \"count\": 1}, {\"coordinates\": [165.77269997, -21.60794696], \"count\": 1}, {\"coordinates\": [165.3493611, -21.44674998], \"count\": 1}, {\"coordinates\": [164.971075243234, -21.3100745013484], \"count\": 1}, {\"coordinates\": [164.69730091, -21.02974229], \"count\": 1}]}",
+    "species_top": {
+        "Jasminum mackeeorum": 27
+    },
+    "um_occurrences_true": 14,
+    "um_occurrences_false": 37,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                25.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                50.0,
+                100.0,
+                90.0,
+                75.0
+            ],
+            "fruiting": [
+                50.0,
+                100.0,
+                0,
+                0,
+                0.0,
+                0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                25.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.15,
+    "dbh_max": 7.3,
+    "dbh_median": 7.15,
+    "dbh_min": 7.0,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 12.2,
+            "200": 9.76,
+            "300": 17.07,
+            "400": 24.39,
+            "500": 17.07,
+            "600": 7.32,
+            "700": 7.32,
+            "800": 0.0,
+            "900": 2.44,
+            "1000": 2.44,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 11.63,
+            "1500": 48.84,
+            "2000": 27.91,
+            "2500": 9.3,
+            "3000": 2.33,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 16.28,
+            "2": 83.72
+        }
+    }
+}

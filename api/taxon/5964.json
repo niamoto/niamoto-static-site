@@ -1,0 +1,130 @@
+{
+    "id": 5964,
+    "full_name": "Tapeinosperma minutum",
+    "authors": "Mez",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4148
+    },
+    "lft": 2583,
+    "rght": 2584,
+    "level": 2,
+    "parent_id": 1449,
+    "taxon_id": 5964,
+    "total_occurrences_count": 56,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7760833, -20.6125], \"count\": 1}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 1}, {\"coordinates\": [165.21777777777777, -20.817777777777778], \"count\": 1}, {\"coordinates\": [164.77608333333333, -20.6125], \"count\": 1}, {\"coordinates\": [164.78330555555556, -20.559833333333334], \"count\": 1}, {\"coordinates\": [164.7688388888889, -20.575755555555556], \"count\": 3}, {\"coordinates\": [164.78330555555556, -20.560027777777776], \"count\": 3}, {\"coordinates\": [164.78291666666667, -20.560388888888887], \"count\": 2}, {\"coordinates\": [164.7772261, -20.5827348], \"count\": 2}, {\"coordinates\": [164.8633353, -20.6400389], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [164.7708282470703, -20.58860969543457], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 2}, {\"coordinates\": [164.89256286621094, -20.640729904174805], \"count\": 1}, {\"coordinates\": [164.437833340963, -20.30218334198], \"count\": 1}, {\"coordinates\": [164.5267956, -20.3927884], \"count\": 1}, {\"coordinates\": [164.3078778, -20.484254], \"count\": 1}, {\"coordinates\": [164.77610778808594, -20.612499237060547], \"count\": 2}, {\"coordinates\": [164.52194213867188, -20.410280227661133], \"count\": 2}, {\"coordinates\": [164.7852778, -20.5711111], \"count\": 1}, {\"coordinates\": [164.72531127929688, -20.492544174194336], \"count\": 1}, {\"coordinates\": [164.5440158, -20.3968687], \"count\": 1}, {\"coordinates\": [164.53334045410156, -20.399999618530273], \"count\": 1}, {\"coordinates\": [164.52139282226562, -20.386669158935547], \"count\": 2}, {\"coordinates\": [164.76666259765625, -20.674999237060547], \"count\": 2}, {\"coordinates\": [164.439, -20.3021708], \"count\": 1}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 1}, {\"coordinates\": [164.5137609, -20.5089918], \"count\": 1}, {\"coordinates\": [164.5246221, -20.3836135], \"count\": 1}, {\"coordinates\": [164.5333251953125, -20.399999618530273], \"count\": 1}, {\"coordinates\": [166.2736053466797, -21.956939697265625], \"count\": 1}, {\"coordinates\": [164.86000061035156, -20.6430606842041], \"count\": 2}, {\"coordinates\": [164.54083251953125, -20.399999618530273], \"count\": 2}, {\"coordinates\": [164.52121, -20.40954], \"count\": 1}, {\"coordinates\": [164.53333333333333, -20.3833333], \"count\": 1}, {\"coordinates\": [164.53542684472552, -20.393664747039825], \"count\": 1}, {\"coordinates\": [164.8564530078465, -20.638162081381754], \"count\": 1}, {\"coordinates\": [164.533, -20.4], \"count\": 1}, {\"coordinates\": [164.46600340100363, -20.33372694005858], \"count\": 1}, {\"coordinates\": [164.3093, -20.48575], \"count\": 1}, {\"coordinates\": [164.59831833480513, -20.457765747745245], \"count\": 1}, {\"coordinates\": [164.52472973493002, -20.38168785118407], \"count\": 1}, {\"coordinates\": [164.77687830841188, -20.613586905510907], \"count\": 1}]}",
+    "species_top": {
+        "Tapeinosperma minutum": 56
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 53,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                0.0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.3,
+    "dbh_max": 11.14,
+    "dbh_median": 6.2,
+    "dbh_min": 5.1,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 12.73,
+            "200": 1.82,
+            "300": 5.45,
+            "400": 1.82,
+            "500": 18.18,
+            "600": 23.64,
+            "700": 5.45,
+            "800": 7.27,
+            "900": 10.91,
+            "1000": 0.0,
+            "1100": 7.27,
+            "1200": 5.45
+        },
+        "rainfall": {
+            "1000": 10.91,
+            "1500": 32.73,
+            "2000": 9.09,
+            "2500": 5.45,
+            "3000": 16.36,
+            "3500": 25.45,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 6.67,
+            "2": 93.33
+        }
+    }
+}

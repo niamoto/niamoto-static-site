@@ -1,0 +1,118 @@
+{
+    "id": 12791,
+    "full_name": "Planchonella lifuana",
+    "authors": "(Baill.) Pierre ex Dubard",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1248
+    },
+    "lft": 3303,
+    "rght": 3304,
+    "level": 2,
+    "parent_id": 1221,
+    "taxon_id": 12791,
+    "total_occurrences_count": 37,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [167.454895, -21.0533977], \"count\": 3}, {\"coordinates\": [167.08111572265625, -20.931110382080078], \"count\": 2}, {\"coordinates\": [167.8625030517578, -21.58860969543457], \"count\": 1}, {\"coordinates\": [168.044339, -21.4691575], \"count\": 2}, {\"coordinates\": [167.0811111, -20.9311111], \"count\": 2}, {\"coordinates\": [167.2364089, -20.9559721], \"count\": 6}, {\"coordinates\": [167.8656328, -21.5854682], \"count\": 2}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [167.9794457, -21.5172018], \"count\": 7}, {\"coordinates\": [167.1183319091797, -20.985830307006836], \"count\": 1}, {\"coordinates\": [167.1183, -20.9858], \"count\": 1}, {\"coordinates\": [167.0811, -20.9311], \"count\": 2}, {\"coordinates\": [167.18636340951602, -20.867913613939024], \"count\": 1}, {\"coordinates\": [167.938958574662, -21.391911022300317], \"count\": 1}, {\"coordinates\": [167.88637, -21.53947], \"count\": 2}, {\"coordinates\": [167.8625, -21.5886], \"count\": 1}, {\"coordinates\": [167.40361122096118, -21.167264551495823], \"count\": 1}, {\"coordinates\": [167.469722222222, -22.61], \"count\": 1}]}",
+    "species_top": {
+        "Planchonella lifuana": 37
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 35,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                0,
+                0,
+                100.0,
+                0,
+                66.67,
+                0,
+                0.0,
+                100.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 12.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 100.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 5.41,
+            "1500": 94.59,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 2.7,
+            "2": 97.3
+        }
+    }
+}

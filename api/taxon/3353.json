@@ -1,0 +1,135 @@
+{
+    "id": 3353,
+    "full_name": "Ficus leiocarpa",
+    "authors": "(Bureau) Warb.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4091
+    },
+    "lft": 1725,
+    "rght": 1726,
+    "level": 2,
+    "parent_id": 774,
+    "taxon_id": 3353,
+    "total_occurrences_count": 44,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.1239194, -21.15675], \"count\": 1}, {\"coordinates\": [165.8188889, -21.5794444], \"count\": 1}, {\"coordinates\": [165.8663712, -21.6252617], \"count\": 1}, {\"coordinates\": [164.9195583, -20.9500467], \"count\": 1}, {\"coordinates\": [165.3498972, -21.4349833], \"count\": 1}, {\"coordinates\": [165.068845218165, -21.11092437123], \"count\": 3}, {\"coordinates\": [164.965104571808, -21.0877219516296], \"count\": 1}, {\"coordinates\": [165.120361, -21.148142], \"count\": 2}, {\"coordinates\": [164.92032939444445, -20.95063654722222], \"count\": 3}, {\"coordinates\": [164.76508333333334, -20.74147222222222], \"count\": 1}, {\"coordinates\": [165.25464722222222, -21.187136111111112], \"count\": 3}, {\"coordinates\": [165.95947265625, -21.526689529418945], \"count\": 6}, {\"coordinates\": [164.692469, -20.741222], \"count\": 1}, {\"coordinates\": [165.0077777778, -20.8519444444], \"count\": 1}, {\"coordinates\": [165.96665954589844, -21.649999618530273], \"count\": 1}, {\"coordinates\": [164.9326465, -20.975783], \"count\": 1}, {\"coordinates\": [165.00778198242188, -20.851940155029297], \"count\": 2}, {\"coordinates\": [165.8652801513672, -21.625560760498047], \"count\": 1}, {\"coordinates\": [167.43755881241808, -22.66342458833868], \"count\": 1}, {\"coordinates\": [167.467064, -22.6175478], \"count\": 1}, {\"coordinates\": [165.8459930419922, -21.641199111938477], \"count\": 1}, {\"coordinates\": [164.3885498046875, -20.270830154418945], \"count\": 1}, {\"coordinates\": [166.0500030517578, -21.850000381469727], \"count\": 1}, {\"coordinates\": [165.8000030517578, -21.600000381469727], \"count\": 1}, {\"coordinates\": [164.5356892, -20.5906277], \"count\": 1}, {\"coordinates\": [165.8188934326172, -21.579450607299805], \"count\": 1}, {\"coordinates\": [164.919558779399, -20.9507767359416], \"count\": 1}, {\"coordinates\": [164.37351, -20.2884525], \"count\": 1}, {\"coordinates\": [165.8841667, -21.6186111], \"count\": 1}, {\"coordinates\": [165.84515380859375, -21.64211082458496], \"count\": 1}, {\"coordinates\": [166.4158172607422, -22.15945053100586], \"count\": 1}]}",
+    "species_top": {
+        "Ficus leiocarpa": 44
+    },
+    "um_occurrences_true": 4,
+    "um_occurrences_false": 40,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                0.0
+            ],
+            "fruiting": [
+                50.0,
+                100.0,
+                0,
+                50.0,
+                25.0,
+                0,
+                0,
+                0,
+                40.0,
+                100.0,
+                0.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.96,
+    "dbh_max": 17.2,
+    "dbh_median": 11.1,
+    "dbh_min": 9.4,
+    "height_max": 7.0,
+    "wood_density_mean": 0.66,
+    "wood_density_max": 0.7,
+    "wood_density_min": 0.62,
+    "bark_thickness_mean": 4.5,
+    "bark_thickness_max": 7.5,
+    "bark_thickness_min": 3.5,
+    "leaf_sla_mean": 10.32,
+    "leaf_sla_max": 11.19,
+    "leaf_sla_min": 9.71,
+    "leaf_area_mean": 33.32,
+    "leaf_area_max": 43.17,
+    "leaf_area_min": 23.22,
+    "leaf_thickness_mean": 195.15,
+    "leaf_thickness_max": 197.52,
+    "leaf_thickness_min": 191.17,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 13.33,
+            "200": 0.0,
+            "300": 23.33,
+            "400": 20.0,
+            "500": 16.67,
+            "600": 3.33,
+            "700": 6.67,
+            "800": 13.33,
+            "900": 3.33,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 23.26,
+            "1500": 39.53,
+            "2000": 30.23,
+            "2500": 6.98,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 20.59,
+            "2": 79.41
+        },
+        "strate": {
+            "1": 55.56,
+            "2": 44.44,
+            "3": 0.0
+        }
+    }
+}

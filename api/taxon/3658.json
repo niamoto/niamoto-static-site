@@ -1,0 +1,130 @@
+{
+    "id": 3658,
+    "full_name": "Heritiera littoralis",
+    "authors": "Dryand.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4967
+    },
+    "lft": 1601,
+    "rght": 1602,
+    "level": 2,
+    "parent_id": 857,
+    "taxon_id": 3658,
+    "total_occurrences_count": 71,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.3073118, -20.2438681], \"count\": 1}, {\"coordinates\": [166.487002, -22.2380552], \"count\": 1}, {\"coordinates\": [166.73333, -22.01667], \"count\": 1}, {\"coordinates\": [165.7180556, -21.7288889], \"count\": 1}, {\"coordinates\": [166.4486111, -22.1580556], \"count\": 1}, {\"coordinates\": [164.969866102457, -21.3255390888529], \"count\": 1}, {\"coordinates\": [164.974463725074, -21.3167934677496], \"count\": 1}, {\"coordinates\": [164.841407944975, -21.0698724669026], \"count\": 1}, {\"coordinates\": [165.4564316, -21.6069698], \"count\": 1}, {\"coordinates\": [164.95361328125, -21.356109619140625], \"count\": 2}, {\"coordinates\": [165.02528381347656, -21.299720764160156], \"count\": 1}, {\"coordinates\": [166.6366487, -22.2724676], \"count\": 1}, {\"coordinates\": [166.0440947, -21.8735728], \"count\": 2}, {\"coordinates\": [165.3803673, -21.0169663], \"count\": 1}, {\"coordinates\": [166.42426800000032, -22.166900000659396], \"count\": 1}, {\"coordinates\": [165.006984205164, -21.3147334245728], \"count\": 1}, {\"coordinates\": [164.973158, -21.3197], \"count\": 1}, {\"coordinates\": [164.65579093718, -20.9877663682834], \"count\": 1}, {\"coordinates\": [165.011874420751, -21.3110847079192], \"count\": 1}, {\"coordinates\": [166.44345000000033, -22.167361000659398], \"count\": 1}, {\"coordinates\": [164.972069407988, -21.3468048430361], \"count\": 2}, {\"coordinates\": [166.44224080122868, -22.158339039894084], \"count\": 1}, {\"coordinates\": [165.7180633544922, -21.72888946533203], \"count\": 1}, {\"coordinates\": [164.80221557617188, -20.5686092376709], \"count\": 1}, {\"coordinates\": [165.9499969482422, -21.53333282470703], \"count\": 2}, {\"coordinates\": [165.4656219482422, -21.613052368164062], \"count\": 1}, {\"coordinates\": [165.23638916015625, -21.014999389648438], \"count\": 1}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 1}, {\"coordinates\": [166.44756200000035, -22.154926000659135], \"count\": 1}, {\"coordinates\": [165.27743530273438, -20.889179229736328], \"count\": 1}, {\"coordinates\": [166.52333068847656, -20.666940689086914], \"count\": 1}, {\"coordinates\": [163.5927671, -19.5712029], \"count\": 1}, {\"coordinates\": [164.8027801513672, -20.56443977355957], \"count\": 1}, {\"coordinates\": [164.968553760673, -21.351171666198], \"count\": 1}, {\"coordinates\": [165.006973771361, -21.3185387047658], \"count\": 1}, {\"coordinates\": [164.950830456778, -21.1824355453825], \"count\": 1}, {\"coordinates\": [165.5595571187594, -21.195192118107226], \"count\": 1}, {\"coordinates\": [164.0262157, -20.2326689], \"count\": 1}, {\"coordinates\": [165.077224, -21.321421], \"count\": 1}, {\"coordinates\": [164.914690624667, -21.1635658288333], \"count\": 1}, {\"coordinates\": [166.5419407710917, -22.239895281813958], \"count\": 1}, {\"coordinates\": [164.973192639359, -21.3303074545641], \"count\": 1}, {\"coordinates\": [165.32777782, -21.00722221], \"count\": 1}, {\"coordinates\": [166.93861112, -22.3497222], \"count\": 1}, {\"coordinates\": [166.41064998, -22.15238096], \"count\": 1}]}",
+    "species_top": {
+        "Heritiera littoralis": 71
+    },
+    "um_occurrences_true": 10,
+    "um_occurrences_false": 61,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                33.33,
+                33.33,
+                50.0,
+                0.0,
+                50.0,
+                16.67,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                50.0,
+                0
+            ],
+            "fruiting": [
+                33.33,
+                0.0,
+                50.0,
+                100.0,
+                50.0,
+                16.67,
+                33.33,
+                75.0,
+                100.0,
+                50.0,
+                75.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 40.0,
+    "dbh_max": 40.0,
+    "dbh_median": 40.0,
+    "dbh_min": 40.0,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 100.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 33.33,
+            "200": 16.67,
+            "300": 16.67,
+            "400": 0.0,
+            "500": 33.33,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 56.25,
+            "1500": 15.62,
+            "2000": 6.25,
+            "2500": 15.62,
+            "3000": 6.25,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 75.61,
+            "2": 24.39
+        }
+    }
+}

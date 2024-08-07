@@ -1,0 +1,135 @@
+{
+    "id": 15651,
+    "full_name": "Plerandra taomensis",
+    "authors": "Lowry, G.M.Plunkett & Frodin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 6264
+    },
+    "lft": 267,
+    "rght": 268,
+    "level": 2,
+    "parent_id": 13530,
+    "taxon_id": 15651,
+    "total_occurrences_count": 64,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.590761, -20.7788888], \"count\": 2}, {\"coordinates\": [165.0238889, -21.1738889], \"count\": 2}, {\"coordinates\": [164.7854609, -21.003135], \"count\": 1}, {\"coordinates\": [165.1382306, -20.9604611], \"count\": 1}, {\"coordinates\": [164.58845854, -20.78245404], \"count\": 1}, {\"coordinates\": [165.140778334936, -20.9583333333333], \"count\": 1}, {\"coordinates\": [164.85116666158, -20.8511666615804], \"count\": 1}, {\"coordinates\": [165.138283332189, -20.9598333358765], \"count\": 1}, {\"coordinates\": [165.140134576667, -20.9587143421667], \"count\": 1}, {\"coordinates\": [165.0333333, -20.9166667], \"count\": 3}, {\"coordinates\": [165.1383333, -20.9605556], \"count\": 1}, {\"coordinates\": [164.5666667, -20.7833333], \"count\": 2}, {\"coordinates\": [164.8166667, -21.0], \"count\": 1}, {\"coordinates\": [165.4119444, -21.4291667], \"count\": 1}, {\"coordinates\": [165.1313889, -21.2377777], \"count\": 1}, {\"coordinates\": [164.5791667, -20.7952777], \"count\": 3}, {\"coordinates\": [165.0, -20.8966666], \"count\": 1}, {\"coordinates\": [164.3925, -20.62388889], \"count\": 1}, {\"coordinates\": [164.8311111, -20.9969444], \"count\": 1}, {\"coordinates\": [165.1166667, -21.2333333], \"count\": 1}, {\"coordinates\": [164.85053165481352, -20.858693205738426], \"count\": 1}, {\"coordinates\": [165.15, -21.25], \"count\": 1}, {\"coordinates\": [165.0166667, -21.1666667], \"count\": 1}, {\"coordinates\": [165.0186111, -20.9086111], \"count\": 1}, {\"coordinates\": [165.0222223, -20.9041667], \"count\": 1}, {\"coordinates\": [165.0252778, -21.1752778], \"count\": 1}, {\"coordinates\": [165.0959733501, -21.1677664798], \"count\": 1}, {\"coordinates\": [164.8311111, -20.997], \"count\": 3}, {\"coordinates\": [165.01861572265625, -20.908611297607422], \"count\": 1}, {\"coordinates\": [165.01666259765625, -21.166667938232422], \"count\": 1}, {\"coordinates\": [164.8508333, -20.8586111], \"count\": 1}, {\"coordinates\": [164.850830078125, -20.858610153198242], \"count\": 1}, {\"coordinates\": [165.13833618164062, -20.960556030273438], \"count\": 1}, {\"coordinates\": [165.03334045410156, -20.916667938232422], \"count\": 3}, {\"coordinates\": [164.57916259765625, -20.795278549194336], \"count\": 3}, {\"coordinates\": [164.83111572265625, -20.996944427490234], \"count\": 1}, {\"coordinates\": [165.0, -20.89666748046875], \"count\": 1}, {\"coordinates\": [165.02389526367188, -21.17388916015625], \"count\": 1}, {\"coordinates\": [165.02528381347656, -21.175277709960938], \"count\": 1}, {\"coordinates\": [164.9775493, -20.9040223], \"count\": 1}, {\"coordinates\": [164.8507111, -20.8522056], \"count\": 1}, {\"coordinates\": [165.022216796875, -20.90416717529297], \"count\": 1}, {\"coordinates\": [165.335894, -21.362521], \"count\": 1}, {\"coordinates\": [164.56666564941406, -20.78333282470703], \"count\": 2}, {\"coordinates\": [165.11666870117188, -21.233333587646484], \"count\": 1}, {\"coordinates\": [164.81666564941406, -21.0], \"count\": 1}, {\"coordinates\": [165.4119415283203, -21.429166793823242], \"count\": 1}, {\"coordinates\": [165.14999389648438, -21.25], \"count\": 1}, {\"coordinates\": [165.094375703749, -21.1690623785814], \"count\": 1}, {\"coordinates\": [165.1313934326172, -21.237777709960938], \"count\": 1}]}",
+    "species_top": {
+        "Plerandra taomensis": 64
+    },
+    "um_occurrences_true": 58,
+    "um_occurrences_false": 6,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                33.33,
+                100.0,
+                66.67,
+                0,
+                66.67
+            ],
+            "fruiting": [
+                0,
+                50.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                66.67,
+                0,
+                33.33
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 9.23,
+    "dbh_max": 11.5,
+    "dbh_median": 9.7,
+    "dbh_min": 6.0,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 9.38,
+            "400": 3.12,
+            "500": 9.38,
+            "600": 1.56,
+            "700": 31.25,
+            "800": 25.0,
+            "900": 10.94,
+            "1000": 3.12,
+            "1100": 1.56,
+            "1200": 4.69
+        },
+        "rainfall": {
+            "1000": 7.81,
+            "1500": 29.69,
+            "2000": 50.0,
+            "2500": 9.38,
+            "3000": 3.12,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

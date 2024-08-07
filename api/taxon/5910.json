@@ -1,0 +1,130 @@
+{
+    "id": 5910,
+    "full_name": "Syzygium pterocalyx",
+    "authors": "Brongn. & Gris",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4286
+    },
+    "lft": 2075,
+    "rght": 2076,
+    "level": 2,
+    "parent_id": 1439,
+    "taxon_id": 5910,
+    "total_occurrences_count": 45,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.2440152778, -20.4859138889], \"count\": 1}, {\"coordinates\": [164.0262157, -20.2326689], \"count\": 1}, {\"coordinates\": [166.1973961, -21.5869637], \"count\": 2}, {\"coordinates\": [164.5643884, -20.8110886], \"count\": 2}, {\"coordinates\": [164.2363889, -20.4866667], \"count\": 1}, {\"coordinates\": [166.4180556, -21.7205556], \"count\": 4}, {\"coordinates\": [164.1811111, -20.4096389], \"count\": 1}, {\"coordinates\": [166.9215829, -22.3872928], \"count\": 4}, {\"coordinates\": [164.0413441, -20.2571573], \"count\": 1}, {\"coordinates\": [166.1941680908203, -21.59000015258789], \"count\": 4}, {\"coordinates\": [164.5611114501953, -20.814170837402344], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 1}, {\"coordinates\": [164.0297945, -20.2518717], \"count\": 2}, {\"coordinates\": [164.02855700000083, -20.250215000611465], \"count\": 1}, {\"coordinates\": [166.9183349609375, -22.39027976989746], \"count\": 2}, {\"coordinates\": [164.2366461679028, -20.486691474050065], \"count\": 1}, {\"coordinates\": [166.81805419921875, -22.324169158935547], \"count\": 1}, {\"coordinates\": [164.02600900000084, -20.246115000611372], \"count\": 1}, {\"coordinates\": [166.19417, -21.59], \"count\": 4}, {\"coordinates\": [164.02626956192265, -20.24761012450075], \"count\": 2}, {\"coordinates\": [164.02883574141592, -20.250780595871824], \"count\": 1}, {\"coordinates\": [164.1315742, -20.3854913], \"count\": 1}, {\"coordinates\": [164.56111, -20.81417], \"count\": 1}, {\"coordinates\": [164.01817987244434, -20.25076493675112], \"count\": 1}, {\"coordinates\": [164.24401538833848, -20.48591401215071], \"count\": 1}, {\"coordinates\": [164.208631, -20.4568555], \"count\": 1}, {\"coordinates\": [166.91833, -22.39028], \"count\": 2}]}",
+    "species_top": {
+        "Syzygium pterocalyx": 45
+    },
+    "um_occurrences_true": 41,
+    "um_occurrences_false": 4,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                66.67,
+                0.0,
+                66.67,
+                0,
+                100.0,
+                100.0,
+                0.0,
+                66.67,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                33.33,
+                100.0,
+                33.33,
+                0,
+                0.0,
+                0.0,
+                100.0,
+                100.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 37.5,
+    "dbh_max": 60.0,
+    "dbh_median": 32.5,
+    "dbh_min": 25.0,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 50.0,
+            "30": 0.0,
+            "40": 25.0,
+            "50": 25.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 56.52,
+            "200": 4.35,
+            "300": 34.78,
+            "400": 0.0,
+            "500": 4.35,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 19.51,
+            "1500": 48.78,
+            "2000": 31.71,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 22.22,
+            "2": 77.78
+        }
+    }
+}

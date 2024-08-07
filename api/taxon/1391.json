@@ -1,0 +1,131 @@
+{
+    "id": 1391,
+    "full_name": "Sonneratia",
+    "authors": "L.f.",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 566
+    },
+    "lft": 1536,
+    "rght": 1541,
+    "level": 1,
+    "parent_id": 124,
+    "taxon_id": 1391,
+    "total_occurrences_count": 83,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.2064924, -20.5088171], \"count\": 1}, {\"coordinates\": [165.2551126, -20.8625036], \"count\": 1}, {\"coordinates\": [165.7180556, -21.7288889], \"count\": 3}, {\"coordinates\": [166.461986, -22.2131866], \"count\": 1}, {\"coordinates\": [163.7974848, -20.0546569], \"count\": 1}, {\"coordinates\": [166.5641667, -22.1766389], \"count\": 1}, {\"coordinates\": [165.1670167, -20.7833433], \"count\": 1}, {\"coordinates\": [164.93885803222656, -21.337629318237305], \"count\": 1}, {\"coordinates\": [166.07943725585938, -21.533889770507812], \"count\": 1}, {\"coordinates\": [165.95944213867188, -21.526670455932617], \"count\": 1}, {\"coordinates\": [166.592617, -22.2621238], \"count\": 1}, {\"coordinates\": [166.89833068847656, -22.063060760498047], \"count\": 1}, {\"coordinates\": [165.7180633544922, -21.72888946533203], \"count\": 4}, {\"coordinates\": [166.45443725585938, -22.303890228271484], \"count\": 2}, {\"coordinates\": [166.1530362, -21.9575672], \"count\": 1}, {\"coordinates\": [165.55962437672318, -21.195246491915487], \"count\": 1}, {\"coordinates\": [164.290283203125, -20.246110916137695], \"count\": 1}, {\"coordinates\": [166.0382804, -21.4672227], \"count\": 1}, {\"coordinates\": [164.995359609256, -21.3324931272905], \"count\": 1}, {\"coordinates\": [165.218243455245, -20.7717175213903], \"count\": 1}, {\"coordinates\": [165.002174023671, -21.3319367277897], \"count\": 1}, {\"coordinates\": [166.4331973, -22.166286], \"count\": 1}, {\"coordinates\": [163.80917358398438, -20.046390533447266], \"count\": 2}, {\"coordinates\": [166.9015205, -22.0598755], \"count\": 1}, {\"coordinates\": [166.0826044, -21.5307204], \"count\": 1}, {\"coordinates\": [165.25860595703125, -20.805559158325195], \"count\": 1}, {\"coordinates\": [166.5519473, -22.2277743], \"count\": 1}, {\"coordinates\": [166.88157653808594, -22.16303062438965], \"count\": 1}, {\"coordinates\": [166.45925903320312, -22.30824089050293], \"count\": 1}, {\"coordinates\": [165.25448608398438, -20.836660385131836], \"count\": 1}, {\"coordinates\": [164.998655347636, -21.3354765361139], \"count\": 1}, {\"coordinates\": [166.5913694, -22.2903462], \"count\": 1}, {\"coordinates\": [165.1311944, -21.0], \"count\": 1}, {\"coordinates\": [165.25193786621094, -20.86556053161621], \"count\": 2}, {\"coordinates\": [165.3014175, -20.9110864], \"count\": 1}, {\"coordinates\": [165.3237027778, -21.0000861111], \"count\": 1}, {\"coordinates\": [165.2481036, -20.9432879], \"count\": 1}, {\"coordinates\": [165.131103515625, -21.0], \"count\": 1}, {\"coordinates\": [165.1725, -20.78335], \"count\": 1}, {\"coordinates\": [165.29806518554688, -20.914169311523438], \"count\": 4}, {\"coordinates\": [165.11666870117188, -20.933330535888672], \"count\": 1}, {\"coordinates\": [165.32777782, -21.00722221], \"count\": 1}]}",
+    "species_top": {
+        "Sonneratia alba": 62,
+        "Sonneratia caseolaris": 19
+    },
+    "um_occurrences_true": 16,
+    "um_occurrences_false": 67,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                62.5,
+                75.0,
+                50.0,
+                100.0,
+                40.0,
+                0.0,
+                0.0,
+                0,
+                75.0,
+                100.0,
+                0,
+                0.0
+            ],
+            "fruiting": [
+                37.5,
+                25.0,
+                50.0,
+                100.0,
+                60.0,
+                40.0,
+                75.0,
+                0,
+                25.0,
+                0.0,
+                0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 17.5,
+    "dbh_max": 20.0,
+    "dbh_median": 17.5,
+    "dbh_min": 15.0,
+    "height_max": 12.19,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 50.0,
+            "20": 50.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 80.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 20.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 28.21,
+            "1500": 20.51,
+            "2000": 30.77,
+            "2500": 20.51,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 51.35,
+            "2": 48.65
+        }
+    }
+}

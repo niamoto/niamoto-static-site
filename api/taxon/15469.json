@@ -1,0 +1,135 @@
+{
+    "id": 15469,
+    "full_name": "Myrsine arborea",
+    "authors": "(M.Schmid) Ricketson & Pipoly ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5952
+    },
+    "lft": 2509,
+    "rght": 2510,
+    "level": 2,
+    "parent_id": 15468,
+    "taxon_id": 15469,
+    "total_occurrences_count": 69,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.780212, -20.62504], \"count\": 4}, {\"coordinates\": [165.7713889, -21.6194444], \"count\": 1}, {\"coordinates\": [164.7825, -20.6244444], \"count\": 1}, {\"coordinates\": [166.5131965, -22.1749806], \"count\": 1}, {\"coordinates\": [165.4758889, -21.2411111], \"count\": 1}, {\"coordinates\": [166.0493461, -21.633461], \"count\": 1}, {\"coordinates\": [165.78349, -21.5986667], \"count\": 2}, {\"coordinates\": [165.4969722222222, -21.36047222222222], \"count\": 1}, {\"coordinates\": [164.7444444, -20.6022222], \"count\": 1}, {\"coordinates\": [165.2454728, -20.9978359], \"count\": 1}, {\"coordinates\": [165.765149, -21.623729], \"count\": 3}, {\"coordinates\": [165.765339, -21.623186], \"count\": 2}, {\"coordinates\": [165.765528, -21.622281], \"count\": 1}, {\"coordinates\": [165.765526, -21.62192], \"count\": 4}, {\"coordinates\": [165.765341, -21.623547], \"count\": 2}, {\"coordinates\": [165.76476, -21.623369], \"count\": 1}, {\"coordinates\": [165.764941, -21.621019], \"count\": 1}, {\"coordinates\": [165.765136, -21.621199], \"count\": 1}, {\"coordinates\": [165.764564, -21.622828], \"count\": 1}, {\"coordinates\": [165.765721, -21.62228], \"count\": 1}, {\"coordinates\": [165.764378, -21.624093], \"count\": 3}, {\"coordinates\": [165.4765625, -21.24147605896], \"count\": 2}, {\"coordinates\": [164.4378741737, -20.3060228471], \"count\": 2}, {\"coordinates\": [164.86138888888888, -20.64161111111111], \"count\": 6}, {\"coordinates\": [164.86911111111112, -20.64027777777778], \"count\": 4}, {\"coordinates\": [165.96769444444445, -21.594694444444443], \"count\": 1}, {\"coordinates\": [164.87133333333333, -20.640805555555556], \"count\": 1}, {\"coordinates\": [164.86138916015625, -20.64167022705078], \"count\": 1}, {\"coordinates\": [164.86669921875, -20.63330078125], \"count\": 1}, {\"coordinates\": [164.8668133, -20.6333583], \"count\": 1}, {\"coordinates\": [164.78250122070312, -20.624439239501953], \"count\": 1}, {\"coordinates\": [164.74000549316406, -20.613611221313477], \"count\": 1}, {\"coordinates\": [164.74000549316406, -20.613609313964844], \"count\": 1}, {\"coordinates\": [165.24221801757812, -21.000829696655273], \"count\": 6}, {\"coordinates\": [164.866943359375, -20.633329391479492], \"count\": 1}, {\"coordinates\": [164.7802734375, -20.614999771118164], \"count\": 1}, {\"coordinates\": [165.415208, -21.4261256], \"count\": 1}, {\"coordinates\": [164.7803333, -20.6151639], \"count\": 1}, {\"coordinates\": [164.85000610351562, -20.63330078125], \"count\": 1}, {\"coordinates\": [164.8613611, -20.6416111], \"count\": 1}, {\"coordinates\": [165.77492096, -21.60249097], \"count\": 1}]}",
+    "species_top": {
+        "Myrsine arborea": 69
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 67,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                20.0,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                100.0,
+                60.0,
+                0,
+                100.0,
+                0,
+                40.0,
+                100.0,
+                0.0,
+                0.0,
+                40.0,
+                8.82,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 14.35,
+    "dbh_max": 34.1,
+    "dbh_median": 12.7,
+    "dbh_min": 5.1,
+    "height_max": 20.0,
+    "wood_density_mean": 0.68,
+    "wood_density_max": 0.68,
+    "wood_density_min": 0.68,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 83.87,
+            "20": 3.23,
+            "30": 12.9,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 1.45,
+            "200": 4.35,
+            "300": 2.9,
+            "400": 43.48,
+            "500": 17.39,
+            "600": 10.14,
+            "700": 5.8,
+            "800": 0.0,
+            "900": 14.49,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 34.78,
+            "2000": 8.7,
+            "2500": 15.94,
+            "3000": 27.54,
+            "3500": 11.59,
+            "4000": 1.45,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 25.0,
+            "2": 25.0,
+            "3": 50.0
+        }
+    }
+}

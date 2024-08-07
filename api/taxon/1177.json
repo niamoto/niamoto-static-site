@@ -1,0 +1,130 @@
+{
+    "id": 1177,
+    "full_name": "Pavetta",
+    "authors": "L.",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 2202
+    },
+    "lft": 2872,
+    "rght": 2875,
+    "level": 1,
+    "parent_id": 189,
+    "taxon_id": 1177,
+    "total_occurrences_count": 94,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.487002, -22.2380552], \"count\": 3}, {\"coordinates\": [167.4730564, -22.6069583], \"count\": 4}, {\"coordinates\": [167.467064, -22.6175478], \"count\": 1}, {\"coordinates\": [164.1886222, -20.4845589], \"count\": 1}, {\"coordinates\": [166.55327100000045, -22.21547100066052], \"count\": 1}, {\"coordinates\": [166.2996020000002, -22.088877000657536], \"count\": 1}, {\"coordinates\": [164.185198799929, -20.5581592537527], \"count\": 1}, {\"coordinates\": [166.3992488, -22.2572078], \"count\": 1}, {\"coordinates\": [167.1261858, -21.0474818], \"count\": 1}, {\"coordinates\": [164.2906787, -20.5552568], \"count\": 2}, {\"coordinates\": [166.4549223, -22.3075441], \"count\": 2}, {\"coordinates\": [166.0303278, -21.9408333], \"count\": 1}, {\"coordinates\": [166.4036009, -22.2338786], \"count\": 1}, {\"coordinates\": [164.433570082209, -20.6250591146775], \"count\": 1}, {\"coordinates\": [167.2929305, -21.0452858], \"count\": 1}, {\"coordinates\": [167.2364089, -20.9559721], \"count\": 1}, {\"coordinates\": [164.3289108, -20.5091513], \"count\": 1}, {\"coordinates\": [167.428897, -22.5499363], \"count\": 1}, {\"coordinates\": [167.522978, -22.593577], \"count\": 1}, {\"coordinates\": [166.261728, -22.176967], \"count\": 1}, {\"coordinates\": [166.4516198, -22.3053782], \"count\": 1}, {\"coordinates\": [164.186056648983, -20.5589260546522], \"count\": 2}, {\"coordinates\": [164.4702778, -20.6218833], \"count\": 1}, {\"coordinates\": [166.2513207, -22.1470511], \"count\": 1}, {\"coordinates\": [167.9794457, -21.5172018], \"count\": 1}, {\"coordinates\": [165.0978415, -21.3561609], \"count\": 1}, {\"coordinates\": [166.5693906, -20.5629694], \"count\": 1}, {\"coordinates\": [166.2864264, -22.1795713], \"count\": 1}, {\"coordinates\": [164.037758284368, -20.4057021225201], \"count\": 1}, {\"coordinates\": [163.663461, -19.7185171], \"count\": 1}, {\"coordinates\": [166.3046350482219, -22.094338401248667], \"count\": 1}, {\"coordinates\": [167.0359484, -22.2569925], \"count\": 1}, {\"coordinates\": [164.043242212584, -20.1761848859452], \"count\": 1}, {\"coordinates\": [164.0355028736, -20.4052328647989], \"count\": 1}, {\"coordinates\": [165.263726973796, -21.5484070837344], \"count\": 1}, {\"coordinates\": [166.4592085, -22.2574446], \"count\": 2}, {\"coordinates\": [164.4742328, -20.6458724], \"count\": 1}, {\"coordinates\": [164.1852395, -20.5585409], \"count\": 1}, {\"coordinates\": [166.45693604, -22.25740195], \"count\": 1}]}",
+    "species_top": {
+        "Pavetta opulina": 75
+    },
+    "um_occurrences_true": 7,
+    "um_occurrences_false": 87,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                50.0,
+                33.33,
+                33.33,
+                33.33,
+                20.0,
+                50.0,
+                37.5,
+                100.0,
+                100.0,
+                68.42,
+                100.0
+            ],
+            "fruiting": [
+                16.67,
+                33.33,
+                50.0,
+                66.67,
+                83.33,
+                90.0,
+                50.0,
+                37.5,
+                20.0,
+                0.0,
+                31.58,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.0,
+    "dbh_max": 6.0,
+    "dbh_median": 6.0,
+    "dbh_min": 6.0,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 25.0,
+            "200": 50.0,
+            "300": 25.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 83.33,
+            "1500": 13.89,
+            "2000": 0.0,
+            "2500": 2.78,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 65.96,
+            "2": 34.04
+        }
+    }
+}

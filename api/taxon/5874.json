@@ -1,0 +1,130 @@
+{
+    "id": 5874,
+    "full_name": "Syzygium conceptionis",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4264
+    },
+    "lft": 2029,
+    "rght": 2030,
+    "level": 2,
+    "parent_id": 1439,
+    "taxon_id": 5874,
+    "total_occurrences_count": 54,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.92011, -22.32465], \"count\": 2}, {\"coordinates\": [165.0456241, -21.166711], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 2}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 12}, {\"coordinates\": [165.04302099, -21.17128486], \"count\": 1}, {\"coordinates\": [166.91225353, -22.3265746], \"count\": 1}, {\"coordinates\": [166.91551666666666, -22.324775], \"count\": 4}, {\"coordinates\": [166.916475, -22.3241], \"count\": 5}, {\"coordinates\": [166.91544444444443, -22.323611111111113], \"count\": 1}, {\"coordinates\": [164.87527465820312, -20.94972038269043], \"count\": 1}, {\"coordinates\": [166.5044403076172, -22.209720611572266], \"count\": 2}, {\"coordinates\": [165.08544400334344, -21.191853136459642], \"count\": 1}, {\"coordinates\": [165.256103515625, -21.0563907623291], \"count\": 1}, {\"coordinates\": [165.7050018310547, -21.523330688476562], \"count\": 1}, {\"coordinates\": [165.0447614955615, -21.220810778173007], \"count\": 1}, {\"coordinates\": [166.450345, -22.1517139], \"count\": 1}, {\"coordinates\": [165.1911163330078, -20.821388244628906], \"count\": 1}, {\"coordinates\": [165.04222106933594, -21.169719696044922], \"count\": 1}, {\"coordinates\": [164.8786472, -20.9467256], \"count\": 2}, {\"coordinates\": [165.07305446080852, -21.183116930240796], \"count\": 1}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 1}, {\"coordinates\": [166.9155166667, -22.324775], \"count\": 1}, {\"coordinates\": [166.9154444444, -22.3236111111], \"count\": 1}, {\"coordinates\": [166.53740107629167, -22.181420456640197], \"count\": 1}, {\"coordinates\": [165.04222, -21.16972], \"count\": 1}, {\"coordinates\": [165.705, -21.52333], \"count\": 1}, {\"coordinates\": [166.9163289, -22.3224198], \"count\": 1}, {\"coordinates\": [164.87528, -20.94972], \"count\": 1}, {\"coordinates\": [166.54084298, -22.178624], \"count\": 1}, {\"coordinates\": [166.50444, -22.20972], \"count\": 1}, {\"coordinates\": [165.25611, -21.05639], \"count\": 1}, {\"coordinates\": [165.0422193432121, -21.169724653597584], \"count\": 1}]}",
+    "species_top": {
+        "Syzygium conceptionis": 54
+    },
+    "um_occurrences_true": 42,
+    "um_occurrences_false": 12,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                0.0,
+                0.0,
+                0,
+                100.0,
+                0,
+                100.0,
+                0.0,
+                0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                100.0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                100.0,
+                0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.41,
+    "dbh_max": 36.3,
+    "dbh_median": 9.5,
+    "dbh_min": 5.3,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 66.67,
+            "20": 22.22,
+            "30": 11.11,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 32.69,
+            "200": 42.31,
+            "300": 3.85,
+            "400": 0.0,
+            "500": 7.69,
+            "600": 1.92,
+            "700": 9.62,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 1.92,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 9.26,
+            "1500": 22.22,
+            "2000": 12.96,
+            "2500": 55.56,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 9.09,
+            "2": 90.91
+        }
+    }
+}

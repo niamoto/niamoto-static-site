@@ -1,0 +1,131 @@
+{
+    "id": 1048,
+    "full_name": "Menepetalum",
+    "authors": "Loes.",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 3453
+    },
+    "lft": 596,
+    "rght": 601,
+    "level": 1,
+    "parent_id": 52,
+    "taxon_id": 1048,
+    "total_occurrences_count": 55,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5183275, -22.1958116], \"count\": 1}, {\"coordinates\": [166.5302696, -22.1752938], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 2}, {\"coordinates\": [166.5253085, -22.1788004], \"count\": 1}, {\"coordinates\": [166.5196704, -22.040255], \"count\": 1}, {\"coordinates\": [166.4459062, -22.0767633], \"count\": 2}, {\"coordinates\": [166.4631195, -22.0355682], \"count\": 2}, {\"coordinates\": [166.5038889, -21.9930556], \"count\": 1}, {\"coordinates\": [166.4991332, -21.852281], \"count\": 1}, {\"coordinates\": [166.4700419, -22.0281815], \"count\": 1}, {\"coordinates\": [166.4783333, -22.0047222], \"count\": 1}, {\"coordinates\": [166.50045, -21.9666817], \"count\": 1}, {\"coordinates\": [166.5086111, -21.9819444], \"count\": 1}, {\"coordinates\": [166.4611611111, -22.0384555556], \"count\": 1}, {\"coordinates\": [164.80633161, -20.99041331], \"count\": 1}, {\"coordinates\": [164.79085846, -20.96196594], \"count\": 1}, {\"coordinates\": [164.75557925, -20.95063252], \"count\": 1}, {\"coordinates\": [164.78291371, -20.95724365], \"count\": 1}, {\"coordinates\": [165.01072627, -21.17289451], \"count\": 1}, {\"coordinates\": [164.82966825, -21.00123609], \"count\": 1}, {\"coordinates\": [166.41647604, -21.88208098], \"count\": 1}, {\"coordinates\": [166.41240503, -21.88086898], \"count\": 1}, {\"coordinates\": [165.77263888888888, -21.60661111111111], \"count\": 1}, {\"coordinates\": [164.19367065059564, -20.45081507330809], \"count\": 1}, {\"coordinates\": [164.3933333, -20.6222222], \"count\": 1}, {\"coordinates\": [166.4711410002257, -22.09865400093836], \"count\": 1}, {\"coordinates\": [166.47187499974453, -22.09972700025007], \"count\": 1}, {\"coordinates\": [165.02184380824477, -21.170041936624223], \"count\": 1}, {\"coordinates\": [166.511361835271, -22.0613994507292], \"count\": 1}, {\"coordinates\": [166.4661111, -22.0213889], \"count\": 1}, {\"coordinates\": [165.02336999120175, -21.166455820521556], \"count\": 1}, {\"coordinates\": [165.228391523667, -20.8568843051667], \"count\": 1}, {\"coordinates\": [166.29925, -21.778], \"count\": 1}, {\"coordinates\": [165.77263698, -21.60660103], \"count\": 1}, {\"coordinates\": [166.56184501, -21.95417003], \"count\": 1}, {\"coordinates\": [166.50944798, -21.96602], \"count\": 1}, {\"coordinates\": [166.5900869, -22.1450291], \"count\": 1}, {\"coordinates\": [166.44345000000033, -22.167361000659398], \"count\": 1}, {\"coordinates\": [166.4582463, -22.0089614], \"count\": 1}, {\"coordinates\": [166.5339829, -21.9608885], \"count\": 1}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 2}, {\"coordinates\": [166.5131965, -22.1749806], \"count\": 1}, {\"coordinates\": [166.4629167, -22.0366528], \"count\": 1}, {\"coordinates\": [166.5094444, -21.9661111], \"count\": 1}, {\"coordinates\": [166.50310000000036, -22.121892000658285], \"count\": 1}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 1}, {\"coordinates\": [166.4005619, -21.752011], \"count\": 2}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 1}, {\"coordinates\": [166.5619444, -21.9541667], \"count\": 2}]}",
+    "species_top": {
+        "Menepetalum schlechteri Loes. subsp. schlechteri": 31,
+        "Menepetalum schlechteri": 22
+    },
+    "um_occurrences_true": 49,
+    "um_occurrences_false": 6,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                40.0,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                25.0,
+                0,
+                50.0,
+                33.33,
+                100.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                80.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                50.0,
+                0,
+                50.0,
+                33.33,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 8.85,
+    "dbh_max": 10.7,
+    "dbh_median": 8.85,
+    "dbh_min": 7.0,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 3.85,
+            "200": 0.0,
+            "300": 7.69,
+            "400": 9.62,
+            "500": 11.54,
+            "600": 11.54,
+            "700": 19.23,
+            "800": 5.77,
+            "900": 15.38,
+            "1000": 9.62,
+            "1100": 0.0,
+            "1200": 5.77
+        },
+        "rainfall": {
+            "1000": 3.64,
+            "1500": 23.64,
+            "2000": 20.0,
+            "2500": 20.0,
+            "3000": 12.73,
+            "3500": 12.73,
+            "4000": 5.45,
+            "4500": 1.82
+        },
+        "holdridge": {
+            "1": 3.85,
+            "2": 96.15
+        }
+    }
+}

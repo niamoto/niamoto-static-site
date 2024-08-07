@@ -1,0 +1,135 @@
+{
+    "id": 2703,
+    "full_name": "Cryptocarya mackeei",
+    "authors": "Kosterm.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 922
+    },
+    "lft": 1441,
+    "rght": 1442,
+    "level": 2,
+    "parent_id": 603,
+    "taxon_id": 2703,
+    "total_occurrences_count": 64,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4746338, -22.0412948], \"count\": 2}, {\"coordinates\": [166.4391666667, -21.8555555556], \"count\": 2}, {\"coordinates\": [166.9067677, -22.1559741], \"count\": 1}, {\"coordinates\": [166.4391666667, -21.8558333333], \"count\": 1}, {\"coordinates\": [166.4394444444, -21.855], \"count\": 1}, {\"coordinates\": [166.29925, -21.778], \"count\": 1}, {\"coordinates\": [166.4455472222, -22.0734916667], \"count\": 1}, {\"coordinates\": [165.7504763547, -21.4376642648], \"count\": 1}, {\"coordinates\": [164.8311111, -20.997], \"count\": 2}, {\"coordinates\": [166.4472816, -22.07602353], \"count\": 1}, {\"coordinates\": [166.0, -21.75], \"count\": 6}, {\"coordinates\": [166.40472412109375, -21.944169998168945], \"count\": 1}, {\"coordinates\": [166.52755737304688, -22.16822052001953], \"count\": 1}, {\"coordinates\": [166.29916381835938, -21.77805519104004], \"count\": 1}, {\"coordinates\": [166.40472412109375, -21.94416618347168], \"count\": 1}, {\"coordinates\": [166.44528198242188, -22.075830459594727], \"count\": 2}, {\"coordinates\": [165.9203338623047, -21.580989837646484], \"count\": 1}, {\"coordinates\": [166.53590393066406, -22.178409576416016], \"count\": 1}, {\"coordinates\": [166.18777465820312, -21.774169921875], \"count\": 1}, {\"coordinates\": [166.2455596923828, -21.929166793823242], \"count\": 1}, {\"coordinates\": [166.43943786621094, -21.854999542236328], \"count\": 2}, {\"coordinates\": [166.26026916503906, -21.939390182495117], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 1}, {\"coordinates\": [166.18777465820312, -21.774166107177734], \"count\": 1}, {\"coordinates\": [166.29916381835938, -21.778060913085938], \"count\": 3}, {\"coordinates\": [166.46665954589844, -22.049999237060547], \"count\": 2}, {\"coordinates\": [166.2488641, -21.9260053], \"count\": 1}, {\"coordinates\": [166.445556640625, -22.073610305786133], \"count\": 2}, {\"coordinates\": [166.2602721, -21.9393947], \"count\": 1}, {\"coordinates\": [166.29916381835938, -21.778610229492188], \"count\": 3}, {\"coordinates\": [166.44265747070312, -22.079830169677734], \"count\": 1}, {\"coordinates\": [166.4391632080078, -21.8558292388916], \"count\": 2}, {\"coordinates\": [166.2455596923828, -21.929170608520508], \"count\": 2}, {\"coordinates\": [166.03334045410156, -21.641666412353516], \"count\": 1}, {\"coordinates\": [166.7264118, -22.0295756], \"count\": 1}, {\"coordinates\": [166.2969722222, -21.7774444444], \"count\": 1}, {\"coordinates\": [166.4391632080078, -21.855560302734375], \"count\": 2}, {\"coordinates\": [166.3421630859375, -22.065629959106445], \"count\": 2}, {\"coordinates\": [166.55548298, -22.17075496], \"count\": 1}, {\"coordinates\": [166.59187218, -22.15853054], \"count\": 1}, {\"coordinates\": [166.59215832, -22.15893608], \"count\": 1}, {\"coordinates\": [166.50900905, -21.96551597], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 2}]}",
+    "species_top": {
+        "Cryptocarya mackeei": 64
+    },
+    "um_occurrences_true": 62,
+    "um_occurrences_false": 2,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                28.57,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                0,
+                100.0,
+                0,
+                100.0,
+                0.0,
+                50.0,
+                100.0,
+                0,
+                57.14,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.38,
+    "dbh_max": 11.6,
+    "dbh_median": 10.2,
+    "dbh_min": 9.9,
+    "height_max": 8.0,
+    "wood_density_mean": 0.7,
+    "wood_density_max": 0.7,
+    "wood_density_min": 0.7,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 4.76,
+            "300": 1.59,
+            "400": 3.17,
+            "500": 6.35,
+            "600": 3.17,
+            "700": 6.35,
+            "800": 46.03,
+            "900": 22.22,
+            "1000": 6.35,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 14.06,
+            "2000": 40.62,
+            "2500": 42.19,
+            "3000": 1.56,
+            "3500": 0.0,
+            "4000": 1.56,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "id": 13351,
+    "full_name": "Ixora margaretae",
+    "authors": "(N.Hall\u00e9) Mouly & B.Bremer",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 610
+    },
+    "lft": 2851,
+    "rght": 2852,
+    "level": 2,
+    "parent_id": 906,
+    "taxon_id": 13351,
+    "total_occurrences_count": 42,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.730896314299, -20.8562895123126], \"count\": 1}, {\"coordinates\": [164.732715313806, -20.8570477476377], \"count\": 1}, {\"coordinates\": [164.9383333, -21.1386111], \"count\": 2}, {\"coordinates\": [164.73125, -20.8575011], \"count\": 2}, {\"coordinates\": [164.9746913889, -20.6833102778], \"count\": 2}, {\"coordinates\": [165.0410645, -21.3380071], \"count\": 4}, {\"coordinates\": [165.9933333, -21.7572222], \"count\": 2}, {\"coordinates\": [164.931440785232, -21.1377738420272], \"count\": 1}, {\"coordinates\": [164.925967009877, -21.137354751705], \"count\": 1}, {\"coordinates\": [164.917007319554, -21.1374672531792], \"count\": 1}, {\"coordinates\": [164.731038856506, -20.8574549992879], \"count\": 1}, {\"coordinates\": [164.732632191976, -20.8564293543498], \"count\": 1}, {\"coordinates\": [164.937926673889, -21.1352198282878], \"count\": 2}, {\"coordinates\": [164.731634839376, -20.8574266433716], \"count\": 1}, {\"coordinates\": [164.731068166097, -20.8575516382853], \"count\": 1}, {\"coordinates\": [164.473910461217, -20.6580719160713], \"count\": 1}, {\"coordinates\": [164.732855860392, -20.8553661982218], \"count\": 1}, {\"coordinates\": [165.98592, -21.6958088889], \"count\": 2}, {\"coordinates\": [166.067555, -21.8038572], \"count\": 2}, {\"coordinates\": [165.983366, -21.686066], \"count\": 1}, {\"coordinates\": [164.9581438, -21.328327], \"count\": 1}, {\"coordinates\": [164.93611, -21.13528], \"count\": 3}, {\"coordinates\": [164.7328631, -20.8555961], \"count\": 1}, {\"coordinates\": [164.7327083, -20.8563889], \"count\": 2}, {\"coordinates\": [164.7327778, -20.8554167], \"count\": 1}, {\"coordinates\": [165.04017572, -21.33598241], \"count\": 1}, {\"coordinates\": [165.14663403, -21.42448503], \"count\": 1}, {\"coordinates\": [164.89491502, -21.17869197], \"count\": 1}]}",
+    "species_top": {
+        "Ixora margaretae": 42
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 39,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                66.67,
+                33.33,
+                0.0,
+                100.0,
+                0.0,
+                25.0,
+                50.0,
+                0,
+                100.0,
+                80.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                50.0,
+                0.0,
+                50.0,
+                0.0,
+                0,
+                0.0,
+                60.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 15.79,
+            "500": 36.84,
+            "600": 36.84,
+            "700": 10.53,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 63.64,
+            "1500": 4.55,
+            "2000": 31.82,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 80.49,
+            "2": 19.51
+        }
+    }
+}

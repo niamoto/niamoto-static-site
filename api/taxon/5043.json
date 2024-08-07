@@ -1,0 +1,130 @@
+{
+    "id": 5043,
+    "full_name": "Pittosporum heckelii",
+    "authors": "Dubard",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2481
+    },
+    "lft": 2407,
+    "rght": 2408,
+    "level": 2,
+    "parent_id": 1220,
+    "taxon_id": 5043,
+    "total_occurrences_count": 59,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.0589351, -21.6273311], \"count\": 1}, {\"coordinates\": [165.8813852, -21.6202967], \"count\": 2}, {\"coordinates\": [165.9379011, -21.5842708], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 2}, {\"coordinates\": [164.7760833, -20.6125], \"count\": 1}, {\"coordinates\": [165.8002329, -21.6167578], \"count\": 1}, {\"coordinates\": [165.08680145, -21.29318967], \"count\": 1}, {\"coordinates\": [165.07786343, -21.28692145], \"count\": 1}, {\"coordinates\": [165.08209127, -21.29108021], \"count\": 1}, {\"coordinates\": [165.74288594, -21.42817978], \"count\": 1}, {\"coordinates\": [165.08509888, -21.29371495], \"count\": 1}, {\"coordinates\": [165.08422601, -21.29341614], \"count\": 1}, {\"coordinates\": [165.09518934, -21.30951666], \"count\": 1}, {\"coordinates\": [165.78875017, -21.45541693], \"count\": 1}, {\"coordinates\": [165.96369444444446, -21.590527777777776], \"count\": 1}, {\"coordinates\": [165.85171449230842, -21.476433796588143], \"count\": 1}, {\"coordinates\": [166.014, -21.4978222], \"count\": 1}, {\"coordinates\": [165.6687954, -21.5281558], \"count\": 1}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 1}, {\"coordinates\": [165.84791833299147, -21.4716583115167], \"count\": 1}, {\"coordinates\": [165.7706993, -21.5558274], \"count\": 1}, {\"coordinates\": [165.6554457, -21.5141162], \"count\": 1}, {\"coordinates\": [165.2834384, -21.1767109], \"count\": 1}, {\"coordinates\": [165.7732106, -21.6089248], \"count\": 1}, {\"coordinates\": [165.095582, -21.1603505], \"count\": 1}, {\"coordinates\": [165.9746854, -21.5825089], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 3}, {\"coordinates\": [165.8363201, -21.5767944], \"count\": 1}, {\"coordinates\": [165.8740833, -21.6207778], \"count\": 4}, {\"coordinates\": [164.7788391, -20.5782818], \"count\": 1}, {\"coordinates\": [165.7736111, -21.6038889], \"count\": 1}, {\"coordinates\": [164.5246221, -20.3836135], \"count\": 1}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 1}, {\"coordinates\": [164.8601667, -20.6428611], \"count\": 1}, {\"coordinates\": [164.7904228, -20.5660142], \"count\": 3}, {\"coordinates\": [164.8656369, -20.647354], \"count\": 1}, {\"coordinates\": [165.0994298, -21.1632647], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [165.4650647, -21.4211313], \"count\": 1}, {\"coordinates\": [164.8674, -20.6381], \"count\": 1}, {\"coordinates\": [165.75543188659847, -21.427512840277508], \"count\": 1}, {\"coordinates\": [165.1391002, -21.2328995], \"count\": 1}, {\"coordinates\": [164.8609512, -20.8393832], \"count\": 1}, {\"coordinates\": [165.8917269, -21.6162666], \"count\": 1}, {\"coordinates\": [164.7884284, -20.5680147], \"count\": 1}, {\"coordinates\": [166.67154400000044, -21.981300000654834], \"count\": 1}, {\"coordinates\": [165.8439839121838, -21.47246488104125], \"count\": 1}, {\"coordinates\": [165.3033762, -21.1779231], \"count\": 1}, {\"coordinates\": [165.77361107, -21.6038889], \"count\": 1}, {\"coordinates\": [166.60524199, -22.12213601], \"count\": 1}]}",
+    "species_top": {
+        "Pittosporum heckelii": 59
+    },
+    "um_occurrences_true": 23,
+    "um_occurrences_false": 36,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                66.67,
+                100.0,
+                100.0,
+                84.62,
+                33.33,
+                25.0,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                7.69,
+                83.33,
+                100.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.4,
+    "dbh_max": 6.4,
+    "dbh_median": 6.4,
+    "dbh_min": 6.4,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 1.72,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 5.17,
+            "500": 20.69,
+            "600": 18.97,
+            "700": 20.69,
+            "800": 6.9,
+            "900": 12.07,
+            "1000": 10.34,
+            "1100": 0.0,
+            "1200": 3.45
+        },
+        "rainfall": {
+            "1000": 6.78,
+            "1500": 27.12,
+            "2000": 35.59,
+            "2500": 10.17,
+            "3000": 10.17,
+            "3500": 8.47,
+            "4000": 1.69,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

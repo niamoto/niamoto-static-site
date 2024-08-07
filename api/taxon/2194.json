@@ -1,0 +1,130 @@
+{
+    "id": 2194,
+    "full_name": "Bocquillonia arborea",
+    "authors": "AiryShaw",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5080
+    },
+    "lft": 1127,
+    "rght": 1128,
+    "level": 2,
+    "parent_id": 410,
+    "taxon_id": 2194,
+    "total_occurrences_count": 41,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [167.428897, -22.5499363], \"count\": 3}, {\"coordinates\": [167.1261858, -21.0474818], \"count\": 1}, {\"coordinates\": [167.43538, -22.63645], \"count\": 1}, {\"coordinates\": [167.42556762695312, -22.55306053161621], \"count\": 6}, {\"coordinates\": [167.44136500000138, -22.547075000668116], \"count\": 1}, {\"coordinates\": [167.4730564, -22.6069583], \"count\": 1}, {\"coordinates\": [164.732715313806, -20.8570477476377], \"count\": 1}, {\"coordinates\": [167.43218994140625, -22.548799514770508], \"count\": 3}, {\"coordinates\": [167.4353790283203, -22.636449813842773], \"count\": 2}, {\"coordinates\": [166.38333129882812, -22.166667938232422], \"count\": 2}, {\"coordinates\": [167.442202, -22.550504], \"count\": 1}, {\"coordinates\": [167.43333435058594, -22.549999237060547], \"count\": 1}, {\"coordinates\": [164.730896314299, -20.8562895123126], \"count\": 1}, {\"coordinates\": [167.42556, -22.55306], \"count\": 6}, {\"coordinates\": [167.4413215450695, -22.547097761479638], \"count\": 1}, {\"coordinates\": [167.4255780343646, -22.553168056410044], \"count\": 1}, {\"coordinates\": [167.4256, -22.5531], \"count\": 6}, {\"coordinates\": [167.4388876535484, -22.610833396342347], \"count\": 1}, {\"coordinates\": [167.4413650000014, -22.5470750006682], \"count\": 1}, {\"coordinates\": [167.43531485981003, -22.636417637281156], \"count\": 1}]}",
+    "species_top": {
+        "Bocquillonia arborea": 41
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 40,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                0,
+                100.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 21.67,
+    "dbh_max": 25.0,
+    "dbh_median": 20.0,
+    "dbh_min": 20.0,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 100.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 50.0,
+            "600": 50.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 97.44,
+            "1500": 2.56,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 21.95,
+            "2": 78.05
+        }
+    }
+}

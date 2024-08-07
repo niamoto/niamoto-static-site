@@ -1,0 +1,130 @@
+{
+    "id": 4991,
+    "full_name": "Pichonia balansana",
+    "authors": "Pierre",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1247
+    },
+    "lft": 3267,
+    "rght": 3268,
+    "level": 2,
+    "parent_id": 1210,
+    "taxon_id": 4991,
+    "total_occurrences_count": 50,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [167.2364089, -20.9559721], \"count\": 3}, {\"coordinates\": [167.9787083333, -21.6588055556], \"count\": 2}, {\"coordinates\": [164.2906787, -20.5552568], \"count\": 1}, {\"coordinates\": [164.349158, -20.5013764], \"count\": 1}, {\"coordinates\": [167.14999389648438, -20.916667938232422], \"count\": 1}, {\"coordinates\": [166.20314562566443, -21.76005425772717], \"count\": 1}, {\"coordinates\": [166.23146203618552, -21.91245570768751], \"count\": 1}, {\"coordinates\": [164.3458251953125, -20.504440307617188], \"count\": 2}, {\"coordinates\": [167.12408447265625, -20.908349990844727], \"count\": 3}, {\"coordinates\": [168.017880555556, -21.6563889], \"count\": 1}, {\"coordinates\": [168.0996551, -21.4545999], \"count\": 1}, {\"coordinates\": [167.25, -21.0], \"count\": 2}, {\"coordinates\": [166.2025101255822, -21.745999688262785], \"count\": 1}, {\"coordinates\": [164.307944482785, -20.4894573808422], \"count\": 1}, {\"coordinates\": [167.97860717773438, -21.658889770507812], \"count\": 2}, {\"coordinates\": [164.320604083092, -20.4255108099778], \"count\": 1}, {\"coordinates\": [164.308041024222, -20.4897474673097], \"count\": 1}, {\"coordinates\": [166.19969558963754, -21.75873886358486], \"count\": 1}, {\"coordinates\": [164.296426858984, -20.411888143119], \"count\": 1}, {\"coordinates\": [164.3289108, -20.5091513], \"count\": 1}, {\"coordinates\": [164.3860933, -20.5221132], \"count\": 2}, {\"coordinates\": [164.3255615234375, -20.51222038269043], \"count\": 2}, {\"coordinates\": [165.9775, -21.7747222], \"count\": 1}, {\"coordinates\": [164.358392906816, -20.5315922222335], \"count\": 1}, {\"coordinates\": [167.88555908203125, -21.54861068725586], \"count\": 1}, {\"coordinates\": [168.003813888889, -21.6563889], \"count\": 1}, {\"coordinates\": [167.8888703, -21.5455288], \"count\": 1}, {\"coordinates\": [167.885551888677, -21.5486083631334], \"count\": 1}, {\"coordinates\": [167.233333333333, -20.9591666666667], \"count\": 3}, {\"coordinates\": [167.976388888889, -21.5202777777778], \"count\": 1}, {\"coordinates\": [165.9775, -21.7747222222222], \"count\": 1}, {\"coordinates\": [164.325555555556, -20.5122222222222], \"count\": 1}, {\"coordinates\": [164.3827778, -20.525], \"count\": 1}, {\"coordinates\": [167.935037932227, -21.3935595956775], \"count\": 1}, {\"coordinates\": [164.309116159703, -20.490422176005], \"count\": 1}, {\"coordinates\": [167.885555555556, -21.5486111111111], \"count\": 1}, {\"coordinates\": [164.345833333333, -20.5044444444444], \"count\": 1}]}",
+    "species_top": {
+        "Pichonia balansana": 50
+    },
+    "um_occurrences_true": 4,
+    "um_occurrences_false": 46,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                100.0,
+                0,
+                75.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                50.0,
+                0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0,
+                75.0,
+                100.0,
+                100.0,
+                66.67,
+                0,
+                25.0,
+                0.0,
+                0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 25.0,
+    "dbh_max": 25.0,
+    "dbh_median": 25.0,
+    "dbh_min": 25.0,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 100.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 61.11,
+            "200": 22.22,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 16.67,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 35.42,
+            "1500": 60.42,
+            "2000": 4.17,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 10.2,
+            "2": 89.8
+        }
+    }
+}

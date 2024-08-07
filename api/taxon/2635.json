@@ -1,0 +1,130 @@
+{
+    "id": 2635,
+    "full_name": "Coronanthera clarkeana",
+    "authors": "Schltr.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 885
+    },
+    "lft": 1313,
+    "rght": 1314,
+    "level": 2,
+    "parent_id": 581,
+    "taxon_id": 2635,
+    "total_occurrences_count": 52,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7444444, -20.6227778], \"count\": 1}, {\"coordinates\": [164.7444444, -20.6022222], \"count\": 1}, {\"coordinates\": [164.6886944444, -20.4863055556], \"count\": 1}, {\"coordinates\": [164.7772261, -20.5827348], \"count\": 4}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 3}, {\"coordinates\": [164.7444444, -20.6166667], \"count\": 1}, {\"coordinates\": [164.5314902, -20.3976737], \"count\": 1}, {\"coordinates\": [164.5509893, -20.4136256], \"count\": 1}, {\"coordinates\": [164.53333, -20.4], \"count\": 1}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 1}, {\"coordinates\": [164.86138888888888, -20.64161111111111], \"count\": 6}, {\"coordinates\": [164.78330555555556, -20.559833333333334], \"count\": 2}, {\"coordinates\": [164.7808611111111, -20.623555555555555], \"count\": 1}, {\"coordinates\": [164.86911111111112, -20.64027777777778], \"count\": 3}, {\"coordinates\": [164.78330555555556, -20.560027777777776], \"count\": 1}, {\"coordinates\": [164.72730555555555, -20.586083333333335], \"count\": 1}, {\"coordinates\": [164.9334333, -20.9718063], \"count\": 1}, {\"coordinates\": [164.8633353, -20.6400389], \"count\": 1}, {\"coordinates\": [164.7912657, -20.5644516], \"count\": 2}, {\"coordinates\": [164.7037479, -20.5031306], \"count\": 1}, {\"coordinates\": [164.70805216906447, -20.482794025395993], \"count\": 1}, {\"coordinates\": [164.5754636, -20.4373708], \"count\": 1}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 3}, {\"coordinates\": [164.7850064, -20.5722139], \"count\": 1}, {\"coordinates\": [165.2325389, -20.8598278], \"count\": 1}, {\"coordinates\": [164.7788391, -20.5782818], \"count\": 1}, {\"coordinates\": [164.5524052, -20.4078368], \"count\": 1}, {\"coordinates\": [164.7904228, -20.5660142], \"count\": 1}, {\"coordinates\": [165.1882179, -20.8367672], \"count\": 1}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 1}, {\"coordinates\": [164.7824448, -20.6859197], \"count\": 1}, {\"coordinates\": [164.4379685, -20.3436707], \"count\": 1}, {\"coordinates\": [164.8569195, -20.6402999], \"count\": 1}, {\"coordinates\": [164.7742238, -20.5856472], \"count\": 1}, {\"coordinates\": [164.7930568, -20.562816], \"count\": 1}, {\"coordinates\": [164.6955833, -20.5310278], \"count\": 1}]}",
+    "species_top": {
+        "Coronanthera clarkeana": 52
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 52,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                66.67,
+                100.0,
+                0.0,
+                0,
+                100.0,
+                50.0,
+                100.0,
+                100.0,
+                71.43,
+                75.0,
+                31.25,
+                50.0
+            ],
+            "fruiting": [
+                33.33,
+                0.0,
+                33.33,
+                0,
+                100.0,
+                50.0,
+                0.0,
+                33.33,
+                42.86,
+                25.0,
+                6.25,
+                50.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.91,
+    "dbh_max": 8.6,
+    "dbh_median": 7.2,
+    "dbh_min": 5.1,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 3.92,
+            "300": 1.96,
+            "400": 1.96,
+            "500": 11.76,
+            "600": 23.53,
+            "700": 11.76,
+            "800": 9.8,
+            "900": 13.73,
+            "1000": 3.92,
+            "1100": 0.0,
+            "1200": 17.65
+        },
+        "rainfall": {
+            "1000": 3.85,
+            "1500": 13.46,
+            "2000": 5.77,
+            "2500": 5.77,
+            "3000": 32.69,
+            "3500": 34.62,
+            "4000": 3.85,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

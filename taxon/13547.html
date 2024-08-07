@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Niamoto - Plerandra gabriellae</title>
+    <link rel="stylesheet" href="../js/vendor/tailwindcss/2.2.19_dist_tailwind.css">
+    <link rel="stylesheet" href="../js/vendor/leaflet/1.9.4_leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <script src="../js/index.js"></script>
+    <script src="../js/taxonomy_tree.js"></script>
+    <style>
+        #taxonMap {
+            position: relative;
+            height: 400px;
+        }
+
+        #taxonomy-sidebar {
+            display: flex;
+            flex-direction: column;
+            height: calc(100vh - 7rem);
+        }
+
+        .search-container {
+            position: relative;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        #taxonSearch {
+            width: 100%;
+            padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 0.75rem;
+            top: 23%;
+            color: #666;
+            pointer-events: none;
+        }
+
+        #taxonomy-tree {
+            flex-grow: 1;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        #taxonomy-tree ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        #taxonomy-tree li {
+            margin: 5px 0;
+        }
+
+        #taxonomy-tree .toggle {
+            cursor: pointer;
+            margin-right: 5px;
+        }
+
+        #taxonomy-tree a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        #taxonomy-tree a:hover {
+            text-decoration: underline;
+        }
+
+        #taxonomy-tree .current-taxon {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        /* Styles pour différents niveaux de profondeur */
+        #taxonomy-tree .level-0 {
+            font-size: 16px;
+        }
+
+        #taxonomy-tree .level-1 {
+            font-size: 14px;
+        }
+
+        #taxonomy-tree .level-2 {
+            font-size: 13px;
+        }
+
+        #taxonomy-tree .level-3,
+        #taxonomy-tree .level-4,
+        #taxonomy-tree .level-5 {
+            font-size: 12px;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 400px; /* Fix the height */
+            width: 100%; /* Ensure full width */
+            max-width: 600px; /* Set a max-width to prevent it from being too wide */
+            margin: 0 auto; /* Center the chart container */
+        }
+
+    </style>
+    <script>
+        const taxonId = 13547;
+    </script>
+
+    <style>
+        .gauge {
+            height: 349px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .loader-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loader {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-bg p-4 fixed w-full top-0 shadow-md z-50 custom-nav">
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <a id="home-link" class="inline-flex items-center py-2 px-4 text-white no-underline" href="#" data-link="index.html">
+                <span class="site-title">Niamoto</span>
+            </a>
+        </div>
+
+        <div class="block lg:hidden">
+            <button id="nav-toggle"
+                class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
+            <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="index.html">
+                        <i class="fas fa-home menu-icon"></i>Accueil
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#introduction">Introduction</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#project">Projet</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#objective">Objectifs</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#context">Contexte</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#flora">Flore</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="methodology.html">
+                        <i class="fas fa-flask menu-icon"></i>Méthodologie
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#methodes">Nos méthodes</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#faq">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="trees.html">
+                        <i class="fas fa-leaf menu-icon"></i>Arbres
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#learnTaxon">Étudier les
+                arbres</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#taxon">Les arbres de
+                Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="plots.html">
+                        <i class="fas fa-map-marked-alt menu-icon"></i>Peuplements
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#learnPlot">Étudier les
+                            peuplements forestiers</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#plot">Les
+                peuplements forestiers de Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="forests.html">
+                        <i class="fas fa-tree menu-icon"></i>Forêt
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#learnForest">Étudier les
+                forêts</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#forestPN">La forêt de la
+                province Nord</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#forestPS">La forêt de la
+                province Sud</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="resources.html">
+                        <i class="fas fa-book menu-icon"></i>Ressources
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#equipe">L'équipe</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#article">Articles</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#academic">Académique</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#media-production">Médias</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script>
+  document.getElementById('nav-toggle').onclick = function () {
+    document.getElementById('nav-content').classList.toggle('hidden');
+  };
+
+  // Function to adjust the navigation links based on page depth
+  function adjustNavLinks(depth) {
+    document.querySelectorAll('a[data-link]').forEach(link => {
+      link.href = depth + link.getAttribute('data-link');
+    });
+  }
+
+  // Adjust the navigation links based on the depth
+  adjustNavLinks("../");
+</script>
+
+<style>
+    .site-title {
+        font-family: 'Arial Black', sans-serif; /* Custom font for a bold effect */
+        font-size: 2rem; /* Increased font size */
+        text-transform: uppercase; /* Uppercase letters for visibility */
+        letter-spacing: 2px; /* Spacing between letters */
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
+        transition: color 0.3s; /* Smooth transition for hover effect */
+    }
+
+    .site-title:hover {
+        color: #ffdd57; /* Change color on hover */
+    }
+
+    .text-contour {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-bg {
+        background-color: rgba(34, 139, 34, 0.8); /* Fond vert semi-transparent */
+        transition: background-color 0.3s;
+    }
+
+    .nav-bg:hover {
+        background-color: rgba(34, 139, 34, 1); /* Fond vert opaque au survol */
+    }
+
+    .group:hover .group-hover\:block {
+        display: block;
+    }
+
+    .custom-nav {
+        z-index: 500;
+    }
+
+    .custom-dropdown {
+        z-index: 500;
+    }
+
+    .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.2); /* Fond blanc transparent au survol */
+        border-radius: 4px;
+    }
+
+    .menu-icon {
+        margin-right: 8px;
+    }
+</style>
+    <div class="flex">
+        
+    <div class="w-1/4 p-4 mt-28" id="taxonomy-sidebar">
+        <label for="taxonSearch"></label>
+        <div class="search-container">
+            <input type="text" id="taxonSearch" class="w-full mb-4 pl-10" aria-label="Search taxon">
+            <i class="fas fa-search search-icon" aria-hidden="true"></i>
+        </div>
+        <div id="taxonomy-tree">
+            <!-- The taxonomic tree will be loaded here -->
+        </div>
+    </div>
+
+        <div class="w-full">
+            
+    <div class="mt-28">
+        <div class="rounded overflow-hidden shadow-lg mb-2">
+            <div class="px-6 py-4">
+                <div class="font-bold text-4xl mb-2"><i>Plerandra gabriellae</i> (Baill.) Lowry, G.M.Plunkett & Frodin</div>
+                <p class="text-gray-700 text-base">
+                    Rank: species
+                </p>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap -mx-2">
+            
+
+            
+
+            
+
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Total occurrences</h2>
+                
+                
+                    <div class="w-full">
+                        <p id="total_occurrencesText"></p>
+                    </div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+            
+                
+            
+                
+                    
+                <div class="w-full px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        <div class="px-6 pt-4 pb-2">
+                            <div id="taxonMap" style="height: 400px; position: relative;">
+                                <div class="loader-container" id="mapLoader">
+                                    <div class="loader"></div>
+                                </div>
+                                <!-- The Leaflet map will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Main Sub-taxa</h2>
+                
+                
+                    <canvas class="chart-container" id="speciestopBarChart"></canvas>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Substrate Distribution</h2>
+                
+                
+                    <canvas id="um_occurrencesPieChart"></canvas>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Phenology</h2>
+                
+                
+                    <canvas class="chart-container" id="phenologyTemporalPhenologyChart"></canvas>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+            
+                
+            
+                
+                    
+                
+                    <div class="w-1/2 px-2 mb-4">
+                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                            <h2 class="font-bold text-xl mb-2">Diameter distribution (DBH)</h2>
+                            <canvas id="dbhBinChart"></canvas>
+                        </div>
+                    </div>
+                
+                
+                    
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Maximum diameter (DBH)</h2>
+                
+                
+                    <div class="gauge" id="dbhmaxGauge"></div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Maximum height</h2>
+                
+                
+                    <div class="gauge" id="heightmaxGauge"></div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+            
+                
+            
+                
+                    
+                
+                    <div class="w-1/2 px-2 mb-4">
+                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                            <h2 class="font-bold text-xl mb-2">Altitudinal distribution</h2>
+                            <canvas id="elevationBinChart"></canvas>
+                        </div>
+                    </div>
+                
+                
+            
+                
+            
+                
+                    
+                
+                    <div class="w-1/2 px-2 mb-4">
+                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                            <h2 class="font-bold text-xl mb-2">Rainfall distribution</h2>
+                            <canvas id="rainfallBinChart"></canvas>
+                        </div>
+                    </div>
+                
+                
+            
+                
+            
+                
+                    
+                
+                    <div class="w-1/2 px-2 mb-4">
+                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                            <h2 class="font-bold text-xl mb-2">Holdridge</h2>
+                            <canvas id="holdridgeBinChart"></canvas>
+                        </div>
+                    </div>
+                
+                
+            
+                
+            
+                
+                    
+                
+                    <div class="w-1/2 px-2 mb-4">
+                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                            <h2 class="font-bold text-xl mb-2">Strate</h2>
+                            <canvas id="strateBinChart"></canvas>
+                        </div>
+                    </div>
+                
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Wood density</h2>
+                
+                
+                    <div class="gauge" id="wood_densitymeanGauge"></div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Bark thickness</h2>
+                
+                
+                    <div class="gauge" id="bark_thicknessmeanGauge"></div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Specific leaf area</h2>
+                
+                
+                    <div class="gauge" id="leaf_slameanGauge"></div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Leaf area</h2>
+                
+                
+                    <div class="gauge" id="leaf_areameanGauge"></div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Leaf thickness</h2>
+                
+                
+                    <div class="gauge" id="leaf_thicknessmeanGauge"></div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+            
+                
+            
+
+        </div>
+    </div>
+
+
+        </div>
+    </div>
+    <footer class="bg-green-700 text-white p-4 mt-8">
+        <div class="container mx-auto">
+            <div class="flex justify-center mb-4">
+                <div class="bg-white p-2 rounded-lg shadow-md flex justify-center">
+                    <figure class="mx-2"><img class="img-fluid" src="../files/ps_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/pn_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/amap_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/herbarium_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/iac_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/ird_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/cirad_100.png"></figure>
+                </div>
+            </div>
+            <div class="text-center">
+                <p>Niamoto - Portail de la forêt de Nouvelle-Calédonie</p>
+                <a class="inline-block py-2 px-4 text-white no-underline" href="https://github.com/niamoto/niamoto" target="_blank">
+                    <span class="fab fa-github fa-lg" aria-hidden="true"></span> Github
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/vendor/chart/4.4.2_chart.js"></script>
+    <script src="../js/vendor/d3/7.8.5_d3.js"></script>
+    <script src="../js/vendor/jquery/3.6.0_jquery.js"></script>
+    <script src="../js/vendor/raphael/2.3.0_raphael.js"></script>
+    <script src="../js/vendor/justgage/1.6.1_justgage.js"></script>
+    <script src="../js/vendor/leaflet/1.9.4_leaflet.js"></script>
+    
+    <script>
+        const taxon = {"authors": "(Baill.) Lowry, G.M.Plunkett \u0026 Frodin", "bark_thickness_max": 20.5, "bark_thickness_mean": 6.19, "bark_thickness_min": 0.3, "dbh_max": 121.0, "dbh_mean": 24.15, "dbh_median": 19.7, "dbh_min": 5.0, "frequencies": {"dbh": {"10": 41.61, "100": 0.16, "20": 23.58, "200": 0.0, "30": 15.35, "300": 0.0, "40": 10.44, "400": 0.0, "50": 8.23, "75": 0.63}, "elevation": {"100": 8.5, "1000": 1.8, "1100": 0.09, "1200": 0.0, "200": 17.34, "300": 13.13, "400": 32.19, "500": 16.22, "600": 4.21, "700": 2.32, "800": 3.26, "900": 0.94}, "holdridge": {"1": 2.45, "2": 97.55}, "rainfall": {"1000": 9.35, "1500": 27.89, "2000": 15.53, "2500": 42.16, "3000": 4.49, "3500": 0.15, "4000": 0.44, "4500": 0.0}, "strate": {"1": 3.52, "2": 17.59, "3": 78.89}}, "full_name": "Plerandra gabriellae", "height_max": 29.8, "id": 13547, "leaf_area_max": 234.6, "leaf_area_mean": 169.34, "leaf_area_min": 134.17, "leaf_sla_max": 10.16, "leaf_sla_mean": 8.14, "leaf_sla_min": 6.37, "leaf_thickness_max": 494.55, "leaf_thickness_mean": 393.3, "leaf_thickness_min": 317.28, "level": 2, "lft": 239, "metadata": {"id_endemia": 738, "rank_name": "species"}, "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3120459, -21.01805538], \"count\": 6}, {\"coordinates\": [165.2681, -21.19061], \"count\": 3}, {\"coordinates\": [166.2115088, -21.6078638], \"count\": 2}, {\"coordinates\": [165.6344444, -21.6463889], \"count\": 2}, {\"coordinates\": [165.15, -20.96667], \"count\": 1}, {\"coordinates\": [165.5384599, -21.4211976], \"count\": 1}, {\"coordinates\": [164.5313889, -20.3961111], \"count\": 1}, {\"coordinates\": [164.69308, -20.78102], \"count\": 1}, {\"coordinates\": [165.2344444, -20.8169444], \"count\": 2}, {\"coordinates\": [165.545395, -21.416931], \"count\": 30}, {\"coordinates\": [164.780212, -20.62504], \"count\": 10}, {\"coordinates\": [165.07941666666667, -20.823316666666667], \"count\": 1}, {\"coordinates\": [165.5402831, -21.3799], \"count\": 1}, {\"coordinates\": [165.870083, -21.6195841], \"count\": 2}, {\"coordinates\": [166.3305533, -22.0690001], \"count\": 2}, {\"coordinates\": [166.3471186, -22.0794468], \"count\": 2}, {\"coordinates\": [164.92032939444445, -20.95063654722222], \"count\": 25}, {\"coordinates\": [165.120361, -21.148142], \"count\": 9}, {\"coordinates\": [165.30416666666667, -21.204722222222223], \"count\": 1}, {\"coordinates\": [165.4765625, -21.24147605896], \"count\": 43}, {\"coordinates\": [165.31519444444444, -21.16627777777778], \"count\": 2}, {\"coordinates\": [164.7288889, -20.8613889], \"count\": 2}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 3}, {\"coordinates\": [164.3321002, -20.5340694], \"count\": 1}, {\"coordinates\": [166.8213518, -22.3212252], \"count\": 1}, {\"coordinates\": [167.428897, -22.5499363], \"count\": 3}, {\"coordinates\": [165.3060613, -21.02949007], \"count\": 1}, {\"coordinates\": [164.77955555555556, -20.625027777777778], \"count\": 2}, {\"coordinates\": [166.6232222, -22.1943889], \"count\": 2}, {\"coordinates\": [164.74419444444445, -20.59122222222222], \"count\": 1}, {\"coordinates\": [165.111632, -21.133673], \"count\": 8}, {\"coordinates\": [165.4969722222222, -21.36047222222222], \"count\": 1}, {\"coordinates\": [165.9750424, -21.5748362], \"count\": 5}, {\"coordinates\": [165.133563, -20.8148359], \"count\": 24}, {\"coordinates\": [165.3026653, -21.0249492], \"count\": 4}, {\"coordinates\": [165.0083910115, -20.852514552], \"count\": 16}, {\"coordinates\": [166.6958044, -22.1642337], \"count\": 1}, {\"coordinates\": [165.0214366, -20.9634017], \"count\": 1}, {\"coordinates\": [167.4730564, -22.6069583], \"count\": 4}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 1}, {\"coordinates\": [165.6945296, -21.5649002], \"count\": 1}, {\"coordinates\": [164.8841667, -20.7919444], \"count\": 1}, {\"coordinates\": [165.240768432617, -21.2571277618408], \"count\": 11}, {\"coordinates\": [165.2329924, -21.017049], \"count\": 2}, {\"coordinates\": [165.3105976, -21.01881631], \"count\": 4}, {\"coordinates\": [167.171647, -20.7313395], \"count\": 1}, {\"coordinates\": [165.4507422, -21.4209734], \"count\": 2}, {\"coordinates\": [165.458459, -21.3282626], \"count\": 1}, {\"coordinates\": [166.4459062, -22.0767633], \"count\": 4}, {\"coordinates\": [165.3428385, -20.9460796], \"count\": 1}, {\"coordinates\": [165.2806385, -21.01099864], \"count\": 2}, {\"coordinates\": [166.6878075, -22.1097306], \"count\": 2}, {\"coordinates\": [165.3155103, -21.3737875], \"count\": 1}, {\"coordinates\": [165.7714419, -21.5700711], \"count\": 1}, {\"coordinates\": [166.4490915, -22.0944845], \"count\": 5}, {\"coordinates\": [166.81138887, -22.24972223], \"count\": 2}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 2}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 5}, {\"coordinates\": [165.34671912, -21.43839498], \"count\": 2}, {\"coordinates\": [165.34555561, -21.43361115], \"count\": 2}, {\"coordinates\": [166.91435585, -22.32631205], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 23}, {\"coordinates\": [166.66500005, -22.18305556], \"count\": 4}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 7}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 45}, {\"coordinates\": [166.62572499, -22.19208599], \"count\": 31}, {\"coordinates\": [166.91550779, -22.32655508], \"count\": 1}, {\"coordinates\": [166.82579366, -22.2512891], \"count\": 2}, {\"coordinates\": [165.76514, -21.622102], \"count\": 1}, {\"coordinates\": [165.765149, -21.623729], \"count\": 1}, {\"coordinates\": [165.764378, -21.624093], \"count\": 1}, {\"coordinates\": [165.765528, -21.622281], \"count\": 1}, {\"coordinates\": [165.764943, -21.621381], \"count\": 2}, {\"coordinates\": [165.764753, -21.621924], \"count\": 1}, {\"coordinates\": [165.764757, -21.622646], \"count\": 5}, {\"coordinates\": [165.764174, -21.622107], \"count\": 1}, {\"coordinates\": [165.76476, -21.623369], \"count\": 1}, {\"coordinates\": [165.765136, -21.621199], \"count\": 1}, {\"coordinates\": [165.765526, -21.62192], \"count\": 2}, {\"coordinates\": [165.765328, -21.621017], \"count\": 4}, {\"coordinates\": [165.765714, -21.621016], \"count\": 2}, {\"coordinates\": [165.764945, -21.621742], \"count\": 1}, {\"coordinates\": [165.763788, -21.622109], \"count\": 1}, {\"coordinates\": [165.766106, -21.622098], \"count\": 2}, {\"coordinates\": [165.765912, -21.621918], \"count\": 3}, {\"coordinates\": [165.764755, -21.622285], \"count\": 1}, {\"coordinates\": [165.764572, -21.624273], \"count\": 1}, {\"coordinates\": [164.926459, -20.981608], \"count\": 4}, {\"coordinates\": [165.265555, -21.01315865], \"count\": 3}, {\"coordinates\": [165.2808559, -21.01221035], \"count\": 2}, {\"coordinates\": [165.725293094, -21.378606381], \"count\": 1}, {\"coordinates\": [165.107077, -21.122677], \"count\": 3}, {\"coordinates\": [165.434952, -21.226105], \"count\": 4}, {\"coordinates\": [165.122272, -21.146053], \"count\": 5}, {\"coordinates\": [164.4378741737, -20.3060228471], \"count\": 3}, {\"coordinates\": [166.91754722222223, -22.32334722222222], \"count\": 4}, {\"coordinates\": [165.21777777777777, -20.817777777777778], \"count\": 3}, {\"coordinates\": [166.49952746, -22.04441951], \"count\": 7}, {\"coordinates\": [164.72705555555555, -20.593666666666667], \"count\": 5}, {\"coordinates\": [165.34522222222222, -21.14966666666667], \"count\": 1}, {\"coordinates\": [165.26, -21.21839], \"count\": 7}, {\"coordinates\": [166.4472816, -22.07602353], \"count\": 1}, {\"coordinates\": [164.87066666666666, -20.64097222222222], \"count\": 3}, {\"coordinates\": [165.32751944444445, -21.16229722222222], \"count\": 6}, {\"coordinates\": [166.91551666666666, -22.324775], \"count\": 4}, {\"coordinates\": [166.689425, -22.151216666666667], \"count\": 4}, {\"coordinates\": [166.91701666666665, -22.322566666666667], \"count\": 1}, {\"coordinates\": [166.59121944444445, -22.155191666666667], \"count\": 2}, {\"coordinates\": [166.9188861111111, -22.32347222222222], \"count\": 6}, {\"coordinates\": [165.14366666666666, -20.825], \"count\": 1}, {\"coordinates\": [166.916475, -22.3241], \"count\": 4}, {\"coordinates\": [166.2428, -21.66541], \"count\": 2}, {\"coordinates\": [166.62580555555556, -22.1965], \"count\": 1}, {\"coordinates\": [166.50061065, -22.04388342], \"count\": 5}, {\"coordinates\": [165.77263888888888, -21.60661111111111], \"count\": 2}, {\"coordinates\": [166.59247222222223, -22.153488888888887], \"count\": 6}, {\"coordinates\": [166.91715, -22.32363611111111], \"count\": 1}, {\"coordinates\": [165.318025, -21.127594444444444], \"count\": 1}, {\"coordinates\": [166.626125, -22.195666666666668], \"count\": 4}, {\"coordinates\": [165.30105277777778, -21.196755555555555], \"count\": 1}, {\"coordinates\": [164.7808611111111, -20.623555555555555], \"count\": 1}, {\"coordinates\": [165.28472222222223, -21.208333333333332], \"count\": 1}, {\"coordinates\": [166.91332777777777, -22.32621111111111], \"count\": 3}, {\"coordinates\": [166.9187, -22.323591666666665], \"count\": 4}, {\"coordinates\": [166.46404003, -22.03794654], \"count\": 2}, {\"coordinates\": [166.48034553, -22.03847864], \"count\": 2}, {\"coordinates\": [166.68791944444445, -22.150669444444443], \"count\": 1}, {\"coordinates\": [165.33552777777777, -21.150694444444444], \"count\": 1}, {\"coordinates\": [164.7845, -20.624416666666665], \"count\": 1}, {\"coordinates\": [164.682757, -20.538255], \"count\": 2}, {\"coordinates\": [166.91471944444444, -22.324102777777778], \"count\": 1}, {\"coordinates\": [165.49647222222222, -21.360666666666667], \"count\": 2}, {\"coordinates\": [165.31750277777778, -21.162436111111113], \"count\": 2}, {\"coordinates\": [166.4473683, -22.08532563], \"count\": 2}, {\"coordinates\": [165.32502222222223, -21.163830555555556], \"count\": 1}, {\"coordinates\": [166.44791746, -22.06852576], \"count\": 1}, {\"coordinates\": [164.677993, -20.540676], \"count\": 2}, {\"coordinates\": [165.21972222222223, -20.818333333333335], \"count\": 3}, {\"coordinates\": [165.26427, -21.19282], \"count\": 4}, {\"coordinates\": [166.68333333333334, -22.2], \"count\": 1}, {\"coordinates\": [166.9, -22.283333333333335], \"count\": 2}, {\"coordinates\": [165.25464722222222, -21.187136111111112], \"count\": 23}, {\"coordinates\": [165.25418611111112, -21.187], \"count\": 121}, {\"coordinates\": [165.2550861111111, -21.187297222222224], \"count\": 94}, {\"coordinates\": [165.4411163330078, -21.392499923706055], \"count\": 1}, {\"coordinates\": [165.545517, -21.416873658333333], \"count\": 1}, {\"coordinates\": [165.4998453, -21.4187201], \"count\": 1}, {\"coordinates\": [165.74713297, -21.61340002], \"count\": 2}, {\"coordinates\": [165.700322, -21.59212496], \"count\": 2}, {\"coordinates\": [165.78334045410156, -21.583332061767578], \"count\": 2}, {\"coordinates\": [166.46665954589844, -22.049999237060547], \"count\": 3}, {\"coordinates\": [167.43333435058594, -22.549999237060547], \"count\": 3}, {\"coordinates\": [166.5032423, -22.1784592], \"count\": 1}, {\"coordinates\": [165.5369415283203, -21.383056640625], \"count\": 1}, {\"coordinates\": [166.665283203125, -22.229167938232422], \"count\": 1}, {\"coordinates\": [165.20639038085938, -20.893890380859375], \"count\": 1}, {\"coordinates\": [167.25, -21.0], \"count\": 45}, {\"coordinates\": [165.96665954589844, -21.649999618530273], \"count\": 1}, {\"coordinates\": [164.8522186279297, -20.875], \"count\": 3}, {\"coordinates\": [167.96665954589844, -21.616666793823242], \"count\": 1}, {\"coordinates\": [166.5500030517578, -22.166667938232422], \"count\": 1}, {\"coordinates\": [164.8433380126953, -20.83416748046875], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 2}, {\"coordinates\": [165.9369659423828, -21.793310165405273], \"count\": 1}, {\"coordinates\": [165.080848871935, -20.9648670370986], \"count\": 1}, {\"coordinates\": [165.2720933, -21.2238756], \"count\": 1}, {\"coordinates\": [165.73016601, -21.60441597], \"count\": 2}, {\"coordinates\": [165.77945198111595, -21.63970264702251], \"count\": 1}, {\"coordinates\": [165.6344451904297, -21.64638900756836], \"count\": 1}, {\"coordinates\": [165.77139282226562, -21.656110763549805], \"count\": 1}, {\"coordinates\": [164.727783203125, -20.86111068725586], \"count\": 1}, {\"coordinates\": [166.44944763183594, -22.08944320678711], \"count\": 1}, {\"coordinates\": [165.4552764892578, -21.331390380859375], \"count\": 1}, {\"coordinates\": [165.01806640625, -20.96639060974121], \"count\": 1}, {\"coordinates\": [167.26666259765625, -21.0], \"count\": 1}, {\"coordinates\": [166.53750610351562, -22.20111083984375], \"count\": 2}, {\"coordinates\": [166.8222198486328, -22.322221755981445], \"count\": 1}, {\"coordinates\": [166.53334045410156, -22.166667938232422], \"count\": 1}, {\"coordinates\": [167.23321533203125, -20.95903968811035], \"count\": 3}, {\"coordinates\": [165.94252014160156, -21.797409057617188], \"count\": 2}, {\"coordinates\": [166.37249755859375, -22.131389617919922], \"count\": 1}, {\"coordinates\": [164.826950009664, -20.8698333104452], \"count\": 1}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 2}, {\"coordinates\": [166.1665635, -21.759654], \"count\": 2}, {\"coordinates\": [167.2364089, -20.9559721], \"count\": 1}, {\"coordinates\": [165.74091998, -21.60992398], \"count\": 2}, {\"coordinates\": [165.7813631285579, -21.64084322414139], \"count\": 1}, {\"coordinates\": [165.7800329999999, -21.639401000646632], \"count\": 1}, {\"coordinates\": [165.545192525, -21.416514874999997], \"count\": 1}, {\"coordinates\": [165.374775, -21.332625], \"count\": 1}, {\"coordinates\": [165.461669921875, -21.424169540405273], \"count\": 1}, {\"coordinates\": [166.0928116, -21.5733615], \"count\": 2}, {\"coordinates\": [166.44757000000033, -22.068590000657], \"count\": 1}, {\"coordinates\": [167.1041717529297, -21.041667938232422], \"count\": 2}, {\"coordinates\": [166.62777709960938, -22.19305992126465], \"count\": 2}, {\"coordinates\": [165.78767304, -21.58137998], \"count\": 1}, {\"coordinates\": [165.43193763122, -21.5789777040482], \"count\": 1}, {\"coordinates\": [165.73666696, -21.60759996], \"count\": 2}, {\"coordinates\": [165.218487437814, -20.8171015977859], \"count\": 1}, {\"coordinates\": [165.240118615329, -20.9569787979126], \"count\": 1}, {\"coordinates\": [165.238078119807, -20.8633939497064], \"count\": 1}, {\"coordinates\": [166.53750610351562, -21.978609085083008], \"count\": 1}, {\"coordinates\": [165.92166137695312, -21.642499923706055], \"count\": 1}, {\"coordinates\": [164.673250168562, -20.4727220535278], \"count\": 1}, {\"coordinates\": [165.149390213192, -21.150130033493], \"count\": 1}, {\"coordinates\": [165.822288143233, -21.5556926695624], \"count\": 1}, {\"coordinates\": [167.522978, -22.593577], \"count\": 1}, {\"coordinates\": [164.88417053222656, -20.79194450378418], \"count\": 1}, {\"coordinates\": [166.0852813720703, -21.581939697265625], \"count\": 1}, {\"coordinates\": [165.7758331298828, -21.614999771118164], \"count\": 4}, {\"coordinates\": [165.8686065673828, -21.61833381652832], \"count\": 1}, {\"coordinates\": [165.9744415283203, -21.657514572143555], \"count\": 1}, {\"coordinates\": [166.5333251953125, -22.195280075073242], \"count\": 2}, {\"coordinates\": [165.55722045898438, -21.445833206176758], \"count\": 1}, {\"coordinates\": [164.52610778808594, -20.406389236450195], \"count\": 1}, {\"coordinates\": [167.44136500000138, -22.547075000668116], \"count\": 1}, {\"coordinates\": [167.42556762695312, -22.55306053161621], \"count\": 5}, {\"coordinates\": [165.55833435058594, -21.445833206176758], \"count\": 1}, {\"coordinates\": [164.88360595703125, -20.992778778076172], \"count\": 3}, {\"coordinates\": [165.81666564941406, -21.600000381469727], \"count\": 1}, {\"coordinates\": [165.435089, -21.226273], \"count\": 1}, {\"coordinates\": [165.93333435058594, -21.649999618530273], \"count\": 2}, {\"coordinates\": [166.65638732910156, -22.120559692382812], \"count\": 1}, {\"coordinates\": [165.5630645751953, -21.45111083984375], \"count\": 1}, {\"coordinates\": [167.14999389648438, -20.916667938232422], \"count\": 15}, {\"coordinates\": [167.21665954589844, -20.924999237060547], \"count\": 5}, {\"coordinates\": [164.8706667, -20.6409722], \"count\": 1}, {\"coordinates\": [166.58749389648438, -22.153329849243164], \"count\": 1}, {\"coordinates\": [166.6925048828125, -22.167219161987305], \"count\": 1}, {\"coordinates\": [165.2344512939453, -20.816944122314453], \"count\": 1}, {\"coordinates\": [167.26666259765625, -21.066667556762695], \"count\": 1}, {\"coordinates\": [165.192585345358, -21.1158138513565], \"count\": 1}, {\"coordinates\": [165.63333129882812, -21.433332443237305], \"count\": 1}, {\"coordinates\": [165.979129895568, -21.6786861419678], \"count\": 1}, {\"coordinates\": [164.8553616, -20.872109], \"count\": 1}, {\"coordinates\": [164.98611450195312, -20.875], \"count\": 1}, {\"coordinates\": [166.44639587402344, -22.078332901000977], \"count\": 1}, {\"coordinates\": [166.34861755371094, -22.082778930664062], \"count\": 1}, {\"coordinates\": [166.68333435058594, -22.100000381469727], \"count\": 1}, {\"coordinates\": [166.44667053222656, -22.087778091430664], \"count\": 1}, {\"coordinates\": [165.441743787378, -21.5821588039398], \"count\": 1}, {\"coordinates\": [164.6074981689453, -20.44527816772461], \"count\": 1}, {\"coordinates\": [166.53750610351562, -21.97861099243164], \"count\": 1}, {\"coordinates\": [166.4648600000003, -22.031530000656133], \"count\": 1}, {\"coordinates\": [166.61666870117188, -22.083332061767578], \"count\": 1}, {\"coordinates\": [165.108170038529, -20.9454673541227], \"count\": 1}, {\"coordinates\": [167.9794457, -21.5172018], \"count\": 1}, {\"coordinates\": [165.5352783203125, -21.42416763305664], \"count\": 1}, {\"coordinates\": [167.4277801513672, -21.052778244018555], \"count\": 1}, {\"coordinates\": [166.35023464449, -22.08673065395579], \"count\": 1}, {\"coordinates\": [166.818115234375, -22.32430076599121], \"count\": 1}, {\"coordinates\": [166.55327100000045, -22.21547100066052], \"count\": 1}, {\"coordinates\": [166.08944702148438, -21.57638931274414], \"count\": 2}, {\"coordinates\": [164.32888793945312, -20.53693962097168], \"count\": 2}, {\"coordinates\": [166.53343200683594, -22.19529914855957], \"count\": 1}, {\"coordinates\": [165.2455596923828, -21.00611114501953], \"count\": 1}, {\"coordinates\": [165.773882, -21.602725], \"count\": 1}, {\"coordinates\": [164.8466931, -20.8312025], \"count\": 1}, {\"coordinates\": [166.505762504886, -22.1764323837053], \"count\": 1}, {\"coordinates\": [165.7183885715059, -21.638138689874822], \"count\": 1}, {\"coordinates\": [165.33944702148438, -20.949167251586914], \"count\": 1}, {\"coordinates\": [165.77897796, -21.60511196], \"count\": 2}, {\"coordinates\": [165.23167419433594, -21.01222038269043], \"count\": 1}, {\"coordinates\": [166.70802307128906, -22.246299743652344], \"count\": 1}, {\"coordinates\": [166.2994384765625, -21.640832901000977], \"count\": 1}, {\"coordinates\": [165.1663818359375, -20.97305679321289], \"count\": 1}, {\"coordinates\": [165.145582733676, -21.1927798390388], \"count\": 1}, {\"coordinates\": [165.8686065673828, -21.625829696655273], \"count\": 1}, {\"coordinates\": [164.83778381347656, -20.80388832092285], \"count\": 1}, {\"coordinates\": [164.60000610351562, -20.46666717529297], \"count\": 1}, {\"coordinates\": [166.58749389648438, -22.15333366394043], \"count\": 1}, {\"coordinates\": [166.68167114257812, -22.105833053588867], \"count\": 1}, {\"coordinates\": [165.2177778, -20.8177778], \"count\": 1}, {\"coordinates\": [166.53277587890625, -22.1813907623291], \"count\": 1}, {\"coordinates\": [166.65972900390625, -22.099721908569336], \"count\": 1}, {\"coordinates\": [165.76972225, -21.67000002], \"count\": 4}, {\"coordinates\": [166.5128631591797, -22.18832015991211], \"count\": 3}, {\"coordinates\": [164.5947265625, -20.459720611572266], \"count\": 1}, {\"coordinates\": [166.6349651, -22.117185], \"count\": 1}, {\"coordinates\": [165.450761656499, -21.4282041852846], \"count\": 1}, {\"coordinates\": [166.4476900000003, -22.08789000065745], \"count\": 1}, {\"coordinates\": [164.683919660747, -20.485897064209], \"count\": 1}, {\"coordinates\": [166.646728515625, -22.11850929260254], \"count\": 2}, {\"coordinates\": [166.61666870117188, -22.083330154418945], \"count\": 1}, {\"coordinates\": [166.6666717529297, -22.100000381469727], \"count\": 1}, {\"coordinates\": [166.68167114257812, -22.1058292388916], \"count\": 1}, {\"coordinates\": [165.349013, -20.946956], \"count\": 1}, {\"coordinates\": [164.443568168208, -20.3069239854813], \"count\": 1}, {\"coordinates\": [167.21665954589844, -20.691667556762695], \"count\": 1}, {\"coordinates\": [167.03277587890625, -22.260000228881836], \"count\": 2}, {\"coordinates\": [167.18333435058594, -20.833332061767578], \"count\": 3}, {\"coordinates\": [166.63333129882812, -22.103059768676758], \"count\": 1}, {\"coordinates\": [165.360198346898, -21.32967710495], \"count\": 1}, {\"coordinates\": [166.51278686523438, -22.172500610351562], \"count\": 2}, {\"coordinates\": [167.48333740234375, -22.583332061767578], \"count\": 2}, {\"coordinates\": [166.4713897705078, -22.0444393157959], \"count\": 2}, {\"coordinates\": [165.525943692774, -21.2947332859039], \"count\": 1}, {\"coordinates\": [166.89305114746094, -22.28472137451172], \"count\": 1}, {\"coordinates\": [165.236, -20.876], \"count\": 1}, {\"coordinates\": [166.48182798023797, -22.180805248973943], \"count\": 1}, {\"coordinates\": [167.21665954589844, -20.933332443237305], \"count\": 1}, {\"coordinates\": [166.15277099609375, -21.809999465942383], \"count\": 1}, {\"coordinates\": [167.16583251953125, -20.705278396606445], \"count\": 1}, {\"coordinates\": [164.73333740234375, -20.916667938232422], \"count\": 1}, {\"coordinates\": [165.33944702148438, -20.949169158935547], \"count\": 1}, {\"coordinates\": [166.32305908203125, -22.065277099609375], \"count\": 1}, {\"coordinates\": [167.1683349609375, -20.734439849853516], \"count\": 3}, {\"coordinates\": [164.82269689208567, -20.590266363381616], \"count\": 1}, {\"coordinates\": [165.9216766357422, -21.642499923706055], \"count\": 1}, {\"coordinates\": [164.86277770996094, -20.64472007751465], \"count\": 1}, {\"coordinates\": [166.51666259765625, -22.200000762939453], \"count\": 1}, {\"coordinates\": [165.581274982542, -21.4841938018799], \"count\": 1}, {\"coordinates\": [166.4883270263672, -22.116666793823242], \"count\": 2}, {\"coordinates\": [167.442202, -22.550504], \"count\": 1}, {\"coordinates\": [165.8000030517578, -21.616666793823242], \"count\": 1}, {\"coordinates\": [165.038295403312, -20.9704849185235], \"count\": 1}, {\"coordinates\": [167.88568115234375, -21.54861068725586], \"count\": 1}, {\"coordinates\": [166.7083282470703, -22.175277709960938], \"count\": 2}, {\"coordinates\": [166.0852813720703, -21.58194351196289], \"count\": 2}, {\"coordinates\": [165.07440893731766, -21.069713630654334], \"count\": 1}, {\"coordinates\": [165.207758601755, -21.260706782341], \"count\": 1}, {\"coordinates\": [165.523417, -21.172646], \"count\": 1}, {\"coordinates\": [165.147597072646, -21.192634999752], \"count\": 1}, {\"coordinates\": [165.104664599652, -21.1331019241302], \"count\": 1}, {\"coordinates\": [166.506103515625, -22.186389923095703], \"count\": 1}, {\"coordinates\": [167.17056274414062, -20.703889846801758], \"count\": 3}, {\"coordinates\": [165.166499996185, -21.155233335495], \"count\": 1}, {\"coordinates\": [166.65638732910156, -22.120555877685547], \"count\": 1}, {\"coordinates\": [166.9386749267578, -22.34973907470703], \"count\": 2}, {\"coordinates\": [167.440436, -22.54653], \"count\": 1}, {\"coordinates\": [164.693056102842, -20.781632065773], \"count\": 1}, {\"coordinates\": [166.4461800000003, -22.07449000065716], \"count\": 1}, {\"coordinates\": [165.010641, -20.852822], \"count\": 1}, {\"coordinates\": [167.13333129882812, -20.766666412353516], \"count\": 2}, {\"coordinates\": [166.5336151123047, -22.185832977294922], \"count\": 1}, {\"coordinates\": [167.1666717529297, -20.733333587646484], \"count\": 3}, {\"coordinates\": [166.6327512696972, -22.224631360843034], \"count\": 1}, {\"coordinates\": [166.03250122070312, -21.547779083251953], \"count\": 2}, {\"coordinates\": [166.4425048828125, -22.071109771728516], \"count\": 1}, {\"coordinates\": [167.42971801757812, -22.550277709960938], \"count\": 1}, {\"coordinates\": [165.39138793945312, -21.046110153198242], \"count\": 2}, {\"coordinates\": [165.4552764892578, -21.331388473510742], \"count\": 1}, {\"coordinates\": [164.32888793945312, -20.536943435668945], \"count\": 2}, {\"coordinates\": [164.68333435058594, -20.649999618530273], \"count\": 1}, {\"coordinates\": [165.80833435058594, -21.600000381469727], \"count\": 1}, {\"coordinates\": [164.95611572265625, -20.871389389038086], \"count\": 1}, {\"coordinates\": [167.9763946533203, -21.520280838012695], \"count\": 1}, {\"coordinates\": [167.13528442382812, -20.991390228271484], \"count\": 1}, {\"coordinates\": [165.9677734375, -21.643888473510742], \"count\": 1}, {\"coordinates\": [165.9721221923828, -21.64529037475586], \"count\": 1}, {\"coordinates\": [166.94972229003906, -22.273059844970703], \"count\": 1}, {\"coordinates\": [167.25, -20.799999237060547], \"count\": 1}, {\"coordinates\": [164.90855, -20.981432], \"count\": 1}, {\"coordinates\": [165.01805114746094, -20.966388702392578], \"count\": 1}, {\"coordinates\": [165.233984750871, -20.8740439598545], \"count\": 1}, {\"coordinates\": [167.2400360107422, -20.780330657958984], \"count\": 2}, {\"coordinates\": [166.97222900390625, -22.34861183166504], \"count\": 1}, {\"coordinates\": [167.1683349609375, -20.73444366455078], \"count\": 2}, {\"coordinates\": [164.682068936527, -20.4725503921509], \"count\": 1}, {\"coordinates\": [165.744160922935, -21.4780033340982], \"count\": 1}, {\"coordinates\": [165.263726973796, -21.5484070837344], \"count\": 1}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 1}, {\"coordinates\": [164.8219889654721, -20.59163433774781], \"count\": 1}, {\"coordinates\": [165.8063704, -21.6125759], \"count\": 1}, {\"coordinates\": [167.42555236816406, -22.553056716918945], \"count\": 3}, {\"coordinates\": [165.430226549506, -21.579487323761], \"count\": 1}, {\"coordinates\": [165.867496562193, -21.6247940216754], \"count\": 1}, {\"coordinates\": [164.30387025699, -20.4508030414581], \"count\": 1}, {\"coordinates\": [165.164597583468, -21.1238348393394], \"count\": 1}, {\"coordinates\": [165.11666870117188, -21.133333206176758], \"count\": 1}, {\"coordinates\": [166.3316650390625, -22.070556640625], \"count\": 1}, {\"coordinates\": [165.205260114058, -20.8879977911278], \"count\": 1}, {\"coordinates\": [164.52305603027344, -20.39611053466797], \"count\": 1}, {\"coordinates\": [165.7405548095703, -21.564722061157227], \"count\": 1}, {\"coordinates\": [164.8705596923828, -20.641109466552734], \"count\": 2}, {\"coordinates\": [165.22055053710938, -20.8174991607666], \"count\": 1}, {\"coordinates\": [165.461669921875, -21.42416763305664], \"count\": 1}, {\"coordinates\": [165.5369415283203, -21.383060455322266], \"count\": 1}, {\"coordinates\": [165.55555725097656, -21.447500228881836], \"count\": 2}, {\"coordinates\": [165.45416259765625, -21.429439544677734], \"count\": 1}, {\"coordinates\": [166.53334045410156, -22.183332443237305], \"count\": 2}, {\"coordinates\": [165.73255787, -21.37850015], \"count\": 1}, {\"coordinates\": [165.96665954589844, -21.583330154418945], \"count\": 2}, {\"coordinates\": [165.69139099121094, -21.56805992126465], \"count\": 1}, {\"coordinates\": [166.4493100000003, -22.08565000065742], \"count\": 1}, {\"coordinates\": [165.155795328319, -21.2009847164154], \"count\": 1}, {\"coordinates\": [164.70905052184148, -20.47715653751574], \"count\": 1}, {\"coordinates\": [166.508316742333, -22.0610877591667], \"count\": 1}, {\"coordinates\": [166.3679656982422, -21.72579002380371], \"count\": 1}, {\"coordinates\": [165.5459833, -21.4161167], \"count\": 1}, {\"coordinates\": [166.64999389648438, -22.116666793823242], \"count\": 2}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 1}, {\"coordinates\": [165.7083282470703, -21.54083251953125], \"count\": 1}, {\"coordinates\": [165.6999969482422, -21.549999237060547], \"count\": 1}, {\"coordinates\": [165.157654937357, -21.2145513296127], \"count\": 1}, {\"coordinates\": [164.7147444, -20.728175], \"count\": 1}, {\"coordinates\": [167.88494873046875, -21.546173095703125], \"count\": 2}, {\"coordinates\": [165.80311584472656, -21.615619659423828], \"count\": 2}, {\"coordinates\": [166.6925048828125, -22.167221069335938], \"count\": 1}, {\"coordinates\": [166.37583923339844, -21.717777252197266], \"count\": 1}, {\"coordinates\": [165.76527404785156, -21.62555694580078], \"count\": 1}, {\"coordinates\": [165.8000030517578, -21.616670608520508], \"count\": 1}, {\"coordinates\": [166.23898885, -21.68170686], \"count\": 1}, {\"coordinates\": [166.49107401, -21.95016101], \"count\": 1}, {\"coordinates\": [166.60540802, -22.06978095], \"count\": 1}, {\"coordinates\": [166.50397599, -21.969119], \"count\": 1}, {\"coordinates\": [166.52465996, -22.18012997], \"count\": 1}, {\"coordinates\": [166.15547218, -21.74575002], \"count\": 1}, {\"coordinates\": [166.54058702, -22.17797097], \"count\": 1}, {\"coordinates\": [166.51290896, -21.96684296], \"count\": 1}, {\"coordinates\": [166.15546598, -21.74566497], \"count\": 1}, {\"coordinates\": [166.24241539, -21.66594582], \"count\": 1}, {\"coordinates\": [166.14557904, -21.73694597], \"count\": 1}, {\"coordinates\": [166.23643837, -21.68073113], \"count\": 1}, {\"coordinates\": [166.54084298, -22.178624], \"count\": 1}, {\"coordinates\": [165.99846303, -21.75603704], \"count\": 1}, {\"coordinates\": [166.2193719, -21.67560939], \"count\": 1}, {\"coordinates\": [166.49524903, -21.94512001], \"count\": 1}, {\"coordinates\": [166.23174487, -21.67188604], \"count\": 1}, {\"coordinates\": [166.00158201, -21.76466202], \"count\": 1}, {\"coordinates\": [166.60486498, -22.07270495], \"count\": 1}, {\"coordinates\": [166.60617401, -22.07395503], \"count\": 1}, {\"coordinates\": [166.15296098, -21.73768498], \"count\": 1}, {\"coordinates\": [166.5921667, -22.15458055], \"count\": 1}, {\"coordinates\": [166.59146111, -22.15531948], \"count\": 1}, {\"coordinates\": [166.59134999, -22.15500002], \"count\": 1}, {\"coordinates\": [165.13463892, -20.81599997], \"count\": 1}, {\"coordinates\": [165.47702778, -21.2368611], \"count\": 1}, {\"coordinates\": [165.008, -20.90960003], \"count\": 1}, {\"coordinates\": [166.69888886, -22.17277775], \"count\": 1}, {\"coordinates\": [164.303041, -20.453099], \"count\": 1}, {\"coordinates\": [165.1166667, -21.1333333], \"count\": 1}, {\"coordinates\": [165.90378087115178, -21.623483886134274], \"count\": 1}, {\"coordinates\": [167.0327778, -22.26], \"count\": 1}, {\"coordinates\": [165.5583333, -21.4458333], \"count\": 1}, {\"coordinates\": [167.4833333, -22.5833333], \"count\": 2}, {\"coordinates\": [166.0852777, -21.5819445], \"count\": 2}, {\"coordinates\": [164.5261111, -20.4063889], \"count\": 1}, {\"coordinates\": [165.2455555, -21.0061111], \"count\": 1}, {\"coordinates\": [167.9666667, -21.6166667], \"count\": 1}, {\"coordinates\": [164.6075, -20.4452777], \"count\": 1}, {\"coordinates\": [166.3230556, -22.0652778], \"count\": 1}, {\"coordinates\": [164.521679, -20.549004], \"count\": 1}, {\"coordinates\": [166.6652778, -22.2291667], \"count\": 1}, {\"coordinates\": [165.0180556, -20.9663889], \"count\": 1}, {\"coordinates\": [165.4619845754884, -21.42588369982202], \"count\": 1}, {\"coordinates\": [165.9669445, -21.6558333], \"count\": 2}, {\"coordinates\": [167.9, -21.55], \"count\": 2}, {\"coordinates\": [165.5572222, -21.4458333], \"count\": 1}, {\"coordinates\": [166.50994519909378, -22.175733029212456], \"count\": 1}, {\"coordinates\": [167.4255556, -22.5530556], \"count\": 3}, {\"coordinates\": [166.6666667, -22.1], \"count\": 1}, {\"coordinates\": [165.7, -21.55], \"count\": 1}, {\"coordinates\": [165.7833333, -21.5833333], \"count\": 2}, {\"coordinates\": [165.8, -21.61666], \"count\": 1}, {\"coordinates\": [165.4411111, -21.3925], \"count\": 1}, {\"coordinates\": [165.4616667, -21.4241667], \"count\": 1}, {\"coordinates\": [165.5352777, -21.4241667], \"count\": 1}, {\"coordinates\": [166.5375, -22.2011111], \"count\": 1}, {\"coordinates\": [166.8930555, -22.2847222], \"count\": 1}, {\"coordinates\": [166.65, -22.1166667], \"count\": 2}, {\"coordinates\": [167.4413650000014, -22.5470750006682], \"count\": 1}, {\"coordinates\": [166.3758334, -21.7177778], \"count\": 1}, {\"coordinates\": [166.2994444, -21.6408333], \"count\": 1}, {\"coordinates\": [165.1663889, -20.9730556], \"count\": 1}, {\"coordinates\": [166.4466666, -22.0877777], \"count\": 1}, {\"coordinates\": [166.9722223, -22.3486111], \"count\": 1}, {\"coordinates\": [165.2344444, -20.8169445], \"count\": 1}, {\"coordinates\": [166.5875, -22.1533333], \"count\": 1}, {\"coordinates\": [166.6597222, -22.0997222], \"count\": 1}, {\"coordinates\": [166.6166667, -22.0833333], \"count\": 1}, {\"coordinates\": [164.82134, -20.84982], \"count\": 1}, {\"coordinates\": [166.4494444, -22.0894444], \"count\": 1}, {\"coordinates\": [167.1705556, -20.7038889], \"count\": 1}, {\"coordinates\": [164.5230556, -20.3961111], \"count\": 1}, {\"coordinates\": [165.5369444, -21.3830556], \"count\": 1}, {\"coordinates\": [165.7405555, -21.5647222], \"count\": 1}, {\"coordinates\": [166.3316667, -22.0705556], \"count\": 1}, {\"coordinates\": [167.4297223, -22.5502778], \"count\": 1}, {\"coordinates\": [166.5333333, -22.1833333], \"count\": 2}, {\"coordinates\": [166.4463889, -22.0783334], \"count\": 1}, {\"coordinates\": [164.8522222, -20.875], \"count\": 1}, {\"coordinates\": [166.6925, -22.1672223], \"count\": 1}, {\"coordinates\": [165.7083333, -21.5408333], \"count\": 1}, {\"coordinates\": [166.5336111, -22.1858333], \"count\": 1}, {\"coordinates\": [164.8433333, -20.8341666], \"count\": 1}, {\"coordinates\": [164.8377777, -20.8038889], \"count\": 1}, {\"coordinates\": [166.6816667, -22.1058333], \"count\": 1}, {\"coordinates\": [165.2205556, -20.8175], \"count\": 1}, {\"coordinates\": [164.9861111, -20.875], \"count\": 1}, {\"coordinates\": [165.8686111, -21.6183334], \"count\": 1}, {\"coordinates\": [165.96666, -21.58333], \"count\": 2}, {\"coordinates\": [165.7652778, -21.6255556], \"count\": 1}, {\"coordinates\": [165.7713889, -21.6561111], \"count\": 1}, {\"coordinates\": [164.8836111, -20.9927777], \"count\": 3}, {\"coordinates\": [164.7277778, -20.8611111], \"count\": 1}, {\"coordinates\": [164.7333333, -20.9166667], \"count\": 1}, {\"coordinates\": [167.2166667, -20.9333333], \"count\": 1}, {\"coordinates\": [165.4552778, -21.3313889], \"count\": 1}, {\"coordinates\": [165.9666667, -21.65], \"count\": 1}, {\"coordinates\": [167.1683334, -20.7344444], \"count\": 2}, {\"coordinates\": [165.9677778, -21.6438889], \"count\": 1}, {\"coordinates\": [165.3913889, -21.0461111], \"count\": 1}, {\"coordinates\": [164.6833333, -20.65], \"count\": 1}, {\"coordinates\": [165.9333333, -21.65], \"count\": 1}, {\"coordinates\": [166.55, -22.1666667], \"count\": 1}, {\"coordinates\": [166.5375, -21.9786111], \"count\": 1}, {\"coordinates\": [166.6563889, -22.1205556], \"count\": 1}, {\"coordinates\": [166.1527778, -21.81], \"count\": 1}, {\"coordinates\": [164.69392, -20.78143], \"count\": 1}, {\"coordinates\": [165.3394444, -20.9491666], \"count\": 1}, {\"coordinates\": [164.8841666, -20.7919444], \"count\": 1}, {\"coordinates\": [165.7758334, -21.615], \"count\": 1}, {\"coordinates\": [166.4666667, -22.05], \"count\": 3}, {\"coordinates\": [164.3288889, -20.5369444], \"count\": 2}, {\"coordinates\": [165.359062726061, -21.0572705021549], \"count\": 1}, {\"coordinates\": [164.74643407757, -20.7382483062734], \"count\": 1}, {\"coordinates\": [165.074319901956, -20.9871088206898], \"count\": 1}, {\"coordinates\": [165.081130192365, -20.9912739770591], \"count\": 1}, {\"coordinates\": [165.075326582759, -20.9382286957999], \"count\": 1}, {\"coordinates\": [165.035211303097, -20.9652774424351], \"count\": 1}, {\"coordinates\": [165.093504720837, -20.9756634460217], \"count\": 1}, {\"coordinates\": [165.334551653803, -21.2998764090595], \"count\": 1}, {\"coordinates\": [165.060645106073, -20.9524831847978], \"count\": 1}, {\"coordinates\": [165.091289819784, -20.9751630331682], \"count\": 1}, {\"coordinates\": [165.094301663403, -20.9348994769685], \"count\": 1}, {\"coordinates\": [164.877872165555, -20.7858652952305], \"count\": 2}, {\"coordinates\": [165.003281238754, -20.9303872184225], \"count\": 1}, {\"coordinates\": [165.010356013314, -20.9829007381722], \"count\": 1}, {\"coordinates\": [165.023831546151, -20.9671187005174], \"count\": 1}, {\"coordinates\": [164.945199938138, -20.8017498617618], \"count\": 1}, {\"coordinates\": [165.043420982604, -20.9768492732773], \"count\": 1}, {\"coordinates\": [164.748804010771, -20.7644456726401], \"count\": 1}, {\"coordinates\": [165.107107152039, -20.9438018833046], \"count\": 2}, {\"coordinates\": [164.744839538576, -20.733117238776], \"count\": 1}, {\"coordinates\": [165.044910044057, -20.9648580324766], \"count\": 1}, {\"coordinates\": [165.087205856383, -20.9913923688168], \"count\": 1}, {\"coordinates\": [164.364191943523, -20.489892824], \"count\": 1}, {\"coordinates\": [165.335003579474, -21.2948072018161], \"count\": 1}, {\"coordinates\": [165.060220236588, -20.9687245661217], \"count\": 1}, {\"coordinates\": [165.095903893779, -20.9326240295392], \"count\": 2}, {\"coordinates\": [165.048288249996, -20.948064816239], \"count\": 1}, {\"coordinates\": [165.308710569195, -21.3219273844265], \"count\": 1}, {\"coordinates\": [164.83781783705, -20.7200181036622], \"count\": 1}]}", "parent_id": 13530, "phenology_temporal_phenology": {"data": {"flowering": [2.56, 20.0, 3.45, 1.78, 2.86, 2.6, 50.0, 50.0, 12.96, 28.17, 8.04, 58.82], "fruiting": [10.26, 4.0, 3.45, 1.78, 4.29, 0.0, 0.0, 25.0, 9.26, 14.08, 9.82, 41.18]}, "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]}, "rank_name": "species", "rght": 240, "species_top": {"Plerandra gabriellae": 1400}, "taxon_id": 13547, "total_occurrences_count": 1400, "um_occurrences_false": 1008, "um_occurrences_true": 392, "wood_density_max": 0.63, "wood_density_mean": 0.5, "wood_density_min": 0.42};
+        const mapping = {"fields": {"bark_thickness": {"bins": [], "description": "bark_thickness", "field_type": "DOUBLE", "label": "BARK_THICKNESS", "source_field": "bark_thickness", "transformations": [{"chart_options": {"label": "mm", "max": 80, "title": "Bark thickness"}, "chart_type": "gauge", "name": "mean"}, {"name": "max"}, {"name": "min"}]}, "dbh": {"bins": {"chart_options": {"color": "#548235", "title": "Diameter distribution (DBH)"}, "chart_type": "bar", "values": [10, 20, 30, 40, 50, 75, 100, 200, 300, 400, 500]}, "description": "dbh", "field_type": "DOUBLE", "label": "DBH", "source_field": "dbh", "transformations": [{"name": "mean"}, {"chart_options": {"label": "centimeters", "max": 500, "title": "Maximum diameter (DBH)"}, "chart_type": "gauge", "name": "max"}, {"name": "median"}, {"name": "min"}]}, "elevation": {"bins": {"chart_options": {"color": "#548235", "indexAxis": "y", "title": "Altitudinal distribution"}, "chart_type": "bar", "values": [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1700]}, "description": "elevation", "field_type": "BIGINT", "label": "ELEVATION", "source_field": "elevation", "transformations": []}, "height": {"bins": [], "description": "height", "field_type": "DOUBLE", "label": "HEIGHT", "source_field": "height", "transformations": [{"chart_options": {"label": "meters", "max": 40, "title": "Maximum height"}, "chart_type": "gauge", "name": "max"}]}, "holdridge": {"bins": {"chart_options": {"color": "#1e88e5", "colors": ["#1e88e5", "#ffd54f", "#e53935"], "stacked": true, "title": "Holdridge"}, "chart_type": "bar", "labels": ["Dry", "Humid", "Very Humid"], "values": [1, 2, 3]}, "description": "holdridge", "field_type": "BIGINT", "label": "HOLDRIDGE", "source_field": "holdridge", "transformations": []}, "leaf_area": {"bins": [], "description": "leaf_area", "field_type": "DOUBLE", "label": "LEAF_AREA", "source_field": "leaf_area", "transformations": [{"chart_options": {"label": "cm2", "max": 1500, "title": "Leaf area"}, "chart_type": "gauge", "name": "mean"}, {"name": "max"}, {"name": "min"}]}, "leaf_sla": {"bins": [], "description": "leaf_sla", "field_type": "DOUBLE", "label": "LEAF_SLA", "source_field": "leaf_sla", "transformations": [{"chart_options": {"label": "m2.kg-1", "max": 50, "title": "Specific leaf area"}, "chart_type": "gauge", "name": "mean"}, {"name": "max"}, {"name": "min"}]}, "leaf_thickness": {"bins": [], "description": "leaf_thickness", "field_type": "DOUBLE", "label": "LEAF_THICKNESS", "source_field": "leaf_thickness", "transformations": [{"chart_options": {"label": "\u00b5m", "max": 800, "title": "Leaf thickness"}, "chart_type": "gauge", "name": "mean"}, {"name": "max"}, {"name": "min"}]}, "occurrences_locations": {"bins": [], "description": "Geographic location of the occurrence", "field_type": "GEOGRAPHY", "label": "Occurrence location", "source": "occurrences", "source_field": "geo_pt", "transformations": [{"chart_options": {"coordinates_field": "occurrences_locations_coordinates", "title": "Occurrence map"}, "chart_type": "map", "name": "coordinates"}]}, "phenology": {"bins": [], "description": "Temporal phenology data for flowering and fruiting", "field_type": "JSON", "label": "Phenology", "source": "occurrences", "source_fields": {"flowering": "flower", "fruiting": "fruit"}, "time_grouping": {"custom_groups": [], "field": "month_obs", "type": "month"}, "transformations": [{"chart_options": {"colors": {"flowering": "#ffd700", "fruiting": "#ee0000"}, "indexAxis": "y", "title": "Phenology"}, "chart_type": "bar", "name": "temporal_phenology"}]}, "rainfall": {"bins": {"chart_options": {"color": "#2e75b6", "indexAxis": "y", "title": "Rainfall distribution"}, "chart_type": "bar", "values": [1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000]}, "description": "rainfall", "field_type": "BIGINT", "label": "RAINFALL", "source_field": "rainfall", "transformations": []}, "species": {"bins": [], "description": "Top most frequent species", "field_type": "JSON", "label": "Top Species", "source": "occurrences", "source_field": null, "transformations": [{"chart_options": {"indexAxis": "y", "title": "Main Sub-taxa"}, "chart_type": "bar", "count": 10, "name": "top", "target_ranks": ["species", "infra"]}]}, "strate": {"bins": {"chart_options": {"color": "#00b050", "indexAxis": "y", "title": "Strate"}, "chart_type": "bar", "labels": ["Undergrowth", "Under-Canopy", "Canopy", "Emergent"], "values": [1, 2, 3, 4]}, "description": "strate", "field_type": "BIGINT", "label": "STRATE", "source_field": "strate", "transformations": []}, "total_occurrences": {"bins": [], "description": "Total number of occurrences for the taxon", "field_type": "INTEGER", "label": "Total occurrences", "source": "occurrences", "source_field": null, "transformations": [{"chart_options": {"title": "Total occurrences"}, "chart_type": "text", "name": "count"}]}, "um_occurrences": {"bins": [], "description": "Number of occurrences on ultramafic substrates", "field_type": "BOOLEAN", "label": "UM occurrences", "source": "occurrences", "source_field": "in_um", "transformations": [{"chart_options": {"colors": {"false": "#78909c", "true": "#b08d57"}, "labels": {"false": "non-Ultramafic (NUM)", "true": "Ultramafic (UM)"}, "title": "Substrate Distribution"}, "chart_type": "pie", "name": "count"}]}, "wood_density": {"bins": [], "description": "wood_density", "field_type": "DOUBLE", "label": "WOOD_DENSITY", "source_field": "wood_density", "transformations": [{"chart_options": {"label": "g/cm\u00b3", "max": 1.2, "title": "Wood density"}, "chart_type": "gauge", "name": "mean"}, {"name": "max"}, {"name": "min"}]}}, "group_by": "taxon", "identifier": "id_taxonref", "reference_table_name": "taxon_ref", "source_location_field": "geo_pt", "source_table_name": "occurrences"};
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const treeContainer = document.getElementById('taxonomy-tree');
+            createTree(treeContainer, taxonomyData);
+            loadCharts(taxon, mapping)
+            setTimeout(initMap, 0.5);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+{
+    "id": 5669,
+    "full_name": "Sloanea lepida",
+    "authors": "Tirel",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3673
+    },
+    "lft": 1049,
+    "rght": 1050,
+    "level": 2,
+    "parent_id": 1382,
+    "taxon_id": 5669,
+    "total_occurrences_count": 38,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.1207861, -21.1487722], \"count\": 2}, {\"coordinates\": [165.120361, -21.148142], \"count\": 12}, {\"coordinates\": [165.697225, -21.6136597], \"count\": 1}, {\"coordinates\": [165.8162347, -21.5851607], \"count\": 2}, {\"coordinates\": [165.122272, -21.146053], \"count\": 2}, {\"coordinates\": [165.8130645751953, -21.588329315185547], \"count\": 3}, {\"coordinates\": [165.6938934326172, -21.616670608520508], \"count\": 2}, {\"coordinates\": [164.85000610351562, -20.666667938232422], \"count\": 1}, {\"coordinates\": [165.7741667, -21.5686111], \"count\": 1}, {\"coordinates\": [165.774169921875, -21.5686092376709], \"count\": 1}, {\"coordinates\": [165.81306, -21.58833], \"count\": 3}, {\"coordinates\": [165.69389, -21.61667], \"count\": 2}, {\"coordinates\": [165.1208, -21.1488], \"count\": 1}, {\"coordinates\": [165.74752998, -21.60332701], \"count\": 1}, {\"coordinates\": [165.7742, -21.5686], \"count\": 2}, {\"coordinates\": [165.6939, -21.6167], \"count\": 1}, {\"coordinates\": [165.8131, -21.5883], \"count\": 1}]}",
+    "species_top": {
+        "Sloanea lepida": 38
+    },
+    "um_occurrences_true": 15,
+    "um_occurrences_false": 23,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                0.0,
+                0,
+                33.33,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 52.99,
+    "dbh_max": 93.9,
+    "dbh_median": 44.6,
+    "dbh_min": 29.9,
+    "height_max": 30.0,
+    "wood_density_mean": 0.59,
+    "wood_density_max": 0.7,
+    "wood_density_min": 0.53,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 14.29,
+            "30": 28.57,
+            "40": 28.57,
+            "50": 0.0,
+            "75": 28.57,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 2.63,
+            "200": 13.16,
+            "300": 23.68,
+            "400": 13.16,
+            "500": 47.37,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 13.16,
+            "1500": 73.68,
+            "2000": 13.16,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

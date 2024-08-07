@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Niamoto - Parcelle Gohapin</title>
+    <link rel="stylesheet" href="../js/vendor/tailwindcss/2.2.19_dist_tailwind.css">
+    <link rel="stylesheet" href="../js/vendor/leaflet/1.9.4_leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+<script src="../js/plot_list.js"></script>
+
+    <style>
+        #plot-list li {
+            list-style: none;
+        }
+
+        .plot-link {
+            display: block;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .plot-link:hover {
+            background-color: #f0f0f0;
+        }
+
+        .plot-link.active {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        #plotMap {
+            position: relative;
+            height: 400px;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 400px; /* Fix the height */
+            width: 100%; /* Ensure full width */
+            max-width: 600px; /* Set a max-width to prevent it from being too wide */
+            margin: 0 auto; /* Center the chart container */
+          }
+    </style>
+
+    <style>
+        .gauge {
+            height: 349px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .loader-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loader {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-bg p-4 fixed w-full top-0 shadow-md z-50 custom-nav">
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <a id="home-link" class="inline-flex items-center py-2 px-4 text-white no-underline" href="#" data-link="index.html">
+                <span class="site-title">Niamoto</span>
+            </a>
+        </div>
+
+        <div class="block lg:hidden">
+            <button id="nav-toggle"
+                class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
+            <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="index.html">
+                        <i class="fas fa-home menu-icon"></i>Accueil
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#introduction">Introduction</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#project">Projet</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#objective">Objectifs</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#context">Contexte</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#flora">Flore</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="methodology.html">
+                        <i class="fas fa-flask menu-icon"></i>Méthodologie
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#methodes">Nos méthodes</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#faq">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="trees.html">
+                        <i class="fas fa-leaf menu-icon"></i>Arbres
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#learnTaxon">Étudier les
+                arbres</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#taxon">Les arbres de
+                Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="plots.html">
+                        <i class="fas fa-map-marked-alt menu-icon"></i>Peuplements
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#learnPlot">Étudier les
+                            peuplements forestiers</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#plot">Les
+                peuplements forestiers de Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="forests.html">
+                        <i class="fas fa-tree menu-icon"></i>Forêt
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#learnForest">Étudier les
+                forêts</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#forestPN">La forêt de la
+                province Nord</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#forestPS">La forêt de la
+                province Sud</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="resources.html">
+                        <i class="fas fa-book menu-icon"></i>Ressources
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#equipe">L'équipe</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#article">Articles</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#academic">Académique</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#media-production">Médias</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script>
+  document.getElementById('nav-toggle').onclick = function () {
+    document.getElementById('nav-content').classList.toggle('hidden');
+  };
+
+  // Function to adjust the navigation links based on page depth
+  function adjustNavLinks(depth) {
+    document.querySelectorAll('a[data-link]').forEach(link => {
+      link.href = depth + link.getAttribute('data-link');
+    });
+  }
+
+  // Adjust the navigation links based on the depth
+  adjustNavLinks("../");
+</script>
+
+<style>
+    .site-title {
+        font-family: 'Arial Black', sans-serif; /* Custom font for a bold effect */
+        font-size: 2rem; /* Increased font size */
+        text-transform: uppercase; /* Uppercase letters for visibility */
+        letter-spacing: 2px; /* Spacing between letters */
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
+        transition: color 0.3s; /* Smooth transition for hover effect */
+    }
+
+    .site-title:hover {
+        color: #ffdd57; /* Change color on hover */
+    }
+
+    .text-contour {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-bg {
+        background-color: rgba(34, 139, 34, 0.8); /* Fond vert semi-transparent */
+        transition: background-color 0.3s;
+    }
+
+    .nav-bg:hover {
+        background-color: rgba(34, 139, 34, 1); /* Fond vert opaque au survol */
+    }
+
+    .group:hover .group-hover\:block {
+        display: block;
+    }
+
+    .custom-nav {
+        z-index: 500;
+    }
+
+    .custom-dropdown {
+        z-index: 500;
+    }
+
+    .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.2); /* Fond blanc transparent au survol */
+        border-radius: 4px;
+    }
+
+    .menu-icon {
+        margin-right: 8px;
+    }
+</style>
+    <div class="flex">
+        
+<aside class="w-1/4 p-4 mt-28">
+    <h2 class="font-semibold text-lg mb-4">List of Plots</h2>
+    <ul id="plot-list" class="list-disc pl-5">
+        <!-- The list of plots will be generated by JavaScript -->
+    </ul>
+</aside>
+
+        <div class="w-full">
+            
+<div class="rounded overflow-hidden shadow-lg mb-2 mt-28">
+    <div class="px-6 py-4">
+        <div class="font-bold text-4xl mb-2">Gohapin</div>
+    </div>
+</div>
+
+<div class="flex flex-wrap -mx-2">
+    
+
+    
+
+    
+
+    
+        
+            
+    <div class="w-full px-2 mb-4">
+        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+            <div class="px-6 pt-4 pb-2">
+                <div id="plotMap" style="height: 400px; position: relative;">
+                    <div class="loader-container" id="mapLoader">
+                        <div class="loader"></div>
+                    </div>
+                    <!-- The Leaflet map will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        
+    
+        
+            
+        
+        
+            
+            <div class="w-1/2 px-2 mb-4">
+                <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                    
+    
+        <h2 class="font-bold text-xl mb-2">Top Families</h2>
+    
+    
+        <canvas class="chart-container" id="familiestopBarChart"></canvas>
+    
+    
+                </div>
+            </div>
+            
+        
+    
+        
+    
+        
+            
+        
+        
+            
+            <div class="w-1/2 px-2 mb-4">
+                <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                    
+    
+        <h2 class="font-bold text-xl mb-2">Top Species</h2>
+    
+    
+        <canvas class="chart-container" id="speciestopBarChart"></canvas>
+    
+    
+                </div>
+            </div>
+            
+        
+    
+        
+    
+        
+            
+        
+            <div class="w-1/2 px-2 mb-4">
+                <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                    <h2 class="font-bold text-xl mb-2">Diameter distribution (DBH)</h2>
+                    <canvas id="dbhBinChart"></canvas>
+                </div>
+            </div>
+        
+        
+    
+        
+    
+        
+            
+        
+            <div class="w-1/2 px-2 mb-4">
+                <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                    <h2 class="font-bold text-xl mb-2">Strate</h2>
+                    <canvas id="strateBinChart"></canvas>
+                </div>
+            </div>
+        
+        
+    
+        
+    
+        
+            
+        
+        
+            
+            <div class="w-1/2 px-2 mb-4">
+                <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                    
+    
+        <h2 class="font-bold text-xl mb-2">Maximum height</h2>
+    
+    
+        <div class="gauge" id="heightmeanGauge"></div>
+    
+    
+                </div>
+            </div>
+            
+        
+    
+        
+    
+        
+            
+        
+        
+            
+            <div class="w-1/2 px-2 mb-4">
+                <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                    
+    
+        <h2 class="font-bold text-xl mb-2">Wood density</h2>
+    
+    
+        <div class="gauge" id="wood_densitymeanGauge"></div>
+    
+    
+                </div>
+            </div>
+            
+        
+    
+        
+    
+        
+            
+        
+        
+            
+            <div class="w-1/2 px-2 mb-4">
+                <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                    
+    
+        <h2 class="font-bold text-xl mb-2">Basal area</h2>
+    
+    
+        <div class="gauge" id="basal_areaGauge"></div>
+    
+    
+                </div>
+            </div>
+            
+        
+    
+        
+    
+        
+            
+        
+        
+            
+            <div class="w-1/2 px-2 mb-4">
+                <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                    
+    
+        <h2 class="font-bold text-xl mb-2">Shannon diversity index</h2>
+    
+    
+        <div class="gauge" id="shannonGauge"></div>
+    
+    
+                </div>
+            </div>
+            
+        
+    
+        
+    
+        
+            
+        
+        
+            
+            <div class="w-1/2 px-2 mb-4">
+                <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                    
+    
+        <h2 class="font-bold text-xl mb-2">Pielou evenness index</h2>
+    
+    
+        <div class="gauge" id="pielouGauge"></div>
+    
+    
+                </div>
+            </div>
+            
+        
+    
+        
+    
+        
+            
+        
+        
+            
+            <div class="w-1/2 px-2 mb-4">
+                <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                    
+    
+        <h2 class="font-bold text-xl mb-2">Simpson diversity index</h2>
+    
+    
+        <div class="gauge" id="simpsonGauge"></div>
+    
+    
+                </div>
+            </div>
+            
+        
+    
+        
+    
+        
+            
+        
+        
+            
+            <div class="w-1/2 px-2 mb-4">
+                <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                    
+    
+        <h2 class="font-bold text-xl mb-2">Biomass</h2>
+    
+    
+        <div class="gauge" id="biomassGauge"></div>
+    
+    
+                </div>
+            </div>
+            
+        
+    
+        
+    
+</div>
+
+        </div>
+    </div>
+    <footer class="bg-green-700 text-white p-4 mt-8">
+        <div class="container mx-auto">
+            <div class="flex justify-center mb-4">
+                <div class="bg-white p-2 rounded-lg shadow-md flex justify-center">
+                    <figure class="mx-2"><img class="img-fluid" src="../files/ps_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/pn_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/amap_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/herbarium_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/iac_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/ird_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/cirad_100.png"></figure>
+                </div>
+            </div>
+            <div class="text-center">
+                <p>Niamoto - Portail de la forêt de Nouvelle-Calédonie</p>
+                <a class="inline-block py-2 px-4 text-white no-underline" href="https://github.com/niamoto/niamoto" target="_blank">
+                    <span class="fab fa-github fa-lg" aria-hidden="true"></span> Github
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/vendor/chart/4.4.2_chart.js"></script>
+    <script src="../js/vendor/d3/7.8.5_d3.js"></script>
+    <script src="../js/vendor/jquery/3.6.0_jquery.js"></script>
+    <script src="../js/vendor/raphael/2.3.0_raphael.js"></script>
+    <script src="../js/vendor/justgage/1.6.1_justgage.js"></script>
+    <script src="../js/vendor/leaflet/1.9.4_leaflet.js"></script>
+    
+<script>
+    var plot = {"basal_area": 39.3, "biomass": 302.333316530379, "families_top": {"Apocynaceae": 44, "Ebenaceae": 51, "Elaeocarpaceae": 41, "Monimiaceae": 42, "Oleaceae": 88, "Proteaceae": 674, "Putranjivaceae": 119, "Rutaceae": 45, "Salicaceae": 372, "Violaceae": 152}, "frequencies": {"dbh": {"10": 72.81, "100": 0.26, "20": 12.63, "200": 0.13, "30": 6.31, "300": 0.0, "40": 3.87, "400": 0.0, "50": 3.22, "75": 0.77}, "strate": {"1": 5.11, "2": 29.13, "3": 65.77}}, "geometry": {"coordinates": [165.240768432617, -21.2571277618408], "type": "Point"}, "height_mean": 11.15, "id": 9, "locality": "Gohapin", "pielou": 0.61, "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [165.240768432617, -21.2571277618408]}", "plot_id": 9, "shannon": 2.27, "simpson": 0.77, "species_top": {"Diospyros fasciculosa": 48, "Drypetes deplanchei": 119, "Homalium deplanchei": 369, "Hybanthus austrocaledonicus": 73, "Kermadecia sinuata": 64, "Olea paniculata": 87, "Sleumerodendron austrocaledonicum": 92, "Stenocarpus milnei": 138, "Stenocarpus trinervis": 124, "Virotia leptophylla": 81}, "wood_density_mean": 0.65};
+    var mapping = {"fields": {"basal_area": {"description": "Basal area of the plot", "field_type": "DOUBLE", "label": "BASAL_AREA", "source": "plots", "source_field": "basal_area", "transformations": [{"chart_options": {"label": "m\u00b2/ha", "max": 100, "title": "Basal area"}, "chart_type": "gauge", "name": null}]}, "biomass": {"description": "Biomass of the plot", "field_type": "DOUBLE", "label": "BIOMASS", "source": "plots", "source_field": "biomass", "transformations": [{"chart_options": {"label": "t/ha", "max": 800, "title": "Biomass"}, "chart_type": "gauge", "name": null}]}, "dbh": {"bins": {"chart_options": {"color": "#548235", "title": "Diameter distribution (DBH)"}, "chart_type": "bar", "values": [10, 20, 30, 40, 50, 75, 100, 200, 300, 400, 500]}, "description": "Diameter at Breast Height", "field_type": "DOUBLE", "label": "DBH", "source": "occurrences", "source_field": "dbh", "transformations": []}, "families": {"bins": [], "description": "Top most frequent families", "field_type": "JSON", "label": "Top Families", "source": "occurrences", "source_field": null, "transformations": [{"chart_options": {"indexAxis": "y", "title": "Top Families"}, "chart_type": "bar", "count": 10, "name": "top", "target_ranks": ["family"]}]}, "height": {"bins": [], "description": "Height of the tree", "field_type": "DOUBLE", "label": "HEIGHT", "source": "occurrences", "source_field": "height", "transformations": [{"chart_options": {"label": "meters", "max": 40, "title": "Maximum height"}, "chart_type": "gauge", "name": "mean"}]}, "pielou": {"description": "Pielou evenness index", "field_type": "DOUBLE", "label": "PIELOU", "source": "plots", "source_field": "pielou", "transformations": [{"chart_options": {"max": 1, "title": "Pielou evenness index"}, "chart_type": "gauge", "name": null}]}, "plot_area": {"bins": [], "description": "Geographic area of the plot", "field_type": "GEOGRAPHY", "label": "Plot area", "source": "plots", "source_field": "geometry", "transformations": [{"chart_options": {"coordinates_field": "geometry", "title": "Localisation de la parcelle"}, "chart_type": "map", "name": "coordinates"}]}, "shannon": {"description": "Shannon diversity index", "field_type": "DOUBLE", "label": "SHANNON", "source": "plots", "source_field": "shannon", "transformations": [{"chart_options": {"max": 5, "title": "Shannon diversity index"}, "chart_type": "gauge", "name": null}]}, "simpson": {"description": "Simpson diversity index", "field_type": "DOUBLE", "label": "SIMPSON", "source": "plots", "source_field": "simpson", "transformations": [{"chart_options": {"max": 1, "title": "Simpson diversity index"}, "chart_type": "gauge", "name": null}]}, "species": {"bins": [], "description": "Top most frequent species", "field_type": "JSON", "label": "Top Species", "source": "occurrences", "source_field": null, "transformations": [{"chart_options": {"indexAxis": "y", "title": "Top Species"}, "chart_type": "bar", "count": 10, "name": "top", "target_ranks": ["species", "infra"]}]}, "strate": {"bins": {"chart_options": {"indexAxis": "y", "title": "Strate"}, "chart_type": "bar", "color": "#00b050", "labels": ["Undergrowth", "Under-Canopy", "Canopy", "Emergent"], "values": [1, 2, 3, 4]}, "description": "Strate of the tree", "field_type": "INTEGER", "label": "STRATE", "source": "occurrences", "source_field": "strate", "transformations": []}, "wood_density": {"description": "Wood density", "field_type": "DOUBLE", "label": "WOOD_DENSITY", "source": "occurrences", "source_field": "wood_density", "transformations": [{"chart_options": {"label": "g/cm\u00b3", "max": 1.2, "title": "Wood density"}, "chart_type": "gauge", "name": "mean"}]}}, "filter": {"field": "source", "value": "occ_ncpippn"}, "group_by": "plot", "identifier": "id_source", "pivot_table_name": "occurrences_plots", "reference_data_path": null, "reference_table_name": "plot_ref", "source_table_name": "occurrences"};
+
+    document.addEventListener('DOMContentLoaded', function () {
+        loadPlotCharts(plot, mapping);
+        loadPlotList(); // Chargement de la liste des plots
+        setTimeout(initPlotMap, 0.5);
+    });
+
+    function loadPlotCharts(plot, mapping) {
+        var frequencies = plot.frequencies;
+
+        function generateColors(count, defaultColor) {
+            if (defaultColor) {
+                return Array(count).fill(defaultColor);
+            }
+
+            // Function to convert HSL to RGB
+            function hslToRgb(h, s, l) {
+                let r, g, b;
+
+                if (s === 0) {
+                    r = g = b = l; // achromatic
+                } else {
+                    const hue2rgb = (p, q, t) => {
+                        if (t < 0) t += 1;
+                        if (t > 1) t -= 1;
+                        if (t < 1/6) return p + (q - p) * 6 * t;
+                        if (t < 1/2) return q;
+                        if (t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+                        return p;
+                    };
+
+                    const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+                    const p = 2 * l - q;
+                    r = hue2rgb(p, q, h + 1/3);
+                    g = hue2rgb(p, q, h);
+                    b = hue2rgb(p, q, h - 1/3);
+                }
+
+                return [Math.round(r * 255), Math.round(g * 255), Math.round(b * 255)];
+            }
+
+            // Function to convert RGB to Hex
+            function rgbToHex(r, g, b) {
+                return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+            }
+
+            // Generate harmonious colors
+            return Array.from({ length: count }, (_, i) => {
+                // Use golden ratio to spread hues evenly
+                const hue = (i * 0.618033988749895) % 1;
+
+                // Vary saturation slightly
+                const saturation = 0.5 + (i % 3) * 0.1;
+
+                // Vary lightness to create contrast
+                const lightness = 0.4 + (i % 2) * 0.2;
+
+                const [r, g, b] = hslToRgb(hue, saturation, lightness);
+                return rgbToHex(r, g, b);
+            });
+        }
+
+        Object.entries(mapping.fields).forEach(function([field_key, field]) {
+            if (field.field_type !== 'GEOGRAPHY') {
+                // Chart for bins
+                if (field.bins && field.bins.values && field.bins.values.length > 0 && frequencies && frequencies[field.source_field]) {
+                var labels, values;
+
+                // If labels and values are specified in the config, use them
+                if (field.bins.labels && field.bins.values) {
+                    labels = field.bins.labels;
+                    values = field.bins.values.map(value => frequencies[field_key][value] || 0);
+                } else {
+                    // Otherwise, use the sorted frequencies
+                    var sortedFrequencies;
+
+                    if (field.bins.chart_options.indexAxis === 'y') {
+                        // Sort the bin data
+                        sortedFrequencies = Object.entries(frequencies[field_key])
+                            .sort(([, a], [, b]) => a - b); // Sort ascending
+                    } else {
+                        sortedFrequencies = Object.entries(frequencies[field_key]);
+                    }
+
+                    labels = sortedFrequencies.map(([label]) => label);
+                    values = sortedFrequencies.map(([, value]) => value);
+                }
+
+                var binData = {
+                    labels: labels,
+                    datasets: [{
+                        label: field.label,
+                        data: values,
+                        backgroundColor: field.bins.chart_options.color
+                    }]
+                };
+
+                var binConfig = {
+                    type: field.bins.chart_type,
+                    data: binData,
+                    options: Object.assign({}, field.bins.chart_options, {
+                        scales: {
+                            x: {
+                                stacked: field.bins.chart_options.stacked || false
+                            },
+                            y: {
+                                stacked: field.bins.chart_options.stacked || false
+                            }
+                        },
+                        plugins: {
+                            tooltip: {
+                                callbacks: {
+                                    label: function (context) {
+                                        const value = context.raw;
+                                        return `${value}%`;
+                                    }
+                                }
+                            },
+                            datalabels: {
+                                display: true,
+                                align: 'center',
+                                color: 'black',
+                                formatter: function (value) {
+                                    return value + '%';
+                                }
+                            }
+                        }
+                    })
+                };
+
+                var binCtx = document.getElementById(field_key + 'BinChart').getContext('2d');
+                new Chart(binCtx, binConfig);
+            }
+
+                // Charts for transformations
+                field.transformations.forEach(function(transformation) {
+                    var transformationName = transformation.name ? transformation.name : '';
+                    var valueKey = transformation.name ? field_key + '_' + transformationName : field_key;
+                    if (transformation.chart_type === 'text') {
+                        var textElement = document.getElementById(field_key + 'Text');
+                        if (textElement) {
+                            textElement.textContent = plot[field_key];
+                        }
+                    } else if (transformation.chart_type === 'pie') {
+                        var pieData = {
+                            labels: ['True', 'False'],
+                            datasets: [{
+                                data: [
+                                    plot[field_key + '_true'] || 0,
+                                    plot[field_key + '_false'] || 0
+                                ],
+                                backgroundColor: ['#FF6384', '#36A2EB']
+                            }]
+                        };
+
+                        var pieConfig = {
+                            type: 'pie',
+                            data: pieData,
+                            options: {
+                                title: {
+                                    display: true,
+                                    text: transformation.chart_options.title
+                                }
+                            }
+                        };
+
+                        var pieCtx = document.getElementById(field_key + 'PieChart');
+                        if (pieCtx) {
+                            pieCtx = pieCtx.getContext('2d');
+                            new Chart(pieCtx, pieConfig);
+                        }
+                    } else if (transformation.chart_type === 'gauge') {
+                        var gaugeOptions = {
+                            id: field_key + transformationName + 'Gauge',
+                            value: parseFloat(plot[valueKey]),
+                            min: 0,
+                            max: transformation.chart_options.max,
+                            title: transformation.chart_options.title,
+                            label: transformation.chart_options.label
+                        };
+
+                        createGauge(gaugeOptions);
+                    } else if (transformation.chart_type === 'bar') {
+                    var sortedData = Object.entries(plot[field_key+'_'+ transformation.name] || {})
+                        .sort((a, b) => b[1] - a[1])
+                        .slice(0, transformation.count || 10);
+
+                    var defaultColor = transformation.chart_options.defaultColor;
+                    var colors = generateColors(sortedData.length, defaultColor);
+
+                    var barData = {
+                        labels: sortedData.map(item => item[0]),
+                        datasets: [{
+                            label: field.label,
+                            data: sortedData.map(item => item[1]),
+                            backgroundColor: colors,
+                            borderColor: colors,
+                            borderWidth: 1
+                        }]
+                    };
+
+                    var barConfig = {
+                        type: 'bar',
+                        data: barData,
+                        options: {
+                            indexAxis: 'y',
+                            responsive: false,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: {
+                                    display: false
+                                },
+                                title: {
+                                    display: true,
+                                    text: transformation.chart_options.title || 'Main Sub-taxa',
+                                    font: {
+                                        size: 16,
+                                        weight: 'bold'
+                                    },
+                                    padding: {
+                                        top: 10,
+                                        bottom: 30
+                                    }
+                                }
+                            },
+                            scales: {
+                                x: {
+                                    title: {
+                                        display: true,
+                                        text: 'Count',
+                                        font: {
+                                            weight: 'bold'
+                                        }
+                                    },
+                                    ticks: {
+                                        font: {
+                                            weight: 'bold'
+                                        }
+                                    }
+                                },
+                                y: {
+                                    ticks: {
+                                        font: {
+                                            weight: 'bold'
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    };
+
+                    var fieldKey = field_key + transformation.name;
+                    var barCtxElement = document.getElementById(fieldKey + 'BarChart');
+                    if (barCtxElement) {
+                        barCtxElement.style.height = '400px';  // Adjust height as needed
+                        var barCtx = barCtxElement.getContext('2d');
+                        new Chart(barCtx, barConfig);
+                    }
+                }
+                });
+            }
+        });
+    }
+
+    function createGauge(options) {
+        new JustGage({
+            id: options.id,
+            value: options.value || 0,
+            min: options.min || 0,
+            max: options.max,
+            title: options.title,
+            label: options.label,
+            pointer: true,
+            pointerOptions: {
+                toplength: 10,
+                bottomlength: 10,
+                bottomwidth: 2,
+                color: '#8e8e93',
+                stroke: '#ffffff',
+                stroke_width: 3,
+                stroke_linecap: 'round'
+            },
+            gaugeWidthScale: 0.6,
+            counter: true,
+            donut: true,
+            relativeGaugeSize: true,
+            donutStartAngle: 270,
+            hideInnerShadow: true,
+            customSectors: [{
+                color: "#ff0000",
+                lo: 0,
+                hi: options.max * 0.33
+            }, {
+                color: "#ffff00",
+                lo: options.max * 0.33,
+                hi: options.max * 0.66
+            }, {
+                color: "#00ff00",
+                lo: options.max * 0.66,
+                hi: options.max
+            }],
+            humanFriendly: true,
+            formatNumber: true,
+            textRenderer: function (val) {
+                return parseFloat(val).toFixed(2); // Ensure value is displayed with 2 decimal places
+            }
+        });
+    }
+
+    function initPlotMap() {
+        var geometry = plot.geometry;
+
+        const satellite = L.tileLayer.wms("https://carto10.gouv.nc/arcgis/services/fond_imagerie/MapServer/WMSServer", {
+            layers: '0',
+            format: 'image/png',
+            transparent: true,
+            attribution: "<a href='http://www.geoportal.gouv.nc/'>Géorep</a> <i> - Gouvernement de la Nouvelle-Calédonie</i>"
+        });
+        const carte = L.tileLayer.wms('https://carto.gouv.nc/arcgis/services/fond_cartographie/MapServer/WMSServer', {
+            layers: '0',
+            format: 'image/png',
+            transparent: true,
+            attribution: "<a href='http://www.geoportal.gouv.nc/'>Géorep</a> <i> - Gouvernement de la Nouvelle-Calédonie</i>"
+        });
+        const map = L.map('plotMap', {
+            layers: [carte, satellite],
+            scrollWheelZoom: false
+        });
+        map.attributionControl.setPrefix(false); // Remove the "Powered by Leaflet" prefix
+        map.attributionControl.addAttribution("<a href='http://www.geoportal.gouv.nc/'>Géorep</a> <i> - Gouvernement de la Nouvelle-Calédonie</i>");
+
+        const baseMaps = {
+            "Carte": carte,
+            "Satellite": satellite,
+        };
+
+        L.control.layers(baseMaps).addTo(map);
+
+        map.on('load', function () {
+            document.getElementById('mapLoader').style.display = 'none';
+        });
+
+        if (geometry) {
+            const geoJsonLayer = L.geoJSON(geometry, {
+                style: function() {
+                    return {
+                        color: '#228b22', // Border color
+                        weight: 2,       // Border width
+                        fillColor: '#228b22cc', // Fill color with opacity
+                        fillOpacity: 0.8 // Fill opacity
+                    };
+                }
+            }).addTo(map);
+            map.fitBounds(geoJsonLayer.getBounds());
+        } else {
+            console.warn("No geographic coordinates found.");
+            // Set default view if no geometry is found
+            map.setView([-21.291237, 165.516418], 10);
+        }
+    }
+
+    function loadPlotList() {
+        var plotListElement = document.getElementById("plot-list");
+        plotList.forEach(function(plotItem) {
+            var li = document.createElement("li");
+            var a = document.createElement("a");
+            a.href = "../plot/" + plotItem.id + ".html";
+            a.textContent = plotItem.name;
+            a.className = "plot-link" + (plotItem.id === plot.id ? " active" : "");
+            li.appendChild(a);
+            plotListElement.appendChild(li);
+        });
+    }
+
+    // Function to get a color based on the index
+    function getColor(index) {
+        var colors = [
+            {background: 'rgba(54, 162, 235, 0.6)', border: 'rgba(54, 162, 235, 1)'},
+            {background: 'rgba(75, 192, 192, 0.6)', border: 'rgba(75, 192, 192, 1)'},
+            {background: 'rgba(255, 99, 132, 0.6)', border: 'rgba(255, 99, 132, 1)'}
+            // Add more colors if necessary
+        ];
+        return colors[index % colors.length]; // Repeat colors if more keys than defined colors
+    }
+</script>
+
+</body>
+</html>

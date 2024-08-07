@@ -1,0 +1,101 @@
+{
+    "id": 99,
+    "name": "\u00celot Ma\u00eetre",
+    "type": "protected_areas",
+    "shape_coordinates": "{\"type\": \"FeatureCollection\", \"features\": [{\"id\": \"0\", \"type\": \"Feature\", \"properties\": {}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[166.4174968, -22.3234966], [166.4257846, -22.3340351], [166.4279073, -22.3432192], [166.4246808, -22.3456991], [166.3988371, -22.3538305], [166.3921633, -22.3306647], [166.4174968, -22.3234966]]]}, \"bbox\": [166.3921633, -22.3538305, 166.4279073, -22.3234966]}], \"bbox\": [166.3921633, -22.3538305, 166.4279073, -22.3234966]}",
+    "shape_id": 99,
+    "shape_area": "814.4332395777246",
+    "forest_area": null,
+    "forest_coordinates": null,
+    "num_families_unique_taxonomic_count": 10,
+    "num_species_unique_taxonomic_count": 9,
+    "num_occurrences_count": 42,
+    "rainfall_mean": "868.0",
+    "rainfall_range": "{\"min\": 840.0, \"max\": 880.0}",
+    "elevation_median": 0.0,
+    "elevation_max": 1.0,
+    "elevation_elevation_distribution": {
+        "altitudes": [
+            0.0
+        ],
+        "forest": [
+            0.0
+        ],
+        "non_forest": [
+            7.778966975117175
+        ]
+    },
+    "forest_fragmentation_fragment_size_distribution": null,
+    "forest_fragmentation_effective_mesh_size": null,
+    "forest_cover_percentage": null,
+    "forest_humidity_category_distribution": null,
+    "land_use_category_distribution": null,
+    "frequencies": {},
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    166.4174968,
+                    -22.3234966
+                ],
+                [
+                    166.4182348,
+                    -22.3237034
+                ],
+                [
+                    166.4191946,
+                    -22.3252493
+                ],
+                [
+                    166.4240196,
+                    -22.3312154
+                ],
+                [
+                    166.4257846,
+                    -22.3340351
+                ],
+                [
+                    166.4266063,
+                    -22.335739
+                ],
+                [
+                    166.4279754,
+                    -22.3401654
+                ],
+                [
+                    166.4280579,
+                    -22.3420002
+                ],
+                [
+                    166.4279073,
+                    -22.3432192
+                ],
+                [
+                    166.4273091,
+                    -22.3441669
+                ],
+                [
+                    166.4262787,
+                    -22.3449293
+                ],
+                [
+                    166.4246808,
+                    -22.3456991
+                ],
+                [
+                    166.3988371,
+                    -22.3538305
+                ],
+                [
+                    166.3921633,
+                    -22.3306647
+                ],
+                [
+                    166.4174968,
+                    -22.3234966
+                ]
+            ]
+        ]
+    }
+}

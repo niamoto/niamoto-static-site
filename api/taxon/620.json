@@ -1,0 +1,135 @@
+{
+    "id": 620,
+    "full_name": "Cyclophyllum",
+    "authors": "Hook.f.",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": 4547
+    },
+    "lft": 2796,
+    "rght": 2799,
+    "level": 1,
+    "parent_id": 189,
+    "taxon_id": 620,
+    "total_occurrences_count": 110,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.5158172, -20.3853107], \"count\": 1}, {\"coordinates\": [164.959839274375, -21.1731924055674], \"count\": 1}, {\"coordinates\": [167.2833483, -20.7500133], \"count\": 1}, {\"coordinates\": [164.5213457, -20.4031031], \"count\": 1}, {\"coordinates\": [166.0586111, -21.5313889], \"count\": 1}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 9}, {\"coordinates\": [165.77, -21.5661111], \"count\": 2}, {\"coordinates\": [166.8740655, -22.0983497], \"count\": 1}, {\"coordinates\": [165.2336111, -21.2516667], \"count\": 1}, {\"coordinates\": [164.4378741737, -20.3060228471], \"count\": 1}, {\"coordinates\": [165.146488733583, -21.3072085753333], \"count\": 1}, {\"coordinates\": [166.0106389, -21.496], \"count\": 1}, {\"coordinates\": [164.571, -20.787], \"count\": 2}, {\"coordinates\": [165.154186422, -21.3019250426667], \"count\": 1}, {\"coordinates\": [165.9627208, -21.5236466], \"count\": 2}, {\"coordinates\": [165.8265424, -21.3973133], \"count\": 2}, {\"coordinates\": [166.4997222, -22.1358333], \"count\": 1}, {\"coordinates\": [165.5555555556, -21.3702777778], \"count\": 1}, {\"coordinates\": [166.2769299, -21.953748], \"count\": 1}, {\"coordinates\": [164.7783333, -21.0247222], \"count\": 1}, {\"coordinates\": [165.8626111, -21.4667583], \"count\": 1}, {\"coordinates\": [165.7308333, -21.4483333], \"count\": 1}, {\"coordinates\": [164.458493094583, -20.7605059495], \"count\": 1}, {\"coordinates\": [165.7274472, -21.3369167], \"count\": 1}, {\"coordinates\": [164.5886944, -20.7731111], \"count\": 1}, {\"coordinates\": [165.203918243907, -20.8876945406762], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 2}, {\"coordinates\": [164.68811666666667, -20.532816666666665], \"count\": 1}, {\"coordinates\": [165.10186795378, -20.9270139575175], \"count\": 3}, {\"coordinates\": [164.7766389, -21.0184806], \"count\": 1}, {\"coordinates\": [166.9225647, -22.3216887], \"count\": 1}, {\"coordinates\": [165.7397222, -21.4311111], \"count\": 1}, {\"coordinates\": [165.10095083775, -20.9245379799554], \"count\": 3}, {\"coordinates\": [164.800018057413, -20.6328933016751], \"count\": 1}, {\"coordinates\": [165.7734716, -21.5602335], \"count\": 1}, {\"coordinates\": [165.1630556, -21.3616667], \"count\": 1}, {\"coordinates\": [165.232227, -20.8598], \"count\": 1}, {\"coordinates\": [165.7586861, -21.4402417], \"count\": 1}, {\"coordinates\": [165.5656111, -21.5198333], \"count\": 1}, {\"coordinates\": [164.2366461679028, -20.486691474050065], \"count\": 1}, {\"coordinates\": [164.81486, -21.03349], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [166.9666, -22.2305444444], \"count\": 1}, {\"coordinates\": [165.220027, -20.868687], \"count\": 1}, {\"coordinates\": [164.3695288889, -20.5939488889], \"count\": 2}, {\"coordinates\": [164.8200472222, -21.0314194444], \"count\": 1}, {\"coordinates\": [164.458520371667, -20.7604626561667], \"count\": 1}, {\"coordinates\": [164.7094444, -21.0147222], \"count\": 1}, {\"coordinates\": [166.9671611111, -22.3457166667], \"count\": 1}, {\"coordinates\": [165.7533, -21.4445], \"count\": 1}, {\"coordinates\": [164.74643407757, -20.7382483062734], \"count\": 1}, {\"coordinates\": [164.8196722222, -21.0305527778], \"count\": 1}, {\"coordinates\": [165.227618, -20.857174], \"count\": 1}, {\"coordinates\": [164.571315197452, -20.7869033122619], \"count\": 1}, {\"coordinates\": [164.982208760251, -21.2357951262613], \"count\": 1}, {\"coordinates\": [165.146501082889, -21.3071998302222], \"count\": 1}, {\"coordinates\": [164.744839538576, -20.733117238776], \"count\": 1}, {\"coordinates\": [164.8110138889, -21.0353055556], \"count\": 1}, {\"coordinates\": [167.5269611, -22.5939111], \"count\": 1}, {\"coordinates\": [166.0305556, -21.4811111], \"count\": 1}, {\"coordinates\": [166.67944596, -22.04597195], \"count\": 1}, {\"coordinates\": [166.9942457, -22.27291907], \"count\": 1}, {\"coordinates\": [166.67612005, -22.04756799], \"count\": 1}, {\"coordinates\": [166.67986298, -22.04441702], \"count\": 1}, {\"coordinates\": [166.818115234375, -22.32430076599121], \"count\": 2}, {\"coordinates\": [166.9386, -22.3497], \"count\": 7}, {\"coordinates\": [167.2833, -20.75], \"count\": 1}, {\"coordinates\": [166.81811, -22.3243], \"count\": 2}, {\"coordinates\": [164.66770807, -20.9817354], \"count\": 1}, {\"coordinates\": [166.91511398, -22.30698298], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 1}]}",
+    "species_top": {
+        "Cyclophyllum merrillianum": 28
+    },
+    "um_occurrences_true": 65,
+    "um_occurrences_false": 45,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                66.67,
+                66.67,
+                77.78,
+                50.0,
+                22.22,
+                20.0,
+                0,
+                0.0,
+                50.0,
+                41.18,
+                50.0
+            ],
+            "fruiting": [
+                50.0,
+                16.67,
+                33.33,
+                33.33,
+                50.0,
+                66.67,
+                60.0,
+                0,
+                100.0,
+                66.67,
+                35.29,
+                50.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.6,
+    "dbh_max": 20.0,
+    "dbh_median": 15.0,
+    "dbh_min": 11.8,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 66.67,
+            "20": 33.33,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 18.18,
+            "200": 21.82,
+            "300": 14.55,
+            "400": 16.36,
+            "500": 3.64,
+            "600": 12.73,
+            "700": 7.27,
+            "800": 3.64,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 1.82
+        },
+        "rainfall": {
+            "1000": 8.99,
+            "1500": 31.46,
+            "2000": 30.34,
+            "2500": 19.1,
+            "3000": 8.99,
+            "3500": 0.0,
+            "4000": 1.12,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 16.39,
+            "2": 83.61
+        },
+        "strate": {
+            "1": 100.0,
+            "2": 0.0,
+            "3": 0.0
+        }
+    }
+}

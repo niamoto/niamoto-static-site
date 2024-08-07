@@ -1,0 +1,130 @@
+{
+    "id": 5072,
+    "full_name": "Pittosporum xanthanthum",
+    "authors": "Schltr.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4456
+    },
+    "lft": 2445,
+    "rght": 2446,
+    "level": 2,
+    "parent_id": 1220,
+    "taxon_id": 5072,
+    "total_occurrences_count": 106,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4168042, -21.8828044], \"count\": 1}, {\"coordinates\": [166.4059449, -21.881684], \"count\": 1}, {\"coordinates\": [165.3595939, -21.4418083], \"count\": 1}, {\"coordinates\": [166.29925, -21.778], \"count\": 1}, {\"coordinates\": [166.535, -21.9652778], \"count\": 1}, {\"coordinates\": [166.5900869, -22.1450291], \"count\": 4}, {\"coordinates\": [166.4459062, -22.0767633], \"count\": 1}, {\"coordinates\": [166.3454147, -22.0625724], \"count\": 2}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 1}, {\"coordinates\": [166.0014901, -21.7628222], \"count\": 2}, {\"coordinates\": [166.5219632, -22.0354611], \"count\": 1}, {\"coordinates\": [166.5351813, -21.9698552], \"count\": 5}, {\"coordinates\": [166.5908528, -22.1502086], \"count\": 1}, {\"coordinates\": [166.6034403, -22.1190641], \"count\": 1}, {\"coordinates\": [166.4210195, -21.8805313], \"count\": 1}, {\"coordinates\": [166.4013762, -21.8810395], \"count\": 1}, {\"coordinates\": [165.0897938, -21.1804082], \"count\": 3}, {\"coordinates\": [166.4350386, -21.8671147], \"count\": 1}, {\"coordinates\": [166.2469444, -21.6661111], \"count\": 3}, {\"coordinates\": [166.60524199, -22.12213601], \"count\": 2}, {\"coordinates\": [165.72319834, -21.44905477], \"count\": 1}, {\"coordinates\": [166.5348888888889, -21.96286111111111], \"count\": 2}, {\"coordinates\": [164.850094795227, -20.8558038711548], \"count\": 2}, {\"coordinates\": [166.5859506, -22.0917438], \"count\": 1}, {\"coordinates\": [166.0000469, -21.7545723], \"count\": 1}, {\"coordinates\": [166.5383333, -21.9572222], \"count\": 1}, {\"coordinates\": [165.0217047711657, -21.177890649858664], \"count\": 1}, {\"coordinates\": [164.851645723979, -20.8578767776489], \"count\": 1}, {\"coordinates\": [166.4783333, -22.0047222], \"count\": 1}, {\"coordinates\": [166.5038889, -21.9691667], \"count\": 1}, {\"coordinates\": [165.018376169135, -20.8964453835656], \"count\": 2}, {\"coordinates\": [165.07983927614973, -21.194151873404454], \"count\": 1}, {\"coordinates\": [166.4643934, -22.0209785], \"count\": 1}, {\"coordinates\": [166.2076543, -21.7236475], \"count\": 1}, {\"coordinates\": [165.08082825690497, -21.20148637395591], \"count\": 1}, {\"coordinates\": [166.2474633, -21.6782146], \"count\": 2}, {\"coordinates\": [166.3453347, -22.0659384], \"count\": 1}, {\"coordinates\": [165.07305446080852, -21.183116930240796], \"count\": 1}, {\"coordinates\": [166.15983200000008, -21.81931200065099], \"count\": 1}, {\"coordinates\": [165.0845677606565, -21.158745944279595], \"count\": 1}, {\"coordinates\": [166.6064118, -22.1331686], \"count\": 2}, {\"coordinates\": [165.0116667, -20.8933333], \"count\": 1}, {\"coordinates\": [165.1070264, -21.1626084], \"count\": 1}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 1}, {\"coordinates\": [165.0999944444, -21.1703888889], \"count\": 1}, {\"coordinates\": [166.4688889, -22.0102778], \"count\": 1}, {\"coordinates\": [164.9775493, -20.9040223], \"count\": 1}, {\"coordinates\": [165.03836002474557, -21.16848504731567], \"count\": 1}, {\"coordinates\": [165.84129534992027, -21.47577179301025], \"count\": 1}, {\"coordinates\": [165.08239869028313, -21.19631909828856], \"count\": 1}, {\"coordinates\": [166.4741667, -22.0130556], \"count\": 1}, {\"coordinates\": [166.407810648118, -21.8524914378763], \"count\": 1}, {\"coordinates\": [165.01994002049796, -21.17824159521886], \"count\": 1}, {\"coordinates\": [165.9316642, -21.6243887], \"count\": 1}, {\"coordinates\": [164.6771056, -20.4609944], \"count\": 1}, {\"coordinates\": [165.06693910807357, -21.200127918908823], \"count\": 1}, {\"coordinates\": [166.6608667, -22.0178833], \"count\": 1}, {\"coordinates\": [165.84497499999998, -21.47850300064267], \"count\": 1}, {\"coordinates\": [165.86126699999997, -21.463124000642257], \"count\": 1}, {\"coordinates\": [166.4413098, -21.8545264], \"count\": 1}, {\"coordinates\": [166.1405056, -21.7950268], \"count\": 1}, {\"coordinates\": [164.6891111, -20.4842833], \"count\": 1}, {\"coordinates\": [165.08544400334344, -21.191853136459642], \"count\": 1}, {\"coordinates\": [165.0882381102778, -21.181452804947217], \"count\": 1}, {\"coordinates\": [165.08002468384788, -21.202407545114458], \"count\": 1}, {\"coordinates\": [165.72089242122905, -21.333703566835627], \"count\": 1}, {\"coordinates\": [165.68896475314165, -21.449589012959507], \"count\": 1}, {\"coordinates\": [165.30572672439973, -21.347342266602496], \"count\": 1}, {\"coordinates\": [165.6910904066697, -21.449177744135987], \"count\": 1}, {\"coordinates\": [166.5105556, -21.9619444], \"count\": 1}, {\"coordinates\": [165.2603276415921, -21.36899242762218], \"count\": 1}, {\"coordinates\": [165.25806455273886, -21.368727444039934], \"count\": 1}, {\"coordinates\": [166.3336111, -22.05], \"count\": 1}, {\"coordinates\": [166.53488889, -21.96286111], \"count\": 1}, {\"coordinates\": [166.50397599, -21.969119], \"count\": 1}, {\"coordinates\": [166.52813701, -21.95417595], \"count\": 1}, {\"coordinates\": [166.41456298, -21.88367598], \"count\": 1}, {\"coordinates\": [166.49182903, -21.94298703], \"count\": 1}, {\"coordinates\": [166.65993504, -22.020349], \"count\": 1}, {\"coordinates\": [166.34693056, -22.06411386], \"count\": 1}, {\"coordinates\": [166.00158201, -21.76466202], \"count\": 1}, {\"coordinates\": [166.2500833, -21.66319442], \"count\": 1}, {\"coordinates\": [166.65540101, -22.01863899], \"count\": 1}, {\"coordinates\": [166.42389698, -21.87889096], \"count\": 1}, {\"coordinates\": [165.08000004, -21.1644444], \"count\": 1}, {\"coordinates\": [166.51136896, -21.96436504], \"count\": 1}, {\"coordinates\": [166.41347801, -21.87976998], \"count\": 1}]}",
+    "species_top": {
+        "Pittosporum xanthanthum": 106
+    },
+    "um_occurrences_true": 102,
+    "um_occurrences_false": 4,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                50.0,
+                100.0,
+                75.0,
+                87.5,
+                75.0,
+                25.0
+            ],
+            "fruiting": [
+                80.0,
+                100.0,
+                80.0,
+                100.0,
+                42.86,
+                100.0,
+                50.0,
+                0.0,
+                0.0,
+                0.0,
+                25.0,
+                75.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 5.55,
+    "dbh_max": 6.0,
+    "dbh_median": 5.55,
+    "dbh_min": 5.1,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.95,
+            "400": 3.81,
+            "500": 5.71,
+            "600": 5.71,
+            "700": 20.0,
+            "800": 16.19,
+            "900": 12.38,
+            "1000": 10.48,
+            "1100": 4.76,
+            "1200": 20.0
+        },
+        "rainfall": {
+            "1000": 2.83,
+            "1500": 18.87,
+            "2000": 22.64,
+            "2500": 16.98,
+            "3000": 14.15,
+            "3500": 7.55,
+            "4000": 7.55,
+            "4500": 9.43
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

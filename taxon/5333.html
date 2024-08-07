@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Niamoto - Pycnandra fastuosa</title>
+    <link rel="stylesheet" href="../js/vendor/tailwindcss/2.2.19_dist_tailwind.css">
+    <link rel="stylesheet" href="../js/vendor/leaflet/1.9.4_leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <script src="../js/index.js"></script>
+    <script src="../js/taxonomy_tree.js"></script>
+    <style>
+        #taxonMap {
+            position: relative;
+            height: 400px;
+        }
+
+        #taxonomy-sidebar {
+            display: flex;
+            flex-direction: column;
+            height: calc(100vh - 7rem);
+        }
+
+        .search-container {
+            position: relative;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        #taxonSearch {
+            width: 100%;
+            padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 0.75rem;
+            top: 23%;
+            color: #666;
+            pointer-events: none;
+        }
+
+        #taxonomy-tree {
+            flex-grow: 1;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        #taxonomy-tree ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        #taxonomy-tree li {
+            margin: 5px 0;
+        }
+
+        #taxonomy-tree .toggle {
+            cursor: pointer;
+            margin-right: 5px;
+        }
+
+        #taxonomy-tree a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        #taxonomy-tree a:hover {
+            text-decoration: underline;
+        }
+
+        #taxonomy-tree .current-taxon {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        /* Styles pour différents niveaux de profondeur */
+        #taxonomy-tree .level-0 {
+            font-size: 16px;
+        }
+
+        #taxonomy-tree .level-1 {
+            font-size: 14px;
+        }
+
+        #taxonomy-tree .level-2 {
+            font-size: 13px;
+        }
+
+        #taxonomy-tree .level-3,
+        #taxonomy-tree .level-4,
+        #taxonomy-tree .level-5 {
+            font-size: 12px;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 400px; /* Fix the height */
+            width: 100%; /* Ensure full width */
+            max-width: 600px; /* Set a max-width to prevent it from being too wide */
+            margin: 0 auto; /* Center the chart container */
+        }
+
+    </style>
+    <script>
+        const taxonId = 5333;
+    </script>
+
+    <style>
+        .gauge {
+            height: 349px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .loader-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loader {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-bg p-4 fixed w-full top-0 shadow-md z-50 custom-nav">
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <a id="home-link" class="inline-flex items-center py-2 px-4 text-white no-underline" href="#" data-link="index.html">
+                <span class="site-title">Niamoto</span>
+            </a>
+        </div>
+
+        <div class="block lg:hidden">
+            <button id="nav-toggle"
+                class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
+            <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="index.html">
+                        <i class="fas fa-home menu-icon"></i>Accueil
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#introduction">Introduction</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#project">Projet</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#objective">Objectifs</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#context">Contexte</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#flora">Flore</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="methodology.html">
+                        <i class="fas fa-flask menu-icon"></i>Méthodologie
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#methodes">Nos méthodes</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#faq">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="trees.html">
+                        <i class="fas fa-leaf menu-icon"></i>Arbres
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#learnTaxon">Étudier les
+                arbres</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#taxon">Les arbres de
+                Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="plots.html">
+                        <i class="fas fa-map-marked-alt menu-icon"></i>Peuplements
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#learnPlot">Étudier les
+                            peuplements forestiers</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#plot">Les
+                peuplements forestiers de Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="forests.html">
+                        <i class="fas fa-tree menu-icon"></i>Forêt
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#learnForest">Étudier les
+                forêts</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#forestPN">La forêt de la
+                province Nord</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#forestPS">La forêt de la
+                province Sud</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-4 text-white no-underline" href="#" data-link="resources.html">
+                        <i class="fas fa-book menu-icon"></i>Ressources
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#equipe">L'équipe</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#article">Articles</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#academic">Académique</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#media-production">Médias</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script>
+  document.getElementById('nav-toggle').onclick = function () {
+    document.getElementById('nav-content').classList.toggle('hidden');
+  };
+
+  // Function to adjust the navigation links based on page depth
+  function adjustNavLinks(depth) {
+    document.querySelectorAll('a[data-link]').forEach(link => {
+      link.href = depth + link.getAttribute('data-link');
+    });
+  }
+
+  // Adjust the navigation links based on the depth
+  adjustNavLinks("../");
+</script>
+
+<style>
+    .site-title {
+        font-family: 'Arial Black', sans-serif; /* Custom font for a bold effect */
+        font-size: 2rem; /* Increased font size */
+        text-transform: uppercase; /* Uppercase letters for visibility */
+        letter-spacing: 2px; /* Spacing between letters */
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
+        transition: color 0.3s; /* Smooth transition for hover effect */
+    }
+
+    .site-title:hover {
+        color: #ffdd57; /* Change color on hover */
+    }
+
+    .text-contour {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-bg {
+        background-color: rgba(34, 139, 34, 0.8); /* Fond vert semi-transparent */
+        transition: background-color 0.3s;
+    }
+
+    .nav-bg:hover {
+        background-color: rgba(34, 139, 34, 1); /* Fond vert opaque au survol */
+    }
+
+    .group:hover .group-hover\:block {
+        display: block;
+    }
+
+    .custom-nav {
+        z-index: 500;
+    }
+
+    .custom-dropdown {
+        z-index: 500;
+    }
+
+    .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.2); /* Fond blanc transparent au survol */
+        border-radius: 4px;
+    }
+
+    .menu-icon {
+        margin-right: 8px;
+    }
+</style>
+    <div class="flex">
+        
+    <div class="w-1/4 p-4 mt-28" id="taxonomy-sidebar">
+        <label for="taxonSearch"></label>
+        <div class="search-container">
+            <input type="text" id="taxonSearch" class="w-full mb-4 pl-10" aria-label="Search taxon">
+            <i class="fas fa-search search-icon" aria-hidden="true"></i>
+        </div>
+        <div id="taxonomy-tree">
+            <!-- The taxonomic tree will be loaded here -->
+        </div>
+    </div>
+
+        <div class="w-full">
+            
+    <div class="mt-28">
+        <div class="rounded overflow-hidden shadow-lg mb-2">
+            <div class="px-6 py-4">
+                <div class="font-bold text-4xl mb-2"><i>Pycnandra fastuosa</i> (Baill.) Vink</div>
+                <p class="text-gray-700 text-base">
+                    Rank: species
+                </p>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap -mx-2">
+            
+
+            
+
+            
+
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Total occurrences</h2>
+                
+                
+                    <div class="w-full">
+                        <p id="total_occurrencesText"></p>
+                    </div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+            
+                
+            
+                
+                    
+                <div class="w-full px-2 mb-4">
+                    <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                        <div class="px-6 pt-4 pb-2">
+                            <div id="taxonMap" style="height: 400px; position: relative;">
+                                <div class="loader-container" id="mapLoader">
+                                    <div class="loader"></div>
+                                </div>
+                                <!-- The Leaflet map will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Main Sub-taxa</h2>
+                
+                
+                    <canvas class="chart-container" id="speciestopBarChart"></canvas>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Substrate Distribution</h2>
+                
+                
+                    <canvas id="um_occurrencesPieChart"></canvas>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Phenology</h2>
+                
+                
+                    <canvas class="chart-container" id="phenologyTemporalPhenologyChart"></canvas>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+            
+                
+            
+                
+                    
+                
+                    <div class="w-1/2 px-2 mb-4">
+                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                            <h2 class="font-bold text-xl mb-2">Diameter distribution (DBH)</h2>
+                            <canvas id="dbhBinChart"></canvas>
+                        </div>
+                    </div>
+                
+                
+                    
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Maximum diameter (DBH)</h2>
+                
+                
+                    <div class="gauge" id="dbhmaxGauge"></div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Maximum height</h2>
+                
+                
+                    <div class="gauge" id="heightmaxGauge"></div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+            
+                
+            
+                
+                    
+                
+                    <div class="w-1/2 px-2 mb-4">
+                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                            <h2 class="font-bold text-xl mb-2">Altitudinal distribution</h2>
+                            <canvas id="elevationBinChart"></canvas>
+                        </div>
+                    </div>
+                
+                
+            
+                
+            
+                
+                    
+                
+                    <div class="w-1/2 px-2 mb-4">
+                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                            <h2 class="font-bold text-xl mb-2">Rainfall distribution</h2>
+                            <canvas id="rainfallBinChart"></canvas>
+                        </div>
+                    </div>
+                
+                
+            
+                
+            
+                
+                    
+                
+                    <div class="w-1/2 px-2 mb-4">
+                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                            <h2 class="font-bold text-xl mb-2">Holdridge</h2>
+                            <canvas id="holdridgeBinChart"></canvas>
+                        </div>
+                    </div>
+                
+                
+            
+                
+            
+                
+                    
+                
+                    <div class="w-1/2 px-2 mb-4">
+                        <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                            <h2 class="font-bold text-xl mb-2">Strate</h2>
+                            <canvas id="strateBinChart"></canvas>
+                        </div>
+                    </div>
+                
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Wood density</h2>
+                
+                
+                    <div class="gauge" id="wood_densitymeanGauge"></div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Bark thickness</h2>
+                
+                
+                    <div class="gauge" id="bark_thicknessmeanGauge"></div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Specific leaf area</h2>
+                
+                
+                    <div class="gauge" id="leaf_slameanGauge"></div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Leaf area</h2>
+                
+                
+                    <div class="gauge" id="leaf_areameanGauge"></div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+            
+                
+            
+                
+                    
+                
+                
+                    
+                        <div class="w-1/2 px-2 mb-4">
+                            <div class="rounded overflow-hidden shadow-lg p-4 bg-white">
+                                
+                
+                    <h2 class="font-bold text-xl mb-2">Leaf thickness</h2>
+                
+                
+                    <div class="gauge" id="leaf_thicknessmeanGauge"></div>
+                
+            
+                            </div>
+                        </div>
+                    
+                
+                    
+                
+                    
+                
+            
+                
+            
+
+        </div>
+    </div>
+
+
+        </div>
+    </div>
+    <footer class="bg-green-700 text-white p-4 mt-8">
+        <div class="container mx-auto">
+            <div class="flex justify-center mb-4">
+                <div class="bg-white p-2 rounded-lg shadow-md flex justify-center">
+                    <figure class="mx-2"><img class="img-fluid" src="../files/ps_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/pn_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/amap_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/herbarium_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/iac_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/ird_100.png"></figure>
+                    <figure class="mx-2"><img class="img-fluid" src="../files/cirad_100.png"></figure>
+                </div>
+            </div>
+            <div class="text-center">
+                <p>Niamoto - Portail de la forêt de Nouvelle-Calédonie</p>
+                <a class="inline-block py-2 px-4 text-white no-underline" href="https://github.com/niamoto/niamoto" target="_blank">
+                    <span class="fab fa-github fa-lg" aria-hidden="true"></span> Github
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/vendor/chart/4.4.2_chart.js"></script>
+    <script src="../js/vendor/d3/7.8.5_d3.js"></script>
+    <script src="../js/vendor/jquery/3.6.0_jquery.js"></script>
+    <script src="../js/vendor/raphael/2.3.0_raphael.js"></script>
+    <script src="../js/vendor/justgage/1.6.1_justgage.js"></script>
+    <script src="../js/vendor/leaflet/1.9.4_leaflet.js"></script>
+    
+    <script>
+        const taxon = {"authors": "(Baill.) Vink", "bark_thickness_max": null, "bark_thickness_mean": null, "bark_thickness_min": null, "dbh_max": 66.8, "dbh_mean": 18.45, "dbh_median": 15.0, "dbh_min": 5.0, "frequencies": {"dbh": {"10": 60.52, "100": 0.0, "20": 23.25, "200": 0.0, "30": 5.54, "300": 0.0, "40": 7.01, "400": 0.0, "50": 3.69, "75": 0.0}, "elevation": {"100": 9.19, "1000": 5.37, "1100": 1.73, "1200": 1.91, "200": 33.62, "300": 17.68, "400": 13.0, "500": 1.91, "600": 3.12, "700": 4.68, "800": 4.68, "900": 3.12}, "holdridge": {"1": 1.57, "2": 98.43}, "rainfall": {"1000": 0.34, "1500": 3.42, "2000": 17.95, "2500": 55.38, "3000": 15.56, "3500": 5.81, "4000": 1.54, "4500": 0.0}, "strate": {"1": 5.88, "2": 70.59, "3": 23.53}}, "full_name": "Pycnandra fastuosa", "height_max": 20.0, "id": 5333, "leaf_area_max": 109.88, "leaf_area_mean": 109.88, "leaf_area_min": 109.88, "leaf_sla_max": 2.38, "leaf_sla_mean": 2.38, "leaf_sla_min": 2.38, "leaf_thickness_max": 770.86, "leaf_thickness_mean": 770.86, "leaf_thickness_min": 770.86, "level": 2, "lft": 3397, "metadata": {"id_endemia": 1253, "rank_name": "species"}, "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.2469444, -21.6661111], \"count\": 1}, {\"coordinates\": [166.9025673, -22.1528943], \"count\": 1}, {\"coordinates\": [166.5386111, -21.9577778], \"count\": 1}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 1}, {\"coordinates\": [166.4688889, -22.0102778], \"count\": 1}, {\"coordinates\": [165.1548947, -21.2411851], \"count\": 1}, {\"coordinates\": [164.8259205, -21.0125548], \"count\": 1}, {\"coordinates\": [166.9374788, -22.1744268], \"count\": 1}, {\"coordinates\": [166.766177, -22.3104302], \"count\": 2}, {\"coordinates\": [166.90391944444445, -22.274947222222224], \"count\": 16}, {\"coordinates\": [166.7733333, -22.2386111], \"count\": 1}, {\"coordinates\": [166.5393865, -22.1956563], \"count\": 1}, {\"coordinates\": [166.4687159, -22.0094731], \"count\": 1}, {\"coordinates\": [166.9485878, -22.2779717], \"count\": 1}, {\"coordinates\": [166.92011, -22.32465], \"count\": 1}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 1}, {\"coordinates\": [166.5065556, -21.9643611], \"count\": 1}, {\"coordinates\": [165.3729746, -21.4194153], \"count\": 1}, {\"coordinates\": [166.4713889, -22.0080556], \"count\": 1}, {\"coordinates\": [166.6643333, -22.1019444], \"count\": 1}, {\"coordinates\": [165.7088889, -21.3405556], \"count\": 1}, {\"coordinates\": [166.5105556, -21.9866667], \"count\": 1}, {\"coordinates\": [166.1405056, -21.7950268], \"count\": 1}, {\"coordinates\": [166.89710003, -22.15494298], \"count\": 2}, {\"coordinates\": [166.89682471, -22.28926679], \"count\": 2}, {\"coordinates\": [166.81138887, -22.24972223], \"count\": 2}, {\"coordinates\": [166.89935531, -22.29082505], \"count\": 2}, {\"coordinates\": [166.90322819, -22.28122233], \"count\": 4}, {\"coordinates\": [166.81333329, -22.24694445], \"count\": 2}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 22}, {\"coordinates\": [166.90349952, -22.27474405], \"count\": 4}, {\"coordinates\": [166.89815938, -22.2766399], \"count\": 4}, {\"coordinates\": [166.899537, -22.26646], \"count\": 8}, {\"coordinates\": [166.948543, -22.278], \"count\": 1}, {\"coordinates\": [166.945646, -22.280184], \"count\": 1}, {\"coordinates\": [166.896372, -22.288916], \"count\": 1}, {\"coordinates\": [166.948834, -22.278186], \"count\": 3}, {\"coordinates\": [166.899565, -22.266683], \"count\": 2}, {\"coordinates\": [166.871042, -22.283033], \"count\": 5}, {\"coordinates\": [166.955136, -22.276115], \"count\": 6}, {\"coordinates\": [166.901154, -22.2643], \"count\": 7}, {\"coordinates\": [166.942302, -22.279111], \"count\": 2}, {\"coordinates\": [166.942123, -22.275688], \"count\": 4}, {\"coordinates\": [166.944263, -22.276398], \"count\": 2}, {\"coordinates\": [166.945034, -22.275672], \"count\": 4}, {\"coordinates\": [166.907922, -22.282192], \"count\": 1}, {\"coordinates\": [166.947223, -22.280532], \"count\": 1}, {\"coordinates\": [166.931837, -22.278266], \"count\": 6}, {\"coordinates\": [166.941372, -22.279485], \"count\": 1}, {\"coordinates\": [166.896594, -22.278415], \"count\": 1}, {\"coordinates\": [166.939011, -22.278514], \"count\": 1}, {\"coordinates\": [166.906017, -22.275626], \"count\": 1}, {\"coordinates\": [166.932176, -22.278767], \"count\": 6}, {\"coordinates\": [166.932047, -22.278092], \"count\": 1}, {\"coordinates\": [166.896633, -22.281304], \"count\": 1}, {\"coordinates\": [166.899976, -22.30008], \"count\": 1}, {\"coordinates\": [166.933706, -22.291942], \"count\": 4}, {\"coordinates\": [166.953707, -22.222168], \"count\": 1}, {\"coordinates\": [166.93027222222221, -22.323916666666666], \"count\": 4}, {\"coordinates\": [166.7639, -22.3072], \"count\": 4}, {\"coordinates\": [166.92914166666668, -22.32357222222222], \"count\": 3}, {\"coordinates\": [166.689425, -22.151216666666667], \"count\": 14}, {\"coordinates\": [166.91771666666668, -22.319005555555556], \"count\": 3}, {\"coordinates\": [166.89711111111112, -22.154944444444446], \"count\": 3}, {\"coordinates\": [166.93006111111112, -22.323755555555557], \"count\": 4}, {\"coordinates\": [166.59283333333335, -22.154777777777777], \"count\": 4}, {\"coordinates\": [166.60545555555555, -22.130469444444444], \"count\": 5}, {\"coordinates\": [166.91840833333333, -22.324419444444445], \"count\": 3}, {\"coordinates\": [166.2428, -21.66541], \"count\": 6}, {\"coordinates\": [166.92065833333334, -22.318175], \"count\": 10}, {\"coordinates\": [166.5929167, -22.1556389], \"count\": 6}, {\"coordinates\": [166.9135222222222, -22.320644444444444], \"count\": 1}, {\"coordinates\": [166.92571666666666, -22.320641666666667], \"count\": 2}, {\"coordinates\": [166.24244, -21.66603], \"count\": 2}, {\"coordinates\": [166.91786944444445, -22.318091666666668], \"count\": 3}, {\"coordinates\": [166.6232, -22.1944], \"count\": 4}, {\"coordinates\": [166.99477777777778, -22.273083333333332], \"count\": 1}, {\"coordinates\": [166.626125, -22.195666666666668], \"count\": 3}, {\"coordinates\": [166.99425, -22.272916666666667], \"count\": 3}, {\"coordinates\": [166.8918888888889, -22.153805555555557], \"count\": 3}, {\"coordinates\": [166.92970277777778, -22.32346111111111], \"count\": 6}, {\"coordinates\": [166.6056861111111, -22.1304], \"count\": 9}, {\"coordinates\": [166.99505555555555, -22.272694444444443], \"count\": 1}, {\"coordinates\": [167.00455555555556, -22.28775], \"count\": 1}, {\"coordinates\": [166.5920277777778, -22.156402777777778], \"count\": 1}, {\"coordinates\": [166.59312777777777, -22.155541666666668], \"count\": 3}, {\"coordinates\": [166.9180861111111, -22.3246], \"count\": 2}, {\"coordinates\": [166.59064166666667, -22.155438888888888], \"count\": 1}, {\"coordinates\": [166.7636, -22.1735], \"count\": 1}, {\"coordinates\": [166.68333333333334, -22.2], \"count\": 2}, {\"coordinates\": [166.896284, -22.285214], \"count\": 3}, {\"coordinates\": [166.9, -22.283333333333335], \"count\": 1}, {\"coordinates\": [165.07943725585938, -21.1813907623291], \"count\": 4}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 3}, {\"coordinates\": [165.8265424, -21.3973133], \"count\": 1}, {\"coordinates\": [166.53334045410156, -22.166667938232422], \"count\": 1}, {\"coordinates\": [165.1470489501953, -21.276199340820312], \"count\": 2}, {\"coordinates\": [166.9199981689453, -22.31999969482422], \"count\": 1}, {\"coordinates\": [166.2949981689453, -21.77750015258789], \"count\": 2}, {\"coordinates\": [166.46556091308594, -22.012500762939453], \"count\": 4}, {\"coordinates\": [165.41888427734375, -21.433059692382812], \"count\": 2}, {\"coordinates\": [166.46888732910156, -22.010269165039062], \"count\": 1}, {\"coordinates\": [166.93417358398438, -22.177499771118164], \"count\": 2}, {\"coordinates\": [165.14443969726562, -21.229169845581055], \"count\": 2}, {\"coordinates\": [166.5393829345703, -22.195650100708008], \"count\": 1}, {\"coordinates\": [165.0826875, -21.1784801], \"count\": 1}, {\"coordinates\": [166.66416931152344, -22.101940155029297], \"count\": 1}, {\"coordinates\": [166.6588897705078, -22.179170608520508], \"count\": 1}, {\"coordinates\": [165.7166748046875, -21.51667022705078], \"count\": 4}, {\"coordinates\": [166.78555297851562, -22.193889617919922], \"count\": 2}, {\"coordinates\": [166.47000122070312, -22.010000228881836], \"count\": 2}, {\"coordinates\": [166.4713897705078, -22.008060455322266], \"count\": 1}, {\"coordinates\": [166.53860473632812, -21.957780838012695], \"count\": 1}, {\"coordinates\": [165.1451582, -21.2324329], \"count\": 1}, {\"coordinates\": [166.89944458007812, -22.156110763549805], \"count\": 3}, {\"coordinates\": [166.4648600000003, -22.031530000656133], \"count\": 1}, {\"coordinates\": [166.34388732910156, -22.064720153808594], \"count\": 3}, {\"coordinates\": [166.66000366210938, -22.100000381469727], \"count\": 1}, {\"coordinates\": [165.36972045898438, -21.422500610351562], \"count\": 2}, {\"coordinates\": [166.85000610351562, -22.183332443237305], \"count\": 1}, {\"coordinates\": [166.0002778, -21.7535556], \"count\": 1}, {\"coordinates\": [166.89999998, -22.28333332], \"count\": 3}, {\"coordinates\": [166.24908447265625, -21.671499252319336], \"count\": 1}, {\"coordinates\": [166.2361111, -21.6786111], \"count\": 1}, {\"coordinates\": [166.46888732910156, -22.01028060913086], \"count\": 1}, {\"coordinates\": [166.3439483642578, -22.064830780029297], \"count\": 1}, {\"coordinates\": [166.1455556, -21.7375], \"count\": 1}, {\"coordinates\": [166.96747168968247, -22.2773731027713], \"count\": 1}, {\"coordinates\": [166.81805419921875, -22.324169158935547], \"count\": 2}, {\"coordinates\": [164.78219604492188, -21.006149291992188], \"count\": 1}, {\"coordinates\": [165.14999389648438, -21.233333587646484], \"count\": 1}, {\"coordinates\": [165.82650756835938, -21.397310256958008], \"count\": 1}, {\"coordinates\": [166.5, -21.979999542236328], \"count\": 2}, {\"coordinates\": [166.2425, -21.6658333], \"count\": 1}, {\"coordinates\": [166.13722229003906, -21.798059463500977], \"count\": 1}, {\"coordinates\": [164.81666564941406, -21.0], \"count\": 1}, {\"coordinates\": [166.788903, -22.1907076], \"count\": 1}, {\"coordinates\": [166.9039194, -22.2749472], \"count\": 1}, {\"coordinates\": [166.5399932861328, -21.959999084472656], \"count\": 1}, {\"coordinates\": [166.491943359375, -22.211389541625977], \"count\": 2}, {\"coordinates\": [166.51055908203125, -21.986669540405273], \"count\": 2}, {\"coordinates\": [166.47137451171875, -22.0080509185791], \"count\": 1}, {\"coordinates\": [166.6427764892578, -22.121110916137695], \"count\": 1}, {\"coordinates\": [166.513300621833, -22.0638018195], \"count\": 1}, {\"coordinates\": [166.7888946533203, -22.19070053100586], \"count\": 1}, {\"coordinates\": [165.0800018310547, -21.18000030517578], \"count\": 2}, {\"coordinates\": [166.5062255859375, -22.171030044555664], \"count\": 1}, {\"coordinates\": [166.5361328125, -22.198720932006836], \"count\": 1}, {\"coordinates\": [166.53334045410156, -22.183332443237305], \"count\": 1}, {\"coordinates\": [166.9038848876953, -22.274999618530273], \"count\": 1}, {\"coordinates\": [166.000277777778, -21.7535555556085], \"count\": 1}, {\"coordinates\": [166.919444444444, -22.3247222222222], \"count\": 1}, {\"coordinates\": [166.471388888889, -22.0444444444444], \"count\": 1}, {\"coordinates\": [166.236111111111, -21.6786111111111], \"count\": 1}, {\"coordinates\": [165.73604001, -21.55237199], \"count\": 1}, {\"coordinates\": [166.471388888889, -22.0080555555556], \"count\": 1}, {\"coordinates\": [165.823333333333, -21.4002777777778], \"count\": 1}, {\"coordinates\": [165.74091998, -21.60992398], \"count\": 1}, {\"coordinates\": [165.74853646480298, -21.43861093497297], \"count\": 1}, {\"coordinates\": [165.079, -21.181], \"count\": 1}, {\"coordinates\": [165.07944, -21.18139], \"count\": 2}, {\"coordinates\": [166.934166666667, -22.1775], \"count\": 1}, {\"coordinates\": [166.466, -22.012], \"count\": 2}, {\"coordinates\": [166.899, -22.156], \"count\": 1}, {\"coordinates\": [166.826111111111, -22.2052777777778], \"count\": 1}, {\"coordinates\": [165.14444, -21.22917], \"count\": 1}, {\"coordinates\": [166.23557425, -21.67922511], \"count\": 1}, {\"coordinates\": [166.659, -22.179], \"count\": 1}, {\"coordinates\": [165.36972, -21.4225], \"count\": 1}, {\"coordinates\": [166.35931298, -22.05976203], \"count\": 1}, {\"coordinates\": [166.59216395, -22.15704999], \"count\": 1}, {\"coordinates\": [166.539, -21.958], \"count\": 1}, {\"coordinates\": [166.9006917582189, -22.274958358912436], \"count\": 1}, {\"coordinates\": [166.55107118, -22.09763637], \"count\": 1}, {\"coordinates\": [166.786, -22.194], \"count\": 1}, {\"coordinates\": [166.904, -22.275], \"count\": 1}, {\"coordinates\": [166.56184501, -21.95417003], \"count\": 1}, {\"coordinates\": [166.246944444444, -21.6661111111111], \"count\": 1}, {\"coordinates\": [166.51056, -21.98667], \"count\": 1}, {\"coordinates\": [166.46556, -22.0125], \"count\": 2}, {\"coordinates\": [166.15296098, -21.73768498], \"count\": 1}, {\"coordinates\": [166.2425, -21.6658333333333], \"count\": 1}, {\"coordinates\": [166.00017804, -21.75354599], \"count\": 1}, {\"coordinates\": [166.23564126, -21.68023843], \"count\": 1}, {\"coordinates\": [166.465555555556, -22.0125], \"count\": 1}, {\"coordinates\": [166.468888888889, -22.0102777777778], \"count\": 1}, {\"coordinates\": [165.700322, -21.59212496], \"count\": 1}, {\"coordinates\": [166.60486498, -22.07270495], \"count\": 1}, {\"coordinates\": [166.99375005, -22.28708999], \"count\": 1}, {\"coordinates\": [166.506547, -21.96435896], \"count\": 1}, {\"coordinates\": [166.2360273, -21.68085307], \"count\": 1}, {\"coordinates\": [165.151666666667, -21.2441666666667], \"count\": 1}, {\"coordinates\": [166.510555555556, -21.9866666666667], \"count\": 1}, {\"coordinates\": [166.934, -22.178], \"count\": 1}, {\"coordinates\": [166.295, -21.7775], \"count\": 1}, {\"coordinates\": [166.25233329, -21.66844445], \"count\": 1}, {\"coordinates\": [166.24241539, -21.66594582], \"count\": 1}, {\"coordinates\": [166.14383398, -21.74637098], \"count\": 1}, {\"coordinates\": [166.59215832, -22.15893608], \"count\": 1}, {\"coordinates\": [166.56397803, -21.95944503], \"count\": 1}, {\"coordinates\": [166.65993504, -22.020349], \"count\": 1}, {\"coordinates\": [166.9063444, -22.29200828], \"count\": 2}, {\"coordinates\": [166.506555555662, -21.964361111323], \"count\": 1}, {\"coordinates\": [166.471, -22.008], \"count\": 1}, {\"coordinates\": [166.469, -22.01], \"count\": 1}, {\"coordinates\": [166.92, -22.32], \"count\": 1}, {\"coordinates\": [166.511, -21.987], \"count\": 1}, {\"coordinates\": [166.60572996, -22.06932999], \"count\": 1}, {\"coordinates\": [166.899444444444, -22.1561111111111], \"count\": 1}, {\"coordinates\": [166.94141685, -22.21108835], \"count\": 2}, {\"coordinates\": [165.147, -21.276], \"count\": 2}, {\"coordinates\": [166.92245874440695, -22.317707411460958], \"count\": 1}, {\"coordinates\": [166.789, -22.191], \"count\": 1}, {\"coordinates\": [166.506, -22.171], \"count\": 1}, {\"coordinates\": [166.89944, -22.15611], \"count\": 2}, {\"coordinates\": [165.738867, -21.54617102], \"count\": 1}, {\"coordinates\": [166.78556, -22.19389], \"count\": 1}, {\"coordinates\": [166.344, -22.065], \"count\": 1}, {\"coordinates\": [165.37, -21.422], \"count\": 1}, {\"coordinates\": [166.145555555556, -21.7375], \"count\": 1}, {\"coordinates\": [165.369722222222, -21.4225], \"count\": 1}, {\"coordinates\": [165.079444444444, -21.1813888888889], \"count\": 1}, {\"coordinates\": [165.8265, -21.39731], \"count\": 1}, {\"coordinates\": [165.14048652, -21.27213193], \"count\": 1}, {\"coordinates\": [166.00158201, -21.76466202], \"count\": 1}, {\"coordinates\": [166.538611111111, -21.9577777777778], \"count\": 1}, {\"coordinates\": [166.89187897, -22.15379903], \"count\": 1}, {\"coordinates\": [166.60540802, -22.06978095], \"count\": 1}, {\"coordinates\": [165.144, -21.229], \"count\": 1}, {\"coordinates\": [166.14562501, -21.73726896], \"count\": 1}, {\"coordinates\": [165.134166666667, -21.2327777777778], \"count\": 1}, {\"coordinates\": [166.249, -21.672], \"count\": 1}, {\"coordinates\": [166.295, -21.778], \"count\": 1}, {\"coordinates\": [164.782, -21.006], \"count\": 1}, {\"coordinates\": [164.831111111111, -21.0002777777778], \"count\": 1}, {\"coordinates\": [166.93417, -22.1775], \"count\": 1}, {\"coordinates\": [166.69888886, -22.17277775], \"count\": 1}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 4}, {\"coordinates\": [166.76361107, -22.17805556], \"count\": 2}, {\"coordinates\": [166.75527783, -22.31027775], \"count\": 9}, {\"coordinates\": [166.91511398, -22.30698298], \"count\": 3}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 25}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 12}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 49}, {\"coordinates\": [166.62572499, -22.19208599], \"count\": 13}, {\"coordinates\": [166.66500005, -22.18305556], \"count\": 3}, {\"coordinates\": [166.76104096, -22.18968099], \"count\": 4}, {\"coordinates\": [164.83371306, -21.01530953], \"count\": 1}, {\"coordinates\": [166.91746628, -22.32114038], \"count\": 1}]}", "parent_id": 1281, "phenology_temporal_phenology": {"data": {"flowering": [0.0, 100.0, 50.0, 66.67, 11.11, 0.0, 33.33, 0.0, 12.5, 2.7, 4.69, 33.33], "fruiting": [0.0, 0.0, 50.0, 0.0, 5.56, 50.0, 33.33, 13.33, 12.5, 0.0, 9.38, 33.33]}, "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]}, "rank_name": "species", "rght": 3398, "species_top": {"Pycnandra fastuosa": 585}, "taxon_id": 5333, "total_occurrences_count": 585, "um_occurrences_false": 14, "um_occurrences_true": 571, "wood_density_max": 0.87, "wood_density_mean": 0.82, "wood_density_min": 0.75};
+        const mapping = {"fields": {"bark_thickness": {"bins": [], "description": "bark_thickness", "field_type": "DOUBLE", "label": "BARK_THICKNESS", "source_field": "bark_thickness", "transformations": [{"chart_options": {"label": "mm", "max": 80, "title": "Bark thickness"}, "chart_type": "gauge", "name": "mean"}, {"name": "max"}, {"name": "min"}]}, "dbh": {"bins": {"chart_options": {"color": "#548235", "title": "Diameter distribution (DBH)"}, "chart_type": "bar", "values": [10, 20, 30, 40, 50, 75, 100, 200, 300, 400, 500]}, "description": "dbh", "field_type": "DOUBLE", "label": "DBH", "source_field": "dbh", "transformations": [{"name": "mean"}, {"chart_options": {"label": "centimeters", "max": 500, "title": "Maximum diameter (DBH)"}, "chart_type": "gauge", "name": "max"}, {"name": "median"}, {"name": "min"}]}, "elevation": {"bins": {"chart_options": {"color": "#548235", "indexAxis": "y", "title": "Altitudinal distribution"}, "chart_type": "bar", "values": [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1700]}, "description": "elevation", "field_type": "BIGINT", "label": "ELEVATION", "source_field": "elevation", "transformations": []}, "height": {"bins": [], "description": "height", "field_type": "DOUBLE", "label": "HEIGHT", "source_field": "height", "transformations": [{"chart_options": {"label": "meters", "max": 40, "title": "Maximum height"}, "chart_type": "gauge", "name": "max"}]}, "holdridge": {"bins": {"chart_options": {"color": "#1e88e5", "colors": ["#1e88e5", "#ffd54f", "#e53935"], "stacked": true, "title": "Holdridge"}, "chart_type": "bar", "labels": ["Dry", "Humid", "Very Humid"], "values": [1, 2, 3]}, "description": "holdridge", "field_type": "BIGINT", "label": "HOLDRIDGE", "source_field": "holdridge", "transformations": []}, "leaf_area": {"bins": [], "description": "leaf_area", "field_type": "DOUBLE", "label": "LEAF_AREA", "source_field": "leaf_area", "transformations": [{"chart_options": {"label": "cm2", "max": 1500, "title": "Leaf area"}, "chart_type": "gauge", "name": "mean"}, {"name": "max"}, {"name": "min"}]}, "leaf_sla": {"bins": [], "description": "leaf_sla", "field_type": "DOUBLE", "label": "LEAF_SLA", "source_field": "leaf_sla", "transformations": [{"chart_options": {"label": "m2.kg-1", "max": 50, "title": "Specific leaf area"}, "chart_type": "gauge", "name": "mean"}, {"name": "max"}, {"name": "min"}]}, "leaf_thickness": {"bins": [], "description": "leaf_thickness", "field_type": "DOUBLE", "label": "LEAF_THICKNESS", "source_field": "leaf_thickness", "transformations": [{"chart_options": {"label": "\u00b5m", "max": 800, "title": "Leaf thickness"}, "chart_type": "gauge", "name": "mean"}, {"name": "max"}, {"name": "min"}]}, "occurrences_locations": {"bins": [], "description": "Geographic location of the occurrence", "field_type": "GEOGRAPHY", "label": "Occurrence location", "source": "occurrences", "source_field": "geo_pt", "transformations": [{"chart_options": {"coordinates_field": "occurrences_locations_coordinates", "title": "Occurrence map"}, "chart_type": "map", "name": "coordinates"}]}, "phenology": {"bins": [], "description": "Temporal phenology data for flowering and fruiting", "field_type": "JSON", "label": "Phenology", "source": "occurrences", "source_fields": {"flowering": "flower", "fruiting": "fruit"}, "time_grouping": {"custom_groups": [], "field": "month_obs", "type": "month"}, "transformations": [{"chart_options": {"colors": {"flowering": "#ffd700", "fruiting": "#ee0000"}, "indexAxis": "y", "title": "Phenology"}, "chart_type": "bar", "name": "temporal_phenology"}]}, "rainfall": {"bins": {"chart_options": {"color": "#2e75b6", "indexAxis": "y", "title": "Rainfall distribution"}, "chart_type": "bar", "values": [1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000]}, "description": "rainfall", "field_type": "BIGINT", "label": "RAINFALL", "source_field": "rainfall", "transformations": []}, "species": {"bins": [], "description": "Top most frequent species", "field_type": "JSON", "label": "Top Species", "source": "occurrences", "source_field": null, "transformations": [{"chart_options": {"indexAxis": "y", "title": "Main Sub-taxa"}, "chart_type": "bar", "count": 10, "name": "top", "target_ranks": ["species", "infra"]}]}, "strate": {"bins": {"chart_options": {"color": "#00b050", "indexAxis": "y", "title": "Strate"}, "chart_type": "bar", "labels": ["Undergrowth", "Under-Canopy", "Canopy", "Emergent"], "values": [1, 2, 3, 4]}, "description": "strate", "field_type": "BIGINT", "label": "STRATE", "source_field": "strate", "transformations": []}, "total_occurrences": {"bins": [], "description": "Total number of occurrences for the taxon", "field_type": "INTEGER", "label": "Total occurrences", "source": "occurrences", "source_field": null, "transformations": [{"chart_options": {"title": "Total occurrences"}, "chart_type": "text", "name": "count"}]}, "um_occurrences": {"bins": [], "description": "Number of occurrences on ultramafic substrates", "field_type": "BOOLEAN", "label": "UM occurrences", "source": "occurrences", "source_field": "in_um", "transformations": [{"chart_options": {"colors": {"false": "#78909c", "true": "#b08d57"}, "labels": {"false": "non-Ultramafic (NUM)", "true": "Ultramafic (UM)"}, "title": "Substrate Distribution"}, "chart_type": "pie", "name": "count"}]}, "wood_density": {"bins": [], "description": "wood_density", "field_type": "DOUBLE", "label": "WOOD_DENSITY", "source_field": "wood_density", "transformations": [{"chart_options": {"label": "g/cm\u00b3", "max": 1.2, "title": "Wood density"}, "chart_type": "gauge", "name": "mean"}, {"name": "max"}, {"name": "min"}]}}, "group_by": "taxon", "identifier": "id_taxonref", "reference_table_name": "taxon_ref", "source_location_field": "geo_pt", "source_table_name": "occurrences"};
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const treeContainer = document.getElementById('taxonomy-tree');
+            createTree(treeContainer, taxonomyData);
+            loadCharts(taxon, mapping)
+            setTimeout(initMap, 0.5);
+        });
+    </script>
+
+</body>
+</html>

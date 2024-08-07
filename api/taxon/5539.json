@@ -1,0 +1,135 @@
+{
+    "id": 5539,
+    "full_name": "Schefflera pseudocandelabrum",
+    "authors": "R.Vig.    ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 741
+    },
+    "lft": 311,
+    "rght": 312,
+    "level": 2,
+    "parent_id": 1350,
+    "taxon_id": 5539,
+    "total_occurrences_count": 155,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3066239, -21.1762872], \"count\": 2}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 3}, {\"coordinates\": [166.5084848, -22.1787788], \"count\": 6}, {\"coordinates\": [166.5094444, -22.1802778], \"count\": 1}, {\"coordinates\": [165.23333, -20.98333], \"count\": 1}, {\"coordinates\": [165.2230556, -20.815], \"count\": 1}, {\"coordinates\": [165.2877778, -21.1811111], \"count\": 2}, {\"coordinates\": [165.325, -21.145], \"count\": 1}, {\"coordinates\": [165.8890529, -21.6212974], \"count\": 2}, {\"coordinates\": [165.545395, -21.416931], \"count\": 26}, {\"coordinates\": [165.8663712, -21.6252617], \"count\": 3}, {\"coordinates\": [165.73604001, -21.55237199], \"count\": 1}, {\"coordinates\": [165.21972222222223, -20.818333333333335], \"count\": 3}, {\"coordinates\": [165.22569166666668, -21.00200277777778], \"count\": 21}, {\"coordinates\": [165.26925, -21.177138888888887], \"count\": 3}, {\"coordinates\": [165.24972222222223, -21.00583333333333], \"count\": 6}, {\"coordinates\": [165.2932823, -21.1826171], \"count\": 3}, {\"coordinates\": [166.5500030517578, -22.166667938232422], \"count\": 34}, {\"coordinates\": [165.24972534179688, -21.005830764770508], \"count\": 2}, {\"coordinates\": [164.5947265625, -20.459720611572266], \"count\": 2}, {\"coordinates\": [165.68861389160156, -21.54582977294922], \"count\": 3}, {\"coordinates\": [165.6780548095703, -21.534719467163086], \"count\": 1}, {\"coordinates\": [165.28778076171875, -21.181110382080078], \"count\": 1}, {\"coordinates\": [165.7675018310547, -21.623611450195312], \"count\": 1}, {\"coordinates\": [166.52407836914062, -22.183860778808594], \"count\": 1}, {\"coordinates\": [165.8092335, -21.61141], \"count\": 2}, {\"coordinates\": [166.50527954101562, -22.18194007873535], \"count\": 3}, {\"coordinates\": [166.5032423, -22.1784592], \"count\": 1}, {\"coordinates\": [165.545273, -21.416734379166666], \"count\": 1}, {\"coordinates\": [165.23167419433594, -21.01222038269043], \"count\": 1}, {\"coordinates\": [166.524169921875, -22.183889389038086], \"count\": 1}, {\"coordinates\": [166.62777709960938, -22.19305992126465], \"count\": 1}, {\"coordinates\": [165.2877655029297, -21.181110382080078], \"count\": 1}, {\"coordinates\": [165.8511199951172, -21.643299102783203], \"count\": 1}, {\"coordinates\": [166.50917053222656, -22.172500610351562], \"count\": 1}, {\"coordinates\": [165.7677764892578, -21.622777938842773], \"count\": 1}, {\"coordinates\": [165.2463836669922, -20.999160766601562], \"count\": 1}, {\"coordinates\": [166.53334045410156, -22.183332443237305], \"count\": 1}, {\"coordinates\": [165.545853, -21.41703], \"count\": 1}, {\"coordinates\": [165.8188934326172, -21.620830535888672], \"count\": 2}, {\"coordinates\": [166.5094451904297, -22.180269241333008], \"count\": 1}, {\"coordinates\": [166.52474998, -22.17611402], \"count\": 1}, {\"coordinates\": [166.52251903, -22.181908], \"count\": 1}, {\"coordinates\": [166.52290104, -22.18459897], \"count\": 1}]}",
+    "species_top": {
+        "Schefflera pseudocandelabrum": 155
+    },
+    "um_occurrences_true": 46,
+    "um_occurrences_false": 109,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                32.43,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                9.09,
+                50.0,
+                100.0
+            ],
+            "fruiting": [
+                24.32,
+                100.0,
+                7.69,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.32,
+    "dbh_max": 37.2,
+    "dbh_median": 15.6,
+    "dbh_min": 6.0,
+    "height_max": 25.0,
+    "wood_density_mean": 0.52,
+    "wood_density_max": 0.55,
+    "wood_density_min": 0.48,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 85.11,
+            "20": 10.64,
+            "30": 4.26,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 4.61,
+            "200": 3.29,
+            "300": 9.87,
+            "400": 9.87,
+            "500": 61.84,
+            "600": 0.0,
+            "700": 3.95,
+            "800": 1.97,
+            "900": 3.29,
+            "1000": 1.32,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 20.92,
+            "1500": 13.73,
+            "2000": 33.33,
+            "2500": 32.03,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 57.69,
+            "2": 42.31,
+            "3": 0.0
+        }
+    }
+}

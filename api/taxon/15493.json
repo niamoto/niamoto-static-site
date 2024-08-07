@@ -1,0 +1,130 @@
+{
+    "id": 15493,
+    "full_name": "Myrsine memaoyaensis",
+    "authors": "(M.Schmid) Ricketson & Pipoly ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5953
+    },
+    "lft": 2537,
+    "rght": 2538,
+    "level": 2,
+    "parent_id": 15468,
+    "taxon_id": 15493,
+    "total_occurrences_count": 27,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3729746, -21.4194153], \"count\": 1}, {\"coordinates\": [165.3296708, -21.3673688], \"count\": 1}, {\"coordinates\": [165.49647222222222, -21.360666666666667], \"count\": 1}, {\"coordinates\": [165.3652452, -21.430546], \"count\": 1}, {\"coordinates\": [165.3619384765625, -21.433610916137695], \"count\": 4}, {\"coordinates\": [164.83056640625, -20.647220611572266], \"count\": 1}, {\"coordinates\": [165.3300018310547, -21.369720458984375], \"count\": 4}, {\"coordinates\": [165.4119415283203, -21.429170608520508], \"count\": 3}, {\"coordinates\": [165.334420898944, -21.3617334011667], \"count\": 1}, {\"coordinates\": [165.76943969726562, -21.556110382080078], \"count\": 2}, {\"coordinates\": [165.87806701660156, -21.623329162597656], \"count\": 1}, {\"coordinates\": [165.7726979, -21.5531796], \"count\": 1}, {\"coordinates\": [165.335894, -21.362521], \"count\": 1}, {\"coordinates\": [165.3333282470703, -21.366666793823242], \"count\": 1}, {\"coordinates\": [165.32638549804688, -21.37027931213379], \"count\": 1}, {\"coordinates\": [164.77389526367188, -20.585830688476562], \"count\": 1}, {\"coordinates\": [165.36972045898438, -21.422500610351562], \"count\": 1}, {\"coordinates\": [165.27895, -21.36889], \"count\": 1}]}",
+    "species_top": {
+        "Myrsine memaoyaensis": 27
+    },
+    "um_occurrences_true": 20,
+    "um_occurrences_false": 7,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                50.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.3,
+    "dbh_max": 15.3,
+    "dbh_median": 15.3,
+    "dbh_min": 15.3,
+    "height_max": 4.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 3.7,
+            "400": 3.7,
+            "500": 3.7,
+            "600": 0.0,
+            "700": 7.41,
+            "800": 14.81,
+            "900": 3.7,
+            "1000": 18.52,
+            "1100": 7.41,
+            "1200": 37.04
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 25.93,
+            "2000": 40.74,
+            "2500": 25.93,
+            "3000": 3.7,
+            "3500": 3.7,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

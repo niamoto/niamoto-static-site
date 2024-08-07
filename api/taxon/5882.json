@@ -1,0 +1,118 @@
+{
+    "id": 5882,
+    "full_name": "Syzygium jaffrei",
+    "authors": "J.W.Dawson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4270
+    },
+    "lft": 2041,
+    "rght": 2042,
+    "level": 2,
+    "parent_id": 1439,
+    "taxon_id": 5882,
+    "total_occurrences_count": 49,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.1908333, -21.2516667], \"count\": 1}, {\"coordinates\": [165.3488007, -21.4306073], \"count\": 1}, {\"coordinates\": [165.3436111, -21.3611111], \"count\": 1}, {\"coordinates\": [165.3302424, -21.4574821], \"count\": 1}, {\"coordinates\": [165.3545722222, -21.4383611111], \"count\": 1}, {\"coordinates\": [165.0870464, -21.3226138], \"count\": 2}, {\"coordinates\": [165.34671912, -21.43839498], \"count\": 2}, {\"coordinates\": [165.34555561, -21.43361115], \"count\": 2}, {\"coordinates\": [165.080848871935, -20.9648670370986], \"count\": 1}, {\"coordinates\": [164.74643407757, -20.7382483062734], \"count\": 1}, {\"coordinates\": [165.2805633544922, -21.238059997558594], \"count\": 1}, {\"coordinates\": [165.060220236588, -20.9687245661217], \"count\": 1}, {\"coordinates\": [164.982208760251, -21.2357951262613], \"count\": 1}, {\"coordinates\": [164.98851990034706, -21.16986999322603], \"count\": 1}, {\"coordinates\": [165.060645106073, -20.9524831847978], \"count\": 1}, {\"coordinates\": [165.07305446080852, -21.183116930240796], \"count\": 1}, {\"coordinates\": [165.33360290527344, -21.381000518798828], \"count\": 1}, {\"coordinates\": [165.2805833, -21.2381944], \"count\": 1}, {\"coordinates\": [164.99177733631, -20.9126565333095], \"count\": 1}, {\"coordinates\": [165.122969, -21.292368], \"count\": 1}, {\"coordinates\": [164.744839538576, -20.733117238776], \"count\": 1}, {\"coordinates\": [165.2720933, -21.2238756], \"count\": 1}, {\"coordinates\": [165.08544400334344, -21.191853136459642], \"count\": 1}, {\"coordinates\": [164.7377638889, -20.7435333333], \"count\": 1}, {\"coordinates\": [165.19082641601562, -21.251670837402344], \"count\": 2}, {\"coordinates\": [165.3333282470703, -21.366670608520508], \"count\": 1}, {\"coordinates\": [165.08389282226562, -21.325559616088867], \"count\": 1}, {\"coordinates\": [164.775290831091, -20.7617163413409], \"count\": 1}, {\"coordinates\": [165.3487778, -21.434375], \"count\": 1}, {\"coordinates\": [165.107107152039, -20.9438018833046], \"count\": 1}, {\"coordinates\": [165.114513208688, -21.1769843564851], \"count\": 1}, {\"coordinates\": [165.1181191, -21.179327], \"count\": 1}, {\"coordinates\": [165.01944443, -20.92083334], \"count\": 1}, {\"coordinates\": [166.55548298, -22.17075496], \"count\": 1}, {\"coordinates\": [165.08000004, -21.1644444], \"count\": 1}, {\"coordinates\": [165.268888888889, -21.2269444444444], \"count\": 1}, {\"coordinates\": [165.305555555556, -21.3780555555556], \"count\": 2}, {\"coordinates\": [165.08704546, -21.32261583], \"count\": 1}, {\"coordinates\": [165.19083334, -21.25166667], \"count\": 1}, {\"coordinates\": [165.34872162, -21.43562889], \"count\": 1}, {\"coordinates\": [165.3383333, -21.44583333], \"count\": 1}, {\"coordinates\": [165.114722222222, -21.1822222222222], \"count\": 1}, {\"coordinates\": [165.28058333, -21.23819444], \"count\": 1}, {\"coordinates\": [165.083888888889, -21.3255555555556], \"count\": 1}]}",
+    "species_top": {
+        "Syzygium jaffrei": 49
+    },
+    "um_occurrences_true": 28,
+    "um_occurrences_false": 21,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                0.0,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                33.33,
+                50.0,
+                80.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                50.0,
+                0.0,
+                0,
+                0.0,
+                50.0,
+                0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 34.09,
+            "200": 9.09,
+            "300": 9.09,
+            "400": 2.27,
+            "500": 18.18,
+            "600": 11.36,
+            "700": 9.09,
+            "800": 2.27,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 4.55
+        },
+        "rainfall": {
+            "1000": 14.58,
+            "1500": 52.08,
+            "2000": 27.08,
+            "2500": 6.25,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 2.56,
+            "2": 97.44
+        }
+    }
+}

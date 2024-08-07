@@ -1,0 +1,63 @@
+{
+    "id": 10,
+    "locality": "Col d'Amoss",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            164.4378741737,
+            -20.3060228471
+        ]
+    },
+    "plot_id": 10,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [164.4378741737, -20.3060228471]}",
+    "families_top": {
+        "Clusiaceae": 446,
+        "Calophyllaceae": 224,
+        "Sapindaceae": 108,
+        "Myrtaceae": 93,
+        "Arecaceae": 56,
+        "Monimiaceae": 48,
+        "Dicksoniaceae": 46,
+        "Metteniusaceae": 45,
+        "Burseraceae": 25,
+        "Cunoniaceae": 25
+    },
+    "species_top": {
+        "Garcinia vieillardii": 381,
+        "Calophyllum caledonicum": 224,
+        "Cupaniopsis petiolulata": 67,
+        "Dicksonia thyrsopteroides": 46,
+        "Apodytes clusiifolia": 45,
+        "Kentiopsis magnifica": 35,
+        "Garcinia virgata": 31,
+        "Hedycarya cupulata": 27,
+        "Piliocalyx laurifolius": 24,
+        "Garcinia puat": 22
+    },
+    "height_mean": 13.82,
+    "wood_density_mean": 0.67,
+    "basal_area": 65.6,
+    "shannon": 3.16,
+    "pielou": 0.69,
+    "simpson": 0.89,
+    "biomass": 422.825976880712,
+    "frequencies": {
+        "dbh": {
+            "10": 65.23,
+            "20": 19.83,
+            "30": 8.09,
+            "40": 3.06,
+            "50": 3.06,
+            "75": 0.51,
+            "100": 0.22,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 26.79,
+            "2": 32.68,
+            "3": 40.53
+        }
+    }
+}

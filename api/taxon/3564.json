@@ -1,0 +1,118 @@
+{
+    "id": 3564,
+    "full_name": "Grewia crenata",
+    "authors": "(G.Forst.) Schinz & Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2263
+    },
+    "lft": 1597,
+    "rght": 1598,
+    "level": 2,
+    "parent_id": 827,
+    "taxon_id": 3564,
+    "total_occurrences_count": 38,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.9665376, -21.0886002], \"count\": 1}, {\"coordinates\": [164.917945047909, -20.6252443341279], \"count\": 1}, {\"coordinates\": [164.083614259344, -20.3677824509897], \"count\": 1}, {\"coordinates\": [164.655974024936, -20.9844953711929], \"count\": 1}, {\"coordinates\": [166.460018, -22.259073], \"count\": 1}, {\"coordinates\": [165.4592169, -21.6589005], \"count\": 2}, {\"coordinates\": [165.2612205, -21.2496574], \"count\": 1}, {\"coordinates\": [167.1736362, -20.7009149], \"count\": 1}, {\"coordinates\": [166.4549223, -22.3075441], \"count\": 2}, {\"coordinates\": [167.8003228, -21.0938374], \"count\": 1}, {\"coordinates\": [167.9794457, -21.5172018], \"count\": 1}, {\"coordinates\": [166.487002, -22.2380552], \"count\": 2}, {\"coordinates\": [166.5913221, -20.6466993], \"count\": 1}, {\"coordinates\": [167.8533975, -21.5936889], \"count\": 1}, {\"coordinates\": [166.5265853, -20.6637748], \"count\": 1}, {\"coordinates\": [166.7923611, -22.5504889], \"count\": 1}, {\"coordinates\": [164.966975, -21.088636], \"count\": 1}, {\"coordinates\": [166.6246539, -20.4507206], \"count\": 1}, {\"coordinates\": [166.261728, -22.176967], \"count\": 1}, {\"coordinates\": [165.459069, -21.658835], \"count\": 1}, {\"coordinates\": [166.45693604, -22.25740195], \"count\": 1}]}",
+    "species_top": {
+        "Grewia crenata": 38
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 36,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                50.0,
+                100.0,
+                100.0,
+                80.0,
+                0.0,
+                50.0,
+                20.0,
+                0.0,
+                40.0,
+                50.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                50.0,
+                66.67,
+                33.33,
+                60.0,
+                100.0,
+                100.0,
+                60.0,
+                100.0,
+                0.0,
+                50.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 100.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 64.71,
+            "1500": 29.41,
+            "2000": 5.88,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 62.5,
+            "2": 37.5
+        }
+    }
+}

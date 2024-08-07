@@ -1,0 +1,118 @@
+{
+    "id": 15122,
+    "full_name": "Syzygium viriosum",
+    "authors": "Craven & J.W.Dawson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4250
+    },
+    "lft": 2099,
+    "rght": 2100,
+    "level": 2,
+    "parent_id": 1439,
+    "taxon_id": 15122,
+    "total_occurrences_count": 27,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.4377778, -20.3022222], \"count\": 1}, {\"coordinates\": [164.5292677778, -20.3591527778], \"count\": 1}, {\"coordinates\": [164.5314902, -20.3976737], \"count\": 1}, {\"coordinates\": [165.24, -21.0097222222], \"count\": 1}, {\"coordinates\": [165.2408333, -21.0069444], \"count\": 1}, {\"coordinates\": [164.5259167, -20.400125], \"count\": 1}, {\"coordinates\": [165.2875, -21.1811111111], \"count\": 1}, {\"coordinates\": [164.5423611, -20.4041917], \"count\": 1}, {\"coordinates\": [165.3033762, -21.1779231], \"count\": 3}, {\"coordinates\": [165.7713889, -21.6194444], \"count\": 1}, {\"coordinates\": [164.4393125, -20.3025517], \"count\": 1}, {\"coordinates\": [165.2877222, -21.1813889], \"count\": 1}, {\"coordinates\": [164.5319444, -20.3980556], \"count\": 2}, {\"coordinates\": [165.25, -21.0], \"count\": 1}, {\"coordinates\": [165.2892222, -21.1824167], \"count\": 1}, {\"coordinates\": [164.68811666666667, -20.532816666666665], \"count\": 1}, {\"coordinates\": [164.4380083, -20.3025333], \"count\": 1}, {\"coordinates\": [164.7369318455, -20.7448024023333], \"count\": 1}, {\"coordinates\": [164.528890736898, -20.3996904055277], \"count\": 1}, {\"coordinates\": [164.5246221, -20.3836135], \"count\": 1}, {\"coordinates\": [164.5295, -20.3996667], \"count\": 1}, {\"coordinates\": [164.439054997762, -20.302628326416], \"count\": 1}, {\"coordinates\": [164.437021437145, -20.3020616713024], \"count\": 1}, {\"coordinates\": [165.316432, -21.1495681], \"count\": 1}]}",
+    "species_top": {
+        "Syzygium viriosum": 27
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 27,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                100.0,
+                0.0,
+                0,
+                0.0,
+                50.0,
+                0,
+                0.0,
+                33.33,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                25.0,
+                0.0,
+                0.0,
+                100.0,
+                0,
+                100.0,
+                0.0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 7.41,
+            "500": 33.33,
+            "600": 25.93,
+            "700": 33.33,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 11.11,
+            "1500": 29.63,
+            "2000": 33.33,
+            "2500": 22.22,
+            "3000": 3.7,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

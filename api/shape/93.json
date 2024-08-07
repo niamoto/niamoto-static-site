@@ -1,0 +1,93 @@
+{
+    "id": 93,
+    "name": "Netcha",
+    "type": "protected_areas",
+    "shape_coordinates": "{\"type\": \"FeatureCollection\", \"features\": [{\"id\": \"0\", \"type\": \"Feature\", \"properties\": {}, \"geometry\": {\"type\": \"Polygon\", \"coordinates\": [[[166.8455099, -22.2117782], [166.8482489, -22.223547], [166.8456339, -22.2256031], [166.8414779, -22.2233489], [166.8427813, -22.2135641], [166.8455099, -22.2117782]]]}, \"bbox\": [166.8414779, -22.2256031, 166.8482489, -22.2117782]}], \"bbox\": [166.8414779, -22.2256031, 166.8482489, -22.2117782]}",
+    "shape_id": 93,
+    "shape_area": "69.34904046244533",
+    "forest_area": null,
+    "forest_coordinates": null,
+    "num_families_unique_taxonomic_count": 10,
+    "num_species_unique_taxonomic_count": 14,
+    "num_occurrences_count": 43,
+    "rainfall_mean": null,
+    "rainfall_range": null,
+    "elevation_median": 233.0,
+    "elevation_max": 239.0,
+    "elevation_elevation_distribution": {
+        "altitudes": [
+            228.0
+        ],
+        "forest": [
+            0.0
+        ],
+        "non_forest": [
+            68.89942177960927
+        ]
+    },
+    "forest_fragmentation_fragment_size_distribution": null,
+    "forest_fragmentation_effective_mesh_size": null,
+    "forest_cover_percentage": null,
+    "forest_humidity_category_distribution": null,
+    "land_use_category_distribution": null,
+    "frequencies": {},
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    166.8455099,
+                    -22.2117782
+                ],
+                [
+                    166.8482312,
+                    -22.2218458
+                ],
+                [
+                    166.8478911,
+                    -22.2226609
+                ],
+                [
+                    166.8482489,
+                    -22.223547
+                ],
+                [
+                    166.8456339,
+                    -22.2256031
+                ],
+                [
+                    166.8452779,
+                    -22.2248216
+                ],
+                [
+                    166.8448498,
+                    -22.2244018
+                ],
+                [
+                    166.8416988,
+                    -22.2236128
+                ],
+                [
+                    166.8414779,
+                    -22.2233489
+                ],
+                [
+                    166.8414971,
+                    -22.2223789
+                ],
+                [
+                    166.8427813,
+                    -22.2135641
+                ],
+                [
+                    166.8430687,
+                    -22.2128857
+                ],
+                [
+                    166.8455099,
+                    -22.2117782
+                ]
+            ]
+        ]
+    }
+}

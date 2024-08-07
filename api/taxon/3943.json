@@ -1,0 +1,135 @@
+{
+    "id": 3943,
+    "full_name": "Lasiochlamys reticulata",
+    "authors": "(Schltr.) Pax & K.Hoffm. ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": null
+    },
+    "lft": 3069,
+    "rght": 3070,
+    "level": 2,
+    "parent_id": 937,
+    "taxon_id": 3943,
+    "total_occurrences_count": 70,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7559243, -20.6075358], \"count\": 1}, {\"coordinates\": [164.7904228, -20.5660142], \"count\": 1}, {\"coordinates\": [165.300278, -21.1806091], \"count\": 2}, {\"coordinates\": [165.2834384, -21.1767109], \"count\": 2}, {\"coordinates\": [164.7759103, -20.5830689], \"count\": 1}, {\"coordinates\": [164.7071944, -20.7163944], \"count\": 1}, {\"coordinates\": [165.2697827, -21.1774164], \"count\": 3}, {\"coordinates\": [164.6811778, -20.4879583], \"count\": 1}, {\"coordinates\": [165.17, -21.0283333], \"count\": 2}, {\"coordinates\": [164.6799167, -20.53334], \"count\": 1}, {\"coordinates\": [164.7760833, -20.6125], \"count\": 1}, {\"coordinates\": [164.74419444444445, -20.59122222222222], \"count\": 1}, {\"coordinates\": [165.4765625, -21.24147605896], \"count\": 2}, {\"coordinates\": [164.77608333333333, -20.6125], \"count\": 3}, {\"coordinates\": [164.781, -20.625611111111112], \"count\": 1}, {\"coordinates\": [164.78330555555556, -20.559833333333334], \"count\": 1}, {\"coordinates\": [166.0558319091797, -21.625], \"count\": 1}, {\"coordinates\": [164.74444580078125, -20.622779846191406], \"count\": 2}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 4}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [164.71429443359375, -20.50897979736328], \"count\": 2}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [165.29693603515625, -21.183610916137695], \"count\": 2}, {\"coordinates\": [164.74000549316406, -20.613611221313477], \"count\": 2}, {\"coordinates\": [164.54916381835938, -20.410829544067383], \"count\": 1}, {\"coordinates\": [164.8572235107422, -20.639999389648438], \"count\": 1}, {\"coordinates\": [165.152916669846, -21.1643333276113], \"count\": 1}, {\"coordinates\": [164.77610778808594, -20.612499237060547], \"count\": 1}, {\"coordinates\": [165.297812, -21.1816278], \"count\": 1}, {\"coordinates\": [166.05569458007812, -21.630380630493164], \"count\": 1}, {\"coordinates\": [164.73333740234375, -20.483333587646484], \"count\": 3}, {\"coordinates\": [164.78721618652344, -20.568889617919922], \"count\": 2}, {\"coordinates\": [164.8601667, -20.6428611], \"count\": 1}, {\"coordinates\": [164.78111267089844, -20.625560760498047], \"count\": 2}, {\"coordinates\": [165.26638793945312, -21.180559158325195], \"count\": 3}, {\"coordinates\": [165.2802734375, -21.179719924926758], \"count\": 1}, {\"coordinates\": [165.3116161, -21.1726421], \"count\": 1}, {\"coordinates\": [164.781, -20.6256111], \"count\": 1}, {\"coordinates\": [165.26666259765625, -21.183330535888672], \"count\": 1}, {\"coordinates\": [164.72393798828125, -20.494956970214844], \"count\": 1}, {\"coordinates\": [166.6999969482422, -22.149999618530273], \"count\": 1}, {\"coordinates\": [164.68166666666664, -20.5352], \"count\": 1}, {\"coordinates\": [164.74000549316406, -20.613666534423828], \"count\": 2}, {\"coordinates\": [164.793962900013, -20.6094681269977], \"count\": 1}, {\"coordinates\": [164.67999267578125, -20.5333309173584], \"count\": 1}, {\"coordinates\": [164.8602752685547, -20.642780303955078], \"count\": 1}, {\"coordinates\": [165.26666259765625, -21.183332443237305], \"count\": 1}, {\"coordinates\": [164.8691046, -20.64026398], \"count\": 1}]}",
+    "species_top": {
+        "Lasiochlamys reticulata": 70
+    },
+    "um_occurrences_true": 7,
+    "um_occurrences_false": 63,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                66.67,
+                0,
+                100.0,
+                40.0,
+                0,
+                100.0,
+                50.0,
+                100.0,
+                50.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                100.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                50.0,
+                0.0,
+                35.71,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.32,
+    "dbh_max": 28.3,
+    "dbh_median": 8.0,
+    "dbh_min": 5.0,
+    "height_max": 17.3,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 66.67,
+            "20": 33.33,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 11.43,
+            "200": 4.29,
+            "300": 5.71,
+            "400": 0.0,
+            "500": 7.14,
+            "600": 20.0,
+            "700": 14.29,
+            "800": 10.0,
+            "900": 18.57,
+            "1000": 1.43,
+            "1100": 4.29,
+            "1200": 2.86
+        },
+        "rainfall": {
+            "1000": 1.43,
+            "1500": 10.0,
+            "2000": 8.57,
+            "2500": 28.57,
+            "3000": 30.0,
+            "3500": 12.86,
+            "4000": 8.57,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 12.5,
+            "2": 87.5
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 50.0,
+            "3": 50.0
+        }
+    }
+}

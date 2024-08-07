@@ -1,0 +1,135 @@
+{
+    "id": 12906,
+    "full_name": "Gastrolepis alticola",
+    "authors": "Munzinger, McPherson & Lowry",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5859
+    },
+    "lft": 3473,
+    "rght": 3474,
+    "level": 2,
+    "parent_id": 795,
+    "taxon_id": 12906,
+    "total_occurrences_count": 62,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.58333, -22.1], \"count\": 1}, {\"coordinates\": [166.5351813, -21.9698552], \"count\": 2}, {\"coordinates\": [166.5327778, -21.9594444], \"count\": 1}, {\"coordinates\": [166.95694205375082, -22.21848784693605], \"count\": 2}, {\"coordinates\": [166.95906408947974, -22.219118251757152], \"count\": 3}, {\"coordinates\": [166.96725482769216, -22.229784297585383], \"count\": 2}, {\"coordinates\": [166.95850516883124, -22.219779105774467], \"count\": 3}, {\"coordinates\": [166.956429, -22.219709], \"count\": 3}, {\"coordinates\": [166.957417, -22.221535], \"count\": 1}, {\"coordinates\": [166.961526, -22.226463], \"count\": 2}, {\"coordinates\": [166.960466, -22.223499], \"count\": 1}, {\"coordinates\": [166.9580157650873, -22.218431076119465], \"count\": 2}, {\"coordinates\": [166.955653, -22.220109], \"count\": 1}, {\"coordinates\": [166.53525, -21.9635], \"count\": 5}, {\"coordinates\": [166.5286102294922, -21.958330154418945], \"count\": 2}, {\"coordinates\": [166.5286102294922, -21.95611000061035], \"count\": 1}, {\"coordinates\": [166.5339829, -21.9608885], \"count\": 1}, {\"coordinates\": [166.5388946533203, -21.957778930664062], \"count\": 1}, {\"coordinates\": [166.53500366210938, -21.962799072265625], \"count\": 1}, {\"coordinates\": [166.31337800000014, -21.681378000647566], \"count\": 1}, {\"coordinates\": [166.293958101417, -21.6592363756667], \"count\": 1}, {\"coordinates\": [166.5388889, -21.9577778], \"count\": 1}, {\"coordinates\": [166.535, -21.9627778], \"count\": 1}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 1}, {\"coordinates\": [166.53500366210938, -21.962770462036133], \"count\": 1}, {\"coordinates\": [166.5833282470703, -22.100000381469727], \"count\": 1}, {\"coordinates\": [166.5399932861328, -21.959999084472656], \"count\": 1}, {\"coordinates\": [166.53500366210938, -21.962779998779297], \"count\": 1}, {\"coordinates\": [166.5317212, -21.9529492], \"count\": 2}, {\"coordinates\": [166.5388946533203, -21.957780838012695], \"count\": 1}, {\"coordinates\": [166.53277587890625, -21.959440231323242], \"count\": 2}, {\"coordinates\": [166.52861, -21.95833], \"count\": 1}, {\"coordinates\": [166.5389, -21.9578], \"count\": 1}, {\"coordinates\": [166.5328, -21.9594], \"count\": 1}, {\"coordinates\": [166.535, -21.9628], \"count\": 1}, {\"coordinates\": [166.5967, -22.1306], \"count\": 2}, {\"coordinates\": [166.5319, -21.9731], \"count\": 2}, {\"coordinates\": [166.49182903, -21.94298703], \"count\": 1}, {\"coordinates\": [166.5286, -21.9561], \"count\": 2}, {\"coordinates\": [166.5308, -21.9639], \"count\": 1}, {\"coordinates\": [166.52813701, -21.95417595], \"count\": 1}]}",
+    "species_top": {
+        "Gastrolepis alticola": 62
+    },
+    "um_occurrences_true": 62,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                16.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                100.0,
+                25.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 14.73,
+    "dbh_max": 22.6,
+    "dbh_median": 14.0,
+    "dbh_min": 10.2,
+    "height_max": 4.0,
+    "wood_density_mean": 0.65,
+    "wood_density_max": 0.67,
+    "wood_density_min": 0.64,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": 3.35,
+    "leaf_sla_max": 3.68,
+    "leaf_sla_min": 2.97,
+    "leaf_area_mean": 16.11,
+    "leaf_area_max": 18.43,
+    "leaf_area_min": 13.56,
+    "leaf_thickness_mean": 649.18,
+    "leaf_thickness_max": 725.49,
+    "leaf_thickness_min": 613.99,
+    "frequencies": {
+        "dbh": {
+            "10": 91.3,
+            "20": 8.7,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 27.42,
+            "400": 4.84,
+            "500": 0.0,
+            "600": 9.68,
+            "700": 1.61,
+            "800": 1.61,
+            "900": 0.0,
+            "1000": 3.23,
+            "1100": 0.0,
+            "1200": 51.61
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 6.45,
+            "3000": 37.1,
+            "3500": 1.61,
+            "4000": 11.29,
+            "4500": 43.55
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        },
+        "strate": {
+            "1": 5.0,
+            "2": 55.0,
+            "3": 40.0
+        }
+    }
+}

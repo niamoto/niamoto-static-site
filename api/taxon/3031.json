@@ -1,0 +1,130 @@
+{
+    "id": 3031,
+    "full_name": "Diospyros margaretae",
+    "authors": "White",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 622
+    },
+    "lft": 953,
+    "rght": 954,
+    "level": 2,
+    "parent_id": 679,
+    "taxon_id": 3031,
+    "total_occurrences_count": 18,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.8821331, -21.4659629], \"count\": 5}, {\"coordinates\": [165.8626111, -21.4667583], \"count\": 2}, {\"coordinates\": [166.5386111, -21.8838889], \"count\": 2}, {\"coordinates\": [165.878888888889, -21.4688888888889], \"count\": 2}, {\"coordinates\": [166.397222222222, -21.755], \"count\": 1}, {\"coordinates\": [165.87899612127828, -21.468668906049032], \"count\": 2}, {\"coordinates\": [165.862611111535, -21.4667599999987], \"count\": 1}, {\"coordinates\": [166.538611111111, -21.8838888888889], \"count\": 1}, {\"coordinates\": [166.4005619, -21.752011], \"count\": 2}]}",
+    "species_top": {
+        "Diospyros margaretae": 18
+    },
+    "um_occurrences_true": 18,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                25.0,
+                100.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                50.0,
+                0.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.5,
+    "dbh_max": 15.0,
+    "dbh_median": 11.5,
+    "dbh_min": 8.0,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 6.67,
+            "400": 40.0,
+            "500": 33.33,
+            "600": 20.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 66.67,
+            "2500": 5.56,
+            "3000": 27.78,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

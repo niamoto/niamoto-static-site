@@ -1,0 +1,135 @@
+{
+    "id": 5617,
+    "full_name": "Serianthes calycina",
+    "authors": "Benth.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2465
+    },
+    "lft": 1263,
+    "rght": 1264,
+    "level": 2,
+    "parent_id": 1371,
+    "taxon_id": 5617,
+    "total_occurrences_count": 44,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4438889, -22.3013889], \"count\": 1}, {\"coordinates\": [165.2696472, -21.3287116], \"count\": 1}, {\"coordinates\": [164.2260027956, -20.4313115124], \"count\": 1}, {\"coordinates\": [164.2186689, -20.5030203], \"count\": 1}, {\"coordinates\": [166.592617, -22.2621238], \"count\": 1}, {\"coordinates\": [164.22193908691406, -20.4436092376709], \"count\": 2}, {\"coordinates\": [164.1827850341797, -20.485830307006836], \"count\": 3}, {\"coordinates\": [164.5036163330078, -20.31110954284668], \"count\": 4}, {\"coordinates\": [165.5, -21.5], \"count\": 1}, {\"coordinates\": [164.3865966796875, -20.627410888671875], \"count\": 2}, {\"coordinates\": [165.14999389648438, -21.333332061767578], \"count\": 2}, {\"coordinates\": [165.08444213867188, -21.32332992553711], \"count\": 1}, {\"coordinates\": [164.732306911533, -20.9608453347526], \"count\": 1}, {\"coordinates\": [166.4530556, -22.2961111], \"count\": 1}, {\"coordinates\": [164.982208760251, -21.2357951262613], \"count\": 1}, {\"coordinates\": [164.9886932373047, -21.33448028564453], \"count\": 1}, {\"coordinates\": [165.091289819784, -20.9751630331682], \"count\": 1}, {\"coordinates\": [166.4499969482422, -22.166667938232422], \"count\": 1}, {\"coordinates\": [164.90667724609375, -21.167219161987305], \"count\": 1}, {\"coordinates\": [164.714284482636, -20.9655312273206], \"count\": 1}, {\"coordinates\": [164.7786102294922, -21.0433292388916], \"count\": 1}, {\"coordinates\": [164.727404693108, -20.9719291499958], \"count\": 1}, {\"coordinates\": [163.6602783203125, -19.721389770507812], \"count\": 1}, {\"coordinates\": [166.65916442871094, -22.221389770507812], \"count\": 1}, {\"coordinates\": [165.1232, -21.301728], \"count\": 1}, {\"coordinates\": [164.732405716791, -20.9656219639166], \"count\": 1}, {\"coordinates\": [164.81666564941406, -21.0], \"count\": 1}, {\"coordinates\": [165.4052863, -21.0727273], \"count\": 1}, {\"coordinates\": [165.26638793945312, -21.3316707611084], \"count\": 2}, {\"coordinates\": [164.226322345833, -20.430773669], \"count\": 1}, {\"coordinates\": [164.949641173638, -21.1715352763352], \"count\": 1}, {\"coordinates\": [164.89999389648438, -21.166667938232422], \"count\": 1}]}",
+    "species_top": {
+        "Serianthes calycina": 44
+    },
+    "um_occurrences_true": 23,
+    "um_occurrences_false": 21,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                50.0,
+                100.0,
+                50.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                50.0,
+                100.0,
+                0.0,
+                0,
+                0,
+                100.0,
+                0.0,
+                0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.62,
+    "dbh_max": 12.73,
+    "dbh_median": 11.62,
+    "dbh_min": 10.5,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 43.75,
+            "200": 31.25,
+            "300": 0.0,
+            "400": 12.5,
+            "500": 0.0,
+            "600": 6.25,
+            "700": 6.25,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 63.89,
+            "1500": 27.78,
+            "2000": 8.33,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 56.1,
+            "2": 43.9
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "id": 2728,
+    "full_name": "Cunonia atrorubens",
+    "authors": "Schltr.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3554
+    },
+    "lft": 731,
+    "rght": 732,
+    "level": 2,
+    "parent_id": 611,
+    "taxon_id": 2728,
+    "total_occurrences_count": 56,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5900869, -22.1450291], \"count\": 1}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 9}, {\"coordinates\": [166.427363, -22.0685301], \"count\": 1}, {\"coordinates\": [166.60524199, -22.12213601], \"count\": 2}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 2}, {\"coordinates\": [164.8514681, -20.8496834], \"count\": 1}, {\"coordinates\": [166.3453347, -22.0659384], \"count\": 2}, {\"coordinates\": [166.4080672, -21.9410166], \"count\": 1}, {\"coordinates\": [166.1405056, -21.7950268], \"count\": 1}, {\"coordinates\": [166.1486111, -21.8041667], \"count\": 1}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 2}, {\"coordinates\": [166.2469444, -21.6661111], \"count\": 1}, {\"coordinates\": [165.018376169135, -20.8964453835656], \"count\": 1}, {\"coordinates\": [166.5890848, -22.2634415], \"count\": 1}, {\"coordinates\": [166.3433476, -22.0666051], \"count\": 1}, {\"coordinates\": [166.5383333, -21.9611111], \"count\": 1}, {\"coordinates\": [166.31337800000014, -21.681378000647566], \"count\": 1}, {\"coordinates\": [166.4356821, -21.8593617], \"count\": 1}, {\"coordinates\": [166.4583333, -22.0388889], \"count\": 1}, {\"coordinates\": [166.407810648118, -21.8524914378763], \"count\": 1}, {\"coordinates\": [166.4168042, -21.8828044], \"count\": 1}, {\"coordinates\": [165.9933333, -21.7572222], \"count\": 2}, {\"coordinates\": [166.0004251, -21.7574591], \"count\": 1}, {\"coordinates\": [166.4227932, -21.903277], \"count\": 1}, {\"coordinates\": [166.5551944444, -21.9156111111], \"count\": 1}, {\"coordinates\": [166.4519368, -22.1039089], \"count\": 1}, {\"coordinates\": [166.5351813, -21.9698552], \"count\": 1}, {\"coordinates\": [166.8126643, -22.0840141], \"count\": 1}, {\"coordinates\": [166.23981807872525, -21.640284985024557], \"count\": 1}, {\"coordinates\": [166.30425200000013, -21.68310600064764], \"count\": 1}, {\"coordinates\": [166.4631195, -22.0355682], \"count\": 1}, {\"coordinates\": [166.414647, -21.88173503], \"count\": 1}, {\"coordinates\": [166.41647604, -21.88208098], \"count\": 1}, {\"coordinates\": [166.41259901, -21.88279896], \"count\": 1}, {\"coordinates\": [165.999668, -21.75284299], \"count\": 1}, {\"coordinates\": [166.2500833, -21.66319442], \"count\": 1}, {\"coordinates\": [166.50900905, -21.96551597], \"count\": 1}, {\"coordinates\": [166.67612005, -22.04756799], \"count\": 1}, {\"coordinates\": [166.492829, -21.93731499], \"count\": 1}, {\"coordinates\": [166.60330279, -22.13627775], \"count\": 1}, {\"coordinates\": [166.53313401, -21.95081201], \"count\": 1}, {\"coordinates\": [166.42264501, -21.87992798], \"count\": 1}, {\"coordinates\": [166.41347801, -21.87976998], \"count\": 1}]}",
+    "species_top": {
+        "Cunonia atrorubens": 56
+    },
+    "um_occurrences_true": 56,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                25.0,
+                50.0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                100.0,
+                100.0,
+                33.33,
+                75.0,
+                50.0,
+                0,
+                0.0,
+                50.0,
+                0.0,
+                9.09
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 4.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 5.36,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 3.57,
+            "500": 0.0,
+            "600": 5.36,
+            "700": 14.29,
+            "800": 12.5,
+            "900": 19.64,
+            "1000": 21.43,
+            "1100": 0.0,
+            "1200": 17.86
+        },
+        "rainfall": {
+            "1000": 1.79,
+            "1500": 7.14,
+            "2000": 19.64,
+            "2500": 30.36,
+            "3000": 21.43,
+            "3500": 10.71,
+            "4000": 5.36,
+            "4500": 3.57
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

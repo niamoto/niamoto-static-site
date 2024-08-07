@@ -1,0 +1,130 @@
+{
+    "id": 13634,
+    "full_name": "Pycnandra deplanchei subsp. floribunda",
+    "authors": "(S.Moore) Swenson & Munzinger",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 6449
+    },
+    "lft": 3392,
+    "rght": 3393,
+    "level": 3,
+    "parent_id": 13632,
+    "taxon_id": 13634,
+    "total_occurrences_count": 41,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.7613889, -22.3333333], \"count\": 1}, {\"coordinates\": [166.9051943, -22.1524996], \"count\": 6}, {\"coordinates\": [166.70930555555555, -22.291666666666668], \"count\": 3}, {\"coordinates\": [166.6366487, -22.2724676], \"count\": 1}, {\"coordinates\": [166.7042186, -22.2905383], \"count\": 2}, {\"coordinates\": [166.8941667, -22.1438889], \"count\": 1}, {\"coordinates\": [166.7123333, -22.3039167], \"count\": 1}, {\"coordinates\": [166.8973584, -22.2802817], \"count\": 1}, {\"coordinates\": [166.7347707, -22.2860789], \"count\": 1}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 1}, {\"coordinates\": [166.701111111111, -22.2936111111111], \"count\": 2}, {\"coordinates\": [166.471388888889, -22.0444444444444], \"count\": 1}, {\"coordinates\": [166.74162230668205, -22.340093118708904], \"count\": 1}, {\"coordinates\": [166.62500005, -22.24638891], \"count\": 1}, {\"coordinates\": [166.901944444444, -22.1555555555556], \"count\": 6}, {\"coordinates\": [166.709305555556, -22.2916666666667], \"count\": 2}, {\"coordinates\": [166.71219984646277, -22.295926901702064], \"count\": 1}, {\"coordinates\": [166.894166666667, -22.1438888888889], \"count\": 1}, {\"coordinates\": [166.6297302, -22.2700487712], \"count\": 1}, {\"coordinates\": [166.894166666667, -22.2833333333333], \"count\": 1}, {\"coordinates\": [166.731666666667, -22.2891666666667], \"count\": 1}, {\"coordinates\": [166.76361107, -22.17805556], \"count\": 1}, {\"coordinates\": [166.712222, -22.29527798], \"count\": 4}]}",
+    "species_top": {
+        "Pycnandra deplanchei subsp. floribunda": 41
+    },
+    "um_occurrences_true": 41,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                80.0,
+                0.0,
+                50.0,
+                100.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                20.0,
+                0.0,
+                50.0,
+                0.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.92,
+    "dbh_max": 10.2,
+    "dbh_median": 6.35,
+    "dbh_min": 5.0,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 28.0,
+            "200": 32.0,
+            "300": 28.0,
+            "400": 4.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 4.0,
+            "900": 0.0,
+            "1000": 4.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 46.34,
+            "2000": 9.76,
+            "2500": 21.95,
+            "3000": 21.95,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 13247,
+    "full_name": "Planchonella rheophytopsis",
+    "authors": "P.Royen",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4866
+    },
+    "lft": 3321,
+    "rght": 3322,
+    "level": 2,
+    "parent_id": 1221,
+    "taxon_id": 13247,
+    "total_occurrences_count": 36,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.7545388, -21.3280349], \"count\": 1}, {\"coordinates\": [165.7099982, -21.3112322], \"count\": 1}, {\"coordinates\": [165.7066650390625, -21.314170837402344], \"count\": 11}, {\"coordinates\": [166.1072235107422, -21.573610305786133], \"count\": 3}, {\"coordinates\": [165.7513885498047, -21.33111000061035], \"count\": 2}, {\"coordinates\": [165.71548461914062, -21.31633949279785], \"count\": 4}, {\"coordinates\": [165.706666666667, -21.3141666666667], \"count\": 1}, {\"coordinates\": [165.75139, -21.33111], \"count\": 1}, {\"coordinates\": [165.751388888889, -21.3311111111111], \"count\": 1}, {\"coordinates\": [165.7067, -21.3142], \"count\": 4}, {\"coordinates\": [165.78580068125805, -21.337927710356507], \"count\": 1}, {\"coordinates\": [165.7525, -21.3], \"count\": 1}, {\"coordinates\": [165.70667, -21.31417], \"count\": 2}, {\"coordinates\": [165.7100061, -21.31123488], \"count\": 1}]}",
+    "species_top": {
+        "Planchonella rheophytopsis": 36
+    },
+    "um_occurrences_true": 30,
+    "um_occurrences_false": 6,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 35.0,
+    "dbh_max": 35.0,
+    "dbh_median": 35.0,
+    "dbh_min": 35.0,
+    "height_max": 12.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 100.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 57.14,
+            "200": 0.0,
+            "300": 42.86,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 85.29,
+            "2000": 14.71,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

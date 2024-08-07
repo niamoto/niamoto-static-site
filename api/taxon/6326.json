@@ -1,0 +1,118 @@
+{
+    "id": 6326,
+    "full_name": "Zygogynum fraterculus",
+    "authors": "Vink",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5622
+    },
+    "lft": 3619,
+    "rght": 3620,
+    "level": 2,
+    "parent_id": 1575,
+    "taxon_id": 6326,
+    "total_occurrences_count": 18,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7444444, -20.6022222], \"count\": 1}, {\"coordinates\": [164.7144444, -20.5036111], \"count\": 1}, {\"coordinates\": [164.793962900013, -20.6094681269977], \"count\": 2}, {\"coordinates\": [164.73333740234375, -20.600000381469727], \"count\": 5}, {\"coordinates\": [164.71400451660156, -20.503599166870117], \"count\": 1}, {\"coordinates\": [164.74000549316406, -20.613611221313477], \"count\": 1}, {\"coordinates\": [164.71444702148438, -20.503610610961914], \"count\": 3}, {\"coordinates\": [164.6991181, -20.4940243], \"count\": 1}, {\"coordinates\": [164.70693969726562, -20.509719848632812], \"count\": 1}, {\"coordinates\": [164.71444702148438, -20.48666763305664], \"count\": 1}, {\"coordinates\": [164.74444580078125, -20.622779846191406], \"count\": 1}]}",
+    "species_top": {
+        "Zygogynum fraterculus": 18
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 18,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 5.56,
+            "300": 33.33,
+            "400": 5.56,
+            "500": 0.0,
+            "600": 5.56,
+            "700": 11.11,
+            "800": 0.0,
+            "900": 5.56,
+            "1000": 22.22,
+            "1100": 5.56,
+            "1200": 5.56
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 33.33,
+            "3000": 11.11,
+            "3500": 5.56,
+            "4000": 50.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        }
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "id": 6016,
+    "full_name": "Terminalia gatopensis",
+    "authors": "Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1865
+    },
+    "lft": 679,
+    "rght": 680,
+    "level": 2,
+    "parent_id": 1460,
+    "taxon_id": 6016,
+    "total_occurrences_count": 39,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.2260027956, -20.4313115124], \"count\": 3}, {\"coordinates\": [164.722324196566, -20.9756112302592], \"count\": 1}, {\"coordinates\": [164.69444274902344, -20.959720611572266], \"count\": 2}, {\"coordinates\": [165.239264, -21.357613], \"count\": 1}, {\"coordinates\": [164.76806640625, -21.00555992126465], \"count\": 1}, {\"coordinates\": [164.460049604833, -20.764561533], \"count\": 1}, {\"coordinates\": [164.8212216, -21.047272], \"count\": 1}, {\"coordinates\": [164.05869700000076, -20.282621000612302], \"count\": 1}, {\"coordinates\": [164.985265946179, -21.2314819543199], \"count\": 1}, {\"coordinates\": [163.69693659569, -19.8306913318686], \"count\": 1}, {\"coordinates\": [163.632945158989, -19.6857117470376], \"count\": 1}, {\"coordinates\": [164.226322345833, -20.430773669], \"count\": 1}, {\"coordinates\": [164.723924140916, -20.9742471113021], \"count\": 1}, {\"coordinates\": [164.226, -20.4308], \"count\": 1}, {\"coordinates\": [164.899318965713, -21.17926503502], \"count\": 1}, {\"coordinates\": [164.670193621147, -20.9849621504681], \"count\": 1}, {\"coordinates\": [164.733596738466, -20.9673947098848], \"count\": 1}, {\"coordinates\": [164.989972112854, -21.2421159132028], \"count\": 1}, {\"coordinates\": [164.85000610351562, -21.0], \"count\": 1}, {\"coordinates\": [164.1907705, -20.4167505], \"count\": 1}, {\"coordinates\": [164.198929773999, -20.4899332933481], \"count\": 1}, {\"coordinates\": [164.732405716791, -20.9656219639166], \"count\": 1}, {\"coordinates\": [164.480264894664, -20.7897055149078], \"count\": 1}, {\"coordinates\": [164.6638374, -20.9798699], \"count\": 1}, {\"coordinates\": [164.65579093718, -20.9877663682834], \"count\": 1}, {\"coordinates\": [164.9022246, -21.1693555], \"count\": 1}, {\"coordinates\": [164.6958847, -20.9298629], \"count\": 1}, {\"coordinates\": [164.05247723526298, -20.29300628666346], \"count\": 1}, {\"coordinates\": [164.89999389648438, -21.183330535888672], \"count\": 1}, {\"coordinates\": [164.180347826332, -20.3952223062515], \"count\": 1}, {\"coordinates\": [163.634844082699, -19.6385843997043], \"count\": 1}, {\"coordinates\": [164.714284482636, -20.9655312273206], \"count\": 1}]}",
+    "species_top": {
+        "Terminalia gatopensis": 39
+    },
+    "um_occurrences_true": 25,
+    "um_occurrences_false": 14,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                33.33,
+                0.0,
+                75.0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                20.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 14.0,
+    "dbh_max": 15.9,
+    "dbh_median": 15.3,
+    "dbh_min": 10.8,
+    "height_max": null,
+    "wood_density_mean": 0.84,
+    "wood_density_max": 0.84,
+    "wood_density_min": 0.84,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 30.0,
+            "200": 10.0,
+            "300": 30.0,
+            "400": 20.0,
+            "500": 10.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 87.5,
+            "1500": 12.5,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 71.43,
+            "2": 28.57
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

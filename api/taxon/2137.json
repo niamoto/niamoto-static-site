@@ -1,0 +1,135 @@
+{
+    "id": 2137,
+    "full_name": "Beilschmiedia neocaledonica",
+    "authors": "Kosterm.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 919
+    },
+    "lft": 1407,
+    "rght": 1408,
+    "level": 2,
+    "parent_id": 396,
+    "taxon_id": 2137,
+    "total_occurrences_count": 54,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.934427, -22.1792218], \"count\": 1}, {\"coordinates\": [166.1912114, -21.725095], \"count\": 1}, {\"coordinates\": [165.7645573, -21.4486795], \"count\": 2}, {\"coordinates\": [166.2865, -21.7758888889], \"count\": 1}, {\"coordinates\": [165.8265424, -21.3973133], \"count\": 1}, {\"coordinates\": [165.4765625, -21.24147605896], \"count\": 1}, {\"coordinates\": [166.1880645751953, -21.728059768676758], \"count\": 3}, {\"coordinates\": [165.75370700922565, -21.44976038972916], \"count\": 1}, {\"coordinates\": [165.9307098388672, -21.655729293823242], \"count\": 1}, {\"coordinates\": [165.75827901783, -21.444708863404344], \"count\": 1}, {\"coordinates\": [165.76487998995694, -21.461645206128495], \"count\": 1}, {\"coordinates\": [165.86321499999994, -21.46894800064242], \"count\": 1}, {\"coordinates\": [165.7549710598807, -21.443927245609068], \"count\": 1}, {\"coordinates\": [165.69724697376637, -21.430103118257048], \"count\": 1}, {\"coordinates\": [165.69436585479897, -21.428499110226863], \"count\": 1}, {\"coordinates\": [166.9072063, -22.181529], \"count\": 1}, {\"coordinates\": [165.6893453790997, -21.44520582601145], \"count\": 1}, {\"coordinates\": [165.01666259765625, -21.016666412353516], \"count\": 1}, {\"coordinates\": [165.7780137564986, -21.436433550612012], \"count\": 1}, {\"coordinates\": [166.28639221191406, -21.775829315185547], \"count\": 2}, {\"coordinates\": [166.30425200000013, -21.68310600064764], \"count\": 1}, {\"coordinates\": [165.76390093520854, -21.440507754393536], \"count\": 1}, {\"coordinates\": [165.69604491193948, -21.418972845454864], \"count\": 1}, {\"coordinates\": [166.903888888889, -22.1847222222222], \"count\": 1}, {\"coordinates\": [165.76702711, -21.44637425], \"count\": 2}, {\"coordinates\": [165.14048652, -21.27213193], \"count\": 1}, {\"coordinates\": [165.75370701, -21.44976039], \"count\": 1}, {\"coordinates\": [165.69604491, -21.41897285], \"count\": 1}, {\"coordinates\": [166.19122396, -21.72510255], \"count\": 1}, {\"coordinates\": [166.931111111111, -22.1822222222222], \"count\": 1}, {\"coordinates\": [165.68934292, -21.44520905], \"count\": 1}, {\"coordinates\": [166.59187218, -22.15853054], \"count\": 1}, {\"coordinates\": [165.75497106, -21.44392725], \"count\": 1}, {\"coordinates\": [165.76390094, -21.44050775], \"count\": 1}, {\"coordinates\": [166.24215587, -21.68355968], \"count\": 1}, {\"coordinates\": [165.77801209, -21.43643538], \"count\": 1}, {\"coordinates\": [166.3042533, -21.68310676], \"count\": 1}, {\"coordinates\": [165.69724697, -21.43010312], \"count\": 1}, {\"coordinates\": [165.69436585, -21.42849911], \"count\": 1}, {\"coordinates\": [165.75827902, -21.44470886], \"count\": 1}, {\"coordinates\": [165.76487999, -21.46164521], \"count\": 1}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}, {\"coordinates\": [165.7164261, -21.43770023], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 2}, {\"coordinates\": [165.69749645, -21.44654389], \"count\": 1}, {\"coordinates\": [166.76104096, -22.18968099], \"count\": 1}, {\"coordinates\": [165.74717676, -21.44462177], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 1}]}",
+    "species_top": {
+        "Beilschmiedia neocaledonica": 54
+    },
+    "um_occurrences_true": 50,
+    "um_occurrences_false": 4,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0.0,
+                100.0,
+                0,
+                0.0,
+                100.0,
+                0,
+                0,
+                0,
+                25.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                100.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                75.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 18.35,
+    "dbh_max": 20.8,
+    "dbh_median": 18.35,
+    "dbh_min": 15.9,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 50.0,
+            "20": 50.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 5.77,
+            "200": 3.85,
+            "300": 0.0,
+            "400": 19.23,
+            "500": 5.77,
+            "600": 13.46,
+            "700": 23.08,
+            "800": 13.46,
+            "900": 3.85,
+            "1000": 1.92,
+            "1100": 5.77,
+            "1200": 3.85
+        },
+        "rainfall": {
+            "1000": 3.7,
+            "1500": 5.56,
+            "2000": 51.85,
+            "2500": 22.22,
+            "3000": 16.67,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 3.57,
+            "2": 96.43
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

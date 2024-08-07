@@ -1,0 +1,118 @@
+{
+    "id": 12740,
+    "full_name": "Acropogon margaretae",
+    "authors": "Morat & Chalopin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5598
+    },
+    "lft": 1573,
+    "rght": 1574,
+    "level": 2,
+    "parent_id": 256,
+    "taxon_id": 12740,
+    "total_occurrences_count": 20,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.8508333, -20.8586111], \"count\": 1}, {\"coordinates\": [164.8509722, -20.8586944], \"count\": 1}, {\"coordinates\": [165.05185, -20.8453889], \"count\": 1}, {\"coordinates\": [165.05011, -20.8453889], \"count\": 1}, {\"coordinates\": [165.0072222222, -20.8344444444], \"count\": 1}, {\"coordinates\": [165.1514109, -20.9671595], \"count\": 1}, {\"coordinates\": [164.850972175598, -20.8586943944295], \"count\": 2}, {\"coordinates\": [165.051849985123, -20.8453797022502], \"count\": 1}, {\"coordinates\": [164.8509678, -20.85870719], \"count\": 1}, {\"coordinates\": [165.052175601323, -20.8456832249959], \"count\": 1}, {\"coordinates\": [165.05276816686, -20.8461917877197], \"count\": 1}, {\"coordinates\": [164.851351928711, -20.8482531865438], \"count\": 1}, {\"coordinates\": [165.0813889, -20.91972222], \"count\": 2}, {\"coordinates\": [164.8577778, -20.8425], \"count\": 1}, {\"coordinates\": [165.1480556, -20.97027778], \"count\": 1}, {\"coordinates\": [165.14611, -20.96306], \"count\": 1}, {\"coordinates\": [165.053533587394, -20.8465117266771], \"count\": 1}, {\"coordinates\": [165.1759033203125, -20.948219299316406], \"count\": 1}]}",
+    "species_top": {
+        "Acropogon margaretae": 20
+    },
+    "um_occurrences_true": 8,
+    "um_occurrences_false": 12,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                100.0,
+                0.0,
+                0,
+                0,
+                50.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                100.0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 10.0,
+            "200": 0.0,
+            "300": 5.0,
+            "400": 5.0,
+            "500": 5.0,
+            "600": 35.0,
+            "700": 30.0,
+            "800": 5.0,
+            "900": 0.0,
+            "1000": 5.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 35.0,
+            "2000": 10.0,
+            "2500": 55.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

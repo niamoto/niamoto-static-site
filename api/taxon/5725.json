@@ -1,0 +1,118 @@
+{
+    "id": 5725,
+    "full_name": "Soulamea cardioptera",
+    "authors": "Baill.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4933
+    },
+    "lft": 3451,
+    "rght": 3452,
+    "level": 2,
+    "parent_id": 1394,
+    "taxon_id": 5725,
+    "total_occurrences_count": 46,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.1392888, -21.5886288], \"count\": 24}, {\"coordinates\": [166.1294279, -21.5812421], \"count\": 2}, {\"coordinates\": [164.1999969482422, -20.450000762939453], \"count\": 6}, {\"coordinates\": [166.0741729736328, -21.539440155029297], \"count\": 2}, {\"coordinates\": [166.14833068847656, -21.59556007385254], \"count\": 2}, {\"coordinates\": [166.12611389160156, -21.584169387817383], \"count\": 1}, {\"coordinates\": [166.12943885, -21.58124806], \"count\": 1}, {\"coordinates\": [166.14847912, -21.59335611], \"count\": 8}]}",
+    "species_top": {
+        "Soulamea cardioptera": 46
+    },
+    "um_occurrences_true": 18,
+    "um_occurrences_false": 28,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                40.0,
+                0.0,
+                41.18
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                60.0,
+                100.0,
+                58.82
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 40.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 60.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 100.0,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

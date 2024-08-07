@@ -1,0 +1,118 @@
+{
+    "id": 13428,
+    "full_name": "Pancheria mcphersonii",
+    "authors": "H.C.Hopkins, Pillon & J.Bradford",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5896
+    },
+    "lft": 819,
+    "rght": 820,
+    "level": 2,
+    "parent_id": 1160,
+    "taxon_id": 13428,
+    "total_occurrences_count": 7,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7718214, -20.5860337], \"count\": 2}, {\"coordinates\": [164.7097222, -20.5086111], \"count\": 1}, {\"coordinates\": [164.7700977, -20.5887274], \"count\": 1}, {\"coordinates\": [164.7772261, -20.5827348], \"count\": 1}, {\"coordinates\": [164.780629, -20.625140000000002], \"count\": 1}, {\"coordinates\": [164.7742238, -20.5856472], \"count\": 1}]}",
+    "species_top": {
+        "Pancheria mcphersonii": 7
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 7,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                66.67,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                50.0,
+                0,
+                0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                66.67,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                50.0,
+                0,
+                0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 14.29,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 85.71
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 14.29,
+            "3500": 71.43,
+            "4000": 14.29,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        }
+    }
+}

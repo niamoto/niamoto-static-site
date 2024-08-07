@@ -1,0 +1,130 @@
+{
+    "id": 1782,
+    "full_name": "Alyxia loeseneriana",
+    "authors": "Schltr.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1811
+    },
+    "lft": 119,
+    "rght": 120,
+    "level": 2,
+    "parent_id": 298,
+    "taxon_id": 1782,
+    "total_occurrences_count": 46,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.91944437, -22.32472222], \"count\": 2}, {\"coordinates\": [166.62572499, -22.19208599], \"count\": 1}, {\"coordinates\": [166.89935531, -22.29082505], \"count\": 2}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}, {\"coordinates\": [166.91660277777777, -22.32164722222222], \"count\": 1}, {\"coordinates\": [166.626125, -22.195666666666668], \"count\": 1}, {\"coordinates\": [164.7559243, -20.6075358], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 1}, {\"coordinates\": [164.204413, -20.4599982], \"count\": 1}, {\"coordinates\": [166.32790585583115, -21.95675794161452], \"count\": 1}, {\"coordinates\": [164.7144444, -20.5], \"count\": 1}, {\"coordinates\": [165.29868332545, -20.9483333333333], \"count\": 1}, {\"coordinates\": [165.9750424, -21.5748362], \"count\": 1}, {\"coordinates\": [166.44757000000033, -22.068590000657], \"count\": 1}, {\"coordinates\": [166.0566426, -21.6339039], \"count\": 1}, {\"coordinates\": [164.7144444, -20.5036111], \"count\": 1}, {\"coordinates\": [164.7827236, -20.5740593], \"count\": 3}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 1}, {\"coordinates\": [166.4461800000003, -22.07449000065716], \"count\": 1}, {\"coordinates\": [164.8705556, -20.64075], \"count\": 1}, {\"coordinates\": [164.7850064, -20.5722139], \"count\": 1}, {\"coordinates\": [164.7759103, -20.5830689], \"count\": 1}, {\"coordinates\": [166.96971224020854, -22.27918571549782], \"count\": 1}, {\"coordinates\": [164.7788391, -20.5782818], \"count\": 2}, {\"coordinates\": [165.2329924, -21.017049], \"count\": 1}, {\"coordinates\": [164.9283878, -20.9547485], \"count\": 1}, {\"coordinates\": [165.2592658, -21.0533238], \"count\": 1}, {\"coordinates\": [166.4476900000003, -22.08789000065745], \"count\": 1}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 1}, {\"coordinates\": [165.24179, -21.257219], \"count\": 1}, {\"coordinates\": [166.2115088, -21.6078638], \"count\": 1}, {\"coordinates\": [166.4714089, -22.1968905], \"count\": 1}, {\"coordinates\": [165.106666666667, -21.2016666730245], \"count\": 1}, {\"coordinates\": [164.8133333, -20.7122222], \"count\": 1}, {\"coordinates\": [165.1269164, -20.9011324], \"count\": 1}, {\"coordinates\": [166.4493100000003, -22.08565000065742], \"count\": 1}, {\"coordinates\": [166.15296098, -21.73768498], \"count\": 1}, {\"coordinates\": [166.85722222, -22.20388885], \"count\": 1}, {\"coordinates\": [166.21940347, -21.67568648], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}]}",
+    "species_top": {
+        "Alyxia loeseneriana": 46
+    },
+    "um_occurrences_true": 21,
+    "um_occurrences_false": 25,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                66.67,
+                33.33,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                33.33,
+                0.0,
+                75.0
+            ],
+            "fruiting": [
+                33.33,
+                66.67,
+                0.0,
+                0,
+                0,
+                50.0,
+                100.0,
+                100.0,
+                100.0,
+                66.67,
+                100.0,
+                25.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 5.35,
+    "dbh_max": 5.6,
+    "dbh_median": 5.35,
+    "dbh_min": 5.1,
+    "height_max": null,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 2.44,
+            "200": 24.39,
+            "300": 12.2,
+            "400": 0.0,
+            "500": 9.76,
+            "600": 4.88,
+            "700": 7.32,
+            "800": 4.88,
+            "900": 14.63,
+            "1000": 12.2,
+            "1100": 0.0,
+            "1200": 7.32
+        },
+        "rainfall": {
+            "1000": 4.44,
+            "1500": 20.0,
+            "2000": 20.0,
+            "2500": 28.89,
+            "3000": 2.22,
+            "3500": 15.56,
+            "4000": 8.89,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 5.26,
+            "2": 94.74
+        }
+    }
+}

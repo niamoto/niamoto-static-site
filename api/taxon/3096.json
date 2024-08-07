@@ -1,0 +1,135 @@
+{
+    "id": 3096,
+    "full_name": "Dutaillyea amosensis",
+    "authors": "(Guillaumin) T.G.Hartley   ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4732
+    },
+    "lft": 2943,
+    "rght": 2944,
+    "level": 2,
+    "parent_id": 705,
+    "taxon_id": 3096,
+    "total_occurrences_count": 32,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7813056, -20.6167733], \"count\": 2}, {\"coordinates\": [164.4215898, -20.3005713], \"count\": 4}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 4}, {\"coordinates\": [164.7803333, -20.6151639], \"count\": 1}, {\"coordinates\": [164.4074961111, -20.5178416667], \"count\": 2}, {\"coordinates\": [164.780212, -20.62504], \"count\": 1}, {\"coordinates\": [165.4765625, -21.24147605896], \"count\": 2}, {\"coordinates\": [164.410010833683, -20.5114645775929], \"count\": 1}, {\"coordinates\": [164.41860961914062, -20.313060760498047], \"count\": 3}, {\"coordinates\": [165.12167358398438, -21.13833236694336], \"count\": 1}, {\"coordinates\": [164.4166717529297, -20.299999237060547], \"count\": 1}, {\"coordinates\": [164.4219913, -20.3101206], \"count\": 1}, {\"coordinates\": [165.4758889, -21.2411111], \"count\": 1}, {\"coordinates\": [165.125, -21.14167022705078], \"count\": 1}, {\"coordinates\": [165.8109893798828, -21.61107063293457], \"count\": 1}, {\"coordinates\": [164.4166717529297, -20.333332061767578], \"count\": 1}, {\"coordinates\": [164.422629928589, -20.3103275934855], \"count\": 1}, {\"coordinates\": [164.39694213867188, -20.305280685424805], \"count\": 2}, {\"coordinates\": [165.529846000671, -21.2157340049744], \"count\": 1}, {\"coordinates\": [165.8000030517578, -21.616670608520508], \"count\": 1}]}",
+    "species_top": {
+        "Dutaillyea amosensis": 32
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 32,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                33.33,
+                0,
+                0,
+                0.0,
+                33.33,
+                100.0,
+                0,
+                0.0,
+                0,
+                75.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                33.33,
+                0,
+                0,
+                100.0,
+                33.33,
+                100.0,
+                0,
+                100.0,
+                0,
+                75.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 19.03,
+    "dbh_max": 47.4,
+    "dbh_median": 14.2,
+    "dbh_min": 9.23,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 66.67,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 33.33,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 17.86,
+            "300": 21.43,
+            "400": 7.14,
+            "500": 39.29,
+            "600": 3.57,
+            "700": 10.71,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 12.5,
+            "1500": 62.5,
+            "2000": 3.12,
+            "2500": 9.38,
+            "3000": 12.5,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 12.0,
+            "2": 88.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 6,
+    "full_name": "Alseuosmiaceae",
+    "authors": "Airy Shaw",
+    "rank_name": "family",
+    "metadata": {
+        "rank_name": "family",
+        "id_endemia": 251
+    },
+    "lft": 9,
+    "rght": 14,
+    "level": 0,
+    "parent_id": null,
+    "taxon_id": 6,
+    "total_occurrences_count": 191,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.8686111, -21.6138889], \"count\": 1}, {\"coordinates\": [166.1410676, -21.7483157], \"count\": 3}, {\"coordinates\": [164.7884284, -20.5680147], \"count\": 2}, {\"coordinates\": [165.9933333, -21.7572222], \"count\": 3}, {\"coordinates\": [166.4459062, -22.0767633], \"count\": 1}, {\"coordinates\": [166.7112684, -22.2432319], \"count\": 2}, {\"coordinates\": [165.8663712, -21.6252617], \"count\": 1}, {\"coordinates\": [166.0589351, -21.6273311], \"count\": 2}, {\"coordinates\": [164.7850064, -20.5722139], \"count\": 3}, {\"coordinates\": [164.7772261, -20.5827348], \"count\": 2}, {\"coordinates\": [166.0560234, -21.6309738], \"count\": 1}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 2}, {\"coordinates\": [165.0097222, -20.8966667], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 3}, {\"coordinates\": [166.89682471, -22.28926679], \"count\": 2}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 2}, {\"coordinates\": [166.81138887, -22.24972223], \"count\": 2}, {\"coordinates\": [166.9, -22.27694447], \"count\": 2}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 1}, {\"coordinates\": [166.90322819, -22.28122233], \"count\": 2}, {\"coordinates\": [166.81333329, -22.24694445], \"count\": 2}, {\"coordinates\": [165.34671912, -21.43839498], \"count\": 2}, {\"coordinates\": [166.90349952, -22.27474405], \"count\": 2}, {\"coordinates\": [166.60524199, -22.12213601], \"count\": 2}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 4}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}, {\"coordinates\": [166.9063444, -22.29200828], \"count\": 2}, {\"coordinates\": [166.5950444, -22.15985005], \"count\": 1}, {\"coordinates\": [166.6258055, -22.1965], \"count\": 1}, {\"coordinates\": [166.5931278, -22.15554175], \"count\": 1}, {\"coordinates\": [166.663733333333, -22.0202333333333], \"count\": 1}, {\"coordinates\": [166.5038889, -21.9930556], \"count\": 1}, {\"coordinates\": [166.9072063, -22.181529], \"count\": 2}, {\"coordinates\": [166.91840833333333, -22.324419444444445], \"count\": 1}, {\"coordinates\": [164.78330555555556, -20.560027777777776], \"count\": 1}, {\"coordinates\": [166.6056861111111, -22.1304], \"count\": 1}, {\"coordinates\": [166.50366274, -22.04401878], \"count\": 1}, {\"coordinates\": [166.5386111, -21.9577778], \"count\": 1}, {\"coordinates\": [166.6193737, -22.1494292], \"count\": 1}, {\"coordinates\": [166.6958044, -22.1642337], \"count\": 1}, {\"coordinates\": [164.7869471, -20.5700274], \"count\": 1}, {\"coordinates\": [166.5161226, -22.18526], \"count\": 1}, {\"coordinates\": [165.9536243, -21.6011898], \"count\": 1}, {\"coordinates\": [164.7827236, -20.5740593], \"count\": 1}, {\"coordinates\": [164.8613025, -20.7125485], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 2}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 4}, {\"coordinates\": [164.9983571, -20.904973], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 4}, {\"coordinates\": [164.529145, -20.3608827778], \"count\": 2}, {\"coordinates\": [164.5407281, -20.4033112], \"count\": 2}, {\"coordinates\": [165.9235941, -21.5779379], \"count\": 1}, {\"coordinates\": [164.7912657, -20.5644516], \"count\": 1}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 1}, {\"coordinates\": [166.5119444, -21.9669444], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 2}, {\"coordinates\": [165.9721002, -21.6455413], \"count\": 1}, {\"coordinates\": [166.8165565, -22.2439032], \"count\": 1}, {\"coordinates\": [164.5509893, -20.4136256], \"count\": 2}, {\"coordinates\": [164.780139721833, -20.619605002], \"count\": 1}, {\"coordinates\": [166.9225647, -22.3216887], \"count\": 2}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 2}, {\"coordinates\": [166.4631195, -22.0355682], \"count\": 1}, {\"coordinates\": [166.6957533, -22.1694831], \"count\": 1}, {\"coordinates\": [166.161372, -21.7534519], \"count\": 2}, {\"coordinates\": [165.8002329, -21.6167578], \"count\": 1}, {\"coordinates\": [166.6756839, -22.0966901], \"count\": 2}, {\"coordinates\": [165.7726979, -21.5531796], \"count\": 1}, {\"coordinates\": [165.8458155, -21.5879801], \"count\": 1}, {\"coordinates\": [164.7930568, -20.562816], \"count\": 1}, {\"coordinates\": [165.2345792, -21.0218208], \"count\": 1}, {\"coordinates\": [165.749966500333, -21.4379405636667], \"count\": 1}, {\"coordinates\": [166.8166234, -22.262431], \"count\": 1}, {\"coordinates\": [166.6535333, -22.02345], \"count\": 1}, {\"coordinates\": [164.7788391, -20.5782818], \"count\": 3}, {\"coordinates\": [166.5219632, -22.0354611], \"count\": 1}, {\"coordinates\": [166.4688889, -22.0102778], \"count\": 1}, {\"coordinates\": [166.662188, -22.2220638], \"count\": 1}, {\"coordinates\": [165.8658556, -21.6285158], \"count\": 1}, {\"coordinates\": [165.2932823, -21.1826171], \"count\": 1}, {\"coordinates\": [166.55629, -22.08811], \"count\": 1}, {\"coordinates\": [166.9183009, -22.3204535], \"count\": 1}, {\"coordinates\": [165.7736111, -21.6038889], \"count\": 1}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 2}, {\"coordinates\": [164.6890556, -20.4834783], \"count\": 1}, {\"coordinates\": [165.156158, -21.2554927], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.681183306376, -20.4880000114441], \"count\": 1}, {\"coordinates\": [166.0549423, -21.6195172], \"count\": 1}, {\"coordinates\": [165.9566389, -21.5970833], \"count\": 1}, {\"coordinates\": [164.4379685, -20.3436707], \"count\": 1}, {\"coordinates\": [165.2909623, -20.9468279], \"count\": 1}, {\"coordinates\": [166.6947762, -22.0875621], \"count\": 1}, {\"coordinates\": [166.2469444, -21.6661111], \"count\": 1}, {\"coordinates\": [166.3454147, -22.0625724], \"count\": 2}, {\"coordinates\": [166.5131965, -22.1749806], \"count\": 1}, {\"coordinates\": [166.636932, -22.0962102], \"count\": 1}, {\"coordinates\": [166.6835044, -22.2866669], \"count\": 1}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 3}, {\"coordinates\": [166.6638296, -22.0935546], \"count\": 1}, {\"coordinates\": [165.886078596333, -21.631744264875], \"count\": 1}, {\"coordinates\": [165.2697827, -21.1774164], \"count\": 1}, {\"coordinates\": [164.9326465, -20.975783], \"count\": 1}, {\"coordinates\": [165.8740833, -21.6207778], \"count\": 2}, {\"coordinates\": [166.95, -22.26667], \"count\": 1}, {\"coordinates\": [166.6259795, -22.1477506], \"count\": 1}, {\"coordinates\": [165.77361107, -21.6038889], \"count\": 1}, {\"coordinates\": [165.96336003, -21.60341698], \"count\": 1}, {\"coordinates\": [165.09576204, -21.16051102], \"count\": 1}, {\"coordinates\": [166.55548298, -22.17075496], \"count\": 1}, {\"coordinates\": [166.14557904, -21.73694597], \"count\": 1}, {\"coordinates\": [166.60572996, -22.06932999], \"count\": 1}, {\"coordinates\": [165.95663005, -21.597096], \"count\": 1}, {\"coordinates\": [166.9996642, -22.27690266], \"count\": 1}, {\"coordinates\": [166.67710805, -22.04312998], \"count\": 1}, {\"coordinates\": [166.41456298, -21.88367598], \"count\": 1}, {\"coordinates\": [166.65335802, -22.02405902], \"count\": 1}, {\"coordinates\": [166.25325002, -21.67011114], \"count\": 1}, {\"coordinates\": [166.51202602, -21.96807597], \"count\": 1}, {\"coordinates\": [166.59215832, -22.15893608], \"count\": 1}, {\"coordinates\": [164.74419, -20.59123], \"count\": 1}, {\"coordinates\": [166.35931298, -22.05976203], \"count\": 1}, {\"coordinates\": [166.9942457, -22.27291907], \"count\": 1}, {\"coordinates\": [166.67944596, -22.04597195], \"count\": 1}, {\"coordinates\": [166.2500833, -21.66319442], \"count\": 1}, {\"coordinates\": [166.52392896, -22.18556301], \"count\": 1}, {\"coordinates\": [166.41309002, -21.88024003], \"count\": 1}, {\"coordinates\": [166.15296098, -21.73768498], \"count\": 1}, {\"coordinates\": [166.15547218, -21.74575002], \"count\": 1}]}",
+    "species_top": {
+        "Periomphale balansae": 177
+    },
+    "um_occurrences_true": 124,
+    "um_occurrences_false": 67,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                33.33,
+                40.0,
+                63.64,
+                60.0,
+                72.0,
+                42.86,
+                66.67,
+                60.0,
+                58.33,
+                55.56,
+                40.0
+            ],
+            "fruiting": [
+                75.0,
+                83.33,
+                60.0,
+                72.73,
+                40.0,
+                40.0,
+                71.43,
+                66.67,
+                60.0,
+                50.0,
+                55.56,
+                80.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 5.54,
+    "dbh_max": 5.9,
+    "dbh_median": 5.4,
+    "dbh_min": 5.1,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 5.85,
+            "200": 14.04,
+            "300": 12.28,
+            "400": 2.92,
+            "500": 7.6,
+            "600": 9.36,
+            "700": 14.62,
+            "800": 7.6,
+            "900": 7.02,
+            "1000": 8.77,
+            "1100": 5.26,
+            "1200": 4.68
+        },
+        "rainfall": {
+            "1000": 0.56,
+            "1500": 11.17,
+            "2000": 26.26,
+            "2500": 27.93,
+            "3000": 21.23,
+            "3500": 8.38,
+            "4000": 4.47,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

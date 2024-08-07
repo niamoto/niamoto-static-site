@@ -1,0 +1,130 @@
+{
+    "id": 1417,
+    "full_name": "Stereocaryum",
+    "authors": "Burret",
+    "rank_name": "genus",
+    "metadata": {
+        "rank_name": "genus",
+        "id_endemia": null
+    },
+    "lft": 1992,
+    "rght": 1995,
+    "level": 1,
+    "parent_id": 144,
+    "taxon_id": 1417,
+    "total_occurrences_count": 12,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7144444, -20.5], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 1}, {\"coordinates\": [163.576079995789, -19.5587401271259], \"count\": 1}, {\"coordinates\": [166.932176, -22.278767], \"count\": 1}, {\"coordinates\": [166.948834, -22.278186], \"count\": 2}, {\"coordinates\": [164.727404693108, -20.9719291499958], \"count\": 1}, {\"coordinates\": [164.722324196566, -20.9756112302592], \"count\": 1}, {\"coordinates\": [164.714284482636, -20.9655312273206], \"count\": 1}, {\"coordinates\": [164.724824219119, -20.9728341456131], \"count\": 1}, {\"coordinates\": [164.732405716791, -20.9656219639166], \"count\": 1}, {\"coordinates\": [166.3497100000002, -21.889861000652658], \"count\": 1}]}",
+    "species_top": {
+        "Stereocaryum neocaledonicum": 9
+    },
+    "um_occurrences_true": 10,
+    "um_occurrences_false": 2,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                10.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 11.77,
+    "dbh_max": 13.1,
+    "dbh_median": 11.1,
+    "dbh_min": 11.1,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 28.57,
+            "200": 14.29,
+            "300": 42.86,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 14.29,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 33.33,
+            "1500": 0.0,
+            "2000": 11.11,
+            "2500": 33.33,
+            "3000": 11.11,
+            "3500": 0.0,
+            "4000": 11.11,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 28.57,
+            "2": 71.43
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 13229,
+    "full_name": "Clinosperma lanuginosa",
+    "authors": "(M.Schmid ex H.E.Moore) Pintaud & W.J.Baker",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1105
+    },
+    "lft": 389,
+    "rght": 390,
+    "level": 2,
+    "parent_id": 552,
+    "taxon_id": 13229,
+    "total_occurrences_count": 223,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.5958505, -20.4586492], \"count\": 8}, {\"coordinates\": [164.86138888888888, -20.64161111111111], \"count\": 11}, {\"coordinates\": [164.7688388888889, -20.575755555555556], \"count\": 15}, {\"coordinates\": [164.774, -20.57027777777778], \"count\": 45}, {\"coordinates\": [164.77325, -20.570805555555555], \"count\": 24}, {\"coordinates\": [164.77380555555555, -20.570083333333333], \"count\": 46}, {\"coordinates\": [164.7871551513672, -20.56903076171875], \"count\": 5}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 4}, {\"coordinates\": [164.77999877929688, -20.56999969482422], \"count\": 3}, {\"coordinates\": [164.78173828125, -20.57522964477539], \"count\": 1}, {\"coordinates\": [164.76666259765625, -20.600000381469727], \"count\": 1}, {\"coordinates\": [164.77557373046875, -20.581300735473633], \"count\": 4}, {\"coordinates\": [164.8625030517578, -20.650279998779297], \"count\": 2}, {\"coordinates\": [164.689453125, -20.511709213256836], \"count\": 3}, {\"coordinates\": [164.78721618652344, -20.568889617919922], \"count\": 1}, {\"coordinates\": [164.7759103, -20.5830689], \"count\": 5}, {\"coordinates\": [164.5925750732422, -20.461660385131836], \"count\": 1}, {\"coordinates\": [164.60885620117188, -20.447769165039062], \"count\": 2}, {\"coordinates\": [164.8656369, -20.647354], \"count\": 3}, {\"coordinates\": [164.75859937777778, -20.60099057222222], \"count\": 1}, {\"coordinates\": [164.7850064, -20.5722139], \"count\": 5}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.7794647216797, -20.57707977294922], \"count\": 1}, {\"coordinates\": [164.7827236, -20.5740593], \"count\": 1}, {\"coordinates\": [164.855850103319, -20.6417940465034], \"count\": 1}, {\"coordinates\": [164.7872, -20.5689], \"count\": 1}, {\"coordinates\": [164.861388888889, -20.6416111111111], \"count\": 12}, {\"coordinates\": [164.8625, -20.6503], \"count\": 1}, {\"coordinates\": [164.7728, -20.5861], \"count\": 1}, {\"coordinates\": [164.768838888889, -20.5757555555556], \"count\": 2}, {\"coordinates\": [164.79658984146778, -20.592759420119407], \"count\": 1}, {\"coordinates\": [164.759994506836, -20.5834999084473], \"count\": 1}, {\"coordinates\": [164.7794, -20.5769], \"count\": 2}, {\"coordinates\": [164.5925, -20.4617], \"count\": 1}, {\"coordinates\": [164.77325, -20.5708055555556], \"count\": 1}, {\"coordinates\": [164.5926, -20.4616], \"count\": 1}, {\"coordinates\": [164.773805555556, -20.5700833333333], \"count\": 2}, {\"coordinates\": [164.7686, -20.5892], \"count\": 1}, {\"coordinates\": [164.774, -20.5702777777778], \"count\": 1}]}",
+    "species_top": {
+        "Clinosperma lanuginosa": 223
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 223,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                33.33,
+                0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                7.84,
+                18.92,
+                0,
+                20.0,
+                100.0,
+                0,
+                66.67,
+                0,
+                0.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.63,
+    "dbh_max": 9.9,
+    "dbh_median": 7.6,
+    "dbh_min": 5.7,
+    "height_max": 3.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 1.35,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 8.11,
+            "800": 1.35,
+            "900": 68.02,
+            "1000": 4.05,
+            "1100": 9.91,
+            "1200": 7.21
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 0.9,
+            "2500": 4.95,
+            "3000": 3.15,
+            "3500": 89.19,
+            "4000": 0.9,
+            "4500": 0.9
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        }
+    }
+}

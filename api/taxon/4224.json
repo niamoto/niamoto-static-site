@@ -1,0 +1,130 @@
+{
+    "id": 4224,
+    "full_name": "Melicope lasioneura",
+    "authors": "(Baill.) Baill. ex Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4757
+    },
+    "lft": 2973,
+    "rght": 2974,
+    "level": 2,
+    "parent_id": 1042,
+    "taxon_id": 4224,
+    "total_occurrences_count": 142,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.0493461, -21.633461], \"count\": 1}, {\"coordinates\": [166.9038806, -22.2749306], \"count\": 2}, {\"coordinates\": [166.788903, -22.1907076], \"count\": 1}, {\"coordinates\": [166.8961111, -22.2936111], \"count\": 1}, {\"coordinates\": [164.687553, -20.486419], \"count\": 1}, {\"coordinates\": [166.3226209, -21.6564339], \"count\": 1}, {\"coordinates\": [166.9187, -22.323591666666665], \"count\": 3}, {\"coordinates\": [166.9695897917973, -22.280844693658715], \"count\": 1}, {\"coordinates\": [166.6366526, -22.100056], \"count\": 2}, {\"coordinates\": [166.4180556, -21.7205556], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 3}, {\"coordinates\": [165.259769, -21.378209], \"count\": 1}, {\"coordinates\": [166.8412307, -22.2229916], \"count\": 1}, {\"coordinates\": [166.678838, -22.2756569], \"count\": 2}, {\"coordinates\": [166.8166234, -22.262431], \"count\": 1}, {\"coordinates\": [166.2308333, -21.6769444], \"count\": 1}, {\"coordinates\": [165.6919005556, -21.5193191667], \"count\": 2}, {\"coordinates\": [166.96460054138817, -22.276472070269556], \"count\": 1}, {\"coordinates\": [165.9235941, -21.5779379], \"count\": 1}, {\"coordinates\": [165.7537295, -21.6157828], \"count\": 1}, {\"coordinates\": [166.9700264640747, -22.280355575734472], \"count\": 1}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 1}, {\"coordinates\": [164.681178983053, -20.4879585266113], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 2}, {\"coordinates\": [164.88176, -20.64011], \"count\": 2}, {\"coordinates\": [166.684969, -22.1028821], \"count\": 1}, {\"coordinates\": [166.6957533, -22.1694831], \"count\": 1}, {\"coordinates\": [166.2433333, -21.6713889], \"count\": 1}, {\"coordinates\": [165.235876735052, -20.86154905955], \"count\": 1}, {\"coordinates\": [166.829239, -22.2020994], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 1}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 3}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 1}, {\"coordinates\": [164.796083895365, -20.5567406972249], \"count\": 1}, {\"coordinates\": [165.22355556488, -20.8593888600667], \"count\": 1}, {\"coordinates\": [166.7737973, -22.28872], \"count\": 1}, {\"coordinates\": [166.7122222, -22.2952778], \"count\": 1}, {\"coordinates\": [166.6232222, -22.1943889], \"count\": 1}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 1}, {\"coordinates\": [166.96604931071562, -22.276170078875374], \"count\": 1}, {\"coordinates\": [164.77617594401, -21.0165254334609], \"count\": 1}, {\"coordinates\": [164.7778333, -20.6167267], \"count\": 1}, {\"coordinates\": [165.78349, -21.5986667], \"count\": 2}, {\"coordinates\": [166.5084848, -22.1787788], \"count\": 2}, {\"coordinates\": [166.5086111, -22.1822222], \"count\": 1}, {\"coordinates\": [166.96382943570433, -22.274010591286277], \"count\": 1}, {\"coordinates\": [166.2344444, -21.6694444], \"count\": 1}, {\"coordinates\": [166.8936111, -22.2919444], \"count\": 1}, {\"coordinates\": [165.092897191667, -21.2281463575], \"count\": 1}, {\"coordinates\": [166.5346651, -22.184421], \"count\": 1}, {\"coordinates\": [166.8165565, -22.2439032], \"count\": 1}, {\"coordinates\": [166.835133332966, -22.23758333295657], \"count\": 1}, {\"coordinates\": [166.6835044, -22.2866669], \"count\": 1}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 1}, {\"coordinates\": [166.60850400000038, -22.008734000655487], \"count\": 1}, {\"coordinates\": [166.8973584, -22.2802817], \"count\": 1}, {\"coordinates\": [165.122969, -21.292368], \"count\": 1}, {\"coordinates\": [166.9508504, -22.3534791], \"count\": 1}, {\"coordinates\": [166.374553411667, -22.078922623], \"count\": 1}, {\"coordinates\": [166.967690252129, -22.27549374168691], \"count\": 1}, {\"coordinates\": [166.6878075, -22.1097306], \"count\": 1}, {\"coordinates\": [166.92011, -22.32465], \"count\": 1}, {\"coordinates\": [167.00462898, -22.27939996], \"count\": 1}, {\"coordinates\": [166.23090256, -21.67679607], \"count\": 1}, {\"coordinates\": [167.00073797, -22.269527], \"count\": 1}, {\"coordinates\": [166.81333329, -22.24694445], \"count\": 2}, {\"coordinates\": [167.00588505, -22.284258], \"count\": 1}, {\"coordinates\": [166.90343614, -22.27866384], \"count\": 2}, {\"coordinates\": [166.85555561, -22.23611112], \"count\": 2}, {\"coordinates\": [166.89935531, -22.29082505], \"count\": 2}, {\"coordinates\": [166.9063444, -22.29200828], \"count\": 2}, {\"coordinates\": [166.82579366, -22.2512891], \"count\": 2}, {\"coordinates\": [166.40280199, -21.88168298], \"count\": 1}, {\"coordinates\": [167.00991004, -22.28426003], \"count\": 1}, {\"coordinates\": [166.14347401, -21.74773102], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 7}, {\"coordinates\": [166.23142118, -21.67261039], \"count\": 1}, {\"coordinates\": [165.1356906, -20.81623265], \"count\": 1}, {\"coordinates\": [166.15547218, -21.74575002], \"count\": 1}, {\"coordinates\": [166.59215832, -22.15893608], \"count\": 1}, {\"coordinates\": [166.81138887, -22.24972223], \"count\": 2}, {\"coordinates\": [166.67612005, -22.04756799], \"count\": 1}, {\"coordinates\": [166.67944596, -22.04597195], \"count\": 1}, {\"coordinates\": [166.76044923, -22.19067053], \"count\": 2}, {\"coordinates\": [166.89682471, -22.28926679], \"count\": 2}, {\"coordinates\": [166.9032272, -22.27420242], \"count\": 2}, {\"coordinates\": [166.99331303, -22.275616], \"count\": 1}, {\"coordinates\": [166.90349952, -22.27474405], \"count\": 2}, {\"coordinates\": [166.90322819, -22.28122233], \"count\": 2}, {\"coordinates\": [166.89815938, -22.2766399], \"count\": 2}, {\"coordinates\": [166.89660352, -22.27926796], \"count\": 2}, {\"coordinates\": [166.52392896, -22.18556301], \"count\": 1}, {\"coordinates\": [167.003943, -22.28679883], \"count\": 1}, {\"coordinates\": [166.76361107, -22.17805556], \"count\": 1}, {\"coordinates\": [166.71555598, -22.30166702], \"count\": 1}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 2}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 5}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}, {\"coordinates\": [166.76104096, -22.18968099], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.93861112, -22.3497222], \"count\": 1}, {\"coordinates\": [166.5952667, -22.1598389], \"count\": 1}, {\"coordinates\": [166.6247222, -22.19758336], \"count\": 1}]}",
+    "species_top": {
+        "Melicope lasioneura": 142
+    },
+    "um_occurrences_true": 119,
+    "um_occurrences_false": 23,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0,
+                66.67,
+                66.67,
+                83.33,
+                87.5,
+                40.0,
+                80.0,
+                0.0,
+                50.0
+            ],
+            "fruiting": [
+                100.0,
+                100.0,
+                100.0,
+                0,
+                0.0,
+                33.33,
+                16.67,
+                12.5,
+                60.0,
+                0.0,
+                100.0,
+                50.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.71,
+    "dbh_max": 31.8,
+    "dbh_median": 7.6,
+    "dbh_min": 5.1,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 100.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 14.73,
+            "200": 41.09,
+            "300": 15.5,
+            "400": 6.2,
+            "500": 10.08,
+            "600": 3.88,
+            "700": 0.78,
+            "800": 2.33,
+            "900": 0.78,
+            "1000": 1.55,
+            "1100": 0.78,
+            "1200": 2.33
+        },
+        "rainfall": {
+            "1000": 0.7,
+            "1500": 13.38,
+            "2000": 19.01,
+            "2500": 48.59,
+            "3000": 16.2,
+            "3500": 2.11,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 2.86,
+            "2": 97.14
+        }
+    }
+}

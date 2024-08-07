@@ -1,0 +1,130 @@
+{
+    "id": 4568,
+    "full_name": "Oxera coronata",
+    "authors": "deKok    ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3963
+    },
+    "lft": 1371,
+    "rght": 1372,
+    "level": 2,
+    "parent_id": 1152,
+    "taxon_id": 4568,
+    "total_occurrences_count": 44,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3033762, -21.1779231], \"count\": 2}, {\"coordinates\": [165.31519444444444, -21.16627777777778], \"count\": 3}, {\"coordinates\": [165.29163888888888, -21.183], \"count\": 2}, {\"coordinates\": [165.30336111111112, -21.204691666666665], \"count\": 1}, {\"coordinates\": [165.277, -21.178219444444444], \"count\": 1}, {\"coordinates\": [165.3179722222222, -21.127866666666666], \"count\": 3}, {\"coordinates\": [165.318025, -21.127594444444444], \"count\": 2}, {\"coordinates\": [165.31727222222221, -21.16279722222222], \"count\": 1}, {\"coordinates\": [165.2550861111111, -21.187297222222224], \"count\": 3}, {\"coordinates\": [165.25418611111112, -21.187], \"count\": 3}, {\"coordinates\": [165.5110766, -21.4235061], \"count\": 1}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 2}, {\"coordinates\": [165.158061536153, -21.160707171758], \"count\": 1}, {\"coordinates\": [164.68205, -20.4853], \"count\": 2}, {\"coordinates\": [164.802176056594, -20.5650370927431], \"count\": 1}, {\"coordinates\": [165.108346, -20.978855], \"count\": 1}, {\"coordinates\": [165.26667, -21.16667], \"count\": 1}, {\"coordinates\": [164.5268333, -20.4004194], \"count\": 2}, {\"coordinates\": [165.3504166667, -21.4476666667], \"count\": 1}, {\"coordinates\": [164.5509893, -20.4136256], \"count\": 1}, {\"coordinates\": [164.7778333, -20.6167267], \"count\": 1}, {\"coordinates\": [165.238078119807, -20.8633939497064], \"count\": 1}, {\"coordinates\": [164.7742238, -20.5856472], \"count\": 1}, {\"coordinates\": [165.227618, -20.857174], \"count\": 1}, {\"coordinates\": [164.4409403, -20.3005528], \"count\": 1}, {\"coordinates\": [165.1609339, -21.1605419], \"count\": 1}, {\"coordinates\": [165.300278, -21.1806091], \"count\": 1}, {\"coordinates\": [165.216018, -20.817771], \"count\": 1}, {\"coordinates\": [165.224613982762, -20.8694547536836], \"count\": 1}, {\"coordinates\": [165.77269997, -21.60794696], \"count\": 1}]}",
+    "species_top": {
+        "Oxera coronata": 44
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 41,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                80.0,
+                100.0
+            ],
+            "fruiting": [
+                50.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                20.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 8.89,
+    "dbh_max": 21.6,
+    "dbh_median": 6.35,
+    "dbh_min": 5.1,
+    "height_max": 4.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 75.0,
+            "20": 25.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 2.27,
+            "200": 13.64,
+            "300": 6.82,
+            "400": 15.91,
+            "500": 11.36,
+            "600": 25.0,
+            "700": 13.64,
+            "800": 4.55,
+            "900": 4.55,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 2.27
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 18.18,
+            "2000": 20.45,
+            "2500": 47.73,
+            "3000": 11.36,
+            "3500": 2.27,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "id": 5908,
+    "full_name": "Syzygium propinquum",
+    "authors": "(Guillaumin) J.W.Dawson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4285
+    },
+    "lft": 2071,
+    "rght": 2072,
+    "level": 2,
+    "parent_id": 1439,
+    "taxon_id": 5908,
+    "total_occurrences_count": 38,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3488007, -21.4306073], \"count\": 2}, {\"coordinates\": [165.5956904, -21.473834], \"count\": 2}, {\"coordinates\": [165.3088909, -21.3750085], \"count\": 2}, {\"coordinates\": [165.34671912, -21.43839498], \"count\": 2}, {\"coordinates\": [165.8265424, -21.3973133], \"count\": 2}, {\"coordinates\": [165.59249877929688, -21.476940155029297], \"count\": 1}, {\"coordinates\": [165.02184380824477, -21.170041936624223], \"count\": 1}, {\"coordinates\": [165.6554457, -21.5141162], \"count\": 2}, {\"coordinates\": [165.4119415283203, -21.429170608520508], \"count\": 1}, {\"coordinates\": [164.98851990034706, -21.16986999322603], \"count\": 1}, {\"coordinates\": [165.65472412109375, -21.52277946472168], \"count\": 1}, {\"coordinates\": [165.3302424, -21.4574821], \"count\": 2}, {\"coordinates\": [165.433502197266, -21.2500221411387], \"count\": 1}, {\"coordinates\": [165.30555725097656, -21.37805938720703], \"count\": 1}, {\"coordinates\": [165.415208, -21.4261256], \"count\": 2}, {\"coordinates\": [165.7738486211746, -21.439528065443977], \"count\": 1}, {\"coordinates\": [165.01369304752433, -21.16199984096938], \"count\": 1}, {\"coordinates\": [165.01994002049796, -21.17824159521886], \"count\": 1}, {\"coordinates\": [165.6522216796875, -21.51721954345703], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 2}, {\"coordinates\": [165.65222, -21.51722], \"count\": 1}, {\"coordinates\": [165.41194, -21.42917], \"count\": 1}, {\"coordinates\": [165.75553185353562, -21.43061203082794], \"count\": 2}, {\"coordinates\": [165.43038576468797, -21.24454468232437], \"count\": 1}, {\"coordinates\": [165.30556, -21.37806], \"count\": 1}, {\"coordinates\": [165.59105816861276, -21.472097018542467], \"count\": 1}, {\"coordinates\": [165.2697827, -21.1774164], \"count\": 1}, {\"coordinates\": [165.65472, -21.52278], \"count\": 1}]}",
+    "species_top": {
+        "Syzygium propinquum": 38
+    },
+    "um_occurrences_true": 31,
+    "um_occurrences_false": 7,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                100.0,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0
+            ],
+            "fruiting": [
+                100.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                100.0,
+                0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 11.11,
+            "200": 0.0,
+            "300": 5.56,
+            "400": 5.56,
+            "500": 8.33,
+            "600": 0.0,
+            "700": 36.11,
+            "800": 13.89,
+            "900": 19.44,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 18.42,
+            "1500": 21.05,
+            "2000": 52.63,
+            "2500": 7.89,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

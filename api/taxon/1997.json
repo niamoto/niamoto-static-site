@@ -1,0 +1,130 @@
+{
+    "id": 1997,
+    "full_name": "Atractocarpus heterophyllus",
+    "authors": "(Montrouz.) Guillaumin & Beauvis.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 6469
+    },
+    "lft": 2775,
+    "rght": 2776,
+    "level": 2,
+    "parent_id": 365,
+    "taxon_id": 1997,
+    "total_occurrences_count": 89,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.81876, -21.0312], \"count\": 1}, {\"coordinates\": [165.1908333, -21.2516667], \"count\": 1}, {\"coordinates\": [164.83611, -20.86476], \"count\": 1}, {\"coordinates\": [166.99455555555556, -22.273083333333332], \"count\": 2}, {\"coordinates\": [166.99477777777778, -22.273083333333332], \"count\": 2}, {\"coordinates\": [164.461837, -20.345097], \"count\": 1}, {\"coordinates\": [163.6797416667, -19.7638138889], \"count\": 4}, {\"coordinates\": [164.802176056594, -20.5650370927431], \"count\": 1}, {\"coordinates\": [165.0791667, -21.3208333], \"count\": 1}, {\"coordinates\": [163.587054, -19.5802872], \"count\": 1}, {\"coordinates\": [164.19122396669303, -20.490645841356915], \"count\": 1}, {\"coordinates\": [164.1878772222, -20.2988611111], \"count\": 2}, {\"coordinates\": [166.60850400000038, -22.008734000655487], \"count\": 1}, {\"coordinates\": [163.80925, -20.0465278], \"count\": 2}, {\"coordinates\": [165.093504720837, -20.9756634460217], \"count\": 1}, {\"coordinates\": [164.5012746, -20.3127728], \"count\": 2}, {\"coordinates\": [163.632945158989, -19.6857117470376], \"count\": 1}, {\"coordinates\": [163.6431083333, -19.6480777778], \"count\": 1}, {\"coordinates\": [164.777198317924, -20.5983936543717], \"count\": 1}, {\"coordinates\": [165.0927212, -21.3181483], \"count\": 1}, {\"coordinates\": [164.1926944, -20.4912778], \"count\": 1}, {\"coordinates\": [165.0714957, -21.3112753], \"count\": 1}, {\"coordinates\": [163.603287226123, -19.5887368354579], \"count\": 1}, {\"coordinates\": [166.75495986450917, -22.01163667352212], \"count\": 1}, {\"coordinates\": [165.1630556, -21.3616667], \"count\": 1}, {\"coordinates\": [163.7988036111, -20.0413986111], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [163.9545505, -20.067956], \"count\": 1}, {\"coordinates\": [163.656048398302, -19.6969677512964], \"count\": 1}, {\"coordinates\": [166.63649700000042, -21.993910000655138], \"count\": 1}, {\"coordinates\": [163.6975064, -19.8309918], \"count\": 1}, {\"coordinates\": [165.0870464, -21.3226138], \"count\": 1}, {\"coordinates\": [164.2333333, -20.5271111], \"count\": 2}, {\"coordinates\": [165.269098, -21.3403984], \"count\": 1}, {\"coordinates\": [166.7559131553921, -22.01242716198538], \"count\": 1}, {\"coordinates\": [165.1548947, -21.2411851], \"count\": 3}, {\"coordinates\": [166.5876970000004, -22.01470800065566], \"count\": 1}, {\"coordinates\": [164.19249110802403, -20.489052385919425], \"count\": 1}, {\"coordinates\": [163.8142582, -20.041614], \"count\": 1}, {\"coordinates\": [163.634844082699, -19.6385843997043], \"count\": 1}, {\"coordinates\": [163.8058651, -20.0535184], \"count\": 1}, {\"coordinates\": [164.2209786111, -20.4946141667], \"count\": 1}, {\"coordinates\": [164.9919628, -21.3314498], \"count\": 1}, {\"coordinates\": [167.01228203, -22.290119], \"count\": 1}, {\"coordinates\": [167.00588505, -22.284258], \"count\": 1}, {\"coordinates\": [166.99416669, -22.27694444], \"count\": 1}, {\"coordinates\": [166.9942457, -22.27291907], \"count\": 1}, {\"coordinates\": [166.739355, -22.35534], \"count\": 1}, {\"coordinates\": [165.3250222, -21.16188611], \"count\": 1}, {\"coordinates\": [166.9944815, -22.27311152], \"count\": 1}, {\"coordinates\": [164.74419, -20.59123], \"count\": 1}, {\"coordinates\": [167.0045191, -22.28826374], \"count\": 1}, {\"coordinates\": [166.99985702, -22.28844299], \"count\": 1}, {\"coordinates\": [166.9996642, -22.27690266], \"count\": 1}, {\"coordinates\": [166.4922156, -21.94738372], \"count\": 1}, {\"coordinates\": [167.00311705, -22.285431], \"count\": 1}, {\"coordinates\": [166.81333329, -22.24694445], \"count\": 2}, {\"coordinates\": [166.67986298, -22.04441702], \"count\": 1}, {\"coordinates\": [166.14257401, -21.74793101], \"count\": 1}, {\"coordinates\": [166.90349952, -22.27474405], \"count\": 2}, {\"coordinates\": [166.89187897, -22.15379903], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 3}, {\"coordinates\": [166.89815938, -22.2766399], \"count\": 2}, {\"coordinates\": [166.55457305, -22.172743], \"count\": 1}, {\"coordinates\": [165.10453975, -21.31606667], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.71555598, -22.30166702], \"count\": 1}, {\"coordinates\": [166.93861112, -22.3497222], \"count\": 1}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}, {\"coordinates\": [166.712222, -22.29527798], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 1}]}",
+    "species_top": {
+        "Atractocarpus heterophyllus": 89
+    },
+    "um_occurrences_true": 72,
+    "um_occurrences_false": 17,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                14.29,
+                25.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                33.33,
+                42.86,
+                100.0
+            ],
+            "fruiting": [
+                14.29,
+                75.0,
+                50.0,
+                75.0,
+                50.0,
+                66.67,
+                100.0,
+                100.0,
+                50.0,
+                66.67,
+                71.43,
+                25.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.25,
+    "dbh_max": 7.5,
+    "dbh_median": 6.05,
+    "dbh_min": 5.4,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 27.59,
+            "200": 37.93,
+            "300": 8.62,
+            "400": 3.45,
+            "500": 10.34,
+            "600": 1.72,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 5.17,
+            "1000": 0.0,
+            "1100": 1.72,
+            "1200": 3.45
+        },
+        "rainfall": {
+            "1000": 31.71,
+            "1500": 12.2,
+            "2000": 7.32,
+            "2500": 31.71,
+            "3000": 10.98,
+            "3500": 3.66,
+            "4000": 2.44,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 23.4,
+            "2": 76.6
+        }
+    }
+}

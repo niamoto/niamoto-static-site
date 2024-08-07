@@ -1,0 +1,130 @@
+{
+    "id": 2567,
+    "full_name": "Codia albicans",
+    "authors": "Vieill. Ex Pamp.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3543
+    },
+    "lft": 707,
+    "rght": 708,
+    "level": 2,
+    "parent_id": 558,
+    "taxon_id": 2567,
+    "total_occurrences_count": 343,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.2681, -21.19061], \"count\": 102}, {\"coordinates\": [165.2642, -21.18783], \"count\": 53}, {\"coordinates\": [165.0898884, -20.991553], \"count\": 1}, {\"coordinates\": [165.6500183, -21.3287778], \"count\": 1}, {\"coordinates\": [165.0214366, -20.9634017], \"count\": 2}, {\"coordinates\": [164.8699333333, -20.6383833333], \"count\": 1}, {\"coordinates\": [164.9474036, -20.6882638], \"count\": 1}, {\"coordinates\": [165.8363201, -21.5767944], \"count\": 1}, {\"coordinates\": [166.0563889, -21.6413889], \"count\": 1}, {\"coordinates\": [165.8274861, -21.5700657], \"count\": 1}, {\"coordinates\": [164.3610377, -20.59550191], \"count\": 1}, {\"coordinates\": [164.36249714, -20.59074722], \"count\": 1}, {\"coordinates\": [164.39952359, -20.62345389], \"count\": 1}, {\"coordinates\": [164.37427485, -20.59788493], \"count\": 1}, {\"coordinates\": [165.77801699, -21.36773198], \"count\": 1}, {\"coordinates\": [164.36656458, -20.59177804], \"count\": 1}, {\"coordinates\": [164.3587199, -20.59871607], \"count\": 1}, {\"coordinates\": [164.36033196, -20.5940657], \"count\": 1}, {\"coordinates\": [164.38289617, -20.61101555], \"count\": 1}, {\"coordinates\": [164.37132759, -20.59550022], \"count\": 1}, {\"coordinates\": [164.36245437, -20.59037018], \"count\": 1}, {\"coordinates\": [164.38918198, -20.61279052], \"count\": 1}, {\"coordinates\": [164.38029132, -20.60018151], \"count\": 1}, {\"coordinates\": [165.2713, -21.18858], \"count\": 42}, {\"coordinates\": [165.2762, -21.19061], \"count\": 28}, {\"coordinates\": [165.26427, -21.19282], \"count\": 1}, {\"coordinates\": [165.0847222, -20.9872222], \"count\": 1}, {\"coordinates\": [165.71556091308594, -21.316389083862305], \"count\": 2}, {\"coordinates\": [164.34666, -20.611371], \"count\": 1}, {\"coordinates\": [165.019459, -21.1845364], \"count\": 1}, {\"coordinates\": [165.875, -21.491666793823242], \"count\": 13}, {\"coordinates\": [165.01611328125, -21.1875], \"count\": 1}, {\"coordinates\": [164.9407731, -20.6924719], \"count\": 1}, {\"coordinates\": [164.8604958, -20.6369621], \"count\": 1}, {\"coordinates\": [164.3895952, -20.612434], \"count\": 4}, {\"coordinates\": [164.38638305664062, -20.61556053161621], \"count\": 4}, {\"coordinates\": [165.0772247314453, -20.99110984802246], \"count\": 1}, {\"coordinates\": [166.30961000000013, -21.68339600064763], \"count\": 1}, {\"coordinates\": [165.74307299999992, -21.45352100064202], \"count\": 1}, {\"coordinates\": [164.3944444, -20.6261111], \"count\": 1}, {\"coordinates\": [164.38333129882812, -20.61665916442871], \"count\": 1}, {\"coordinates\": [166.056396484375, -21.641389846801758], \"count\": 2}, {\"coordinates\": [164.3591667, -20.595], \"count\": 1}, {\"coordinates\": [165.0258331298828, -20.906940460205078], \"count\": 2}, {\"coordinates\": [164.81805419921875, -20.863059997558594], \"count\": 1}, {\"coordinates\": [165.1534536, -20.9619309], \"count\": 1}, {\"coordinates\": [165.8458155, -21.5879801], \"count\": 1}, {\"coordinates\": [164.8213897, -20.8601308], \"count\": 1}, {\"coordinates\": [165.0847222, -20.9894444], \"count\": 1}, {\"coordinates\": [164.7854609, -21.003135], \"count\": 1}, {\"coordinates\": [164.3552778, -20.6013889], \"count\": 1}, {\"coordinates\": [164.9375, -20.695560455322266], \"count\": 2}, {\"coordinates\": [164.39999389648438, -20.63330078125], \"count\": 1}, {\"coordinates\": [164.9983571, -20.904973], \"count\": 1}, {\"coordinates\": [165.5758056640625, -21.5049991607666], \"count\": 1}, {\"coordinates\": [165.8330535888672, -21.57971954345703], \"count\": 1}, {\"coordinates\": [165.5, -21.5], \"count\": 1}, {\"coordinates\": [165.01806640625, -20.96639060974121], \"count\": 2}, {\"coordinates\": [165.084716796875, -20.98944091796875], \"count\": 1}, {\"coordinates\": [165.022216796875, -20.90416717529297], \"count\": 1}, {\"coordinates\": [164.38333, -20.61667], \"count\": 1}, {\"coordinates\": [165.8241729736328, -21.57305908203125], \"count\": 1}, {\"coordinates\": [164.8572, -20.64], \"count\": 1}, {\"coordinates\": [166.65538898, -22.01865402], \"count\": 1}, {\"coordinates\": [164.798773960961, -20.9799795757278], \"count\": 1}, {\"coordinates\": [164.781268401824, -21.0036402241263], \"count\": 1}, {\"coordinates\": [165.65, -21.3288], \"count\": 1}, {\"coordinates\": [166.0564, -21.6414], \"count\": 1}, {\"coordinates\": [164.9375, -20.69556], \"count\": 1}, {\"coordinates\": [165.0847, -20.9894], \"count\": 1}, {\"coordinates\": [165.77274214, -21.60168032], \"count\": 1}, {\"coordinates\": [164.8228, -21.0156], \"count\": 1}, {\"coordinates\": [165.0772, -20.9911], \"count\": 1}, {\"coordinates\": [165.1503, -20.965], \"count\": 1}, {\"coordinates\": [164.9427948138892, -20.69112802849469], \"count\": 1}, {\"coordinates\": [164.3864, -20.6156], \"count\": 4}, {\"coordinates\": [164.995, -20.9081], \"count\": 1}, {\"coordinates\": [165.8242, -21.5731], \"count\": 1}, {\"coordinates\": [165.0181, -20.9664], \"count\": 2}, {\"coordinates\": [164.794406169719, -20.9801188986523], \"count\": 1}, {\"coordinates\": [164.84177, -20.83439], \"count\": 1}, {\"coordinates\": [164.9375, -20.6956], \"count\": 1}, {\"coordinates\": [165.8331, -21.5797], \"count\": 1}, {\"coordinates\": [164.3867, -20.6275], \"count\": 2}, {\"coordinates\": [165.02583, -20.90694], \"count\": 1}, {\"coordinates\": [164.800962247044, -20.9797840746309], \"count\": 1}, {\"coordinates\": [165.0847, -20.9872], \"count\": 1}, {\"coordinates\": [164.3553, -20.6014], \"count\": 1}, {\"coordinates\": [164.3944, -20.6261], \"count\": 1}, {\"coordinates\": [165.8425, -21.5911], \"count\": 1}, {\"coordinates\": [165.0161, -21.1875], \"count\": 1}, {\"coordinates\": [164.8181, -20.8631], \"count\": 1}, {\"coordinates\": [164.3592, -20.595], \"count\": 1}]}",
+    "species_top": {
+        "Codia albicans": 343
+    },
+    "um_occurrences_true": 79,
+    "um_occurrences_false": 264,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                100.0,
+                100.0,
+                100.0,
+                40.0,
+                2.74,
+                0.64,
+                0,
+                0.0,
+                0,
+                100.0,
+                57.14
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0.0,
+                25.0,
+                20.0,
+                1.37,
+                0.64,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 13.05,
+    "dbh_max": 45.0,
+    "dbh_median": 10.7,
+    "dbh_min": 5.0,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": 0.75,
+    "bark_thickness_max": 0.75,
+    "bark_thickness_min": 0.75,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 72.87,
+            "20": 20.93,
+            "30": 3.1,
+            "40": 3.1,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.9,
+            "200": 31.63,
+            "300": 11.14,
+            "400": 33.13,
+            "500": 3.92,
+            "600": 5.72,
+            "700": 6.93,
+            "800": 3.31,
+            "900": 1.51,
+            "1000": 1.81,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 5.25,
+            "1500": 15.16,
+            "2000": 11.08,
+            "2500": 66.76,
+            "3000": 0.87,
+            "3500": 0.58,
+            "4000": 0.29,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 3.77,
+            "2": 96.23
+        }
+    }
+}

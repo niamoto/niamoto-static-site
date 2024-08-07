@@ -1,0 +1,118 @@
+{
+    "id": 3039,
+    "full_name": "Diospyros perplexa",
+    "authors": "F.White",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1941
+    },
+    "lft": 963,
+    "rght": 964,
+    "level": 2,
+    "parent_id": 679,
+    "taxon_id": 3039,
+    "total_occurrences_count": 53,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.3460524, -22.2151136], \"count\": 2}, {\"coordinates\": [166.3491667, -22.1786111], \"count\": 2}, {\"coordinates\": [166.387378, -22.251605], \"count\": 1}, {\"coordinates\": [166.4209167, -22.1540556], \"count\": 1}, {\"coordinates\": [166.4213056, -22.1534722], \"count\": 1}, {\"coordinates\": [166.4331973, -22.166286], \"count\": 4}, {\"coordinates\": [164.969866102457, -21.3255390888529], \"count\": 1}, {\"coordinates\": [164.974463725074, -21.3167934677496], \"count\": 1}, {\"coordinates\": [166.33668518066406, -22.179759979248047], \"count\": 1}, {\"coordinates\": [164.999118605135, -21.3318337445427], \"count\": 1}, {\"coordinates\": [165.006984205164, -21.3147334245728], \"count\": 1}, {\"coordinates\": [166.42250061035156, -22.153060913085938], \"count\": 1}, {\"coordinates\": [164.97568885064, -21.3410512041], \"count\": 1}, {\"coordinates\": [166.42083740234375, -22.1541690826416], \"count\": 1}, {\"coordinates\": [165.011874420751, -21.3110847079192], \"count\": 1}, {\"coordinates\": [164.925967009877, -21.137354751705], \"count\": 1}, {\"coordinates\": [166.34280395507812, -22.21817970275879], \"count\": 4}, {\"coordinates\": [164.970041913345, -21.318487821104], \"count\": 1}, {\"coordinates\": [164.995359609256, -21.3324931272905], \"count\": 1}, {\"coordinates\": [166.0208282470703, -21.808332443237305], \"count\": 1}, {\"coordinates\": [166.41610717773438, -22.156110763549805], \"count\": 1}, {\"coordinates\": [164.977369358661, -21.3394694847436], \"count\": 1}, {\"coordinates\": [165.00004027961, -21.3194223034901], \"count\": 1}, {\"coordinates\": [164.972069407988, -21.3468048430361], \"count\": 1}, {\"coordinates\": [164.966557358783, -21.3098249890952], \"count\": 1}, {\"coordinates\": [164.968553760673, -21.351171666198], \"count\": 1}, {\"coordinates\": [165.006973771361, -21.3185387047658], \"count\": 1}, {\"coordinates\": [164.973158, -21.3197], \"count\": 1}, {\"coordinates\": [166.39599609375, -22.260269165039062], \"count\": 2}, {\"coordinates\": [166.018798828125, -21.806350708007812], \"count\": 2}, {\"coordinates\": [164.999125553073, -21.331786928695], \"count\": 1}, {\"coordinates\": [166.42138671875, -22.153610229492188], \"count\": 1}, {\"coordinates\": [166.4213104248047, -22.153472900390625], \"count\": 1}, {\"coordinates\": [164.998655347636, -21.3354765361139], \"count\": 1}, {\"coordinates\": [165.002174023671, -21.3319367277897], \"count\": 1}, {\"coordinates\": [164.9383333, -21.1386111], \"count\": 1}, {\"coordinates\": [164.973192639359, -21.3303074545641], \"count\": 1}, {\"coordinates\": [166.349166666667, -22.1786111111111], \"count\": 1}, {\"coordinates\": [166.0188, -21.80635], \"count\": 1}, {\"coordinates\": [166.342777777778, -22.2180555555556], \"count\": 2}, {\"coordinates\": [166.42874027035367, -22.1615261438103], \"count\": 1}]}",
+    "species_top": {
+        "Diospyros perplexa": 53
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 53,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                50.0,
+                0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                66.67
+            ],
+            "fruiting": [
+                0.0,
+                50.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                33.33,
+                100.0,
+                0.0,
+                0.0,
+                33.33
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 63.64,
+            "200": 36.36,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 100.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 80.77,
+            "2": 19.23
+        }
+    }
+}

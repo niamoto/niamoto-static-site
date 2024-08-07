@@ -1,0 +1,118 @@
+{
+    "id": 5913,
+    "full_name": "Syzygium quadrangulare Guillaumin var. quadrangulare",
+    "authors": null,
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 4288
+    },
+    "lft": 2078,
+    "rght": 2079,
+    "level": 3,
+    "parent_id": 5911,
+    "taxon_id": 5913,
+    "total_occurrences_count": 41,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.3454147, -22.0625724], \"count\": 1}, {\"coordinates\": [166.5339829, -21.9608885], \"count\": 5}, {\"coordinates\": [166.41542297, -21.88186295], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 4}, {\"coordinates\": [166.6, -22.13778], \"count\": 4}, {\"coordinates\": [165.07889, -20.83194], \"count\": 1}, {\"coordinates\": [166.6031631, -22.1347164], \"count\": 4}, {\"coordinates\": [166.51167, -22.17611], \"count\": 2}, {\"coordinates\": [166.52861, -21.95611], \"count\": 1}, {\"coordinates\": [166.5159952, -22.1695011], \"count\": 2}, {\"coordinates\": [166.4119277, -21.8878731], \"count\": 2}, {\"coordinates\": [166.34389, -22.06472], \"count\": 1}, {\"coordinates\": [166.51278, -22.1725], \"count\": 1}, {\"coordinates\": [166.8175863, -22.245219], \"count\": 2}, {\"coordinates\": [166.5875, -22.15333], \"count\": 1}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 2}, {\"coordinates\": [166.6064118, -22.1331686], \"count\": 4}, {\"coordinates\": [166.3433476, -22.0666051], \"count\": 2}, {\"coordinates\": [166.3336111, -22.05], \"count\": 1}]}",
+    "species_top": {
+        "Syzygium quadrangulare Guillaumin var. quadrangulare": 41
+    },
+    "um_occurrences_true": 40,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                75.0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                100.0,
+                0,
+                66.67,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 2.44,
+            "400": 0.0,
+            "500": 7.32,
+            "600": 19.51,
+            "700": 21.95,
+            "800": 12.2,
+            "900": 9.76,
+            "1000": 7.32,
+            "1100": 2.44,
+            "1200": 17.07
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 2.44,
+            "2000": 34.15,
+            "2500": 36.59,
+            "3000": 4.88,
+            "3500": 7.32,
+            "4000": 0.0,
+            "4500": 14.63
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

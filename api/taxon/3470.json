@@ -1,0 +1,118 @@
+{
+    "id": 3470,
+    "full_name": "Geissois trifoliolata",
+    "authors": "Pancher ex Guillaumin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3572
+    },
+    "lft": 791,
+    "rght": 792,
+    "level": 2,
+    "parent_id": 797,
+    "taxon_id": 3470,
+    "total_occurrences_count": 16,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4957562, -22.1791083], \"count\": 1}, {\"coordinates\": [166.5235093, -22.1653416], \"count\": 1}, {\"coordinates\": [165.774773, -21.6531363], \"count\": 1}, {\"coordinates\": [166.49249267578125, -22.182220458984375], \"count\": 2}, {\"coordinates\": [165.76943969726562, -21.556110382080078], \"count\": 2}, {\"coordinates\": [165.7726979, -21.5531796], \"count\": 1}, {\"coordinates\": [165.82725524902344, -21.7093505859375], \"count\": 1}, {\"coordinates\": [166.50767517089844, -22.172950744628906], \"count\": 1}, {\"coordinates\": [164.923870079219, -20.9489858150482], \"count\": 1}, {\"coordinates\": [165.7714, -21.6561], \"count\": 1}, {\"coordinates\": [165.133563, -20.8148359], \"count\": 1}, {\"coordinates\": [166.5203, -22.1683], \"count\": 1}, {\"coordinates\": [166.4925, -22.1822], \"count\": 1}, {\"coordinates\": [165.7694, -21.5561], \"count\": 1}]}",
+    "species_top": {
+        "Geissois trifoliolata": 16
+    },
+    "um_occurrences_true": 3,
+    "um_occurrences_false": 13,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 12.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 20.0,
+            "200": 20.0,
+            "300": 6.67,
+            "400": 0.0,
+            "500": 6.67,
+            "600": 0.0,
+            "700": 20.0,
+            "800": 13.33,
+            "900": 13.33,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 12.5,
+            "1500": 6.25,
+            "2000": 81.25,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 8.33,
+            "2": 91.67
+        }
+    }
+}

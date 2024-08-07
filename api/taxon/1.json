@@ -1,0 +1,118 @@
+{
+    "id": 1,
+    "full_name": "Acanthaceae",
+    "authors": "Juss.",
+    "rank_name": "family",
+    "metadata": {
+        "rank_name": "family",
+        "id_endemia": 248
+    },
+    "lft": 1,
+    "rght": 8,
+    "level": 0,
+    "parent_id": null,
+    "taxon_id": 1,
+    "total_occurrences_count": 77,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.6969444, -21.7580556], \"count\": 1}, {\"coordinates\": [164.916690544121, -21.0261779410423], \"count\": 1}, {\"coordinates\": [164.798916666667, -21.0117], \"count\": 1}, {\"coordinates\": [165.744955125, -21.4751775], \"count\": 1}, {\"coordinates\": [164.9726, -21.3363333333333], \"count\": 1}, {\"coordinates\": [165.1068, -21.2013333333333], \"count\": 1}, {\"coordinates\": [165.438, -21.2231666666667], \"count\": 1}, {\"coordinates\": [164.304409, -20.5762409], \"count\": 2}, {\"coordinates\": [164.972636666667, -21.33659], \"count\": 1}, {\"coordinates\": [165.990833333333, -21.48], \"count\": 1}, {\"coordinates\": [164.8335, -20.8666666666667], \"count\": 1}, {\"coordinates\": [164.4749663, -20.6510708666667], \"count\": 1}, {\"coordinates\": [164.9151375, -21.1355908333333], \"count\": 1}, {\"coordinates\": [165.07655, -20.8989183333333], \"count\": 1}, {\"coordinates\": [165.989166666667, -21.4786666666667], \"count\": 1}, {\"coordinates\": [165.99, -21.4783333333333], \"count\": 1}, {\"coordinates\": [164.835355, -20.8649166666667], \"count\": 1}, {\"coordinates\": [165.165403358333, -21.1245426416667], \"count\": 1}, {\"coordinates\": [164.776506666667, -21.019595], \"count\": 1}, {\"coordinates\": [164.8388, -20.865], \"count\": 1}, {\"coordinates\": [165.114513208688, -21.1769843564851], \"count\": 1}, {\"coordinates\": [166.52352698, -22.18504201], \"count\": 1}, {\"coordinates\": [166.52290104, -22.18459897], \"count\": 1}, {\"coordinates\": [164.2934903, -20.2432173], \"count\": 1}, {\"coordinates\": [166.4476949, -22.2693066], \"count\": 2}, {\"coordinates\": [166.44822692871094, -22.292259216308594], \"count\": 1}, {\"coordinates\": [165.99057006835938, -21.9587345123291], \"count\": 1}, {\"coordinates\": [164.128348234179, -20.4680647998907], \"count\": 1}, {\"coordinates\": [164.223717266755, -20.5520890700542], \"count\": 1}, {\"coordinates\": [166.43551635742188, -22.312410354614258], \"count\": 1}, {\"coordinates\": [166.43329600000033, -22.167314000659417], \"count\": 1}, {\"coordinates\": [164.9377899169922, -21.338869094848633], \"count\": 1}, {\"coordinates\": [165.39999389648438, -20.96666717529297], \"count\": 1}, {\"coordinates\": [165.39999389648438, -20.9666690826416], \"count\": 1}, {\"coordinates\": [165.83746337890625, -21.865476608276367], \"count\": 2}, {\"coordinates\": [166.34744262695312, -22.202802658081055], \"count\": 1}, {\"coordinates\": [164.998655347636, -21.3354765361139], \"count\": 1}, {\"coordinates\": [165.8369140625, -21.865236282348633], \"count\": 1}, {\"coordinates\": [165.002174023671, -21.3319367277897], \"count\": 1}, {\"coordinates\": [164.995359609256, -21.3324931272905], \"count\": 1}]}",
+    "species_top": {
+        "Avicennia marina": 34
+    },
+    "um_occurrences_true": 15,
+    "um_occurrences_false": 62,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                66.67,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                50.0,
+                50.0,
+                80.0,
+                100.0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                25.0,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 4.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 23.53,
+            "200": 29.41,
+            "300": 29.41,
+            "400": 11.76,
+            "500": 5.88,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 30.77,
+            "1500": 46.15,
+            "2000": 23.08,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 48.84,
+            "2": 51.16
+        }
+    }
+}

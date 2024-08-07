@@ -1,0 +1,118 @@
+{
+    "id": 15529,
+    "full_name": "Myrsine asymmetrica (Mez) Ricketson & Pipoly subsp. asymmetrica",
+    "authors": null,
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 5915
+    },
+    "lft": 2512,
+    "rght": 2513,
+    "level": 3,
+    "parent_id": 15470,
+    "taxon_id": 15529,
+    "total_occurrences_count": 11,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5371307, -21.9749701], \"count\": 1}, {\"coordinates\": [164.850925, -20.8531444], \"count\": 1}, {\"coordinates\": [166.5257926, -22.1373764], \"count\": 1}, {\"coordinates\": [165.581274982542, -21.4841938018799], \"count\": 1}, {\"coordinates\": [165.205260114058, -20.8879977911278], \"count\": 1}, {\"coordinates\": [164.85085144043, -20.8527054468791], \"count\": 1}, {\"coordinates\": [165.75644056476924, -21.426972435516497], \"count\": 1}, {\"coordinates\": [165.75543188659847, -21.427512840277508], \"count\": 1}, {\"coordinates\": [165.436935393016, -21.2508220831553], \"count\": 1}, {\"coordinates\": [165.88726873206406, -21.383840544532234], \"count\": 1}, {\"coordinates\": [165.3488007, -21.4306073], \"count\": 1}]}",
+    "species_top": {
+        "Myrsine asymmetrica (Mez) Ricketson & Pipoly subsp. asymmetrica": 11
+    },
+    "um_occurrences_true": 10,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 10.0,
+            "200": 10.0,
+            "300": 0.0,
+            "400": 10.0,
+            "500": 0.0,
+            "600": 20.0,
+            "700": 20.0,
+            "800": 0.0,
+            "900": 20.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 10.0
+        },
+        "rainfall": {
+            "1000": 9.09,
+            "1500": 18.18,
+            "2000": 45.45,
+            "2500": 18.18,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 9.09,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

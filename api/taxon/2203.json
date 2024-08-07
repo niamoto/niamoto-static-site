@@ -1,0 +1,130 @@
+{
+    "id": 2203,
+    "full_name": "Bocquillonia nervosa",
+    "authors": "AiryShaw    ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5087
+    },
+    "lft": 1133,
+    "rght": 1134,
+    "level": 2,
+    "parent_id": 410,
+    "taxon_id": 2203,
+    "total_occurrences_count": 45,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.52839, -20.3608338889], \"count\": 1}, {\"coordinates\": [164.5164329, -20.4084899], \"count\": 1}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 3}, {\"coordinates\": [164.5213457, -20.4031031], \"count\": 1}, {\"coordinates\": [165.0072222222, -20.8341666667], \"count\": 1}, {\"coordinates\": [164.8705556, -20.64075], \"count\": 1}, {\"coordinates\": [164.4922219, -20.3721472], \"count\": 2}, {\"coordinates\": [165.0063888889, -20.8322222222], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [164.4193638, -20.3007542], \"count\": 1}, {\"coordinates\": [164.733656, -20.582139], \"count\": 1}, {\"coordinates\": [164.87066666666666, -20.64097222222222], \"count\": 9}, {\"coordinates\": [165.30105277777778, -21.196755555555555], \"count\": 2}, {\"coordinates\": [165.14533333333333, -20.833694444444443], \"count\": 1}, {\"coordinates\": [164.5247853, -20.4047457], \"count\": 2}, {\"coordinates\": [164.541482, -20.4006731], \"count\": 1}, {\"coordinates\": [164.5267956, -20.3927884], \"count\": 1}, {\"coordinates\": [164.4385111, -20.3024528], \"count\": 1}, {\"coordinates\": [164.52783, -20.3995007], \"count\": 2}, {\"coordinates\": [164.5754636, -20.4373708], \"count\": 1}, {\"coordinates\": [164.945199938138, -20.8017498617618], \"count\": 1}, {\"coordinates\": [164.5158172, -20.3853107], \"count\": 2}, {\"coordinates\": [164.7333533, -20.5821389], \"count\": 1}, {\"coordinates\": [165.009014999866, -20.8527466456095], \"count\": 1}, {\"coordinates\": [165.093504720837, -20.9756634460217], \"count\": 1}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 1}, {\"coordinates\": [164.83781783705, -20.7200181036622], \"count\": 1}, {\"coordinates\": [164.740670132417, -20.7387047983333], \"count\": 1}, {\"coordinates\": [164.76055562, -20.7422222], \"count\": 1}]}",
+    "species_top": {
+        "Bocquillonia nervosa": 45
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 44,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                100.0,
+                50.0,
+                100.0,
+                100.0,
+                80.0,
+                100.0,
+                100.0,
+                75.0,
+                22.22,
+                0
+            ],
+            "fruiting": [
+                50.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                50.0,
+                0.0,
+                25.0,
+                16.67,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 6.77,
+    "dbh_max": 9.4,
+    "dbh_median": 6.2,
+    "dbh_min": 5.0,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 2.33,
+            "200": 0.0,
+            "300": 13.95,
+            "400": 2.33,
+            "500": 20.93,
+            "600": 48.84,
+            "700": 4.65,
+            "800": 4.65,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 2.33
+        },
+        "rainfall": {
+            "1000": 4.55,
+            "1500": 43.18,
+            "2000": 20.45,
+            "2500": 4.55,
+            "3000": 22.73,
+            "3500": 4.55,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

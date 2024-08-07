@@ -1,0 +1,135 @@
+{
+    "id": 15891,
+    "full_name": "Ficus hillii",
+    "authors": "F.M.Bailey",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 6322
+    },
+    "lft": 1723,
+    "rght": 1724,
+    "level": 2,
+    "parent_id": 774,
+    "taxon_id": 15891,
+    "total_occurrences_count": 17,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4592085, -22.2574446], \"count\": 1}, {\"coordinates\": [165.9962212, -21.9787498], \"count\": 1}, {\"coordinates\": [167.2311488, -20.7060259], \"count\": 1}, {\"coordinates\": [164.926459, -20.981608], \"count\": 1}, {\"coordinates\": [164.92438, -20.983092], \"count\": 2}, {\"coordinates\": [165.1023806, -21.2432376], \"count\": 1}, {\"coordinates\": [167.2364089, -20.9559721], \"count\": 1}, {\"coordinates\": [165.300278, -21.1806091], \"count\": 1}, {\"coordinates\": [166.1611713, -21.9984811], \"count\": 1}, {\"coordinates\": [165.0833282470703, -20.983333587646484], \"count\": 2}, {\"coordinates\": [166.4476949, -22.2693066], \"count\": 1}, {\"coordinates\": [166.7923611, -22.5504889], \"count\": 1}, {\"coordinates\": [168.0, -21.5], \"count\": 1}]}",
+    "species_top": {
+        "Ficus hillii": 17
+    },
+    "um_occurrences_true": 1,
+    "um_occurrences_false": 16,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                0.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                100.0,
+                100.0,
+                0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 28.0,
+    "dbh_max": 42.3,
+    "dbh_median": 22.0,
+    "dbh_min": 19.7,
+    "height_max": 12.0,
+    "wood_density_mean": 0.59,
+    "wood_density_max": 0.61,
+    "wood_density_min": 0.57,
+    "bark_thickness_mean": 3.0,
+    "bark_thickness_max": 4.5,
+    "bark_thickness_min": 1.0,
+    "leaf_sla_mean": 12.98,
+    "leaf_sla_max": 17.83,
+    "leaf_sla_min": 8.13,
+    "leaf_area_mean": 32.03,
+    "leaf_area_max": 44.31,
+    "leaf_area_min": 19.74,
+    "leaf_thickness_mean": 226.51,
+    "leaf_thickness_max": 271.94,
+    "leaf_thickness_min": 181.08,
+    "frequencies": {
+        "dbh": {
+            "10": 33.33,
+            "20": 33.33,
+            "30": 0.0,
+            "40": 33.33,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 22.22,
+            "200": 11.11,
+            "300": 55.56,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 11.11,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 8.33,
+            "1500": 58.33,
+            "2000": 33.33,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 28.57,
+            "2": 71.43
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 66.67,
+            "3": 33.33
+        }
+    }
+}

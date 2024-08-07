@@ -1,0 +1,118 @@
+{
+    "id": 2120,
+    "full_name": "Beauprea balansae",
+    "authors": "Brongn. & Gris",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 498
+    },
+    "lft": 2613,
+    "rght": 2614,
+    "level": 2,
+    "parent_id": 391,
+    "taxon_id": 2120,
+    "total_occurrences_count": 90,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3729746, -21.4194153], \"count\": 2}, {\"coordinates\": [165.88082885742188, -21.506669998168945], \"count\": 8}, {\"coordinates\": [165.95944213867188, -21.526670455932617], \"count\": 1}, {\"coordinates\": [165.7066650390625, -21.339439392089844], \"count\": 8}, {\"coordinates\": [165.684573364258, -21.3607633272807], \"count\": 1}, {\"coordinates\": [165.9627208, -21.5236466], \"count\": 2}, {\"coordinates\": [165.8840859, -21.5037493], \"count\": 2}, {\"coordinates\": [164.8344052, -20.9972296], \"count\": 2}, {\"coordinates\": [165.69639587402344, -21.31555938720703], \"count\": 2}, {\"coordinates\": [165.75939839627816, -21.41787877544223], \"count\": 1}, {\"coordinates\": [165.859987, -21.4986485], \"count\": 2}, {\"coordinates\": [164.8259205, -21.0125548], \"count\": 2}, {\"coordinates\": [165.02069708564196, -21.170152629200924], \"count\": 1}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 1}, {\"coordinates\": [165.35638427734375, -21.444719314575195], \"count\": 1}, {\"coordinates\": [165.66555786132812, -21.531110763549805], \"count\": 1}, {\"coordinates\": [166.9528526, -22.2698698], \"count\": 1}, {\"coordinates\": [165.8602752685547, -21.49666976928711], \"count\": 2}, {\"coordinates\": [165.75422046263927, -21.42016437842488], \"count\": 1}, {\"coordinates\": [165.8621230390383, -21.472710210275775], \"count\": 1}, {\"coordinates\": [165.76491097748894, -21.413489996715683], \"count\": 1}, {\"coordinates\": [165.76061205409238, -21.418863297346736], \"count\": 1}, {\"coordinates\": [166.4631195, -22.0355682], \"count\": 1}, {\"coordinates\": [165.85000610351562, -21.5], \"count\": 1}, {\"coordinates\": [165.020697085642, -21.1701526292009], \"count\": 1}, {\"coordinates\": [165.707, -21.339], \"count\": 8}, {\"coordinates\": [165.86, -21.497], \"count\": 2}, {\"coordinates\": [164.8353616666205, -20.9959442770916], \"count\": 3}, {\"coordinates\": [165.7542204626393, -21.4201643784249], \"count\": 1}, {\"coordinates\": [165.356, -21.445], \"count\": 1}, {\"coordinates\": [165.72641906568722, -21.31862588197163], \"count\": 1}, {\"coordinates\": [165.881, -21.507], \"count\": 8}, {\"coordinates\": [165.7593983962782, -21.4178787754422], \"count\": 1}, {\"coordinates\": [165.666, -21.531], \"count\": 1}, {\"coordinates\": [165.02095467735322, -21.1704009472956], \"count\": 1}, {\"coordinates\": [164.7435886110011, -20.9606562215596], \"count\": 1}, {\"coordinates\": [164.8041256905923, -20.9892101193937], \"count\": 1}, {\"coordinates\": [165.7606120540924, -21.4188632973467], \"count\": 1}, {\"coordinates\": [164.7461325713229, -20.9514033260193], \"count\": 1}, {\"coordinates\": [164.8025548018352, -21.006082664299], \"count\": 1}, {\"coordinates\": [164.811093391679, -20.990018759613], \"count\": 1}, {\"coordinates\": [165.7649109774889, -21.4134899967157], \"count\": 1}, {\"coordinates\": [165.8621230390383, -21.4727102102758], \"count\": 1}, {\"coordinates\": [164.7968688383455, -20.9910637322005], \"count\": 1}, {\"coordinates\": [164.8032920220367, -20.9962477806338], \"count\": 1}, {\"coordinates\": [164.8265199570132, -20.9979465599429], \"count\": 1}, {\"coordinates\": [165.696, -21.316], \"count\": 2}, {\"coordinates\": [165.959, -21.527], \"count\": 1}, {\"coordinates\": [165.70545419964415, -21.337644907154413], \"count\": 1}, {\"coordinates\": [165.68994939, -21.44645772], \"count\": 1}]}",
+    "species_top": {
+        "Beauprea balansae": 90
+    },
+    "um_occurrences_true": 85,
+    "um_occurrences_false": 5,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                0.0,
+                33.33
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                66.67
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 4.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 2.33,
+            "200": 18.6,
+            "300": 5.81,
+            "400": 6.98,
+            "500": 18.6,
+            "600": 17.44,
+            "700": 12.79,
+            "800": 10.47,
+            "900": 4.65,
+            "1000": 2.33,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 24.44,
+            "2000": 62.22,
+            "2500": 12.22,
+            "3000": 1.11,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

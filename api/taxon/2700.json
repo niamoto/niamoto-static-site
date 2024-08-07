@@ -1,0 +1,118 @@
+{
+    "id": 2700,
+    "full_name": "Cryptocarya leptospermoides",
+    "authors": "Kosterm.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3998
+    },
+    "lft": 1437,
+    "rght": 1438,
+    "level": 2,
+    "parent_id": 603,
+    "taxon_id": 2700,
+    "total_occurrences_count": 50,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.204413, -20.4599982], \"count\": 3}, {\"coordinates\": [164.21472, -20.45917], \"count\": 1}, {\"coordinates\": [164.208631, -20.4568555], \"count\": 4}, {\"coordinates\": [164.20265197753906, -20.46611976623535], \"count\": 1}, {\"coordinates\": [164.2147216796875, -20.459169387817383], \"count\": 1}, {\"coordinates\": [164.208740234375, -20.451980590820312], \"count\": 1}, {\"coordinates\": [164.21085, -20.4546944], \"count\": 1}, {\"coordinates\": [164.19570071344185, -20.461032590937567], \"count\": 1}, {\"coordinates\": [164.2019500732422, -20.460277557373047], \"count\": 2}, {\"coordinates\": [164.54083251953125, -20.399999618530273], \"count\": 2}, {\"coordinates\": [164.2133968860872, -20.474350408466854], \"count\": 1}, {\"coordinates\": [164.21426391601562, -20.4507999420166], \"count\": 4}, {\"coordinates\": [164.2134925, -20.4743611], \"count\": 1}, {\"coordinates\": [164.2053603, -20.4573274], \"count\": 2}, {\"coordinates\": [164.20860290527344, -20.451940536499023], \"count\": 2}, {\"coordinates\": [164.21484375, -20.46269989013672], \"count\": 1}, {\"coordinates\": [164.20208740234375, -20.460329055786133], \"count\": 4}, {\"coordinates\": [164.20111083984375, -20.46306037902832], \"count\": 1}, {\"coordinates\": [164.20193481445312, -20.46027946472168], \"count\": 1}, {\"coordinates\": [164.5440158, -20.3968687], \"count\": 1}, {\"coordinates\": [164.20992200000055, -20.455245000616674], \"count\": 1}, {\"coordinates\": [164.20124200000058, -20.440393000616318], \"count\": 1}, {\"coordinates\": [164.21665954589844, -20.46666717529297], \"count\": 1}, {\"coordinates\": [164.2026525, -20.4661233], \"count\": 1}, {\"coordinates\": [164.19354700000054, -20.460446000616805], \"count\": 1}, {\"coordinates\": [164.21665954589844, -20.466659545898438], \"count\": 2}, {\"coordinates\": [164.21083068847656, -20.45471954345703], \"count\": 2}, {\"coordinates\": [164.20728000000054, -20.458199000616787], \"count\": 1}, {\"coordinates\": [164.2087417, -20.4519806], \"count\": 1}, {\"coordinates\": [164.21084594726562, -20.454696655273438], \"count\": 1}, {\"coordinates\": [164.21318102, -20.47077277], \"count\": 1}, {\"coordinates\": [164.21235601, -20.46770472], \"count\": 1}, {\"coordinates\": [164.21349304, -20.47436112], \"count\": 1}]}",
+    "species_top": {
+        "Cryptocarya leptospermoides": 50
+    },
+    "um_occurrences_true": 47,
+    "um_occurrences_false": 3,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                0,
+                50.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                50.0,
+                60.0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0,
+                50.0,
+                0,
+                0.0,
+                0,
+                100.0,
+                0,
+                100.0,
+                100.0,
+                40.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 4.0,
+            "400": 34.0,
+            "500": 58.0,
+            "600": 4.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 10.0,
+            "1500": 90.0,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

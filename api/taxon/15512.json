@@ -1,0 +1,135 @@
+{
+    "id": 15512,
+    "full_name": "Myrsine ovicarpa",
+    "authors": "(M.Schmid) Ricketson & Pipoly ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5966
+    },
+    "lft": 2555,
+    "rght": 2556,
+    "level": 2,
+    "parent_id": 15468,
+    "taxon_id": 15512,
+    "total_occurrences_count": 68,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.6232222, -22.1943889], \"count\": 1}, {\"coordinates\": [166.9972287, -22.2614004], \"count\": 1}, {\"coordinates\": [166.92011, -22.32465], \"count\": 2}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 1}, {\"coordinates\": [166.82149, -22.32038], \"count\": 1}, {\"coordinates\": [166.662188, -22.2220638], \"count\": 1}, {\"coordinates\": [166.9508504, -22.3534791], \"count\": 1}, {\"coordinates\": [166.89935531, -22.29082505], \"count\": 2}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 5}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 10}, {\"coordinates\": [166.91511398, -22.30698298], \"count\": 2}, {\"coordinates\": [166.91417511, -22.32416658], \"count\": 1}, {\"coordinates\": [166.62572499, -22.19208599], \"count\": 2}, {\"coordinates\": [166.896683, -22.302488], \"count\": 1}, {\"coordinates\": [166.916403, -22.276366], \"count\": 1}, {\"coordinates\": [166.945646, -22.280184], \"count\": 3}, {\"coordinates\": [166.897293, -22.279661], \"count\": 1}, {\"coordinates\": [166.899565, -22.266683], \"count\": 1}, {\"coordinates\": [166.933706, -22.291942], \"count\": 3}, {\"coordinates\": [166.948567, -22.281793], \"count\": 2}, {\"coordinates\": [166.894886, -22.275826], \"count\": 2}, {\"coordinates\": [166.942302, -22.279111], \"count\": 1}, {\"coordinates\": [166.942123, -22.275688], \"count\": 1}, {\"coordinates\": [166.90391944444445, -22.274947222222224], \"count\": 4}, {\"coordinates\": [166.91365555555555, -22.32333611111111], \"count\": 1}, {\"coordinates\": [166.9135222222222, -22.320644444444444], \"count\": 2}, {\"coordinates\": [166.91715, -22.32363611111111], \"count\": 2}, {\"coordinates\": [166.626125, -22.195666666666668], \"count\": 1}, {\"coordinates\": [166.91471944444444, -22.324102777777778], \"count\": 1}, {\"coordinates\": [166.91308055555555, -22.320875], \"count\": 1}, {\"coordinates\": [166.82415771484375, -22.320209503173828], \"count\": 1}, {\"coordinates\": [166.993896484375, -22.264440536499023], \"count\": 6}, {\"coordinates\": [166.9210968017578, -22.321210861206055], \"count\": 1}, {\"coordinates\": [166.6734935, -22.2085982], \"count\": 2}]}",
+    "species_top": {
+        "Myrsine ovicarpa": 68
+    },
+    "um_occurrences_true": 68,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                0,
+                0.0,
+                20.0,
+                0,
+                100.0,
+                100.0,
+                50.0,
+                0.0,
+                60.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 16.76,
+    "dbh_max": 32.0,
+    "dbh_median": 15.0,
+    "dbh_min": 5.7,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 65.79,
+            "20": 23.68,
+            "30": 10.53,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 25.4,
+            "200": 65.08,
+            "300": 9.52,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 10.29,
+            "2500": 77.94,
+            "3000": 11.76,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 25.0,
+            "3": 75.0
+        }
+    }
+}

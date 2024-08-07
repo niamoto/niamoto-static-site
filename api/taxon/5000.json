@@ -1,0 +1,130 @@
+{
+    "id": 5000,
+    "full_name": "Piliocalyx baudouinii",
+    "authors": "Brongn. & Gris",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 319
+    },
+    "lft": 1959,
+    "rght": 1960,
+    "level": 2,
+    "parent_id": 1212,
+    "taxon_id": 5000,
+    "total_occurrences_count": 51,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.9972287, -22.2614004], \"count\": 2}, {\"coordinates\": [166.1802777778, -21.9608333333], \"count\": 1}, {\"coordinates\": [166.4230555556, -22.1172222222], \"count\": 1}, {\"coordinates\": [166.1798018, -21.9660182], \"count\": 1}, {\"coordinates\": [166.4328, -22.1217853], \"count\": 1}, {\"coordinates\": [164.42416381835938, -20.27833366394043], \"count\": 1}, {\"coordinates\": [166.9657339, -22.1956714], \"count\": 1}, {\"coordinates\": [166.1371184, -21.8699209], \"count\": 1}, {\"coordinates\": [165.967956, -21.8568645], \"count\": 1}, {\"coordinates\": [166.450345, -22.1517139], \"count\": 2}, {\"coordinates\": [166.51278686523438, -22.188329696655273], \"count\": 1}, {\"coordinates\": [164.42416381835938, -20.278329849243164], \"count\": 1}, {\"coordinates\": [166.993896484375, -22.264440536499023], \"count\": 9}, {\"coordinates\": [164.413330078125, -20.30027961730957], \"count\": 1}, {\"coordinates\": [166.4430036, -22.1309665], \"count\": 1}, {\"coordinates\": [166.52032470703125, -22.22943878173828], \"count\": 1}, {\"coordinates\": [166.429443359375, -22.124719619750977], \"count\": 1}, {\"coordinates\": [166.4230499267578, -22.11722183227539], \"count\": 2}, {\"coordinates\": [166.42306518554688, -22.117219924926758], \"count\": 1}, {\"coordinates\": [166.367562771562, -22.093053421312], \"count\": 1}, {\"coordinates\": [165.9933333, -21.7572222], \"count\": 1}, {\"coordinates\": [166.9746661, -22.1882755], \"count\": 1}, {\"coordinates\": [164.4241666667, -20.2783333333], \"count\": 1}, {\"coordinates\": [167.01693725585938, -22.263330459594727], \"count\": 1}, {\"coordinates\": [166.89833068847656, -22.063060760498047], \"count\": 1}, {\"coordinates\": [166.9067677, -22.1559741], \"count\": 1}, {\"coordinates\": [166.81805419921875, -22.324169158935547], \"count\": 1}, {\"coordinates\": [166.9680573, -22.1904592], \"count\": 1}, {\"coordinates\": [165.96832828825893, -21.80678510553533], \"count\": 1}, {\"coordinates\": [166.4472, -22.1547], \"count\": 2}, {\"coordinates\": [166.9939, -22.2644], \"count\": 2}, {\"coordinates\": [166.9036, -22.1592], \"count\": 1}, {\"coordinates\": [166.9714, -22.1914], \"count\": 1}, {\"coordinates\": [166.4294, -22.1247], \"count\": 1}, {\"coordinates\": [165.9933, -21.7572], \"count\": 1}, {\"coordinates\": [166.1339, -21.8731], \"count\": 1}, {\"coordinates\": [166.9983180980379, -22.288981700734006], \"count\": 1}, {\"coordinates\": [166.1761, -21.9614], \"count\": 1}]}",
+    "species_top": {
+        "Piliocalyx baudouinii": 51
+    },
+    "um_occurrences_true": 24,
+    "um_occurrences_false": 27,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                40.0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                0.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 20.0,
+    "dbh_max": 20.0,
+    "dbh_median": 20.0,
+    "dbh_min": 20.0,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 100.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 60.0,
+            "200": 16.0,
+            "300": 12.0,
+            "400": 0.0,
+            "500": 4.0,
+            "600": 0.0,
+            "700": 8.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 37.5,
+            "1500": 10.42,
+            "2000": 8.33,
+            "2500": 43.75,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 65.52,
+            "2": 34.48
+        }
+    }
+}

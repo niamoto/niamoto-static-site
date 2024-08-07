@@ -1,0 +1,130 @@
+{
+    "id": 13099,
+    "full_name": "Kanakomyrtus myrtopsidoides",
+    "authors": "Guillaumin ex N.Snow  ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5999
+    },
+    "lft": 1903,
+    "rght": 1904,
+    "level": 2,
+    "parent_id": 13098,
+    "taxon_id": 13099,
+    "total_occurrences_count": 76,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.6034403, -22.1190641], \"count\": 5}, {\"coordinates\": [166.5388889, -21.9580556], \"count\": 1}, {\"coordinates\": [166.6033333, -22.1147222], \"count\": 1}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 4}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 1}, {\"coordinates\": [166.5327778, -21.9594444], \"count\": 1}, {\"coordinates\": [166.535, -21.965166666666665], \"count\": 2}, {\"coordinates\": [166.53750610351562, -21.978609085083008], \"count\": 1}, {\"coordinates\": [166.54603576660156, -22.072019577026367], \"count\": 1}, {\"coordinates\": [166.53277587890625, -21.959440231323242], \"count\": 1}, {\"coordinates\": [166.60000610351562, -22.137779235839844], \"count\": 4}, {\"coordinates\": [166.6031631, -22.1347164], \"count\": 3}, {\"coordinates\": [166.60028076171875, -22.12221908569336], \"count\": 5}, {\"coordinates\": [166.5388946533203, -21.958059310913086], \"count\": 1}, {\"coordinates\": [166.5236053466797, -21.945280075073242], \"count\": 1}, {\"coordinates\": [166.42611694335938, -21.902219772338867], \"count\": 1}, {\"coordinates\": [166.5383333, -21.9611111], \"count\": 1}, {\"coordinates\": [166.4189055556, -21.8806], \"count\": 1}, {\"coordinates\": [166.5846710205078, -22.09610939025879], \"count\": 1}, {\"coordinates\": [166.5833282470703, -22.133333206176758], \"count\": 2}, {\"coordinates\": [166.538330078125, -21.961109161376953], \"count\": 1}, {\"coordinates\": [166.52813701, -21.95417595], \"count\": 1}, {\"coordinates\": [166.60524199, -22.12213601], \"count\": 2}, {\"coordinates\": [166.41456298, -21.88367598], \"count\": 1}, {\"coordinates\": [166.535, -21.96516667], \"count\": 3}, {\"coordinates\": [166.41259901, -21.88279896], \"count\": 1}, {\"coordinates\": [167.00637845852597, -22.282901609282938], \"count\": 1}, {\"coordinates\": [166.6003, -22.1222], \"count\": 5}, {\"coordinates\": [166.60028, -22.12222], \"count\": 3}, {\"coordinates\": [166.5383, -21.9611], \"count\": 1}, {\"coordinates\": [166.6, -22.13778], \"count\": 3}, {\"coordinates\": [166.5967, -22.1306], \"count\": 6}, {\"coordinates\": [166.6, -22.1378], \"count\": 2}, {\"coordinates\": [166.42611, -21.90222], \"count\": 1}, {\"coordinates\": [166.6033, -22.1147], \"count\": 1}, {\"coordinates\": [166.58467, -22.09611], \"count\": 1}, {\"coordinates\": [166.5328, -21.9594], \"count\": 1}, {\"coordinates\": [166.60129925977725, -22.115561827729376], \"count\": 1}, {\"coordinates\": [166.5389, -21.9581], \"count\": 2}]}",
+    "species_top": {
+        "Kanakomyrtus myrtopsidoides": 76
+    },
+    "um_occurrences_true": 75,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                100.0,
+                66.67,
+                0.0,
+                33.33,
+                0,
+                50.0,
+                0,
+                0,
+                50.0,
+                100.0,
+                75.0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                33.33,
+                100.0,
+                0.0,
+                0,
+                100.0,
+                0,
+                0,
+                50.0,
+                0.0,
+                75.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 8.45,
+    "dbh_max": 11.5,
+    "dbh_median": 8.45,
+    "dbh_min": 5.4,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 1.35,
+            "200": 0.0,
+            "300": 2.7,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 25.68,
+            "700": 21.62,
+            "800": 9.46,
+            "900": 6.76,
+            "1000": 1.35,
+            "1100": 2.7,
+            "1200": 28.38
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 24.0,
+            "3000": 48.0,
+            "3500": 4.0,
+            "4000": 12.0,
+            "4500": 12.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        }
+    }
+}

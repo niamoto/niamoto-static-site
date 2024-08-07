@@ -1,0 +1,135 @@
+{
+    "id": 3901,
+    "full_name": "Kermadecia elliptica",
+    "authors": "Brongn. & Gris",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 500
+    },
+    "lft": 2645,
+    "rght": 2646,
+    "level": 2,
+    "parent_id": 918,
+    "taxon_id": 3901,
+    "total_occurrences_count": 86,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.8275, -21.5725], \"count\": 2}, {\"coordinates\": [165.0149809, -20.987225], \"count\": 4}, {\"coordinates\": [165.725293094, -21.378606381], \"count\": 1}, {\"coordinates\": [165.107077, -21.122677], \"count\": 2}, {\"coordinates\": [165.122272, -21.146053], \"count\": 2}, {\"coordinates\": [166.665283203125, -22.214439392089844], \"count\": 1}, {\"coordinates\": [165.095903893779, -20.9326240295392], \"count\": 2}, {\"coordinates\": [164.50384521484375, -20.31138038635254], \"count\": 4}, {\"coordinates\": [164.71298217773438, -20.47270965576172], \"count\": 1}, {\"coordinates\": [164.83555603027344, -20.657779693603516], \"count\": 2}, {\"coordinates\": [165.080848871935, -20.9648670370986], \"count\": 1}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [165.8021381, -21.5792867], \"count\": 1}, {\"coordinates\": [166.5133819580078, -22.180570602416992], \"count\": 1}, {\"coordinates\": [165.82749938964844, -21.572500228881836], \"count\": 1}, {\"coordinates\": [165.3695831298828, -21.136220932006836], \"count\": 1}, {\"coordinates\": [165.035211303097, -20.9652774424351], \"count\": 1}, {\"coordinates\": [165.091289819784, -20.9751630331682], \"count\": 1}, {\"coordinates\": [165.087205856383, -20.9913923688168], \"count\": 1}, {\"coordinates\": [165.108170038529, -20.9454673541227], \"count\": 1}, {\"coordinates\": [165.094301663403, -20.9348994769685], \"count\": 1}, {\"coordinates\": [164.877872165555, -20.7858652952305], \"count\": 2}, {\"coordinates\": [165.25543212890625, -20.793460845947266], \"count\": 1}, {\"coordinates\": [165.023831546151, -20.9671187005174], \"count\": 1}, {\"coordinates\": [165.0116729736328, -20.990280151367188], \"count\": 2}, {\"coordinates\": [165.8000030517578, -21.616670608520508], \"count\": 2}, {\"coordinates\": [165.7252930556, -21.3786061111], \"count\": 2}, {\"coordinates\": [165.043420982604, -20.9768492732773], \"count\": 1}, {\"coordinates\": [164.894769677451, -20.7855974355029], \"count\": 1}, {\"coordinates\": [165.26669311523438, -20.88330078125], \"count\": 2}, {\"coordinates\": [164.78509521484375, -20.743459701538086], \"count\": 2}, {\"coordinates\": [166.5419464111328, -22.18383026123047], \"count\": 1}, {\"coordinates\": [165.060645106073, -20.9524831847978], \"count\": 1}, {\"coordinates\": [166.5391845703125, -22.182140350341797], \"count\": 1}, {\"coordinates\": [166.5333251953125, -22.195280075073242], \"count\": 1}, {\"coordinates\": [165.8, -21.617], \"count\": 3}, {\"coordinates\": [165.77361107, -21.6038889], \"count\": 1}, {\"coordinates\": [164.8779, -20.7859], \"count\": 2}, {\"coordinates\": [165.0352, -20.9653], \"count\": 1}, {\"coordinates\": [165.0872, -20.9914], \"count\": 1}, {\"coordinates\": [164.7604, -20.5835], \"count\": 1}, {\"coordinates\": [165.37, -21.136], \"count\": 1}, {\"coordinates\": [165.0959, -20.9326], \"count\": 2}, {\"coordinates\": [165.0809, -20.9649], \"count\": 1}, {\"coordinates\": [166.52352698, -22.18504201], \"count\": 1}, {\"coordinates\": [164.837, -20.655], \"count\": 2}, {\"coordinates\": [166.54058702, -22.17797097], \"count\": 1}, {\"coordinates\": [165.0913, -20.9752], \"count\": 1}, {\"coordinates\": [165.0606, -20.9525], \"count\": 1}, {\"coordinates\": [164.7105105390298, -20.5895864253458], \"count\": 1}, {\"coordinates\": [166.52251903, -22.181908], \"count\": 1}, {\"coordinates\": [164.8948, -20.7856], \"count\": 1}, {\"coordinates\": [165.0943, -20.9349], \"count\": 1}, {\"coordinates\": [165.0238, -20.9671], \"count\": 1}, {\"coordinates\": [165.725293, -21.3786064], \"count\": 1}, {\"coordinates\": [165.1082, -20.9455], \"count\": 1}, {\"coordinates\": [164.785, -20.743], \"count\": 2}, {\"coordinates\": [166.52465996, -22.18012997], \"count\": 1}, {\"coordinates\": [166.54231198, -22.20668797], \"count\": 1}, {\"coordinates\": [165.4717376827955, -21.4540020724521], \"count\": 1}, {\"coordinates\": [166.52290104, -22.18459897], \"count\": 1}, {\"coordinates\": [165.0434, -20.9768], \"count\": 1}]}",
+    "species_top": {
+        "Kermadecia elliptica": 86
+    },
+    "um_occurrences_true": 12,
+    "um_occurrences_false": 74,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                50.0,
+                100.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                25.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 35.0,
+    "dbh_max": 40.7,
+    "dbh_median": 34.1,
+    "dbh_min": 30.2,
+    "height_max": 12.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 66.67,
+            "40": 33.33,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 5.63,
+            "200": 19.72,
+            "300": 29.58,
+            "400": 14.08,
+            "500": 9.86,
+            "600": 16.9,
+            "700": 1.41,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 2.82
+        },
+        "rainfall": {
+            "1000": 5.88,
+            "1500": 50.59,
+            "2000": 31.76,
+            "2500": 9.41,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 2.35,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 1653,
+    "full_name": "Acropogon veillonii",
+    "authors": "Morat",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 2254
+    },
+    "lft": 1589,
+    "rght": 1590,
+    "level": 2,
+    "parent_id": 256,
+    "taxon_id": 1653,
+    "total_occurrences_count": 64,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [167.454895, -21.0533977], \"count\": 4}, {\"coordinates\": [165.3742857, -21.0406765], \"count\": 2}, {\"coordinates\": [167.9794457, -21.5172018], \"count\": 5}, {\"coordinates\": [167.8488509, -21.4881082], \"count\": 2}, {\"coordinates\": [167.2364089, -20.9559721], \"count\": 1}, {\"coordinates\": [167.4517059326172, -21.05647087097168], \"count\": 2}, {\"coordinates\": [167.45167541503906, -21.0563907623291], \"count\": 6}, {\"coordinates\": [167.8456573486328, -21.49118995666504], \"count\": 1}, {\"coordinates\": [167.97625732421875, -21.52029037475586], \"count\": 2}, {\"coordinates\": [167.17152404785156, -20.72205924987793], \"count\": 1}, {\"coordinates\": [165.37110900878906, -21.043609619140625], \"count\": 2}, {\"coordinates\": [168.0849609375, -21.502479553222656], \"count\": 1}, {\"coordinates\": [167.4517, -21.05647], \"count\": 2}, {\"coordinates\": [167.89304, -21.59335], \"count\": 1}, {\"coordinates\": [166.42996, -20.72622], \"count\": 1}, {\"coordinates\": [167.4516667, -21.05638889], \"count\": 4}, {\"coordinates\": [167.17152, -20.72206], \"count\": 1}, {\"coordinates\": [167.8602, -21.39475], \"count\": 1}, {\"coordinates\": [167.45167, -21.05639], \"count\": 6}, {\"coordinates\": [165.3711111, -21.04361111], \"count\": 2}, {\"coordinates\": [167.84566, -21.49119], \"count\": 3}, {\"coordinates\": [168.08496, -21.50248], \"count\": 1}, {\"coordinates\": [167.93477, -21.59908], \"count\": 1}, {\"coordinates\": [165.37111, -21.04361], \"count\": 2}, {\"coordinates\": [167.9763889, -21.52027778], \"count\": 2}, {\"coordinates\": [168.10623, -21.59695], \"count\": 1}, {\"coordinates\": [167.171, -20.722], \"count\": 1}, {\"coordinates\": [167.4587486106605, -21.05810781616744], \"count\": 1}, {\"coordinates\": [167.97626, -21.52029], \"count\": 2}, {\"coordinates\": [167.45485, -21.05856], \"count\": 1}, {\"coordinates\": [167.93415, -21.39378], \"count\": 1}]}",
+    "species_top": {
+        "Acropogon veillonii": 64
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 64,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                50.0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                66.67,
+                0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                75.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                33.33,
+                0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 31.25,
+    "dbh_max": 40.0,
+    "dbh_median": 32.5,
+    "dbh_min": 20.0,
+    "height_max": 14.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 50.0,
+            "30": 0.0,
+            "40": 50.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 20.0,
+            "200": 60.0,
+            "300": 20.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 1.59,
+            "1500": 85.71,
+            "2000": 0.0,
+            "2500": 12.7,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 1.82,
+            "2": 98.18
+        }
+    }
+}

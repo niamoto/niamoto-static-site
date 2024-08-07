@@ -1,0 +1,118 @@
+{
+    "id": 1738,
+    "full_name": "Alphandia furfuracea",
+    "authors": "Baill.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3700
+    },
+    "lft": 1105,
+    "rght": 1106,
+    "level": 2,
+    "parent_id": 291,
+    "taxon_id": 1738,
+    "total_occurrences_count": 65,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.1811153, -20.4840221], \"count\": 1}, {\"coordinates\": [164.2185, -20.5031111111], \"count\": 1}, {\"coordinates\": [164.1916158, -20.3379122], \"count\": 1}, {\"coordinates\": [165.0495472, -21.2444917], \"count\": 1}, {\"coordinates\": [164.2339902, -20.5269674], \"count\": 1}, {\"coordinates\": [166.19305419921875, -21.587779998779297], \"count\": 3}, {\"coordinates\": [164.1826934814453, -20.485889434814453], \"count\": 2}, {\"coordinates\": [164.22000122070312, -20.527219772338867], \"count\": 2}, {\"coordinates\": [164.218505859375, -20.503110885620117], \"count\": 1}, {\"coordinates\": [165.054338884354, -21.2457722187042], \"count\": 1}, {\"coordinates\": [164.185967, -20.4828821], \"count\": 2}, {\"coordinates\": [164.12889099121094, -20.401670455932617], \"count\": 3}, {\"coordinates\": [164.1320666, -20.39873], \"count\": 2}, {\"coordinates\": [166.19415283203125, -21.59001922607422], \"count\": 4}, {\"coordinates\": [166.1964188, -21.5846349], \"count\": 1}, {\"coordinates\": [164.2308349609375, -20.530000686645508], \"count\": 1}, {\"coordinates\": [164.82264709472656, -21.015579223632812], \"count\": 1}, {\"coordinates\": [165.072088, -21.236996], \"count\": 1}, {\"coordinates\": [164.0552778, -20.2878056], \"count\": 1}, {\"coordinates\": [166.1999969482422, -21.666667938232422], \"count\": 1}, {\"coordinates\": [165.061365477741, -21.2883388996124], \"count\": 1}, {\"coordinates\": [166.1942, -21.59], \"count\": 4}, {\"coordinates\": [164.2308, -20.53], \"count\": 2}, {\"coordinates\": [164.2317453574604, -20.51109554080174], \"count\": 2}, {\"coordinates\": [164.1289, -20.4017], \"count\": 5}, {\"coordinates\": [164.1828, -20.4858], \"count\": 2}, {\"coordinates\": [164.0553, -20.2878], \"count\": 1}, {\"coordinates\": [166.1931, -21.5878], \"count\": 4}, {\"coordinates\": [164.1778, -20.4869], \"count\": 1}, {\"coordinates\": [164.8979968799638, -21.179746887183875], \"count\": 1}, {\"coordinates\": [165.0495, -21.2445], \"count\": 1}, {\"coordinates\": [164.18973736810813, -20.339034811095285], \"count\": 1}, {\"coordinates\": [164.05286401991918, -20.291841687644464], \"count\": 1}, {\"coordinates\": [164.1827, -20.4859], \"count\": 2}, {\"coordinates\": [164.8227, -21.0156], \"count\": 1}]}",
+    "species_top": {
+        "Alphandia furfuracea": 65
+    },
+    "um_occurrences_true": 48,
+    "um_occurrences_false": 17,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                100.0,
+                0,
+                100.0,
+                0,
+                100.0,
+                0.0,
+                66.67,
+                100.0,
+                0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                33.33,
+                100.0,
+                0.0,
+                100.0,
+                0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 45.45,
+            "200": 9.09,
+            "300": 18.18,
+            "400": 9.09,
+            "500": 0.0,
+            "600": 18.18,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 57.41,
+            "1500": 38.89,
+            "2000": 1.85,
+            "2500": 1.85,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 50.0,
+            "2": 50.0
+        }
+    }
+}

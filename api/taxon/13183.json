@@ -1,0 +1,138 @@
+{
+    "id": 13183,
+    "full_name": "Gossia clusioides",
+    "authors": "(Brongn. & Gris) N.Snow",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 6368
+    },
+    "lft": 1871,
+    "rght": 1880,
+    "level": 2,
+    "parent_id": 13069,
+    "taxon_id": 13183,
+    "total_occurrences_count": 157,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.6113341667, -21.2017419444], \"count\": 1}, {\"coordinates\": [166.3088326, -21.6561789], \"count\": 1}, {\"coordinates\": [165.7119529, -21.3047226], \"count\": 1}, {\"coordinates\": [166.9746661, -22.1882755], \"count\": 1}, {\"coordinates\": [166.6638296, -22.0935546], \"count\": 1}, {\"coordinates\": [166.6958044, -22.1642337], \"count\": 1}, {\"coordinates\": [166.662188, -22.2220638], \"count\": 2}, {\"coordinates\": [164.79989, -21.04283], \"count\": 1}, {\"coordinates\": [164.2026525, -20.4661233], \"count\": 1}, {\"coordinates\": [166.907922, -22.282192], \"count\": 1}, {\"coordinates\": [166.897293, -22.279661], \"count\": 1}, {\"coordinates\": [166.90829, -22.282251], \"count\": 1}, {\"coordinates\": [166.910349, -22.281545], \"count\": 2}, {\"coordinates\": [165.0083910115, -20.852514552], \"count\": 2}, {\"coordinates\": [166.9933888888889, -22.27563888888889], \"count\": 6}, {\"coordinates\": [166.76387222222223, -22.172897222222222], \"count\": 6}, {\"coordinates\": [166.99455555555556, -22.273083333333332], \"count\": 12}, {\"coordinates\": [166.99297, -22.274809833333332], \"count\": 2}, {\"coordinates\": [167.00455555555556, -22.28775], \"count\": 5}, {\"coordinates\": [166.9188, -22.31930277777778], \"count\": 2}, {\"coordinates\": [166.99477777777778, -22.273083333333332], \"count\": 3}, {\"coordinates\": [166.9180861111111, -22.3246], \"count\": 1}, {\"coordinates\": [166.99425, -22.272916666666667], \"count\": 3}, {\"coordinates\": [166.99322222222222, -22.275277777777777], \"count\": 1}, {\"coordinates\": [166.91786944444445, -22.318091666666668], \"count\": 2}, {\"coordinates\": [166.92914166666668, -22.32357222222222], \"count\": 1}, {\"coordinates\": [166.92065833333334, -22.318175], \"count\": 2}, {\"coordinates\": [166.91660277777777, -22.32164722222222], \"count\": 1}, {\"coordinates\": [167.00441666666666, -22.28725], \"count\": 3}, {\"coordinates\": [166.8918888888889, -22.153805555555557], \"count\": 1}, {\"coordinates\": [164.797916666667, -21.0142833332221], \"count\": 1}, {\"coordinates\": [166.9288472222, -22.0958416667], \"count\": 1}, {\"coordinates\": [164.775218391418, -21.0151508500179], \"count\": 1}, {\"coordinates\": [166.3522160459708, -21.91610080444884], \"count\": 1}, {\"coordinates\": [166.36204941123543, -21.92742022983963], \"count\": 1}, {\"coordinates\": [164.571243, -20.78752], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [165.77269997, -21.60794696], \"count\": 2}, {\"coordinates\": [165.69225971391592, -21.382393173002114], \"count\": 1}, {\"coordinates\": [165.9235941, -21.5779379], \"count\": 1}, {\"coordinates\": [164.795624758403, -21.0160069566965], \"count\": 1}, {\"coordinates\": [165.77777196, -21.608483], \"count\": 2}, {\"coordinates\": [164.2292236, -20.4737172], \"count\": 1}, {\"coordinates\": [166.97811857521114, -22.277760654585695], \"count\": 1}, {\"coordinates\": [166.97318172353815, -22.276286946450234], \"count\": 1}, {\"coordinates\": [166.3564392014976, -21.906185430812624], \"count\": 1}, {\"coordinates\": [165.69604491193948, -21.418972845454864], \"count\": 1}, {\"coordinates\": [167.006686, -22.28628], \"count\": 1}, {\"coordinates\": [165.08000004, -21.1644444], \"count\": 1}, {\"coordinates\": [166.89682471, -22.28926679], \"count\": 2}, {\"coordinates\": [164.74419, -20.59123], \"count\": 1}, {\"coordinates\": [166.9063444, -22.29200828], \"count\": 2}, {\"coordinates\": [166.23174487, -21.67188604], \"count\": 1}, {\"coordinates\": [167.01228203, -22.290119], \"count\": 1}, {\"coordinates\": [166.99265896, -22.26787599], \"count\": 1}, {\"coordinates\": [166.90349952, -22.27474405], \"count\": 2}, {\"coordinates\": [166.89187897, -22.15379903], \"count\": 2}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 9}, {\"coordinates\": [166.99331303, -22.275616], \"count\": 1}, {\"coordinates\": [166.9032272, -22.27420242], \"count\": 2}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 2}, {\"coordinates\": [166.7042186, -22.2905383], \"count\": 1}, {\"coordinates\": [166.9972287, -22.2614004], \"count\": 2}, {\"coordinates\": [164.5460263, -20.7247878], \"count\": 1}, {\"coordinates\": [165.3116161, -21.1726421], \"count\": 1}, {\"coordinates\": [166.82149, -22.32038], \"count\": 1}, {\"coordinates\": [165.5402831, -21.3799], \"count\": 1}, {\"coordinates\": [164.2234152778, -20.4518819444], \"count\": 2}, {\"coordinates\": [164.196263, -20.4623889], \"count\": 1}, {\"coordinates\": [166.68333329, -22.19999999], \"count\": 1}, {\"coordinates\": [166.76361107, -22.17805556], \"count\": 7}, {\"coordinates\": [166.91511398, -22.30698298], \"count\": 6}, {\"coordinates\": [166.85342804, -22.074305], \"count\": 2}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 10}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 2}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 1}, {\"coordinates\": [165.7752768, -21.35473467], \"count\": 1}, {\"coordinates\": [164.74863229, -21.01040027], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}]}",
+    "species_top": {
+        "Gossia clusioides": 136,
+        "Gossia clusioides N. Snow, comb. ined. var. clusioides": 12,
+        "Gossia clusioides var. bleuensis": 5,
+        "Gossia clusioides var. tiebaghiensis": 4
+    },
+    "um_occurrences_true": 144,
+    "um_occurrences_false": 13,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                50.0,
+                100.0,
+                28.57,
+                100.0,
+                66.67,
+                66.67,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                8.33
+            ],
+            "fruiting": [
+                0.0,
+                50.0,
+                0.0,
+                28.57,
+                75.0,
+                66.67,
+                66.67,
+                0.0,
+                50.0,
+                27.27,
+                50.0,
+                16.67
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.25,
+    "dbh_max": 44.1,
+    "dbh_median": 10.0,
+    "dbh_min": 5.0,
+    "height_max": 8.0,
+    "wood_density_mean": 0.81,
+    "wood_density_max": 0.82,
+    "wood_density_min": 0.8,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": 7.22,
+    "leaf_sla_max": 7.6,
+    "leaf_sla_min": 6.84,
+    "leaf_area_mean": 12.41,
+    "leaf_area_max": 14.99,
+    "leaf_area_min": 9.83,
+    "leaf_thickness_mean": 270.81,
+    "leaf_thickness_max": 276.74,
+    "leaf_thickness_min": 264.87,
+    "frequencies": {
+        "dbh": {
+            "10": 93.62,
+            "20": 2.13,
+            "30": 2.13,
+            "40": 2.13,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 13.51,
+            "200": 55.41,
+            "300": 14.86,
+            "400": 4.73,
+            "500": 4.05,
+            "600": 6.08,
+            "700": 1.35,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 3.82,
+            "1500": 8.92,
+            "2000": 19.75,
+            "2500": 60.51,
+            "3000": 6.37,
+            "3500": 0.0,
+            "4000": 0.64,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 50.0,
+            "2": 0.0,
+            "3": 50.0
+        }
+    }
+}

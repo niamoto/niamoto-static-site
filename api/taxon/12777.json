@@ -1,0 +1,130 @@
+{
+    "id": 12777,
+    "full_name": "Pycnandra blaffartii",
+    "authors": "Swenson & Munzinger",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5990
+    },
+    "lft": 3365,
+    "rght": 3366,
+    "level": 2,
+    "parent_id": 1281,
+    "taxon_id": 12777,
+    "total_occurrences_count": 43,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.7718214, -20.5860337], \"count\": 2}, {\"coordinates\": [164.7, -20.5], \"count\": 1}, {\"coordinates\": [164.7688388888889, -20.575755555555556], \"count\": 24}, {\"coordinates\": [164.7708282470703, -20.58860969543457], \"count\": 2}, {\"coordinates\": [164.77096557617188, -20.588659286499023], \"count\": 2}, {\"coordinates\": [164.62469482421875, -20.486541748046875], \"count\": 1}, {\"coordinates\": [164.7708282470703, -20.588329315185547], \"count\": 2}, {\"coordinates\": [164.7742238, -20.5856472], \"count\": 1}, {\"coordinates\": [164.6999969482422, -20.5], \"count\": 1}, {\"coordinates\": [164.701666666667, -20.5119444444444], \"count\": 1}, {\"coordinates\": [164.768838888889, -20.5757555555556], \"count\": 3}, {\"coordinates\": [164.770833333333, -20.5886111111111], \"count\": 2}, {\"coordinates\": [164.766944444444, -20.5916666666667], \"count\": 1}]}",
+    "species_top": {
+        "Pycnandra blaffartii": 43
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 43,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                100.0,
+                0,
+                0.0,
+                100.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                100.0,
+                0.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 9.15,
+    "dbh_max": 19.3,
+    "dbh_median": 8.55,
+    "dbh_min": 5.1,
+    "height_max": 7.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 2.33,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 4.65,
+            "1100": 62.79,
+            "1200": 30.23
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 2.33,
+            "3500": 88.37,
+            "4000": 9.3,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 0.0
+        }
+    }
+}

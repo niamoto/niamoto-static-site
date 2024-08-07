@@ -1,0 +1,130 @@
+{
+    "id": 3808,
+    "full_name": "Intsia bijuga",
+    "authors": "(Colebr.) Kuntze",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 950
+    },
+    "lft": 1205,
+    "rght": 1206,
+    "level": 2,
+    "parent_id": 900,
+    "taxon_id": 3808,
+    "total_occurrences_count": 40,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.3073118, -20.2438681], \"count\": 1}, {\"coordinates\": [163.9126061, -20.1357273], \"count\": 1}, {\"coordinates\": [164.1995211, -20.2507108], \"count\": 2}, {\"coordinates\": [163.9749269444, -20.0897863889], \"count\": 1}, {\"coordinates\": [164.1919192, -20.1072898], \"count\": 1}, {\"coordinates\": [164.1162406, -20.2681141], \"count\": 1}, {\"coordinates\": [167.4730564, -22.6069583], \"count\": 1}, {\"coordinates\": [165.942225, -21.5017704], \"count\": 1}, {\"coordinates\": [166.5929942, -22.2801316], \"count\": 1}, {\"coordinates\": [165.55349, -21.1957584], \"count\": 1}, {\"coordinates\": [167.0117812, -22.3179987], \"count\": 1}, {\"coordinates\": [165.0506134033203, -21.138086318969727], \"count\": 1}, {\"coordinates\": [167.4424877, -22.6104829], \"count\": 1}, {\"coordinates\": [167.442202, -22.550504], \"count\": 1}, {\"coordinates\": [167.428897, -22.5499363], \"count\": 1}, {\"coordinates\": [167.43755881241808, -22.66342458833868], \"count\": 1}, {\"coordinates\": [167.43333435058594, -22.549999237060547], \"count\": 5}, {\"coordinates\": [167.4391632080078, -22.613609313964844], \"count\": 3}, {\"coordinates\": [166.5580317, -20.6166726], \"count\": 1}, {\"coordinates\": [167.48333740234375, -22.666667938232422], \"count\": 1}, {\"coordinates\": [163.666338912437, -19.7365459449388], \"count\": 1}, {\"coordinates\": [167.0359484, -22.2569925], \"count\": 1}, {\"coordinates\": [164.19610595703125, -20.253610610961914], \"count\": 1}, {\"coordinates\": [164.307192, -20.25244], \"count\": 1}, {\"coordinates\": [167.522978, -22.593577], \"count\": 1}, {\"coordinates\": [167.02400997, -22.24725997], \"count\": 1}]}",
+    "species_top": {
+        "Intsia bijuga": 40
+    },
+    "um_occurrences_true": 5,
+    "um_occurrences_false": 35,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0,
+                25.0,
+                0,
+                28.57,
+                50.0,
+                50.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                100.0,
+                0,
+                0.0,
+                0,
+                25.0,
+                0,
+                28.57,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 72.5,
+    "dbh_max": 100.0,
+    "dbh_median": 72.5,
+    "dbh_min": 45.0,
+    "height_max": 20.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 50.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 50.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 100.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 75.76,
+            "1500": 15.15,
+            "2000": 0.0,
+            "2500": 9.09,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 30.0,
+            "2": 70.0
+        }
+    }
+}

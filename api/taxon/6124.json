@@ -1,0 +1,130 @@
+{
+    "id": 6124,
+    "full_name": "Tristaniopsis reticulata",
+    "authors": "J.W.Dawson    ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1406
+    },
+    "lft": 2125,
+    "rght": 2126,
+    "level": 2,
+    "parent_id": 1504,
+    "taxon_id": 6124,
+    "total_occurrences_count": 216,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.9746661, -22.1882755], \"count\": 3}, {\"coordinates\": [166.3300111111, -21.6951694444], \"count\": 1}, {\"coordinates\": [166.9972287, -22.2614004], \"count\": 6}, {\"coordinates\": [164.8202061111, -21.0309280556], \"count\": 1}, {\"coordinates\": [167.0052778, -22.2572222], \"count\": 1}, {\"coordinates\": [164.8213888889, -21.0302777778], \"count\": 1}, {\"coordinates\": [166.9121272, -22.3043999], \"count\": 2}, {\"coordinates\": [166.91, -22.2986111], \"count\": 1}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 4}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 4}, {\"coordinates\": [166.75527783, -22.31027775], \"count\": 5}, {\"coordinates\": [165.78024648, -21.35343777], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 4}, {\"coordinates\": [166.89660352, -22.27926796], \"count\": 2}, {\"coordinates\": [166.9, -22.27694447], \"count\": 2}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 1}, {\"coordinates\": [166.948543, -22.278], \"count\": 2}, {\"coordinates\": [166.948567, -22.281793], \"count\": 2}, {\"coordinates\": [166.903162, -22.276171], \"count\": 10}, {\"coordinates\": [166.947223, -22.280532], \"count\": 4}, {\"coordinates\": [167.0075, -22.25722222222222], \"count\": 1}, {\"coordinates\": [166.92571666666666, -22.320641666666667], \"count\": 1}, {\"coordinates\": [166.9188, -22.31930277777778], \"count\": 1}, {\"coordinates\": [166.99505555555555, -22.272694444444443], \"count\": 2}, {\"coordinates\": [166.91771666666668, -22.319005555555556], \"count\": 1}, {\"coordinates\": [167.0006111111111, -22.27777777777778], \"count\": 1}, {\"coordinates\": [166.68333333333334, -22.2], \"count\": 1}, {\"coordinates\": [166.9, -22.283333333333335], \"count\": 1}, {\"coordinates\": [166.9713897705078, -22.191389083862305], \"count\": 12}, {\"coordinates\": [166.9972222, -22.2580556], \"count\": 1}, {\"coordinates\": [166.19305419921875, -21.587779998779297], \"count\": 4}, {\"coordinates\": [166.1964188, -21.5846349], \"count\": 1}, {\"coordinates\": [165.5919444444, -21.1938888889], \"count\": 2}, {\"coordinates\": [166.9088897705078, -22.3075008392334], \"count\": 6}, {\"coordinates\": [166.9419199, -22.346665], \"count\": 1}, {\"coordinates\": [166.993896484375, -22.264440536499023], \"count\": 12}, {\"coordinates\": [166.9166717529297, -22.333332061767578], \"count\": 1}, {\"coordinates\": [166.99985702, -22.28844299], \"count\": 1}, {\"coordinates\": [167.00311705, -22.285431], \"count\": 1}, {\"coordinates\": [165.1356906, -20.81623265], \"count\": 1}, {\"coordinates\": [166.67612005, -22.04756799], \"count\": 1}, {\"coordinates\": [167.00730501, -22.28196797], \"count\": 1}, {\"coordinates\": [167.01228203, -22.290119], \"count\": 1}, {\"coordinates\": [167.00773905, -22.28455104], \"count\": 1}, {\"coordinates\": [166.929343, -22.297622], \"count\": 2}, {\"coordinates\": [166.90889, -22.3075], \"count\": 3}, {\"coordinates\": [166.19306, -21.58778], \"count\": 2}, {\"coordinates\": [166.88816927881075, -22.054699969356722], \"count\": 1}, {\"coordinates\": [166.9939, -22.2644], \"count\": 6}, {\"coordinates\": [166.929791, -22.297881], \"count\": 3}, {\"coordinates\": [166.903338, -22.276045], \"count\": 5}, {\"coordinates\": [166.9257167, -22.32064167], \"count\": 1}, {\"coordinates\": [166.930156, -22.297319], \"count\": 2}, {\"coordinates\": [166.930082, -22.297916], \"count\": 2}, {\"coordinates\": [167.0006111, -22.27777778], \"count\": 1}, {\"coordinates\": [166.929844, -22.298658], \"count\": 3}, {\"coordinates\": [166.930145, -22.297076], \"count\": 2}, {\"coordinates\": [166.97139, -22.19139], \"count\": 6}, {\"coordinates\": [166.947215, -22.280571], \"count\": 2}, {\"coordinates\": [166.99389, -22.26444], \"count\": 6}, {\"coordinates\": [166.9188, -22.31930278], \"count\": 1}, {\"coordinates\": [166.929863, -22.298576], \"count\": 1}, {\"coordinates\": [166.9089, -22.3075], \"count\": 2}, {\"coordinates\": [167.007540767964, -22.257022909953708], \"count\": 1}, {\"coordinates\": [166.931418, -22.297321], \"count\": 2}, {\"coordinates\": [166.9972, -22.2581], \"count\": 1}, {\"coordinates\": [166.9177167, -22.31900556], \"count\": 1}, {\"coordinates\": [166.929727, -22.298478], \"count\": 1}, {\"coordinates\": [166.929972, -22.297284], \"count\": 2}, {\"coordinates\": [166.931367, -22.296978], \"count\": 2}, {\"coordinates\": [166.914058287, -22.2954256697], \"count\": 1}, {\"coordinates\": [166.91, -22.2986], \"count\": 2}, {\"coordinates\": [166.930048, -22.297094], \"count\": 2}, {\"coordinates\": [166.93, -22.297239], \"count\": 2}, {\"coordinates\": [166.948594, -22.277976], \"count\": 1}, {\"coordinates\": [166.90377495628357, -22.18485830838984], \"count\": 1}, {\"coordinates\": [166.931231, -22.296907], \"count\": 2}, {\"coordinates\": [166.91417139, -22.2950649025], \"count\": 1}, {\"coordinates\": [166.917543, -22.30241], \"count\": 1}, {\"coordinates\": [166.930146, -22.297247], \"count\": 2}, {\"coordinates\": [166.929753, -22.297972], \"count\": 3}, {\"coordinates\": [166.9, -22.28333333], \"count\": 1}, {\"coordinates\": [166.931436, -22.297114], \"count\": 2}, {\"coordinates\": [166.931194, -22.29716], \"count\": 2}, {\"coordinates\": [166.9714, -22.1914], \"count\": 3}, {\"coordinates\": [166.9977026, -22.29695541], \"count\": 1}, {\"coordinates\": [166.931348, -22.297051], \"count\": 2}, {\"coordinates\": [166.6833333, -22.2], \"count\": 1}, {\"coordinates\": [167.00531841376554, -22.257136946802913], \"count\": 1}, {\"coordinates\": [166.948488, -22.281874], \"count\": 1}, {\"coordinates\": [166.929758, -22.298794], \"count\": 3}, {\"coordinates\": [166.90879232268648, -22.29876843920426], \"count\": 1}, {\"coordinates\": [166.937729, -22.296248], \"count\": 2}, {\"coordinates\": [166.9950556, -22.27269444], \"count\": 2}, {\"coordinates\": [166.1931, -21.5878], \"count\": 1}, {\"coordinates\": [166.913425, -22.304988], \"count\": 1}]}",
+    "species_top": {
+        "Tristaniopsis reticulata": 216
+    },
+    "um_occurrences_true": 191,
+    "um_occurrences_false": 25,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                0.0,
+                100.0,
+                80.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                33.33,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                33.33,
+                14.29
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 20.79,
+    "dbh_max": 60.0,
+    "dbh_median": 19.2,
+    "dbh_min": 7.6,
+    "height_max": 25.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 50.0,
+            "20": 29.41,
+            "30": 17.65,
+            "40": 0.0,
+            "50": 2.94,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 48.82,
+            "200": 30.59,
+            "300": 15.29,
+            "400": 1.76,
+            "500": 3.53,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 5.09,
+            "2000": 7.41,
+            "2500": 72.69,
+            "3000": 14.81,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 5917,
+    "full_name": "Syzygium sarmentosum",
+    "authors": "J.W.Dawson",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4292
+    },
+    "lft": 2085,
+    "rght": 2086,
+    "level": 2,
+    "parent_id": 1439,
+    "taxon_id": 5917,
+    "total_occurrences_count": 30,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.2233463, -20.5242834], \"count\": 2}, {\"coordinates\": [164.1411417, -20.3947222], \"count\": 2}, {\"coordinates\": [164.304409, -20.5762409], \"count\": 6}, {\"coordinates\": [164.30111694335938, -20.57917022705078], \"count\": 4}, {\"coordinates\": [164.180347826332, -20.3952223062515], \"count\": 1}, {\"coordinates\": [164.2339902, -20.5269674], \"count\": 2}, {\"coordinates\": [164.22000122070312, -20.527219772338867], \"count\": 1}, {\"coordinates\": [164.28334045410156, -20.530000686645508], \"count\": 1}, {\"coordinates\": [164.949641173638, -21.1715352763352], \"count\": 1}, {\"coordinates\": [164.2308349609375, -20.530000686645508], \"count\": 1}, {\"coordinates\": [164.1803478263, -20.3952223063], \"count\": 1}, {\"coordinates\": [164.23083, -20.53], \"count\": 1}, {\"coordinates\": [164.30111, -20.57917], \"count\": 4}, {\"coordinates\": [164.1315742, -20.3854913], \"count\": 2}, {\"coordinates\": [164.22, -20.52722], \"count\": 1}]}",
+    "species_top": {
+        "Syzygium sarmentosum": 30
+    },
+    "um_occurrences_true": 15,
+    "um_occurrences_false": 15,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                66.67,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                100.0,
+                0,
+                0.0
+            ],
+            "fruiting": [
+                33.33,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 30.0,
+    "dbh_max": 30.0,
+    "dbh_median": 30.0,
+    "dbh_min": 30.0,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 100.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 100.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 100.0,
+            "1500": 0.0,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 100.0,
+            "2": 0.0
+        }
+    }
+}

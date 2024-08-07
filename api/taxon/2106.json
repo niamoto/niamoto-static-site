@@ -1,0 +1,130 @@
+{
+    "id": 2106,
+    "full_name": "Basselinia velutina",
+    "authors": "Becc.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1103
+    },
+    "lft": 373,
+    "rght": 374,
+    "level": 2,
+    "parent_id": 388,
+    "taxon_id": 2106,
+    "total_occurrences_count": 448,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.8813852, -21.6202967], \"count\": 6}, {\"coordinates\": [164.7930568, -20.562816], \"count\": 8}, {\"coordinates\": [165.695622, -21.5333304], \"count\": 12}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 1}, {\"coordinates\": [164.86138888888888, -20.64161111111111], \"count\": 21}, {\"coordinates\": [164.78330555555556, -20.559833333333334], \"count\": 11}, {\"coordinates\": [164.7688388888889, -20.575755555555556], \"count\": 56}, {\"coordinates\": [164.78330555555556, -20.560027777777776], \"count\": 5}, {\"coordinates\": [164.774, -20.57027777777778], \"count\": 64}, {\"coordinates\": [164.77325, -20.570805555555555], \"count\": 70}, {\"coordinates\": [164.77380555555555, -20.570083333333333], \"count\": 63}, {\"coordinates\": [164.861399968465, -20.6414733250936], \"count\": 1}, {\"coordinates\": [164.77999877929688, -20.56999969482422], \"count\": 3}, {\"coordinates\": [165.6699981689453, -21.520000457763672], \"count\": 1}, {\"coordinates\": [165.7732106, -21.6089248], \"count\": 5}, {\"coordinates\": [165.77000427246094, -21.611940383911133], \"count\": 3}, {\"coordinates\": [165.8800048828125, -21.6200008392334], \"count\": 1}, {\"coordinates\": [166.23846435546875, -21.675369262695312], \"count\": 4}, {\"coordinates\": [165.8781280517578, -21.623340606689453], \"count\": 9}, {\"coordinates\": [164.861411348979, -20.6415016810099], \"count\": 1}, {\"coordinates\": [164.777198317924, -20.5983936543717], \"count\": 1}, {\"coordinates\": [164.77264404296875, -20.58608055114746], \"count\": 5}, {\"coordinates\": [166.02999877929688, -21.649999618530273], \"count\": 2}, {\"coordinates\": [165.879182827917, -21.624492988], \"count\": 1}, {\"coordinates\": [165.87806701660156, -21.623329162597656], \"count\": 1}, {\"coordinates\": [164.7772261, -20.5827348], \"count\": 1}, {\"coordinates\": [165.702832, -21.5214633], \"count\": 1}, {\"coordinates\": [165.88333129882812, -21.616666793823242], \"count\": 1}, {\"coordinates\": [164.789794921875, -20.56583023071289], \"count\": 2}, {\"coordinates\": [165.183621, -20.8438635], \"count\": 1}, {\"coordinates\": [164.862275, -20.640831], \"count\": 1}, {\"coordinates\": [165.68777465820312, -21.53306007385254], \"count\": 1}, {\"coordinates\": [165.879220491333, -21.624500894], \"count\": 1}, {\"coordinates\": [165.879768751, -21.6247957375], \"count\": 1}, {\"coordinates\": [164.78173828125, -20.57522964477539], \"count\": 2}, {\"coordinates\": [164.760401066275, -20.5834692222137], \"count\": 1}, {\"coordinates\": [164.7688389, -20.57575556], \"count\": 3}, {\"coordinates\": [165.9294, -21.58964], \"count\": 1}, {\"coordinates\": [165.77, -21.61194], \"count\": 3}, {\"coordinates\": [165.77579778, -21.60084687], \"count\": 1}, {\"coordinates\": [165.68778, -21.53306], \"count\": 1}, {\"coordinates\": [164.78174, -20.57523], \"count\": 2}, {\"coordinates\": [165.6914, -21.5681], \"count\": 1}, {\"coordinates\": [165.8750432, -21.6205675], \"count\": 2}, {\"coordinates\": [165.8781, -21.6233], \"count\": 1}, {\"coordinates\": [164.77325, -20.57080556], \"count\": 1}, {\"coordinates\": [164.7833056, -20.55983333], \"count\": 1}, {\"coordinates\": [164.77264, -20.58608], \"count\": 5}, {\"coordinates\": [165.6922, -21.5364], \"count\": 2}, {\"coordinates\": [164.7897, -20.5658], \"count\": 3}, {\"coordinates\": [164.7833056, -20.56002778], \"count\": 1}, {\"coordinates\": [164.7666, -20.58333], \"count\": 1}, {\"coordinates\": [164.7667, -20.5667], \"count\": 1}, {\"coordinates\": [164.8613889, -20.64161111], \"count\": 22}, {\"coordinates\": [165.1803, -20.8469], \"count\": 1}, {\"coordinates\": [165.8843558, -21.6170207], \"count\": 1}, {\"coordinates\": [165.87813, -21.62334], \"count\": 9}, {\"coordinates\": [165.87806, -21.62333], \"count\": 1}, {\"coordinates\": [164.7739, -20.5858], \"count\": 1}, {\"coordinates\": [165.76863977758006, -21.597264759786476], \"count\": 1}, {\"coordinates\": [166.2383, -21.6753], \"count\": 1}, {\"coordinates\": [164.759994506836, -20.5834999084473], \"count\": 1}, {\"coordinates\": [164.78979, -20.56583], \"count\": 2}, {\"coordinates\": [165.882255463, -21.618059156], \"count\": 1}, {\"coordinates\": [165.77304158, -21.60517366], \"count\": 1}, {\"coordinates\": [164.774, -20.57027778], \"count\": 1}, {\"coordinates\": [164.7738056, -20.57008333], \"count\": 1}, {\"coordinates\": [166.23847, -21.67537], \"count\": 4}, {\"coordinates\": [164.776992797852, -20.5984001159668], \"count\": 1}, {\"coordinates\": [165.77, -21.6119], \"count\": 1}]}",
+    "species_top": {
+        "Basselinia velutina": 448
+    },
+    "um_occurrences_true": 14,
+    "um_occurrences_false": 434,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                2.02,
+                20.37,
+                0,
+                9.86,
+                100.0,
+                0,
+                50.0,
+                0,
+                0.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                0.0,
+                12.96,
+                0,
+                1.41,
+                0.0,
+                0,
+                50.0,
+                0,
+                4.55,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.96,
+    "dbh_max": 17.7,
+    "dbh_median": 10.9,
+    "dbh_min": 5.3,
+    "height_max": 12.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.22,
+            "200": 0.0,
+            "300": 3.57,
+            "400": 0.22,
+            "500": 6.03,
+            "600": 6.47,
+            "700": 2.23,
+            "800": 5.58,
+            "900": 58.48,
+            "1000": 0.0,
+            "1100": 13.39,
+            "1200": 3.79
+        },
+        "rainfall": {
+            "1000": 0.67,
+            "1500": 5.58,
+            "2000": 10.04,
+            "2500": 0.22,
+            "3000": 9.6,
+            "3500": 73.21,
+            "4000": 0.67,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

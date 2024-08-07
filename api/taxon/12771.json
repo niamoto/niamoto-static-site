@@ -1,0 +1,135 @@
+{
+    "id": 12771,
+    "full_name": "Pycnandra pubiflora",
+    "authors": "Swenson & Munzinger",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5796
+    },
+    "lft": 3427,
+    "rght": 3428,
+    "level": 2,
+    "parent_id": 1281,
+    "taxon_id": 12771,
+    "total_occurrences_count": 99,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.6366526, -22.100056], \"count\": 1}, {\"coordinates\": [166.788903, -22.1907076], \"count\": 1}, {\"coordinates\": [166.662188, -22.2220638], \"count\": 2}, {\"coordinates\": [166.447889, -22.0883059], \"count\": 1}, {\"coordinates\": [166.4746338, -22.0412948], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 1}, {\"coordinates\": [166.5518611111, -21.9176388889], \"count\": 1}, {\"coordinates\": [166.2969722222, -21.7774444444], \"count\": 1}, {\"coordinates\": [166.8973584, -22.2802817], \"count\": 1}, {\"coordinates\": [166.90391944444445, -22.274947222222224], \"count\": 1}, {\"coordinates\": [166.89711111111112, -22.154944444444446], \"count\": 2}, {\"coordinates\": [166.5929167, -22.1556389], \"count\": 3}, {\"coordinates\": [166.5920277777778, -22.156402777777778], \"count\": 1}, {\"coordinates\": [166.24382, -21.66565], \"count\": 1}, {\"coordinates\": [166.8165565, -22.2439032], \"count\": 2}, {\"coordinates\": [166.29693603515625, -21.77750015258789], \"count\": 2}, {\"coordinates\": [166.6756839, -22.0966901], \"count\": 1}, {\"coordinates\": [166.59056091308594, -22.157499313354492], \"count\": 3}, {\"coordinates\": [166.6878075, -22.1097306], \"count\": 1}, {\"coordinates\": [166.55194091796875, -21.91777992248535], \"count\": 2}, {\"coordinates\": [166.5938828, -22.1545261], \"count\": 1}, {\"coordinates\": [165.1155548095703, -21.224170684814453], \"count\": 2}, {\"coordinates\": [165.9983367919922, -21.755830764770508], \"count\": 1}, {\"coordinates\": [166.68333329, -22.19999999], \"count\": 2}, {\"coordinates\": [166.9039194, -22.2749472], \"count\": 1}, {\"coordinates\": [166.6199951171875, -22.100000381469727], \"count\": 1}, {\"coordinates\": [166.61666870117188, -22.100000381469727], \"count\": 1}, {\"coordinates\": [166.2425, -21.6658333], \"count\": 1}, {\"coordinates\": [166.24000549316406, -21.670000076293945], \"count\": 1}, {\"coordinates\": [166.590555555556, -22.1575], \"count\": 1}, {\"coordinates\": [166.897111111111, -22.1549444444444], \"count\": 1}, {\"coordinates\": [166.81138887, -22.24972223], \"count\": 2}, {\"coordinates\": [166.658888888889, -22.225], \"count\": 2}, {\"coordinates\": [166.89710003, -22.15494298], \"count\": 1}, {\"coordinates\": [166.90277, -22.27871], \"count\": 1}, {\"coordinates\": [166.633333333333, -22.1030555555556], \"count\": 2}, {\"coordinates\": [166.89426531, -22.16159717], \"count\": 1}, {\"coordinates\": [166.78929, -22.19277], \"count\": 1}, {\"coordinates\": [166.23469, -21.67288], \"count\": 1}, {\"coordinates\": [166.81333329, -22.24694445], \"count\": 2}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 5}, {\"coordinates\": [166.90419, -22.1931], \"count\": 1}, {\"coordinates\": [166.55548298, -22.17075496], \"count\": 1}, {\"coordinates\": [166.76044923, -22.19067053], \"count\": 2}, {\"coordinates\": [166.52903, -21.95459], \"count\": 1}, {\"coordinates\": [166.2425, -21.6658333333333], \"count\": 1}, {\"coordinates\": [166.471388888889, -22.0444444444444], \"count\": 1}, {\"coordinates\": [166.592027777778, -22.1564027777778], \"count\": 1}, {\"coordinates\": [166.785555555556, -22.1938888888889], \"count\": 1}, {\"coordinates\": [166.59187218, -22.15853054], \"count\": 1}, {\"coordinates\": [166.24241539, -21.66594582], \"count\": 1}, {\"coordinates\": [166.76861112, -22.27305554], \"count\": 1}, {\"coordinates\": [166.90322819, -22.28122233], \"count\": 2}, {\"coordinates\": [166.813333333333, -22.2469444444444], \"count\": 2}, {\"coordinates\": [166.894166666667, -22.2833333333333], \"count\": 1}, {\"coordinates\": [166.444722222222, -22.0913888888889], \"count\": 1}, {\"coordinates\": [167.012777777778, -22.2880555555556], \"count\": 1}, {\"coordinates\": [166.592438888889, -22.1567416666667], \"count\": 1}, {\"coordinates\": [166.56184501, -21.95417003], \"count\": 1}, {\"coordinates\": [166.243611111111, -21.6488888888889], \"count\": 1}, {\"coordinates\": [166.82579366, -22.2512891], \"count\": 2}, {\"coordinates\": [166.90349952, -22.27474405], \"count\": 2}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 2}, {\"coordinates\": [166.89187897, -22.15379903], \"count\": 1}, {\"coordinates\": [166.6725, -22.0997222222222], \"count\": 1}, {\"coordinates\": [166.69888886, -22.17277775], \"count\": 1}, {\"coordinates\": [166.66500005, -22.18305556], \"count\": 2}, {\"coordinates\": [166.64717056, -22.11350496], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 2}, {\"coordinates\": [166.75527783, -22.31027775], \"count\": 1}, {\"coordinates\": [166.76104096, -22.18968099], \"count\": 1}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}]}",
+    "species_top": {
+        "Pycnandra pubiflora": 99
+    },
+    "um_occurrences_true": 99,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                100.0,
+                0,
+                50.0,
+                33.33,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                42.86,
+                0.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0.0,
+                0,
+                0.0,
+                33.33,
+                100.0,
+                0.0,
+                33.33,
+                0,
+                57.14,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 13.61,
+    "dbh_max": 25.5,
+    "dbh_median": 11.3,
+    "dbh_min": 5.4,
+    "height_max": 12.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 66.67,
+            "20": 33.33,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 9.28,
+            "200": 25.77,
+            "300": 15.46,
+            "400": 19.59,
+            "500": 8.25,
+            "600": 5.15,
+            "700": 2.06,
+            "800": 9.28,
+            "900": 3.09,
+            "1000": 1.03,
+            "1100": 0.0,
+            "1200": 1.03
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 2.02,
+            "2000": 38.38,
+            "2500": 24.24,
+            "3000": 30.3,
+            "3500": 1.01,
+            "4000": 3.03,
+            "4500": 1.01
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

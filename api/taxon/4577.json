@@ -1,0 +1,130 @@
+{
+    "id": 4577,
+    "full_name": "Oxera morierei",
+    "authors": "Vieill.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 591
+    },
+    "lft": 1373,
+    "rght": 1374,
+    "level": 2,
+    "parent_id": 1152,
+    "taxon_id": 4577,
+    "total_occurrences_count": 67,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.7677778, -21.6213889], \"count\": 1}, {\"coordinates\": [165.0097222222, -20.8530555556], \"count\": 1}, {\"coordinates\": [164.6121317, -20.4447554], \"count\": 1}, {\"coordinates\": [164.7788391, -20.5782818], \"count\": 2}, {\"coordinates\": [165.8813852, -21.6202967], \"count\": 5}, {\"coordinates\": [165.3066239, -21.1762872], \"count\": 3}, {\"coordinates\": [165.4969722222222, -21.36047222222222], \"count\": 1}, {\"coordinates\": [165.2854722222222, -21.17738888888889], \"count\": 1}, {\"coordinates\": [165.4998453, -21.4187201], \"count\": 2}, {\"coordinates\": [165.96667, -21.6], \"count\": 1}, {\"coordinates\": [165.1361778, -20.8153972], \"count\": 1}, {\"coordinates\": [165.0898884, -20.991553], \"count\": 1}, {\"coordinates\": [165.8221349, -21.6178463], \"count\": 2}, {\"coordinates\": [165.882023575583, -21.6183785965833], \"count\": 1}, {\"coordinates\": [165.1580556, -21.1606944], \"count\": 1}, {\"coordinates\": [165.2834384, -21.1767109], \"count\": 5}, {\"coordinates\": [165.3033762, -21.1779231], \"count\": 1}, {\"coordinates\": [165.8194444, -21.5805556], \"count\": 1}, {\"coordinates\": [164.945199938138, -20.8017498617618], \"count\": 1}, {\"coordinates\": [165.300278, -21.1806091], \"count\": 1}, {\"coordinates\": [165.7697786, -21.5818478], \"count\": 2}, {\"coordinates\": [164.5958505, -20.4586492], \"count\": 1}, {\"coordinates\": [165.223555278778, -20.8593860944112], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 3}, {\"coordinates\": [165.545168876648, -21.418958346049], \"count\": 1}, {\"coordinates\": [165.6604786, -21.5472033], \"count\": 1}, {\"coordinates\": [164.7033761, -20.4901339], \"count\": 2}, {\"coordinates\": [164.7718214, -20.5860337], \"count\": 1}, {\"coordinates\": [165.0833333, -20.8166667], \"count\": 1}, {\"coordinates\": [165.3933455, -21.088102], \"count\": 1}, {\"coordinates\": [166.0567324, -21.6428142], \"count\": 1}, {\"coordinates\": [166.0549423, -21.6195172], \"count\": 1}, {\"coordinates\": [165.695622, -21.5333304], \"count\": 1}, {\"coordinates\": [165.2303264, -20.7979566], \"count\": 1}, {\"coordinates\": [164.7827236, -20.5740593], \"count\": 2}, {\"coordinates\": [164.775127220154, -20.5669790267944], \"count\": 1}, {\"coordinates\": [165.3041667, -21.2047222], \"count\": 1}, {\"coordinates\": [165.2336111, -21.2513889], \"count\": 1}, {\"coordinates\": [166.0589351, -21.6273311], \"count\": 1}, {\"coordinates\": [164.4361111, -20.3025], \"count\": 1}, {\"coordinates\": [166.0493461, -21.633461], \"count\": 1}, {\"coordinates\": [164.5314902, -20.3976737], \"count\": 1}, {\"coordinates\": [164.83781783705, -20.7200181036622], \"count\": 1}, {\"coordinates\": [165.1269164, -20.9011324], \"count\": 1}, {\"coordinates\": [165.5459833, -21.4161167], \"count\": 1}, {\"coordinates\": [165.77492096, -21.60249097], \"count\": 1}, {\"coordinates\": [165.77477034, -21.61681948], \"count\": 1}, {\"coordinates\": [165.76972225, -21.67000002], \"count\": 1}, {\"coordinates\": [164.784492, -20.62442143], \"count\": 1}]}",
+    "species_top": {
+        "Oxera morierei": 67
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 65,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                66.67,
+                100.0,
+                0.0,
+                100.0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0,
+                93.75,
+                90.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0,
+                6.25,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 5.8,
+    "dbh_max": 6.2,
+    "dbh_median": 5.8,
+    "dbh_min": 5.4,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 3.03,
+            "200": 6.06,
+            "300": 9.09,
+            "400": 7.58,
+            "500": 24.24,
+            "600": 3.03,
+            "700": 10.61,
+            "800": 12.12,
+            "900": 16.67,
+            "1000": 6.06,
+            "1100": 0.0,
+            "1200": 1.52
+        },
+        "rainfall": {
+            "1000": 4.48,
+            "1500": 28.36,
+            "2000": 32.84,
+            "2500": 20.9,
+            "3000": 1.49,
+            "3500": 11.94,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "id": 2683,
+    "full_name": "Crossostylis seberti",
+    "authors": "Pancher ex Brongn. & Gris",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4502
+    },
+    "lft": 2725,
+    "rght": 2726,
+    "level": 2,
+    "parent_id": 600,
+    "taxon_id": 2683,
+    "total_occurrences_count": 62,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.90391944444445, -22.274947222222224], \"count\": 4}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 1}, {\"coordinates\": [166.8734904, -22.1621753], \"count\": 1}, {\"coordinates\": [166.5036111, -22.12], \"count\": 1}, {\"coordinates\": [166.316492, -21.7055715], \"count\": 1}, {\"coordinates\": [166.1392888, -21.5886288], \"count\": 1}, {\"coordinates\": [166.895493, -22.283124], \"count\": 2}, {\"coordinates\": [166.910349, -22.281545], \"count\": 1}, {\"coordinates\": [166.900247, -22.290293], \"count\": 1}, {\"coordinates\": [166.689425, -22.151216666666667], \"count\": 2}, {\"coordinates\": [166.9933888888889, -22.27563888888889], \"count\": 2}, {\"coordinates\": [166.50366274, -22.04401878], \"count\": 5}, {\"coordinates\": [166.99322222222222, -22.275277777777777], \"count\": 1}, {\"coordinates\": [166.896284, -22.285214], \"count\": 1}, {\"coordinates\": [166.758908, -22.0140816], \"count\": 1}, {\"coordinates\": [166.8165565, -22.2439032], \"count\": 1}, {\"coordinates\": [166.895706, -22.283102073809523], \"count\": 1}, {\"coordinates\": [166.7165318, -22.1612131], \"count\": 1}, {\"coordinates\": [166.7029275558711, -22.280533716756633], \"count\": 1}, {\"coordinates\": [167.00311705, -22.285431], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 8}, {\"coordinates\": [166.99331303, -22.275616], \"count\": 1}, {\"coordinates\": [166.993806, -22.27628496], \"count\": 1}, {\"coordinates\": [166.81138887, -22.24972223], \"count\": 2}, {\"coordinates\": [166.89682471, -22.28926679], \"count\": 2}, {\"coordinates\": [166.89935531, -22.29082505], \"count\": 2}, {\"coordinates\": [166.90349952, -22.27474405], \"count\": 2}, {\"coordinates\": [166.82579366, -22.2512891], \"count\": 2}, {\"coordinates\": [166.90343614, -22.27866384], \"count\": 2}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 5}, {\"coordinates\": [166.62572499, -22.19208599], \"count\": 2}, {\"coordinates\": [166.76104096, -22.18968099], \"count\": 2}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}]}",
+    "species_top": {
+        "Crossostylis seberti": 62
+    },
+    "um_occurrences_true": 61,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                25.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                66.67,
+                50.0
+            ],
+            "fruiting": [
+                25.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0.0,
+                0.0,
+                16.67
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 16.83,
+    "dbh_max": 38.8,
+    "dbh_median": 15.0,
+    "dbh_min": 5.4,
+    "height_max": 10.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 66.67,
+            "20": 25.0,
+            "30": 8.33,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 7.02,
+            "200": 50.88,
+            "300": 14.04,
+            "400": 12.28,
+            "500": 3.51,
+            "600": 3.51,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 8.77,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 3.23,
+            "2000": 12.9,
+            "2500": 61.29,
+            "3000": 22.58,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 50.0,
+            "3": 50.0
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "id": 13,
+    "locality": "For\u00eat Plate P09",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            165.122272,
+            -21.146053
+        ]
+    },
+    "plot_id": 13,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [165.122272, -21.146053]}",
+    "families_top": {
+        "Sapotaceae": 1122,
+        "Sapindaceae": 357,
+        "Myrtaceae": 144,
+        "Calophyllaceae": 81,
+        "Clusiaceae": 70,
+        "Primulaceae": 63,
+        "Proteaceae": 52,
+        "Rubiaceae": 50,
+        "Annonaceae": 48,
+        "Araliaceae": 45
+    },
+    "species_top": {
+        "Pleioluma crebrifolia": 137,
+        "Pleioluma baueri": 130,
+        "Planchonella lauracea": 112,
+        "Calophyllum caledonicum": 80,
+        "Pleioluma rubicunda": 78,
+        "Cupaniopsis macrocarpa": 75,
+        "Planchonella wakere": 70,
+        "Pleioluma sebertii": 65,
+        "Pleioluma lasiantha": 54,
+        "Pleioluma longipetiolata": 48
+    },
+    "height_mean": 9.2,
+    "wood_density_mean": null,
+    "basal_area": 43.8,
+    "shannon": 3.9,
+    "pielou": 0.85,
+    "simpson": 0.97,
+    "biomass": 338.601762640255,
+    "frequencies": {
+        "dbh": {
+            "10": 70.19,
+            "20": 17.05,
+            "30": 6.98,
+            "40": 2.79,
+            "50": 2.09,
+            "75": 0.4,
+            "100": 0.5,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 5.41,
+            "2": 24.52,
+            "3": 70.06
+        }
+    }
+}

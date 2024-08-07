@@ -1,0 +1,135 @@
+{
+    "id": 15266,
+    "full_name": "Plerandra osyana subsp. toto",
+    "authors": "(Baill.) Lowry, G.M.Plunkett & Frodin",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 8057
+    },
+    "lft": 254,
+    "rght": 255,
+    "level": 3,
+    "parent_id": 15265,
+    "taxon_id": 15266,
+    "total_occurrences_count": 80,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3036111, -21.2047222], \"count\": 3}, {\"coordinates\": [165.6687954, -21.5281558], \"count\": 1}, {\"coordinates\": [165.8677778, -21.625], \"count\": 2}, {\"coordinates\": [165.7251669, -21.5705565], \"count\": 1}, {\"coordinates\": [165.2299442, -21.0290791], \"count\": 2}, {\"coordinates\": [165.120361, -21.148142], \"count\": 1}, {\"coordinates\": [165.27166666666668, -21.184444444444445], \"count\": 4}, {\"coordinates\": [165.300071, -21.197671], \"count\": 2}, {\"coordinates\": [164.7808611111111, -20.623555555555555], \"count\": 4}, {\"coordinates\": [165.2550861111111, -21.187297222222224], \"count\": 16}, {\"coordinates\": [165.825, -21.3941667], \"count\": 1}, {\"coordinates\": [166.0853812, -21.5720372], \"count\": 2}, {\"coordinates\": [165.275966660182, -21.1792666594187], \"count\": 1}, {\"coordinates\": [165.2982555, -20.930613], \"count\": 1}, {\"coordinates\": [165.7734716, -21.5602335], \"count\": 3}, {\"coordinates\": [165.9746854, -21.5825089], \"count\": 1}, {\"coordinates\": [165.8135063, -21.6085584], \"count\": 4}, {\"coordinates\": [166.0945716, -21.5741964], \"count\": 3}, {\"coordinates\": [165.2563889, -21.1883333], \"count\": 1}, {\"coordinates\": [166.1438889, -21.7463889], \"count\": 1}, {\"coordinates\": [165.276666673024, -21.179333337148], \"count\": 1}, {\"coordinates\": [165.5379132, -21.5883702], \"count\": 2}, {\"coordinates\": [165.7219445, -21.5736111], \"count\": 1}, {\"coordinates\": [165.2266667, -21.0322223], \"count\": 2}, {\"coordinates\": [166.0822223, -21.575], \"count\": 1}, {\"coordinates\": [165.6655556, -21.5311111], \"count\": 1}, {\"coordinates\": [166.0913889, -21.5772223], \"count\": 2}, {\"coordinates\": [165.3172223, -20.9875], \"count\": 1}, {\"coordinates\": [165.785, -21.5766667], \"count\": 1}, {\"coordinates\": [165.7986111, -21.6125], \"count\": 2}, {\"coordinates\": [165.8083333, -21.6083333], \"count\": 1}, {\"coordinates\": [165.9713889, -21.5855555], \"count\": 1}, {\"coordinates\": [166.0980555, -21.5702778], \"count\": 1}, {\"coordinates\": [165.325, -21.145], \"count\": 1}, {\"coordinates\": [165.2955555, -21.0272223], \"count\": 1}, {\"coordinates\": [165.8666667, -21.6347222], \"count\": 1}, {\"coordinates\": [164.7783889, -20.6243889], \"count\": 1}, {\"coordinates\": [165.295, -20.9336111], \"count\": 1}, {\"coordinates\": [166.05, -21.6333333], \"count\": 1}, {\"coordinates\": [165.7666667, -21.6], \"count\": 1}, {\"coordinates\": [165.8, -21.6166667], \"count\": 1}, {\"coordinates\": [165.73759698, -21.60740097], \"count\": 1}]}",
+    "species_top": {
+        "Plerandra osyana subsp. toto": 80
+    },
+    "um_occurrences_true": 11,
+    "um_occurrences_false": 69,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                71.43,
+                8.0,
+                50.0,
+                0.0,
+                100.0,
+                0,
+                0,
+                100.0,
+                0.0,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                14.29,
+                12.0,
+                0.0,
+                50.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 8.9,
+    "dbh_max": 22.3,
+    "dbh_median": 8.8,
+    "dbh_min": 5.0,
+    "height_max": 8.0,
+    "wood_density_mean": 0.72,
+    "wood_density_max": 0.74,
+    "wood_density_min": 0.71,
+    "bark_thickness_mean": 4.46,
+    "bark_thickness_max": 5.0,
+    "bark_thickness_min": 4.0,
+    "leaf_sla_mean": 10.7,
+    "leaf_sla_max": 12.01,
+    "leaf_sla_min": 9.98,
+    "leaf_area_mean": 109.96,
+    "leaf_area_max": 120.74,
+    "leaf_area_min": 86.63,
+    "leaf_thickness_mean": 277.98,
+    "leaf_thickness_max": 298.29,
+    "leaf_thickness_min": 258.08,
+    "frequencies": {
+        "dbh": {
+            "10": 75.0,
+            "20": 25.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 9.21,
+            "200": 3.95,
+            "300": 2.63,
+            "400": 39.47,
+            "500": 27.63,
+            "600": 7.89,
+            "700": 1.32,
+            "800": 3.95,
+            "900": 2.63,
+            "1000": 0.0,
+            "1100": 1.32,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 1.28,
+            "1500": 33.33,
+            "2000": 16.67,
+            "2500": 42.31,
+            "3000": 6.41,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 5.41,
+            "2": 94.59
+        },
+        "strate": {
+            "1": 100.0,
+            "2": 0.0,
+            "3": 0.0
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "id": 3,
+    "locality": "Katalupa\u00ef",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            165.0083910115,
+            -20.852514552
+        ]
+    },
+    "plot_id": 3,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [165.0083910115, -20.852514552]}",
+    "families_top": {
+        "Arecaceae": 223,
+        "Sapindaceae": 183,
+        "Rutaceae": 111,
+        "Rhizophoraceae": 72,
+        "Malvaceae": 48,
+        "Annonaceae": 46,
+        "Rubiaceae": 42,
+        "Lauraceae": 40,
+        "Monimiaceae": 40,
+        "Myrtaceae": 34
+    },
+    "species_top": {
+        "Burretiokentia vieillardii": 222,
+        "Flindersia fournieri": 96,
+        "Cupaniopsis macrocarpa": 71,
+        "Crossostylis grandiflora": 53,
+        "Acropogon macrocarpus": 48,
+        "Xylopia vieillardii": 46,
+        "Cupaniopsis sylvatica": 39,
+        "Hedycarya cupulata": 34,
+        "Dicksonia thyrsopteroides": 33,
+        "Cupaniopsis petiolulata": 29
+    },
+    "height_mean": 12.29,
+    "wood_density_mean": 0.7,
+    "basal_area": 35.3,
+    "shannon": 3.6,
+    "pielou": 0.79,
+    "simpson": 0.95,
+    "biomass": 198.925724285219,
+    "frequencies": {
+        "dbh": {
+            "10": 79.54,
+            "20": 12.99,
+            "30": 3.91,
+            "40": 2.4,
+            "50": 1.07,
+            "75": 0.09,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 15.04,
+            "2": 31.45,
+            "3": 53.51
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "id": 16,
+    "locality": "Paoua",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            165.0959733501,
+            -21.1677664798
+        ]
+    },
+    "plot_id": 16,
+    "plot_area_coordinates": "{\"type\": \"Point\", \"coordinates\": [165.0959733501, -21.1677664798]}",
+    "families_top": {
+        "Nothofagaceae": 579,
+        "Myrtaceae": 80,
+        "Araucariaceae": 72,
+        "Podocarpaceae": 57,
+        "Apiaceae": 42,
+        "Sapotaceae": 37,
+        "Atherospermataceae": 31,
+        "Ericaceae": 18,
+        "Cunoniaceae": 15,
+        "Balanopaceae": 14
+    },
+    "species_top": {
+        "Nothofagus balansae": 579,
+        "Araucaria montana": 72,
+        "Retrophyllum comptonii": 46,
+        "Apiopetalum glabratum": 42,
+        "Pycnandra carinocostata": 37,
+        "Nemuaron vieillardii": 31,
+        "Syzygium multipetalum": 24,
+        "Syzygium arboreum": 20,
+        "Syzygium frutescens": 18,
+        "Balanops sparsiflora": 14
+    },
+    "height_mean": 7.94,
+    "wood_density_mean": 0.68,
+    "basal_area": 19.3,
+    "shannon": 1.88,
+    "pielou": 0.51,
+    "simpson": 0.64,
+    "biomass": 72.8581415096988,
+    "frequencies": {
+        "dbh": {
+            "10": 88.93,
+            "20": 8.55,
+            "30": 1.81,
+            "40": 0.4,
+            "50": 0.3,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "strate": {
+            "1": 5.0,
+            "2": 12.33,
+            "3": 82.67
+        }
+    }
+}

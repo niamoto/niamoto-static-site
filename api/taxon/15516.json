@@ -1,0 +1,135 @@
+{
+    "id": 15516,
+    "full_name": "Myrsine parvicarpa subsp. pachyphylla",
+    "authors": "(M.Schmid) Ricketson & Pipoly",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 5949
+    },
+    "lft": 2562,
+    "rght": 2563,
+    "level": 3,
+    "parent_id": 15514,
+    "taxon_id": 15516,
+    "total_occurrences_count": 30,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.4749046, -22.0011963], \"count\": 1}, {\"coordinates\": [165.8821331, -21.4659629], \"count\": 1}, {\"coordinates\": [166.5394444, -21.9602778], \"count\": 1}, {\"coordinates\": [166.436762, -21.8615726], \"count\": 1}, {\"coordinates\": [164.5852778, -20.79], \"count\": 1}, {\"coordinates\": [166.4138889, -21.8836111], \"count\": 1}, {\"coordinates\": [165.8697252721, -21.4936389495], \"count\": 6}, {\"coordinates\": [166.535, -21.965166666666665], \"count\": 1}, {\"coordinates\": [166.5348888888889, -21.96286111111111], \"count\": 1}, {\"coordinates\": [166.53525, -21.9635], \"count\": 1}, {\"coordinates\": [164.8277778, -20.9988611], \"count\": 1}, {\"coordinates\": [165.9933333, -21.7572222], \"count\": 1}, {\"coordinates\": [166.438814417521, -21.8567537307739], \"count\": 1}, {\"coordinates\": [166.4625197, -22.0094361], \"count\": 1}, {\"coordinates\": [166.4077778, -21.8805556], \"count\": 1}, {\"coordinates\": [166.161372, -21.7534519], \"count\": 1}, {\"coordinates\": [166.5361111, -21.9838889], \"count\": 1}, {\"coordinates\": [166.4356821, -21.8593617], \"count\": 1}, {\"coordinates\": [164.5775, -20.7552778], \"count\": 1}, {\"coordinates\": [166.65993504, -22.020349], \"count\": 1}, {\"coordinates\": [166.41456298, -21.88367598], \"count\": 1}, {\"coordinates\": [166.56184501, -21.95417003], \"count\": 1}, {\"coordinates\": [166.39741, -21.88555004], \"count\": 1}, {\"coordinates\": [166.60540802, -22.06978095], \"count\": 1}, {\"coordinates\": [166.41309002, -21.88024003], \"count\": 1}]}",
+    "species_top": {
+        "Myrsine parvicarpa subsp. pachyphylla": 30
+    },
+    "um_occurrences_true": 30,
+    "um_occurrences_false": 0,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0,
+                0.0,
+                25.0,
+                100.0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                33.33,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0,
+                100.0,
+                0.0,
+                0.0,
+                28.57,
+                100.0,
+                0,
+                100.0,
+                66.67,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 10.23,
+    "dbh_max": 14.6,
+    "dbh_median": 11.5,
+    "dbh_min": 5.4,
+    "height_max": 8.0,
+    "wood_density_mean": 0.78,
+    "wood_density_max": 0.82,
+    "wood_density_min": 0.74,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 3.33,
+            "400": 0.0,
+            "500": 6.67,
+            "600": 20.0,
+            "700": 6.67,
+            "800": 16.67,
+            "900": 3.33,
+            "1000": 10.0,
+            "1100": 6.67,
+            "1200": 26.67
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 3.33,
+            "2000": 36.67,
+            "2500": 10.0,
+            "3000": 3.33,
+            "3500": 26.67,
+            "4000": 10.0,
+            "4500": 10.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 100.0,
+            "3": 0.0
+        }
+    }
+}

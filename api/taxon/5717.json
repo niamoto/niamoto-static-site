@@ -1,0 +1,130 @@
+{
+    "id": 5717,
+    "full_name": "Sonneratia alba",
+    "authors": "Seem.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 567
+    },
+    "lft": 1537,
+    "rght": 1538,
+    "level": 2,
+    "parent_id": 1391,
+    "taxon_id": 5717,
+    "total_occurrences_count": 62,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.2064924, -20.5088171], \"count\": 1}, {\"coordinates\": [165.7180556, -21.7288889], \"count\": 3}, {\"coordinates\": [166.461986, -22.2131866], \"count\": 1}, {\"coordinates\": [163.7974848, -20.0546569], \"count\": 1}, {\"coordinates\": [166.5641667, -22.1766389], \"count\": 1}, {\"coordinates\": [164.93885803222656, -21.337629318237305], \"count\": 1}, {\"coordinates\": [166.07943725585938, -21.533889770507812], \"count\": 1}, {\"coordinates\": [165.95944213867188, -21.526670455932617], \"count\": 1}, {\"coordinates\": [166.592617, -22.2621238], \"count\": 1}, {\"coordinates\": [166.89833068847656, -22.063060760498047], \"count\": 1}, {\"coordinates\": [165.7180633544922, -21.72888946533203], \"count\": 4}, {\"coordinates\": [166.45443725585938, -22.303890228271484], \"count\": 2}, {\"coordinates\": [166.1530362, -21.9575672], \"count\": 1}, {\"coordinates\": [165.55962437672318, -21.195246491915487], \"count\": 1}, {\"coordinates\": [164.290283203125, -20.246110916137695], \"count\": 1}, {\"coordinates\": [166.0382804, -21.4672227], \"count\": 1}, {\"coordinates\": [164.995359609256, -21.3324931272905], \"count\": 1}, {\"coordinates\": [165.218243455245, -20.7717175213903], \"count\": 1}, {\"coordinates\": [165.002174023671, -21.3319367277897], \"count\": 1}, {\"coordinates\": [166.4331973, -22.166286], \"count\": 1}, {\"coordinates\": [163.80917358398438, -20.046390533447266], \"count\": 2}, {\"coordinates\": [166.9015205, -22.0598755], \"count\": 1}, {\"coordinates\": [166.0826044, -21.5307204], \"count\": 1}, {\"coordinates\": [165.25860595703125, -20.805559158325195], \"count\": 1}, {\"coordinates\": [166.5519473, -22.2277743], \"count\": 1}, {\"coordinates\": [166.88157653808594, -22.16303062438965], \"count\": 1}, {\"coordinates\": [166.45925903320312, -22.30824089050293], \"count\": 1}, {\"coordinates\": [165.25448608398438, -20.836660385131836], \"count\": 1}, {\"coordinates\": [164.998655347636, -21.3354765361139], \"count\": 1}, {\"coordinates\": [166.5913694, -22.2903462], \"count\": 1}]}",
+    "species_top": {
+        "Sonneratia alba": 62
+    },
+    "um_occurrences_true": 11,
+    "um_occurrences_false": 51,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                75.0,
+                50.0,
+                0,
+                33.33,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                100.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                33.33,
+                25.0,
+                50.0,
+                0,
+                66.67,
+                25.0,
+                50.0,
+                0,
+                100.0,
+                0.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.0,
+    "dbh_max": 15.0,
+    "dbh_median": 15.0,
+    "dbh_min": 15.0,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 71.43,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 28.57,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 47.83,
+            "1500": 21.74,
+            "2000": 17.39,
+            "2500": 13.04,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 61.29,
+            "2": 38.71
+        }
+    }
+}

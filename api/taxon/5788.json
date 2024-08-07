@@ -1,0 +1,135 @@
+{
+    "id": 5788,
+    "full_name": "Stenocarpus trinervis (Montrouz.) Guillaumin var. trinervis",
+    "authors": null,
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 1164
+    },
+    "lft": 2670,
+    "rght": 2671,
+    "level": 3,
+    "parent_id": 5786,
+    "taxon_id": 5788,
+    "total_occurrences_count": 26,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.3466667, -22.2144444], \"count\": 1}, {\"coordinates\": [166.348066, -22.2018393], \"count\": 3}, {\"coordinates\": [164.5577318, -20.766431], \"count\": 1}, {\"coordinates\": [166.91, -22.2986111], \"count\": 1}, {\"coordinates\": [166.8864183, -22.1537698], \"count\": 2}, {\"coordinates\": [165.2906218, -21.3841247], \"count\": 1}, {\"coordinates\": [166.0492279, -21.6434021], \"count\": 2}, {\"coordinates\": [166.3756996, -22.1282551], \"count\": 2}, {\"coordinates\": [165.122272, -21.146053], \"count\": 1}, {\"coordinates\": [164.6958847, -20.9298629], \"count\": 2}, {\"coordinates\": [166.324333, -21.9253223], \"count\": 1}, {\"coordinates\": [165.8314566, -21.5366432], \"count\": 1}, {\"coordinates\": [163.587054, -19.5802872], \"count\": 1}, {\"coordinates\": [163.5927671, -19.5712029], \"count\": 1}, {\"coordinates\": [166.636932, -22.0962102], \"count\": 1}, {\"coordinates\": [163.6565894, -19.7096439], \"count\": 1}, {\"coordinates\": [163.663461, -19.7185171], \"count\": 1}, {\"coordinates\": [165.8265424, -21.3973133], \"count\": 1}, {\"coordinates\": [165.642289, -21.2799188], \"count\": 1}]}",
+    "species_top": {
+        "Stenocarpus trinervis (Montrouz.) Guillaumin var. trinervis": 26
+    },
+    "um_occurrences_true": 14,
+    "um_occurrences_false": 12,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                66.67,
+                0,
+                100.0,
+                0,
+                50.0,
+                0,
+                100.0,
+                50.0,
+                75.0,
+                100.0,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                66.67,
+                0,
+                0.0,
+                0,
+                50.0,
+                0,
+                0.0,
+                25.0,
+                12.5,
+                0.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 29.55,
+    "dbh_max": 45.0,
+    "dbh_median": 30.0,
+    "dbh_min": 15.0,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 16.67,
+            "20": 16.67,
+            "30": 50.0,
+            "40": 16.67,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 23.08,
+            "200": 30.77,
+            "300": 15.38,
+            "400": 0.0,
+            "500": 23.08,
+            "600": 7.69,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 47.62,
+            "1500": 23.81,
+            "2000": 9.52,
+            "2500": 9.52,
+            "3000": 9.52,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 33.33,
+            "2": 66.67
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 100.0,
+            "3": 0.0
+        }
+    }
+}

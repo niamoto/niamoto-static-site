@@ -1,0 +1,130 @@
+{
+    "id": 2967,
+    "full_name": "Dicarpellum pronyense",
+    "authors": "(Guillaumin) A.C.Sm.   ",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 3952
+    },
+    "lft": 585,
+    "rght": 586,
+    "level": 2,
+    "parent_id": 663,
+    "taxon_id": 2967,
+    "total_occurrences_count": 74,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.5386111, -21.8838889], \"count\": 1}, {\"coordinates\": [166.9067677, -22.1559741], \"count\": 3}, {\"coordinates\": [166.5359004, -22.1784091], \"count\": 2}, {\"coordinates\": [166.99297, -22.274809833333332], \"count\": 1}, {\"coordinates\": [166.99425, -22.272916666666667], \"count\": 2}, {\"coordinates\": [165.772716001667, -21.5542044506667], \"count\": 1}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 3}, {\"coordinates\": [166.9051943, -22.1524996], \"count\": 1}, {\"coordinates\": [165.773905752167, -21.5535642765], \"count\": 1}, {\"coordinates\": [166.9046515, -22.1431305], \"count\": 2}, {\"coordinates\": [166.9369294, -22.2729815], \"count\": 1}, {\"coordinates\": [166.9528526, -22.2698698], \"count\": 2}, {\"coordinates\": [166.92011, -22.32465], \"count\": 1}, {\"coordinates\": [166.96596131435916, -22.27725754475292], \"count\": 1}, {\"coordinates\": [166.788903, -22.1907076], \"count\": 1}, {\"coordinates\": [166.8740655, -22.0983497], \"count\": 1}, {\"coordinates\": [166.96460054138817, -22.276472070269556], \"count\": 1}, {\"coordinates\": [166.9163289, -22.3224198], \"count\": 2}, {\"coordinates\": [165.9933333, -21.7572222], \"count\": 1}, {\"coordinates\": [166.9072063, -22.181529], \"count\": 1}, {\"coordinates\": [166.9746661, -22.1882755], \"count\": 1}, {\"coordinates\": [166.9230211, -22.2385064], \"count\": 1}, {\"coordinates\": [166.9972287, -22.2614004], \"count\": 2}, {\"coordinates\": [165.7475525515, -21.4385851551667], \"count\": 1}, {\"coordinates\": [166.8973584, -22.2802817], \"count\": 1}, {\"coordinates\": [166.0004251, -21.7574591], \"count\": 1}, {\"coordinates\": [167.004419, -22.28725514], \"count\": 1}, {\"coordinates\": [164.7672681, -20.74177637], \"count\": 1}, {\"coordinates\": [165.4935867, -21.36123447], \"count\": 1}, {\"coordinates\": [166.94141685, -22.21108835], \"count\": 1}, {\"coordinates\": [166.60617401, -22.07395503], \"count\": 1}, {\"coordinates\": [166.60572996, -22.06932999], \"count\": 1}, {\"coordinates\": [166.89935531, -22.29082505], \"count\": 2}, {\"coordinates\": [164.74419, -20.59123], \"count\": 1}, {\"coordinates\": [166.9942457, -22.27291907], \"count\": 1}, {\"coordinates\": [166.99985702, -22.28844299], \"count\": 1}, {\"coordinates\": [166.89416669, -22.28333333], \"count\": 4}, {\"coordinates\": [166.90388887, -22.18472226], \"count\": 2}, {\"coordinates\": [167.003943, -22.28679883], \"count\": 1}, {\"coordinates\": [166.99265896, -22.26787599], \"count\": 1}, {\"coordinates\": [166.81138887, -22.24972223], \"count\": 1}, {\"coordinates\": [166.78555562, -22.19388891], \"count\": 1}, {\"coordinates\": [166.9063444, -22.29200828], \"count\": 2}, {\"coordinates\": [166.89682471, -22.28926679], \"count\": 1}, {\"coordinates\": [167.00588505, -22.284258], \"count\": 1}, {\"coordinates\": [166.89187897, -22.15379903], \"count\": 2}, {\"coordinates\": [167.006686, -22.28628], \"count\": 1}, {\"coordinates\": [166.99331303, -22.275616], \"count\": 1}, {\"coordinates\": [166.90349952, -22.27474405], \"count\": 1}, {\"coordinates\": [166.993806, -22.27628496], \"count\": 1}, {\"coordinates\": [166.81333328, -22.24694436], \"count\": 1}, {\"coordinates\": [166.91944437, -22.32472222], \"count\": 1}, {\"coordinates\": [166.76104096, -22.18968099], \"count\": 1}, {\"coordinates\": [166.688626, -22.15952901], \"count\": 1}, {\"coordinates\": [166.5931278, -22.15554175], \"count\": 1}, {\"coordinates\": [166.8918788, -22.15379924], \"count\": 1}, {\"coordinates\": [166.5928333, -22.15477782], \"count\": 1}]}",
+    "species_top": {
+        "Dicarpellum pronyense": 74
+    },
+    "um_occurrences_true": 70,
+    "um_occurrences_false": 4,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                50.0,
+                33.33,
+                66.67,
+                0.0,
+                0.0,
+                100.0,
+                0.0,
+                50.0,
+                100.0,
+                100.0,
+                100.0,
+                66.67
+            ],
+            "fruiting": [
+                16.67,
+                66.67,
+                66.67,
+                100.0,
+                100.0,
+                0.0,
+                100.0,
+                50.0,
+                0.0,
+                0.0,
+                20.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 5.93,
+    "dbh_max": 6.4,
+    "dbh_median": 5.7,
+    "dbh_min": 5.7,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 13.43,
+            "200": 50.75,
+            "300": 17.91,
+            "400": 5.97,
+            "500": 2.99,
+            "600": 1.49,
+            "700": 1.49,
+            "800": 1.49,
+            "900": 4.48,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 1.35,
+            "2000": 20.27,
+            "2500": 51.35,
+            "3000": 24.32,
+            "3500": 1.35,
+            "4000": 1.35,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

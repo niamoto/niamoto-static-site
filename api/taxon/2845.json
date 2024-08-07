@@ -1,0 +1,135 @@
+{
+    "id": 2845,
+    "full_name": "Cyphophoenix elegans",
+    "authors": "(Brongn. & Gris) H. Wendl. ex Salomon",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 1123
+    },
+    "lft": 403,
+    "rght": 404,
+    "level": 2,
+    "parent_id": 633,
+    "taxon_id": 2845,
+    "total_occurrences_count": 141,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.38333, -20.3], \"count\": 3}, {\"coordinates\": [164.4215898, -20.3005713], \"count\": 15}, {\"coordinates\": [164.4378741737, -20.3060228471], \"count\": 1}, {\"coordinates\": [164.41122436523438, -20.289339065551758], \"count\": 8}, {\"coordinates\": [164.3800048828125, -20.299999237060547], \"count\": 1}, {\"coordinates\": [164.3588236, -20.2983234], \"count\": 4}, {\"coordinates\": [164.3702850341797, -20.29138946533203], \"count\": 7}, {\"coordinates\": [164.3664, -20.27245], \"count\": 1}, {\"coordinates\": [164.4164995, -20.2972018], \"count\": 5}, {\"coordinates\": [164.316296746, -20.2636345185], \"count\": 1}, {\"coordinates\": [164.37351, -20.2884525], \"count\": 10}, {\"coordinates\": [164.4315185546875, -20.308340072631836], \"count\": 6}, {\"coordinates\": [164.45028686523438, -20.340829849243164], \"count\": 4}, {\"coordinates\": [164.41322326660156, -20.30021095275879], \"count\": 8}, {\"coordinates\": [164.57333374023438, -20.392850875854492], \"count\": 5}, {\"coordinates\": [164.423118336995, -20.3102886517843], \"count\": 1}, {\"coordinates\": [164.423781512305, -20.3165155649185], \"count\": 1}, {\"coordinates\": [164.413330078125, -20.30027961730957], \"count\": 3}, {\"coordinates\": [164.446196, -20.287297], \"count\": 1}, {\"coordinates\": [164.35556030273438, -20.301389694213867], \"count\": 3}, {\"coordinates\": [164.443568168208, -20.3069239854813], \"count\": 1}, {\"coordinates\": [164.49844360351562, -20.38939666748047], \"count\": 1}, {\"coordinates\": [164.31628, -20.2636], \"count\": 1}, {\"coordinates\": [164.361112338333, -20.2687194535], \"count\": 1}, {\"coordinates\": [166.1999969482422, -22.0], \"count\": 1}, {\"coordinates\": [164.43152, -20.30834], \"count\": 6}, {\"coordinates\": [164.35556, -20.30139], \"count\": 2}, {\"coordinates\": [164.37028, -20.29139], \"count\": 6}, {\"coordinates\": [164.41123, -20.28934], \"count\": 8}, {\"coordinates\": [164.4183, -20.3036], \"count\": 3}, {\"coordinates\": [164.45028, -20.34083], \"count\": 4}, {\"coordinates\": [164.41333, -20.30028], \"count\": 3}, {\"coordinates\": [164.46051, -20.34306], \"count\": 1}, {\"coordinates\": [164.40987, -20.30364], \"count\": 1}, {\"coordinates\": [164.4133, -20.3003], \"count\": 1}, {\"coordinates\": [164.41323, -20.30021], \"count\": 8}, {\"coordinates\": [164.3556, -20.3014], \"count\": 1}, {\"coordinates\": [164.3703, -20.2914], \"count\": 3}, {\"coordinates\": [164.39754, -20.30792], \"count\": 1}]}",
+    "species_top": {
+        "Cyphophoenix elegans": 141
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 141,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                100.0,
+                100.0,
+                0,
+                0,
+                100.0,
+                0,
+                55.56,
+                80.0,
+                0,
+                0
+            ],
+            "fruiting": [
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                11.11,
+                0.0,
+                0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 14.25,
+    "dbh_max": 15.0,
+    "dbh_median": 14.0,
+    "dbh_min": 14.0,
+    "height_max": 12.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 16.8,
+            "200": 1.6,
+            "300": 46.4,
+            "400": 12.8,
+            "500": 22.4,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.71,
+            "1500": 87.14,
+            "2000": 12.14,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.71,
+            "2": 99.29
+        },
+        "strate": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 100.0
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": 12526,
+    "full_name": "Acropogon grandiflorus",
+    "authors": "Morat & Chalopin",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 5428
+    },
+    "lft": 1567,
+    "rght": 1568,
+    "level": 2,
+    "parent_id": 256,
+    "taxon_id": 12526,
+    "total_occurrences_count": 37,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.3033762, -21.1779231], \"count\": 12}, {\"coordinates\": [165.8221349, -21.6178463], \"count\": 6}, {\"coordinates\": [164.7795556, -20.6250278], \"count\": 1}, {\"coordinates\": [165.6992291667, -21.5193547222], \"count\": 2}, {\"coordinates\": [165.3173888888889, -21.160555555555554], \"count\": 1}, {\"coordinates\": [165.33552777777777, -21.150694444444444], \"count\": 2}, {\"coordinates\": [164.87133333333333, -20.640805555555556], \"count\": 1}, {\"coordinates\": [164.87066666666666, -20.64097222222222], \"count\": 1}, {\"coordinates\": [165.08108333333334, -20.824638888888888], \"count\": 1}, {\"coordinates\": [164.77955555555556, -20.625027777777778], \"count\": 2}, {\"coordinates\": [165.3199423, -21.1540391], \"count\": 2}, {\"coordinates\": [165.3116161, -21.1726421], \"count\": 3}, {\"coordinates\": [165.8813852, -21.6202967], \"count\": 1}, {\"coordinates\": [165.00609333333, -20.836228328281], \"count\": 1}, {\"coordinates\": [165.3066239, -21.1762872], \"count\": 1}]}",
+    "species_top": {
+        "Acropogon grandiflorus": 37
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 37,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                0,
+                66.67,
+                80.0,
+                0,
+                9.09,
+                0.0
+            ],
+            "fruiting": [
+                0,
+                0,
+                50.0,
+                40.0,
+                0,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                0,
+                0.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 7.44,
+    "dbh_max": 9.5,
+    "dbh_median": 7.55,
+    "dbh_min": 5.4,
+    "height_max": 9.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 0.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 16.22,
+            "400": 0.0,
+            "500": 21.62,
+            "600": 18.92,
+            "700": 37.84,
+            "800": 2.7,
+            "900": 2.7,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 16.22,
+            "2000": 64.86,
+            "2500": 5.41,
+            "3000": 13.51,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

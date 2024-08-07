@@ -1,0 +1,118 @@
+{
+    "id": 4085,
+    "full_name": "Lumnitzera littorea",
+    "authors": "(Jack) Voigt",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 290
+    },
+    "lft": 671,
+    "rght": 672,
+    "level": 2,
+    "parent_id": 991,
+    "taxon_id": 4085,
+    "total_occurrences_count": 64,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.3288769, -21.6608535], \"count\": 1}, {\"coordinates\": [166.9690021, -22.3486637], \"count\": 1}, {\"coordinates\": [166.8687868, -22.289264], \"count\": 1}, {\"coordinates\": [165.019828337977, -21.3718543753328], \"count\": 1}, {\"coordinates\": [164.838428532723, -21.0586280474475], \"count\": 1}, {\"coordinates\": [166.44444274902344, -22.272499084472656], \"count\": 2}, {\"coordinates\": [165.95944213867188, -21.526670455932617], \"count\": 2}, {\"coordinates\": [167.0159226, -22.2850008], \"count\": 1}, {\"coordinates\": [166.4905548095703, -20.6924991607666], \"count\": 1}, {\"coordinates\": [166.5897216796875, -22.205829620361328], \"count\": 3}, {\"coordinates\": [165.3381619, -21.0348502], \"count\": 1}, {\"coordinates\": [166.82305908203125, -22.32638931274414], \"count\": 1}, {\"coordinates\": [166.81666564941406, -22.316667556762695], \"count\": 1}, {\"coordinates\": [164.8925018310547, -20.64082908630371], \"count\": 2}, {\"coordinates\": [166.975830078125, -22.26972007751465], \"count\": 1}, {\"coordinates\": [166.8383333, -22.3058333], \"count\": 2}, {\"coordinates\": [166.82888793945312, -22.3075008392334], \"count\": 1}, {\"coordinates\": [166.5265853, -20.6637748], \"count\": 1}, {\"coordinates\": [164.85777282714844, -21.061389923095703], \"count\": 1}, {\"coordinates\": [164.02305603027344, -20.235559463500977], \"count\": 3}, {\"coordinates\": [164.1000232, -20.2675034], \"count\": 1}, {\"coordinates\": [166.5850067138672, -22.0191707611084], \"count\": 1}, {\"coordinates\": [166.8321755, -22.3043797], \"count\": 1}, {\"coordinates\": [164.1162406, -20.2681141], \"count\": 1}, {\"coordinates\": [164.0413441, -20.2571573], \"count\": 1}, {\"coordinates\": [166.81805419921875, -22.324169158935547], \"count\": 3}, {\"coordinates\": [166.43329600000033, -22.167314000659417], \"count\": 1}, {\"coordinates\": [165.39999389648438, -20.96666717529297], \"count\": 1}, {\"coordinates\": [166.7080535888672, -22.246389389038086], \"count\": 1}, {\"coordinates\": [166.679335, -21.9802163], \"count\": 1}, {\"coordinates\": [165.32777404785156, -20.94083023071289], \"count\": 1}, {\"coordinates\": [165.3350067138672, -21.03778076171875], \"count\": 2}, {\"coordinates\": [164.80056762695312, -20.558610916137695], \"count\": 1}, {\"coordinates\": [166.58389282226562, -22.235830307006836], \"count\": 1}, {\"coordinates\": [166.8383331298828, -22.305830001831055], \"count\": 1}]}",
+    "species_top": {
+        "Lumnitzera littorea": 64
+    },
+    "um_occurrences_true": 25,
+    "um_occurrences_false": 39,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                0.0,
+                50.0,
+                100.0,
+                83.33,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                0,
+                100.0,
+                0.0,
+                100.0,
+                0,
+                100.0,
+                50.0,
+                100.0,
+                33.33,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 6.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 36.36,
+            "200": 45.45,
+            "300": 9.09,
+            "400": 9.09,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 28.89,
+            "1500": 15.56,
+            "2000": 31.11,
+            "2500": 17.78,
+            "3000": 4.44,
+            "3500": 2.22,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 23.53,
+            "2": 76.47
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "id": 6347,
+    "full_name": "Zygogynum tieghemii Vink subsp. tieghemii",
+    "authors": null,
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 5052
+    },
+    "lft": 3646,
+    "rght": 3647,
+    "level": 3,
+    "parent_id": 6348,
+    "taxon_id": 6347,
+    "total_occurrences_count": 40,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [166.0000469, -21.7545723], \"count\": 6}, {\"coordinates\": [165.6554457, -21.5141162], \"count\": 1}, {\"coordinates\": [166.4210195, -21.8805313], \"count\": 2}, {\"coordinates\": [166.00017804, -21.75354599], \"count\": 1}, {\"coordinates\": [166.00194436, -21.75858331], \"count\": 1}, {\"coordinates\": [166.24274017, -21.67045493], \"count\": 1}, {\"coordinates\": [166.24241539, -21.66594582], \"count\": 1}, {\"coordinates\": [166.65540101, -22.01863899], \"count\": 1}, {\"coordinates\": [165.9933333, -21.7572222], \"count\": 3}, {\"coordinates\": [166.5999648, -22.1274882], \"count\": 1}, {\"coordinates\": [166.2427778, -21.6705556], \"count\": 2}, {\"coordinates\": [166.5327778, -21.9594444], \"count\": 1}, {\"coordinates\": [166.0019444, -21.7583333], \"count\": 1}, {\"coordinates\": [165.751, -21.4383], \"count\": 2}, {\"coordinates\": [166.4168042, -21.8828044], \"count\": 5}, {\"coordinates\": [166.0004251, -21.7574591], \"count\": 1}, {\"coordinates\": [166.0014901, -21.7628222], \"count\": 1}, {\"coordinates\": [166.5388889, -21.9577778], \"count\": 1}, {\"coordinates\": [166.4369444444, -21.8586111111], \"count\": 1}, {\"coordinates\": [166.002795, -21.7666626], \"count\": 1}, {\"coordinates\": [165.7476169245, -21.438565182], \"count\": 1}, {\"coordinates\": [166.5371307, -21.9749701], \"count\": 1}, {\"coordinates\": [166.6608667, -22.0178833], \"count\": 1}, {\"coordinates\": [166.5351813, -21.9698552], \"count\": 2}]}",
+    "species_top": {
+        "Zygogynum tieghemii Vink subsp. tieghemii": 40
+    },
+    "um_occurrences_true": 39,
+    "um_occurrences_false": 1,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0.0,
+                33.33,
+                33.33,
+                0.0,
+                50.0,
+                66.67,
+                100.0,
+                100.0,
+                100.0,
+                77.78,
+                100.0
+            ],
+            "fruiting": [
+                0.0,
+                100.0,
+                66.67,
+                100.0,
+                100.0,
+                50.0,
+                33.33,
+                0.0,
+                66.67,
+                25.0,
+                44.44,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 5.13,
+            "700": 17.95,
+            "800": 5.13,
+            "900": 38.46,
+            "1000": 2.56,
+            "1100": 0.0,
+            "1200": 30.77
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 7.69,
+            "2000": 41.03,
+            "2500": 2.56,
+            "3000": 12.82,
+            "3500": 17.95,
+            "4000": 10.26,
+            "4500": 7.69
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

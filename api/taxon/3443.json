@@ -1,0 +1,135 @@
+{
+    "id": 3443,
+    "full_name": "Garcinia vieillardii",
+    "authors": "Pierre",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 899
+    },
+    "lft": 655,
+    "rght": 656,
+    "level": 2,
+    "parent_id": 791,
+    "taxon_id": 3443,
+    "total_occurrences_count": 517,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.4378741737, -20.3060228471], \"count\": 381}, {\"coordinates\": [164.781, -20.625611111111112], \"count\": 17}, {\"coordinates\": [164.53333, -20.4], \"count\": 1}, {\"coordinates\": [164.7757031, -20.7405281], \"count\": 1}, {\"coordinates\": [164.5314902, -20.3976737], \"count\": 1}, {\"coordinates\": [164.5281901, -20.396605], \"count\": 1}, {\"coordinates\": [164.73775, -20.5912222], \"count\": 1}, {\"coordinates\": [164.5427778, -20.4044444], \"count\": 2}, {\"coordinates\": [164.3966667, -20.3061111], \"count\": 1}, {\"coordinates\": [164.525206, -20.4073358], \"count\": 2}, {\"coordinates\": [164.9443746, -20.6886358], \"count\": 1}, {\"coordinates\": [164.756348, -20.609082533333332], \"count\": 1}, {\"coordinates\": [164.780212, -20.62504], \"count\": 1}, {\"coordinates\": [164.78330555555556, -20.559833333333334], \"count\": 6}, {\"coordinates\": [164.78330555555556, -20.560027777777776], \"count\": 8}, {\"coordinates\": [164.7808611111111, -20.623555555555555], \"count\": 11}, {\"coordinates\": [164.86911111111112, -20.64027777777778], \"count\": 1}, {\"coordinates\": [164.7845, -20.624416666666665], \"count\": 2}, {\"coordinates\": [164.68613888888888, -20.539638888888888], \"count\": 16}, {\"coordinates\": [164.87133333333333, -20.640805555555556], \"count\": 1}, {\"coordinates\": [164.72730555555555, -20.586083333333335], \"count\": 1}, {\"coordinates\": [164.682757, -20.538255], \"count\": 2}, {\"coordinates\": [164.78291666666667, -20.560388888888887], \"count\": 18}, {\"coordinates\": [164.43638610839844, -20.30221939086914], \"count\": 2}, {\"coordinates\": [164.57667541503906, -20.799169540405273], \"count\": 1}, {\"coordinates\": [164.5477752685547, -20.416669845581055], \"count\": 1}, {\"coordinates\": [164.41055297851562, -20.314720153808594], \"count\": 1}, {\"coordinates\": [164.74643407757, -20.7382483062734], \"count\": 1}, {\"coordinates\": [164.70805216906447, -20.482794025395993], \"count\": 1}, {\"coordinates\": [164.78012084960938, -20.625303268432617], \"count\": 1}, {\"coordinates\": [164.52833557128906, -20.40056037902832], \"count\": 1}, {\"coordinates\": [164.52194213867188, -20.410280227661133], \"count\": 4}, {\"coordinates\": [164.8053643, -20.5656055], \"count\": 1}, {\"coordinates\": [164.63055419921875, -20.429170608520508], \"count\": 1}, {\"coordinates\": [164.5246221, -20.3836135], \"count\": 1}, {\"coordinates\": [164.5302777778, -20.3994444444], \"count\": 1}, {\"coordinates\": [164.4215898, -20.3005713], \"count\": 1}, {\"coordinates\": [164.52139282226562, -20.386669158935547], \"count\": 1}, {\"coordinates\": [164.913661481297, -21.1670114823015], \"count\": 1}, {\"coordinates\": [164.8027801513672, -20.56443977355957], \"count\": 1}, {\"coordinates\": [165.227618, -20.857174], \"count\": 1}, {\"coordinates\": [164.50945, -20.3751], \"count\": 1}, {\"coordinates\": [164.39666748046875, -20.306110382080078], \"count\": 2}, {\"coordinates\": [164.6019444, -20.4597222], \"count\": 1}, {\"coordinates\": [164.5833282470703, -20.450000762939453], \"count\": 1}, {\"coordinates\": [164.52499389648438, -20.39971923828125], \"count\": 1}, {\"coordinates\": [165.95947265625, -21.526689529418945], \"count\": 1}, {\"coordinates\": [164.2937, -20.49716], \"count\": 1}, {\"coordinates\": [165.220027, -20.868687], \"count\": 1}, {\"coordinates\": [164.744839538576, -20.733117238776], \"count\": 1}, {\"coordinates\": [164.42299, -20.31733], \"count\": 1}, {\"coordinates\": [164.5036163330078, -20.31110954284668], \"count\": 3}, {\"coordinates\": [164.39694213867188, -20.305280685424805], \"count\": 1}, {\"coordinates\": [165.3250222, -21.16188611], \"count\": 1}, {\"coordinates\": [164.6827574, -20.53825462], \"count\": 1}, {\"coordinates\": [164.74418901, -20.591228], \"count\": 1}]}",
+    "species_top": {
+        "Garcinia vieillardii": 517
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 515,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                50.0,
+                0.52,
+                8.93,
+                75.0
+            ],
+            "fruiting": [
+                100.0,
+                50.0,
+                3.85,
+                0,
+                0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0.0,
+                0.0,
+                25.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 14.77,
+    "dbh_max": 40.4,
+    "dbh_median": 13.4,
+    "dbh_min": 5.0,
+    "height_max": 15.4,
+    "wood_density_mean": 0.71,
+    "wood_density_max": 0.73,
+    "wood_density_min": 0.67,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 82.57,
+            "20": 13.56,
+            "30": 3.39,
+            "40": 0.48,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.39,
+            "200": 0.39,
+            "300": 1.76,
+            "400": 75.1,
+            "500": 8.24,
+            "600": 12.55,
+            "700": 0.98,
+            "800": 0.2,
+            "900": 0.0,
+            "1000": 0.2,
+            "1100": 0.0,
+            "1200": 0.2
+        },
+        "rainfall": {
+            "1000": 0.78,
+            "1500": 5.81,
+            "2000": 74.81,
+            "2500": 0.78,
+            "3000": 17.44,
+            "3500": 0.19,
+            "4000": 0.19,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.48,
+            "2": 99.52
+        },
+        "strate": {
+            "1": 38.48,
+            "2": 46.6,
+            "3": 14.92
+        }
+    }
+}

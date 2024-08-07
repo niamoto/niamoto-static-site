@@ -1,0 +1,130 @@
+{
+    "id": 3458,
+    "full_name": "Geijera cauliflora",
+    "authors": "Baill.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4738
+    },
+    "lft": 2955,
+    "rght": 2956,
+    "level": 2,
+    "parent_id": 796,
+    "taxon_id": 3458,
+    "total_occurrences_count": 53,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [164.9687488, -21.3147382], \"count\": 1}, {\"coordinates\": [166.487002, -22.2380552], \"count\": 4}, {\"coordinates\": [166.1171167, -22.0333417], \"count\": 1}, {\"coordinates\": [166.3491667, -22.1786111], \"count\": 1}, {\"coordinates\": [166.4592085, -22.2574446], \"count\": 2}, {\"coordinates\": [166.3460524, -22.2151136], \"count\": 1}, {\"coordinates\": [165.9927778, -21.9755556], \"count\": 1}, {\"coordinates\": [166.4476949, -22.2693066], \"count\": 1}, {\"coordinates\": [166.1238158, -22.0336556], \"count\": 2}, {\"coordinates\": [164.670193621147, -20.9849621504681], \"count\": 1}, {\"coordinates\": [164.7094444, -21.0147222], \"count\": 2}, {\"coordinates\": [164.68167371, -21.01071196], \"count\": 1}, {\"coordinates\": [164.66296441, -20.98203329], \"count\": 1}, {\"coordinates\": [165.1902231, -21.4865158], \"count\": 1}, {\"coordinates\": [164.68061235, -21.01224502], \"count\": 1}, {\"coordinates\": [164.67948504, -21.0129296], \"count\": 1}, {\"coordinates\": [164.6638374, -20.9798699], \"count\": 2}, {\"coordinates\": [164.6828839, -21.00740622], \"count\": 1}, {\"coordinates\": [166.1205596923828, -22.036670684814453], \"count\": 2}, {\"coordinates\": [164.66711903, -20.98271912], \"count\": 1}, {\"coordinates\": [164.68259572, -21.01172467], \"count\": 1}, {\"coordinates\": [164.8869848, -21.1799086], \"count\": 1}, {\"coordinates\": [164.304409, -20.5762409], \"count\": 1}, {\"coordinates\": [164.96667, -21.33333], \"count\": 1}, {\"coordinates\": [164.68548434, -21.01066483], \"count\": 1}, {\"coordinates\": [164.93611, -21.13528], \"count\": 1}, {\"coordinates\": [164.899318965713, -21.17926503502], \"count\": 1}, {\"coordinates\": [164.66702206, -20.98306228], \"count\": 1}, {\"coordinates\": [164.185967, -20.4828821], \"count\": 1}, {\"coordinates\": [164.3118517, -20.5843791], \"count\": 1}, {\"coordinates\": [164.9347516, -21.2585948], \"count\": 1}, {\"coordinates\": [164.68664438, -21.00810991], \"count\": 1}, {\"coordinates\": [164.911365216399, -21.1784180010851], \"count\": 1}, {\"coordinates\": [164.66669462, -20.98321525], \"count\": 1}, {\"coordinates\": [164.68043163, -21.01107105], \"count\": 1}, {\"coordinates\": [164.972069407988, -21.3468048430361], \"count\": 1}, {\"coordinates\": [164.968553760673, -21.351171666198], \"count\": 1}, {\"coordinates\": [166.45582580566406, -22.26055908203125], \"count\": 1}, {\"coordinates\": [164.9581438, -21.328327], \"count\": 1}]}",
+    "species_top": {
+        "Geijera cauliflora": 53
+    },
+    "um_occurrences_true": 21,
+    "um_occurrences_false": 32,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                66.67,
+                0.0,
+                100.0,
+                100.0,
+                0.0,
+                50.0,
+                25.0,
+                50.0,
+                0.0,
+                0.0,
+                0.0,
+                28.57
+            ],
+            "fruiting": [
+                33.33,
+                0.0,
+                0.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                71.43
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 15.0,
+    "dbh_max": 15.0,
+    "dbh_median": 15.0,
+    "dbh_min": 15.0,
+    "height_max": 8.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 100.0,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 0.0,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 40.0,
+            "200": 0.0,
+            "300": 40.0,
+            "400": 20.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 88.89,
+            "1500": 11.11,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 95.74,
+            "2": 4.26
+        }
+    }
+}

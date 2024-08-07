@@ -1,0 +1,135 @@
+{
+    "id": 3104,
+    "full_name": "Dysoxylum pachypodum",
+    "authors": "(Baill.) C.DC.",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": null
+    },
+    "lft": 1651,
+    "rght": 1652,
+    "level": 2,
+    "parent_id": 706,
+    "taxon_id": 3104,
+    "total_occurrences_count": 12,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.1191556, -21.1358333], \"count\": 1}, {\"coordinates\": [164.9158889, -20.9500717], \"count\": 1}, {\"coordinates\": [165.8433295, -21.6429443], \"count\": 1}, {\"coordinates\": [164.9019257, -21.123799], \"count\": 1}, {\"coordinates\": [164.92463, -20.98198], \"count\": 1}, {\"coordinates\": [165.8511294, -21.6433032], \"count\": 3}, {\"coordinates\": [164.8786472, -20.9467256], \"count\": 1}, {\"coordinates\": [164.926459, -20.981608], \"count\": 1}, {\"coordinates\": [165.120361, -21.148142], \"count\": 1}, {\"coordinates\": [164.904187637544, -20.9499745254102], \"count\": 1}]}",
+    "species_top": {
+        "Dysoxylum pachypodum": 12
+    },
+    "um_occurrences_true": 2,
+    "um_occurrences_false": 10,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                0.0,
+                33.33,
+                0.0,
+                0.0,
+                100.0,
+                100.0,
+                0.0,
+                0,
+                0,
+                0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                100.0,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 22.63,
+    "dbh_max": 41.4,
+    "dbh_median": 15.0,
+    "dbh_min": 11.5,
+    "height_max": 20.0,
+    "wood_density_mean": 0.71,
+    "wood_density_max": 0.71,
+    "wood_density_min": 0.71,
+    "bark_thickness_mean": 6.0,
+    "bark_thickness_max": 11.0,
+    "bark_thickness_min": 1.0,
+    "leaf_sla_mean": 16.13,
+    "leaf_sla_max": 16.33,
+    "leaf_sla_min": 15.92,
+    "leaf_area_mean": 29.44,
+    "leaf_area_max": 36.92,
+    "leaf_area_min": 21.97,
+    "leaf_thickness_mean": 177.74,
+    "leaf_thickness_max": 190.68,
+    "leaf_thickness_min": 164.79,
+    "frequencies": {
+        "dbh": {
+            "10": 66.67,
+            "20": 0.0,
+            "30": 0.0,
+            "40": 33.33,
+            "50": 0.0,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 14.29,
+            "200": 0.0,
+            "300": 42.86,
+            "400": 14.29,
+            "500": 14.29,
+            "600": 14.29,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 36.36,
+            "1500": 27.27,
+            "2000": 36.36,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 18.18,
+            "2": 81.82
+        },
+        "strate": {
+            "1": 33.33,
+            "2": 33.33,
+            "3": 33.33
+        }
+    }
+}

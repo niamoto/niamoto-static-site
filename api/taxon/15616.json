@@ -1,0 +1,118 @@
+{
+    "id": 15616,
+    "full_name": "Tapeinosperma deroinii",
+    "authors": "M.Schmid",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 6393
+    },
+    "lft": 2573,
+    "rght": 2574,
+    "level": 2,
+    "parent_id": 1449,
+    "taxon_id": 15616,
+    "total_occurrences_count": 21,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.2137638, -20.8172347], \"count\": 2}, {\"coordinates\": [165.1269164, -20.9011324], \"count\": 1}, {\"coordinates\": [165.2402049, -20.7818521], \"count\": 1}, {\"coordinates\": [165.21055603027344, -20.820280075073242], \"count\": 3}, {\"coordinates\": [165.23721313476562, -20.819719314575195], \"count\": 2}, {\"coordinates\": [164.4215898, -20.3005713], \"count\": 1}, {\"coordinates\": [165.218487437814, -20.8171015977859], \"count\": 1}, {\"coordinates\": [165.1236114501953, -20.9041690826416], \"count\": 1}, {\"coordinates\": [164.3073118, -20.2438681], \"count\": 1}, {\"coordinates\": [165.1952583333, -20.9588916667], \"count\": 1}, {\"coordinates\": [165.2291717529297, -20.81999969482422], \"count\": 3}, {\"coordinates\": [165.2406109, -20.8167295], \"count\": 2}, {\"coordinates\": [165.217530727386, -20.8179114659627], \"count\": 1}, {\"coordinates\": [164.8913685, -20.63573], \"count\": 1}]}",
+    "species_top": {
+        "Tapeinosperma deroinii": 21
+    },
+    "um_occurrences_true": 5,
+    "um_occurrences_false": 16,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                33.33,
+                0,
+                50.0,
+                0.0,
+                0,
+                0,
+                100.0,
+                0.0,
+                0,
+                0,
+                0.0,
+                0
+            ],
+            "fruiting": [
+                100.0,
+                0,
+                50.0,
+                100.0,
+                0,
+                0,
+                100.0,
+                100.0,
+                0,
+                0,
+                100.0,
+                0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 5.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 80.0,
+            "200": 13.33,
+            "300": 6.67,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 9.52,
+            "2000": 19.05,
+            "2500": 71.43,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        }
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "id": 1636,
+    "full_name": "Acropogon aoupiniensis",
+    "authors": "Morat",
+    "rank_name": "species",
+    "metadata": {
+        "rank_name": "species",
+        "id_endemia": 4957
+    },
+    "lft": 1551,
+    "rght": 1552,
+    "level": 2,
+    "parent_id": 256,
+    "taxon_id": 1636,
+    "total_occurrences_count": 501,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.15, -21.01667], \"count\": 1}, {\"coordinates\": [165.2834384, -21.1767109], \"count\": 6}, {\"coordinates\": [165.277313, -21.177801], \"count\": 198}, {\"coordinates\": [165.2958333, -21.1819444], \"count\": 1}, {\"coordinates\": [165.3033762, -21.1779231], \"count\": 8}, {\"coordinates\": [165.2884166667, -21.1817222222], \"count\": 2}, {\"coordinates\": [165.27694444444444, -21.178055555555556], \"count\": 15}, {\"coordinates\": [165.26667, -21.16667], \"count\": 1}, {\"coordinates\": [165.2854722222222, -21.17738888888889], \"count\": 44}, {\"coordinates\": [165.31519444444444, -21.16627777777778], \"count\": 4}, {\"coordinates\": [165.277, -21.178219444444444], \"count\": 3}, {\"coordinates\": [165.28566666666666, -21.1775], \"count\": 54}, {\"coordinates\": [165.32030555555556, -21.128655555555557], \"count\": 1}, {\"coordinates\": [165.29163888888888, -21.183], \"count\": 19}, {\"coordinates\": [165.31727222222221, -21.16279722222222], \"count\": 2}, {\"coordinates\": [165.26925, -21.177138888888887], \"count\": 39}, {\"coordinates\": [165.28205555555556, -21.177416666666666], \"count\": 24}, {\"coordinates\": [165.31750277777778, -21.162436111111113], \"count\": 5}, {\"coordinates\": [165.30332946777344, -21.179439544677734], \"count\": 4}, {\"coordinates\": [165.3000030517578, -21.180830001831055], \"count\": 3}, {\"coordinates\": [165.16400146484375, -21.021099090576172], \"count\": 2}, {\"coordinates\": [165.29702758789062, -21.183639526367188], \"count\": 4}, {\"coordinates\": [165.3169403076172, -21.153329849243164], \"count\": 4}, {\"coordinates\": [165.26666259765625, -21.166667938232422], \"count\": 1}, {\"coordinates\": [165.26666259765625, -21.183332443237305], \"count\": 2}, {\"coordinates\": [165.28018188476562, -21.17974090576172], \"count\": 5}, {\"coordinates\": [165.2817194, -21.1761944], \"count\": 1}, {\"coordinates\": [165.3202876, -21.1503404], \"count\": 1}, {\"coordinates\": [165.2665252685547, -21.180450439453125], \"count\": 1}, {\"coordinates\": [165.30335998535156, -21.179319381713867], \"count\": 2}, {\"coordinates\": [165.2899932861328, -21.18556022644043], \"count\": 2}, {\"coordinates\": [165.16444396972656, -21.02111053466797], \"count\": 1}, {\"coordinates\": [165.2945556640625, -21.184659957885742], \"count\": 1}, {\"coordinates\": [165.26666259765625, -21.183330535888672], \"count\": 1}, {\"coordinates\": [165.26652, -21.18045], \"count\": 1}, {\"coordinates\": [165.2802778, -21.17972222], \"count\": 6}, {\"coordinates\": [165.3, -21.18083333], \"count\": 10}, {\"coordinates\": [165.30336, -21.17932], \"count\": 2}, {\"coordinates\": [165.1311944, -21.0], \"count\": 1}, {\"coordinates\": [165.28018, -21.17974], \"count\": 5}, {\"coordinates\": [165.29702, -21.18364], \"count\": 4}, {\"coordinates\": [165.29, -21.18556], \"count\": 2}, {\"coordinates\": [165.30333, -21.17944], \"count\": 4}, {\"coordinates\": [165.31694, -21.15333], \"count\": 2}, {\"coordinates\": [165.29455, -21.18466], \"count\": 1}, {\"coordinates\": [165.3169444, -21.15333333], \"count\": 1}]}",
+    "species_top": {
+        "Acropogon aoupiniensis": 501
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 501,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                100.0,
+                0,
+                1.58,
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                0,
+                0.0,
+                0.0,
+                50.0,
+                25.0
+            ],
+            "fruiting": [
+                0.0,
+                0,
+                1.32,
+                50.0,
+                100.0,
+                5.0,
+                100.0,
+                0,
+                100.0,
+                100.0,
+                75.0,
+                100.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": 13.95,
+    "dbh_max": 54.1,
+    "dbh_median": 12.7,
+    "dbh_min": 5.0,
+    "height_max": 13.1,
+    "wood_density_mean": 0.58,
+    "wood_density_max": 0.68,
+    "wood_density_min": 0.52,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "dbh": {
+            "10": 80.39,
+            "20": 16.67,
+            "30": 2.61,
+            "40": 0.0,
+            "50": 0.33,
+            "75": 0.0,
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0
+        },
+        "elevation": {
+            "100": 0.2,
+            "200": 0.2,
+            "300": 0.0,
+            "400": 1.6,
+            "500": 2.0,
+            "600": 3.19,
+            "700": 11.78,
+            "800": 53.69,
+            "900": 27.35,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 0.0,
+            "1500": 0.2,
+            "2000": 10.98,
+            "2500": 88.82,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 0.0,
+            "2": 100.0
+        },
+        "strate": {
+            "1": 3.59,
+            "2": 34.87,
+            "3": 61.54
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "id": 4054,
+    "full_name": "Litsea glutinosa var. brideliifolia",
+    "authors": "(Hayata) Merr.",
+    "rank_name": "infra",
+    "metadata": {
+        "rank_name": "infra",
+        "id_endemia": 928
+    },
+    "lft": 1478,
+    "rght": 1479,
+    "level": 3,
+    "parent_id": 4053,
+    "taxon_id": 4054,
+    "total_occurrences_count": 13,
+    "occurrences_locations_coordinates": "{\"type\": \"MultiPoint\", \"coordinates\": [{\"coordinates\": [165.9627208, -21.5236466], \"count\": 2}, {\"coordinates\": [166.4476949, -22.2693066], \"count\": 1}, {\"coordinates\": [166.4331973, -22.166286], \"count\": 1}, {\"coordinates\": [166.450345, -22.1517139], \"count\": 2}, {\"coordinates\": [165.967956, -21.8568645], \"count\": 2}, {\"coordinates\": [166.4580652, -22.1532677], \"count\": 1}, {\"coordinates\": [166.4430036, -22.1309665], \"count\": 1}, {\"coordinates\": [166.4814894, -22.1968997], \"count\": 1}]}",
+    "species_top": {
+        "Litsea glutinosa var. brideliifolia": 13
+    },
+    "um_occurrences_true": 0,
+    "um_occurrences_false": 13,
+    "phenology_temporal_phenology": {
+        "data": {
+            "flowering": [
+                0,
+                100.0,
+                50.0,
+                0.0,
+                0.0,
+                0.0,
+                0,
+                0,
+                0,
+                0,
+                100.0,
+                100.0
+            ],
+            "fruiting": [
+                0,
+                0.0,
+                50.0,
+                100.0,
+                100.0,
+                100.0,
+                0,
+                0,
+                0,
+                0,
+                0.0,
+                0.0
+            ]
+        },
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "dbh_mean": null,
+    "dbh_max": null,
+    "dbh_median": null,
+    "dbh_min": null,
+    "height_max": 15.0,
+    "wood_density_mean": null,
+    "wood_density_max": null,
+    "wood_density_min": null,
+    "bark_thickness_mean": null,
+    "bark_thickness_max": null,
+    "bark_thickness_min": null,
+    "leaf_sla_mean": null,
+    "leaf_sla_max": null,
+    "leaf_sla_min": null,
+    "leaf_area_mean": null,
+    "leaf_area_max": null,
+    "leaf_area_min": null,
+    "leaf_thickness_mean": null,
+    "leaf_thickness_max": null,
+    "leaf_thickness_min": null,
+    "frequencies": {
+        "elevation": {
+            "100": 0.0,
+            "200": 0.0,
+            "300": 0.0,
+            "400": 0.0,
+            "500": 0.0,
+            "600": 0.0,
+            "700": 0.0,
+            "800": 0.0,
+            "900": 0.0,
+            "1000": 0.0,
+            "1100": 0.0,
+            "1200": 0.0
+        },
+        "rainfall": {
+            "1000": 70.0,
+            "1500": 30.0,
+            "2000": 0.0,
+            "2500": 0.0,
+            "3000": 0.0,
+            "3500": 0.0,
+            "4000": 0.0,
+            "4500": 0.0
+        },
+        "holdridge": {
+            "1": 72.73,
+            "2": 27.27
+        }
+    }
+}
