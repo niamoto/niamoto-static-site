@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Niamoto</title>
+
+    
+    <link rel="stylesheet" href="../assets/css/vendor/tailwind/tailwind.min.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome/6.6.0_all.min.css">
+    <!-- Base CSS with custom styles -->
+    <link rel="stylesheet" href="../assets/css/niamoto.css">
+    <link rel="stylesheet" href="../assets/css/niamoto_hierarchical_nav.css">
+
+    
+    
+    
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+    
+    
+    
+        
+            <link rel="stylesheet" href="../assets/css/niamoto_hierarchical_nav.css">
+        
+    
+    
+    
+    
+
+
+    <style>
+        ul {
+            list-style-type: none;
+        }
+
+        .loader-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loader {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .button-container {
+            transition: all 0.3s ease;
+        }
+        .button-container.fixed {
+            position: fixed;
+            top: 63px; /* Adjust this value to match the height of your navigation menu */
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background-color: white;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <nav class="bg-nav-bg nav-bg p-0 fixed w-full top-0 shadow-md z-50 custom-nav">
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <a class="inline-flex items-center py-2 px-4 text-white no-underline"
+                href="../index.html">
+                
+                <img src="../assets/files/niamoto_logo.png" alt="Logo"
+                    class="h-8 w-auto mr-2 logo-embossed">
+                
+                <span class="site-title">Niamoto</span>
+            </a>
+        </div>
+
+        <div class="block lg:hidden">
+            <button id="nav-toggle"
+                class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
+            <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-3 text-white no-underline" href="#" data-link="index.html">
+                        <i class="fas fa-home menu-icon"></i>Accueil
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#introduction">Introduction</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#project">Projet</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#objective">Objectifs</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#context">Contexte</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#flora">Flore</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-3 text-white no-underline" href="#" data-link="methodology.html">
+                        <i class="fas fa-flask menu-icon"></i>Méthodologie
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#methodes">Nos méthodes</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#faq">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-3 text-white no-underline" href="#" data-link="trees.html">
+                        <i class="fas fa-leaf menu-icon"></i>Arbres
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#learnTaxon">Étudier les
+                arbres</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#taxon">Les arbres de
+                Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-3 text-white no-underline" href="#" data-link="plots.html">
+                        <i class="fas fa-map-marked-alt menu-icon"></i>Peuplements
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#learnPlot">Étudier les
+                            peuplements forestiers</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#plot">Les
+                peuplements forestiers de Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-3 text-white no-underline" href="#" data-link="forests.html">
+                        <i class="fas fa-tree menu-icon"></i>Forêt
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#learnForest">Étudier la
+                forêt</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#forestNC">La forêt de Nouvelle-Calédonie</a></li>
+
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-3 text-white no-underline" href="#">
+                        <i class="fas fa-database menu-icon"></i>Accéder aux données
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="taxon/index.html">Arbres</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plot/index.html">Peuplements</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="shape/index.html">Forêt</a></li>
+
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-3 text-white no-underline" href="#" data-link="resources.html">
+                        <i class="fas fa-book menu-icon"></i>Ressources
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#equipe">L'équipe</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#productions">Productions</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script>
+    // Mobile menu toggle
+    document.getElementById('nav-toggle').onclick = () =>
+        document.getElementById('nav-content').classList.toggle('hidden');
+
+    // Function to adjust the navigation links based on page depth
+        function adjustNavLinks(depth) {
+            document.querySelectorAll('a[data-link]').forEach(link => {
+                link.href = depth + link.getAttribute('data-link');
+            });
+        }
+
+        // Adjust the navigation links based on the depth  
+        adjustNavLinks("../");
+
+</script>
+
+<style>
+    .site-title {
+        font-family: 'Arial Black', sans-serif; /* Custom font for a bold effect */
+        font-size: 2rem; /* Increased font size */
+        text-transform: uppercase; /* Uppercase letters for visibility */
+        letter-spacing: 2px; /* Spacing between letters */
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
+        transition: color 0.3s; /* Smooth transition for hover effect */
+    }
+
+    .site-title:hover {
+        color: #ffdd57; /* Change color on hover */
+    }
+
+    .text-contour {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-bg {
+        background-color: rgba(34, 139, 34, 0.8); /* Fond vert semi-transparent */
+        transition: background-color 0.3s;
+    }
+
+    .nav-bg:hover {
+        background-color: rgba(34, 139, 34, 1); /* Fond vert opaque au survol */
+    }
+
+    .group:hover .group-hover\:block {
+        display: block;
+    }
+
+    .custom-nav {
+        z-index: 1500;
+    }
+
+    .custom-dropdown {
+        z-index: 1500;
+    }
+
+    .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.2); /* Fond blanc transparent au survol */
+        border-radius: 4px;
+    }
+
+    .menu-icon {
+        margin-right: 8px;
+    }
+
+    .logo-embossed {
+        background-color: #ffffff;
+        border-radius: 6px;
+        box-shadow:
+            /* Ombre intérieure pour l'effet enfoncé */
+            inset 0 2px 4px rgba(0, 0, 0, 0.3),
+            inset 0 1px 2px rgba(0, 0, 0, 0.2),
+            /* Petite ombre extérieure subtile */
+            0 1px 0 rgba(255, 255, 255, 0.2);
+        /* Bordure subtile pour accentuer l'effet */
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+</style>
+    <div class="flex flex-col lg:flex-row">
+        
+        
+        <div class="w-full">
+            
+    
+    
+    
+    
+
+    <div class="flex flex-col lg:flex-row min-h-screen bg-gray-50 pt-16">
+        
+        <aside class="lg:w-80 bg-white border-b lg:border-b-0 lg:border-r border-gray-200 lg:h-screen lg:sticky lg:top-16 lg:overflow-y-auto">
+
+            <div class="p-4">
+                
+                
+                    
+                        
+        <div id="hierarchical_nav_widget__0" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">Navigation par zones</h3>
+                </div>
+                
+            <div class="widget-content">
+                
+                <div class="mb-4">
+                    <input type="text"
+                           id="hierarchical-nav-shape-ref-search"
+                           class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent text-sm"
+                           placeholder="Rechercher..."
+                           aria-label="Rechercher dans l'arbre de navigation">
+                </div>
+            
+
+            <div id="hierarchical-nav-shape-ref-container"
+                 class="hierarchical-nav-tree"
+                 role="tree"
+                 aria-label="Navigation hiérarchique">
+                <!-- Tree will be populated by JavaScript -->
+            </div>
+        
+
+                <script src="../assets/js/shape_navigation.js"></script>
+                <script>
+                // Use a more robust initialization approach
+                function initializeHierarchicalNav() {
+                    if (typeof NiamotoHierarchicalNav !== 'undefined' && typeof shapeNavigationData !== 'undefined') {
+                        const config = {"containerId": "hierarchical-nav-shape-ref-container", "searchInputId": "hierarchical-nav-shape-ref-search", "dataVar": "shapeNavigationData", "params": {"idField": "id", "nameField": "label", "parentIdField": null, "lftField": null, "rghtField": null, "levelField": null, "groupByField": "type", "groupByLabelField": "type_label", "baseUrl": "../shape/"}, "currentItemId": 42};
+                        config.items = shapeNavigationData;  // Get data from loaded JS file
+                        new NiamotoHierarchicalNav(config);
+                    } else {
+                        // Retry after a short delay if dependencies aren't loaded yet
+                        setTimeout(initializeHierarchicalNav, 50);
+                    }
+                }
+
+                // Start initialization when DOM is ready
+                if (document.readyState === 'loading') {
+                    document.addEventListener('DOMContentLoaded', initializeHierarchicalNav);
+                } else {
+                    // DOM is already loaded
+                    initializeHierarchicalNav();
+                }
+                </script>
+            
+            </div>
+        </div>
+        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </div>
+        </aside>
+
+        
+        <main class="flex-1 lg:overflow-y-auto">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+                
+                
+                    <div class="grid grid-cols-12 gap-4 lg:gap-6">
+                        
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12">
+                                        <div >
+                                            
+        <div id="interactive_map_geography_1" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Distribution de la forêt
+                        <span class="info-tooltip" data-tooltip="Distribution de la forêt dans l&#39;emprise sélectionnée">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Distribution de la forêt dans l'emprise sélectionnée</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                <div class="map-widget">
+            <div class="map-container">
+        <div id="niamoto_map_5610" style="width: 100%; height: 500px; position: relative;">
+            <div id="niamoto_map_5610_loader" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000;">
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <div class="spinner" style="width: 50px; height: 50px; border: 5px solid #f3f3f3; border-top: 5px solid #2d5016; border-radius: 50%; animation: spin 1s linear infinite;"></div>
+                    <p style="margin-top: 10px; color: #666;">Chargement de la carte...</p>
+                </div>
+            </div>
+            <style>
+                @keyframes spin {
+                    0% { transform: rotate(0deg); }
+                    100% { transform: rotate(360deg); }
+                }
+            </style>
+        </div>
+
+        <script>
+        // Defer map initialization until DOM is ready and page is loaded
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initializeMapniamoto_map_5610);
+        } else {
+            // DOM is already loaded, initialize after a small delay to ensure other content loads first
+            setTimeout(initializeMapniamoto_map_5610, 100);
+        }
+
+        function initializeMapniamoto_map_5610() {
+            // Check if topojson is available, if not, wait for it to load
+            if (typeof topojson === 'undefined') {
+                // Wait for topojson to load, but with a maximum retry count
+                if (!initializeMapniamoto_map_5610.retryCount) {
+                    initializeMapniamoto_map_5610.retryCount = 0;
+                }
+                initializeMapniamoto_map_5610.retryCount++;
+
+                if (initializeMapniamoto_map_5610.retryCount < 50) { // Max 5 seconds (50 * 100ms)
+                    setTimeout(initializeMapniamoto_map_5610, 100);
+                    return;
+                } else {
+                    console.error('TopoJSON library failed to load after 5 seconds');
+                    document.getElementById('niamoto_map_5610_loader').innerHTML = '<p style="color: red;">Erreur: Impossible de charger la bibliothèque TopoJSON</p>';
+                    return;
+                }
+            }
+
+            // Use requestAnimationFrame to ensure smooth loading
+            requestAnimationFrame(function() {
+                // Embedded TopoJSON data
+                const niamotoTopoData = {"forest_cover_coords": {"type": "Topology", "objects": {"data": {"geometries": [{"properties": {}, "type": "MultiPolygon", "arcs": [[[0]], [[1]], [[2]], [[3]], [[4]], [[5], [6], [7], [8], [9], [10], [11], [12]], [[13]], [[14]], [[15]], [[16]]], "id": "feature_0"}], "type": "GeometryCollection"}}, "bbox": [166.50872297601924, -22.194454225993155, 166.5587072878439, -22.162952849404984], "transform": {"scale": [4.998481167277552e-07, 3.150169160508692e-07], "translate": [166.50872297601924, -22.194454225993155]}, "arcs": [[[66335, 10946], [377, 334], [857, 72], [1693, -523], [233, 4557], [630, 1767], [-367, 948], [-151, 1051], [444, 1026], [670, 179], [268, -464], [216, 326], [12, 615], [196, 490], [293, -322], [256, -848], [451, 167], [301, -382], [519, 776], [541, -573], [286, 24], [249, 692], [394, 31], [542, 453], [1339, -60], [805, 322], [443, -131], [959, -2103], [-90, -4340], [-365, -617], [-1278, -1313], [143, -787], [925, -561], [-933, -1743], [98, -143], [963, 382], [278, -143], [60, -549], [-165, -585], [-444, -334], [180, -585], [-549, -143], [68, -752], [-262, -305], [191, -736], [-80, -246], [-284, 17], [-167, -1368], [-571, -1289], [-843, -597], [-708, 14], [-176, -300], [9, -1206], [-1144, -158], [-405, -983], [-7501, 5592], [457, 1268], [-118, 3322], [255, 764]], [[86430, 14783], [39, -106], [-103, 95], [64, 11]], [[85474, 37675], [213, 845], [368, 464], [843, -751], [1, -183], [-343, -187], [120, -1400], [-215, -859], [211, -361], [-230, -568], [399, -667], [-53, -1257], [896, -1243], [-487, -790], [-9, -547], [-1111, -1436], [-307, -1917], [-174, 180], [-170, 1435], [119, 548], [-436, 4254], [-497, 666], [359, 1535], [-273, 1611], [-76, 1666], [420, 398], [219, -201], [-122, -631], [335, -604]], [[89082, 48110], [137, 0], [274, -918], [1523, -676], [487, -677], [852, -386], [274, -676], [-426, -773], [-244, -97], [-274, 556], [-532, -49], [-335, 1715], [-853, 556], [-670, -73], [-213, 1498]], [[72993, 47952], [56, 839], [558, 1264], [-76, 345], [697, 739], [320, -14], [164, -543], [312, -167], [-198, -1597], [-796, -1141], [-357, 207], [-394, -255], [-286, 323]], [[14548, 29492], [-1681, 4854], [-1172, 1925], [49, 1314], [-491, 1502], [398, 2049], [-187, 710], [-2139, 294], [-7188, 23880], [661, 640], [1428, 272], [342, 483], [1352, 513], [1218, 1118], [609, 1570], [-19, 393], [-190, 181], [-971, -121], [-248, 665], [-209, 60], [-818, -211], [-1447, 302], [-1142, -272], [-209, -121], [0, -272], [228, -181], [933, 212], [1408, -212], [229, -151], [133, -513], [-190, -242], [-895, -30], [-552, -302], [-762, -1148], [-1448, -775], [-1573, 5226], [281, 117], [1142, -332], [323, 151], [781, 876], [609, 332], [476, 755], [323, 91], [476, -272], [57, -634], [657, 211], [1142, 1329], [914, 574], [571, 1087], [1713, 1964], [-95, 1449], [590, 1143], [-162, 677], [-1428, 181], [-1484, 967], [-876, -212], [-1904, -1691], [-190, -816], [362, -1329], [-19, -573], [-438, -695], [-742, -302], [-876, -997], [-818, -121], [-838, 695], [-133, 1238], [-381, 1027], [-38, 2054], [343, 2205], [1199, 574], [152, 423], [-76, 1298], [304, 1208], [2247, 2605], [304, 1178], [-57, 2024], [1161, 1480], [990, 1661], [266, 846], [395, 487], [475, 1932], [191, 30], [38, -664], [-585, -2631], [819, -1087], [95, -755], [-190, -574], [-800, -302], [-247, -332], [-495, -1209], [19, -604], [266, -543], [400, -317], [1713, 951], [628, -211], [552, -2084], [-38, -1722], [191, -1752], [514, -574], [1180, 91], [266, -60], [191, -333], [-58, -762], [210, -582], [913, -634], [248, -453], [57, -2899], [362, -907], [571, -513], [228, -725], [-228, -1601], [-552, -1147], [-324, -1571], [-1589, -1510], [-438, -785], [-67, -2001], [-1085, -5376], [0, -3625], [-142, -1313], [-267, -1027], [-1180, -2809], [-209, -1057], [1008, -2870], [381, -634], [533, -302], [1504, 1148], [685, 1208], [201, 2781], [-456, 2018], [209, 875], [704, 1268], [-304, 2265], [209, 1419], [-38, 2143], [152, 453], [248, 91], [456, -423], [1351, -2506], [1180, -423], [247, -513], [267, -2053], [418, -362], [628, 0], [571, -2083], [856, -1299], [1009, 423], [590, 1238], [-248, 815], [-2645, 4710], [-856, 966], [-2036, 1389], [-342, 724], [-133, 1208], [-952, 2144], [438, 815], [1408, 815], [741, 1485], [-152, 3533], [-352, 1326], [-19, 1238], [-171, 665], [57, 1691], [190, 453], [343, 272], [304, -181], [381, -967], [952, -996], [457, -1450], [142, -2563], [381, -2053], [1274, -2234], [800, -2234], [551, -393], [267, 242], [304, 905], [685, 1087], [247, 936], [39, 1299], [-286, 1268], [-609, 1147], [-343, 1931], [-323, 392], [-1503, 30], [-438, 393], [19, 664], [1199, 1027], [247, 543], [-401, 1401], [1963, 1247], [941, -835], [742, -272], [323, 302], [248, 1328], [532, 182], [172, -363], [133, -1268], [380, -513], [533, 60], [571, 725], [590, 1691], [678, 286], [340, -257], [570, -1208], [38, -936], [-228, -634], [-1598, -2295], [-400, -1630], [324, -815], [704, -845], [875, -2265], [463, -2366], [457, -805], [304, -161], [381, 40], [431, 483], [0, 1047], [-761, 2616], [57, 1501], [323, 574], [1371, -401], [397, -413], [1004, -2643], [372, -432], [292, -1234], [1007, -1948], [609, 151], [685, 936], [324, -121], [152, -1842], [-704, -1268], [-57, -392], [171, -574], [552, -181], [818, 362], [990, 1027], [856, 392], [114, 755], [-666, 1510], [-533, 724], [-2063, 357], [-1934, 1865], [-92, 854], [513, 627], [-7, 983], [-508, 466], [-78, 545], [157, 457], [-449, 849], [-90, 564], [-760, 1190], [59, 438], [578, 81], [257, 368], [-78, 581], [-426, 977], [-16, 546], [172, 148], [309, -195], [642, -2030], [1490, -1671], [628, -1793], [1647, -1214], [1008, -1514], [370, -104], [171, 203], [-77, 454], [-487, 976], [-931, 2827], [-785, 1372], [34, 346], [687, 502], [127, -599], [436, -740], [105, -891], [374, -415], [196, -1053], [704, -997], [495, -1902], [462, -511], [48, -586], [311, -396], [224, -33], [375, 624], [700, 430], [-128, 726], [364, 715], [-206, 1492], [429, 1213], [590, 60], [370, -999], [194, -1344], [-8, -2440], [154, -926], [877, -279], [338, -814], [683, -773], [-57, -747], [-446, -1443], [80, -875], [-216, -859], [-317, -350], [-219, -2298], [655, -281], [338, -811], [495, -151], [913, 1419], [286, 1027], [666, 724], [171, 725], [-228, 513], [95, 484], [316, 103], [310, -214], [428, 407], [-250, 542], [-144, 1254], [787, 212], [162, -270], [-120, -457], [475, -994], [492, 7], [330, 424], [-904, 769], [279, 605], [-189, 652], [120, 476], [-198, 124], [-750, -302], [-311, 414], [442, 1562], [-780, 906], [-370, 2018], [-398, 595], [19, 801], [542, 45], [-41, 582], [133, 348], [-102, 508], [379, 388], [-23, 1638], [-279, 1089], [57, 747], [341, 533], [-241, 998], [-8, 1147], [-981, 1205], [703, -208], [134, 275], [-165, 653], [206, 513], [-578, 1648], [271, 22], [485, -666], [123, 111], [-677, 1665], [-779, 516], [380, 224], [1001, -513], [122, 220], [-250, 561], [391, 443], [394, -49], [413, -868], [892, -769], [77, -472], [647, -919], [155, -981], [978, -714], [511, -957], [378, 570], [23, 328], [-1675, 1759], [-985, 1642], [-52, 473], [624, 537], [297, 722], [1066, -392], [1156, 618], [192, 695], [-312, 687], [653, -8], [97, 129], [-100, 362], [2362, 375], [601, -300], [95, -557], [225, 396], [1128, -564], [1019, -1199], [225, 577], [254, -127], [3137, 1425], [280, -196], [640, -1829], [1200, -728], [43, -892], [893, -842], [-141, -967], [659, -846], [-596, -1174], [29, -564], [324, -596], [-23, -255], [-577, -282], [-219, -404], [75, -199], [321, -31], [21, -1293], [188, -525], [-754, -1359], [-70, -565], [897, -1480], [378, -1141], [485, -794], [-178, -931], [-899, -1834], [-43, -875], [-477, -480], [64, -327], [814, 167], [466, -506], [209, -694], [-133, -665], [228, -1177], [-742, -1148], [-209, -694], [247, -634], [476, -423], [818, -1752], [0, -573], [-723, -333], [-171, -1147], [114, -393], [247, -362], [1390, -725], [1294, 272], [552, -181], [742, 513], [171, -151], [-57, -725], [-495, -1328], [895, -1027], [1065, 483], [1090, 62], [73, 129], [-199, 415], [391, 352], [-138, 453], [182, 404], [-128, 617], [379, 479], [911, 123], [1064, -731], [42, -745], [-518, 101], [-41, -1202], [321, -50], [551, 523], [325, -454], [-799, -996], [-142, -403], [127, -490], [-469, 121], [-98, -202], [215, -689], [-34, -546], [214, -543], [698, 629], [-58, -529], [162, -343], [491, 262], [260, -160], [200, -488], [-314, -915], [584, -665], [18, -838], [1054, -651], [381, -146], [712, 375], [409, 1353], [678, -62], [441, 407], [166, 949], [-218, 1180], [122, 184], [555, -83], [42, 984], [791, -261], [695, -772], [70, -1274], [175, -307], [599, 647], [97, 2077], [1195, -55], [183, 876], [4, 583], [-261, 379], [190, 1058], [540, 172], [285, -141], [293, 314], [-131, 1163], [290, 769], [549, 4353], [0, 483], [-419, 936], [-133, 997], [399, 543], [723, 423], [104, 677], [258, 113], [305, -1361], [587, -1101], [245, 1951], [207, 422], [-167, 872], [355, 333], [923, 2019], [513, -272], [286, -694], [818, -332], [361, -1148], [1447, 212], [228, -182], [266, -754], [-80, -1563], [202, -761], [-386, -1080], [-8, -620], [-331, -332], [-57, -620], [-489, -608], [-699, -448], [-708, -903], [-242, -622], [-552, -337], [-65, -1239], [-305, -478], [376, -995], [-534, -1046], [-344, -187], [15, -419], [-411, -1026], [-576, -518], [313, -705], [1465, 204], [334, -268], [-362, -1043], [387, -705], [445, -284], [76, -363], [508, -302], [-60, -219], [-1105, -618], [-167, -731], [407, -48], [113, -344], [-321, 49], [-540, -335], [-1074, -1346], [-97, -311], [624, -1174], [-868, 806], [-802, 225], [-1225, 764], [-1146, 74], [-773, -449], [-219, -476], [-259, 50], [-408, 322], [118, 621], [-307, -23], [-360, 359], [-1213, -929], [-1014, 531], [-85, -238], [-333, 49], [-157, -366], [-720, -457], [-154, 209], [355, 349], [-18, 819], [180, 713], [-263, 265], [-842, -700], [-145, -494], [-294, -168], [-316, -697], [-606, 391], [-478, -444], [-133, -384], [-320, 13], [-472, 612], [-456, -25], [65, 1312], [-325, 669], [-5, 746], [145, 348], [517, 117], [60, 201], [-225, 416], [-568, 319], [-351, 850], [-704, 172], [-78, 618], [-421, 303], [-138, 416], [-532, 284], [-264, 724], [55, 1057], [-371, 122], [-673, -630], [574, -1029], [-214, -1186], [-407, 139], [-287, 506], [-345, 49], [-462, -990], [-295, -114], [-29, 746], [-333, -5], [-262, 433], [-827, 261], [-339, -879], [-604, 100], [-719, -1212], [205, -1035], [-331, -333], [106, -1018], [-464, -571], [31, -928], [-809, -595], [-544, 247], [-343, -224], [212, -506], [-118, -621], [337, -632], [-316, -697], [-392, -333], [125, -181], [271, 4], [1467, 1606], [615, 64], [335, -359], [395, -85], [-15, -1347], [-356, -261], [-7, -746], [-735, -503], [-129, -1058], [988, -331], [601, 446], [1526, 151], [-215, -969], [-538, -590], [-503, -208], [-280, -551], [493, -65], [782, -844], [-97, -220], [-1553, 141], [-390, -561], [-559, 610], [-1194, -200], [-661, 1155], [-828, 142], [-233, 2122], [-1353, 982], [-1259, 603], [-954, -2036], [-315, -2906], [-537, -1822], [-2486, -2150], [-145, 246], [342, 442], [-320, 568], [-1053, 213], [152, -635], [-96, -274], [374, -735], [-1095, -1971], [-612, -646], [-239, -4043], [929, -2584], [-1246, -2857], [-20, -739], [1377, -4550], [8253, 14989], [118, -989], [1342, 184], [1153, 691], [779, 1377], [937, -95], [466, 335], [423, -794], [713, -630], [601, -150], [979, -1237], [814, 24], [1484, 1041], [608, -91], [594, -964], [129, -872], [-597, -974], [-162, -1441], [-304, -567], [39, -329], [420, -158], [113, -271], [-119, -694], [-344, -41], [-208, -331], [84, -1383], [-415, -570], [-518, 65], [-429, -316], [-414, -680], [-338, -1043], [79, -745], [260, -178], [77, -400], [-182, -403], [105, -1054], [-404, -316], [-520, 338], [16, 1238], [-363, 2536], [-266, 219], [-286, -474], [-395, 85], [-508, 2286], [-639, 1502], [-269, -296], [57, -1091], [339, -887], [-46, -493], [391, -1396], [-366, -424], [-472, 576], [-44, -820], [-393, -206], [-186, 142], [-178, 908], [329, 424], [23, 310], [-1046, 3316], [-787, -121], [-620, 501], [-1218, -201], [-162, 216], [-662, -393], [-354, -551], [-165, -1113], [-636, -647], [337, -596], [217, -1071], [286, -396], [-1298, 544], [293, -734], [-90, -621], [-1249, -1551], [-888, -2316], [-315, -1503], [-91, -1003], [151, -1241], [195, -788], [692, -1480], [-165, -1098], [-602, -1695], [15, -740], [647, -811], [75, -645], [-225, -1933], [189, -976], [-5288, 5569], [-488, -85], [105, -1512], [-982, 187], [-293, 315], [-102, 526], [-210, 106], [-354, -460], [-29, -298], [-8792, 1677], [425, 316], [321, -196], [589, 391], [817, 980], [647, -91], [457, 1360], [800, -91], [571, -574], [362, -846], [266, -151], [153, 151], [742, 1480], [-89, 1106], [135, 783], [-419, 1238], [77, 755], [608, 674], [621, -24], [438, 694], [-95, 574], [-914, 574], [-781, -362], [-457, 60], [-647, 514], [-1523, 604], [-2641, -1435], [-2422, 1805], [134, 1313], [-418, 725], [-1616, -136], [-785, 265], [-191, 121], [-380, 1118], [-476, 91], [-268, -515], [-2922, 2179], [1994, 1460], [147, 650], [-775, -230], [-816, 388], [215, 1041], [-508, 375], [-243, -459], [-370, -137], [-374, -985], [-271, -40], [-75, 217], [253, 823], [-284, 51], [-318, -260], [-446, 267], [-237, 488], [231, 476], [-238, 598], [-333, 31], [-626, -1102], [-503, -491], [38, -302], [362, -91], [285, -513], [-304, -574], [-240, 98], [-266, -272], [-133, -725], [-191, -181], [-343, 181], [-285, 1601], [-685, 1118], [-1033, 243], [-1432, -1272], [-225, -1388], [101, -2433], [-14272, -5331], [-6, 3389], [-1408, 1353], [-341, 3040]], [[9213, 89357], [0, 1057], [-210, 182], [-2151, -899], [-133, -393], [305, -1449], [285, -574], [914, 294], [438, 1057], [552, 725]], [[52525, 64285], [-445, -582], [19, -500], [606, -833], [-230, -117], [126, -408], [-90, -320], [-337, -301], [79, -268], [-320, -464], [421, -767], [-41, -820], [-335, -551], [63, -227], [1748, 386], [400, -543], [286, -1510], [742, -332], [438, 60], [1122, 3443], [628, 1057], [343, 1208], [304, 3261], [-970, 1812], [-286, 211], [-1370, -226], [-133, 1389], [-685, 664], [-590, -121], [-457, -513], [-247, -695], [-154, -1956], [-732, -1035], [97, -402]], [[24374, 29269], [1009, 513], [171, 393], [-114, 362], [-1199, -30], [-533, -453], [-571, -1057], [-343, -1329], [76, -785], [552, -333], [666, 182], [457, 876], [-285, 1328], [114, 333]], [[24927, 65609], [446, -467], [-207, -1268], [752, -999], [16, -528], [610, -829], [-290, -932], [82, -1164], [318, -255], [1487, 1155], [132, 439], [-359, 323], [-39, 345], [255, 514], [-462, 921], [-21, 1183], [-522, 757], [-77, 418], [-534, 593], [-1360, 799], [-368, -279], [141, -726]], [[7119, 73818], [-933, -604], [-209, -453], [1846, 362], [324, 906], [0, 604], [-362, -30], [-666, -785]], [[35107, 65622], [259, -87], [362, 1116], [-265, 2672], [-199, 379], [-404, -333], [-40, -1476], [287, -2271]], [[31946, 38828], [2751, -2444], [6132, 1279], [715, 781], [913, -462], [275, 2176], [-1034, 2837], [-753, 1737], [-1964, 2038], [-831, 1710], [-401, 3233], [303, 2342], [-1634, 4274], [-4687, -12876], [-2943, -5150], [817, 3], [2341, -1478]], [[95466, 60217], [-458, 339], [200, 1241], [207, 404], [173, 2], [227, -816], [190, 1005], [613, 464], [-326, 742], [-736, -357], [-169, 1180], [446, 1464], [686, 556], [394, 24], [991, 980], [323, -377], [-20, -729], [238, -506], [318, 369], [224, 1405], [245, 168], [-23, -1930], [-132, -494], [922, 233], [-428, -480], [-373, -1226], [-2980, -1993], [-69, -638], [-683, -1030]], [[74674, 72962], [-22, -438], [-494, -1216], [-76, -2234], [-438, -1600], [-209, 211], [-38, 483], [228, 694], [-133, 1450], [-248, 604], [-399, 332], [-248, -121], [-304, -1721], [-228, -272], [-134, 272], [172, 1449], [456, 1631], [324, 151], [152, -423], [209, -30], [115, 211], [-189, 1912], [401, 1583], [457, 121], [646, -3049]], [[82765, 70894], [-675, -483], [-242, -550], [-1399, -768], [-48, -256], [-1027, -1107], [-614, -337], [-411, -1026], [-235, 69], [383, 1590], [-349, 632], [-6, 874], [616, 64], [219, 331], [210, -15], [113, -326], [-268, -532], [164, -490], [266, 769], [4, 1147], [279, 587], [504, 190], [161, 335], [-124, 1377], [-362, 686], [196, 258], [605, -264], [1075, 1291], [-143, 1181], [-300, 560], [144, 530], [-66, 745], [222, -87], [230, -1253], [149, -89], [264, 1042], [1073, 1012], [532, -849], [1137, -1140], [-450, -1760], [-1181, -1179], [-69, -766], [-577, -1993]], [[70314, 78675], [133, -242], [19, -1147], [476, 151], [228, -362], [-326, -2326], [501, -1230], [-127, -1240], [118, -1054], [-110, -147], [-507, 356], [-349, 650], [58, 915], [-171, 875], [95, 1752], [-761, 1932], [38, 694], [247, 423], [438, 0]]]}, "shape_coords": {"type": "Topology", "objects": {"data": {"geometries": [{"properties": {}, "type": "Polygon", "arcs": [[0], [1], [2]], "id": "feature_0"}], "type": "GeometryCollection"}}, "bbox": [166.5074241, -22.1948322, 166.5627697, -22.162062799999998], "transform": {"scale": [5.534615346151585e-07, 3.276972769727992e-07], "translate": [166.5074241, -22.1948322]}, "arcs": [[[99999, 65748], [-1505, -4053], [-3812, -7998], [-603, -3572], [181, -377], [-539, -848], [-198, -1686], [-1178, -3946], [157, -2823], [-371, -1294], [-2683, -2493], [-1248, -1915], [-1319, -373], [-2888, -3324], [-861, -5412], [328, -3705], [-129, -1675], [-810, -2581], [-669, -703], [-976, -2137], [-3304, 3253], [-4146, 1721], [-4, -9913], [-1374, -4899], [-2077, -4995], [-10406, 8127], [-4358, 5027], [-441, -81], [95, -1454], [-11287, 2292], [2922, 7094], [-10718, 8504], [-18928, -7682], [282, 726], [-67, 2728], [-1271, 1301], [-308, 2922], [-1518, 4666], [-1059, 1851], [44, 1263], [-443, 1444], [359, 1969], [-169, 684], [-1932, 282], [-10768, 38080], [1450, 1083], [1292, 2998], [961, 3898], [1913, 1943], [2632, 7749], [1538, 2439], [959, 146], [706, -3847], [-90, -5365], [671, -2307], [2306, -3845], [851, -2513], [1166, -1967], [1765, -92], [1098, -827], [1298, 416], [2551, 1784], [4544, 1234], [10557, 7978], [1421, -411], [922, -648], [1009, -1476], [983, -246], [1069, 582], [1412, 2057], [903, 581], [8822, 1492], [3203, -1706], [2832, 1371], [685, -331], [1340, -2057], [1619, -1209], [5685, -3164], [902, -3034], [1299, -1775], [4778, -2977], [1072, -1819], [3906, -3829], [2508, 1342], [1166, 141], [1088, -122], [3422, -1912], [3965, 655], [834, -1088], [1432, -3350], [1035, -1020], [2519, -947]], [[62076, 46307], [-1137, 580], [-861, -1958], [-285, -2793], [-485, -1752], [-3320, -3056], [-1132, -2141], [-224, -3440], [839, -2484], [-1125, -2746], [-19, -711], [1244, -4374], [8501, 16434], [-774, 7497], [-1222, 944]], [[35237, 57225], [-4233, -12378], [-2658, -4950], [738, 2], [2115, -1420], [2483, -2350], [5538, 1230], [647, 751], [824, -444], [248, 2091], [-934, 2727], [-679, 1670], [-1775, 1960], [-750, 1643], [-362, 3108], [274, 2251], [-1476, 4109]]]}};
+
+                // Style configurations
+                const shapeStyle = {"color": "#2d5016", "weight": 3, "fillOpacity": 0};
+                const forestStyle = {"color": "#228b22", "weight": 0, "fillColor": "#228b22", "fillOpacity": 0.8};
+
+                // Create Plotly figure
+                const traces = [];
+
+                // Process forest cover data if available
+                if (niamotoTopoData.forest_cover_coords) {
+                    try {
+                    const forestTopology = niamotoTopoData.forest_cover_coords;
+                    const objectKeys = Object.keys(forestTopology.objects || {});
+
+                    if (objectKeys.length > 0) {
+                        const objectName = objectKeys[0];
+                        const forestGeoJSON = topojson.feature(forestTopology, forestTopology.objects[objectName]);
+
+                        // Ensure we have features
+                        if (forestGeoJSON.features && forestGeoJSON.features.length > 0) {
+                            // Assign IDs to features if they don't have them
+                            forestGeoJSON.features.forEach((feature, index) => {
+                                if (!feature.id) {
+                                    feature.id = index.toString();
+                                }
+                                if (!feature.properties) {
+                                    feature.properties = {};
+                                }
+                                feature.properties.name = `Forest ${index}`;
+                            });
+
+                            // Create choroplethmap trace
+                            const forestTrace = {
+                                type: 'choroplethmap',
+                                geojson: forestGeoJSON,
+                                locations: forestGeoJSON.features.map(f => f.id),
+                                z: forestGeoJSON.features.map(() => 1),
+                                featureidkey: 'id',
+                                colorscale: [[0, forestStyle.fillColor || '#228b22'], [1, forestStyle.fillColor || '#228b22']],
+                                showscale: false,
+                                marker: {
+                                    opacity: forestStyle.fillOpacity || 0.6,
+                                    line: {width: 0}
+                                },
+                                name: 'Forest Cover',
+                                hovertemplate: '%{properties.name}<extra></extra>'
+                            };
+                            traces.push(forestTrace);
+                        } else {
+                            console.warn('No features in forest GeoJSON');
+                        }
+                    } else {
+                        console.warn('No objects found in forest TopoJSON');
+                    }
+                } catch (e) {
+                    console.error('Error processing forest cover TopoJSON:', e);
+                    }
+                }
+
+                // Process shape boundary data if available
+                if (niamotoTopoData.shape_coords) {
+                    try {
+                        const shapeTopology = niamotoTopoData.shape_coords;
+                        const objectKeys = Object.keys(shapeTopology.objects || {});
+
+                        if (objectKeys.length > 0) {
+                            const objectName = objectKeys[0];
+                            const shapeGeoJSON = topojson.feature(shapeTopology, shapeTopology.objects[objectName]);
+
+                        // Process each feature to extract boundary lines
+                        if (shapeGeoJSON.features && shapeGeoJSON.features.length > 0) {
+                            shapeGeoJSON.features.forEach((feature, featureIndex) => {
+                                const geometry = feature.geometry;
+                                if (!geometry || !geometry.coordinates) return;
+
+                                const processCoordinates = (coords, geomType) => {
+                                    if (geomType === 'Polygon') {
+                                        coords.forEach((ring, ringIndex) => {
+                                            if (ring.length > 0) {
+                                                const lons = ring.map(p => p[0]);
+                                                const lats = ring.map(p => p[1]);
+
+                                                traces.push({
+                                                    type: 'scattermap',
+                                                    lon: lons,
+                                                    lat: lats,
+                                                    mode: 'lines',
+                                                    line: {
+                                                        width: shapeStyle.weight || 2,
+                                                        color: shapeStyle.color || '#2d5016'
+                                                    },
+                                                    showlegend: false,
+                                                    hoverinfo: 'skip'
+                                                });
+                                            }
+                                        });
+                                    } else if (geomType === 'MultiPolygon') {
+                                        coords.forEach((polygon, polyIndex) => {
+                                            polygon.forEach((ring, ringIndex) => {
+                                                if (ring.length > 0) {
+                                                    const lons = ring.map(p => p[0]);
+                                                    const lats = ring.map(p => p[1]);
+
+                                                    traces.push({
+                                                        type: 'scattermap',
+                                                        lon: lons,
+                                                        lat: lats,
+                                                        mode: 'lines',
+                                                        line: {
+                                                            width: shapeStyle.weight || 2,
+                                                            color: shapeStyle.color || '#2d5016'
+                                                        },
+                                                        showlegend: false,
+                                                        hoverinfo: 'skip'
+                                                    });
+                                                }
+                                            });
+                                        });
+                                    }
+                                };
+
+                                processCoordinates(geometry.coordinates, geometry.type);
+                            });
+
+                            // Add a single legend entry for shape boundary
+                            traces.push({
+                                type: 'scattermap',
+                                lon: [],
+                                lat: [],
+                                mode: 'lines',
+                                line: {
+                                    width: shapeStyle.weight || 2,
+                                    color: shapeStyle.color || '#2d5016'
+                                },
+                                name: 'Shape Boundary',
+                                showlegend: true
+                            });
+
+                        } else {
+                            console.warn('No features in shape GeoJSON');
+                        }
+                    } else {
+                        console.warn('No objects found in shape TopoJSON');
+                    }
+                } catch (e) {
+                    console.error('Error processing shape coords TopoJSON:', e);
+                }
+            }
+
+            // Calculate bounds from TopoJSON data
+            let bounds = null;
+            let zoom = 9.0;
+
+            // Try to calculate bounds from the TopoJSON bbox
+            if (niamotoTopoData.shape_coords && niamotoTopoData.shape_coords.bbox) {
+                const bbox = niamotoTopoData.shape_coords.bbox;
+                bounds = {
+                    center: {
+                        lat: (bbox[1] + bbox[3]) / 2,
+                        lon: (bbox[0] + bbox[2]) / 2
+                    }
+                };
+                // Calculate zoom based on bbox
+                const latDiff = bbox[3] - bbox[1];
+                const lonDiff = bbox[2] - bbox[0];
+                // Simple zoom calculation - adjust as needed
+                if (latDiff < 0.5 && lonDiff < 0.5) {
+                    zoom = 10;
+                } else if (latDiff < 1 && lonDiff < 1) {
+                    zoom = 9;
+                } else {
+                    zoom = 8;
+                }
+            } else if (niamotoTopoData.forest_cover_coords && niamotoTopoData.forest_cover_coords.bbox) {
+                const bbox = niamotoTopoData.forest_cover_coords.bbox;
+                bounds = {
+                    center: {
+                        lat: (bbox[1] + bbox[3]) / 2,
+                        lon: (bbox[0] + bbox[2]) / 2
+                    }
+                };
+            }
+
+            // Fallback to calculating from traces if needed
+            if (!bounds && traces.length > 0) {
+                let minLat = Infinity, maxLat = -Infinity;
+                let minLon = Infinity, maxLon = -Infinity;
+
+                traces.forEach(trace => {
+                    if (trace.type === 'scattermap' && trace.lon && trace.lat) {
+                        trace.lon.forEach(lon => {
+                            if (lon < minLon) minLon = lon;
+                            if (lon > maxLon) maxLon = lon;
+                        });
+                        trace.lat.forEach(lat => {
+                            if (lat < minLat) minLat = lat;
+                            if (lat > maxLat) maxLat = lat;
+                        });
+                    } else if (trace.type === 'choroplethmap' && trace.geojson) {
+                        // Try to extract bounds from GeoJSON if available
+                        if (trace.geojson.bbox) {
+                            const bbox = trace.geojson.bbox;
+                            if (bbox[0] < minLon) minLon = bbox[0];
+                            if (bbox[2] > maxLon) maxLon = bbox[2];
+                            if (bbox[1] < minLat) minLat = bbox[1];
+                            if (bbox[3] > maxLat) maxLat = bbox[3];
+                        }
+                    }
+                });
+
+                if (minLat !== Infinity) {
+                    bounds = {
+                        center: {
+                            lat: (minLat + maxLat) / 2,
+                            lon: (minLon + maxLon) / 2
+                        }
+                    };
+                }
+            }
+
+            // Create layout
+            const layout = {
+                map: {
+                    style: "carto-positron",
+                    center: bounds ? bounds.center : {lat: -21.0, lon: 165.0},
+                    zoom: zoom
+                },
+                margin: {r: 0, t: 0, l: 0, b: 0},
+                height: 500,
+                showlegend: true,
+                legend: {
+                    x: 0.02,
+                    y: 0.98,
+                    bgcolor: 'rgba(255,255,255,0.8)',
+                    bordercolor: 'black',
+                    borderwidth: 1
+                },
+                annotations: []
+            };
+
+            // Create config
+            const config = {
+                displayModeBar: true,
+                displaylogo: false,
+                modeBarButtonsToRemove: ['sendDataToCloud', 'lasso2d', 'select2d'],
+                toImageButtonOptions: {
+                    format: 'png',
+                    filename: 'niamoto_map',
+                    height: 500,
+                    width: 700
+                }
+            };
+
+                // Render the map
+                Plotly.newPlot('niamoto_map_5610', traces, layout, config).then(() => {
+                    // Hide loader once map is rendered
+                    const loader = document.getElementById('niamoto_map_5610_loader');
+                    if (loader) {
+                        loader.style.display = 'none';
+                    }
+                }).catch(error => {
+                    console.error('Error rendering map:', error);
+                    // Hide loader even on error and show error message
+                    const loader = document.getElementById('niamoto_map_5610_loader');
+                    if (loader) {
+                        loader.innerHTML = '<p style="color: #e74c3c;">Erreur lors du chargement de la carte</p>';
+                    }
+                });
+            });
+        }
+        </script>
+        </div>
+        </div>
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12">
+                                        
+        <div id="info_grid_general_info_2" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">Informations générales</h3>
+                </div>
+                
+            <div class="widget-content">
+                
+        <div class="info-grid-widget">
+            
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                <div class="info-grid-item p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200" >
+                    <div class="flex flex-col h-full">
+                        <div class="text-sm font-medium text-gray-500 mb-1">Surface totale</div>
+                        <div class="text-2xl font-semibold text-gray-900">1115.59355238688<span class="text-gray-500 text-sm ml-1">ha</span></div>
+                    </div>
+                </div>
+                
+
+                <div class="info-grid-item p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200" >
+                    <div class="flex flex-col h-full">
+                        <div class="text-sm font-medium text-gray-500 mb-1">Surface forêt</div>
+                        <div class="text-2xl font-semibold text-gray-900">679.246465685073<span class="text-gray-500 text-sm ml-1">ha</span></div>
+                    </div>
+                </div>
+                
+
+                <div class="info-grid-item p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200" >
+                    <div class="flex flex-col h-full">
+                        <div class="text-sm font-medium text-gray-500 mb-1">Forêt sur mine</div>
+                        <div class="text-2xl font-semibold text-gray-900">0.0<span class="text-gray-500 text-sm ml-1">ha</span></div>
+                    </div>
+                </div>
+                
+
+                <div class="info-grid-item p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200" >
+                    <div class="flex flex-col h-full">
+                        <div class="text-sm font-medium text-gray-500 mb-1">Forêt en réserve</div>
+                        <div class="text-2xl font-semibold text-gray-900">663.761543525612<span class="text-gray-500 text-sm ml-1">ha</span></div>
+                    </div>
+                </div>
+                
+
+                <div class="info-grid-item p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200" >
+                    <div class="flex flex-col h-full">
+                        <div class="text-sm font-medium text-gray-500 mb-1">Forêt sur captage (PPE)</div>
+                        <div class="text-2xl font-semibold text-gray-900">476.12687697802<span class="text-gray-500 text-sm ml-1">ha</span></div>
+                    </div>
+                </div>
+                
+
+                <div class="info-grid-item p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200" >
+                    <div class="flex flex-col h-full">
+                        <div class="text-sm font-medium text-gray-500 mb-1">Pluviométrie</div>
+                        <div class="text-2xl font-semibold text-gray-900">{'min': 1790.0, 'max': 2590.0, 'units': 'mm/an'}</div>
+                    </div>
+                </div>
+                
+
+                <div class="info-grid-item p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200" >
+                    <div class="flex flex-col h-full">
+                        <div class="text-sm font-medium text-gray-500 mb-1">Altitude médiane</div>
+                        <div class="text-2xl font-semibold text-gray-900">489.0<span class="text-gray-500 text-sm ml-1">m</span></div>
+                    </div>
+                </div>
+                
+
+                <div class="info-grid-item p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200" >
+                    <div class="flex flex-col h-full">
+                        <div class="text-sm font-medium text-gray-500 mb-1">Altitude maximale</div>
+                        <div class="text-2xl font-semibold text-gray-900">1062.0<span class="text-gray-500 text-sm ml-1">m</span></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+            </div>
+        </div>
+        
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="concentric_rings_forest_cover_3" class="widget widget-modern " style="width:auto; height:500;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Couverture forestière
+                        <span class="info-tooltip" data-tooltip="Proportion forêt/hors-forêt pour l&#39;Emprise, les zones Non-Ultramafiques et Ultramafiques.">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Proportion forêt/hors-forêt pour l'Emprise, les zones Non-Ultramafiques et Ultramafiques.</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="29e20d5e-26e5-464b-bd79-cfc5a0eab0db" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "29e20d5e-26e5-464b-bd79-cfc5a0eab0db",
+                    {"data":[{"direction":"clockwise","hole":0.0,"labels":["",""],"marker":{"colors":["#F4E4BC","#6B8E23"],"line":{"color":"#FFFFFF","width":2.0}},"name":"Emprise","rotation":-30,"showlegend":false,"sort":false,"text":["",""],"textinfo":"none","values":[0.3911344644904194,0.6088655355095804],"type":"pie"},{"direction":"clockwise","hole":0.35,"labels":["",""],"marker":{"colors":["#C5A98B","#6B8E23"],"line":{"color":"#FFFFFF","width":2.0}},"name":"NUM","rotation":-30,"showlegend":false,"sort":false,"text":["",""],"textinfo":"none","values":[0.0390131251032205,0.9609868748967794],"type":"pie"},{"direction":"clockwise","hole":0.65,"labels":["",""],"marker":{"colors":["#8B7355","#6B8E23"],"line":{"color":"#FFFFFF","width":2.0}},"name":"UM","rotation":-30,"showlegend":false,"sort":false,"text":["",""],"textinfo":"none","values":[0.417295337394307,0.5827046626056929],"type":"pie"}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"annotations":[{"font":{"color":"black","family":"Arial Bold","size":14},"showarrow":false,"text":"UM","x":0.5,"y":0.4},{"font":{"color":"white","family":"Arial Bold","size":14},"showarrow":false,"text":"41.7%","x":0.5,"y":0.67},{"font":{"color":"black","family":"Arial Bold","size":14},"showarrow":false,"text":"NUM","x":0.5,"y":0.22},{"font":{"color":"white","family":"Arial Bold","size":14},"showarrow":false,"text":"3.9%","x":0.5,"y":0.77},{"font":{"color":"black","family":"Arial Bold","size":14},"showarrow":false,"text":"Emprise","x":0.5,"y":0.08},{"font":{"color":"white","family":"Arial Bold","size":14},"showarrow":false,"text":"39.1%","x":0.5,"y":0.87}],"margin":{"t":50,"l":50,"r":50,"b":50},"title":{},"height":500,"showlegend":false}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="bar_plot_land_use_4" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Occupation du sol
+                        <span class="info-tooltip" data-tooltip="Superficie occupée par type">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Superficie occupée par type</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="2de90590-390b-4158-842e-61242e329d36" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "2de90590-390b-4158-842e-61242e329d36",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"categories=%{x}\u003cbr\u003evalues=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"NUM","marker":{"color":"#00cc96","pattern":{"shape":""}},"name":"NUM","offsetgroup":"NUM","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["NUM"],"xaxis":"x","y":{"dtype":"f8","bdata":"cCY+KKxJU0A="},"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"categories=%{x}\u003cbr\u003evalues=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"UM","marker":{"color":"#ab63fa","pattern":{"shape":""}},"name":"UM","offsetgroup":"UM","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["UM"],"xaxis":"x","y":{"dtype":"f8","bdata":"DIauCcU5kEA="},"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"categories=%{x}\u003cbr\u003evalues=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Sec","marker":{"color":"#FFA15A","pattern":{"shape":""}},"name":"Sec","offsetgroup":"Sec","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["Sec"],"xaxis":"x","y":{"dtype":"f8","bdata":"AAAAAAAAAAA="},"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"categories=%{x}\u003cbr\u003evalues=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Humide","marker":{"color":"#19d3f3","pattern":{"shape":""}},"name":"Humide","offsetgroup":"Humide","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["Humide"],"xaxis":"x","y":{"dtype":"f8","bdata":"Y2IgseFnkEA="},"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"categories=%{x}\u003cbr\u003evalues=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Tr\u00e8s Humide","marker":{"color":"#FF6692","pattern":{"shape":""}},"name":"Tr\u00e8s Humide","offsetgroup":"Tr\u00e8s Humide","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["Tr\u00e8s Humide"],"xaxis":"x","y":{"dtype":"f8","bdata":"TmIgseFnUEA="},"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"categories=%{x}\u003cbr\u003evalues=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"R\u00e9serve","marker":{"color":"#B6E880","pattern":{"shape":""}},"name":"R\u00e9serve","offsetgroup":"R\u00e9serve","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["R\u00e9serve"],"xaxis":"x","y":{"dtype":"f8","bdata":"vC3p9uz7kEA="},"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"categories=%{x}\u003cbr\u003evalues=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"PPE","marker":{"color":"#FF97FF","pattern":{"shape":""}},"name":"PPE","offsetgroup":"PPE","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["PPE"],"xaxis":"x","y":{"dtype":"f8","bdata":"Hcy84VzmiEA="},"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"categories=%{x}\u003cbr\u003evalues=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Concessions","marker":{"color":"#FECB52","pattern":{"shape":""}},"name":"Concessions","offsetgroup":"Concessions","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["Concessions"],"xaxis":"x","y":{"dtype":"f8","bdata":"AAAAAAAAAAA="},"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"categories=%{x}\u003cbr\u003evalues=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"For\u00eat","marker":{"color":"#636efa","pattern":{"shape":""}},"name":"For\u00eat","offsetgroup":"For\u00eat","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["For\u00eat"],"xaxis":"x","y":{"dtype":"f8","bdata":"zEcAw\u002fg5hUA="},"yaxis":"y","type":"bar","width":0.6}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{},"categoryorder":"array","categoryarray":["NUM","UM","Sec","Humide","Tr\u00e8s Humide","R\u00e9serve","PPE","Concessions","For\u00eat"]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{}},"legend":{"title":{},"tracegroupgap":0},"margin":{"t":30,"r":10,"l":10,"b":10},"barmode":"group","showlegend":true}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="bar_plot_elevation_distribution_5" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Distribution altitudinale
+                        <span class="info-tooltip" data-tooltip="Distribution altitudinale de la forêt dans l&#39;emprise">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Distribution altitudinale de la forêt dans l'emprise</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="267cc2ec-f169-4116-87ed-a46a38479163" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "267cc2ec-f169-4116-87ed-a46a38479163",
+                    {"data":[{"hovertemplate":"=For\u00eat\u003cbr\u003eSuperficie (ha)=%{x}\u003cbr\u003eAltitude (m)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"For\u00eat","marker":{"color":"#228B22","pattern":{"shape":""}},"name":"For\u00eat","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"f8","bdata":"AAAAAAAAAAACXxhF81hCQFqnfT001lZAXalsYEN\u002fXEA\u002fJgasrAFkQLo1WQunJ1pAy1Yl07DoU0CM7+I1dVNLQHFr6fxTGzxAuZSoNqBMJEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="},"xaxis":"x","y":["100m","200m","300m","400m","500m","600m","700m","800m","900m","1000m","1100m","1200m","1300m","1400m","1500m","1600m","1700m"],"yaxis":"y","type":"bar","width":0.3},{"hovertemplate":"=Hors-for\u00eat\u003cbr\u003eSuperficie (ha)=%{x}\u003cbr\u003eAltitude (m)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Hors-for\u00eat","marker":{"color":"#F4E4BC","pattern":{"shape":""}},"name":"Hors-for\u00eat","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"f8","bdata":"AAAAAAAAAAAQk8KOgM0FQACPWKKbwC9AUvS0\u002fXhdS0BGkAM57vhcQLQ4PaWI3VpAvAub2\u002f0KSEBKRFB1CThBQMQeiFzGsUBAiI9MLvViNUC2gmBf9usCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="},"xaxis":"x","y":["100m","200m","300m","400m","500m","600m","700m","800m","900m","1000m","1100m","1200m","1300m","1400m","1500m","1600m","1700m"],"yaxis":"y","type":"bar","width":0.3}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Superficie (ha)"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Altitude (m)"}},"legend":{"title":{"text":""},"tracegroupgap":0},"margin":{"t":30,"r":10,"l":10,"b":10},"barmode":"stack","showlegend":true}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="bar_plot_holdridge_6" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Forêt et milieux de vie
+                        <span class="info-tooltip" data-tooltip="Distribution de la forêt selon les milieux de vie de Holdridge">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Distribution de la forêt selon les milieux de vie de Holdridge</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="097f3c77-9fac-4ea1-b5c7-993aa28bcda2" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "097f3c77-9fac-4ea1-b5c7-993aa28bcda2",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"Type de couverture=forest\u003cbr\u003eType d'habitat=%{x}\u003cbr\u003eCouverture (%)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"forest","marker":{"color":"#1B5E20","pattern":{"shape":""}},"name":"forest","offsetgroup":"forest","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["sec","humide","tres_humide"],"xaxis":"x","y":{"dtype":"f8","bdata":"AAAAAAAAAAAIm1WT03vjPwAAAAAAAAAA"},"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"Type de couverture=non_forest\u003cbr\u003eType d'habitat=%{x}\u003cbr\u003eCouverture (%)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"non_forest","marker":{"color":"#FBC02D","pattern":{"shape":""}},"name":"non_forest","offsetgroup":"non_forest","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["sec","humide","tres_humide"],"xaxis":"x","y":{"dtype":"f8","bdata":"AAAAAAAAAAB1BpEVlUTVPx0eHh4eHq4\u002f"},"yaxis":"y","type":"bar","width":0.6}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Type d'habitat"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Couverture (%)"}},"legend":{"title":{"text":"Type de couverture"},"tracegroupgap":0},"margin":{"t":30,"r":10,"l":10,"b":10},"barmode":"group","showlegend":true}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="donut_chart_forest_types_7" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Types forestiers
+                        <span class="info-tooltip" data-tooltip="Répartition de la forêt selon les trois types">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Répartition de la forêt selon les trois types</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                <div class='plotly-chart-widget donut-chart-widget'>
+    <div id="4156ef73-140a-492a-9264-2e14f8f5a520" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "4156ef73-140a-492a-9264-2e14f8f5a520",
+                    {"data":[{"hole":0.3,"hoverinfo":"label+percent+value","labels":["For\u00eat coeur","For\u00eat mature","For\u00eat secondaire"],"sort":true,"textinfo":"percent+label","values":{"dtype":"f8","bdata":"1AR3ytWbxD+vUqvB0rndP+UqGVlC+Nc\u002f"},"type":"pie"}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"margin":{"l":20,"r":20,"t":30,"b":20},"uniformtext":{"minsize":12,"mode":"hide"},"title":{},"showlegend":true}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    </div>
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="bar_plot_forest_cover_by_elevation_8" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Couverture forestière par altitude
+                        <span class="info-tooltip" data-tooltip="Distribution altitudinale de la couverture forestière en fonction du substrat">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Distribution altitudinale de la couverture forestière en fonction du substrat</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="fa09313b-1d97-45bc-952e-4c3b4eb83d2a" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "fa09313b-1d97-45bc-952e-4c3b4eb83d2a",
+                    {"data":[{"hovertemplate":"=For\u00eat (UM)\u003cbr\u003eCouverture (%)=%{x}\u003cbr\u003eAltitude (m)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"For\u00eat (UM)","marker":{"color":"#90EE90","pattern":{"shape":""}},"name":"For\u00eat (UM)","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"f8","bdata":"AAAAAAAAAICKEKhFiEVXwFROA1JfTFXA7aWAe+vjUMDmm1c2CyVMwDxRSwVWykTA+N2d\u002fJB7SsClL0wNKDZNwHrtkPhG2kbAdNqy+ZEXQMAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgA=="},"xaxis":"x","y":["100m","200m","300m","400m","500m","600m","700m","800m","900m","1000m","1100m","1200m","1300m","1400m","1500m","1600m","1700m"],"yaxis":"y","type":"bar","width":0.8},{"hovertemplate":"=For\u00eat (NUM)\u003cbr\u003eCouverture (%)=%{x}\u003cbr\u003eAltitude (m)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"For\u00eat (NUM)","marker":{"color":"#2E7D32","pattern":{"shape":""}},"name":"For\u00eat (NUM)","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"f8","bdata":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\u002futE1Ic5YQOvwyARNHlhAOtU+M9jDWED6ACl41fVUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="},"xaxis":"x","y":["100m","200m","300m","400m","500m","600m","700m","800m","900m","1000m","1100m","1200m","1300m","1400m","1500m","1600m","1700m"],"yaxis":"y","type":"bar","width":0.8}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Couverture (%)"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Altitude (m)"}},"legend":{"title":{"text":""},"tracegroupgap":0},"margin":{"t":30,"r":10,"l":10,"b":10},"barmode":"relative","showlegend":true}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="stacked_area_plot_forest_types_by_elevation_9" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Types forestiers par altitude
+                        <span class="info-tooltip" data-tooltip="Répartition des types de forêts selon l&#39;altitude">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Répartition des types de forêts selon l'altitude</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="a8803ca4-5909-4fd6-96d1-1dae91dc0b73" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "a8803ca4-5909-4fd6-96d1-1dae91dc0b73",
+                    {"data":[{"fill":"tonexty","fillcolor":"#C5E1A5","line":{"color":"#C5E1A5","width":0},"name":"secondaire","stackgroup":"one","x":{"dtype":"i2","bdata":"ZADIACwBkAH0AVgCvAIgA4QD6ANMBLAEFAV4BdwFQAakBg=="},"y":{"dtype":"f8","bdata":"AAAAAAAAAACdm1E7hKU5QEH6EEHOUDxAT9TUwb6cP0BKMp4dtR9BQCThxf7XGEBAgPIhcIE6QEBm9XVDYcxQQJLiRZT3c1NAAAAAAAAAWUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="},"type":"scatter"},{"fill":"tonexty","fillcolor":"#7CB342","line":{"color":"#7CB342","width":0},"name":"mature","stackgroup":"one","x":{"dtype":"i2","bdata":"ZADIACwBkAH0AVgCvAIgA4QD6ANMBLAEFAV4BdwFQAakBg=="},"y":{"dtype":"f8","bdata":"AAAAAAAAAAC5X7Ue9\u002fhJQCNNiiYSikRAW1G6wTmvQkAtqNeUJ19HQA2xkgW5XU5AwAbvR7\u002fiUEA0FRR5PWdAQLV16K4hMDZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="},"type":"scatter"},{"fill":"tonexty","fillcolor":"#2E7D32","line":{"color":"#2E7D32","width":0},"name":"coeur","stackgroup":"one","x":{"dtype":"i2","bdata":"ZADIACwBkAH0AVgCvAIgA4QD6ANMBLAEFAV4BdwFQAakBg=="},"y":{"dtype":"f8","bdata":"AAAAAAAAAADvpEOHjWg2QHxr2nENmz5A\u002fYi2us0EP0AQSxSbRgIzQHZuO913SxxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="},"type":"scatter"}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"margin":{"r":10,"t":30,"l":10,"b":10},"legend":{"title":{"text":"Series"}},"title":{},"xaxis":{"title":{"text":"Altitude (m)"}},"yaxis":{"title":{"text":"Fr\u00e9quence (%)"}}}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="radial_gauge_fragmentation_10" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Fragmentation (Taille effective de maillage)
+                        <span class="info-tooltip" data-tooltip="Probabilité que deux points appartiennent au même fragment">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Probabilité que deux points appartiennent au même fragment</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="3c63f588-4e05-42d1-93bb-e302b1906c74" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "3c63f588-4e05-42d1-93bb-e302b1906c74",
+                    {"data":[{"gauge":{"axis":{"range":[0.0,1000.0],"visible":false},"bar":{"color":"#f02828","thickness":0.8},"bgcolor":"#f5f5f5","borderwidth":0,"shape":"angular"},"mode":"gauge+number","number":{"suffix":"km\u00b2","valueformat":".1f"},"title":{"text":""},"value":8.07834722624706,"type":"indicator"}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"margin":{"r":10,"t":30,"l":10,"b":10},"height":250}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="stacked_area_plot_fragmentation_distribution_11" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Fragments forestiers
+                        <span class="info-tooltip" data-tooltip="Aire cumulée de chaque fragment forestier classé par taille">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Aire cumulée de chaque fragment forestier classé par taille</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="70d00ab9-8051-403e-a66e-c98f5d2160ad" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "70d00ab9-8051-403e-a66e-c98f5d2160ad",
+                    {"data":[{"fill":"tozeroy","fillcolor":"#4CAF50","line":{"color":"#4CAF50","width":0},"name":"Aire Cumul\u00e9e","stackgroup":"one","x":{"dtype":"i2","bdata":"CgAUAB4AKAAyADwARgBQAFoAZAB9AJYArwDIAOEA+gATASwBRQFeAXcBkAGpAcIB2wH0AVgCvAIgA4QD6APcBdAHiBMQJyBOMHU="},"y":{"dtype":"f8","bdata":"k6YEf10FAkCTpgR\u002fXQUCQJOmBH9dBQJA3BHKILZwHEDcEcogtnAcQNwRyiC2cBxA3BHKILZwHEDcEcogtnAcQNwRyiC2cBxA3BHKILZwHEDcEcogtnAcQNwRyiC2cBxA3BHKILZwHEDcEcogtnAcQNwRyiC2cBxA3BHKILZwHEDcEcogtnAcQNwRyiC2cBxA3BHKILZwHEDcEcogtnAcQNwRyiC2cBxA3BHKILZwHEDcEcogtnAcQNwRyiC2cBxA3BHKILZwHEDcEcogtnAcQNwRyiC2cBxAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAFgAAAAAAaUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUA="},"type":"scatter"}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"margin":{"r":10,"t":30,"l":10,"b":10},"legend":{"title":{"text":"Series"}},"xaxis":{"title":{"text":"Surface (ha)"},"type":"log"},"title":{},"yaxis":{"title":{"text":"Fr\u00e9quence (%)"}}}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                    </div>
+                
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal pour afficher une image en grand -->
+<div id="imageModal" class="fixed inset-0 bg-black bg-opacity-90 hidden z-50 flex items-center justify-center p-4">
+    <div class="relative w-full h-full max-w-5xl max-h-full flex items-center justify-center mt-20">
+        <!-- Bouton fermer -->
+        <button onclick="closeImageModal()" class="absolute top-4 right-4 text-white hover:text-gray-300 text-3xl leading-none z-10 bg-black bg-opacity-50 rounded-full w-12 h-12 flex items-center justify-center">
+            ×
+        </button>
+
+        <!-- Flèche précédente -->
+        <button id="prevImageBtn" onclick="previousImage()" class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white hover:text-gray-300 text-4xl z-10 bg-black bg-opacity-50 rounded-full w-12 h-12 flex items-center justify-center hidden">
+            ‹
+        </button>
+
+        <!-- Conteneur central pour loader et image -->
+        <div class="flex items-center justify-center w-full h-full min-h-96">
+            <!-- Loader -->
+            <div id="imageLoader" class="flex items-center justify-center">
+                <div class="animate-spin rounded-full h-16 w-16 border-b-2 border-white"></div>
+            </div>
+
+            <!-- Image en grand -->
+            <img id="modalImage" src="" alt="" class="max-w-full max-h-full object-contain hidden">
+        </div>
+
+        <!-- Flèche suivante -->
+        <button id="nextImageBtn" onclick="nextImage()" class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white hover:text-gray-300 text-4xl z-10 bg-black bg-opacity-50 rounded-full w-12 h-12 flex items-center justify-center hidden">
+            ›
+        </button>
+
+        <!-- Indicateur de position -->
+        <div id="imageCounter" class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white bg-black bg-opacity-50 px-3 py-1 rounded hidden">
+            <span id="currentImageIndex">1</span> / <span id="totalImages">1</span>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+    <footer class="bg-green-700 text-white p-4 mt-8">
+    <div class="container mx-auto">
+        <div class="flex justify-center mb-4">
+            <div class="bg-white p-2 w-3/5 rounded-lg shadow-md flex justify-center">
+                <a class='logo' href="https://www.province-nord.nc/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="pn" src="../assets/files/pn_100.png"></figure>
+                </a>
+                <a class='logo' href="https://www.province-sud.nc/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="ps" src="../assets/files/ps_100.png"></figure>
+                </a>
+                <a class='logo' href="https://endemia.nc/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="ps" src="../assets/files/endemia_100.png"></figure>
+                </a>
+                <a class='logo' href="https://amap.cirad.fr/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="amap" src="../assets/files/amap_100.png"></figure>
+                </a>
+                <a class='logo' href="http://publish.plantnet-project.org/project/nou" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="herbarium" src="../assets/files/herbarium_100.png"></figure>
+                </a>
+                <a class='logo' href="https://iac.nc/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="iac" src="../assets/files/iac_100.png"></figure>
+                </a>
+                <a class='logo' href="https://nouvelle-caledonie.ird.fr/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="ird" src="../assets/files/ird_100.png"></figure>
+                </a>
+                <a class='logo' href="https://cirad.fr/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="cirad" src="../assets/files/cirad_100.png"></figure>
+                </a>
+                <a class='logo' href="https://www.ofb.gouv.fr/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="ofb" src="../assets/files/ofb_100.png"></figure>
+                </a>
+            </div>
+        </div>
+        <div class="text-center">
+            <p>Niamoto - Portail de la forêt de Nouvelle-Calédonie</p>
+            <a class="inline-block py-2 px-4 text-white no-underline" href="https://github.com/niamoto/niamoto" target="_blank">
+                <span class="fab fa-github fa-lg" aria-hidden="true"></span> Github
+            </a>
+        </div>
+    </div>
+</footer>
+    
+        
+            <script src="../assets/js/vendor/topojson/3.1.0_topojson.js"></script>
+        
+    
+        
+            <script src="../assets/js/vendor/plotly/3.0.1_plotly.min.js"></script>
+        
+    
+        
+            <script src="../assets/js/niamoto_hierarchical_nav.js"></script>
+        
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        const buttonContainer = document.getElementById('buttonContainer');
+
+            // Only proceed if the button container exists
+            if (buttonContainer) {
+                const buttonContainerOffset = buttonContainer.offsetTop;
+                const navHeight = 60; // Adjust this value to match your navigation height
+
+                window.onscroll = () => {
+                    if (window.pageYOffset > buttonContainerOffset - navHeight) {
+                        buttonContainer.classList.add('fixed');
+                    } else {
+                        buttonContainer.classList.remove('fixed');
+                    }
+                };
+
+                // Initial check in case the page is loaded scrolled
+                window.onscroll();
+            }
+        });
+    </script>
+    
+<script>
+    // Variables globales pour la navigation dans la modal
+    let currentImageArray = [];
+    let currentImageIndex = 0;
+
+    // Définir les fonctions dans l'objet window pour qu'elles soient accessibles globalement
+    window.openImageLightbox = function(images, startIndex = 0) {
+            currentImageArray = images;
+            currentImageIndex = startIndex;
+
+            showCurrentImage();
+
+            const modal = document.getElementById('imageModal');
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; // Empêcher le scroll de la page
+
+            updateNavigationButtons();
+        };
+
+        // Fonction pour afficher l'image actuelle
+        window.showCurrentImage = function() {
+            const modalImage = document.getElementById('modalImage');
+            const imageLoader = document.getElementById('imageLoader');
+            const currentIndexSpan = document.getElementById('currentImageIndex');
+            const totalImagesSpan = document.getElementById('totalImages');
+
+            // Vérifier que tous les éléments existent
+            if (!modalImage || !imageLoader || !currentIndexSpan || !totalImagesSpan) {
+                console.error('Elements manquants pour la modal:', {
+                    modalImage: !!modalImage,
+                    imageLoader: !!imageLoader,
+                    currentIndexSpan: !!currentIndexSpan,
+                    totalImagesSpan: !!totalImagesSpan
+                });
+                return;
+            }
+
+            // Afficher le loader et cacher l'image
+            imageLoader.classList.remove('hidden');
+            modalImage.classList.add('hidden');
+
+            // Mettre à jour les compteurs
+            currentIndexSpan.textContent = currentImageIndex + 1;
+            totalImagesSpan.textContent = currentImageArray.length;
+
+            // Charger la nouvelle image
+            const newImage = new Image();
+            newImage.onload = function() {
+                // Une fois l'image chargée, l'afficher et cacher le loader
+                modalImage.src = newImage.src;
+                imageLoader.classList.add('hidden');
+                modalImage.classList.remove('hidden');
+            };
+            newImage.onerror = function() {
+                // En cas d'erreur, afficher un message et cacher le loader
+                imageLoader.innerHTML = '<div class="text-white text-center"><p>Erreur de chargement</p><p class="text-sm opacity-75">Image non disponible</p></div>';
+                setTimeout(() => {
+                    imageLoader.innerHTML = '<div class="animate-spin rounded-full h-16 w-16 border-b-2 border-white"></div>';
+                    imageLoader.classList.add('hidden');
+                }, 2000);
+            };
+            newImage.src = currentImageArray[currentImageIndex];
+
+            // Afficher/masquer le compteur et les flèches selon le nombre d'images
+            const imageCounter = document.getElementById('imageCounter');
+            const prevBtn = document.getElementById('prevImageBtn');
+            const nextBtn = document.getElementById('nextImageBtn');
+
+            // Vérifier que les éléments de navigation existent
+            if (!imageCounter || !prevBtn || !nextBtn) {
+                console.error('Elements de navigation manquants:', {
+                    imageCounter: !!imageCounter,
+                    prevBtn: !!prevBtn,
+                    nextBtn: !!nextBtn
+                });
+                return;
+            }
+
+            if (currentImageArray.length > 1) {
+                imageCounter.classList.remove('hidden');
+                prevBtn.classList.remove('hidden');
+                nextBtn.classList.remove('hidden');
+            } else {
+                imageCounter.classList.add('hidden');
+                prevBtn.classList.add('hidden');
+                nextBtn.classList.add('hidden');
+            }
+        };
+
+        // Fonction pour mettre à jour les boutons de navigation
+        window.updateNavigationButtons = function() {
+            const prevBtn = document.getElementById('prevImageBtn');
+            const nextBtn = document.getElementById('nextImageBtn');
+
+            // Désactiver/activer les boutons selon la position
+            if (currentImageIndex === 0) {
+                prevBtn.style.opacity = '0.5';
+                prevBtn.style.cursor = 'not-allowed';
+            } else {
+                prevBtn.style.opacity = '1';
+                prevBtn.style.cursor = 'pointer';
+            }
+
+            if (currentImageIndex === currentImageArray.length - 1) {
+                nextBtn.style.opacity = '0.5';
+                nextBtn.style.cursor = 'not-allowed';
+            } else {
+                nextBtn.style.opacity = '1';
+                nextBtn.style.cursor = 'pointer';
+            }
+        };
+
+        // Fonction pour aller à l'image précédente
+        window.previousImage = function() {
+            if (currentImageIndex > 0) {
+                currentImageIndex--;
+                showCurrentImage();
+                updateNavigationButtons();
+            }
+        };
+
+        // Fonction pour aller à l'image suivante
+        window.nextImage = function() {
+            if (currentImageIndex < currentImageArray.length - 1) {
+                currentImageIndex++;
+                showCurrentImage();
+                updateNavigationButtons();
+            }
+        };
+
+        // Fonction pour fermer la modal
+        window.closeImageModal = function() {
+            const modal = document.getElementById('imageModal');
+            modal.classList.add('hidden');
+            document.body.style.overflow = ''; // Restaurer le scroll
+        };
+
+        // Fonction pour expandre la galerie d'images
+        window.expandImageGallery = function(galleryId, button) {
+            const gallery = document.getElementById(galleryId);
+            if (!gallery) {
+                console.error('Galerie non trouvée:', galleryId);
+                return;
+            }
+
+            const hiddenImages = gallery.querySelectorAll('.gallery-hidden');
+            const expandBtn = gallery.querySelector('.expand-btn');
+            const collapseBtn = gallery.querySelector('.collapse-btn');
+
+            if (!expandBtn || !collapseBtn) {
+                console.error('Boutons expand/collapse manquants dans la galerie:', galleryId);
+                return;
+            }
+
+            // Afficher toutes les images cachées
+            hiddenImages.forEach(img => img.classList.remove('hidden'));
+
+            // Masquer le bouton + et afficher le bouton −
+            expandBtn.classList.add('hidden');
+            collapseBtn.classList.remove('hidden');
+        };
+
+        // Fonction pour réduire la galerie d'images
+        window.collapseImageGallery = function(galleryId, button) {
+            const gallery = document.getElementById(galleryId);
+            if (!gallery) {
+                console.error('Galerie non trouvée:', galleryId);
+                return;
+            }
+
+            const hiddenImages = gallery.querySelectorAll('.gallery-hidden');
+            const expandBtn = gallery.querySelector('.expand-btn');
+            const collapseBtn = gallery.querySelector('.collapse-btn');
+
+            if (!expandBtn || !collapseBtn) {
+                console.error('Boutons expand/collapse manquants dans la galerie:', galleryId);
+                return;
+            }
+
+            // Masquer les images supplémentaires
+            hiddenImages.forEach(img => img.classList.add('hidden'));
+
+            // Afficher le bouton + et masquer le bouton −
+            expandBtn.classList.remove('hidden');
+            collapseBtn.classList.add('hidden');
+        };
+
+        // Fermer la modal en cliquant en dehors de l'image
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('imageModal');
+            if (modal) {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        closeImageModal();
+                    }
+                });
+            }
+        });
+
+        // Navigation au clavier
+        document.addEventListener('keydown', function(e) {
+            const modal = document.getElementById('imageModal');
+            if (modal && !modal.classList.contains('hidden')) {
+                switch(e.key) {
+                    case 'Escape':
+                        closeImageModal();
+                        break;
+                    case 'ArrowLeft':
+                        e.preventDefault();
+                        previousImage();
+                        break;
+                    case 'ArrowRight':
+                        e.preventDefault();
+                        nextImage();
+                        break;
+                }
+            }
+        });
+</script>
+
+</body>
+</html>

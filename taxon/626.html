@@ -1,0 +1,1662 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Niamoto</title>
+
+    
+    <link rel="stylesheet" href="../assets/css/vendor/tailwind/tailwind.min.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome/6.6.0_all.min.css">
+    <!-- Base CSS with custom styles -->
+    <link rel="stylesheet" href="../assets/css/niamoto.css">
+    <link rel="stylesheet" href="../assets/css/niamoto_hierarchical_nav.css">
+
+    
+    
+    
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+    
+    
+    
+        
+            <link rel="stylesheet" href="../assets/css/niamoto_hierarchical_nav.css">
+        
+    
+    
+    
+    
+
+
+    <style>
+        ul {
+            list-style-type: none;
+        }
+
+        .loader-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loader {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .button-container {
+            transition: all 0.3s ease;
+        }
+        .button-container.fixed {
+            position: fixed;
+            top: 63px; /* Adjust this value to match the height of your navigation menu */
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background-color: white;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <nav class="bg-nav-bg nav-bg p-0 fixed w-full top-0 shadow-md z-50 custom-nav">
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <a class="inline-flex items-center py-2 px-4 text-white no-underline"
+                href="../index.html">
+                
+                <img src="../assets/files/niamoto_logo.png" alt="Logo"
+                    class="h-8 w-auto mr-2 logo-embossed">
+                
+                <span class="site-title">Niamoto</span>
+            </a>
+        </div>
+
+        <div class="block lg:hidden">
+            <button id="nav-toggle"
+                class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
+            <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-3 text-white no-underline" href="#" data-link="index.html">
+                        <i class="fas fa-home menu-icon"></i>Accueil
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#introduction">Introduction</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#project">Projet</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#objective">Objectifs</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#context">Contexte</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="index.html#flora">Flore</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-3 text-white no-underline" href="#" data-link="methodology.html">
+                        <i class="fas fa-flask menu-icon"></i>Méthodologie
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#methodes">Nos méthodes</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="methodology.html#faq">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-3 text-white no-underline" href="#" data-link="trees.html">
+                        <i class="fas fa-leaf menu-icon"></i>Arbres
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#learnTaxon">Étudier les
+                arbres</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="trees.html#taxon">Les arbres de
+                Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-3 text-white no-underline" href="#" data-link="plots.html">
+                        <i class="fas fa-map-marked-alt menu-icon"></i>Peuplements
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#learnPlot">Étudier les
+                            peuplements forestiers</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plots.html#plot">Les
+                peuplements forestiers de Nouvelle-Calédonie</a></li>
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-3 text-white no-underline" href="#" data-link="forests.html">
+                        <i class="fas fa-tree menu-icon"></i>Forêt
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#preambule">Préambule</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#learnForest">Étudier la
+                forêt</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="forests.html#forestNC">La forêt de Nouvelle-Calédonie</a></li>
+
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-3 text-white no-underline" href="#">
+                        <i class="fas fa-database menu-icon"></i>Accéder aux données
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="taxon/index.html">Arbres</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="plot/index.html">Peuplements</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="shape/index.html">Forêt</a></li>
+
+                    </ul>
+                </li>
+                <li class="relative group mr-3">
+                    <a class="nav-link inline-block py-2 px-3 text-white no-underline" href="#" data-link="resources.html">
+                        <i class="fas fa-book menu-icon"></i>Ressources
+                    </a>
+                    <ul class="absolute hidden text-gray-700 pt-1 group-hover:block bg-white shadow-lg rounded-md z-50 w-48 custom-dropdown">
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#equipe">L'équipe</a></li>
+                        <li><a class="py-2 px-4 block whitespace-no-wrap hover:bg-gray-100" href="#" data-link="resources.html#productions">Productions</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script>
+    // Mobile menu toggle
+    document.getElementById('nav-toggle').onclick = () =>
+        document.getElementById('nav-content').classList.toggle('hidden');
+
+    // Function to adjust the navigation links based on page depth
+        function adjustNavLinks(depth) {
+            document.querySelectorAll('a[data-link]').forEach(link => {
+                link.href = depth + link.getAttribute('data-link');
+            });
+        }
+
+        // Adjust the navigation links based on the depth  
+        adjustNavLinks("../");
+
+</script>
+
+<style>
+    .site-title {
+        font-family: 'Arial Black', sans-serif; /* Custom font for a bold effect */
+        font-size: 2rem; /* Increased font size */
+        text-transform: uppercase; /* Uppercase letters for visibility */
+        letter-spacing: 2px; /* Spacing between letters */
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
+        transition: color 0.3s; /* Smooth transition for hover effect */
+    }
+
+    .site-title:hover {
+        color: #ffdd57; /* Change color on hover */
+    }
+
+    .text-contour {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-bg {
+        background-color: rgba(34, 139, 34, 0.8); /* Fond vert semi-transparent */
+        transition: background-color 0.3s;
+    }
+
+    .nav-bg:hover {
+        background-color: rgba(34, 139, 34, 1); /* Fond vert opaque au survol */
+    }
+
+    .group:hover .group-hover\:block {
+        display: block;
+    }
+
+    .custom-nav {
+        z-index: 1500;
+    }
+
+    .custom-dropdown {
+        z-index: 1500;
+    }
+
+    .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.2); /* Fond blanc transparent au survol */
+        border-radius: 4px;
+    }
+
+    .menu-icon {
+        margin-right: 8px;
+    }
+
+    .logo-embossed {
+        background-color: #ffffff;
+        border-radius: 6px;
+        box-shadow:
+            /* Ombre intérieure pour l'effet enfoncé */
+            inset 0 2px 4px rgba(0, 0, 0, 0.3),
+            inset 0 1px 2px rgba(0, 0, 0, 0.2),
+            /* Petite ombre extérieure subtile */
+            0 1px 0 rgba(255, 255, 255, 0.2);
+        /* Bordure subtile pour accentuer l'effet */
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+</style>
+    <div class="flex flex-col lg:flex-row">
+        
+        
+        <div class="w-full">
+            
+    
+    
+    
+    
+
+    <div class="flex flex-col lg:flex-row min-h-screen bg-gray-50 pt-16">
+        
+        <aside class="lg:w-80 bg-white border-b lg:border-b-0 lg:border-r border-gray-200 lg:h-screen lg:sticky lg:top-16 lg:overflow-y-auto">
+
+            <div class="p-4">
+                
+                
+                    
+                        
+        <div id="hierarchical_nav_widget__0" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">Navigation taxonomique</h3>
+                </div>
+                
+            <div class="widget-content">
+                
+                <div class="mb-4">
+                    <input type="text"
+                           id="hierarchical-nav-taxon-ref-search"
+                           class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent text-sm"
+                           placeholder="Rechercher..."
+                           aria-label="Rechercher dans l'arbre de navigation">
+                </div>
+            
+
+            <div id="hierarchical-nav-taxon-ref-container"
+                 class="hierarchical-nav-tree"
+                 role="tree"
+                 aria-label="Navigation hiérarchique">
+                <!-- Tree will be populated by JavaScript -->
+            </div>
+        
+
+                <script src="../assets/js/taxon_navigation.js"></script>
+                <script>
+                // Use a more robust initialization approach
+                function initializeHierarchicalNav() {
+                    if (typeof NiamotoHierarchicalNav !== 'undefined' && typeof taxonNavigationData !== 'undefined') {
+                        const config = {"containerId": "hierarchical-nav-taxon-ref-container", "searchInputId": "hierarchical-nav-taxon-ref-search", "dataVar": "taxonNavigationData", "params": {"idField": "id", "nameField": "full_name", "parentIdField": "parent_id", "lftField": "lft", "rghtField": "rght", "levelField": "level", "groupByField": null, "groupByLabelField": null, "baseUrl": "../taxon/"}, "currentItemId": 626};
+                        config.items = taxonNavigationData;  // Get data from loaded JS file
+                        new NiamotoHierarchicalNav(config);
+                    } else {
+                        // Retry after a short delay if dependencies aren't loaded yet
+                        setTimeout(initializeHierarchicalNav, 50);
+                    }
+                }
+
+                // Start initialization when DOM is ready
+                if (document.readyState === 'loading') {
+                    document.addEventListener('DOMContentLoaded', initializeHierarchicalNav);
+                } else {
+                    // DOM is already loaded
+                    initializeHierarchicalNav();
+                }
+                </script>
+            
+            </div>
+        </div>
+        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </div>
+        </aside>
+
+        
+        <main class="flex-1 lg:overflow-y-auto">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+                
+                
+                    <div class="grid grid-cols-12 gap-4 lg:gap-6">
+                        
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12">
+                                        <div >
+                                            
+        <div id="interactive_map_distribution_map_1" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Distribution géographique
+                        <span class="info-tooltip" data-tooltip="Distribution géographique des occurrences">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Distribution géographique des occurrences</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                <div class="map-widget"><div class="map-container">
+    <div id="fc9e2184-afd4-44c3-845a-ef675587a2fe" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "fc9e2184-afd4-44c3-845a-ef675587a2fe",
+                    {"data":[{"hovertemplate":"count=%{marker.color}\u003cbr\u003elatitude=%{lat}\u003cbr\u003elongitude=%{lon}\u003cextra\u003e\u003c\u002fextra\u003e","lat":{"dtype":"f8","bdata":"ZOkMMkopNcAAAAAAA8I0wBHJfvAqejTAFvYxRpR5NMAE54wo7W01wBDPd8qvKDXA8OKfPGooNcBXaYyw4bk1wEfoejqveTTAHs93yq8oNcAAAABgdGE1wMvjgZ\u002f1bTXAAAAAYB1LNcDdTqDUlxk2wAAAAIA+djTAn+3XG2MpNcCw+aP2qF01wOH3JNDnmjTAMBgmsZ0qNcAR08ccBEE0wF7pDDJKKTXAEgGzrkpzNcAAAABg2Ss1wHLyEpWF6jXAw40Sqq0tNcBbkLQ8qV01wKp4bFA0HzbAE79pH48rNcCWgjlUuHk0wDI+tlyXJzXAdi3Ygi2YNMDbLBN4nCg1wM+\u002f+MT4cjTAO0pvybs0NMCkrDoGvyI0wHtNDwpKPTTAshgrIKNENMBrf2d79HQ0wAAAACDScDTAAAAAALh0NMAAAADAenY0wOtQ8o9jbDTAseFETyWONMCma\u002f1fO\u002f80wATG+gYmLTXAdnd3d54tNcB0Zmamwd00wAAAAEBo+TTA64lTUszKNMAtPgXAeNY0wLT6j\u002fHNZTTAL+wf+qSfNMAAAAAA+vU0wGdol8o2AzXAsMSoEDSrNMAAAACgEzs1wAAAAECmkDTAAAAAoMH5NMAAAADgMAU1wHB9syhHaDTAQQht3t2dNMAAAADgLe40wNzqg3aY+jTAu5KJAEz6NMAIg3waQfY0wAAAAKB5+zTAAAAAQKT5NMAAAADgy\u002f00wAAAAMCY\u002fDTAAAAAIMT9NMAuCQbGsB81wBXPj3UnyDTARL2FGiptNcCG4\u002fkMqAk1wAAAAABNxzTAAAAAYNuINMCyXeucsOY0wPv3dVhKTDXAnRTdm2JuNcDCQa1yWy41wIjjOI7jiDTAAAAAwLQsNcAAAABAays1wH3bHg6HODXAitC6BYVeNcDv0KiFZCw1wAPYnhS9eDTAM2rzL9F5NMB1npwvOek1wHTL5+s8KDXAoXsgw3RXNMC9ZZgk4Ps0wL6xSTelcTXAtiTD\u002f3RPNcAsJUewHys1wKtD3zZ7LDXAeu1GIwP0NcCgkfdPDCk1wAAAAKB7QjTAIaJ9L\u002fnrNcBEdMfRz+o1wBjqepnqtTXAAAAAQPH5NMAyJUewHys1wKnHq2idLDXA9CJPZw13NMDW9yTQ55o0wD66IpJ0LTXAjEWmkBWbNMDtDb4wmfo0wIoyZfGsSDTAuYZAu5dKNcA\u002fjWysOno0wAAAAODfAjXAAt7mfHguNcAAFgjWISs1wE2U+YcDeTTAGqdjSbkbNsBsJt9sc9s0wDW1TgL5cTXAAAAAYCtzNMDWe+F1Wy41wJoFWe2aejTAemXIGcNwNcDAnZ898kw0wAsgIW9eTTTAyKMKNfn2NMAuo6L7g9w0wLJIE+8AHTTA26EGeHdnNMAP8KSFy5A0wFHIhE6+PTXA4RFAQzhuNMBD\u002fxhM\u002fHU0wEPuZBBYQTTAoh6yWplwNMBdrnYmbXY0wG7QMoxpezTAsR0uS3R2NMDQvLKryT80wBl+qEPeQTTAlet8l+FHNMBtoGFDcHQ0wOn8r+hydzTA5gv6gXl5NMDdKc1YMHI0wE2uhmQBPzTApvB4bARyNMCnN\u002fAUK3o0wDNlBPT7PjTAOZSQKHp7NMBQIdjKhG80wE6BYB5ydzTAKf\u002fj65ptNMArtJvVNns0wHmWZzczbjTAikyX10pwNMBlGfeqEHc0wO9m3J1oczTAWaoNPeN3NMCAtZqHTHU0wIXop8k6ejTAaX9aHqRvNMCbZy9hiHA0wPTp4HL1czTASPFWbw1wNMBlEAnRcWw0wNDaDElmcTTA8fmhckw+NMDNBvtHHns0wDtpvIYZdjTAXGmDmEh7NMBjAFXp2Xg0wORdrg7BvTTAryLD6mwrNcAAAABg5C01wATXEV8nLjXAZ9XKIA2hNMDxCtsZdXg0wL4Y4aBSKzXA9VV+oKsrNcAGcOr+or80wAQ3OxaUeTTAA6s0LtmbNMCitQoDGJs0wJ0LXMwMljTApuDZxNAoNcA9EmLodCw1wGSSSV+FmzTAnvitjjgrNcAagQ\u002fvNXo0wEFmrgqMKjXAPLe32JMrNcDq7dPEiTE1wPb1tGvpKjXAfYRjS0srNcDLGKnNZaI0wN5KQfydLTXAWxGvN6V4NMCc3nORbHs0wLsEcJJPeTTA1ogrby+\u002fNMBEx+qFPi01wPpNyRdhKzXAdDx3zeSXNMBJszTxXTI1wOTL7bU0fDTA8IpsSn6\u002fNMAjf25LOys1wJhsKqHqeTTAEIlpxYh8NMCoxzB8qS01wHpFppAVmzTAdxbuO8vJNMAW6ihatpo0wIvHq2idLDXAnD1m3asoNcC8NERDOyg1wHtAvj2hLTXAF9OYX00pNcBcIlnv0C41wN4sE3icKDXAJTKSExMpNcDcFM9Eyi01wCk589IrKzXAUkfXlZopNcD9LDirJCg1wLLrUtJ4KTXAz1zY9gYtNcDAAN3hMik1wEkTOwv7KTXAiNcYoTgoNcDhgCz4pi41wI2T+vGRKTXAwmSLgnEqNcAyczIMVSk1wDto2z2KLTXA4XYkfDYuNcCfkfdPDCk1wK1y2hqUKTXA44mpyPYrNcA2TZPV8Cg1wKvOl3sBLDXA71NKDZQoNcBy7kOJYig1wIhUlEYPLDXAgiVKtbMoNcDkbuK\u002fnyk1wPgVCNYhKzXAlK6u0OQuNcBxrmv6ISw1wBOk0knWKzXAqe3XG2MpNcCfkObDZi01wFz9n\u002f\u002fRLjXArP\u002fl5l0rNcA1mkZ2XSk1wPeaxfkYKjXA+qdG8+4qNcAt6naesCo1wPG6GvvQMzXAgjLUTjErNcC8i4ax8T01wN26UpU7MzXAjEzhnBgqNcC6FAWvQCk1wPfD8be3KzXAH\u002fc6yDApNcCJ9HzHISs1wGTEaYBGKTXA76Qj8X8pNcAVcXstNik1wNhB69m4LjXALhgmsZ0qNcAGrIsK1T01wM7S52VXKTXAuLrSiscxNcDcumJo4DI1wLIN\u002f5KjKDXANPOL6G4qNcAHrQtT+Co1wDUpV2SgKjXA9I8zlxgqNcD4A5bIiis1wAK72knfNDXAj1guYi4pNcAe137iiCo1wHbGNLA2KDXA8rpqnJQzNcD8OyphYio1wDvhlskDKTXAmy3n8Ww4NcCmXzKRkCk1wE7m77kzKDXA6399c5YoNcC7n7mfNEw1wPkLrugPQTXAaJjXQPM9NcDDhQnGl0o1wLG66u+zMTXAtNvXSRErNcC+1VUiiUs1wFrBnTqPMjXAwE0zRbl0NcBP4F2R5HA1wFfS6jwbbjXAxC\u002fFS3AmNcDCnAem0zI1wNjBuqpfczXAh+3pSYVeNcC+yrxNt1k1wPI9pVVtUDXAD4oVZAQ0NcB9hTRZ3DM1wD6xyPOFXjXApw4JHg4pNcA9y923g3Q1wD\u002f8cME9YDXANyVMd8VKNcBDwppjvUw1wLEOPVj\u002fMzXAKQQTMy9eNcCEkzts61g1wHK6ag\u002fbLjXAcMi+Wu4sNcAISvnrZF41wGtTJILDTDXAANn5rdYtNcAYOkYaFXQ1wMYSOcnqXTXA9cAnibRLNcAqoNZjWzY1wPHUDmrhZjXAf1ShOBcxNcCxYUcUlGo1wMXVXjrmJDXAQjWpTR\u002feNMBa5xV9R2o1wLoRFhVx3jTA3IS+kRRNNcCwuhqKCDE1wOIbqUl2XjXAPGw0lpTeNMCaMNW4u0w1wGcs2i\u002fY6TXACq1ie+xlNcCRtl5X2vM1wAq\u002fT2iS7DXAV+rfzymsNcCi\u002f30C3PA1wGkTiIf\u002f8zXAoNUnu6DwNcAavspXxk81wF\u002fnDUPk+DXA0e2UdqNjNcB0yvWQKbM1wKtuxdhCxDXAp8JF8\u002fmgNcAK33JdMW81wEKvHCBEwjXAoD4k5LxvNcA+UqZZrXE1wIc3ehr6ajXAVxHl8a2aNcDm1Czj3+s1wBC+Ut3HTzXAEKW5X0NiNcAtQWQP3vM1wARHVqcO6jXA4d34VQP0NcBU313RivM1wNPmM9i48jXAHOE\u002fqO\u002fyNcDH0lbJKKQ1wGp1\u002fH\u002fVYTXAXXJRHIXyNcBpFeQItXI1wGD+aWQ7nzXAiXyYXhv0NcAo8cB+zsE1wMSlRgirYjXAVZkDoDprNcD31wo\u002f\u002fPE1wACtLaT8YDXAEQrUmLJzNcAdmjio6PA1wAjtwbfp6zXAh9yOWUHqNcCMfJfs2Bw2wKlZbOIV7TXAZfuF\u002fAzvNcBBgIZKXOs1wMO9DAtx9DXAWqZ7Y0EZNsDmIH6SGvQ1wKi9V8A96zXAkMd\u002fA5MbNsAmQZIZseo1wOzFgrce6jXA7dENEA\u002fqNcCAP\u002fYMmOw1wDU7xTK66zXAX4zQe\u002fPrNcDjzkhjxfQ1wKN\u002fFcTq5zXAxbEISHfsNcBlj\u002fJ6lOw1wIp1ptrPpzXAXXTv8lLtNcDGwpROafQ1wF3PhGlr7TXALu5htrfrNcDyrNq6K\u002fM1wCyabLWHGTbAubFE1d\u002fzNcBBQpEh2fM1wLDPGfkr6TXAAITgsLTsNcAfVJynBOw1wK1P\u002fMkYFzbAaN+wvtLtNcBZPPxISuo1wIuwLOZa9DXAzH0VDFzoNcBr8tWh0+s1wOj4zHEZpzXAFS29m66nNcB73L0zF+w1wOjRp1RD7jXAu9gnrI0ZNsC+1NW0gU42wHHF\u002fJrlVjbAONlVdGwjNMCGFzRbr3k0wI7lXfWAQTTACG366UZXNsBvNjMkjVA2wJTU2+vdFzbAIEHxY8wdNMCHAm5igRs2wAAAAMD5rDXAZ+22C80pNMBAThtanSA2wO1OwWa5IDbAA\u002fWVUzv7NcBkEBzaZno0wFmuFHS6eTTA7pvtn0h7NMDR1y3npEo2wPsfFrafGDbAAAAAwPSsNcAAAABAAr40wKTNj5RpezTAAAAAwACsNcC30JUIVDM0wAAAAGAzmDTAfxAJ0XFsNMAT8kHPZkU0wPwipXKqVTbAF36oQ95BNMAt+8PicP41wF3xoTwsFDbAAAAAIOOrNcAH8BZIUDw0wAAAAMAxmTTA9ihcj8J1NMAp1p9ieXk0wLYtN2Q8AjbAm1Wfq61INMAP2CZh3wI2wKI4ydtKHzbAaCJseHo1NMDe6StJVXk0wJ0ATJI2ezTArBxaZDv\u002fNMBO0ZFc\u002fgM1wNy2PWx+oTTA9ohRunJ3NMBBguLHmMs0wPDFkl8smTTAxty1hHyQNMCzat8KHns0wA8LtaZ5ZzTAfoy5awlpNMAq6ihatpo0wGuv8vN5ezTACP4NTb14NMAqXMYzcnc0wMsQx7q4TTTAsAPnjChtNMCukuPeiHw0wI8slXu4eTTAgXDKaeN3NMC9iD0eUgM1wOjZrPpcTTTAV1uxv+yONMDiGKnNZaI0wJi1CgMYmzTABBxClZrVNMARx7q4jWY0wCS5\u002fIf0qzTAsMcwfKktNcBs5Rz1NXo0wGPuWkI+WDTAP8bctYTcNMDWe2m66nk0wHSSSV+FmzTACJGw+9l4NMDBjRKqrS01wB3J5T+knzTAxLEubqORNMARqzQu2Zs0wLgEcJJPeTTAENUgruSXNMBxEa83pXg0wH78e7rB9jTAsJ9NlpMrNcAMm8X5GCo1wBTTmF9NKTXA0Pfk4CgrNcA3mkZ2XSk1wGn3SL9SKzXADdcRXycuNcAgMpITEyk1wFkse147KzXAYEfXlZopNcBFaNs9ii01wEBzMgxVKTXAhkC+PaEtNcAOLTirJCg1wKxwgT9kLDXAuOtS0ngpNcCXjGu1dCw1wATnjCjtLTXALBiBAl4yNcC\u002fibL\u002fbCs1wCi\u002faR+PKzXAd8vn6zwoNcAYPE4Eni01wKOQ5sNmLTXAx2SLgnEqNcB47kOJYig1wOAUz0TKLTXAIJijx+8tNcDMctoalCk1wGH9n\u002f\u002fRLjXAipP68ZEpNcC24NnE0Cg1wJyurtDkLjXAXRM7C\u002fspNcDlU0oNlCg1wLbOl3sBLDXA6HsEBWErNcASpNJJ1is1wPGALPimLjXAsaZN+YsqNcBATZPV8Cg1wKw9Zt2rKDXAylzY9gYtNcDF29dJESs1wA0IMD\u002fbLjXAcbYwtjRMNcBg3fua1i01wIUy1E4xKzXABsTxt7crNcB2GaEutDE1wHl1mzXfNDXA5q4l5IM+NcBfsnVPdC01wPk7KmFiKjXAWubvuTMoNcBjU9+xuC41wA8LtaZ55zTAE3F7LTYpNcA6kBiKWzY1wP2H9NvX0TTAmEwVjEr6NMBoxjSwNig1wAKQM5cYKjXAzojS3uD7NMDeianI9is1wL94BKGUMzXAk3jtGHAmNcA16naesCo1wM80REM7KDXAu9TtIhcxNcDXo3A9Cvc0wA1jAbnQMzXAD8EAZMcxNcDn6L6DOzM1wAWKWMSwHzXAPznz0isrNcCMTOGcGCo1wIolSrWzKDXAT+GWyQMpNcD14p88aig1wOx\u002ffXOWKDXAi1SURg8sNcC0Df+Soyg1wHSua\u002fohLDXAeB7TSOAyNcDaHoL8Ll41wMolEQN2XjXAQ61p3nEKNcAVNIyW6l01wG+d5PaFXjXAasEyx2ReNcCdEaW9wfc0wAAAACDcAjXAAAAAgEV5NMAAAABgU3Y0wAAAAIBFmTTAAAAA4FDHNMAAAABAWnI0wAAAAEBEdDTAAAAAYGhxNMAAAAAgcsE0wAAAAEABcDTAAAAAQP53NMAAAABgV740wAAAAOBqvzTAAAAAQCW+NMAAAABANnk0wAAAAKDvbTTAAAAAwE1BNMAAAAAAi3A0wAAAAMBtQTTAAAAA4H69NMAAAACAM5o0wAAAACAXvjTAAAAAoP7ENMAAAABgO740wAAAAODnczTAAAAAYG+9NMAAAACAVno0wAAAAOCaeTTAAAAAoJqfNMAAAABg+b80wAAAAKAxezTAAAAAwCx7NMAAAACA08c0wAAAAKBMwjTAAAAAgJnANMAAAABAUz80wAAAAKBsvzTAAAAAwBd1NMAAAADAy700wAAAAEDncTTAAAAA4HKYNMAAAACAgrw0wAAAACD2KDXAAAAAILRKNcAAAACgCQU1wAAAAEDIADXAAAAAoK8ENcAAAAAgJfw0wAAAAODoLDXAAAAA4N8sNcAAAAAglzE1wAAAACB\u002fLDXAAAAAYEP2NMAAAADg0gA1wAAAAECILjXAAAAAIGNONcAAAAAgfy81wAAAAGCzLTXAAAAAoHNJNcAAAABA0is1wAAAAEALKzXAAAAAwDQrNcAAAACgBCw1wAAAACB0KjXAAAAAwG0rNcAAAADgQiw1wAAAAOAN9TTAAAAAwEQBNcAAAABAhEo1wAAAAOAwSzXAAAAA4K\u002f+NMAAAABAKQQ1wAAAAOAlATXAAAAAwIv9NMAAAAAADQA1wAAAACAlLTXAAAAA4PkrNcAAAABgOf80wAAAAMA8LDXAAAAAgPwuNcAAAABg6wM1wAAAACAEMzXAAAAAAFEANcAAAAAAXS81wAAAAAAoKjXAAAAAYFhfNcAAAABgh1k2wAAAAODQZTXAAAAAYHT2NcAAAACACGM1wAAAAAC4TzXAAAAAgKpPNcAAAAAAuO01wAAAAEBkXTXAAAAAgEtNNcAAAABA7mI1wAAAAOCLTTXAAAAAANLsNcAAAADgG+41wAAAAGCYUDXAAAAA4HdONcAAAAAgmF41wAAAAABZYDXAAAAAgLpONcAAAADgt081wAAAAIA8TzXAAAAAoHdQNcAAAAAA8E41wAAAAOAeUDXAVu1G5ePyNcA="},"legendgroup":"","lon":{"dtype":"f8","bdata":"BWGjIXOgZEAAAAAAz5JkQHTIPKDZhmRAVqYyN1mHZED7OnDOiK5kQHlf4zx6omRAPajcoTmhZECX+YBA58xkQGizpn3NhmRAeV\u002fjPHqiZEAAAADA27dkQL73CHG3t2RAAAAAALKiZECjCiqqftBkQAAAAIAWhmRAhkvOYqagZEA2j59aHKhkQJQxNvNWi2RAn9GImpGhZEAzfnA+9YBkQARhoyFzoGRAKotmqJe5ZEAAAABgYKFkQEbSlVpFy2RABiqdQNacZEAIH+BdHKhkQNDTK2UZ0GRAjT7vjKmgZEAHnXUMhIdkQMrq0DymomRAEOi0gU6XZEAdS9rGN6FkQLcwG2YzhmRACHzZ0dOCZEAqNLURNH1kQCACWC6lgGRA9e40PriDZEDRPesarYZkQAAAAGBdimRAAAAAoMSGZEAAAAAg\u002fIZkQL8iZMVVh2RAmsRqPU2JZEDukv5\u002fmJpkQOmuNhBcn2RAaHd3kXmcZEDf3d3hO5tkQAAAAGAql2RAtdvTeqSSZEC5pdWQuJlkQKBkvPcBkWRAmYenssOMZEAAAAAAb5dkQBIT1PBtmmRAp05RP7mMZEAAAADgAJ9kQAAAAGCrmWRAAAAAQB2XZEAAAACglJpkQDc10HzOkGRAX9eKkYCXZEAAAADgGqBkQNejcD0KoWRAkduKWF+hZECDLoYX6aRkQAAAACD3omRAAAAA4OuiZEAAAABgyqJkQAAAAOBPomRAAAAAoJiiZEB7U+zDFaZkQNm6L8Kvp2RAlzjyQKSuZEArgM5JVKlkQAAAAOBekmRAAAAAAEmWZEBvavuyD6RkQPXH8a2ot2RArM5BH364ZEDUNFycYqJkQG\u002fiWdFIlmRAAAAAoOWfZEAAAAAAOaFkQNDxqK9uoWRAGaQeGxioZECA1p3NsZ9kQEEd21BKh2RArT4mOKyGZECGhHZLBstkQAy2CwMZoWRA9BlQb4aPZEBu9UE7TKNkQKZzEbkouGRA4ZL6rq+2ZEAt9k0zMqFkQH\u002fR1oRZoWRA6JtZajTKZEBR83\u002fvX6BkQAAAAOA5gWRAlMEvLs7KZECr5JJAL8lkQNQrNpDZxGRAAAAAQOSZZEAq9k0zMqFkQMXMNcY8oWRAwBnskIWGZECUMTbzVotkQPz\u002f7X6fomRAvLxmXiyLZEDXo3A9CqFkQEWZsnhWhmRAzEBai7ChZEDRHoPdz4ZkQAAAACDPmmRAa\u002ftVmregZEAyeM0+OqFkQB\u002fVmqKoh2RAwQ94YADPZEAcJa\u002fOMZpkQDlcCh4PtmRAAAAA4MuGZECanLqcYqJkQMj38YXthmRAHg2nzE27ZEB4auSpfY1kQEa9lkYCjmRAGxmaoWepZEBbfdAOU5dkQPgXQWMmhmRAq\u002f8Y37yQZEC2O1qLxZlkQFzauuX0pGRAl\u002fkrZC6GZEBxoQ+WMYZkQD\u002f7IMsCgWRAcaPlQA+GZECXLAsmfoZkQEzrJ7QLh2RAXxsOSwOGZEDEY84z9oBkQISW52UEgWRAM32Y\u002fPuBZEBCFRvzuoZkQM1rl6Erh2RAWrQGz+eGZEC4ybUVJoZkQPiM0xDVgGRAOVZGI5+GZEAaypip2YZkQCuoN6PmgGRAGDQCtDmHZECLRfC\u002flYZkQDw2gkQ6h2RAvN+6uBeGZEC2ymPxOodkQJI5s10hhmRAhZLmj2mGZEAjvvD+GIdkQBvQyowyhmRAIEvo4EKHZEDAo6oJooZkQCf\u002fotrPhmRASPYlG4+GZECCwJ7r84VkQKRGBU62hmRAKRkdkISGZEA0DKZusIVkQOK9h0uOhmRAPKhTHt2AZEBrbVsBMYdkQCWfO8F+hmRA3eHVvhuHZECS4RZLW4dkQK2q+G61j2RAeN2\u002fpKmfZEAAAABAx5xkQETUR0EVnWRAOqZo3oGLZEDfJZeOZ4dkQNENUalon2RADJF\u002fEiKgZEBBqCaHvY9kQCAWjjlZh2RAPeUM5WOLZEB2RcHrJYtkQCa7d8d5mmRAyCtEpligZECwAaaecp9kQCdoqRNni2RA1NgHXHefZEDW2CE+TIdkQPwtdlm0n2RA4kXzO3ufZECgPQFOLZ9kQFFXejb8n2RAAU9T4F2fZEBsIVnRm4xkQIpRFkeyn2RAlP69EH2HZEBwzpiYnpZkQLOdRGU4iGRANIMSSQiQZEATLX5\u002fp59kQD1MYgVqn2RAG6Df92+LZEBK6Lwxj59kQCcoHCO8lmRAXJ\u002fKYQ6QZED+oPhzn59kQKIehH5gh2RArNaoqHyHZEBTu41ch5xkQLu8Zl4si2RAwBdG3oGPZECVAbd0PItkQMTMNcY8oWRAtXBYECuhZECRmBf0QaFkQHP9QFmjoGRAAs019KmgZECtPXqRo6BkQBxL2sY3oWRAj0ex7aOgZEBq+KfNs6BkQPpVe3BFoWRAyDIuyqKgZEAlzbOlDKFkQJbpZixwoGRAFcQMNqigZEDBUoaCoKBkQG8l\u002fROioGRA5jN7MjyhZEBvqs\u002fxpKBkQG\u002fahk2boGRAJJvJLbCgZEAnmetLXqBkQF1KNM6xoGRAKGyjWLGgZEBP83\u002fvX6BkQO42SQywoGRA7HqiiUOhZEAAtvE4gKBkQBhdM0efoGRA5mq0YhuhZEDNRTPsH6FkQOcedlRIoWRAgUYiEjuhZEBgYYFQn6BkQDF4zT46oWRA+vI4g7egZEAffpkbQ6FkQBpBF0QroWRAh0vOYqagZEB0ofGzsqBkQEp49DW6oGRAjbVdaTOhZEAMD0abn6BkQNb58RQooWRAFnA9VmGhZEDq6hY6q6FkQPv\u002f7I+PomRAk2u+00ihZEBN86VnJ6JkQPv\u002fe10komRA\u002f95jmvyhZEDhgtDMQaJkQHf1yAmKoWRAsvPVXzaiZEASqXGzUqFkQCyvjhdaomRAiEjpLnWiZEDDOOEWsKJkQG2gD+1OomRAntGImpGhZEDy1\u002fLK9aFkQHhBZP4eomRA+v8EPlGiZED7\u002f5u1FaJkQBrKcse0omRAdoOxN7ihZEBhryNXUqFkQH09\u002fT9YoWRAca9J3OGhZECIjc+VV6FkQPv\u002fReXRomRA3o1pPRuiZEAtA0EeT6FkQCalCu9\u002fomRA\u002fP8jJZaiZEDCpTYdw6FkQCu\u002fk5KTomRAHJEeW2qhZECACvtnuaJkQECttBDDomRAE46k\u002fb+iZEDb7mr40qFkQI3fopOloWRAvIanV0qiZEAxBryRsKFkQPv\u002fGAuOomRAwuGJI5WhZEDyo\u002fauOrZkQIZyafxCpGRA9oiYEsm3ZEBHVH6T\u002fbVkQPix4thPtmRAbIJvmj6jZEDZlPJaCaRkQP3\u002f5HvDt2RATxBOGBioZEB82+afKapkQJC1lQsHuGRAiF94JcmjZEBGr83GSqRkQEoWF0V1qGRAJoWJc7ysZEDG8BrZILhkQJR48dVjtmRAG5blSU22ZEC5HfzHibdkQD+tad5xpGRAbFGiNUSoZEDsWWmDyKlkQPv\u002fuh\u002f1omRAyCpsBjijZECmyJcQQqhkQMumpBBrt2RALBAEyFCjZEC\u002f4nDm17dkQNJY5A0aqGRAcUQ8Rh+2ZEA+jq1nCKRkQF7+fk5Vt2RANXTkhuiiZEAH1+eZK7hkQO5Fe7wQo2RAbanCVkOnZED1MXv6PbhkQED8\u002fPdgp2RAjq\u002f+H2i3ZED7\u002f7CK7qJkQEFcoppUqGRA\u002fcWpCTCnZECxJ1PDwbdkQC9GlswxyWRACcFgt4S7ZECaFlamAMpkQA9P6PWnyWRAKoi6D8DFZECFt2HW+MlkQMcjiWn6yWRAt5n7xP7JZED+\u002fwZCU7hkQEr5ghYSyWRAJwtfX2u8ZEAZwf9WMsVkQJNVSs90x2RA10VoAgzHZEDcQlciULtkQHPyYa\u002f2wGRAv1JdwEu7ZEAo9LnWXLlkQMmU3f1MuGRAfF0Hh83FZEA7gSIWsclkQP7\u002foXlEuGRAUF9lgWS8ZECQMQO1+clkQAoH1j4kyWRA88zDSf\u002fJZEBQidmo\u002f8lkQLlofXy4yWRAjmx+z\u002fDJZEDKb0xHQMlkQOzw12SNvGRA1ZRxGfHJZEB5hJU6r7pkQJsFVulsx2RAPC+V5QPKZECrKXnS5MBkQE3kwIBjvGRApSgX71a4ZECqYO8u+slkQIq5awl5u2RAUbd\u002f8Km5ZEBaku+8RMlkQK6wUkHFyWRATMUf\u002f1XLZEA8BkonEs9kQHmsCzuwy2RAaOpXCJTLZEAppdk8jstkQOd0+S5MymRAxnhKlhPPZECZl1flEMpkQKD5Dn5iy2RAN7Eh4fvOZEAiCtetHMtkQGohEpOky2RABK7UhADLZECoArGJistkQM7eYxGby2RA9V2tcsTKZEA8L20AT8pkQA6yBesQy2RAyQwFl6PLZEDPKihSnstkQJ3nBqbOymRA\u002fqzn5MfLZEDTPUw9HspkQFqZpeiVy2RAuedWy7PLZEDgeqcCIMpkQH12mZkZz2RAffhNLSTKZEDuuGaAUMpkQElFQg5ty2RA3oOs6KTLZEAjp9Wu2MpkQNK4gEFSz2RApkpXG7HLZEBQ36RpUMtkQBjI064aymRA3wb+3wfLZEDHstKklMtkQFChu3q+ymRAZ1n6JCTLZEAa93EP2MpkQAb1p6m5y2RAjKTvGQnPZEBR4hARs9xkQK75Dn5i12RAUl470y99ZEAGhj98zYZkQDE\u002fNzTlgmRAmctteSXeZECP\u002fmbHENdkQCtxyAbS0GRA3EYDeAuGZEBsIXNlUNBkQAAAAGAFx2RAkL5J06CCZEB2yHiUStBkQMWtLTwv0GRA7M1THXLVZEBOrovhsYZkQJOgeHvZhmRAnmwuyBuHZEDFfo+sLttkQC80go3r0GRAAAAAIAXHZEAAAACAVphkQC8zkLYLh2RAAAAAgGrHZECKITmZuIJkQAAAAGBNl2RANAymbrCFZECvJeSDnoNkQK0ZAX2w2WRAhpbnZQSBZEAg4PQuXtRkQP2T1LK1z2RAAAAAwIbHZEA0ETY8vYBkQAAAAGCOl2RAzTtO0ZGGZECTeRDL54ZkQJRvYd1402RAzqrP1VaGZEATacaiadNkQHQrL\u002fkf0GRAH4XrUbiCZEDSuG0hqoZkQL5Cqec6h2RA58p91JuaZEDDZKpgVJpkQMlA5LqRi2RAVQq5oSuHZED7OnDOiJJkQDWO4ziOl2RAUiegibCZZEAjVCH4MIdkQDQRNjy9kGRACfmgZ7OQZECYAbd0PItkQK83QrQ5h2RAKxFITkqHZEDG+JM8OodkQFZ9rrZijWRA+u3rwDmHZEB2IDOsfIdkQNDergiEh2RAuu803EKHZEAAuRPouppkQAtGJXUCjmRAMzMzMzOJZEBtIVnRm4xkQHZFwesli2RAIJijx++aZEBCz2bV55BkQFuxv+yejGRAVLuNXIecZEC3yohATIdkQCh+jLlrj2RAvsEXJlOXZEDW0n93YIdkQCloqRNni2RALZopTVuHZEAHKp1A1pxkQPvL7snDjGRAKe0NvjCZZEA95QzlY4tkQLSdRGU4iGRAcf\u002fl\u002fm+LZECV\u002fr0QfYdkQKNVYGV+mWRAhCd9PXufZEDY+fEUKKFkQAXNNfSpoGRAleBCP4SfZEAND0abn6BkQAtCra1on2RAQ9RHQRWdZECRR7Hto6BkQHRXrHKfn2RAxzIuyqKgZEBdSjTOsaBkQCeZ60teoGRAdf1AWaOgZEAlzbOlDKFkQHaecc+xn2RAmelmLHCgZECWlo2acp9kQBrAWyBBn2RAC78lMo+fZEAfaCqpqZ9kQI8+74ypoGRADrYLAxmhZEDJHRVAsp9kQHeh8bOyoGRAJJvJLbCgZEDNRTPsH6FkQG34p82zoGRAgJ9x4UCfZEDvNkkMsKBkQE149DW6oGRAcdqGTZugZEDJK0SmWKBkQPzyOIO3oGRAbyX9E6KgZEDparRiG6FkQBldM0efoGRALRfVAWqfZEAbQRdEK6FkQHGqz\u002fGkoGRAuUDEWLSfZEABtvE4gKBkQLdwWBAroWRAFsQMNqigZEDF4YkjlaFkQMiglxn1omRAW1PL89KhZEBVpbrRUKNkQJRrvtNIoWRAefXICYqhZEDbxZUKjqJkQOL+9eXRomRAtFn1udqkZEB+QmJ2n6JkQMOlNh3DoWRAP620EMOiZECaEVrkTqJkQCS5\u002fIf0o2RAxTjhFrCiZECO4DpwCKRkQI9TdCSXp2RA8x\u002fSb1+hZEAnpQrvf6JkQHGvSdzhoWRA9wZfmEyjZEDteqKJQ6FkQPhkfhuWomRANeg7oD6jZEDq6hY6q6FkQJGYF\u002fRBoWRAaf2xgeiiZEDXEvJBz6RkQI6rBJePomRApCVmRVGiZEBd9xllJKJkQGADIsQVpmRA\u002fFV7cEWhZED93mOa\u002fKFkQIJGIhI7oWRALL+TkpOiZEA9qNyhOaFkQBWOpP2\u002fomRA6B52VEihZEAaynLHtKJkQCF+mRtDoWRAAl9VthWiZEDlko89RKhkQAH1cqBUqGRA+u3rwDmpZEAey3QFGqhkQDq\u002fAz51qGRApO\u002fREkKoZED3Bl+YTKlkQAAAAODxl2RAAAAAwFWHZEAAAACA7IZkQAAAAKB6i2RAAAAAoD+SZEAAAAAgXYZkQAAAAKDEhmRAAAAAgDuGZEAAAABguJJkQAAAAIAnhmRAAAAAINeGZEAAAACA4o9kQAAAAMDVj2RAAAAAgNKPZEAAAACAQYdkQAAAAMAehmRAAAAAYA6BZEAAAACgRIZkQAAAAKAjgWRAAAAAgKuPZEAAAADAYotkQAAAAKCGj2RAAAAAgM+SZEAAAABA5I9kQAAAAKA2hmRAAAAAIOmOZEAAAADgSIdkQAAAAEBfh2RAAAAA4MiMZEAAAABgf5JkQAAAAMBTh2RAAAAA4GmHZEAAAABAlpJkQAAAAKDNkmRAAAAA4JSSZEAAAABAz4BkQAAAACDojmRAAAAAQP6FZEAAAACgwI9kQAAAAEBfhmRAAAAAoI2LZEAAAACgKI9kQAAAAEDpoGRAAAAAoLWiZEAAAACga5pkQAAAAIAGmWRAAAAA4D+aZEAAAACA4JlkQAAAAMDcoGRAAAAAoISgZEAAAACgpaBkQAAAACBioWRAAAAAwE6ZZEAAAAAA95lkQAAAAACpn2RAAAAAgNGiZEAAAAAgzqBkQAAAAODfoGRAAAAA4H2iZEAAAADgOqBkQAAAAECroGRAAAAAILGgZEAAAADgUaFkQAAAAABKoWRAAAAAABqgZEAAAADgV6BkQAAAAKANmWRAAAAAANOZZEAAAACAoKJkQAAAACC5omRAAAAAQI+aZEAAAACAs5pkQAAAAACemGRAAAAAgM2ZZEAAAACgu5pkQAAAAKCEoGRAAAAAYFShZEAAAADg25pkQAAAAOCvn2RAAAAAYLWgZEAAAADArZpkQAAAAECpoGRAAAAAoIyaZEAAAADgs6BkQAAAAKAwoWRAAAAAAJm3ZEAAAAAgCd5kQAAAAMDDuGRAAAAAYLLHZEAAAADgJrlkQAAAAIAmo2RAAAAAgBCjZEAAAABAdcpkQAAAAGAYuWRAAAAAoN2iZEAAAADA5rdkQAAAAGDYomRAAAAAQIjKZEAAAABgScpkQAAAACBzuGRAAAAAoPaiZEAAAACAA7pkQAAAAADauGRAAAAAwNqiZEAAAADgL6NkQAAAAMALo2RAAAAAoIq4ZEAAAAAgEaNkQAAAAGDhomRAiYD6puvJZEA="},"marker":{"color":{"dtype":"i1","bdata":"AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQECAQEBAQEBAQMBAQEBAgEBAQEBAQEBAQECAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQ=="},"coloraxis":"coloraxis","opacity":0.8,"size":{"dtype":"i1","bdata":"AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQECAQEBAQEBAQMBAQEBAgEBAQEBAQEBAQECAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQ=="},"sizemode":"area","sizeref":0.013333333333333334},"mode":"markers","name":"","showlegend":false,"subplot":"map","type":"scattermap"}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"map":{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"center":{"lat":-21.09654475645218,"lon":165.07911531177595},"zoom":7.0,"style":"carto-positron"},"coloraxis":{"colorbar":{"title":{"text":"count"}},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"legend":{"tracegroupgap":0,"itemsizing":"constant"},"margin":{"t":0,"r":0,"l":0,"b":0},"mapbox":{"center":{"lat":-21.09654475645218,"lon":165.07911531177595},"zoom":7.0,"style":"carto-positron"}}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_map", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    </div></div>
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12">
+                                        
+        <div id="info_grid_general_info_2" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">Informations générales</h3>
+                </div>
+                
+            <div class="widget-content">
+                
+        <div class="info-grid-widget">
+            
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                <div class="info-grid-item p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200" >
+                    <div class="flex flex-col h-full">
+                        <div class="text-sm font-medium text-gray-500 mb-1">Taxon</div>
+                        <div class="text-2xl font-semibold text-gray-900">Codia montana</div>
+                    </div>
+                </div>
+                
+
+                <div class="info-grid-item p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200" >
+                    <div class="flex flex-col h-full">
+                        <div class="text-sm font-medium text-gray-500 mb-1">Famille</div>
+                        <div class="text-2xl font-semibold text-gray-900">Cunoniaceae</div>
+                    </div>
+                </div>
+                
+
+                <div class="info-grid-item p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200" >
+                    <div class="flex flex-col h-full">
+                        <div class="text-sm font-medium text-gray-500 mb-1">Genre</div>
+                        <div class="text-2xl font-semibold text-gray-900">Codia</div>
+                    </div>
+                </div>
+                
+
+                <div class="info-grid-item p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200" >
+                    <div class="flex flex-col h-full">
+                        <div class="text-sm font-medium text-gray-500 mb-1">Rang</div>
+                        <div class="text-2xl font-semibold text-gray-900">Espèce</div>
+                    </div>
+                </div>
+                
+
+                <div class="info-grid-item p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200" >
+                    <div class="flex flex-col h-full">
+                        <div class="text-sm font-medium text-gray-500 mb-1">Nombre d'occurrences</div>
+                        <div class="text-2xl font-semibold text-gray-900">726</div>
+                    </div>
+                </div>
+                
+
+                <div class="info-grid-item p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200" >
+                    <div class="flex flex-col h-full">
+                        <div class="text-sm font-medium text-gray-500 mb-3">Images</div>
+                        <div class="flex-1">
+            <div id="info-gallery-3300" class="grid grid-cols-5 gap-2 max-w-sm">
+                
+                <div class="w-16 h-16 bg-cover bg-center rounded border border-gray-200 cursor-pointer hover:opacity-80 transition-opacity"
+                     style="background-image: url('http://api.endemia.nc/media/cache/small_thumb/ressources/images/flore/media/photo/f/fb1abafcc550211e9eb3f1b311c6b571.jpg')"
+                     title="Image 1"
+                     onclick="openImageLightbox([&quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/fb1abafcc550211e9eb3f1b311c6b571.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/a/a276ee4d0086e825a2155e97b6a6c2f1.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/8/8a9059e355b2e69cb160261f86548bd7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/c/cc0d3f722c2e6c1ccd6ea31d978c50b3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/7/75e351d690e505f70b675b7420c828c7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b5938035656fce8fc6aac6bb3845aec3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/f12b127822137eb838b06c2cba47ea0f.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b3fb44556a073ff7a8163796420c2446.jpg&quot;], 0)">
+                </div>
+            
+                <div class="w-16 h-16 bg-cover bg-center rounded border border-gray-200 cursor-pointer hover:opacity-80 transition-opacity"
+                     style="background-image: url('http://api.endemia.nc/media/cache/small_thumb/ressources/images/flore/media/photo/a/a276ee4d0086e825a2155e97b6a6c2f1.jpg')"
+                     title="Image 2"
+                     onclick="openImageLightbox([&quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/fb1abafcc550211e9eb3f1b311c6b571.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/a/a276ee4d0086e825a2155e97b6a6c2f1.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/8/8a9059e355b2e69cb160261f86548bd7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/c/cc0d3f722c2e6c1ccd6ea31d978c50b3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/7/75e351d690e505f70b675b7420c828c7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b5938035656fce8fc6aac6bb3845aec3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/f12b127822137eb838b06c2cba47ea0f.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b3fb44556a073ff7a8163796420c2446.jpg&quot;], 1)">
+                </div>
+            
+                <div class="w-16 h-16 bg-cover bg-center rounded border border-gray-200 cursor-pointer hover:opacity-80 transition-opacity"
+                     style="background-image: url('http://api.endemia.nc/media/cache/small_thumb/ressources/images/flore/media/photo/8/8a9059e355b2e69cb160261f86548bd7.jpg')"
+                     title="Image 3"
+                     onclick="openImageLightbox([&quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/fb1abafcc550211e9eb3f1b311c6b571.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/a/a276ee4d0086e825a2155e97b6a6c2f1.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/8/8a9059e355b2e69cb160261f86548bd7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/c/cc0d3f722c2e6c1ccd6ea31d978c50b3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/7/75e351d690e505f70b675b7420c828c7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b5938035656fce8fc6aac6bb3845aec3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/f12b127822137eb838b06c2cba47ea0f.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b3fb44556a073ff7a8163796420c2446.jpg&quot;], 2)">
+                </div>
+            
+                <div class="w-16 h-16 bg-cover bg-center rounded border border-gray-200 cursor-pointer hover:opacity-80 transition-opacity"
+                     style="background-image: url('http://api.endemia.nc/media/cache/small_thumb/ressources/images/flore/media/photo/c/cc0d3f722c2e6c1ccd6ea31d978c50b3.jpg')"
+                     title="Image 4"
+                     onclick="openImageLightbox([&quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/fb1abafcc550211e9eb3f1b311c6b571.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/a/a276ee4d0086e825a2155e97b6a6c2f1.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/8/8a9059e355b2e69cb160261f86548bd7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/c/cc0d3f722c2e6c1ccd6ea31d978c50b3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/7/75e351d690e505f70b675b7420c828c7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b5938035656fce8fc6aac6bb3845aec3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/f12b127822137eb838b06c2cba47ea0f.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b3fb44556a073ff7a8163796420c2446.jpg&quot;], 3)">
+                </div>
+            
+                <div class="w-16 h-16 bg-cover bg-center rounded border border-gray-200 cursor-pointer hover:opacity-80 transition-opacity"
+                     style="background-image: url('http://api.endemia.nc/media/cache/small_thumb/ressources/images/flore/media/photo/7/75e351d690e505f70b675b7420c828c7.jpg')"
+                     title="Image 5"
+                     onclick="openImageLightbox([&quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/fb1abafcc550211e9eb3f1b311c6b571.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/a/a276ee4d0086e825a2155e97b6a6c2f1.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/8/8a9059e355b2e69cb160261f86548bd7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/c/cc0d3f722c2e6c1ccd6ea31d978c50b3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/7/75e351d690e505f70b675b7420c828c7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b5938035656fce8fc6aac6bb3845aec3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/f12b127822137eb838b06c2cba47ea0f.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b3fb44556a073ff7a8163796420c2446.jpg&quot;], 4)">
+                </div>
+            
+                <div class="w-16 h-16 bg-cover bg-center rounded border border-gray-200 cursor-pointer hover:opacity-80 transition-opacity"
+                     style="background-image: url('http://api.endemia.nc/media/cache/small_thumb/ressources/images/flore/media/photo/b/b5938035656fce8fc6aac6bb3845aec3.jpg')"
+                     title="Image 6"
+                     onclick="openImageLightbox([&quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/fb1abafcc550211e9eb3f1b311c6b571.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/a/a276ee4d0086e825a2155e97b6a6c2f1.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/8/8a9059e355b2e69cb160261f86548bd7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/c/cc0d3f722c2e6c1ccd6ea31d978c50b3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/7/75e351d690e505f70b675b7420c828c7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b5938035656fce8fc6aac6bb3845aec3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/f12b127822137eb838b06c2cba47ea0f.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b3fb44556a073ff7a8163796420c2446.jpg&quot;], 5)">
+                </div>
+            
+                
+                <div class="w-16 h-16 bg-cover bg-center rounded border border-gray-200 cursor-pointer hover:opacity-80 transition-opacity hidden gallery-hidden"
+                     style="background-image: url('http://api.endemia.nc/media/cache/small_thumb/ressources/images/flore/media/photo/f/f12b127822137eb838b06c2cba47ea0f.jpg')"
+                     title="Image 7"
+                     onclick="openImageLightbox([&quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/fb1abafcc550211e9eb3f1b311c6b571.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/a/a276ee4d0086e825a2155e97b6a6c2f1.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/8/8a9059e355b2e69cb160261f86548bd7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/c/cc0d3f722c2e6c1ccd6ea31d978c50b3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/7/75e351d690e505f70b675b7420c828c7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b5938035656fce8fc6aac6bb3845aec3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/f12b127822137eb838b06c2cba47ea0f.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b3fb44556a073ff7a8163796420c2446.jpg&quot;], 6)">
+                </div>
+            
+                <div class="w-16 h-16 bg-cover bg-center rounded border border-gray-200 cursor-pointer hover:opacity-80 transition-opacity hidden gallery-hidden"
+                     style="background-image: url('http://api.endemia.nc/media/cache/small_thumb/ressources/images/flore/media/photo/b/b3fb44556a073ff7a8163796420c2446.jpg')"
+                     title="Image 8"
+                     onclick="openImageLightbox([&quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/fb1abafcc550211e9eb3f1b311c6b571.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/a/a276ee4d0086e825a2155e97b6a6c2f1.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/8/8a9059e355b2e69cb160261f86548bd7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/c/cc0d3f722c2e6c1ccd6ea31d978c50b3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/7/75e351d690e505f70b675b7420c828c7.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b5938035656fce8fc6aac6bb3845aec3.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/f/f12b127822137eb838b06c2cba47ea0f.jpg&quot;, &quot;http://api.endemia.nc/media/cache/resolve/big_thumb/ressources/images/flore/media/photo/b/b3fb44556a073ff7a8163796420c2446.jpg&quot;], 7)">
+                </div>
+            
+                
+                <div class="w-16 h-16 bg-gray-100 rounded border border-gray-200 flex items-center justify-center text-gray-500 text-sm font-medium cursor-pointer hover:bg-gray-200 transition-colors expand-btn"
+                     onclick="expandImageGallery('info-gallery-3300', this)">
+                    +2
+                </div>
+            
+                
+                <div class="w-16 h-16 bg-gray-100 rounded border border-gray-200 flex items-center justify-center text-gray-500 text-sm font-medium cursor-pointer hover:bg-gray-200 transition-colors collapse-btn hidden"
+                     onclick="collapseImageGallery('info-gallery-3300', this)">
+                    −
+                </div>
+            
+            </div>
+        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+            </div>
+        </div>
+        
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="bar_plot_top_species_3" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Sous-taxons principaux
+                        <span class="info-tooltip" data-tooltip="Principaux sous-taxons (espèce, sous-espèce)">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Principaux sous-taxons (espèce, sous-espèce)</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="9cebdfc1-8ee3-4424-93fb-cc1d9a91c257" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "9cebdfc1-8ee3-4424-93fb-cc1d9a91c257",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"_auto_color=Codia montana\u003cbr\u003ecounts=%{x}\u003cbr\u003etops=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Codia montana","marker":{"color":"#993333","pattern":{"shape":""}},"name":"Codia montana","offsetgroup":"Codia montana","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"i2","bdata":"1gI="},"xaxis":"x","y":["Codia montana"],"yaxis":"y","type":"bar","width":0.8}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{}},"legend":{"title":{"text":"_auto_color"},"tracegroupgap":0},"margin":{"t":30,"r":10,"l":10,"b":10},"barmode":"group","showlegend":false}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="bar_plot_dbh_distribution_4" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Distribution DBH
+                        <span class="info-tooltip" data-tooltip="Répartition par classe de diamètre">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Répartition par classe de diamètre</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="84822ec9-7824-48d8-9a3d-c69b03f74480" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "84822ec9-7824-48d8-9a3d-c69b03f74480",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"_gradient_color=10-20\u003cbr\u003ebin=%{x}\u003cbr\u003ecount=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"10-20","marker":{"color":"#8B4513","pattern":{"shape":""}},"name":"10-20","offsetgroup":"10-20","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["10-20"],"xaxis":"x","y":{"dtype":"f8","bdata":"AAAAAAAAWUA="},"yaxis":"y","type":"bar","width":0.8}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{}},"legend":{"title":{"text":"_gradient_color"},"tracegroupgap":0},"margin":{"t":30,"r":10,"l":10,"b":10},"barmode":"group","showlegend":false}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="bar_plot_phenology_distribution_5" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Phénologie
+                        <span class="info-tooltip" data-tooltip="Phénologie des états fertiles (fleur, fruit)">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Phénologie des états fertiles (fleur, fruit)</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="0763ac69-a061-4559-a7ca-8c0708b9d22e" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "0763ac69-a061-4559-a7ca-8c0708b9d22e",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"series=fleur\u003cbr\u003elabels=%{x}\u003cbr\u003evalue=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"fleur","marker":{"color":"#FFB74D","pattern":{"shape":""}},"name":"fleur","offsetgroup":"fleur","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["Jan","Fev","Mar","Avr","Mai","Jun","Jul","Aou","Sep","Oct","Nov","Dec"],"xaxis":"x","y":{"dtype":"f8","bdata":"AAAAAADAUkAAAAAAAAAAAAAAAAAAADlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgFFArkfhehQuQkBSuB6F65E8QArXo3A9qkBA"},"yaxis":"y","type":"bar","width":0.3},{"alignmentgroup":"True","hovertemplate":"series=fruit\u003cbr\u003elabels=%{x}\u003cbr\u003evalue=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"fruit","marker":{"color":"#81C784","pattern":{"shape":""}},"name":"fruit","offsetgroup":"fruit","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["Jan","Fev","Mar","Avr","Mai","Jun","Jul","Aou","Sep","Oct","Nov","Dec"],"xaxis":"x","y":{"dtype":"f8","bdata":"AAAAAAAAOUAAAAAAAABZQAAAAAAAADlACtejcD2qQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArkfhehQuMkCuR+F6FG41QEjhehSux0tA"},"yaxis":"y","type":"bar","width":0.3}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{},"range":[0.0,50.0]},"legend":{"title":{},"tracegroupgap":0},"margin":{"t":30,"r":10,"l":10,"b":10},"barmode":"group","showlegend":true}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="bar_plot_holdridge_distribution_6" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Milieu de vie (Holdridge)
+                        <span class="info-tooltip" data-tooltip="Répartition des occurrences par type d&#39;habitat">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Répartition des occurrences par type d'habitat</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="e6c01730-85ec-4ecd-8faa-da2b73b74193" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "e6c01730-85ec-4ecd-8faa-da2b73b74193",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"Type d'habitat=%{x}\u003cbr\u003ePourcentage (%)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Sec","marker":{"color":"#F9A825","pattern":{"shape":""}},"name":"Sec","offsetgroup":"Sec","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["Sec"],"xaxis":"x","y":{"dtype":"f8","bdata":"zczMzMzMG0A="},"yaxis":"y","type":"bar","width":0.8},{"alignmentgroup":"True","hovertemplate":"Type d'habitat=%{x}\u003cbr\u003ePourcentage (%)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Humide","marker":{"color":"#43A047","pattern":{"shape":""}},"name":"Humide","offsetgroup":"Humide","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["Humide"],"xaxis":"x","y":{"dtype":"f8","bdata":"4XoUrkfhVUA="},"yaxis":"y","type":"bar","width":0.8},{"alignmentgroup":"True","hovertemplate":"Type d'habitat=%{x}\u003cbr\u003ePourcentage (%)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Tr\u00e8s humide","marker":{"color":"#1E88E5","pattern":{"shape":""}},"name":"Tr\u00e8s humide","offsetgroup":"Tr\u00e8s humide","orientation":"v","showlegend":true,"textposition":"auto","texttemplate":"%{y}","x":["Tr\u00e8s humide"],"xaxis":"x","y":{"dtype":"f8","bdata":"H4XrUbgeFkA="},"yaxis":"y","type":"bar","width":0.8}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Type d'habitat"},"categoryorder":"array","categoryarray":["Sec","Humide","Tr\u00e8s humide"]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Pourcentage (%)"}},"legend":{"title":{"text":"Type d'habitat"},"tracegroupgap":0},"margin":{"t":30,"r":10,"l":10,"b":10},"barmode":"group","showlegend":false}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="donut_chart_distribution_substrat_7" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Distribution substrat
+                        <span class="info-tooltip" data-tooltip="Distribution des occurrences par substrat">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Distribution des occurrences par substrat</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                <div class='plotly-chart-widget donut-chart-widget'>
+    <div id="5557b52c-89e7-4ab8-89f9-bd0b7a44a89a" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "5557b52c-89e7-4ab8-89f9-bd0b7a44a89a",
+                    {"data":[{"hole":0.5,"hoverinfo":"label+percent+value","labels":["non-Ultramafique (NUM)","Ultramafique (UM)"],"marker":{"colors":["#a97742","#e1a553"]},"sort":true,"textinfo":"percent+label","values":{"dtype":"f8","bdata":"w\u002fUoXI\u002fCJUBI4XoUrkdWQA=="},"type":"pie"}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"margin":{"l":20,"r":20,"t":30,"b":20},"legend":{"orientation":"h"},"uniformtext":{"minsize":12,"mode":"hide"},"title":{},"showlegend":true}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    </div>
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="bar_plot_rainfall_distribution_8" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Répartition pluviométrie
+                        <span class="info-tooltip" data-tooltip="Distribution pluviométrique des occurrences">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Distribution pluviométrique des occurrences</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="223c5399-286b-4a52-a331-ce04682b360c" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "223c5399-286b-4a52-a331-ce04682b360c",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"_gradient_color=1000-1500\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"1000-1500","marker":{"color":"#4682b4","pattern":{"shape":""}},"name":"1000-1500","offsetgroup":"1000-1500","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"f8","bdata":"mpmZmZkZN0A="},"xaxis":"x","y":["1000-1500"],"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"_gradient_color=1500-2000\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"1500-2000","marker":{"color":"#4b81ae","pattern":{"shape":""}},"name":"1500-2000","offsetgroup":"1500-2000","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"f8","bdata":"9ihcj8L1S0A="},"xaxis":"x","y":["1500-2000"],"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"_gradient_color=2000-2500\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"2000-2500","marker":{"color":"#5181a9","pattern":{"shape":""}},"name":"2000-2500","offsetgroup":"2000-2500","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"f8","bdata":"w\u002fUoXI9CL0A="},"xaxis":"x","y":["2000-2500"],"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"_gradient_color=2500-3000\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"2500-3000","marker":{"color":"#5781a4","pattern":{"shape":""}},"name":"2500-3000","offsetgroup":"2500-3000","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"f8","bdata":"cT0K16NwBUA="},"xaxis":"x","y":["2500-3000"],"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"_gradient_color=3000-3500\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"3000-3500","marker":{"color":"#5d819f","pattern":{"shape":""}},"name":"3000-3500","offsetgroup":"3000-3500","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"f8","bdata":"4XoUrkfhAEA="},"xaxis":"x","y":["3000-3500"],"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"_gradient_color=3500-4000\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"3500-4000","marker":{"color":"#63819a","pattern":{"shape":""}},"name":"3500-4000","offsetgroup":"3500-4000","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"f8","bdata":"7FG4HoXr4T8="},"xaxis":"x","y":["3500-4000"],"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"_gradient_color=4000-4500\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"4000-4500","marker":{"color":"#688094","pattern":{"shape":""}},"name":"4000-4500","offsetgroup":"4000-4500","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"f8","bdata":"AAAAAAAAAAA="},"xaxis":"x","y":["4000-4500"],"yaxis":"y","type":"bar","width":0.6},{"alignmentgroup":"True","hovertemplate":"_gradient_color=4500+\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"4500+","marker":{"color":"#6e808f","pattern":{"shape":""}},"name":"4500+","offsetgroup":"4500+","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"f8","bdata":"AAAAAAAAAAA="},"xaxis":"x","y":["4500+"],"yaxis":"y","type":"bar","width":0.6}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{}},"legend":{"title":{"text":"_gradient_color"},"tracegroupgap":0},"margin":{"t":30,"r":10,"l":10,"b":10},"barmode":"group","showlegend":false}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="bar_plot_elevation_distribution_9" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Distribution altitudinale
+                        <span class="info-tooltip" data-tooltip="Distribution altitudinale des occurrences">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Distribution altitudinale des occurrences</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="ebe49285-40f8-4a7f-b5fe-3232467d465e" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "ebe49285-40f8-4a7f-b5fe-3232467d465e",
+                    {"data":[{"alignmentgroup":"True","hovertemplate":"_gradient_color=100-200\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"100-200","marker":{"color":"#bcdcbc","pattern":{"shape":""}},"name":"100-200","offsetgroup":"100-200","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"i1","bdata":"Hw=="},"xaxis":"x","y":["100-200"],"yaxis":"y","type":"bar","width":0.4},{"alignmentgroup":"True","hovertemplate":"_gradient_color=200-300\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"200-300","marker":{"color":"#aed4ae","pattern":{"shape":""}},"name":"200-300","offsetgroup":"200-300","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"i1","bdata":"NA=="},"xaxis":"x","y":["200-300"],"yaxis":"y","type":"bar","width":0.4},{"alignmentgroup":"True","hovertemplate":"_gradient_color=300-400\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"300-400","marker":{"color":"#a0cda0","pattern":{"shape":""}},"name":"300-400","offsetgroup":"300-400","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"i1","bdata":"SA=="},"xaxis":"x","y":["300-400"],"yaxis":"y","type":"bar","width":0.4},{"alignmentgroup":"True","hovertemplate":"_gradient_color=400-500\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"400-500","marker":{"color":"#92c692","pattern":{"shape":""}},"name":"400-500","offsetgroup":"400-500","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"i1","bdata":"cw=="},"xaxis":"x","y":["400-500"],"yaxis":"y","type":"bar","width":0.4},{"alignmentgroup":"True","hovertemplate":"_gradient_color=500-600\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"500-600","marker":{"color":"#84be84","pattern":{"shape":""}},"name":"500-600","offsetgroup":"500-600","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"i1","bdata":"ZQ=="},"xaxis":"x","y":["500-600"],"yaxis":"y","type":"bar","width":0.4},{"alignmentgroup":"True","hovertemplate":"_gradient_color=600-700\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"600-700","marker":{"color":"#76b776","pattern":{"shape":""}},"name":"600-700","offsetgroup":"600-700","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"i1","bdata":"Ww=="},"xaxis":"x","y":["600-700"],"yaxis":"y","type":"bar","width":0.4},{"alignmentgroup":"True","hovertemplate":"_gradient_color=700-800\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"700-800","marker":{"color":"#68af68","pattern":{"shape":""}},"name":"700-800","offsetgroup":"700-800","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"i1","bdata":"Xw=="},"xaxis":"x","y":["700-800"],"yaxis":"y","type":"bar","width":0.4},{"alignmentgroup":"True","hovertemplate":"_gradient_color=800-900\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"800-900","marker":{"color":"#5aa85a","pattern":{"shape":""}},"name":"800-900","offsetgroup":"800-900","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"i1","bdata":"SQ=="},"xaxis":"x","y":["800-900"],"yaxis":"y","type":"bar","width":0.4},{"alignmentgroup":"True","hovertemplate":"_gradient_color=900-1000\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"900-1000","marker":{"color":"#4ca14c","pattern":{"shape":""}},"name":"900-1000","offsetgroup":"900-1000","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"i1","bdata":"Hw=="},"xaxis":"x","y":["900-1000"],"yaxis":"y","type":"bar","width":0.4},{"alignmentgroup":"True","hovertemplate":"_gradient_color=1000-1100\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"1000-1100","marker":{"color":"#3e993e","pattern":{"shape":""}},"name":"1000-1100","offsetgroup":"1000-1100","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"i1","bdata":"Bg=="},"xaxis":"x","y":["1000-1100"],"yaxis":"y","type":"bar","width":0.4},{"alignmentgroup":"True","hovertemplate":"_gradient_color=1100-1200\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"1100-1200","marker":{"color":"#309230","pattern":{"shape":""}},"name":"1100-1200","offsetgroup":"1100-1200","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"i1","bdata":"AA=="},"xaxis":"x","y":["1100-1200"],"yaxis":"y","type":"bar","width":0.4},{"alignmentgroup":"True","hovertemplate":"_gradient_color=1200+\u003cbr\u003ecount=%{x}\u003cbr\u003ebin=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"1200+","marker":{"color":"#228b22","pattern":{"shape":""}},"name":"1200+","offsetgroup":"1200+","orientation":"h","showlegend":true,"textposition":"auto","texttemplate":"%{x}","x":{"dtype":"i1","bdata":"AA=="},"xaxis":"x","y":["1200+"],"yaxis":"y","type":"bar","width":0.4}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{}},"legend":{"title":{"text":"_gradient_color"},"tracegroupgap":0},"margin":{"t":30,"r":10,"l":10,"b":10},"barmode":"group","showlegend":false}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="bar_plot_strata_distribution_10" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Stratification
+                        <span class="info-tooltip" data-tooltip="Répartition des occurrences par strate">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Répartition des occurrences par strate</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                <p class='info'>No data available.</p>
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="radial_gauge_height_max_11" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Hauteur maximale
+                        <span class="info-tooltip" data-tooltip="Hauteur maximale atteinte">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Hauteur maximale atteinte</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="8dea6602-9c51-4876-b976-3aace1fff07f" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "8dea6602-9c51-4876-b976-3aace1fff07f",
+                    {"data":[{"gauge":{"axis":{"range":[0.0,40.0],"visible":true},"bar":{"color":"#f02828","thickness":0.8},"bgcolor":"#f5f5f5","borderwidth":0,"shape":"angular"},"mode":"gauge+number","number":{"suffix":"m"},"title":{"text":""},"value":5.0,"type":"indicator"}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"margin":{"r":10,"t":30,"l":10,"b":10},"height":250}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="radial_gauge_dbh_max_12" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Diamètre maximal (DBH)
+                        <span class="info-tooltip" data-tooltip="Diamètre maximal atteint">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Diamètre maximal atteint</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                
+    <div id="252c1130-0a23-43bb-88e3-3617f684b8fa" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+    <script type="text/javascript">
+        (function() {
+            var plotlyReady = function() {
+                Plotly.newPlot(
+                    "252c1130-0a23-43bb-88e3-3617f684b8fa",
+                    {"data":[{"gauge":{"axis":{"range":[0.0,500.0],"visible":false},"bar":{"color":"#f02828","thickness":0.8},"bgcolor":"#f5f5f5","borderwidth":0,"shape":"angular"},"mode":"gauge+number","number":{"suffix":"cm"},"title":{"text":""},"value":10.8,"type":"indicator"}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"margin":{"r":10,"t":30,"l":10,"b":10},"height":250}},
+                    {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["sendDataToCloud"], "toImageButtonOptions": {"format": "png", "filename": "niamoto_chart", "height": 500, "width": 700}}
+                );
+            };
+
+            if (typeof Plotly !== 'undefined') {
+                plotlyReady();
+            } else {
+                // Wait for Plotly to load
+                var checkPlotly = setInterval(function() {
+                    if (typeof Plotly !== 'undefined') {
+                        clearInterval(checkPlotly);
+                        plotlyReady();
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+    
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="radial_gauge_wood_density_13" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Densité de bois
+                        <span class="info-tooltip" data-tooltip="Densité de bois moyenne">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Densité de bois moyenne</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                <p class='info'>No value available.</p>
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="radial_gauge_bark_thickness_14" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Épaisseur d'écorce
+                        <span class="info-tooltip" data-tooltip="Epaisseur moyenne de l&#39;écorce">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Epaisseur moyenne de l'écorce</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                <p class='info'>No value available.</p>
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="radial_gauge_leaf_sla_15" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Surface foliaire spécifique (SLA)
+                        <span class="info-tooltip" data-tooltip="Surface foliaire spécifique moyenne">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Surface foliaire spécifique moyenne</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                <p class='info'>No value available.</p>
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="radial_gauge_leaf_area_16" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Surface foliaire
+                        <span class="info-tooltip" data-tooltip="Surface foliaire moyenne">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Surface foliaire moyenne</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                <p class='info'>No value available.</p>
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    
+                                    <div class="col-span-12 lg:col-span-6">
+                                        <div >
+                                            
+        <div id="radial_gauge_leaf_thickness_17" class="widget widget-modern " style="width:auto; height:auto;">
+            
+                <div class="widget-header-modern">
+                    <h3 class="widget-title-modern">
+                        Épaisseur des feuilles
+                        <span class="info-tooltip" data-tooltip="Epaisseur moyenne des feuilles">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9,9h0a3,3,0,0,1,6,0c0,2-3,3-3,3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span class="tooltip-text">Epaisseur moyenne des feuilles</span>
+                        </span>
+                    </h3>
+                </div>
+                
+            <div class="widget-content">
+                <p class='info'>No value available.</p>
+            </div>
+        </div>
+        
+                                        </div>
+                                    </div>
+                                
+                            
+                        
+                    </div>
+                
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal pour afficher une image en grand -->
+<div id="imageModal" class="fixed inset-0 bg-black bg-opacity-90 hidden z-50 flex items-center justify-center p-4">
+    <div class="relative w-full h-full max-w-5xl max-h-full flex items-center justify-center mt-20">
+        <!-- Bouton fermer -->
+        <button onclick="closeImageModal()" class="absolute top-4 right-4 text-white hover:text-gray-300 text-3xl leading-none z-10 bg-black bg-opacity-50 rounded-full w-12 h-12 flex items-center justify-center">
+            ×
+        </button>
+
+        <!-- Flèche précédente -->
+        <button id="prevImageBtn" onclick="previousImage()" class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white hover:text-gray-300 text-4xl z-10 bg-black bg-opacity-50 rounded-full w-12 h-12 flex items-center justify-center hidden">
+            ‹
+        </button>
+
+        <!-- Conteneur central pour loader et image -->
+        <div class="flex items-center justify-center w-full h-full min-h-96">
+            <!-- Loader -->
+            <div id="imageLoader" class="flex items-center justify-center">
+                <div class="animate-spin rounded-full h-16 w-16 border-b-2 border-white"></div>
+            </div>
+
+            <!-- Image en grand -->
+            <img id="modalImage" src="" alt="" class="max-w-full max-h-full object-contain hidden">
+        </div>
+
+        <!-- Flèche suivante -->
+        <button id="nextImageBtn" onclick="nextImage()" class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white hover:text-gray-300 text-4xl z-10 bg-black bg-opacity-50 rounded-full w-12 h-12 flex items-center justify-center hidden">
+            ›
+        </button>
+
+        <!-- Indicateur de position -->
+        <div id="imageCounter" class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white bg-black bg-opacity-50 px-3 py-1 rounded hidden">
+            <span id="currentImageIndex">1</span> / <span id="totalImages">1</span>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+    <footer class="bg-green-700 text-white p-4 mt-8">
+    <div class="container mx-auto">
+        <div class="flex justify-center mb-4">
+            <div class="bg-white p-2 w-3/5 rounded-lg shadow-md flex justify-center">
+                <a class='logo' href="https://www.province-nord.nc/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="pn" src="../assets/files/pn_100.png"></figure>
+                </a>
+                <a class='logo' href="https://www.province-sud.nc/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="ps" src="../assets/files/ps_100.png"></figure>
+                </a>
+                <a class='logo' href="https://endemia.nc/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="ps" src="../assets/files/endemia_100.png"></figure>
+                </a>
+                <a class='logo' href="https://amap.cirad.fr/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="amap" src="../assets/files/amap_100.png"></figure>
+                </a>
+                <a class='logo' href="http://publish.plantnet-project.org/project/nou" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="herbarium" src="../assets/files/herbarium_100.png"></figure>
+                </a>
+                <a class='logo' href="https://iac.nc/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="iac" src="../assets/files/iac_100.png"></figure>
+                </a>
+                <a class='logo' href="https://nouvelle-caledonie.ird.fr/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="ird" src="../assets/files/ird_100.png"></figure>
+                </a>
+                <a class='logo' href="https://cirad.fr/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="cirad" src="../assets/files/cirad_100.png"></figure>
+                </a>
+                <a class='logo' href="https://www.ofb.gouv.fr/" target="_blank">
+                    <figure class="mx-2"><img class="img-fluid" id="ofb" src="../assets/files/ofb_100.png"></figure>
+                </a>
+            </div>
+        </div>
+        <div class="text-center">
+            <p>Niamoto - Portail de la forêt de Nouvelle-Calédonie</p>
+            <a class="inline-block py-2 px-4 text-white no-underline" href="https://github.com/niamoto/niamoto" target="_blank">
+                <span class="fab fa-github fa-lg" aria-hidden="true"></span> Github
+            </a>
+        </div>
+    </div>
+</footer>
+    
+        
+            <script src="../assets/js/vendor/topojson/3.1.0_topojson.js"></script>
+        
+    
+        
+            <script src="../assets/js/vendor/plotly/3.0.1_plotly.min.js"></script>
+        
+    
+        
+            <script src="../assets/js/niamoto_hierarchical_nav.js"></script>
+        
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        const buttonContainer = document.getElementById('buttonContainer');
+
+            // Only proceed if the button container exists
+            if (buttonContainer) {
+                const buttonContainerOffset = buttonContainer.offsetTop;
+                const navHeight = 60; // Adjust this value to match your navigation height
+
+                window.onscroll = () => {
+                    if (window.pageYOffset > buttonContainerOffset - navHeight) {
+                        buttonContainer.classList.add('fixed');
+                    } else {
+                        buttonContainer.classList.remove('fixed');
+                    }
+                };
+
+                // Initial check in case the page is loaded scrolled
+                window.onscroll();
+            }
+        });
+    </script>
+    
+<script>
+    // Variables globales pour la navigation dans la modal
+    let currentImageArray = [];
+    let currentImageIndex = 0;
+
+    // Définir les fonctions dans l'objet window pour qu'elles soient accessibles globalement
+    window.openImageLightbox = function(images, startIndex = 0) {
+            currentImageArray = images;
+            currentImageIndex = startIndex;
+
+            showCurrentImage();
+
+            const modal = document.getElementById('imageModal');
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; // Empêcher le scroll de la page
+
+            updateNavigationButtons();
+        };
+
+        // Fonction pour afficher l'image actuelle
+        window.showCurrentImage = function() {
+            const modalImage = document.getElementById('modalImage');
+            const imageLoader = document.getElementById('imageLoader');
+            const currentIndexSpan = document.getElementById('currentImageIndex');
+            const totalImagesSpan = document.getElementById('totalImages');
+
+            // Vérifier que tous les éléments existent
+            if (!modalImage || !imageLoader || !currentIndexSpan || !totalImagesSpan) {
+                console.error('Elements manquants pour la modal:', {
+                    modalImage: !!modalImage,
+                    imageLoader: !!imageLoader,
+                    currentIndexSpan: !!currentIndexSpan,
+                    totalImagesSpan: !!totalImagesSpan
+                });
+                return;
+            }
+
+            // Afficher le loader et cacher l'image
+            imageLoader.classList.remove('hidden');
+            modalImage.classList.add('hidden');
+
+            // Mettre à jour les compteurs
+            currentIndexSpan.textContent = currentImageIndex + 1;
+            totalImagesSpan.textContent = currentImageArray.length;
+
+            // Charger la nouvelle image
+            const newImage = new Image();
+            newImage.onload = function() {
+                // Une fois l'image chargée, l'afficher et cacher le loader
+                modalImage.src = newImage.src;
+                imageLoader.classList.add('hidden');
+                modalImage.classList.remove('hidden');
+            };
+            newImage.onerror = function() {
+                // En cas d'erreur, afficher un message et cacher le loader
+                imageLoader.innerHTML = '<div class="text-white text-center"><p>Erreur de chargement</p><p class="text-sm opacity-75">Image non disponible</p></div>';
+                setTimeout(() => {
+                    imageLoader.innerHTML = '<div class="animate-spin rounded-full h-16 w-16 border-b-2 border-white"></div>';
+                    imageLoader.classList.add('hidden');
+                }, 2000);
+            };
+            newImage.src = currentImageArray[currentImageIndex];
+
+            // Afficher/masquer le compteur et les flèches selon le nombre d'images
+            const imageCounter = document.getElementById('imageCounter');
+            const prevBtn = document.getElementById('prevImageBtn');
+            const nextBtn = document.getElementById('nextImageBtn');
+
+            // Vérifier que les éléments de navigation existent
+            if (!imageCounter || !prevBtn || !nextBtn) {
+                console.error('Elements de navigation manquants:', {
+                    imageCounter: !!imageCounter,
+                    prevBtn: !!prevBtn,
+                    nextBtn: !!nextBtn
+                });
+                return;
+            }
+
+            if (currentImageArray.length > 1) {
+                imageCounter.classList.remove('hidden');
+                prevBtn.classList.remove('hidden');
+                nextBtn.classList.remove('hidden');
+            } else {
+                imageCounter.classList.add('hidden');
+                prevBtn.classList.add('hidden');
+                nextBtn.classList.add('hidden');
+            }
+        };
+
+        // Fonction pour mettre à jour les boutons de navigation
+        window.updateNavigationButtons = function() {
+            const prevBtn = document.getElementById('prevImageBtn');
+            const nextBtn = document.getElementById('nextImageBtn');
+
+            // Désactiver/activer les boutons selon la position
+            if (currentImageIndex === 0) {
+                prevBtn.style.opacity = '0.5';
+                prevBtn.style.cursor = 'not-allowed';
+            } else {
+                prevBtn.style.opacity = '1';
+                prevBtn.style.cursor = 'pointer';
+            }
+
+            if (currentImageIndex === currentImageArray.length - 1) {
+                nextBtn.style.opacity = '0.5';
+                nextBtn.style.cursor = 'not-allowed';
+            } else {
+                nextBtn.style.opacity = '1';
+                nextBtn.style.cursor = 'pointer';
+            }
+        };
+
+        // Fonction pour aller à l'image précédente
+        window.previousImage = function() {
+            if (currentImageIndex > 0) {
+                currentImageIndex--;
+                showCurrentImage();
+                updateNavigationButtons();
+            }
+        };
+
+        // Fonction pour aller à l'image suivante
+        window.nextImage = function() {
+            if (currentImageIndex < currentImageArray.length - 1) {
+                currentImageIndex++;
+                showCurrentImage();
+                updateNavigationButtons();
+            }
+        };
+
+        // Fonction pour fermer la modal
+        window.closeImageModal = function() {
+            const modal = document.getElementById('imageModal');
+            modal.classList.add('hidden');
+            document.body.style.overflow = ''; // Restaurer le scroll
+        };
+
+        // Fonction pour expandre la galerie d'images
+        window.expandImageGallery = function(galleryId, button) {
+            const gallery = document.getElementById(galleryId);
+            if (!gallery) {
+                console.error('Galerie non trouvée:', galleryId);
+                return;
+            }
+
+            const hiddenImages = gallery.querySelectorAll('.gallery-hidden');
+            const expandBtn = gallery.querySelector('.expand-btn');
+            const collapseBtn = gallery.querySelector('.collapse-btn');
+
+            if (!expandBtn || !collapseBtn) {
+                console.error('Boutons expand/collapse manquants dans la galerie:', galleryId);
+                return;
+            }
+
+            // Afficher toutes les images cachées
+            hiddenImages.forEach(img => img.classList.remove('hidden'));
+
+            // Masquer le bouton + et afficher le bouton −
+            expandBtn.classList.add('hidden');
+            collapseBtn.classList.remove('hidden');
+        };
+
+        // Fonction pour réduire la galerie d'images
+        window.collapseImageGallery = function(galleryId, button) {
+            const gallery = document.getElementById(galleryId);
+            if (!gallery) {
+                console.error('Galerie non trouvée:', galleryId);
+                return;
+            }
+
+            const hiddenImages = gallery.querySelectorAll('.gallery-hidden');
+            const expandBtn = gallery.querySelector('.expand-btn');
+            const collapseBtn = gallery.querySelector('.collapse-btn');
+
+            if (!expandBtn || !collapseBtn) {
+                console.error('Boutons expand/collapse manquants dans la galerie:', galleryId);
+                return;
+            }
+
+            // Masquer les images supplémentaires
+            hiddenImages.forEach(img => img.classList.add('hidden'));
+
+            // Afficher le bouton + et masquer le bouton −
+            expandBtn.classList.remove('hidden');
+            collapseBtn.classList.add('hidden');
+        };
+
+        // Fermer la modal en cliquant en dehors de l'image
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('imageModal');
+            if (modal) {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        closeImageModal();
+                    }
+                });
+            }
+        });
+
+        // Navigation au clavier
+        document.addEventListener('keydown', function(e) {
+            const modal = document.getElementById('imageModal');
+            if (modal && !modal.classList.contains('hidden')) {
+                switch(e.key) {
+                    case 'Escape':
+                        closeImageModal();
+                        break;
+                    case 'ArrowLeft':
+                        e.preventDefault();
+                        previousImage();
+                        break;
+                    case 'ArrowRight':
+                        e.preventDefault();
+                        nextImage();
+                        break;
+                }
+            }
+        });
+</script>
+
+</body>
+</html>
